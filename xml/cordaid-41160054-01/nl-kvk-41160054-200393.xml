@@ -99,28 +99,31 @@ C&#x2019;est dans ce cadre que Cordaid-RCA propose &#xE0; MISEREOR pour la phase
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Peace Corporate Indicators</narrative>
+    <narrative xml:lang="EN">Peace Corporate Indictors</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of beneficiaries reached (SJ)</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (PE)</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Number of people who benefitted directly/indirectly through activities implemented or services established/enabled/improved by a Cordaid peace, security and justice project/programme</narrative>
+    </description>
     <reference code="PE0.01" vocabulary="99"></reference>
-    <baseline iso-date="2020-12-31" value="11500" year="2020">
-     <location ref="CF"></location>
-     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-    </baseline>
     <baseline iso-date="2020-12-31" value="473313" year="2020">
      <location ref="CF"></location>
-     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
     </baseline>
-    <baseline iso-date="2020-12-31" value="315128" year="2020">
+    <baseline iso-date="2020-12-31" value="11500" year="2020">
      <location ref="CF"></location>
-     <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+     <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
     </baseline>
     <baseline iso-date="2020-12-31" value="169685" year="2020">
      <location ref="CF"></location>
-     <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+     <dimension name="Age (-35/35+)" value="Age 35 &gt;"></dimension>
+    </baseline>
+    <baseline iso-date="2020-12-31" value="315128" year="2020">
+     <location ref="CF"></location>
+     <dimension name="Age (-35/35+)" value="Age &lt; 35"></dimension>
     </baseline>
     <baseline iso-date="2020-12-31" value="40" year="2020">
      <location ref="CF"></location>
@@ -165,21 +168,21 @@ C&#x2019;est dans ce cadre que Cordaid-RCA propose &#xE0; MISEREOR pour la phase
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <actual value="11500">
-      <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
      <actual value="473313">
       <location ref="CF"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
      </actual>
-     <actual value="315128">
+     <actual value="11500">
       <location ref="CF"></location>
-      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+      <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
      </actual>
      <actual value="169685">
       <location ref="CF"></location>
-      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+      <dimension name="Age (-35/35+)" value="Age 35 &gt;"></dimension>
+     </actual>
+     <actual value="315128">
+      <location ref="CF"></location>
+      <dimension name="Age (-35/35+)" value="Age &lt; 35"></dimension>
      </actual>
      <actual value="40">
       <location ref="CF"></location>
@@ -217,11 +220,16 @@ C&#x2019;est dans ce cadre que Cordaid-RCA propose &#xE0; MISEREOR pour la phase
      <target value="463600"></target>
     </period>
    </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Peace Thematic Indicators</narrative>
+   </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of communities reached (SJ)</narrative>
     </title>
-    <reference code="PE0.02" vocabulary="99"></reference>
+    <reference code="PE1.01" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>

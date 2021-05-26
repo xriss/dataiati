@@ -65,28 +65,31 @@
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Peace Corporate Indicators</narrative>
+    <narrative xml:lang="EN">Peace Corporate Indictors</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of beneficiaries reached (SJ)</narrative>
+     <narrative xml:lang="EN">Number of beneficiaries reached (PE)</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Number of people who benefitted directly/indirectly through activities implemented or services established/enabled/improved by a Cordaid peace, security and justice project/programme</narrative>
+    </description>
     <reference code="PE0.01" vocabulary="99"></reference>
-    <baseline iso-date="2019-12-31" value="3314" year="2019">
-     <location ref="IQ"></location>
-     <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-    </baseline>
     <baseline iso-date="2019-12-31" value="2831" year="2019">
      <location ref="IQ"></location>
-     <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+     <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
     </baseline>
-    <baseline iso-date="2019-12-31" value="196" year="2019">
+    <baseline iso-date="2019-12-31" value="3314" year="2019">
      <location ref="IQ"></location>
-     <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+     <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
     </baseline>
     <baseline iso-date="2019-12-31" value="100" year="2019">
      <location ref="IQ"></location>
-     <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+     <dimension name="Age (-35/35+)" value="Age 35 &gt;"></dimension>
+    </baseline>
+    <baseline iso-date="2019-12-31" value="196" year="2019">
+     <location ref="IQ"></location>
+     <dimension name="Age (-35/35+)" value="Age &lt; 35"></dimension>
     </baseline>
     <baseline iso-date="2019-12-31" value="5611" year="2019">
      <location ref="IQ"></location>
@@ -111,21 +114,21 @@
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
-     <actual value="3314">
-      <location ref="IQ"></location>
-      <dimension name="Age (-18/18+)" value="Age -18"></dimension>
-     </actual>
      <actual value="2831">
       <location ref="IQ"></location>
-      <dimension name="Age (-18/18+)" value="Age 18 or above"></dimension>
+      <dimension name="Age (-18/18+)" value="Age 18 &gt;"></dimension>
      </actual>
-     <actual value="196">
+     <actual value="3314">
       <location ref="IQ"></location>
-      <dimension name="Age (-35/35+)" value="Age -35"></dimension>
+      <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
      </actual>
      <actual value="100">
       <location ref="IQ"></location>
-      <dimension name="Age (-35/35+)" value="Age 35 or above"></dimension>
+      <dimension name="Age (-35/35+)" value="Age 35 &gt;"></dimension>
+     </actual>
+     <actual value="196">
+      <location ref="IQ"></location>
+      <dimension name="Age (-35/35+)" value="Age &lt; 35"></dimension>
      </actual>
      <actual value="5611">
       <location ref="IQ"></location>
@@ -154,24 +157,6 @@
      <target value="6441"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of communities reached (SJ)</narrative>
-    </title>
-    <reference code="PE0.02" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="6">
-      <location ref="IQ"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-02-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="6"></target>
-    </period>
-   </indicator>
   </result>
   <result aggregation-status="1" type="2">
    <title>
@@ -184,7 +169,7 @@
     <description>
      <narrative xml:lang="EN">Increased lobby and advocacy capacity of CSOs. The capacity is evaluated yearly.</narrative>
     </description>
-    <reference code="PE1.19" vocabulary="99"></reference>
+    <reference code="PE1.24" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -200,7 +185,7 @@
     <description>
      <narrative xml:lang="EN">Number of CSOs directly partnering in the programme interventions.</narrative>
     </description>
-    <reference code="PE1.54" vocabulary="99"></reference>
+    <reference code="PE1.59" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -216,7 +201,7 @@
     <description>
      <narrative xml:lang="EN">Number of times lobby and advocacy targets (decision-makers and power holders) include CSOs in the decision making process or react upon the issues brought forward by the program partners.</narrative>
     </description>
-    <reference code="PE1.46" vocabulary="99"></reference>
+    <reference code="PE1.51" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -229,7 +214,7 @@
     <title>
      <narrative xml:lang="EN">Number of networks with increased capacities to coordinate joint actions</narrative>
     </title>
-    <reference code="PE1.20" vocabulary="99"></reference>
+    <reference code="PE1.25" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -240,9 +225,27 @@
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of communities reached (SJ)</narrative>
+    </title>
+    <reference code="PE1.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="6">
+      <location ref="IQ"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-02-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="6"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of community action plans developed to address causes of conflict and supporting social cohesion</narrative>
     </title>
-    <reference code="PE1.51" vocabulary="99"></reference>
+    <reference code="PE1.56" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>

@@ -45,7 +45,7 @@ Six principaux rapports d&#x2019;&#xE9;tape doivent &#xEA;tre fournis au client 
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2018-05-13" type="1"></activity-date>
-  <activity-date iso-date="2021-02-28" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">Cordaid Global Office</narrative>
@@ -141,9 +141,14 @@ Six principaux rapports d&#x2019;&#xE9;tape doivent &#xEA;tre fournis au client 
    <period-end iso-date="2021-02-28"></period-end>
    <value currency="USD" value-date="2018-01-01">18124917</value>
   </budget>
+  <budget status="2" type="1">
+   <period-start iso-date="2021-03-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="EUR" value-date="2021-03-01">1842815</value>
+  </budget>
   <related-activity ref="NL-KVK-41160054-200499" type="3"></related-activity>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="1">
+  <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Education Corporate Indicators</narrative>
    </title>
@@ -151,6 +156,9 @@ Six principaux rapports d&#x2019;&#xE9;tape doivent &#xEA;tre fournis au client 
     <title>
      <narrative xml:lang="EN">Number of beneficiaries reached (ED)</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Number of people who benefitted directly or indirectly from (PBF) education project activities (e.g., training, radio programs, community involvement, parents associations) or services established/enabled/improved by a Cordaid Education project/programme.</narrative>
+    </description>
     <reference code="ED0.01" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
@@ -180,22 +188,17 @@ Six principaux rapports d&#x2019;&#xE9;tape doivent &#xEA;tre fournis au client 
      <period-end iso-date="2020-12-31"></period-end>
      <actual value="308810">
       <location ref="CD"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
       <dimension name="Gender - genre" value="Female - feminin"></dimension>
      </actual>
      <actual value="297066">
       <location ref="CD"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
       <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
-     <actual value="2816">
+     <actual value="2829">
       <location ref="CD"></location>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="11851">
-      <location ref="CD"></location>
-      <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
@@ -206,15 +209,255 @@ Six principaux rapports d&#x2019;&#xE9;tape doivent &#xEA;tre fournis au client 
     </period>
     <period>
      <period-start iso-date="2018-05-13"></period-start>
-     <period-end iso-date="2021-02-28"></period-end>
+     <period-end iso-date="2021-06-30"></period-end>
      <target value="600000"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of schools with an improved the quality score of education through PBF</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of schools are involved in the (PBF) education activities with an increased quality score (based on the PBF indicators). 
+Calculation: Score of last trimester is higher than first trimester of school year</narrative>
+    </description>
+    <reference code="ED0.05" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <actual value="144">
+      <location ref="220375"></location>
+     </actual>
+     <actual value="147">
+      <location ref="220380"></location>
+     </actual>
+     <actual value="134">
+      <location ref="220381"></location>
+     </actual>
+     <actual value="150">
+      <location ref="220387"></location>
+     </actual>
+     <actual value="144">
+      <location ref="220391"></location>
+     </actual>
+     <actual value="145">
+      <location ref="220393"></location>
+     </actual>
+     <actual value="134">
+      <location ref="220396"></location>
+     </actual>
+     <actual value="57">
+      <location ref="220397"></location>
+     </actual>
+     <actual value="148">
+      <location ref="220399"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="50">
+      <location ref="220375"></location>
+     </actual>
+     <actual value="85">
+      <location ref="220380"></location>
+     </actual>
+     <actual value="77">
+      <location ref="220381"></location>
+     </actual>
+     <actual value="75">
+      <location ref="220387"></location>
+     </actual>
+     <actual value="65">
+      <location ref="220391"></location>
+     </actual>
+     <actual value="52">
+      <location ref="220393"></location>
+     </actual>
+     <actual value="68">
+      <location ref="220396"></location>
+     </actual>
+     <actual value="66">
+      <location ref="220397"></location>
+     </actual>
+     <actual value="54">
+      <location ref="220399"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-05-13"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="1350"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Education Thematic Indictors</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of primary teachers with improved teaching skills</narrative>
+    </title>
+    <reference code="ED1.02" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="220375"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220380"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220381"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220387"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220391"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220393"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220396"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220397"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220399"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220375"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220380"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220381"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220387"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220391"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220393"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220396"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220397"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220399"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="1224">
+      <location ref="220375"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="1072">
+      <location ref="220380"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="1434">
+      <location ref="220381"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="1265">
+      <location ref="220387"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="1708">
+      <location ref="220391"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="1209">
+      <location ref="220393"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="1564">
+      <location ref="220396"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="1109">
+      <location ref="220397"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="1266">
+      <location ref="220399"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <actual value="0">
+      <location ref="220375"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220380"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220381"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220387"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220391"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220393"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220396"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220397"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="220399"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of primary school students benefiting from quality education/ the PBF approach</narrative>
     </title>
-    <reference code="ED0.02" vocabulary="99"></reference>
+    <reference code="ED0.03" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -414,244 +657,8 @@ Six principaux rapports d&#x2019;&#xE9;tape doivent &#xEA;tre fournis au client 
     </period>
     <period>
      <period-start iso-date="2018-05-13"></period-start>
-     <period-end iso-date="2021-02-28"></period-end>
+     <period-end iso-date="2021-06-30"></period-end>
      <target value="1000000"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of schools with an improved the quality score of education through PBF - Number of d&apos;&#xE9;coles ayant am&#xE9;lior&#xE9; le score de qualit&#xE9; de l&apos;&#xE9;ducation gr&#xE2;ce au PBF</narrative>
-    </title>
-    <reference code="ED0.05" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="144">
-      <location ref="220375"></location>
-     </actual>
-     <actual value="147">
-      <location ref="220380"></location>
-     </actual>
-     <actual value="134">
-      <location ref="220381"></location>
-     </actual>
-     <actual value="150">
-      <location ref="220387"></location>
-     </actual>
-     <actual value="144">
-      <location ref="220391"></location>
-     </actual>
-     <actual value="145">
-      <location ref="220393"></location>
-     </actual>
-     <actual value="134">
-      <location ref="220396"></location>
-     </actual>
-     <actual value="57">
-      <location ref="220397"></location>
-     </actual>
-     <actual value="148">
-      <location ref="220399"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="50">
-      <location ref="220375"></location>
-     </actual>
-     <actual value="85">
-      <location ref="220380"></location>
-     </actual>
-     <actual value="77">
-      <location ref="220381"></location>
-     </actual>
-     <actual value="75">
-      <location ref="220387"></location>
-     </actual>
-     <actual value="65">
-      <location ref="220391"></location>
-     </actual>
-     <actual value="52">
-      <location ref="220393"></location>
-     </actual>
-     <actual value="68">
-      <location ref="220396"></location>
-     </actual>
-     <actual value="66">
-      <location ref="220397"></location>
-     </actual>
-     <actual value="54">
-      <location ref="220399"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-05-13"></period-start>
-     <period-end iso-date="2021-02-28"></period-end>
-     <target value="1350"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Education Thematic Indictors</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of primary teachers with improved teaching skills</narrative>
-    </title>
-    <reference code="ED1.02" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="0">
-      <location ref="220375"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220380"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220381"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220387"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220391"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220393"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220396"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220397"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220399"></location>
-      <dimension name="Gender - genre" value="Female - feminin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220375"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220380"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220381"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220387"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220391"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220393"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220396"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220397"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220399"></location>
-      <dimension name="Gender - genre" value="Male - masculin"></dimension>
-     </actual>
-     <actual value="1224">
-      <location ref="220375"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="1072">
-      <location ref="220380"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="1434">
-      <location ref="220381"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="1265">
-      <location ref="220387"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="1708">
-      <location ref="220391"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="1209">
-      <location ref="220393"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="1564">
-      <location ref="220396"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="1109">
-      <location ref="220397"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="1266">
-      <location ref="220399"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <actual value="0">
-      <location ref="220375"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220380"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220381"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220387"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220391"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220393"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220396"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220397"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-     <actual value="0">
-      <location ref="220399"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
