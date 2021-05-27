@@ -5,6 +5,10 @@ cd "$dirname"
 # .gitignore node_modules and dataflat
 # to help keep thongs clean
 
+# make sure we are uptodate with git
+
+git pull
+
 # use the d-portal from npm to clear and initalise dataflat
 
 rm -rf node_modules
