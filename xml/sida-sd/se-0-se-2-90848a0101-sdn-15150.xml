@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>SE-0-SE-2-90848A0101-SDN-15150</iati-identifier>
   <reporting-org ref="SE-0" secondary-reporter="0" type="10">
    <narrative xml:lang="EN">Sweden</narrative>
@@ -25,7 +25,7 @@
   <participating-org ref="SE-0" role="1" type="10">
    <narrative xml:lang="EN">Sweden</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2020-10-01" type="2"></activity-date>
   <activity-date iso-date="2021-09-30" type="3"></activity-date>
   <contact-info>
@@ -120,17 +120,27 @@
    <period-end iso-date="2020-12-28"></period-end>
    <value currency="USD" value-date="2020-01-01">217162.339707048</value>
   </planned-disbursement>
+  <planned-disbursement>
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-28"></period-end>
+   <value currency="USD" value-date="2021-01-01">-116818.7888856315</value>
+  </planned-disbursement>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">217162.339707</value>
+   <transaction-date iso-date="2020-10-01"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">217162.339707</value>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-28"></transaction-date>
    <value currency="USD" value-date="2020-12-28">217162.339707048</value>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://documents.upload.openaid.se/led/90848_RegeringskanslibeslutUD2020_14081,Bidrag-RK,ProjektbidragtillInternational.pdf">
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-28"></transaction-date>
+   <value currency="USD" value-date="2021-05-28">-116818.7964863134</value>
+  </transaction>
+  <document-link format="APPLICATION/PDF" url="https://documents.iati.openaid.se/document/led/90848_RegeringskanslibeslutUD2020_14081,Bidrag-RK,ProjektbidragtillInternational.pdf">
    <title>
     <narrative xml:lang="SV">Projektbidrag IDEA UD2020_14081</narrative>
    </title>
@@ -139,6 +149,6 @@
   <crs-add>
    <other-flags code="2" significance="1"></other-flags>
   </crs-add>
-  <contribution contributionid="90848" xmlns="http://sida.se/ns/contribution#"></contribution>
+  <sida:contribution contributionid="90848" xmlns:sida="http://sida.se/ns/contribution#"></sida:contribution>
  </iati-activity>
 </iati-activities>
