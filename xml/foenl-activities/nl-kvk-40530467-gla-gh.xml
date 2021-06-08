@@ -66,6 +66,11 @@
    <period-end iso-date="2019-12-31"></period-end>
    <value currency="EUR" value-date="2019-12-31">99139</value>
   </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="EUR" value-date="2020-01-01">58731</value>
+  </budget>
   <transaction ref="GH_2016_Incoming">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2016-01-01"></transaction-date>
@@ -94,6 +99,14 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-01-01"></transaction-date>
    <value currency="EUR" value-date="2019-01-01">99139</value>
+   <provider-org provider-activity-id="NL-KVK-40530467-GLA" ref="NL-KVK-40530467" type="22">
+    <narrative xml:lang="EN">Milieudefensie</narrative>
+   </provider-org>
+  </transaction>
+  <transaction ref="GH_2020_Incoming">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="EUR" value-date="2020-01-01">58731</value>
    <provider-org provider-activity-id="NL-KVK-40530467-GLA" ref="NL-KVK-40530467" type="22">
     <narrative xml:lang="EN">Milieudefensie</narrative>
    </provider-org>
@@ -202,10 +215,26 @@
     <narrative xml:lang="EN">Friends of the Earth Ghana</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="GH_FoEG_2020_Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="EUR" value-date="2020-01-01">10580</value>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Friends of the Earth Ghana</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="GH_FoEG_2018_Disbursement 3">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-01-24"></transaction-date>
    <value currency="EUR" value-date="2020-01-24">5000</value>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Friends of the Earth Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GH_FoEG_2020_Total disbursements">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">35580</value>
    <receiver-org type="22">
     <narrative xml:lang="EN">Friends of the Earth Ghana</narrative>
    </receiver-org>
@@ -274,6 +303,22 @@
     <narrative xml:lang="EN">Friends of the Earth International</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="GH_FOEI_2020_Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="EUR" value-date="2020-01-01">36269</value>
+   <receiver-org type="21">
+    <narrative xml:lang="EN">Friends of the Earth International</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GH_FoEI_2020_Total disbursements">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">36269</value>
+   <receiver-org type="21">
+    <narrative xml:lang="EN">Friends of the Earth International</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="GH_MD_2016_Expenditures">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2016-01-01"></transaction-date>
@@ -293,6 +338,11 @@
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-01-01"></transaction-date>
    <value currency="EUR" value-date="2019-01-01">3073</value>
+  </transaction>
+  <transaction ref="GH_MD_2020_Expenditures">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">11881</value>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://aidstream.org/files/documents/IATI-Sum-Annual-Plan-Ghana-2016-2017-20171130091122.pdf">
    <title>
@@ -344,6 +394,12 @@
      <target value="1"></target>
      <actual value="1"></actual>
     </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1"></target>
+     <actual value="1"></actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
@@ -381,6 +437,12 @@
      <target value="1"></target>
      <actual value="1"></actual>
     </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1"></target>
+     <actual value="1"></actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="2">
@@ -401,6 +463,20 @@
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="1">
+      <comment>
+       <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
+      </comment>
+     </target>
+     <actual value="3">
+      <comment>
+       <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome:  Following the discussions on Tree Tenure reformsin June 2019 among CSOs and the subsequent meeting of stakeholders from local communities - the Ministry of Lands and Natural Resources (MLNR) pledged to start the process of amending the Concessions Act 1962.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <target value="1">
@@ -411,6 +487,20 @@
      <actual value="4">
       <comment>
        <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome:  In August 2018 there was a meeting between the Ministry of Lands and Natural Resource and the Forestry Commission with CSO representative where a number of proposals submitted by the MLNR were discussed. The Forestry Commission of Ghana proposed that farmers will benefit from a new payment scheme &#x2013; the Farmers Tree Tending Toll which serves as an incentive for farmers to maintain trees in their farms and thereby sustain forested landscapes.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1">
+      <comment>
+       <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
+      </comment>
+     </target>
+     <actual value="2">
+      <comment>
+       <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome: CSOs have validated and submitted to the Ministry of Lands and Natural Resources the proposed amendment to the Concessions Act (124) of 1962</narrative>
       </comment>
      </actual>
     </period>
@@ -427,16 +517,6 @@
        <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome: Since early 2017 a national radio station has taken a more activist approach by initiating new awareness raising including daily discussion programmes dedicated to forest and environmental destruction and by supporting campaign a.o.  against illegal mining.</narrative>
       </comment>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="1">
-      <comment>
-       <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
-      </comment>
-     </target>
-     <actual value="3"></actual>
     </period>
    </indicator>
   </result>
@@ -457,6 +537,20 @@
       <narrative xml:lang="EN">All baselines of Dialogue and Dissent indicators are set at 0.</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="1">
+      <comment>
+       <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
+      </comment>
+     </target>
+     <actual value="1">
+      <comment>
+       <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome:  The cabinet of the Government of Ghana has referred the Wildlife Resources Management Bill to a sub-committee in Cabinet in Accra for a review of the penalties associated with offences.</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -482,14 +576,14 @@
      <actual value="0"></actual>
     </period>
     <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <target value="1">
       <comment>
        <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
       </comment>
      </target>
-     <actual value="1"></actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
   </result>
@@ -533,6 +627,16 @@
       </comment>
      </target>
      <actual value="0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1">
+      <comment>
+       <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
+      </comment>
+     </target>
+     <actual value="2"></actual>
     </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>

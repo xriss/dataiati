@@ -69,6 +69,11 @@
    <period-end iso-date="2019-12-31"></period-end>
    <value currency="EUR" value-date="2019-01-01">222713</value>
   </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="EUR" value-date="2020-01-01">65831</value>
+  </budget>
   <transaction ref="ID_2016_Incoming">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2016-01-01"></transaction-date>
@@ -97,6 +102,14 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-01-01"></transaction-date>
    <value currency="EUR" value-date="2019-01-01">222713</value>
+   <provider-org provider-activity-id="NL-KVK-40530467-GLA" ref="NL-KVK-40530467" type="21">
+    <narrative xml:lang="EN">Milieudefensie</narrative>
+   </provider-org>
+  </transaction>
+  <transaction ref="ID_2020_Incoming">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="EUR" value-date="2020-01-01">65831</value>
    <provider-org provider-activity-id="NL-KVK-40530467-GLA" ref="NL-KVK-40530467" type="21">
     <narrative xml:lang="EN">Milieudefensie</narrative>
    </provider-org>
@@ -157,6 +170,22 @@
     <narrative xml:lang="EN">Friends of the Earth International</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="ID_FOEI_2020_Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="EUR" value-date="2020-01-01">26185</value>
+   <receiver-org type="21">
+    <narrative xml:lang="EN">Friends of the Earth International</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ID_FOEI_2020_Disbursement">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">26185</value>
+   <receiver-org type="21">
+    <narrative xml:lang="EN">Friends of the Earth International</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="ID_FOEI_2016_Commitment">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-01-01"></transaction-date>
@@ -213,10 +242,10 @@
     <narrative xml:lang="EN">Wahana Lingkungan Hidup Indonesia (WALHI)</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="ID_Walhi_2017_Disbursement 2,3,4">
+  <transaction ref="ID_Walhi_2017_Disbursements 2">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-01-01"></transaction-date>
-   <value currency="EUR" value-date="2018-01-01">87552</value>
+   <value currency="EUR" value-date="2018-01-01">97552</value>
    <receiver-org type="22">
     <narrative xml:lang="EN">Wahana Lingkungan Hidup Indonesia (WALHI)</narrative>
    </receiver-org>
@@ -253,6 +282,14 @@
     <narrative xml:lang="EN">Wahana Lingkungan Hidup Indonesia (WALHI)</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="ID_Walhi_2020_Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="EUR" value-date="2020-01-01">17854</value>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Wahana Lingkungan Hidup Indonesia (WALHI)</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="ID_Walhi_2019_Disbursement 1">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-01-21"></transaction-date>
@@ -265,6 +302,14 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-03-06"></transaction-date>
    <value currency="EUR" value-date="2020-03-06">16316</value>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Wahana Lingkungan Hidup Indonesia (WALHI)</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ID_Walhi_2020_Total disbursements">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">114656</value>
    <receiver-org type="22">
     <narrative xml:lang="EN">Wahana Lingkungan Hidup Indonesia (WALHI)</narrative>
    </receiver-org>
@@ -288,6 +333,11 @@
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-01-01"></transaction-date>
    <value currency="EUR" value-date="2019-01-01">6277</value>
+  </transaction>
+  <transaction ref="ID_MD_2020_Expenses">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">21792</value>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://aidstream.org/files/documents/IATI-Sum-Annual-Plan-Indonesia-2016-2017-20171130091137.pdf">
    <title>
@@ -339,6 +389,12 @@
      <target value="1"></target>
      <actual value="1"></actual>
     </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1"></target>
+     <actual value="1"></actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
@@ -373,6 +429,12 @@
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
+     <target value="1"></target>
+     <actual value="1"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <target value="1"></target>
      <actual value="1"></actual>
     </period>
@@ -431,7 +493,21 @@
        <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
       </comment>
      </target>
-     <actual value="5"></actual>
+     <actual value="5">
+      <comment>
+       <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome: a village Government together with farmers within the scope of an industrial plantation - urged the government to supervise the plantations and voiced their demands to the company.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1">
+      <comment>
+       <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
+      </comment>
+     </target>
+     <actual value="2"></actual>
     </period>
    </indicator>
   </result>
@@ -467,6 +543,34 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="1">
+      <comment>
+       <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
+      </comment>
+     </target>
+     <actual value="11">
+      <comment>
+       <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome:  The West Kalimantan Provincial Government issued Governor Regulation no. 39 of 2019 concerning prevention and control of forest and land fires to minimize land burning in the province.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1">
+      <comment>
+       <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
+      </comment>
+     </target>
+     <actual value="10">
+      <comment>
+       <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome: Increased resistance of the people of Kualan Hilir Village against an Industrial Plantation Forest company on their lands.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <target value="1">
@@ -479,16 +583,6 @@
        <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome: On December 20 2017 the Head of a village in the project area decided not to release the remaining land and forest for the expansion of oil palm plantations</narrative>
       </comment>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="1">
-      <comment>
-       <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
-      </comment>
-     </target>
-     <actual value="11"></actual>
     </period>
    </indicator>
   </result>
@@ -534,6 +628,20 @@
      <actual value="4">
       <comment>
        <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome:  The Regional Development Agency (Bappeda) and the Environmental Agency (DLH) of South Solok District support the implementation of the Strategic Environmental Assessment (SEA) for regional development plans in August 2018.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1">
+      <comment>
+       <narrative xml:lang="EN">Target value not applicable no targets are set for the # of outcomes harvested per DD outcome. The programme does aim to achieve change in this result area. Therefore the target is set to a minimum of 1.</narrative>
+      </comment>
+     </target>
+     <actual value="21">
+      <comment>
+       <narrative xml:lang="EN">Notable or illustrative example of a harvested outcome: In 2020 nature-degrading gold mining activities without a permit (PETI) in South Solok decreased drastically - after the implementing partner documented and published instances of illegal mining upon which local authorities acted</narrative>
       </comment>
      </actual>
     </period>
