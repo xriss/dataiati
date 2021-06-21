@@ -26,9 +26,9 @@
   <participating-org activity-id="NL-KVK-41179943-L213583" ref="NL-KVK-41179943" role="1" type="60">
    <narrative xml:lang="EN">World Vision Netherlands</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-12-31" type="4"></activity-date>
   <contact-info>
    <email>programmes@worldvision.nl</email>
   </contact-info>
@@ -91,8 +91,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-05-28"></transaction-date>
-   <value currency="EUR" value-date="2020-05-28">1150597.01</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="EUR" value-date="2020-05-28">1139518</value>
    <description>
     <narrative xml:lang="EN">MoU between WVNL and WVI-DRC for WV Programme</narrative>
    </description>
@@ -131,43 +131,89 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-05-28"></transaction-date>
-   <value currency="EUR" value-date="2020-05-28">1242644.77</value>
-   <provider-org provider-activity-id="NL-KVK-41179943-L213583" ref="NL-KVK-41179943"></provider-org>
+   <transaction-date iso-date="2020-03-02"></transaction-date>
+   <value currency="EUR" value-date="2020-03-02">1230679</value>
+   <provider-org provider-activity-id="NL-KVK-41179943-L213583" ref="XAM-DAC-7"></provider-org>
    <receiver-org receiver-activity-id="NL-KVK-41179943-213583" ref="NL-KVK-41179943"></receiver-org>
   </transaction>
   <transaction humanitarian="1">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-03-02"></transaction-date>
    <value currency="EUR" value-date="2020-03-02">1243557</value>
+   <provider-org ref="XAM-DAC-7"></provider-org>
    <receiver-org receiver-activity-id="NL-KVK-41179943-213583" ref="NL-KVK-41179943"></receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="EUR" value-date="2020-09-30">60899</value>
+   <provider-org ref="XAM-DAC-7"></provider-org>
    <receiver-org receiver-activity-id="NL-KVK-41179943-213583" ref="NL-KVK-41179943"></receiver-org>
+  </transaction>
+  <transaction ref="COVID-19 top up">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-05-26"></transaction-date>
+   <value currency="EUR" value-date="2020-05-26">257200</value>
+   <provider-org ref="XAM-DAC-7"></provider-org>
+   <receiver-org ref="NL-KVK-41179943"></receiver-org>
   </transaction>
   <related-activity ref="NL-KVK-41179943-L213583" type="1"></related-activity>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">WSH-R6 Hygiene promotion (Awareness)</narrative>
+    <narrative xml:lang="EN">National and local actors</narrative>
    </title>
-   <reference code="WSH-R2" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
-   <indicator aggregation-status="1" ascending="1" measure="1">
+   <reference code="LOC-R1" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
+   <indicator aggregation-status="1" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">Number of people reached with hygiene promotion/awareness raising activities</narrative>
+     <narrative xml:lang="EN">% of budget that went to national and local actors</narrative>
     </title>
-    <reference code="WSH-I6" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
+    <description>
+     <narrative xml:lang="EN">This is funding allocation to a local partner in Bunyakiri for WASH activities and to FEPSI local partner in Alimbongo for Protection activities.</narrative>
+    </description>
+    <reference code="LOC-I1" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
     <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="7920">
+     <target value="10,41"></target>
+     <actual value="22"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Gender based violence (Prevention, response, other)</narrative>
+   </title>
+   <reference code="PRO-R12" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of persons reached by the implementation of specific GBV prevention measures</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Conduct community planning workshops and develop the GBV community prevention plan</narrative>
+    </description>
+    <reference code="PRO-I12" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="4000">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="10565">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="8000">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="11">
+     <actual value="3614">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
@@ -175,15 +221,190 @@
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="7656">
+     <target value="20">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="10287">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="8000">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="6">
+     <actual value="3336">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Prevention and response to COVID-19 pandemic related to Health</narrative>
+   </title>
+   <reference code="HEA-COV-R9" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people receiving&#xA0;COVID-19 related assistance (Health).</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Healthcare workers in health centres and hospitals and community health workers who benefit from the Covid-19 pandemic protection kits. The project will provide support in the form of  protection kits to health facilities among others in HC : Thermoflash pieces, 70 Glove paquet de 100 pi&#xE8;ces, 40 Face Mask (Chirurgical or medical Mask) boite de 40 pi&#xE8;ces, 70 Mask of Protection KN95 (40 pcs), 70 Hydroacolic disifectant pi-ce de 500 ml. In Hospitals : 2 pieces of Thermoflash, 100 Glove pack of 100 pieces, 50 Face Mask (Surgical or medical Mask) box of 40 pieces, 100 Mask of Protection KN95 (40 pcs), 100 Hydroacolic disinfectant pi-ce of 500 ml
+5 Boots, 5 Medical Jackets, 5 Medical Shoe, 5 White Apron, 5 Protective glasses piece, 5 Face Shield, 5 Respiratory protection. A total of 474 health care workers in CS and Hospitals will benefit from assistance in PPE kits, where 124 women and 190 men on the one hand, and on the other hand 160 CHWs were 80 women and 80 men.</narrative>
+    </description>
+    <reference code="HEA-COV-I9" indicator-uri="https://dutchrelief.org" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="204">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="758">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="270">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="709">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Excreta disposal</narrative>
+   </title>
+   <reference code="WSH-R2" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people having access to dignified, safe, clean and functional excreta disposal facilities</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Latrine Construction/Construction/Rehabilitation of disability-inclusive institutional latrine blocks with handwashing stations at school
+Provision of Latrine Maintenance Kit</narrative>
+    </description>
+    <reference code="WSH-I2" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="26">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="69">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2435">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="5526">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="30">
+      <dimension name="male" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="110">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2309">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="3793">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Formal education</narrative>
+   </title>
+   <reference code="EDU-R1" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of boys and girls that access safe, quality learning opportunities (formal education)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Organize academic catch-up sessions for MVC
+Support the awareness campaign of parents in collaboration with COPA and COGES on the importance of schooling of girls and boys.
+Train children&apos;s clubs on the rights of the child
+Equip MVC with schools kits (School bags, cup-books, pen, pencils, rulers&#x2026;)
+Support the fees for the finalist students to pass their last Exam (TENAFEP).</narrative>
+    </description>
+    <reference code="EDU-I1" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1200">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="2423">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="1200">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="3634"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Water supply</narrative>
+   </title>
+   <reference code="WSH-R4" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people having access to sufficient and safe water for domestic use</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Rehabilitation of water points in Schools and Communities, Training for Water Management Committees</narrative>
+    </description>
+    <reference code="WSH-I4" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
@@ -191,8 +412,20 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="103">
+     <actual value="5534">
       <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="77920">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="9154">
+      <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
     </period>
@@ -203,8 +436,20 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="126">
+     <actual value="5294">
       <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="7656">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="8479">
+      <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
@@ -212,23 +457,119 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">ACC-R1 Participation</narrative>
+    <narrative xml:lang="EN">Gender based violence (Prevention, response, other)</narrative>
    </title>
-   <reference code="ACC-R1" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
+   <reference code="PRO-R12" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of survivors who receive an appropriate response to GBV</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">SGBV Survivor Referral support</narrative>
+    </description>
+    <reference code="PRO-I12" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="65">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="50">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="25">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="0">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="20">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="10">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Participation</narrative>
+   </title>
+   <reference code="ACC-R1" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of crisis-affected people who are also involved in the design, implementation, monitoring and/or evaluation of the programme</narrative>
     </title>
-    <reference code="ACC-I1" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
+    <description>
+     <narrative xml:lang="EN">Social mobilization Hygi&#xE8;ne measures including EVD with the CHW and CHATS
+Facilitate the training of Parents committee on their role and responsibility within schools and implement basic education improvement plans.
+Train mandated institutions members (DIVAS, GENDER, police, education and health division) and engage them on CP issue  consortium members and parteners on CP standards and national laws 
+Conduct community planning workshops and develop the GBV community prevention plan 
+Support quaterly meeting of management committees (COGES) to discuss schools challenges and the rights of the child, psychosocial support and positive discipline.
+Support the quarterly supervision of schools by inspectors</narrative>
+    </description>
+    <reference code="ACC-I1" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="142">
+     <target value="65">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="65">
+     <actual value="388">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="4">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="332">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="151">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="415">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
@@ -236,11 +577,76 @@
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="34">
+     <target value="2">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="258">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Safe and accessible learning environments</narrative>
+   </title>
+   <reference code="EDU-R3" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of learning spaces/schools set up or rehabilitated and equipped to meet standards</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Support implementation of School Improvement Plans
+Rehabilitation of classrooms
+Equip school offices with kits including teaching materials(Books, Cup books, pens, rulers and maps)</narrative>
+    </description>
+    <reference code="EDU-I3" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="8"></target>
+     <actual value="8"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Protection information dissemination</narrative>
+   </title>
+   <reference code="PRO-R5" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of persons with increased/appropriate information on relevant rights and/or entitlements</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Train child protection mechanism members, community leaders, parents and caregivers on Child Protection Issues
+Conduct Gender awareness campaigns.(radio shows, community events,  competitions, flyers, etc.)</narrative>
+    </description>
+    <reference code="PRO-I5" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="4000">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="10565">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="8000">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="4">
+     <actual value="3614">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
@@ -248,23 +654,23 @@
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="47">
-      <dimension name="age" value="under 18"></dimension>
+     <target value="4000">
+      <dimension name="male" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="2">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="171">
+     <actual value="10287">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="8000">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="151">
+     <actual value="3336">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
@@ -273,23 +679,27 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">PRO-R11 Gender based violence (Prevention, response, other)</narrative>
+    <narrative xml:lang="EN">Capacity building (Protection)</narrative>
    </title>
-   <reference code="PRO-R11" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
+   <reference code="PRO-R6" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of persons reached by the implementation of specific GBV prevention measures</narrative>
+     <narrative xml:lang="EN">Number of participants showing an increased knowledge on the protection subject in focus</narrative>
     </title>
-    <reference code="PRO-I11" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
+    <description>
+     <narrative xml:lang="EN">Train mandated institutions members (DIVAS, GENDER, police, education and health division) and engage them on CP issue  consortium members and parteners on CP standards and national laws 
+Train child protection mechanism members, community leaders, parents and caregivers on SGBV</narrative>
+    </description>
+    <reference code="PRO-I6" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="7943">
+     <target value="200">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="954">
+     <actual value="247">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
@@ -297,11 +707,11 @@
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="7943">
+     <target value="200">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="2321">
+     <actual value="365">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
@@ -309,40 +719,48 @@
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="1460">
+     <target value="0">
       <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="female"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="376">
+     <actual value="0">
       <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="female"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="1460">
+     <target value="0">
       <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="409">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
   </result>
-  <result type="1">
+  <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">EDU-R4 Capacity building (Education)</narrative>
+    <narrative xml:lang="EN">Capacity Building (Education)</narrative>
    </title>
-   <reference code="EDU-R4" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
+   <reference code="EDU-R4" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of teachers and other education personnel trained</narrative>
     </title>
-    <reference code="EDU-I4" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
+    <description>
+     <narrative xml:lang="EN">Train the management committees (SMC) of the target schools on the rights of the child, 
+Train the SMC on the psychosocial support and positive discipline
+Train the SMC on the good governance at school.
+Facilitate the training of Parents committee on their role and responsibility within schools and implement basic education improvement plans.
+Train student governance on the management of school.
+Train WV staff, Sous-Proved, Inspectors and head teachers by education special on the monotiring and evaluation system of teaching.
+Train / Recycle teacher capacity based on identified needs:(New methodologies, national education program, new program for 7th and 8th classes&#x2026;)
+Support quaterly meeting of management committees (COGES) to discuss schools challenges and the rights of the child, psychosocial support and positive discipline.
+Support the quarterly supervision of schools by inspectors.</narrative>
+    </description>
+    <reference code="EDU-I4" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
@@ -350,7 +768,7 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="112">
+     <actual value="125">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
@@ -362,7 +780,7 @@
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="4">
+     <actual value="37">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
@@ -374,7 +792,7 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="144">
+     <actual value="114">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
@@ -386,7 +804,71 @@
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="4">
+     <actual value="41">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Hygiene promotion (awareness)</narrative>
+   </title>
+   <reference code="WSH-R6" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people reached with hygiene promotion/awareness raising activities</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Training of COH, CHATs, Social mobilization Hygi&#xE8;ne measures including EVD with the CHW, Implementation of steps 1 through 8 of VEA</narrative>
+    </description>
+    <reference code="WSH-I6" indicator-uri="https://dutchrelief.org/" vocabulary="99"></reference>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="11520">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="12829">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="8064">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="9077">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="11136">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="12184">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="7680">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="8749">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
@@ -395,267 +877,23 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">EDU-R3 Safe and accessible learning environments</narrative>
+    <narrative xml:lang="EN">Prevention and response to COVID-19 pandemic related to WASH</narrative>
    </title>
-   <reference code="EDU-R3" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of learning spaces/schools set up or rehabilitated and equipped to meet standards</narrative>
-    </title>
-    <reference code="EDU-I3" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="8">
-      <comment>
-       <narrative xml:lang="EN">Schools</narrative>
-      </comment>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">PRO-R6 Capacity building (Protection)</narrative>
-   </title>
-   <reference code="PRO-R6" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of participants showing an increased knowledge on the protection subject in focus</narrative>
-    </title>
-    <reference code="PRO-I6" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="200">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="200">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">HEA-COV-R9 Prevention and response to COVID-19 pandemic related to Health</narrative>
-   </title>
-   <reference code="HEA-COV-R9" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people receiving&#xA0;COVID-19 related assistance (Health).</narrative>
-    </title>
-    <reference code="HEA-COV-I9" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="204">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="270">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">EDU-R1 Formal education</narrative>
-   </title>
-   <reference code="EDU-R1" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of boys and girls that access safe, quality learning opportunities (formal education)</narrative>
-    </title>
-    <reference code="EDU-I1" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1224">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1176">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">PRO-R5 Protection information dissemination</narrative>
-   </title>
-   <reference code="PRO-R5" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of persons with increased/appropriate information on relevant rights and/or entitlements</narrative>
-    </title>
-    <reference code="PRO-I5" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="7943">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-     <actual value="123">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="7943">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-     <actual value="187">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1460">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1460">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">WSH-R2 Excreta disposal</narrative>
-   </title>
-   <reference code="WSH-I2" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people having access to dignified, safe, clean and functional excreta disposal facilities</narrative>
-    </title>
-    <reference code="WSH-I2" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="45">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2448">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="67">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2352">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">PRO-R12 Gender based violence (Prevention, response, other)</narrative>
-   </title>
-   <reference code="PRO-R12" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of survivors who receive an appropriate response to GBV</narrative>
-    </title>
-    <reference code="PRO-I12" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="65">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="25">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="20">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="10">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">WSH-COV-R7 Prevention and response to COVID-19 pandemic related to WASH</narrative>
-   </title>
-   <reference code="WSH-COV-R7" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
+   <reference code="WSH-COV-R7" vocabulary="99" vocabulary-uri="https://dutchrelief.org"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of people receiving&#xA0;COVID-19 related assistance (WASH).</narrative>
     </title>
-    <reference code="WSH-COV-I7" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
+    <description>
+     <narrative xml:lang="EN">In Alimbongo and Bunyakiri, WV will install 142 hand-washing stations at HCs, 64 at frequented places in communities (pharmacies, schools when open) and 40 at hospitals. Soap, disinfectant and chlorine are supplied monthly, which can be adapted to higher stocks and less movements in case Covid19 worsens. 12,300 (6,396 female and 5,904 male) will be enabled to practice good hand-washing practices to protect themselves from infection. 
+- 15 HCs and 2 hospitals will be equipped with PPE (including thermo-flash, medical clothing, respiratory protection) to protect medical personnel and patients from infection and enable to detect symptoms. 
+- WV will train 48 religious leaders on WV&#x2019;s Channels of Hope approach and form Community Hope Action Team (CHATs). Faith leaders will be trained on providing MHPSS through messages/phone calls addressing fears of the disease and secondary effects. 108 CHAT representatives will support faith leaders. 
+- Local partners will support faith leaders in disseminating prevention messages and producing radio spots. The project will sign contracts with 14 radios (7 in North Kivu and 7 in South Kivu) to emit radio spots to reach 34,712 female and 32,041 male (total: 66,753) in Bunyakiri and 50,372 female and 42,508 male in Alimbongo and Lubero (total: 92,880)
+- Local partners will train 10 CHWs per HA (160 CHWs in total) to conduct door-to-door visits in the communities for prevention promotion and symptoms detection. 1 CHW covers 15 HH on average, i.e. 16 HA * 10 CHWs/HA * 15 HH/CHW * 6 persons/HH = 14,400 people (7,488 female and 6,912 male)
+- 30 posters with Covid19-messages will be hung up at frequented spots (health centers, pharmacies, junctions etc.) in each health area (total: 240 posters).</narrative>
+    </description>
+    <reference code="WSH-COV-I7" indicator-uri="https://dutchrelief.org" vocabulary="99"></reference>
+    <baseline year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
@@ -663,7 +901,7 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="103">
+     <actual value="49774">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
@@ -675,8 +913,20 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="185">
+     <actual value="43611">
       <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="30938">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="30938">
+      <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
@@ -687,77 +937,7 @@
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="30938">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">WSH-R4 Water supply</narrative>
-   </title>
-   <reference code="WSH-R2" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people having access to sufficient and safe water for domestic use</narrative>
-    </title>
-    <reference code="WSH-I4" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="4704">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="6720">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="4480">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="6496">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">LOC-R1 National and local actors</narrative>
-   </title>
-   <reference code="LOC-R1" vocabulary="99" vocabulary-uri="http://www.dutchrelief.org"></reference>
-   <indicator aggregation-status="1" ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of budget that went to national and local actors</narrative>
-    </title>
-    <reference code="LOC-I1" indicator-uri="http://www.dutchrelief.org" vocabulary="99"></reference>
-    <baseline iso-date="2020-01-01" value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="17.96"></target>
+     <actual value="35310"></actual>
     </period>
    </indicator>
   </result>
