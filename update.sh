@@ -28,8 +28,6 @@ dataflat/packages.sh
 
 rm -rf xml
 mv dataflat/xml .
-cp dataflat/logs.txt .
-grep --colour=never  --after-context=1 --before-context=1 --extended-regexp '(curl:|dflat:)' logs.txt >errors.txt
 
 
 # some files may have failed to download so we restore these from the git history
@@ -41,12 +39,19 @@ file=${a[0]}
 if [ ! -d "xml/$file" ] ; then
 
 	git checkout -- xml/$file
+	count=`find xml/$file/ -type f -printf '.' | wc -c`
+	echo "restored $count files" | tee -a dataflat/logs/$file.txt
 
 fi
 
 }
 export -f restore
 cat dataflat/downloads.txt | sort -R | parallel -j 1 --bar restore
+
+
+cat dataflat/logs/*.txt >logs.txt
+grep --colour=never  --after-context=1 --before-context=1 --extended-regexp '(curl:|dflat:)' logs.txt >errors.txt
+
 
 # commit changes to git
 
