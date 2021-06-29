@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-DZ-KD0-002</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="African Development Bank" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Algeria - Support to the organization of the African business and investment forum</narrative>
@@ -18,7 +18,7 @@
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Algeria</narrative>
   </participating-org>
-  <participating-org ref="MIC" role="1">
+  <participating-org ref="MIC Fund" role="1" type="40">
    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
@@ -28,10 +28,10 @@
   <activity-date iso-date="2017-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Fund</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">RDGN0</narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">BOUZGARROU Malek</narrative>
@@ -43,11 +43,7 @@
    <email>m.bouzgarrou@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Fund</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -57,15 +53,17 @@
    <name>
     <narrative xml:lang="EN">Algeria</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>28.0 3.0</pos>
    </point>
-   <exactness code="1"></exactness>
+   <exactness code="2"></exactness>
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
   <sector code="33120" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Export Promotion</narrative>
+   <narrative xml:lang="EN">Trade facilitation</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.1.5" percentage="100" vocabulary="1">
@@ -78,25 +76,40 @@
   <budget type="1">
    <period-start iso-date="2016-10-13"></period-start>
    <period-end iso-date="2017-01-13"></period-end>
-   <value currency="XDR" value-date="2016-10-13">199000</value>
+   <value currency="XDR" value-date="2016-10-13">99500</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2017-01-13"></period-start>
    <period-end iso-date="2017-04-13"></period-end>
-   <value currency="XDR" value-date="2017-01-13">199000</value>
+   <value currency="XDR" value-date="2017-01-13">99500</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2017-04-13"></period-start>
    <period-end iso-date="2017-07-13"></period-end>
-   <value currency="XDR" value-date="2017-04-13">199000</value>
+   <value currency="XDR" value-date="2017-04-13">99500</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2017-07-13"></period-start>
    <period-end iso-date="2017-12-31"></period-end>
-   <value currency="XDR" value-date="2017-07-13">199000</value>
+   <value currency="XDR" value-date="2017-07-13">99500</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5500155011052">
+  <transaction afdb:finance-type-id="5500155011052">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-03-31"></transaction-date>
+   <value currency="XDR" value-date="2017-03-31">397491.92</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2017</narrative>
+   </description>
+   <provider-org ref="MIC Fund">
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5500155011052" ref="5500155011052">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-11-21"></transaction-date>
    <value currency="XDR" value-date="2016-11-21">398000</value>
@@ -111,18 +124,7 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-31"></transaction-date>
-   <value currency="XDR" value-date="2017-03-31">397491.92</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-11-21"></transaction-date>
    <value currency="XDR" value-date="2016-11-21">3451592</value>
