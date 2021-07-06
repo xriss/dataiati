@@ -50,6 +50,7 @@
   </sector>
   <sector code="14050" percentage="100" vocabulary="1"></sector>
   <policy-marker code="2" significance="1" vocabulary="1"></policy-marker>
+  <policy-marker code="2" significance="1" vocabulary="1"></policy-marker>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
@@ -59,6 +60,11 @@
    <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2019-12-31">837170.67</value>
   </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">1113240.51</value>
+  </budget>
   <transaction ref="SN2-EX0419e">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-01-01"></transaction-date>
@@ -67,7 +73,23 @@
     <narrative xml:lang="EN">Expenditure</narrative>
    </description>
   </transaction>
-  <transaction ref="SN2-IF0119">
+  <transaction ref="SN2-EX0420e">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">642393.22</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure</narrative>
+   </description>
+  </transaction>
+  <transaction ref="SN2-IF0118e">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2018-01-01"></transaction-date>
+   <value currency="USD" value-date="1970-01-01">848363.2</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Funds</narrative>
+   </description>
+  </transaction>
+  <transaction ref="SN2-IF0119e">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-01-01"></transaction-date>
    <value currency="USD" value-date="2019-12-31">0</value>
@@ -75,157 +97,279 @@
     <narrative xml:lang="EN">Incoming Funds</narrative>
    </description>
   </transaction>
+  <transaction ref="SN2-IF0120e">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">557146.23</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Funds</narrative>
+   </description>
+  </transaction>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">E-waste dismantling plant financed and built in Dakar as a pilot, to demonstrate a bankable model that could be replicated further in Senegal (Outcome 2B)</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">* Letters of commitment for the project from investors and developers/operators
+* Signed financing agreements</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">E-waste dismantling plant built and operations commenced</narrative>
+     <narrative xml:lang="EN">Finance mobilized for e-waste dismantling plant (disaggregated by public and private finance)</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="58"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Plastic waste recycling plant financed and built in Touba as a pilot, to demonstrate a bankable model that could be replicated further in Senegal (Outcome 1)</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">* Letters of commitment for the project from investors and developers/operators
+* Signed financing agreements</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Finance mobilized for plastic waste recycling plant (disaggregated by public and private finance)</narrative>
+     <narrative xml:lang="EN">Plastic waste recycling plant built and operations commenced</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="58"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">FSM treatment plant financed and built in Tivaouane as a pilot, to demonstrate a bankable model that could be replicated further in Senegal</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">* Original proposal assumed plant with a capacity to process 145 m3/day of FS waste
+* All government approvals required for the plant to be financed/built can be obtained.
+* The project can be made financially viable enough to attract private investors/lenders.
+* Outcome is feasible to achieve within timeframe of the project</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">FSM treatment plant built and operations commenced</narrative>
+     <narrative xml:lang="EN">Finance mobilized for FSM treatment plant (disaggregated by public and private finance)</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="58"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Capacity building, institutional development and knowledge sharing initiatives delivered to key stakeholders (Output E)</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">* Periodic reports on project progress/results prepared by GGGI
+* Copies of output documents where available
+* Correspondence showing outputs have been delivered to clients</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Behavior change communication (BCC) campaigns implemented (Activities B5, C3, D2, E3)
+: Story of Change communication materials developed and published (Activity E5)</narrative>
+     <narrative xml:lang="EN">Capacity building needed to support all project components identified (Activity E1)</narrative>
+     <narrative xml:lang="EN">Study tours to Luxembourg and other countries completed (Activity E2)</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="58"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Plastic waste recycling project designed for financing and implementation in Touba (Output 1 (B))</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">* Periodic reports on project progress/results prepared by GGGI
+* Copies of output documents where available
+* Correspondence showing outputs have been delivered to clients</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Feasibility study for plastic waste recycling plant completed (Activity B2)</narrative>
+     <narrative xml:lang="EN">Financing secured for plastic waste recycling plant, enabling plant developer/operator to proceed to construction and operation (Activity B3)</narrative>
+     <narrative xml:lang="EN">Interventions to strengthen the value chain identified and implemented to enhance technical &amp; financial viability of plastic waste recycling projects (Activity B4)</narrative>
+     <narrative xml:lang="EN">Situation analysis of plastic waste project context and value chain completed (Activity B1)</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="58"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">E-waste policy inputs developed, and e-waste dismantling plant designed for financing and implementation in Dakar (Output C)</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">* Periodic reports on project progress/results prepared by GGGI
+* Copies of output documents where available
+* Correspondence showing outputs have been delivered to clients</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Feasibility study for e-waste dismantling plant completed (Activity C4)</narrative>
+     <narrative xml:lang="EN">Financing and off take arrangements (for recycled e-waste materials) secured for e-waste plant, enabling developer/operator to proceed to construction and operation (Activity C5)</narrative>
+     <narrative xml:lang="EN">Policy inputs for e-waste decree and decision on delegating e-waste management authority to an environmental association are completed (Activity C2)</narrative>
+     <narrative xml:lang="EN">Situation analysis of e-waste project context and value chain is completed (Activity C1)</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="58"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">FSM treatment plant designed for financing and implementation in 
+Tivaouane (Output D)</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">* Periodic reports on project progress/results prepared by GGGI
+* Copies of output documents where available
+* Correspondence showing outputs have been delivered to clients</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Call center set up to facilitate arrangements between FSM service providers and households (Activity D6)</narrative>
+     <narrative xml:lang="EN">Demand-side marketing for FSM by-products targeting women and youth groups completed (Activity D7)</narrative>
+     <narrative xml:lang="EN">Feasibility study for FSM treatment plant and public toilets completed (Activity D4)</narrative>
+     <narrative xml:lang="EN">Financing secured for FSM treatment plant, enabling plant owner/operator to proceed to construction and operation (Activity D5)</narrative>
+     <narrative xml:lang="EN">Interventions to strengthen the value chain identified activities in the FS are implemented to enhance technical &amp; financial viability of the FSM chain (Activity D3)</narrative>
+     <narrative xml:lang="EN">Situation analysis of FSM project context and value chain is completed (Activity D1)</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="58"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Policies adopted to strengthen the management of e-waste in Senegal (Outcome 2A)</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">* Released policy documents, official announcements or other forms of written evidence of policy adoption from the relevant government agency/official</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Decree on e-waste management adopted</narrative>
+     <narrative xml:lang="EN">Government approves decision to delegate authority to a selected environmental association in Dakar to take over management of e-waste</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="58"></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="3">
    <title>
-    <narrative xml:lang="EN">The climate impact of the project is the reduction of 616,000 tC0&#xB2;eq reduction under 10 years period (average 61,600 tC0&#xB2;eq reduction / annum), that will benefit 500,000 beneficiaries with the creation of 700 Green jobs cumulatively for the 3 dimensions of the projects over the 3-year period of the first phase of implementation. Over the 10-year lifetime of the infrastructures, the GHG emission reduction is estimated at 15 400 000 tC0&#xB2;eq.</narrative>
+    <narrative xml:lang="EN">Estimated impacts from FSM plant: Estimated GHG reductions, green jobs created and increased access to sanitation services</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">% Population with access to sustainable, reliable and affordable service in the management of plastic wastes, fecal sludge and wastes from electronic and electrical equipment (WEEE)
-% of green jobs opportunities</narrative>
+    <narrative xml:lang="EN">Feasibility study</narrative>
    </description>
    <indicator ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">Project population experiences 20% increase in access to sustainable, reliable and affordable service in the management of plastic wastes, fecal sludge and wastes from electronic and electrical equipment (WEEE) delivered by better organized local entrepreuneur</narrative>
+     <narrative xml:lang="EN">Estimated GHG emissions reduction from BAU (tCO2e)</narrative>
+     <narrative xml:lang="EN">Estimated number of green jobs create</narrative>
+     <narrative xml:lang="EN">Estimated number of people who gained access to clean energy services</narrative>
+     <narrative xml:lang="EN">Estimated umber of people who gained access to improved waste management</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2022-12-20"></period-end>
+     <target value="100"></target>
+     <actual value="58"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="3">
+   <title>
+    <narrative xml:lang="EN">Estimated impacts from plastic waste plant: Estimated GHG reductions, green jobs created and increased access to waste management services.</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Feasibility study</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Estimated GHG emissions reduction from BAU (tCO2e)</narrative>
+     <narrative xml:lang="EN">Estimated number of green jobs created</narrative>
+     <narrative xml:lang="EN">Estimated number of people who gained access to improved waste management services</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2022-12-20"></period-end>
+     <target value="100"></target>
+     <actual value="58"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="3">
+   <title>
+    <narrative xml:lang="EN">Estimated impacts from e-waste plant: Estimated GHG reductions, green jobs created and increased access to waste management services</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Feasibility study</narrative>
+   </description>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Estimated GHG emissions reduction from BAU (tCO2e)</narrative>
+     <narrative xml:lang="EN">Estimated number of green jobs created</narrative>
+     <narrative xml:lang="EN">Estimated number of people who gained access to improved waste managemet)</narrative>
     </title>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
      <target value="100"></target>
-     <actual value="32"></actual>
+     <actual value="58"></actual>
     </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Project Management, Supports and Supervision</narrative>
+    <narrative xml:lang="EN">0 - Project managed effectively and efficiently to achieve the intended 
+results (output A)</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">Monitoring and evaluation report</narrative>
+    <narrative xml:lang="EN">Periodic reports on project progress/results prepared by GGGI</narrative>
    </description>
    <indicator ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">Projects and activities implemented according to the planning</narrative>
+     <narrative xml:lang="EN">Project activities and outputs delivered on time and on budget</narrative>
     </title>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
      <target value="100"></target>
-     <actual value="32"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Output C - Sustainable E-waste management</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Plans, maquette et specifications techniques Transfer of technology with partners Options of valorization proved and implemented Enabling environment establish through an adopted regulatory framework</narrative>
-   </description>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">An optimized system, process and business opportunities for green jobs creation around WEEE management and valorization through PPP business model building on the North-South and South-South cooperation.</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="32"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">An increase of resilience in the sustainable management of plastic wastes, fecal sludge and wastes from electronic and electrical equipment (WEEE) with PPP business models to support the development of green secondary cities</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Project monitoring and evaluation reports Report of identification of opportunities and initiatives of energertic and agricultural valorisation Report on the opportunities of green jobs and green services</narrative>
-   </description>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">Access to sustainable, reliable and affordable service in the management of plastic wastes, fecal sludge and wastes from electronic and electrical equipment (WEEE)</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="32"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">An increase of knowledge and capacities of stakeholders to preserve the environment (air, land, water) and minimize their exposure to pollution risks through inclusive transformative change in waste-to-resource approaches</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Report on BCC activities Report on level of access to finance</narrative>
-   </description>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">Increased green job opportunities through local entrepreuneruships developed around FSM delivery services and Agricultural and energy valorization opportunities</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="32"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Output D &#x2013; Sustainable Wasterwater management</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Report, valorization outputs,</narrative>
-   </description>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">A sustainable Public-Private-Partnership business model(s) for FSM service delivery and valorization is developed</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="32"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Output E - Capacity building, institutional development and knowledge sharing initiatives delivered to key stakeholders</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Reports and program of Capacity building and knowledge sharing</narrative>
-   </description>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">100% of the joint program on Capacity building and knowledge sharing is implemented</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="32"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Output B - Sustainable Plastic waste management</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Study report he production, management and valorization opportunities of FS Report on the feasibility studies</narrative>
-   </description>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">A series of business models studied and proposed to the Government</narrative>
-     <narrative xml:lang="EN">A study report by the validated competent authorities is available</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="32"></actual>
+     <actual value="58"></actual>
     </period>
    </indicator>
   </result>
