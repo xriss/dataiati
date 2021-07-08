@@ -67,6 +67,26 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget type="2">
+   <period-start iso-date="2018-01-01"></period-start>
+   <period-end iso-date="2018-03-31"></period-end>
+   <value currency="USD" value-date="2018-01-01">0</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2018-04-01"></period-start>
+   <period-end iso-date="2018-06-30"></period-end>
+   <value currency="USD" value-date="2018-04-01">0</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2018-07-01"></period-start>
+   <period-end iso-date="2018-09-30"></period-end>
+   <value currency="USD" value-date="2018-07-01">0</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2018-10-01"></period-start>
+   <period-end iso-date="2018-12-31"></period-end>
+   <value currency="USD" value-date="2018-10-01">0</value>
+  </budget>
+  <budget type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-03-31"></period-end>
    <value currency="USD" value-date="2019-01-01">0</value>
@@ -509,6 +529,14 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">-82</value>
+   <provider-org ref="LUX">
+    <narrative xml:lang="EN">Luxembourg</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">147310</value>
    <provider-org ref="MNC">
@@ -550,7 +578,15 @@
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-05-31"></transaction-date>
-   <value currency="USD" value-date="2021-05-31">85</value>
+   <value currency="USD" value-date="2021-05-31">-106</value>
+   <provider-org ref="MNC">
+    <narrative xml:lang="EN">Monaco</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">2198</value>
    <provider-org ref="MNC">
     <narrative xml:lang="EN">Monaco</narrative>
    </provider-org>
@@ -559,6 +595,14 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-11-30"></transaction-date>
    <value currency="USD" value-date="2020-11-30">85770</value>
+   <provider-org ref="MU">
+    <narrative xml:lang="EN">Multilateral</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">4822</value>
    <provider-org ref="MU">
     <narrative xml:lang="EN">Multilateral</narrative>
    </provider-org>
@@ -679,6 +723,14 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-01-31"></transaction-date>
    <value currency="USD" value-date="2021-01-31">-564</value>
+   <provider-org ref="WPD">
+    <narrative xml:lang="EN">Private Donors</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">10508</value>
    <provider-org ref="WPD">
     <narrative xml:lang="EN">Private Donors</narrative>
    </provider-org>
@@ -889,6 +941,16 @@
    <transaction-date iso-date="2021-05-31"></transaction-date>
    <value currency="USD" value-date="2021-05-31">637770</value>
   </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">776839</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">776839</value>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://www.wfp.org">
    <title>
     <narrative xml:lang="EN">Activity website</narrative>
@@ -909,10 +971,29 @@
      <narrative xml:lang="EN">CBT (USD)</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="9882000"></target>
+     <actual value="1067507.35"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Annual CBT Distribution (USD)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">CBT (USD)</narrative>
+    </title>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="9468363.636"></target>
-     <actual value="1465414.103"></actual>
+     <target value="9468363.64"></target>
+     <actual value="2109421.7"></actual>
     </period>
    </indicator>
   </result>
@@ -944,51 +1025,13 @@
    </description>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">Iodised Salt</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="7.2"></target>
-     <actual value="0.904"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
      <narrative xml:lang="EN">Vegetable Oil</narrative>
     </title>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="36"></target>
-     <actual value="3.217"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Beans</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="0"></target>
-     <actual value="4.181"></actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
   </result>
@@ -1007,7 +1050,121 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="540"></target>
-     <actual value="48.374"></actual>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Iodised Salt</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="7.2"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Beans</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="108"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Vegetable Oil</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="36"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Rice</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="540"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Iodised Salt</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="7.2"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Total Number of Beneficiaries</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Total number of people who received tangible benefit from this project</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of Beneficiaries</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="300000"></target>
+     <actual value="0"></actual>
     </period>
    </indicator>
   </result>
@@ -1025,8 +1182,8 @@
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="200000"></target>
-     <actual value="0"></actual>
+     <target value="250000"></target>
+     <actual value="220634"></actual>
     </period>
    </indicator>
   </result>

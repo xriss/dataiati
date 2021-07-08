@@ -167,7 +167,7 @@
    <period-end iso-date="2023-12-31"></period-end>
    <value currency="USD" value-date="2023-10-01">0</value>
   </budget>
-  <capital-spend percentage="0"></capital-spend>
+  <capital-spend percentage="0.19"></capital-spend>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-01-31"></transaction-date>
@@ -428,6 +428,14 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-04-30"></transaction-date>
    <value currency="USD" value-date="2020-04-30">1155099</value>
+   <provider-org ref="USA">
+    <narrative xml:lang="FR">USA</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">978630</value>
    <provider-org ref="USA">
     <narrative xml:lang="FR">USA</narrative>
    </provider-org>
@@ -762,6 +770,16 @@
    <transaction-date iso-date="2021-05-31"></transaction-date>
    <value currency="USD" value-date="2021-05-31">202981</value>
   </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">194109</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">194109</value>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://www.wfp.org">
    <title>
     <narrative xml:lang="FR">Activity website</narrative>
@@ -782,9 +800,66 @@
      <narrative xml:lang="FR">Quantity (mt) of cargo transported</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <target value="12"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Total number of Outputs</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of passengers transported</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="2000"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Total number of Outputs</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of destinations served</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="4"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Total number of Outputs</narrative>
+   </description>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="FR">Percentage of payload delivered against available capacity</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="55"></target>
      <actual value="0"></actual>
     </period>
    </indicator>
@@ -804,45 +879,7 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2000"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="FR">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="FR">Total number of Outputs</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="FR">Number of destinations served</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="4"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="FR">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="FR">Total number of Outputs</narrative>
-   </description>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="FR">Percentage of payload delivered against available capacity</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="55"></target>
-     <actual value="0"></actual>
+     <actual value="1031"></actual>
     </period>
    </indicator>
   </result>
@@ -891,6 +928,44 @@
    <description>
     <narrative xml:lang="FR">Total number of Outputs</narrative>
    </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Quantity (mt) of cargo transported</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="12"></target>
+     <actual value="4.8"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Total number of Outputs</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of destinations served</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="4"></target>
+     <actual value="5"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Total number of Outputs</narrative>
+   </description>
    <indicator measure="2">
     <title>
      <narrative xml:lang="FR">Percentage of payload delivered against available capacity</narrative>
@@ -919,6 +994,25 @@
      <period-end iso-date="2019-12-31"></period-end>
      <target value="12"></target>
      <actual value="6.5"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Total number of Outputs</narrative>
+   </description>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="FR">Percentage of payload delivered against available capacity</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="55"></target>
+     <actual value="67"></actual>
     </period>
    </indicator>
   </result>
