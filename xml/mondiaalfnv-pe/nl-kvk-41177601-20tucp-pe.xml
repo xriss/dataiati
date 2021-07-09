@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
-  <iati-identifier>NL-KvK-41177601-20TUCP-PE</iati-identifier>
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+  <iati-identifier>NL-KVK-41177601-20TUCP-PE</iati-identifier>
   <reporting-org ref="NL-KVK-41177601" type="22">
    <narrative xml:lang="EN">Stichting Mondiaal FNV</narrative>
   </reporting-org>
@@ -19,7 +19,8 @@
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2017-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-12-31" type="4"></activity-date>
+  <activity-scope code="4"></activity-scope>
   <recipient-country code="PE" percentage="100"></recipient-country>
   <sector code="15150" percentage="14" vocabulary="1"></sector>
   <sector code="15160" percentage="12" vocabulary="1"></sector>
@@ -120,17 +121,6 @@
    </provider-org>
   </transaction>
   <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="EUR" value-date="2019-12-31">0</value>
-   <description>
-    <narrative xml:lang="EN">Disbursements 2019</narrative>
-   </description>
-   <provider-org provider-activity-id="NL-KVK-41177601-20TUCP" ref="NL-KVK-41177601" type="22">
-    <narrative xml:lang="EN">Mondiaal FNV</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2018-12-31"></transaction-date>
    <value currency="EUR" value-date="2018-12-31">83304</value>
@@ -147,6 +137,17 @@
    <value currency="EUR" value-date="2019-12-31">137055</value>
    <description>
     <narrative xml:lang="EN">Expenditure 2019</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-41177601-20TUCP" ref="NL-KVK-41177601" type="22">
+    <narrative xml:lang="EN">Mondiaal FNV</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">424154</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure 2020</narrative>
    </description>
    <provider-org provider-activity-id="NL-KVK-41177601-20TUCP" ref="NL-KVK-41177601" type="22">
     <narrative xml:lang="EN">Mondiaal FNV</narrative>
@@ -238,6 +239,11 @@
      <period-end iso-date="2019-12-31"></period-end>
      <actual value="1"></actual>
     </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2"></actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -247,6 +253,11 @@
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <actual value="1,440,000"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="800,000"></actual>
     </period>
    </indicator>
   </result>
@@ -279,6 +290,25 @@
     </period>
    </indicator>
   </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">Trade unions effectively influence agenda of government (BC1)</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Number of Social Dialogue meetings where TU supported proposal was discussed with government</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="8">
+      <comment>
+       <narrative xml:lang="EN">In the context of the pandemic, the CGTP adequately combined the strategies of mobilisation and dialogue, to face a set of wrong government decisions that aggravated the effects of the pandemic, on health and employment, achieving the result that three of their proposals were accepted. The initiatives were developed in two ways, on the one hand, the preparation of legal proposals based on analysis studies, on the other the establishment of coordinated union action agreements that opened the way for a series of advocacy mobilisations throughout the year. In the process of preparing the proposal on the strengthening of the health and safety committees, the information shared by companies and union members was incorporated in forums organised by the Association for Work (bipartite dialogue entity) on good practices of social dialogue to face the pandemic in the workplace. Subsequently, the proposal was presented and approved by the National Council for Occupational Safety and Health, which is a tripartite entity.</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
   <result type="1">
    <title>
     <narrative xml:lang="EN">Trade Union Membership (male, female), and resource base (OP3)</narrative>
@@ -293,6 +323,11 @@
      <actual value="1127120"></actual>
     </period>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="488220"></actual>
+    </period>
+    <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <actual value="581285"></actual>
@@ -302,6 +337,11 @@
     <title>
      <narrative xml:lang="EN">Number of female members</narrative>
     </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="263772"></actual>
+    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -328,6 +368,11 @@
      <actual value="227"></actual>
     </period>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="571"></actual>
+    </period>
+    <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <actual value="83"></actual>
@@ -347,6 +392,11 @@
      <period-end iso-date="2019-12-31"></period-end>
      <actual value="7"></actual>
     </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="72"></actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="2">
     <title>
@@ -362,11 +412,21 @@
      <period-end iso-date="2019-12-31"></period-end>
      <actual value="34.0"></actual>
     </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="34.4"></actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of male participants</narrative>
     </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1101"></actual>
+    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -391,6 +451,11 @@
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
      <actual value="33"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="35.1"></actual>
     </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
