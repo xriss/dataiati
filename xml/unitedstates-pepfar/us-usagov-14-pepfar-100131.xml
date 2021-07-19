@@ -14,8 +14,11 @@ The PEPFAR IATI activity file and PEPFAR IATI Activity File User&apos;s Guide ca
 
 
 Funds allocated for Program Element HL.1.6: Adult Care and Support. All facility-based and home/community-based activities for HIV-infected adults and their families aimed at extending and optimizing quality of life for HIV-infected clients and their families throughout the continuum of illness through provision of clinical, psychological, spiritual, social and prevention services.
+Funds allocated for Program Element HL.1.10: Treatment/ARV Drugs. This includes procurement, delivery and in-freight of ARV drugs.
+Funds allocated for Program Element HL.1.11: Treatment/Adult Treatment. Including infrastructure, training clinicians and other providers, exams, clinical monitoring, related laboratory services, and community-adherence activities.
 Funds allocated for Program Element HL.1.9: Counseling and Testing. Includes activities in which both HIV counseling and testing are provided for those who seek to know their HIV status (as in traditional VCT) or provider initiated counseling and testing.
 Funds allocated for Program Element HL.1.5: Sexual Prevention - Other Sexual Prevention. Other activities (including training) aimed at preventing HIV transmission including purchase and promotion of condoms, STI management (if not in palliative care settings/context), messages/programs to reduce other risks of persons engaged in high-risk behaviors.
+Funds allocated for Program Element HL.1.13: Health System Strengthening. Include activities that contribute to national, regional or district level systems by supporting finance, leadership and governance (include broad policy reform efforts including stigma, gender, etc.), institutional capacity building, supply chain or procurement systems, Global Fund programs and donor coordination.
 objectives</narrative>
   </description>
   <description type="1">
@@ -72,15 +75,6 @@ objectives</narrative>
    </point>
    <exactness code="2"></exactness>
   </location>
-  <location ref="Honduras/Colon">
-   <name>
-    <narrative xml:lang="EN">Honduras/Colon</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>15.697567 -85.960111</pos>
-   </point>
-   <exactness code="2"></exactness>
-  </location>
   <location ref="Honduras/Cort&#xE9;s">
    <name>
     <narrative xml:lang="EN">Honduras/Cort&#xE9;s</narrative>
@@ -99,33 +93,6 @@ objectives</narrative>
    </point>
    <exactness code="2"></exactness>
   </location>
-  <location ref="Honduras/Islas de la Bah&#xED;a">
-   <name>
-    <narrative xml:lang="EN">Honduras/Islas de la Bah&#xED;a</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>16.359924 -86.452513</pos>
-   </point>
-   <exactness code="2"></exactness>
-  </location>
-  <location ref="Honduras/Santa B&#xE1;rbara">
-   <name>
-    <narrative xml:lang="EN">Honduras/Santa B&#xE1;rbara</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>15.029255 -88.312410</pos>
-   </point>
-   <exactness code="2"></exactness>
-  </location>
-  <location ref="Honduras/Yoro">
-   <name>
-    <narrative xml:lang="EN">Honduras/Yoro</narrative>
-   </name>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>15.325331 -87.298257</pos>
-   </point>
-   <exactness code="2"></exactness>
-  </location>
   <sector code="12110" percentage="100" vocabulary="1"></sector>
   <policy-marker code="PEPFAR" vocabulary="99" vocabulary-uri="https://www.state.gov/pepfar/">
    <narrative xml:lang="EN">The U.S. President&apos;s Emergency Plan for AIDS Relief (PEPFAR) is the U.S. government&apos;s response to the global HIV/AIDS epidemic and represents the largest commitment by any nation to address a single disease in history.</narrative>
@@ -138,12 +105,22 @@ objectives</narrative>
   <budget type="1">
    <period-start iso-date="2019-10-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
-   <value currency="USD" value-date="2021-03-09">168691</value>
+   <value currency="USD" value-date="2021-06-28">168691</value>
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2020-10-01"></period-start>
+   <period-end iso-date="2021-09-30"></period-end>
+   <value currency="USD" value-date="2021-06-28">880800</value>
   </budget>
   <transaction ref="2020-c">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-10-01"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">168691</value>
+   <value currency="USD" value-date="2021-06-28">168691</value>
+  </transaction>
+  <transaction ref="2021-c">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-01"></transaction-date>
+   <value currency="USD" value-date="2021-06-28">880800</value>
   </transaction>
   <document-link format="TEXT/HTML" url="https://data.pepfar.gov/evaluations">
    <title>
@@ -190,21 +167,6 @@ objectives</narrative>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">HTS_TST Total Numerator</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">HTS_TST Total Numerator</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="3947"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
     <narrative xml:lang="EN">HTS_TST_POS Total Numerator</narrative>
    </title>
    <indicator measure="1">
@@ -212,9 +174,54 @@ objectives</narrative>
      <narrative xml:lang="EN">HTS_TST_POS Total Numerator</narrative>
     </title>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="28"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="33"></actual>
+    </period>
+    <period>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <target value="401"></target>
+     <target value="290"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="176"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">HTS_TST Total Numerator</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">HTS_TST Total Numerator</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="498"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="697"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="3285"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="2805"></target>
     </period>
    </indicator>
   </result>

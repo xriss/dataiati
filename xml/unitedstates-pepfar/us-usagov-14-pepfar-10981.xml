@@ -44,10 +44,9 @@ objectives</narrative>
   </participating-org>
   <other-identifier ref="10981" type="A1"></other-identifier>
   <other-identifier ref="SPRMCO18VC0010" type="A9"></other-identifier>
-  <activity-status code="3"></activity-status>
+  <activity-status code="2"></activity-status>
   <activity-date iso-date="2006-10-01" type="1"></activity-date>
   <activity-date iso-date="2006-10-01" type="2"></activity-date>
-  <activity-date iso-date="2020-09-30" type="4"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">Office of the Global AIDS Coordinator</narrative>
@@ -63,6 +62,15 @@ objectives</narrative>
   <recipient-country code="RW" percentage="100">
    <narrative xml:lang="EN">Rwanda</narrative>
   </recipient-country>
+  <location ref="East">
+   <name>
+    <narrative xml:lang="EN">East</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-1.854693 30.334562</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <location ref="East/Gatsibo">
    <name>
     <narrative xml:lang="EN">East/Gatsibo</narrative>
@@ -72,12 +80,30 @@ objectives</narrative>
    </point>
    <exactness code="2"></exactness>
   </location>
+  <location ref="North">
+   <name>
+    <narrative xml:lang="EN">North</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-1.624084 29.890735</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <location ref="North/Gicumbi">
    <name>
     <narrative xml:lang="EN">North/Gicumbi</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-1.592179 30.084379</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
+  <location ref="West">
+   <name>
+    <narrative xml:lang="EN">West</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-2.158651 29.254375</pos>
    </point>
    <exactness code="2"></exactness>
   </location>
@@ -102,27 +128,37 @@ objectives</narrative>
   <budget type="1">
    <period-start iso-date="2018-10-01"></period-start>
    <period-end iso-date="2019-09-30"></period-end>
-   <value currency="USD" value-date="2021-03-09">216717</value>
+   <value currency="USD" value-date="2021-06-28">216717</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2019-10-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
-   <value currency="USD" value-date="2021-03-09">178394</value>
+   <value currency="USD" value-date="2021-06-28">178394</value>
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2020-10-01"></period-start>
+   <period-end iso-date="2021-09-30"></period-end>
+   <value currency="USD" value-date="2021-06-28">178394</value>
   </budget>
   <transaction ref="2019-c">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2018-10-01"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">216717</value>
+   <value currency="USD" value-date="2021-06-28">216717</value>
   </transaction>
   <transaction ref="2019-e">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">216717</value>
+   <value currency="USD" value-date="2021-06-28">216717</value>
   </transaction>
   <transaction ref="2020-c">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-10-01"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">178394</value>
+   <value currency="USD" value-date="2021-06-28">178394</value>
+  </transaction>
+  <transaction ref="2021-c">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-01"></transaction-date>
+   <value currency="USD" value-date="2021-06-28">178394</value>
   </transaction>
   <document-link format="TEXT/HTML" url="https://data.pepfar.gov/evaluations">
    <title>
@@ -196,6 +232,11 @@ objectives</narrative>
      <actual value="2"></actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="3"></actual>
+    </period>
+    <period>
      <period-start iso-date="2019-07-01"></period-start>
      <period-end iso-date="2019-09-30"></period-end>
      <actual value="4"></actual>
@@ -203,6 +244,11 @@ objectives</narrative>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="7"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
      <actual value="7"></actual>
     </period>
     <period>
@@ -224,6 +270,11 @@ objectives</narrative>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="31"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="26"></target>
     </period>
    </indicator>
   </result>
@@ -308,6 +359,24 @@ objectives</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="455">
+      <comment>
+       <narrative xml:lang="EN">Note: These result values are not summable across time periods.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="463">
+      <comment>
+       <narrative xml:lang="EN">Note: These result values are not summable across time periods.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2018-10-01"></period-start>
      <period-end iso-date="2019-09-30"></period-end>
      <target value="485"></target>
@@ -316,6 +385,11 @@ objectives</narrative>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="471"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="482"></target>
     </period>
    </indicator>
   </result>
@@ -343,6 +417,11 @@ objectives</narrative>
      <actual value="3"></actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4"></actual>
+    </period>
+    <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-03-31"></period-end>
      <actual value="6"></actual>
@@ -368,6 +447,11 @@ objectives</narrative>
      <actual value="9"></actual>
     </period>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="9"></actual>
+    </period>
+    <period>
      <period-start iso-date="2018-10-01"></period-start>
      <period-end iso-date="2019-09-30"></period-end>
      <target value="65"></target>
@@ -376,6 +460,11 @@ objectives</narrative>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="43"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="11"></target>
     </period>
    </indicator>
   </result>
@@ -418,9 +507,19 @@ objectives</narrative>
      <actual value="398"></actual>
     </period>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="420"></actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-03-31"></period-end>
      <actual value="430"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="434"></actual>
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
@@ -436,6 +535,11 @@ objectives</narrative>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="215"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="3711"></target>
     </period>
    </indicator>
   </result>

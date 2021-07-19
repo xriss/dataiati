@@ -52,6 +52,15 @@ objectives</narrative>
   <recipient-country code="JM" percentage="100">
    <narrative xml:lang="EN">Jamaica</narrative>
   </recipient-country>
+  <location ref="Jamaica">
+   <name>
+    <narrative xml:lang="EN">Jamaica</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>18.125599 -77.256761</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <location ref="Jamaica/South East Region">
    <name>
     <narrative xml:lang="EN">Jamaica/South East Region</narrative>
@@ -73,17 +82,22 @@ objectives</narrative>
   <budget type="1">
    <period-start iso-date="2019-10-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
-   <value currency="USD" value-date="2021-03-09">800000</value>
+   <value currency="USD" value-date="2021-06-28">800000</value>
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2020-10-01"></period-start>
+   <period-end iso-date="2021-09-30"></period-end>
+   <value currency="USD" value-date="2021-06-28">479267</value>
   </budget>
   <transaction ref="2020-c">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-10-01"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">709018</value>
+   <value currency="USD" value-date="2021-06-28">709018</value>
   </transaction>
   <transaction ref="2020-e">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">671829</value>
+   <value currency="USD" value-date="2021-06-28">671829</value>
   </transaction>
   <document-link format="TEXT/HTML" url="https://data.pepfar.gov/evaluations">
    <title>
@@ -130,26 +144,6 @@ objectives</narrative>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">TX_NEW Total Numerator</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">TX_NEW Total Numerator</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <actual value="10"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2019-10-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="200"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
     <narrative xml:lang="EN">TX_CURR Total Numerator</narrative>
    </title>
    <indicator measure="1">
@@ -160,6 +154,24 @@ objectives</narrative>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <actual value="133">
+      <comment>
+       <narrative xml:lang="EN">Note: These result values are not summable across time periods.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="147">
+      <comment>
+       <narrative xml:lang="EN">Note: These result values are not summable across time periods.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="189">
       <comment>
        <narrative xml:lang="EN">Note: These result values are not summable across time periods.</narrative>
       </comment>
@@ -186,7 +198,12 @@ objectives</narrative>
     <period>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
-     <target value="220"></target>
+     <target value="112"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="186"></target>
     </period>
    </indicator>
   </result>
@@ -204,9 +221,59 @@ objectives</narrative>
      <actual value="11"></actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="13"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="14"></actual>
+    </period>
+    <period>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="259"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="126"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">TX_NEW Total Numerator</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">TX_NEW Total Numerator</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="1"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <actual value="10"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="4"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-10-01"></period-start>
+     <period-end iso-date="2020-09-30"></period-end>
+     <target value="32"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="20"></target>
     </period>
    </indicator>
   </result>
@@ -219,14 +286,29 @@ objectives</narrative>
      <narrative xml:lang="EN">HTS_TST_POS Total Numerator</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="1"></actual>
+    </period>
+    <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
+     <actual value="3"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <actual value="3"></actual>
     </period>
     <period>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="40"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="18"></target>
     </period>
    </indicator>
   </result>

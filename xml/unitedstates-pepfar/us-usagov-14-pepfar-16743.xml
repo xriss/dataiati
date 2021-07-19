@@ -47,10 +47,9 @@ No vehicle purchases are planned for Year 1 as this mechanism is expected to rec
   </participating-org>
   <other-identifier ref="16743" type="A1"></other-identifier>
   <other-identifier ref="AID624A1400003" type="A9"></other-identifier>
-  <activity-status code="3"></activity-status>
+  <activity-status code="2"></activity-status>
   <activity-date iso-date="2013-10-01" type="1"></activity-date>
   <activity-date iso-date="2013-10-01" type="2"></activity-date>
-  <activity-date iso-date="2020-09-30" type="4"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">Office of the Global AIDS Coordinator</narrative>
@@ -66,6 +65,15 @@ No vehicle purchases are planned for Year 1 as this mechanism is expected to rec
   <recipient-country code="CM" percentage="100">
    <narrative xml:lang="EN">Cameroon</narrative>
   </recipient-country>
+  <location ref="Adamaoua/Ngaoundere Rural">
+   <name>
+    <narrative xml:lang="EN">Adamaoua/Ngaoundere Rural</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>7.217571 13.732911</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <location ref="Adamaoua/Ngaoundere Urbain">
    <name>
     <narrative xml:lang="EN">Adamaoua/Ngaoundere Urbain</narrative>
@@ -147,6 +155,15 @@ No vehicle purchases are planned for Year 1 as this mechanism is expected to rec
    </point>
    <exactness code="2"></exactness>
   </location>
+  <location ref="Littoral/Boko">
+   <name>
+    <narrative xml:lang="EN">Littoral/Boko</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>3.734684 9.750075</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <location ref="Littoral/Bonassama">
    <name>
     <narrative xml:lang="EN">Littoral/Bonassama</narrative>
@@ -219,12 +236,30 @@ No vehicle purchases are planned for Year 1 as this mechanism is expected to rec
    </point>
    <exactness code="2"></exactness>
   </location>
+  <location ref="Nord Ouest/Tubah">
+   <name>
+    <narrative xml:lang="EN">Nord Ouest/Tubah</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>6.074630 10.396353</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <location ref="Ouest/Mifi">
    <name>
     <narrative xml:lang="EN">Ouest/Mifi</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>5.518055 10.516515</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
+  <location ref="Sud/Kribi">
+   <name>
+    <narrative xml:lang="EN">Sud/Kribi</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>2.823025 10.017876</pos>
    </point>
    <exactness code="2"></exactness>
   </location>
@@ -240,32 +275,37 @@ No vehicle purchases are planned for Year 1 as this mechanism is expected to rec
   <budget type="1">
    <period-start iso-date="2018-10-01"></period-start>
    <period-end iso-date="2019-09-30"></period-end>
-   <value currency="USD" value-date="2021-03-09">4045520</value>
+   <value currency="USD" value-date="2021-06-28">4045520</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2019-10-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
-   <value currency="USD" value-date="2021-03-09">5277189</value>
+   <value currency="USD" value-date="2021-06-28">5277189</value>
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2020-10-01"></period-start>
+   <period-end iso-date="2021-09-30"></period-end>
+   <value currency="USD" value-date="2021-06-28">5518100</value>
   </budget>
   <transaction ref="2019-c">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2018-10-01"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">4045520</value>
+   <value currency="USD" value-date="2021-06-28">4045520</value>
   </transaction>
   <transaction ref="2019-e">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">3523988</value>
+   <value currency="USD" value-date="2021-06-28">3523988</value>
   </transaction>
   <transaction ref="2020-c">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-10-01"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">5235513</value>
+   <value currency="USD" value-date="2021-06-28">5235513</value>
   </transaction>
   <transaction ref="2020-e">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">5130400</value>
+   <value currency="USD" value-date="2021-06-28">5130400</value>
   </transaction>
   <document-link format="TEXT/HTML" url="https://data.pepfar.gov/evaluations">
    <title>
@@ -319,9 +359,19 @@ No vehicle purchases are planned for Year 1 as this mechanism is expected to rec
      <narrative xml:lang="EN">HTS_TST Total Numerator</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="10599"></actual>
+    </period>
+    <period>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <actual value="11264"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="16183"></actual>
     </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
@@ -368,6 +418,11 @@ No vehicle purchases are planned for Year 1 as this mechanism is expected to rec
      <period-end iso-date="2020-09-30"></period-end>
      <target value="55212"></target>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="60603"></target>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
@@ -409,6 +464,16 @@ No vehicle purchases are planned for Year 1 as this mechanism is expected to rec
      <actual value="662"></actual>
     </period>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="748"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="873"></actual>
+    </period>
+    <period>
      <period-start iso-date="2018-10-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <actual value="944"></actual>
@@ -427,6 +492,11 @@ No vehicle purchases are planned for Year 1 as this mechanism is expected to rec
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="6501"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="6268"></target>
     </period>
    </indicator>
   </result>

@@ -13,6 +13,8 @@
 The PEPFAR IATI activity file and PEPFAR IATI Activity File User&apos;s Guide can be found at https://data.pepfar.gov/additionalData
 
 
+Funds allocated for Program Element HL.1.6: Adult Care and Support. All facility-based and home/community-based activities for HIV-infected adults and their families aimed at extending and optimizing quality of life for HIV-infected clients and their families throughout the continuum of illness through provision of clinical, psychological, spiritual, social and prevention services.
+Funds allocated for Program Element HL.1.8: Orphans and Vulnerable Children. Activities are aimed at improving the lives of orphans and other vulnerable children (OVC) affected by HIV/AIDS, and doing so in a measurable way.
 Funds allocated for Program Element HL.1.11: Treatment/Adult Treatment. Including infrastructure, training clinicians and other providers, exams, clinical monitoring, related laboratory services, and community-adherence activities.
 Funds allocated for Program Element HL.1.2: Sexual Prevention - Abstinence/Be Faithful. Activities (including training) to promote abstinence, fidelity, reducing multiple and concurrent partners, and related social and community norms that impact these behaviors.
 Funds allocated for Program Element HL.1.9: Counseling and Testing. Includes activities in which both HIV counseling and testing are provided for those who seek to know their HIV status (as in traditional VCT) or provider initiated counseling and testing.
@@ -96,12 +98,39 @@ objectives</narrative>
    </point>
    <exactness code="2"></exactness>
   </location>
+  <location ref="Lualaba/Kafakumba">
+   <name>
+    <narrative xml:lang="EN">Lualaba/Kafakumba</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-9.432572 23.801855</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
+  <location ref="Lualaba/Kalamba">
+   <name>
+    <narrative xml:lang="EN">Lualaba/Kalamba</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-8.416075 23.214494</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <location ref="Lualaba/Kanzenze">
    <name>
     <narrative xml:lang="EN">Lualaba/Kanzenze</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-10.144220 25.392461</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
+  <location ref="Lualaba/Kapanga">
+   <name>
+    <narrative xml:lang="EN">Lualaba/Kapanga</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-8.248973 22.435978</pos>
    </point>
    <exactness code="2"></exactness>
   </location>
@@ -150,6 +179,15 @@ objectives</narrative>
    </point>
    <exactness code="2"></exactness>
   </location>
+  <location ref="Lualaba/Sandoa">
+   <name>
+    <narrative xml:lang="EN">Lualaba/Sandoa</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-9.584216 22.913438</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <sector code="12110" percentage="100" vocabulary="1"></sector>
   <policy-marker code="PEPFAR" vocabulary="99" vocabulary-uri="https://www.state.gov/pepfar/">
    <narrative xml:lang="EN">The U.S. President&apos;s Emergency Plan for AIDS Relief (PEPFAR) is the U.S. government&apos;s response to the global HIV/AIDS epidemic and represents the largest commitment by any nation to address a single disease in history.</narrative>
@@ -162,17 +200,27 @@ objectives</narrative>
   <budget type="1">
    <period-start iso-date="2019-10-01"></period-start>
    <period-end iso-date="2020-09-30"></period-end>
-   <value currency="USD" value-date="2021-03-09">2400000</value>
+   <value currency="USD" value-date="2021-06-28">2400000</value>
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2020-10-01"></period-start>
+   <period-end iso-date="2021-09-30"></period-end>
+   <value currency="USD" value-date="2021-06-28">3408897</value>
   </budget>
   <transaction ref="2020-c">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-10-01"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">2400000</value>
+   <value currency="USD" value-date="2021-06-28">2400000</value>
   </transaction>
   <transaction ref="2020-e">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
-   <value currency="USD" value-date="2021-03-09">2350000</value>
+   <value currency="USD" value-date="2021-06-28">2350000</value>
+  </transaction>
+  <transaction ref="2021-c">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-01"></transaction-date>
+   <value currency="USD" value-date="2021-06-28">3408897</value>
   </transaction>
   <document-link format="TEXT/HTML" url="https://data.pepfar.gov/evaluations">
    <title>
@@ -219,6 +267,25 @@ objectives</narrative>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
+    <narrative xml:lang="EN">OVC_SERV Total Numerator</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">OVC_SERV Total Numerator</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="3435">
+      <comment>
+       <narrative xml:lang="EN">Note: These result values are not summable across time periods.</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
     <narrative xml:lang="EN">TX_CURR Total Numerator</narrative>
    </title>
    <indicator measure="1">
@@ -262,9 +329,32 @@ objectives</narrative>
      </actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="18461">
+      <comment>
+       <narrative xml:lang="EN">Note: These result values are not summable across time periods.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="19922">
+      <comment>
+       <narrative xml:lang="EN">Note: These result values are not summable across time periods.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="17669"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="25248"></target>
     </period>
    </indicator>
   </result>
@@ -297,9 +387,24 @@ objectives</narrative>
      <actual value="1505"></actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1727"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="1764"></actual>
+    </period>
+    <period>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="5046"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="7768"></target>
     </period>
    </indicator>
   </result>
@@ -332,9 +437,24 @@ objectives</narrative>
      <actual value="1738"></actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1786"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="1788"></actual>
+    </period>
+    <period>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="5623"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="8066"></target>
     </period>
    </indicator>
   </result>
@@ -367,9 +487,24 @@ objectives</narrative>
      <actual value="24230"></actual>
     </period>
     <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="24885"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-03-31"></period-end>
+     <actual value="28580"></actual>
+    </period>
+    <period>
      <period-start iso-date="2019-10-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
      <target value="83231"></target>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="117509"></target>
     </period>
    </indicator>
   </result>
