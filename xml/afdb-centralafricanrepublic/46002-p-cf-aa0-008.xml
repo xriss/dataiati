@@ -2,7 +2,7 @@
 <iati-activities version="2.01">
  <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-CF-AA0-008</iati-identifier>
-  <reporting-org ref="African Development Bank" type="40">
+  <reporting-org ref="XM-DAC-46002" type="40">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
@@ -16,16 +16,21 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">PROGRAMME ALIMENTAIRE MONDIAL (PAM)</narrative>
   </participating-org>
-  <participating-org ref="SRF" role="1" type="40">
+  <participating-org ref="XM-DAC-SRF" role="1" type="40">
    <narrative xml:lang="EN">Special Relief Funds</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2014-01-23" type="1"></activity-date>
   <activity-date iso-date="2015-03-05" type="3"></activity-date>
   <activity-date iso-date="2015-03-05" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Fund</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN">CONE</narrative>
@@ -34,13 +39,13 @@
     <narrative xml:lang="EN">DIALLO Kalidou</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Senior Country Economist</narrative>
+    <narrative xml:lang="EN">Country Economist, ECCE</narrative>
    </job-title>
    <telephone></telephone>
    <email>k.d.diallo@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Fund</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -133,6 +138,21 @@
    <value currency="XDR" value-date="2014-10-23">182934.42</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
+  <transaction afdb:finance-type-id="5000199003318">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-03-05"></transaction-date>
+   <value currency="XDR" value-date="2015-03-05">731737.66</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in March of 2015</narrative>
+   </description>
+   <provider-org ref="XM-DAC-SRF">
+    <narrative xml:lang="EN">Special Relief Funds</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction afdb:finance-type-id="5000199003318" ref="5000199003318">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2014-01-23"></transaction-date>
@@ -149,11 +169,11 @@
    <tied-status code="5"></tied-status>
   </transaction>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

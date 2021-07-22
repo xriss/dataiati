@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-SO-IC0-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Somalia - Emergency Assistance to December 2004 Tsunami Victims</narrative>
   </title>
   <description type="2">
    <narrative xml:lang="FR">L&apos;aide d&apos;urgence de la Banque a pour objectif de contribuer &#xE0; l&apos;att&#xE9;nuation des souffrances humaines, en particulier des femmes et des enfants en Somalie, &#xE0; la suite du tsunami.</narrative>
-  </description>
-  <description type="2">
    <narrative xml:lang="EN">The objective of the Bank emergency assistance is to contribute to the alleviation of human suffering, especially women and children, in Somalia following the tsunami.</narrative>
   </description>
-  <participating-org ref="SRF" role="1">
+  <participating-org ref="XM-DAC-SRF" role="1" type="40">
    <narrative xml:lang="EN">Special Relief Funds</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">World Food Program (WFP)</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2005-01-25" type="1"></activity-date>
   <activity-date iso-date="2005-08-26" type="2"></activity-date>
@@ -27,7 +30,7 @@
   <activity-date iso-date="2005-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -42,11 +45,7 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -56,6 +55,8 @@
    <name>
     <narrative xml:lang="EN">Xaafuun</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>10.4219 51.2549</pos>
    </point>
@@ -68,6 +69,8 @@
    <name>
     <narrative xml:lang="EN">Garacad</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.9429 49.32608</pos>
    </point>
@@ -76,7 +79,7 @@
    <feature-designation code="PPL"></feature-designation>
   </location>
   <sector code="13010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Population and Nutrition</narrative>
+   <narrative xml:lang="EN">Population policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
@@ -89,20 +92,35 @@
   <budget type="1">
    <period-start iso-date="2005-01-25"></period-start>
    <period-end iso-date="2005-04-25"></period-end>
-   <value currency="XDR" value-date="2005-01-25">217285.5</value>
+   <value currency="XDR" value-date="2005-01-25">108642.75</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2005-04-25"></period-start>
    <period-end iso-date="2005-07-25"></period-end>
-   <value currency="XDR" value-date="2005-04-25">217285.5</value>
+   <value currency="XDR" value-date="2005-04-25">108642.75</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2005-07-25"></period-start>
    <period-end iso-date="2005-12-31"></period-end>
-   <value currency="XDR" value-date="2005-07-25">217285.5</value>
+   <value currency="XDR" value-date="2005-07-25">108642.75</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5000199000168">
+  <transaction afdb:finance-type-id="5000199000168">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2005-12-31"></transaction-date>
+   <value currency="XDR" value-date="2005-12-31">325928.24</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in December of 2005</narrative>
+   </description>
+   <provider-org ref="XM-DAC-SRF">
+    <narrative xml:lang="EN">Special Relief Funds</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5000199000168" ref="5000199000168">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2005-08-26"></transaction-date>
    <value currency="XDR" value-date="2005-08-26">325928.24</value>
@@ -125,11 +143,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

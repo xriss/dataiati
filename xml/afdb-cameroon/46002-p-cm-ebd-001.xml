@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-CM-EBD-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Cameroon - Study of value flows and preparation of a solid waste recovery programme</narrative>
@@ -18,43 +18,42 @@
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Cameroon</narrative>
   </participating-org>
-  <participating-org ref="MIC" role="1">
+  <participating-org ref="XM-DAC-MIC Fund" role="1" type="40">
    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
   </participating-org>
-  <activity-status code="1"></activity-status>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
+  <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-12-22" type="1"></activity-date>
   <activity-date iso-date="2021-03-25" type="2"></activity-date>
-  <activity-date iso-date="2021-11-15" type="3"></activity-date>
-  <activity-date iso-date="2021-11-15" type="4"></activity-date>
   <activity-date iso-date="2022-12-31" type="3"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">COCM</narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">BOUNTSEBE Eboueme</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Senior Water and Sanitation Specialist</narrative>
+    <narrative xml:lang="EN">Water Engineer, AHWS</narrative>
    </job-title>
    <telephone></telephone>
    <email>e.bountsebe@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="CM" percentage="100"></recipient-country>
   <sector code="14050" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Solid Waste (Treatment)</narrative>
+   <narrative xml:lang="EN">Waste management/disposal</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="4.1.9" percentage="100" vocabulary="1">
@@ -70,34 +69,14 @@
    <value currency="XDR" value-date="2020-12-22">33250</value>
   </budget>
   <budget type="1">
-   <period-start iso-date="2020-12-22"></period-start>
-   <period-end iso-date="2021-03-22"></period-end>
-   <value currency="XDR" value-date="2020-12-22">66500</value>
-  </budget>
-  <budget type="1">
    <period-start iso-date="2021-03-22"></period-start>
    <period-end iso-date="2021-06-22"></period-end>
    <value currency="XDR" value-date="2021-03-22">33250</value>
   </budget>
   <budget type="1">
-   <period-start iso-date="2021-03-22"></period-start>
-   <period-end iso-date="2021-06-22"></period-end>
-   <value currency="XDR" value-date="2021-03-22">66500</value>
-  </budget>
-  <budget type="1">
    <period-start iso-date="2021-06-22"></period-start>
    <period-end iso-date="2021-09-22"></period-end>
    <value currency="XDR" value-date="2021-06-22">33250</value>
-  </budget>
-  <budget type="1">
-   <period-start iso-date="2021-06-22"></period-start>
-   <period-end iso-date="2021-09-22"></period-end>
-   <value currency="XDR" value-date="2021-06-22">66500</value>
-  </budget>
-  <budget type="1">
-   <period-start iso-date="2021-09-22"></period-start>
-   <period-end iso-date="2021-11-15"></period-end>
-   <value currency="XDR" value-date="2021-09-22">66500</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2021-09-22"></period-start>
@@ -125,7 +104,7 @@
    <value currency="XDR" value-date="2022-09-22">33250</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5500155013908">
+  <transaction afdb:finance-type-id="5500155013908" ref="5500155013908">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-03-25"></transaction-date>
    <value currency="XDR" value-date="2021-03-25">266000</value>
@@ -140,7 +119,7 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-03-25"></transaction-date>
    <value currency="XDR" value-date="2021-03-25">54000</value>
@@ -151,11 +130,11 @@
    <tied-status code="5"></tied-status>
   </transaction>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

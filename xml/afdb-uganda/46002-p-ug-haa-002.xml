@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-UG-HAA-002</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Line of Credit I (P)</narrative>
@@ -11,40 +11,33 @@
   <description type="1">
    <narrative xml:lang="EN">The activities of the study include, among others: 1.  consultancy services: Almost completedi.e we are waiting for the submission of revised draft report. 2.  degasification pilot plant: Done 3.  filed vehicles            : procured 4.  office equipment          : procured.</narrative>
   </description>
-  <participating-org ref="46002" role="1" type="40">
+  <participating-org ref="XM-DAC-46002" role="1" type="40">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1980-03-26" type="1"></activity-date>
   <activity-date iso-date="1980-06-26" type="2"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
-   <department>
-    <narrative xml:lang="EN"></narrative>
-   </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">private-sector@afdb.org</narrative>
    </person-name>
-   <job-title>
-    <narrative xml:lang="EN"></narrative>
-   </job-title>
-   <telephone></telephone>
-   <email>private-sector@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="UG" percentage="100"></recipient-country>
   <sector code="24030" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Development Banking</narrative>
+   <narrative xml:lang="EN">Formal sector financial intermediaries</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.12.1" percentage="100" vocabulary="1">
@@ -54,7 +47,13 @@
    </budget-item>
   </country-budget-items>
   <collaboration-type code="2"></collaboration-type>
-  <transaction>
+  <budget type="1">
+   <period-start iso-date="1980-06-26"></period-start>
+   <period-end iso-date="1980-09-26"></period-end>
+   <value currency="XDR" value-date="1980-06-26">9724913.12</value>
+  </budget>
+  <capital-spend percentage="0"></capital-spend>
+  <transaction afdb:finance-type-id="2000192000507">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1980-06-26"></transaction-date>
    <value currency="XDR" value-date="1980-06-26">9724913.12</value>
@@ -64,7 +63,7 @@
    <receiver-org>
     <narrative xml:lang="EN">UGANDA DEVELOPMENT BANK</narrative>
    </receiver-org>
-   <flow-type code="21"></flow-type>
+   <flow-type code="20"></flow-type>
    <finance-type code="421"></finance-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
@@ -77,11 +76,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

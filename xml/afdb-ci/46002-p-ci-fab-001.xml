@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-CI-FAB-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">C&#xF4;te d&apos;Ivoire - 44 MW Singrobo - Ahouaty Hydropower Project</narrative>
@@ -12,33 +12,27 @@
   <description>
    <narrative xml:lang="EN"></narrative>
   </description>
-  <participating-org ref="46002" role="1" type="40">
+  <participating-org ref="XM-DAC-46002" role="1" type="40">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="1"></activity-status>
   <activity-date iso-date="2017-12-06" type="1"></activity-date>
+  <activity-date iso-date="2021-06-24" type="2"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
-   <department>
-    <narrative xml:lang="EN"></narrative>
-   </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">private-sector@afdb.org</narrative>
    </person-name>
-   <job-title>
-    <narrative xml:lang="EN"></narrative>
-   </job-title>
-   <telephone></telephone>
-   <email>private-sector@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -48,6 +42,8 @@
    <name>
     <narrative xml:lang="EN">Singrobo</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.09308 -4.92094</pos>
    </point>
@@ -55,8 +51,8 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPL"></feature-designation>
   </location>
-  <sector code="23220" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Hydro Generation</narrative>
+  <sector code="23320" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Coal-fired electric power plants</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.6.6" percentage="100" vocabulary="1">
@@ -66,7 +62,13 @@
    </budget-item>
   </country-budget-items>
   <collaboration-type code="2"></collaboration-type>
-  <transaction>
+  <budget type="1">
+   <period-start iso-date="2021-06-24"></period-start>
+   <period-end iso-date="2021-09-24"></period-end>
+   <value currency="XDR" value-date="2021-06-24">39890858.61</value>
+  </budget>
+  <capital-spend percentage="0"></capital-spend>
+  <transaction afdb:finance-type-id="2000130018530">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2017-12-06"></transaction-date>
    <value currency="XDR" value-date="2017-12-06">39890858.61</value>
@@ -76,7 +78,22 @@
    <receiver-org>
     <narrative xml:lang="EN">IVOIRE HYDRO ENERGY SA</narrative>
    </receiver-org>
-   <flow-type code="21"></flow-type>
+   <flow-type code="20"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2000130021281">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-06-24"></transaction-date>
+   <value currency="XDR" value-date="2021-06-24">33325279.72</value>
+   <provider-org>
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">IVOIRE HYDRO ENERGY SA</narrative>
+   </receiver-org>
+   <flow-type code="20"></flow-type>
    <finance-type code="421"></finance-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
@@ -188,147 +205,12 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">CO2 emission reduced</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Ton/Year</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="109000"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Direct Jobs (Temporary) - of which women</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="250"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">SME effect (turnover from investments)</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">$ million</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="33"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Roads constructed, rehabilitated or maintained</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Km</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="4"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Power capacity installed</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">MW</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="44"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Renewable energy</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">MW</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="44"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Direct Jobs (Temporary)</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="500"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Households with new or improved electricity connections</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="8800"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Government revenue</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">$ million</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="9"></target>
-    </period>
-   </indicator>
-  </result>
  </iati-activity>
 </iati-activities>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-SD-IBE-003</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Sudan - Emergency Assistance to Blue Nile and White Nile States</narrative>
@@ -14,9 +14,14 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">GOVERNMENT OF SUDAN</narrative>
   </participating-org>
-  <participating-org ref="SRF" role="1">
+  <participating-org ref="XM-DAC-SRF" role="1" type="40">
    <narrative xml:lang="EN">Special Relief Funds</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2013-07-01" type="1"></activity-date>
   <activity-date iso-date="2013-08-28" type="2"></activity-date>
@@ -24,26 +29,22 @@
   <activity-date iso-date="2014-09-30" type="3"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">PETH</narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">ONYANGO Kenneth Jerry</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">CHIEF, REGIONAL ETHICS OFFICER</narrative>
+    <narrative xml:lang="EN">Ethics Training &amp; Liaison</narrative>
    </job-title>
-   <telephone>+225 2020 4432</telephone>
+   <telephone>+225 27 2026 4432</telephone>
    <email>k.onyango@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -53,7 +54,8 @@
    <name>
     <narrative xml:lang="EN">Blue Nile</narrative>
    </name>
-   <administrative code="2749.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
+   <administrative code="2749" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>11.15 34.1</pos>
    </point>
@@ -66,8 +68,8 @@
    <name>
     <narrative xml:lang="EN">White Nile</narrative>
    </name>
-   <administrative code="2770.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="37153.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="2770" level="1" vocabulary="G1"></administrative>
+   <administrative code="37153" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>13.5 32.4</pos>
    </point>
@@ -76,7 +78,7 @@
    <feature-designation code="PCLI"></feature-designation>
   </location>
   <sector code="12250" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Disease Control</narrative>
+   <narrative xml:lang="EN">Infectious disease control</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
@@ -89,25 +91,40 @@
   <budget type="1">
    <period-start iso-date="2013-07-01"></period-start>
    <period-end iso-date="2013-10-01"></period-end>
-   <value currency="XDR" value-date="2013-07-01">325928.25</value>
+   <value currency="XDR" value-date="2013-07-01">162964.12</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2013-10-01"></period-start>
    <period-end iso-date="2014-01-01"></period-end>
-   <value currency="XDR" value-date="2013-10-01">325928.25</value>
+   <value currency="XDR" value-date="2013-10-01">162964.12</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2014-01-01"></period-start>
    <period-end iso-date="2014-04-01"></period-end>
-   <value currency="XDR" value-date="2014-01-01">325928.25</value>
+   <value currency="XDR" value-date="2014-01-01">162964.12</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2014-04-01"></period-start>
    <period-end iso-date="2014-09-30"></period-end>
-   <value currency="XDR" value-date="2014-04-01">325928.25</value>
+   <value currency="XDR" value-date="2014-04-01">162964.12</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5000199002968">
+  <transaction afdb:finance-type-id="5000199002968">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-09-03"></transaction-date>
+   <value currency="XDR" value-date="2014-09-03">651856.49</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in September of 2014</narrative>
+   </description>
+   <provider-org ref="XM-DAC-SRF">
+    <narrative xml:lang="EN">Special Relief Funds</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5000199002968" ref="5000199002968">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2013-08-28"></transaction-date>
    <value currency="XDR" value-date="2013-08-28">651856.49</value>
@@ -130,11 +147,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

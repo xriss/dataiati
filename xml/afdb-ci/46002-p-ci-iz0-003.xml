@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-CI-IZ0-003</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">C&#xF4;te d&#x2019;Ivoire - Aide d&#x2019;urgence pour une assistance humanitaire aux victimes de violences post-&#xE9;lectorales</narrative>
@@ -11,15 +11,20 @@
   <description>
    <narrative xml:lang="EN"></narrative>
   </description>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">Comit&#xE9; international de la Croix-Rouge</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">International Committee of the Red Cross (ICRC)</narrative>
   </participating-org>
-  <participating-org ref="SRF" role="1">
+  <participating-org ref="XM-DAC-SRF" role="1" type="40">
    <narrative xml:lang="EN">Special Relief Funds</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2011-07-27" type="1"></activity-date>
   <activity-date iso-date="2011-08-09" type="2"></activity-date>
@@ -27,26 +32,22 @@
   <activity-date iso-date="2012-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">RDSA</narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">DIALLO Korka</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Advisor to the VP</narrative>
+    <narrative xml:lang="EN">Adviser to the Vice Presi</narrative>
    </job-title>
-   <telephone>+225 2020 4201</telephone>
+   <telephone>+225 27 2026 4201</telephone>
    <email>k.o.diallo@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -56,6 +57,8 @@
    <name>
     <narrative xml:lang="EN">Guiglo</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.54368 -7.4935</pos>
    </point>
@@ -68,6 +71,8 @@
    <name>
     <narrative xml:lang="EN">Duekou&#xE9;</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.74202 -7.34918</pos>
    </point>
@@ -80,6 +85,8 @@
    <name>
     <narrative xml:lang="EN">Zouan-Hounien</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.91937 -8.2065</pos>
    </point>
@@ -92,6 +99,8 @@
    <name>
     <narrative xml:lang="EN">Toul&#xE9;pleu</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.57974 -8.41091</pos>
    </point>
@@ -104,6 +113,8 @@
    <name>
     <narrative xml:lang="EN">Danan&#xE9;</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>7.25957 -8.15498</pos>
    </point>
@@ -111,13 +122,13 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPLA3"></feature-designation>
   </location>
-  <sector code="11232" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">More Than One Social Sub-Sector</narrative>
+  <sector code="43010" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Multisector aid</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="5.3.9" percentage="100" vocabulary="1">
+   <budget-item code="7.2.1" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Education - vocational training</narrative>
+     <narrative xml:lang="EN">General Budget Support - General Budget Support</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -125,30 +136,45 @@
   <budget type="1">
    <period-start iso-date="2011-07-27"></period-start>
    <period-end iso-date="2011-10-27"></period-end>
-   <value currency="XDR" value-date="2011-07-27">260742.6</value>
+   <value currency="XDR" value-date="2011-07-27">130371.3</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2011-10-27"></period-start>
    <period-end iso-date="2012-01-27"></period-end>
-   <value currency="XDR" value-date="2011-10-27">260742.6</value>
+   <value currency="XDR" value-date="2011-10-27">130371.3</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2012-01-27"></period-start>
    <period-end iso-date="2012-04-27"></period-end>
-   <value currency="XDR" value-date="2012-01-27">260742.6</value>
+   <value currency="XDR" value-date="2012-01-27">130371.3</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2012-04-27"></period-start>
    <period-end iso-date="2012-07-27"></period-end>
-   <value currency="XDR" value-date="2012-04-27">260742.6</value>
+   <value currency="XDR" value-date="2012-04-27">130371.3</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2012-07-27"></period-start>
    <period-end iso-date="2012-12-31"></period-end>
-   <value currency="XDR" value-date="2012-07-27">260742.6</value>
+   <value currency="XDR" value-date="2012-07-27">130371.3</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5000199002169">
+  <transaction afdb:finance-type-id="5000199002169">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2012-12-31"></transaction-date>
+   <value currency="XDR" value-date="2012-12-31">651856.49</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in December of 2012</narrative>
+   </description>
+   <provider-org ref="XM-DAC-SRF">
+    <narrative xml:lang="EN">Special Relief Funds</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5000199002169" ref="5000199002169">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2011-08-09"></transaction-date>
    <value currency="XDR" value-date="2011-08-09">651856.49</value>
@@ -190,11 +216,11 @@
    <language code="FR"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

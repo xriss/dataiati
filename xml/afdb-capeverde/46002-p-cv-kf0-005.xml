@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-CV-KF0-005</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Cap Vert - Projet d&apos;appui au recensement agricole</narrative>
@@ -11,19 +11,22 @@
   </title>
   <description type="2">
    <narrative xml:lang="FR">L&apos;objectif global du projet est de renforcer le syst&#xE8;me national des statistiques agricoles. De fa&#xE7;on sp&#xE9;cifique, il s&apos;agira de mettre un syst&#xE8;me permanent de production statistique sur le secteur agricole par : (i) le renouvellement de l&apos;information sur la structure agricole du pays ; (ii) la fourniture des bases de sondages pour les enqu&#xEA;tes agricoles; (iii) la mise &#xE0; disposition des donn&#xE9;es d&#xE9;taill&#xE9;es de r&#xE9;f&#xE9;rence fiables sur l&apos;agriculture et l&apos;&#xE9;levage (superficie cultiv&#xE9;es par type de culture, structure par &#xE2;ge du troupeau, etc.) ; et (iv) la r&#xE9;alisation d&apos;une enqu&#xEA;te pour estimer les donn&#xE9;es de r&#xE9;f&#xE9;rence sur les rendements et les productions de toutes les cultures.</narrative>
-  </description>
-  <description type="2">
    <narrative xml:lang="EN">The overall objective of the project is to strengthen the national agricultural statistics system. Specifically, it will involve setting up a permanent system of statistical production on the agricultural sector by: (i) the renewal of information on the country&apos;s agricultural structure; (ii) the provision of sampling frames for agricultural surveys; (iii) the provision of reliable detailed reference data on agriculture and livestock (area cultivated by crop type, age structure of the herd, etc.); and (iv) the conduct of a survey to estimate reference data on yields and production of all crops.</narrative>
   </description>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">Gouvernement du Cap Vert</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">Instituto Nacional de Estat&#xED;stica (INE)</narrative>
   </participating-org>
-  <participating-org ref="MIC" role="1">
+  <participating-org ref="XM-DAC-MIC Fund" role="1" type="40">
    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2014-06-25" type="1"></activity-date>
   <activity-date iso-date="2014-12-16" type="2"></activity-date>
@@ -31,26 +34,22 @@
   <activity-date iso-date="2020-06-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">ECST2</narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">NGENDAKUMANA Vincent</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Principal Agriculture Statistician</narrative>
+    <narrative xml:lang="EN">Agriculture Statistician,</narrative>
    </job-title>
-   <telephone>+225 2020 3140</telephone>
+   <telephone>+225 27 2026 3140</telephone>
    <email>v.ngendakumana@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -58,22 +57,24 @@
   <location>
    <location-id code="3374766" vocabulary="G1"></location-id>
    <name>
-    <narrative xml:lang="EN">Republic of Cabo Verde</narrative>
+    <narrative xml:lang="EN">Cape Verde</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>16.0 -24.0</pos>
+    <pos>16 -24</pos>
    </point>
-   <exactness code="1"></exactness>
+   <exactness code="2"></exactness>
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
-  <sector code="15124" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Institutional Support</narrative>
+  <sector code="15110" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.1.1" percentage="100" vocabulary="1">
+   <budget-item code="3.8.13" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">General Economic, Commercial and Labour Affairs - policy, planning and administration</narrative>
+     <narrative xml:lang="EN">Transport - meteorological services</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -81,125 +82,155 @@
   <budget type="1">
    <period-start iso-date="2014-06-25"></period-start>
    <period-end iso-date="2014-09-25"></period-end>
-   <value currency="XDR" value-date="2014-06-25">64996.67</value>
+   <value currency="XDR" value-date="2014-06-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2014-09-25"></period-start>
    <period-end iso-date="2014-12-25"></period-end>
-   <value currency="XDR" value-date="2014-09-25">64996.67</value>
+   <value currency="XDR" value-date="2014-09-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2014-12-25"></period-start>
    <period-end iso-date="2015-03-25"></period-end>
-   <value currency="XDR" value-date="2014-12-25">64996.67</value>
+   <value currency="XDR" value-date="2014-12-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2015-03-25"></period-start>
    <period-end iso-date="2015-06-25"></period-end>
-   <value currency="XDR" value-date="2015-03-25">64996.67</value>
+   <value currency="XDR" value-date="2015-03-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2015-06-25"></period-start>
    <period-end iso-date="2015-09-25"></period-end>
-   <value currency="XDR" value-date="2015-06-25">64996.67</value>
+   <value currency="XDR" value-date="2015-06-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2015-09-25"></period-start>
    <period-end iso-date="2015-12-25"></period-end>
-   <value currency="XDR" value-date="2015-09-25">64996.67</value>
+   <value currency="XDR" value-date="2015-09-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2015-12-25"></period-start>
    <period-end iso-date="2016-03-25"></period-end>
-   <value currency="XDR" value-date="2015-12-25">64996.67</value>
+   <value currency="XDR" value-date="2015-12-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2016-03-25"></period-start>
    <period-end iso-date="2016-06-25"></period-end>
-   <value currency="XDR" value-date="2016-03-25">64996.67</value>
+   <value currency="XDR" value-date="2016-03-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2016-06-25"></period-start>
    <period-end iso-date="2016-09-25"></period-end>
-   <value currency="XDR" value-date="2016-06-25">64996.67</value>
+   <value currency="XDR" value-date="2016-06-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2016-09-25"></period-start>
    <period-end iso-date="2016-12-25"></period-end>
-   <value currency="XDR" value-date="2016-09-25">64996.67</value>
+   <value currency="XDR" value-date="2016-09-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2016-12-25"></period-start>
    <period-end iso-date="2017-03-25"></period-end>
-   <value currency="XDR" value-date="2016-12-25">64996.67</value>
+   <value currency="XDR" value-date="2016-12-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2017-03-25"></period-start>
    <period-end iso-date="2017-06-25"></period-end>
-   <value currency="XDR" value-date="2017-03-25">64996.67</value>
+   <value currency="XDR" value-date="2017-03-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2017-06-25"></period-start>
    <period-end iso-date="2017-09-25"></period-end>
-   <value currency="XDR" value-date="2017-06-25">64996.67</value>
+   <value currency="XDR" value-date="2017-06-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2017-09-25"></period-start>
    <period-end iso-date="2017-12-25"></period-end>
-   <value currency="XDR" value-date="2017-09-25">64996.67</value>
+   <value currency="XDR" value-date="2017-09-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2017-12-25"></period-start>
    <period-end iso-date="2018-03-25"></period-end>
-   <value currency="XDR" value-date="2017-12-25">64996.67</value>
+   <value currency="XDR" value-date="2017-12-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2018-03-25"></period-start>
    <period-end iso-date="2018-06-25"></period-end>
-   <value currency="XDR" value-date="2018-03-25">64996.67</value>
+   <value currency="XDR" value-date="2018-03-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2018-06-25"></period-start>
    <period-end iso-date="2018-09-25"></period-end>
-   <value currency="XDR" value-date="2018-06-25">64996.67</value>
+   <value currency="XDR" value-date="2018-06-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2018-09-25"></period-start>
    <period-end iso-date="2018-12-25"></period-end>
-   <value currency="XDR" value-date="2018-09-25">64996.67</value>
+   <value currency="XDR" value-date="2018-09-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2018-12-25"></period-start>
    <period-end iso-date="2019-03-25"></period-end>
-   <value currency="XDR" value-date="2018-12-25">64996.67</value>
+   <value currency="XDR" value-date="2018-12-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2019-03-25"></period-start>
    <period-end iso-date="2019-06-25"></period-end>
-   <value currency="XDR" value-date="2019-03-25">64996.67</value>
+   <value currency="XDR" value-date="2019-03-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2019-06-25"></period-start>
    <period-end iso-date="2019-09-25"></period-end>
-   <value currency="XDR" value-date="2019-06-25">64996.67</value>
+   <value currency="XDR" value-date="2019-06-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2019-09-25"></period-start>
    <period-end iso-date="2019-12-25"></period-end>
-   <value currency="XDR" value-date="2019-09-25">64996.67</value>
+   <value currency="XDR" value-date="2019-09-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2019-12-25"></period-start>
    <period-end iso-date="2020-03-25"></period-end>
-   <value currency="XDR" value-date="2019-12-25">64996.67</value>
+   <value currency="XDR" value-date="2019-12-25">32498.33</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2020-03-25"></period-start>
    <period-end iso-date="2020-06-30"></period-end>
-   <value currency="XDR" value-date="2020-03-25">64996.67</value>
+   <value currency="XDR" value-date="2020-03-25">32498.33</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5500155008203">
+  <transaction afdb:finance-type-id="5500155008203">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="XDR" value-date="2021-02-28">3611.22</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in February of 2021</narrative>
+   </description>
+   <provider-org ref="XM-DAC-MIC Fund">
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5500155008203">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-09-30"></transaction-date>
+   <value currency="XDR" value-date="2015-09-30">551849.13</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2015</narrative>
+   </description>
+   <provider-org ref="XM-DAC-MIC Fund">
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5500155008203" ref="5500155008203">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2014-12-16"></transaction-date>
    <value currency="XDR" value-date="2014-12-16">779960</value>
@@ -214,28 +245,6 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="XDR" value-date="2021-02-28">3611.22</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in February of 2021</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-30"></transaction-date>
-   <value currency="XDR" value-date="2015-09-30">551849.13</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2015</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-  </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fcabo_verde_-_projet_dappui_au_recensement_general_de_lagriculture_-_memorandum.pdf#page=11&amp;zoom=auto,-13,298">
    <title>
     <narrative xml:lang="EN">Appraisal Report</narrative>
@@ -248,6 +257,13 @@
    <category code="A08"></category>
    <language code="EN"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
+   <title>
+    <narrative xml:lang="EN">Conditions</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fcabo_verde_-_support_for_the_general_agricultural_census_gac_-_project_completion_report.pdf#page=2&amp;zoom=auto,-13,6">
    <title>
     <narrative xml:lang="EN">Project Completion Report</narrative>
@@ -255,22 +271,6 @@
    <category code="A03"></category>
    <category code="A07"></category>
    <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fcabo_verde_-_appui_au_recensement_general_agricole_-_rapport_dachevement_de_projet.pdf#page=1&amp;zoom=auto,-13,792">
-   <title>
-    <narrative xml:lang="EN">Project Completion Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
-   <title>
-    <narrative xml:lang="EN">Conditions</narrative>
-   </title>
-   <category code="A04"></category>
    <language code="EN"></language>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fcabo_verde_-_appui_au_recensement_agricole_-_eer_juillet_2019.pdf#page=1&amp;zoom=auto,-13,792">
@@ -282,12 +282,29 @@
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fcabo_verde_-_appui_au_recensement_general_agricole_-_rapport_dachevement_de_projet.pdf#page=1&amp;zoom=auto,-13,792">
+   <title>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
+  <document-link format="APPLICATION/VND.MS-EXCEL" url="https://www.afdb.org/sites/default/files/2021/03/09/listing_of_awarded_contracts_from_2015_to_2020_as_at_february_2021.xlsx">
+   <title>
+    <narrative xml:lang="EN">Contract</narrative>
+   </title>
+   <category code="A06"></category>
+   <category code="A11"></category>
+   <language code="EN"></language>
+  </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>
