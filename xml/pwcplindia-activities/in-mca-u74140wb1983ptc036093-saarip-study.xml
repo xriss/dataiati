@@ -39,15 +39,34 @@
   <default-flow-type code="10"></default-flow-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="1" type="1">
+  <budget status="2" type="1">
    <period-start iso-date="2020-04-01"></period-start>
    <period-end iso-date="2021-03-31"></period-end>
-   <value currency="INR" value-date="2021-03-31">21150</value>
+   <value currency="GBP" value-date="2021-03-31">12479</value>
+  </budget>
+  <budget status="2" type="1">
+   <period-start iso-date="2021-04-01"></period-start>
+   <period-end iso-date="2022-03-31"></period-end>
+   <value currency="GBP" value-date="2021-04-01">12479</value>
   </budget>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-01-28"></transaction-date>
    <value currency="GBP" value-date="2021-01-28">12479</value>
+   <description>
+    <narrative xml:lang="EN">Payment received from FCDO</narrative>
+   </description>
+   <provider-org ref="GB-GOV-1" type="10">
+    <narrative xml:lang="EN">Foreign, Commonwealth and Development Office (FCDO)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="IN-MCA-U74140WB1983PTC036093-SAARIP Study" ref="IN-MCA-U74140WB1983PTC036093" type="70">
+    <narrative xml:lang="EN">PricewaterhouseCoopers Private Limited India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-04-07"></transaction-date>
+   <value currency="GBP" value-date="2021-04-07">12479</value>
    <description>
     <narrative xml:lang="EN">Payment received from FCDO</narrative>
    </description>
