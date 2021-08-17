@@ -92,7 +92,7 @@
    <receiver-org receiver-activity-id="NDSICDE-002" ref="NG-CAC-73022" type="22"></receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction ref="2nd Year Disbursement">
+  <transaction ref="2nd Year Disbursement 1">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-11-30"></transaction-date>
    <value currency="NGN" value-date="2020-11-30">1082873</value>
@@ -116,22 +116,30 @@
    <receiver-org ref="GB-CHC-1148143" type="21"></receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="0" ref="Q1 Expenditure">
+  <transaction humanitarian="0" ref="Incoming Commitment">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2019-12-01"></transaction-date>
+   <value currency="NGN" value-date="2019-12-01">431505427</value>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000003143" ref="XM-DAC-7" type="10"></provider-org>
+   <receiver-org receiver-activity-id="NG-CAC-73022-NDSICDE-002" ref="NG-CAC-73022" type="22"></receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Q1 Expenditure 2020">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-02-29"></transaction-date>
    <value currency="NGN" value-date="2020-02-29">3623482</value>
   </transaction>
-  <transaction ref="Q2 Expenditure">
+  <transaction ref="Q2 Expenditure 2020">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-05-31"></transaction-date>
    <value currency="NGN" value-date="2020-05-31">8780988</value>
   </transaction>
-  <transaction ref="Q3 Expenditure">
+  <transaction ref="Q3 Expenditure 2020">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
    <value currency="NGN" value-date="2020-08-31">15218911</value>
   </transaction>
-  <transaction ref="Q4 Expenditure">
+  <transaction ref="Q4 Expenditure 2020">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="NGN" value-date="2020-12-31">22206455</value>
@@ -208,10 +216,13 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
+     <target value="2">
       <location ref="Nigeria"></location>
+      <comment>
+       <narrative xml:lang="EN">The baseline is still underdevelopment, so no reports from the platform yet.</narrative>
+      </comment>
      </target>
      <actual value="1">
       <location ref="Nigeria"></location>
@@ -221,57 +232,26 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2021-04-01"></period-start>
-     <period-end iso-date="2021-06-30"></period-end>
+     <period-start iso-date="2020-12-01"></period-start>
+     <period-end iso-date="2021-11-30"></period-end>
      <target value="2">
       <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">At least 60% of environmental organizations, journalists, and researchers indicate reports and dashboard analysis is usefull and resourceful for their use</narrative>
-      </comment>
      </target>
      <actual value="1">
       <location ref="Nigeria"></location>
       <comment>
-       <narrative xml:lang="EN">The online dashboard was developed in the last quarter of 2020, and will be updated after every survey.</narrative>
+       <narrative xml:lang="EN">The online dashboard was developed in the last quarter of 2020, and will be updated quarterly.
+At least 60% of environmental organizations, journalists, and researchers indicate reports and dashboard analysis is usefull and resourceful for their use</narrative>
       </comment>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="1">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">The online dashboard was developed in the last quarter of 2020, and will be updated quarterly.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">The baseline is still underdevelopment, so no reports from the platform yet.</narrative>
-      </comment>
-     </target>
-     <actual>
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">There are no reports yet</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
+     <period-start iso-date="2019-12-01"></period-start>
      <period-end iso-date="2024-11-30"></period-end>
-     <target value="2">
+     <target value="10">
       <location ref="Nigeria"></location>
      </target>
-     <actual>
+     <actual value="0">
       <location ref="Nigeria"></location>
      </actual>
     </period>
@@ -290,32 +270,16 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2021-04-01"></period-start>
-     <period-end iso-date="2021-06-30"></period-end>
-     <target value="3">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">Stakeholders that attended the meetings</narrative>
-      </comment>
-     </target>
-     <actual value="1">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">The first stakeholder engagement meeting was organised in June. This meeting was divided into two sessions focussing on technical issues and community issues.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
+     <period-start iso-date="2019-12-01"></period-start>
      <period-end iso-date="2024-11-30"></period-end>
-     <target value="3">
+     <target value="15">
       <location ref="Nigeria"></location>
       <dimension name="Engagements"></dimension>
       <comment>
        <narrative xml:lang="EN">These engagments will be done quarterly.</narrative>
       </comment>
      </target>
-     <actual value="2">
+     <actual value="4">
       <location ref="Nigeria"></location>
       <comment>
        <narrative xml:lang="EN">We have had an indroductory meeting with HYPREP, and another meeting with UNEP to development contents for the training of monitors.</narrative>
@@ -323,22 +287,24 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
+     <period-start iso-date="2020-12-01"></period-start>
+     <period-end iso-date="2021-11-30"></period-end>
+     <target value="3">
       <location ref="Nigeria"></location>
      </target>
      <actual value="2">
       <location ref="Nigeria"></location>
       <comment>
-       <narrative xml:lang="EN">We have held 2 stakeholder meetings with HYPREP in January and March.</narrative>
+       <narrative xml:lang="EN">We have held 2 stakeholder meetings with HYPREP in January and March.
+Stakeholders that attended the meetings.
+The first stakeholder engagement meeting was organised in June. This meeting was divided into two sessions focussing on technical issues and community issues.</narrative>
       </comment>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
-     <target>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
+     <target value="3">
       <location ref="Nigeria"></location>
       <comment>
        <narrative xml:lang="EN">These engagments will be done quarterly.</narrative>
@@ -347,20 +313,8 @@
      <actual value="3">
       <location ref="Nigeria"></location>
       <comment>
-       <narrative xml:lang="EN">We held 3 meetings this quarter with NOSDRA were we discussed participation of CSOs as part of their remediation closeout process; aother one with UNEP to discuss moalities and state of preparations for the training; and a meeting with HYPREP were it was agreed that we should proceed with independent monitoring of their remediation works.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="3">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We held 3 meetings this quarter with NOSDRA, HYPREP and UNEP. At this meetings, we got approval from NOSDRA to join their team and also approval from HYPREP to access sites and finalised the training details with UNEP.</narrative>
+       <narrative xml:lang="EN">We held 3 meetings this quarter with NOSDRA were we discussed participation of CSOs as part of their remediation closeout process; another one with UNEP to discuss modalities and state of preparations for the training; and a meeting with HYPREP were it was agreed that we should proceed with independent monitoring of their remediation works.
+We held another 3 meetings later with NOSDRA, HYPREP and UNEP. At this meetings, we got approval from NOSDRA to join their team and also approval from HYPREP to access sites and finalised the training details with UNEP.</narrative>
       </comment>
      </actual>
     </period>
@@ -379,52 +333,38 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="0">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">Due to Covid-19 restrictions, we were unable to write a report</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
-     <target>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
+     <target value="1">
       <location ref="Nigeria"></location>
       <comment>
        <narrative xml:lang="EN">We have gotten the 10 broad project KPIs</narrative>
       </comment>
      </target>
-     <actual value="1">
+     <actual value="0">
       <location ref="Nigeria"></location>
       <comment>
-       <narrative xml:lang="EN">The KPIs collected don&apos;t serve the purpose expected on the dashboard. We hav asked for basline data for each remediation site.</narrative>
+       <narrative xml:lang="EN">The KPIs collected don&apos;t serve the purpose expected on the dashboard. We hav asked for basline data for each remediation site.
+Due to Covid-19 restrictions, we were unable to write a report</narrative>
       </comment>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2021-04-01"></period-start>
-     <period-end iso-date="2021-06-30"></period-end>
-     <target value="2">
+     <period-start iso-date="2020-12-01"></period-start>
+     <period-end iso-date="2021-11-30"></period-end>
+     <target value="1">
       <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">At least 2 progress report on the Ogoniland clean-up produced and available for public access</narrative>
-      </comment>
      </target>
      <actual value="0">
       <location ref="Nigeria"></location>
       <comment>
-       <narrative xml:lang="EN">The first progress report is due in July, 2021</narrative>
+       <narrative xml:lang="EN">The first progress report is due in July, 2021
+At least 2 progress report on the Ogoniland clean-up produced and available for public access</narrative>
       </comment>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
+     <period-start iso-date="2019-12-01"></period-start>
      <period-end iso-date="2024-11-30"></period-end>
      <target value="2">
       <location ref="Nigeria"></location>
@@ -433,23 +373,10 @@
        <narrative xml:lang="EN">We have commenced the development of the online dashboard that will display the information that the reports will be based on.</narrative>
       </comment>
      </target>
-     <actual value="1">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">The online dashboard is under-development and will be hosted on SDN&apos;s website.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
      <actual value="0">
       <location ref="Nigeria"></location>
       <comment>
-       <narrative xml:lang="EN">The progress report is due in July, 2021</narrative>
+       <narrative xml:lang="EN">The online dashboard is under-development and will be hosted on SDN&apos;s website.</narrative>
       </comment>
      </actual>
     </period>
@@ -476,51 +403,39 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
+     <period-start iso-date="2020-12-01"></period-start>
+     <period-end iso-date="2021-11-30"></period-end>
+     <target value="31">
+      <location ref="Nigeria"></location>
+     </target>
+     <actual value="27">
+      <location ref="Nigeria"></location>
+      <dimension name="Males and Females" value="20 and 7"></dimension>
+      <comment>
+       <narrative xml:lang="EN">10 Environment focused CSOs and 21 commuity persons were trained UNEP by UNEP on contaminated site assessment and sample collection. 
+In March, the 21 community monitors trained in 2020, were further trained on the use of Kobo Toolbox for the conduct of community surveys.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
+     <target value="31">
       <location ref="Nigeria"></location>
       <comment>
        <narrative xml:lang="EN">The environmental monitors  are made up of CSOs and Community persons</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="27">
       <location ref="Nigeria"></location>
-      <dimension name="20 males and 11 females" value="11 females"></dimension>
-      <comment>
-       <narrative xml:lang="EN">10 Environment focused CSOs and 21 commuity persons were trained UNEP by UNEP on contaminated site assessment and sample collection.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="8 CSO organisations; 20 community folks">
-      <location ref="Nigeria"></location>
+      <dimension name="CSO organisations and community folks" value="8 and 20"></dimension>
       <comment>
        <narrative xml:lang="EN">8 CSOs have agreed to participate. 20 commuity persons with some basic experience on environmental monitoring have been identified for training. The training curiculum have already been develop by UNEP.</narrative>
       </comment>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="21 community monitors">
-      <location ref="Nigeria"></location>
-      <dimension name="12 males and 9 females" value="11 women"></dimension>
-      <comment>
-       <narrative xml:lang="EN">In March, the 21 community monitors trained in 2020, were further trained on the use of Kobo Toolbox for the conduct of community surveys.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
+     <period-start iso-date="2019-12-01"></period-start>
      <period-end iso-date="2024-11-30"></period-end>
      <target value="31">
       <location ref="Nigeria"></location>
@@ -529,8 +444,9 @@
        <narrative xml:lang="EN">The environmental monitors will be made up of CSOs and Community persons</narrative>
       </comment>
      </target>
-     <actual value="10 CSO organisations">
+     <actual value="27">
       <location ref="Nigeria"></location>
+      <dimension name="Civil Society organisations and Community Persons" value="10 and 21"></dimension>
       <comment>
        <narrative xml:lang="EN">We have identified 10 CSO and have developed criteria for the selection of 21 commuity persons who be trained. The training curiculum have already been develop by UNEP</narrative>
       </comment>
@@ -551,22 +467,9 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual>
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">8 CSOs have agreed to participate. 20 commuity persons with some basic experience on environmental monitoring have been identified for training. The training curiculum have already been develop by UNEP.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
+     <period-start iso-date="2020-12-01"></period-start>
+     <period-end iso-date="2021-11-30"></period-end>
+     <target value="21">
       <location ref="Nigeria"></location>
      </target>
      <actual value="21 community monitors">
@@ -578,12 +481,16 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
+     <target value="31">
       <location ref="Nigeria"></location>
+      <dimension name="Civil Society Organisations and Community Persons" value="10 and 21"></dimension>
+      <comment>
+       <narrative xml:lang="EN">8 CSOs have agreed to participate. 20 commuity persons with some basic experience on environmental monitoring have been identified for training. The training curiculum have already been develop by UNEP.</narrative>
+      </comment>
      </target>
-     <actual>
+     <actual value="31">
       <location ref="Nigeria"></location>
       <comment>
        <narrative xml:lang="EN">The trained environmental monitors have began using their acquired skills, as they collected 101 soil and 4 water samples.</narrative>
@@ -591,7 +498,7 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
+     <period-start iso-date="2019-12-01"></period-start>
      <period-end iso-date="2024-11-30"></period-end>
      <target value="31">
       <location ref="Nigeria"></location>
@@ -600,8 +507,9 @@
        <narrative xml:lang="EN">The environmental monitors will be made up of CSOs and Community persons</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="31">
       <location ref="Nigeria"></location>
+      <dimension name="Civil Society Organisations and Community Persons" value="10 and 21"></dimension>
       <comment>
        <narrative xml:lang="EN">We have identified 10 CSO and have developed criteria for the selection of 21 commuity persons who be trained. The training curiculum have already been develop by UNEP</narrative>
       </comment>
@@ -622,37 +530,8 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="1">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">The M&amp;E plan has been developed.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="1">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">Development of an M&amp;E plan with the stakeholders concluded</narrative>
-      </comment>
-     </target>
-     <actual value="1">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We have developed an M&amp;E plan</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
      <target value="1">
       <location ref="Nigeria"></location>
       <comment>
@@ -667,12 +546,12 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
+     <period-start iso-date="2019-12-01"></period-start>
      <period-end iso-date="2024-11-30"></period-end>
-     <target>
+     <target value="1">
       <location ref="Nigeria"></location>
      </target>
-     <actual>
+     <actual value="1">
       <location ref="Nigeria"></location>
      </actual>
     </period>
@@ -688,21 +567,8 @@
      <location ref="Nigeria"></location>
     </baseline>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="1">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">This has been completed and is now in use.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
      <target value="1">
       <location ref="Nigeria"></location>
       <comment>
@@ -717,28 +583,12 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2024-11-30"></period-end>
      <target value="1">
       <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">Used  standard reporting template</narrative>
-      </comment>
      </target>
      <actual value="1">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We have put to use field sampling template</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2024-11-30"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual>
       <location ref="Nigeria"></location>
      </actual>
     </period>
@@ -765,70 +615,44 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2021-04-01"></period-start>
-     <period-end iso-date="2021-06-30"></period-end>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
      <target value="3">
       <location ref="Nigeria"></location>
+     </target>
+     <actual value="0">
+      <location ref="Nigeria"></location>
       <comment>
-       <narrative xml:lang="EN">At least 3 number of commitment/actions taken by CSOs to advocate to HYPREP and other government agencies on issues identified and ensure implementation of clean-up activities</narrative>
+       <narrative xml:lang="EN">We are yet to carry out surveys and interviews of participants</narrative>
       </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-01"></period-start>
+     <period-end iso-date="2021-11-30"></period-end>
+     <target value="3">
+      <location ref="Nigeria"></location>
      </target>
      <actual value="1">
       <location ref="Nigeria"></location>
+      <dimension name="Focus group discussions in 14 communities of Ogoniland and community perception surveys of 1400 respondent"></dimension>
       <comment>
-       <narrative xml:lang="EN">CSOs during the stakeholder engagement, charged HYPREP to improve on their community relationship strategies to reduce conflict.</narrative>
+       <narrative xml:lang="EN">We conducted community perception surveys of 1400 respondent and focus group discussions in 14 communities of Ogoniland.
+At least 3 number of commitment/actions taken by CSOs to advocate to HYPREP and other government agencies on issues identified and ensure implementation of clean-up activities.
+CSOs during the stakeholder engagement, charged HYPREP to improve on their community relationship strategies to reduce conflict.</narrative>
       </comment>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual>
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We are yet to carry out surveys and interviews of participants</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="Focus group discussions in 14 communities of Ogoniland and community perception surveys of 1400 respondent">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We conducted community perception surveys of 1400 respondent and focus group discussions in 14 communities of Ogoniland</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We are yet to carry out surveys and interviews of participants</narrative>
-      </comment>
-     </target>
-     <actual>
-      <location ref="Nigeria"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
+     <period-start iso-date="2019-12-01"></period-start>
      <period-end iso-date="2024-11-30"></period-end>
-     <target>
+     <target value="15">
       <location ref="Nigeria"></location>
       <comment>
        <narrative xml:lang="EN">Records of interviews and surveys</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="1">
       <location ref="Nigeria"></location>
      </actual>
     </period>
@@ -847,75 +671,49 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="2">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We held 1 meeting with HYPREP in January to discuss the progress of water provision. In March, HYPREP invited us to the flag off of water projects in Ogoniland.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="1">
-      <location ref="Nigeria"></location>
-      <dimension value="8 women attended"></dimension>
-      <comment>
-       <narrative xml:lang="EN">We held a meeting in December on the progress of HYPREP and their 2021 plans. In attendance was the Minister of Environment. Participants used the opportunity to ask questions and got clarifications on HYPREP&apos;s plans. The Minister said changes have begun at HYPREP and promised that these will make HPREP perform better.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2024-11-30"></period-end>
-     <target value="3">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">Reports and periodic engagements with HYPREP will lead to changes that will enhance the clean-up process</narrative>
-      </comment>
-     </target>
-     <actual value="1">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We held a meeting with HYPREP in February, 2020, where we introduced the project and solicited for their cooperation. The organisation welcomed the idea of the project and agreed in principle to participate.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-07-01"></period-start>
-     <period-end iso-date="2020-09-30"></period-end>
-     <target value="3">
-      <location ref="Nigeria"></location>
-     </target>
-     <actual value="1">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We held a meeting with HYPREP in September, where they have agreed and approved CSOs to monitor the remediation project</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-04-01"></period-start>
-     <period-end iso-date="2021-06-30"></period-end>
+     <period-start iso-date="2020-12-01"></period-start>
+     <period-end iso-date="2021-11-30"></period-end>
      <target value="3">
       <location ref="Nigeria"></location>
       <comment>
        <narrative xml:lang="EN">At least 3 number of commitment/actions taken by HYPREP to progress activities of the Ogoniland clean-up in response to issues identified by the project</narrative>
       </comment>
      </target>
+     <actual value="3">
+      <location ref="Nigeria"></location>
+      <dimension value="8 women attended"></dimension>
+      <comment>
+       <narrative xml:lang="EN">We held a meeting in December on the progress of HYPREP and their 2021 plans. In attendance was the Minister of Environment. Participants used the opportunity to ask questions and got clarifications on HYPREP&apos;s plans. The Minister said changes have begun at HYPREP and promised that these will make HPREP perform better.
+We held 1 meeting with HYPREP in January to discuss the progress of water provision. In March, HYPREP invited us to the flag off of water projects in Ogoniland.
+a. As a result of our work, HYPREP invited SDN to participate at the water project kick-off meeting with contractors. b. HYPREP has committed to work on the issues and concerns that were raised at the stakeholder engagment meeting.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-12-01"></period-start>
+     <period-end iso-date="2021-11-30"></period-end>
+     <target value="3">
+      <location ref="Nigeria"></location>
+     </target>
      <actual value="2">
       <location ref="Nigeria"></location>
       <comment>
-       <narrative xml:lang="EN">a. As a result of our work, HYPREP invited SDN to participate at the water project kick-off meeting with contractors. b. HYPREP has committed to work on the issues and concerns that were raised at the stakeholder engagment meeting.</narrative>
+       <narrative xml:lang="EN">We held a meeting with HYPREP in February, 2020, where we introduced the project and solicited for their cooperation. The organisation welcomed the idea of the project and agreed in principle to participate.
+We held a meeting with HYPREP in September, where they have agreed and approved CSOs to monitor the remediation project</narrative>
       </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2024-11-30"></period-end>
+     <target value="15">
+      <location ref="Nigeria"></location>
+      <comment>
+       <narrative xml:lang="EN">Reports and periodic engagements with HYPREP will lead to changes that will enhance the clean-up process</narrative>
+      </comment>
+     </target>
+     <actual value="3">
+      <location ref="Nigeria"></location>
      </actual>
     </period>
    </indicator>
@@ -941,22 +739,9 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual>
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">A digital archive is yet to be created since site visits is yet to commence</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
+     <target value="1">
       <location ref="Nigeria"></location>
      </target>
      <actual value="1">
@@ -967,20 +752,7 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual>
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We have developed an online database hosted on the SDN drive.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
+     <period-start iso-date="2019-12-01"></period-start>
      <period-end iso-date="2024-11-30"></period-end>
      <target value="1 Digital Archive">
       <location ref="Nigeria"></location>
@@ -988,7 +760,7 @@
        <narrative xml:lang="EN">There will be one repository for all data collected.</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="1">
       <location ref="Nigeria"></location>
      </actual>
     </period>
@@ -1004,25 +776,9 @@
      <location ref="Nigeria"></location>
     </baseline>
     <period>
-     <period-start iso-date="2021-04-01"></period-start>
-     <period-end iso-date="2021-06-30"></period-end>
+     <period-start iso-date="2019-12-01"></period-start>
+     <period-end iso-date="2020-11-30"></period-end>
      <target value="21">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">21 sites visits successfully conducted</narrative>
-      </comment>
-     </target>
-     <actual value="10">
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">Soil and water samples have been collected from Lots 1,3,6,7,14,15,19,20,21,43.</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-10-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
       <location ref="Nigeria"></location>
      </target>
      <actual value="4">
@@ -1033,33 +789,21 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-03-31"></period-end>
-     <target>
+     <period-start iso-date="2020-12-01"></period-start>
+     <period-end iso-date="2021-11-30"></period-end>
+     <target value="21">
       <location ref="Nigeria"></location>
      </target>
-     <actual value="4">
+     <actual value="11">
       <location ref="Nigeria"></location>
       <comment>
-       <narrative xml:lang="EN">The trained environmental monitors carried out 4 remediation lots(sites) visits to Lots 14, 19 and 20. 93 soil and 8 water samples were collected.</narrative>
+       <narrative xml:lang="EN">The trained environmental monitors carried out 4 remediation lots(sites) visits to Lots 14, 19 and 20. 93 soil and 8 water samples were collected.
+Soil and water samples have been collected from Lots 1,3,6,7,14,15,19,20,21,43.</narrative>
       </comment>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-06-01"></period-start>
-     <period-end iso-date="2020-08-31"></period-end>
-     <target>
-      <location ref="Nigeria"></location>
-     </target>
-     <actual>
-      <location ref="Nigeria"></location>
-      <comment>
-       <narrative xml:lang="EN">We are yet to commence site visits</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
+     <period-start iso-date="2019-12-01"></period-start>
      <period-end iso-date="2024-11-30"></period-end>
      <target value="105 Site Visits">
       <location ref="Nigeria"></location>
@@ -1067,7 +811,7 @@
        <narrative xml:lang="EN">There are presently 21 active remediation sites in Ogoni, which will be visited 5 times each. The number of sites will increase to 57 sites as an additional 36 site will be added in 2020.</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="15">
       <location ref="Nigeria"></location>
      </actual>
     </period>
