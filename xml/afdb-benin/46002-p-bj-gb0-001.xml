@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-BJ-GB0-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Communications development project</narrative>
    <narrative xml:lang="FR">Projet de d&#xE9;veloppement des t&#xE9;l&#xE9;communications</narrative>
   </title>
   <description type="2">
-   <narrative xml:lang="FR">Le projet vise les objectifs suivants : -  accro&#xEE;tre l&apos;efficacit&#xE9; et la rentabilit&#xE9; des diff&#xE9;rents op&#xE9;rateurs &#xE9;conomiques du pays par un meilleur acces aux moyens de communications; -  all&#xE9;ger les charges budg&#xE9;taire des entreprises par l&apos;&#xE9;conomie de devises r&#xE9;sultant de l&apos;utilisation des t&#xE9;l&#xE9;communications &#xE0; la place des autres moyens de communication ; -  contribuer &#xE0; l&apos;am&#xE9;lioration de la situation financi&#xE8;re de l&apos;OPT ;</narrative>
+   <narrative xml:lang="EN">Le projet vise les objectifs suivants : -  accro&#xEE;tre l&apos;efficacit&#xE9; et la rentabilit&#xE9; des diff&#xE9;rents op&#xE9;rateurs &#xE9;conomiques du pays par un meilleur acces aux moyens de communications; -  all&#xE9;ger les charges budg&#xE9;taire des entreprises par l&apos;&#xE9;conomie de devises r&#xE9;sultant de l&apos;utilisation des t&#xE9;l&#xE9;communications &#xE0; la place des autres moyens de communication ; -  contribuer &#xE0; l&apos;am&#xE9;lioration de la situation financi&#xE8;re de l&apos;OPT ;</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
+  </participating-org>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">GOUVERNEMENT DE LA REPUBLIQUE DU BENIN MINISTERE DES FINANCES</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">GOUVERNEMENT DE LA REPUBLIQUE DU BENIN MINISTERE DES FINANCES</narrative>
@@ -21,9 +24,14 @@
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Benin</narrative>
   </participating-org>
-  <participating-org ref="NTF" role="1" type="40">
+  <participating-org ref="XM-DAC-NTF" role="1" type="40">
    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1990-04-18" type="1"></activity-date>
   <activity-date iso-date="1990-05-30" type="2"></activity-date>
@@ -31,13 +39,13 @@
   <activity-date iso-date="1998-06-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -46,34 +54,18 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="BJ" percentage="100"></recipient-country>
   <location>
-   <location-id code="7668939" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Porto-novo</narrative>
-   </name>
-   <administrative code="5922.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="618.0" level="1" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>6.48047 2.62129</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-   <feature-designation code="ADM2"></feature-designation>
-  </location>
-  <location>
    <location-id code="2390719" vocabulary="G1"></location-id>
    <name>
     <narrative xml:lang="EN">D&#xE9;partement du Zou</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>7.25 2.16667</pos>
    </point>
@@ -86,6 +78,8 @@
    <name>
     <narrative xml:lang="EN">D&#xE9;partement de l&#x2019;Ou&#xE9;m&#xE9;</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.61667 2.51667</pos>
    </point>
@@ -98,12 +92,28 @@
    <name>
     <narrative xml:lang="EN">Mono</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.58333 1.83333</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="1"></location-class>
    <feature-designation code="ADM1"></feature-designation>
+  </location>
+  <location>
+   <location-id code="7668939" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Porto-novo</narrative>
+   </name>
+   <administrative code="5922" level="2" vocabulary="G1"></administrative>
+   <administrative code="618" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>6.48047 2.62129</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM2"></feature-designation>
   </location>
   <sector code="22020" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Telecommunications</narrative>
@@ -119,172 +129,682 @@
   <budget type="1">
    <period-start iso-date="1990-04-18"></period-start>
    <period-end iso-date="1990-07-18"></period-end>
-   <value currency="XDR" value-date="1990-04-18">821421.44</value>
+   <value currency="XDR" value-date="1990-04-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1990-07-18"></period-start>
    <period-end iso-date="1990-10-18"></period-end>
-   <value currency="XDR" value-date="1990-07-18">821421.44</value>
+   <value currency="XDR" value-date="1990-07-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1990-10-18"></period-start>
    <period-end iso-date="1991-01-18"></period-end>
-   <value currency="XDR" value-date="1990-10-18">821421.44</value>
+   <value currency="XDR" value-date="1990-10-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1991-01-18"></period-start>
    <period-end iso-date="1991-04-18"></period-end>
-   <value currency="XDR" value-date="1991-01-18">821421.44</value>
+   <value currency="XDR" value-date="1991-01-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1991-04-18"></period-start>
    <period-end iso-date="1991-07-18"></period-end>
-   <value currency="XDR" value-date="1991-04-18">821421.44</value>
+   <value currency="XDR" value-date="1991-04-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1991-07-18"></period-start>
    <period-end iso-date="1991-10-18"></period-end>
-   <value currency="XDR" value-date="1991-07-18">821421.44</value>
+   <value currency="XDR" value-date="1991-07-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1991-10-18"></period-start>
    <period-end iso-date="1992-01-18"></period-end>
-   <value currency="XDR" value-date="1991-10-18">821421.44</value>
+   <value currency="XDR" value-date="1991-10-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1992-01-18"></period-start>
    <period-end iso-date="1992-04-18"></period-end>
-   <value currency="XDR" value-date="1992-01-18">821421.44</value>
+   <value currency="XDR" value-date="1992-01-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1992-04-18"></period-start>
    <period-end iso-date="1992-07-18"></period-end>
-   <value currency="XDR" value-date="1992-04-18">821421.44</value>
+   <value currency="XDR" value-date="1992-04-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1992-07-18"></period-start>
    <period-end iso-date="1992-10-18"></period-end>
-   <value currency="XDR" value-date="1992-07-18">821421.44</value>
+   <value currency="XDR" value-date="1992-07-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1992-10-18"></period-start>
    <period-end iso-date="1993-01-18"></period-end>
-   <value currency="XDR" value-date="1992-10-18">821421.44</value>
+   <value currency="XDR" value-date="1992-10-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1993-01-18"></period-start>
    <period-end iso-date="1993-04-18"></period-end>
-   <value currency="XDR" value-date="1993-01-18">821421.44</value>
+   <value currency="XDR" value-date="1993-01-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1993-04-18"></period-start>
    <period-end iso-date="1993-07-18"></period-end>
-   <value currency="XDR" value-date="1993-04-18">821421.44</value>
+   <value currency="XDR" value-date="1993-04-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1993-07-18"></period-start>
    <period-end iso-date="1993-10-18"></period-end>
-   <value currency="XDR" value-date="1993-07-18">821421.44</value>
+   <value currency="XDR" value-date="1993-07-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1993-10-18"></period-start>
    <period-end iso-date="1994-01-18"></period-end>
-   <value currency="XDR" value-date="1993-10-18">821421.44</value>
+   <value currency="XDR" value-date="1993-10-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1994-01-18"></period-start>
    <period-end iso-date="1994-04-18"></period-end>
-   <value currency="XDR" value-date="1994-01-18">821421.44</value>
+   <value currency="XDR" value-date="1994-01-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1994-04-18"></period-start>
    <period-end iso-date="1994-07-18"></period-end>
-   <value currency="XDR" value-date="1994-04-18">821421.44</value>
+   <value currency="XDR" value-date="1994-04-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1994-07-18"></period-start>
    <period-end iso-date="1994-10-18"></period-end>
-   <value currency="XDR" value-date="1994-07-18">821421.44</value>
+   <value currency="XDR" value-date="1994-07-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1994-10-18"></period-start>
    <period-end iso-date="1995-01-18"></period-end>
-   <value currency="XDR" value-date="1994-10-18">821421.44</value>
+   <value currency="XDR" value-date="1994-10-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1995-01-18"></period-start>
    <period-end iso-date="1995-04-18"></period-end>
-   <value currency="XDR" value-date="1995-01-18">821421.44</value>
+   <value currency="XDR" value-date="1995-01-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1995-04-18"></period-start>
    <period-end iso-date="1995-07-18"></period-end>
-   <value currency="XDR" value-date="1995-04-18">821421.44</value>
+   <value currency="XDR" value-date="1995-04-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1995-07-18"></period-start>
    <period-end iso-date="1995-10-18"></period-end>
-   <value currency="XDR" value-date="1995-07-18">821421.44</value>
+   <value currency="XDR" value-date="1995-07-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1995-10-18"></period-start>
    <period-end iso-date="1996-01-18"></period-end>
-   <value currency="XDR" value-date="1995-10-18">821421.44</value>
+   <value currency="XDR" value-date="1995-10-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1996-01-18"></period-start>
    <period-end iso-date="1996-04-18"></period-end>
-   <value currency="XDR" value-date="1996-01-18">821421.44</value>
+   <value currency="XDR" value-date="1996-01-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1996-04-18"></period-start>
    <period-end iso-date="1996-07-18"></period-end>
-   <value currency="XDR" value-date="1996-04-18">821421.44</value>
+   <value currency="XDR" value-date="1996-04-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1996-07-18"></period-start>
    <period-end iso-date="1996-10-18"></period-end>
-   <value currency="XDR" value-date="1996-07-18">821421.44</value>
+   <value currency="XDR" value-date="1996-07-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1996-10-18"></period-start>
    <period-end iso-date="1997-01-18"></period-end>
-   <value currency="XDR" value-date="1996-10-18">821421.44</value>
+   <value currency="XDR" value-date="1996-10-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1997-01-18"></period-start>
    <period-end iso-date="1997-04-18"></period-end>
-   <value currency="XDR" value-date="1997-01-18">821421.44</value>
+   <value currency="XDR" value-date="1997-01-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1997-04-18"></period-start>
    <period-end iso-date="1997-07-18"></period-end>
-   <value currency="XDR" value-date="1997-04-18">821421.44</value>
+   <value currency="XDR" value-date="1997-04-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1997-07-18"></period-start>
    <period-end iso-date="1997-10-18"></period-end>
-   <value currency="XDR" value-date="1997-07-18">821421.44</value>
+   <value currency="XDR" value-date="1997-07-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1997-10-18"></period-start>
    <period-end iso-date="1998-01-18"></period-end>
-   <value currency="XDR" value-date="1997-10-18">821421.44</value>
+   <value currency="XDR" value-date="1997-10-18">410710.72</value>
   </budget>
   <budget type="1">
    <period-start iso-date="1998-01-18"></period-start>
    <period-end iso-date="1998-06-30"></period-end>
-   <value currency="XDR" value-date="1998-01-18">821421.44</value>
+   <value currency="XDR" value-date="1998-01-18">410710.72</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100150000108">
+  <transaction afdb:finance-type-id="2100150000108">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">6363055</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">6266409.42</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2010-03-31"></transaction-date>
+   <value currency="XDR" value-date="2010-03-31">37472.66</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2010</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2011-03-31"></transaction-date>
+   <value currency="XDR" value-date="2011-03-31">30722.93</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2011</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2012-03-31"></transaction-date>
+   <value currency="XDR" value-date="2012-03-31">24098.52</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2012</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2013-03-31"></transaction-date>
+   <value currency="XDR" value-date="2013-03-31">17492.35</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2013</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2014-03-31"></transaction-date>
+   <value currency="XDR" value-date="2014-03-31">11020.66</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2014</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2015-03-31"></transaction-date>
+   <value currency="XDR" value-date="2015-03-31">5808.06</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2015</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2011-06-30"></transaction-date>
+   <value currency="XDR" value-date="2011-06-30">26927.68</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in Second Quarter of 2011</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2010-09-30"></transaction-date>
+   <value currency="XDR" value-date="2010-09-30">33569.94</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2010</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2012-09-30"></transaction-date>
+   <value currency="XDR" value-date="2012-09-30">20571.47</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2012</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2013-09-30"></transaction-date>
+   <value currency="XDR" value-date="2013-09-30">13983.21</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2013</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2014-09-30"></transaction-date>
+   <value currency="XDR" value-date="2014-09-30">7622.71</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2014</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000108">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">256072.23</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment till end of 2009</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">2641195.61</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment till end of 2009</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2010-03-31"></transaction-date>
+   <value currency="XDR" value-date="2010-03-31">163339.62</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2010</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2011-03-31"></transaction-date>
+   <value currency="XDR" value-date="2011-03-31">163339.62</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2011</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2012-03-31"></transaction-date>
+   <value currency="XDR" value-date="2012-03-31">163372.21</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2012</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2013-03-31"></transaction-date>
+   <value currency="XDR" value-date="2013-03-31">163339.62</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2013</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2014-03-31"></transaction-date>
+   <value currency="XDR" value-date="2014-03-31">163488.82</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2014</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2015-03-31"></transaction-date>
+   <value currency="XDR" value-date="2015-03-31">170215.61</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2015</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2012-12-31"></transaction-date>
+   <value currency="XDR" value-date="2012-12-31">32.59</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Fourth Quarter of 2012</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="XDR" value-date="2014-12-31">32.12</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Fourth Quarter of 2014</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2010-06-30"></transaction-date>
+   <value currency="XDR" value-date="2010-06-30">32.59</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2010</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2011-06-30"></transaction-date>
+   <value currency="XDR" value-date="2011-06-30">163404.8</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2011</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2013-06-30"></transaction-date>
+   <value currency="XDR" value-date="2013-06-30">32.59</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2013</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2014-06-30"></transaction-date>
+   <value currency="XDR" value-date="2014-06-30">32.62</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2014</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2015-06-30"></transaction-date>
+   <value currency="XDR" value-date="2015-06-30">33.96</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2015</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2010-09-30"></transaction-date>
+   <value currency="XDR" value-date="2010-09-30">163372.21</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2010</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2012-09-30"></transaction-date>
+   <value currency="XDR" value-date="2012-09-30">163339.62</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2012</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2013-09-30"></transaction-date>
+   <value currency="XDR" value-date="2013-09-30">163372.21</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2013</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2014-09-30"></transaction-date>
+   <value currency="XDR" value-date="2014-09-30">160973.41</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2014</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000108">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2009-03-31"></transaction-date>
+   <value currency="XDR" value-date="2009-03-31">6363055.01</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2200160000007">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2009-03-31"></transaction-date>
+   <value currency="XDR" value-date="2009-03-31">4469315.07</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-NTF">
+    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000108" ref="2100150000108">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1990-11-30"></transaction-date>
    <value currency="XDR" value-date="1990-11-30">6426186.82</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">CAISSE AUTONOME D&apos;AMORTISSEMENt</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -292,14 +812,14 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction ref="2200160000007">
+  <transaction afdb:finance-type-id="2200160000007" ref="2200160000007">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1990-05-30"></transaction-date>
    <value currency="XDR" value-date="1990-05-30">6716556.57</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-NTF">
     <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">CAISSE AUTONOME D&apos;AMORTISSEMENT PROJET D&apos;APPUI A LA GESTION DES FORETS COMMUNALES</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -307,381 +827,7 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">6363055</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">6266409.42</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2010-03-31"></transaction-date>
-   <value currency="XDR" value-date="2010-03-31">37472.66</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2010</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2011-03-31"></transaction-date>
-   <value currency="XDR" value-date="2011-03-31">30722.93</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2011</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2012-03-31"></transaction-date>
-   <value currency="XDR" value-date="2012-03-31">24098.52</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2012</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2013-03-31"></transaction-date>
-   <value currency="XDR" value-date="2013-03-31">17492.35</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2013</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2014-03-31"></transaction-date>
-   <value currency="XDR" value-date="2014-03-31">11020.66</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2014</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2015-03-31"></transaction-date>
-   <value currency="XDR" value-date="2015-03-31">5808.06</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2015</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2011-06-30"></transaction-date>
-   <value currency="XDR" value-date="2011-06-30">26927.68</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in Second Quarter of 2011</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2010-09-30"></transaction-date>
-   <value currency="XDR" value-date="2010-09-30">33569.94</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2010</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2012-09-30"></transaction-date>
-   <value currency="XDR" value-date="2012-09-30">20571.47</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2012</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2013-09-30"></transaction-date>
-   <value currency="XDR" value-date="2013-09-30">13983.21</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2013</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2014-09-30"></transaction-date>
-   <value currency="XDR" value-date="2014-09-30">7622.71</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2014</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">256072.23</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment till end of 2009</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">2641195.61</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment till end of 2009</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2010-03-31"></transaction-date>
-   <value currency="XDR" value-date="2010-03-31">163339.62</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2010</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2011-03-31"></transaction-date>
-   <value currency="XDR" value-date="2011-03-31">163339.62</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2011</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2012-03-31"></transaction-date>
-   <value currency="XDR" value-date="2012-03-31">163372.21</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2012</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2013-03-31"></transaction-date>
-   <value currency="XDR" value-date="2013-03-31">163339.62</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2013</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2014-03-31"></transaction-date>
-   <value currency="XDR" value-date="2014-03-31">163488.82</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2014</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2015-03-31"></transaction-date>
-   <value currency="XDR" value-date="2015-03-31">170215.61</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2015</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2012-12-31"></transaction-date>
-   <value currency="XDR" value-date="2012-12-31">32.59</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Fourth Quarter of 2012</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="XDR" value-date="2014-12-31">32.12</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Fourth Quarter of 2014</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2010-06-30"></transaction-date>
-   <value currency="XDR" value-date="2010-06-30">32.59</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2010</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2011-06-30"></transaction-date>
-   <value currency="XDR" value-date="2011-06-30">163404.8</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2011</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2013-06-30"></transaction-date>
-   <value currency="XDR" value-date="2013-06-30">32.59</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2013</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2014-06-30"></transaction-date>
-   <value currency="XDR" value-date="2014-06-30">32.62</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2014</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2015-06-30"></transaction-date>
-   <value currency="XDR" value-date="2015-06-30">33.96</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2015</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2010-09-30"></transaction-date>
-   <value currency="XDR" value-date="2010-09-30">163372.21</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2010</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2012-09-30"></transaction-date>
-   <value currency="XDR" value-date="2012-09-30">163339.62</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2012</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2013-09-30"></transaction-date>
-   <value currency="XDR" value-date="2013-09-30">163372.21</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2013</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2014-09-30"></transaction-date>
-   <value currency="XDR" value-date="2014-09-30">160973.41</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2014</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2009-03-31"></transaction-date>
-   <value currency="XDR" value-date="2009-03-31">6363055.01</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2009-03-31"></transaction-date>
-   <value currency="XDR" value-date="2009-03-31">4469315.07</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">Nigerian Trust Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1990-05-30"></transaction-date>
    <value currency="XDR" value-date="1990-05-30">1440000</value>
@@ -691,13 +837,6 @@
    <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
-   <title>
-    <narrative xml:lang="EN">Conditions</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Evaluation-Reports-_Shared-With-OPEV_/05182229-EN-BENIN-COMMUNICATIONS-DEVELOPMENT-PROJECT.PDF">
    <title>
     <narrative xml:lang="EN">Evaluation Report</narrative>
@@ -716,12 +855,19 @@
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
+   <title>
+    <narrative xml:lang="EN">Conditions</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
+  </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

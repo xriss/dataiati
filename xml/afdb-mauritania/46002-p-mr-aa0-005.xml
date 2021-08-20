@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-MR-AA0-005</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Aide Alimentaire d&apos;urgence</narrative>
@@ -11,12 +11,20 @@
   <description>
    <narrative xml:lang="EN"></narrative>
   </description>
-  <participating-org ref="SRF" role="1">
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">MINISTERE DES AFFAIRES ECONOMIQUES ET DU   DEVELOPPEMENT</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-SRF" role="1" type="40">
    <narrative xml:lang="EN">Special Relief Funds</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">World Food Program (WFP)</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2005-10-12" type="1"></activity-date>
   <activity-date iso-date="2006-05-03" type="2"></activity-date>
@@ -24,13 +32,13 @@
   <activity-date iso-date="2006-09-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -39,11 +47,7 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -53,7 +57,8 @@
    <name>
     <narrative xml:lang="EN">Assaba</narrative>
    </name>
-   <administrative code="2005.0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
+   <administrative code="2005" level="1" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>16.5956 -11.9092</pos>
    </point>
@@ -66,7 +71,8 @@
    <name>
     <narrative xml:lang="EN">Brakna</narrative>
    </name>
-   <administrative code="2006.0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
+   <administrative code="2006" level="1" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>17.6314 -13.4103</pos>
    </point>
@@ -79,7 +85,8 @@
    <name>
     <narrative xml:lang="EN">Gorgol</narrative>
    </name>
-   <administrative code="2008.0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
+   <administrative code="2008" level="1" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>16.0533 -12.8244</pos>
    </point>
@@ -92,7 +99,8 @@
    <name>
     <narrative xml:lang="EN">Guidimaka</narrative>
    </name>
-   <administrative code="2009.0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
+   <administrative code="2009" level="1" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>15.3811 -12.3556</pos>
    </point>
@@ -105,7 +113,8 @@
    <name>
     <narrative xml:lang="EN">Hodh ech Chargui</narrative>
    </name>
-   <administrative code="2010.0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
+   <administrative code="2010" level="1" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>19 -7.25</pos>
    </point>
@@ -118,7 +127,8 @@
    <name>
     <narrative xml:lang="EN">Hodh el Gharbi</narrative>
    </name>
-   <administrative code="2011.0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
+   <administrative code="2011" level="1" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>16.5 -10</pos>
    </point>
@@ -131,7 +141,8 @@
    <name>
     <narrative xml:lang="EN">Wilaya du Trarza</narrative>
    </name>
-   <administrative code="2016.0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
+   <administrative code="2016" level="1" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>17.8665 -14.6588</pos>
    </point>
@@ -140,7 +151,7 @@
    <feature-designation code="ADM1"></feature-designation>
   </location>
   <sector code="31110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Agriculture</narrative>
+   <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.3.1" percentage="100" vocabulary="1">
@@ -153,27 +164,42 @@
   <budget type="1">
    <period-start iso-date="2005-10-12"></period-start>
    <period-end iso-date="2006-01-12"></period-end>
-   <value currency="XDR" value-date="2005-10-12">217285.5</value>
+   <value currency="XDR" value-date="2005-10-12">108642.75</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2006-01-12"></period-start>
    <period-end iso-date="2006-04-12"></period-end>
-   <value currency="XDR" value-date="2006-01-12">217285.5</value>
+   <value currency="XDR" value-date="2006-01-12">108642.75</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2006-04-12"></period-start>
    <period-end iso-date="2006-09-30"></period-end>
-   <value currency="XDR" value-date="2006-04-12">217285.5</value>
+   <value currency="XDR" value-date="2006-04-12">108642.75</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5000199000418">
+  <transaction afdb:finance-type-id="5000199000418">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2006-09-30"></transaction-date>
+   <value currency="XDR" value-date="2006-09-30">325928.24</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in September of 2006</narrative>
+   </description>
+   <provider-org ref="XM-DAC-SRF">
+    <narrative xml:lang="EN">Special Relief Funds</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5000199000418" ref="5000199000418">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2006-05-03"></transaction-date>
    <value currency="XDR" value-date="2006-05-03">325928.24</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-SRF">
     <narrative xml:lang="EN">Special Relief Funds</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOUVERNEMENT DE MAURITANIE</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -189,11 +215,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-KE-AAZ-005</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Kenya - Humanitarian Relief Assistance to the Flood Affected Population</narrative>
@@ -11,15 +11,20 @@
   <description type="2">
    <narrative xml:lang="EN">The objective of the proposed Bank emergency humanitarian relief assistance is to contribute to the Government of Kenya and UN&apos;s efforts in providing urgent food aid distributions and deliveries of water purification supplies, medicines and shelter materials to the flood affected victims. The emergency relief assistance operation will be funded through a grant from the Bank&apos;s Special Relief Fund (SRF). The total grant amount will be limited to the approved country ceiling of US$500,000 (five hundred thousand). The grant funds will be used to purchase food, as well as associated costs of transportation and distribution of food rations to the beneficiaries and for administrative charges. Relief food assistance will be channelled through targeted food distribution to households affected by the floods and to those with no livestock or other sources of income (remittances and wage labour) to purchase food and other basic needs; and widows, orphans, female and elderly-headed households without visible means of survival. Relief assistance will be specifically targeted to districts most affected by the floods. It is proposed that the total contribution of US$500,000 would be used for buying approximately 1,000 tons of maize locally. Due to the imminent shortfalls only local purchases are timely enough to avoid suspending life-saving food assistance.</narrative>
   </description>
-  <participating-org ref="SRF" role="1">
+  <participating-org ref="XM-DAC-SRF" role="1" type="40">
    <narrative xml:lang="EN">Special Relief Funds</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">World Food Program (WFP) - Kenya Office</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">World Food Program - WFP - Kenya Office</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2008-06-17" type="1"></activity-date>
   <activity-date iso-date="2009-04-21" type="2"></activity-date>
@@ -27,7 +32,7 @@
   <activity-date iso-date="2009-06-30" type="3"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -42,11 +47,7 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -56,8 +57,8 @@
    <name>
     <narrative xml:lang="EN">Kenya</narrative>
    </name>
-   <administrative code="51331.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="51389.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="51331" level="1" vocabulary="G1"></administrative>
+   <administrative code="51389" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>1 38</pos>
    </point>
@@ -66,7 +67,7 @@
    <feature-designation code="PCLI"></feature-designation>
   </location>
   <sector code="31110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">More Than One Agricultural Sub-Sector</narrative>
+   <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.3.1" percentage="100" vocabulary="1">
@@ -79,32 +80,47 @@
   <budget type="1">
    <period-start iso-date="2008-06-17"></period-start>
    <period-end iso-date="2008-09-17"></period-end>
-   <value currency="XDR" value-date="2008-06-17">162964.12</value>
+   <value currency="XDR" value-date="2008-06-17">81482.06</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2008-09-17"></period-start>
    <period-end iso-date="2008-12-17"></period-end>
-   <value currency="XDR" value-date="2008-09-17">162964.12</value>
+   <value currency="XDR" value-date="2008-09-17">81482.06</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2008-12-17"></period-start>
    <period-end iso-date="2009-03-17"></period-end>
-   <value currency="XDR" value-date="2008-12-17">162964.12</value>
+   <value currency="XDR" value-date="2008-12-17">81482.06</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2009-03-17"></period-start>
    <period-end iso-date="2009-06-30"></period-end>
-   <value currency="XDR" value-date="2009-03-17">162964.12</value>
+   <value currency="XDR" value-date="2009-03-17">81482.06</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5000199001169">
+  <transaction afdb:finance-type-id="5000199001169">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-06-17"></transaction-date>
+   <value currency="XDR" value-date="2009-06-17">325928.24</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in June of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-SRF">
+    <narrative xml:lang="EN">Special Relief Funds</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5000199001169" ref="5000199001169">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2009-04-21"></transaction-date>
    <value currency="XDR" value-date="2009-04-21">325928.24</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-SRF">
     <narrative xml:lang="EN">Special Relief Funds</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOVERNEMENT OF KENYA</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -120,11 +136,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

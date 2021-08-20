@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-MG-FAB-002</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Sahanivotry Small Hydro Power</narrative>
@@ -11,34 +11,27 @@
   <description>
    <narrative xml:lang="EN"></narrative>
   </description>
-  <participating-org ref="46002" role="1" type="40">
+  <participating-org ref="XM-DAC-46002" role="1" type="40">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2007-07-05" type="1"></activity-date>
   <activity-date iso-date="2007-09-25" type="2"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
-   <department>
-    <narrative xml:lang="EN"></narrative>
-   </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">private-sector@afdb.org</narrative>
    </person-name>
-   <job-title>
-    <narrative xml:lang="EN"></narrative>
-   </job-title>
-   <telephone></telephone>
-   <email>private-sector@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -48,8 +41,8 @@
    <name>
     <narrative xml:lang="EN">Tsarahonenana</narrative>
    </name>
-   <administrative code="19195.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="41770.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="19195" level="2" vocabulary="G1"></administrative>
+   <administrative code="41770" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-19.9833 47.3167</pos>
    </point>
@@ -57,8 +50,8 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPL"></feature-designation>
   </location>
-  <sector code="23220" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Hydro Generation</narrative>
+  <sector code="23320" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Coal-fired electric power plants</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.6.6" percentage="100" vocabulary="1">
@@ -68,17 +61,23 @@
    </budget-item>
   </country-budget-items>
   <collaboration-type code="2"></collaboration-type>
-  <transaction>
+  <budget type="1">
+   <period-start iso-date="2007-09-25"></period-start>
+   <period-end iso-date="2007-12-25"></period-end>
+   <value currency="XDR" value-date="2007-09-25">5019828.32</value>
+  </budget>
+  <capital-spend percentage="0"></capital-spend>
+  <transaction afdb:finance-type-id="2000120001269">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2007-09-25"></transaction-date>
    <value currency="XDR" value-date="2007-09-25">5019828.32</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46002">
     <narrative xml:lang="EN">African Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">HYDELEC MADAGASCAR</narrative>
    </receiver-org>
-   <flow-type code="21"></flow-type>
+   <flow-type code="20"></flow-type>
    <finance-type code="421"></finance-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
@@ -91,11 +90,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-KE-DA0-002</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Kenya - Emergency Assistance to address the damages and losses caused by the August 2013 Inferno at the Jomo Kenyatta International Airport</narrative>
@@ -11,12 +11,17 @@
   <description type="2">
    <narrative xml:lang="EN">The primary objective of the request is to assist GOK in restoring the level of services at JKIA which has dramatically deteriorated following the fire accident. JKIA&apos;s status as a regional aviation and economic hub of East Africa will be undermined by such situations as passenger inconveniences, inefficient operations and congestion. The Bank&apos;s support, in addition to restoring the service level, will also help to bridge the capacity gap until the expansion projects are completed in 2017.</narrative>
   </description>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">Kenya AIRPort Authority</narrative>
   </participating-org>
-  <participating-org ref="SRF" role="1">
+  <participating-org ref="XM-DAC-SRF" role="1" type="40">
    <narrative xml:lang="EN">Special Relief Funds</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2013-09-30" type="1"></activity-date>
   <activity-date iso-date="2013-10-25" type="2"></activity-date>
@@ -24,26 +29,22 @@
   <activity-date iso-date="2014-06-30" type="3"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">RDGE3</narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">MAMMO Zerfu Tessema</narrative>
+    <narrative xml:lang="EN">Zerfu Tessema MAMMO</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Chief Transport Engineer</narrative>
+    <narrative xml:lang="EN">Transport Engineer, PICU</narrative>
    </job-title>
    <telephone></telephone>
    <email>z.tessema@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -53,8 +54,8 @@
    <name>
     <narrative xml:lang="EN">Jomo Kenyatta International Airport</narrative>
    </name>
-   <administrative code="51328.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="51360.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="51328" level="1" vocabulary="G1"></administrative>
+   <administrative code="51360" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-1.32922 36.925</pos>
    </point>
@@ -63,7 +64,7 @@
    <feature-designation code="PPL"></feature-designation>
   </location>
   <sector code="21050" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Air Transport / Airport</narrative>
+   <narrative xml:lang="EN">Air transport</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.8.9" percentage="100" vocabulary="1">
@@ -76,27 +77,42 @@
   <budget type="1">
    <period-start iso-date="2013-09-30"></period-start>
    <period-end iso-date="2013-12-30"></period-end>
-   <value currency="XDR" value-date="2013-09-30">432900.44</value>
+   <value currency="XDR" value-date="2013-09-30">216450.22</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2013-12-30"></period-start>
    <period-end iso-date="2014-03-30"></period-end>
-   <value currency="XDR" value-date="2013-12-30">432900.44</value>
+   <value currency="XDR" value-date="2013-12-30">216450.22</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2014-03-30"></period-start>
    <period-end iso-date="2014-06-30"></period-end>
-   <value currency="XDR" value-date="2014-03-30">432900.44</value>
+   <value currency="XDR" value-date="2014-03-30">216450.22</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5000199003168">
+  <transaction afdb:finance-type-id="5000199003168">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-04-30"></transaction-date>
+   <value currency="XDR" value-date="2014-04-30">649350.65</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in December of 2013</narrative>
+   </description>
+   <provider-org ref="XM-DAC-SRF">
+    <narrative xml:lang="EN">Special Relief Funds</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5000199003168" ref="5000199003168">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2013-10-25"></transaction-date>
    <value currency="XDR" value-date="2013-10-25">649350.65</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-SRF">
     <narrative xml:lang="EN">Special Relief Funds</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOVERNEMENT OF KENYA</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -131,11 +147,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

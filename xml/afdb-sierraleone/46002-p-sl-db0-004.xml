@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-SL-DB0-004</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Sierra Leone - Matotoka to Sefadu Road Studies and Institutional Support to the Transport Sector</narrative>
@@ -12,15 +12,20 @@
   <description type="2">
    <narrative xml:lang="EN">Studies Objectives 2.2.1 The objectives of the road study component are to determine the technical feasibility and economic viability of improving the Matotoka to Sefadu road and associated feeder roads in its zone of influence. The study is to further carry out the environmental and social impact assessment, including poverty, health and gender issues. Contingent upon the outcome of the feasibility studies, the study will lead to detailed engineering designs and the preparation of Tender Documents. 2.2.2,,The institutional support component aims to strengthen the Sierra Leone Roads Authority (SLRA) and enable it to plan, budget and manage its capital investment and maintenance programmes more efficiently.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Sierra Leone</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">Sierra Leone Roads Authority</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2006-03-09" type="1"></activity-date>
   <activity-date iso-date="2006-05-19" type="2"></activity-date>
@@ -28,26 +33,22 @@
   <activity-date iso-date="2010-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">COTZ</narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">MINJA Mariehellen Melchior</narrative>
+    <narrative xml:lang="EN">Mariehellen Melchior MINJA</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Principal Transport Engineer</narrative>
+    <narrative xml:lang="EN">Transport Engineer, PICU</narrative>
    </job-title>
    <telephone></telephone>
    <email>m.minja@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -57,7 +58,8 @@
    <name>
     <narrative xml:lang="EN">Northern Province</narrative>
    </name>
-   <administrative code="2.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
+   <administrative code="2" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>9.13333 -12.0</pos>
    </point>
@@ -70,7 +72,8 @@
    <name>
     <narrative xml:lang="EN">Eastern Province</narrative>
    </name>
-   <administrative code="2.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
+   <administrative code="2" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>8.25 -11.0</pos>
    </point>
@@ -83,7 +86,8 @@
    <name>
     <narrative xml:lang="EN">Sefadu</narrative>
    </name>
-   <administrative code="2.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
+   <administrative code="2" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>8.65 -10.98333</pos>
    </point>
@@ -96,7 +100,8 @@
    <name>
     <narrative xml:lang="EN">Matotoka</narrative>
    </name>
-   <administrative code="2.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
+   <administrative code="2" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>8.65704 -11.85569</pos>
    </point>
@@ -104,13 +109,13 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPL"></feature-designation>
   </location>
-  <sector code="21023" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Road Transport / Highways</narrative>
+  <sector code="21020" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Road transport</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.8.5" percentage="100" vocabulary="1">
+   <budget-item code="3.8.6" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Transport - national road construction</narrative>
+     <narrative xml:lang="EN">Transport - national road maintenance</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -118,107 +123,197 @@
   <budget type="1">
    <period-start iso-date="2006-03-09"></period-start>
    <period-end iso-date="2006-06-09"></period-end>
-   <value currency="XDR" value-date="2006-03-09">161907.78</value>
+   <value currency="XDR" value-date="2006-03-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2006-06-09"></period-start>
    <period-end iso-date="2006-09-09"></period-end>
-   <value currency="XDR" value-date="2006-06-09">161907.78</value>
+   <value currency="XDR" value-date="2006-06-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2006-09-09"></period-start>
    <period-end iso-date="2006-12-09"></period-end>
-   <value currency="XDR" value-date="2006-09-09">161907.78</value>
+   <value currency="XDR" value-date="2006-09-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2006-12-09"></period-start>
    <period-end iso-date="2007-03-09"></period-end>
-   <value currency="XDR" value-date="2006-12-09">161907.78</value>
+   <value currency="XDR" value-date="2006-12-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2007-03-09"></period-start>
    <period-end iso-date="2007-06-09"></period-end>
-   <value currency="XDR" value-date="2007-03-09">161907.78</value>
+   <value currency="XDR" value-date="2007-03-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2007-06-09"></period-start>
    <period-end iso-date="2007-09-09"></period-end>
-   <value currency="XDR" value-date="2007-06-09">161907.78</value>
+   <value currency="XDR" value-date="2007-06-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2007-09-09"></period-start>
    <period-end iso-date="2007-12-09"></period-end>
-   <value currency="XDR" value-date="2007-09-09">161907.78</value>
+   <value currency="XDR" value-date="2007-09-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2007-12-09"></period-start>
    <period-end iso-date="2008-03-09"></period-end>
-   <value currency="XDR" value-date="2007-12-09">161907.78</value>
+   <value currency="XDR" value-date="2007-12-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2008-03-09"></period-start>
    <period-end iso-date="2008-06-09"></period-end>
-   <value currency="XDR" value-date="2008-03-09">161907.78</value>
+   <value currency="XDR" value-date="2008-03-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2008-06-09"></period-start>
    <period-end iso-date="2008-09-09"></period-end>
-   <value currency="XDR" value-date="2008-06-09">161907.78</value>
+   <value currency="XDR" value-date="2008-06-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2008-09-09"></period-start>
    <period-end iso-date="2008-12-09"></period-end>
-   <value currency="XDR" value-date="2008-09-09">161907.78</value>
+   <value currency="XDR" value-date="2008-09-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2008-12-09"></period-start>
    <period-end iso-date="2009-03-09"></period-end>
-   <value currency="XDR" value-date="2008-12-09">161907.78</value>
+   <value currency="XDR" value-date="2008-12-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2009-03-09"></period-start>
    <period-end iso-date="2009-06-09"></period-end>
-   <value currency="XDR" value-date="2009-03-09">161907.78</value>
+   <value currency="XDR" value-date="2009-03-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2009-06-09"></period-start>
    <period-end iso-date="2009-09-09"></period-end>
-   <value currency="XDR" value-date="2009-06-09">161907.78</value>
+   <value currency="XDR" value-date="2009-06-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2009-09-09"></period-start>
    <period-end iso-date="2009-12-09"></period-end>
-   <value currency="XDR" value-date="2009-09-09">161907.78</value>
+   <value currency="XDR" value-date="2009-09-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2009-12-09"></period-start>
    <period-end iso-date="2010-03-09"></period-end>
-   <value currency="XDR" value-date="2009-12-09">161907.78</value>
+   <value currency="XDR" value-date="2009-12-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2010-03-09"></period-start>
    <period-end iso-date="2010-06-09"></period-end>
-   <value currency="XDR" value-date="2010-03-09">161907.78</value>
+   <value currency="XDR" value-date="2010-03-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2010-06-09"></period-start>
    <period-end iso-date="2010-09-09"></period-end>
-   <value currency="XDR" value-date="2010-06-09">161907.78</value>
+   <value currency="XDR" value-date="2010-06-09">80953.89</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2010-09-09"></period-start>
    <period-end iso-date="2010-12-31"></period-end>
-   <value currency="XDR" value-date="2010-09-09">161907.78</value>
+   <value currency="XDR" value-date="2010-09-09">80953.89</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155006716">
+  <transaction afdb:finance-type-id="2100155006716">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-03-31"></transaction-date>
+   <value currency="XDR" value-date="2010-03-31">53896.42</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155006716">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2011-03-31"></transaction-date>
+   <value currency="XDR" value-date="2011-03-31">268780.86</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155006716">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-12-31"></transaction-date>
+   <value currency="XDR" value-date="2010-12-31">22039.32</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155006716">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-06-30"></transaction-date>
+   <value currency="XDR" value-date="2010-06-30">374372.32</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155006716">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-09-30"></transaction-date>
+   <value currency="XDR" value-date="2010-09-30">237099.62</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155006716">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">568619.83</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155006716" ref="2100155006716">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2006-05-19"></transaction-date>
    <value currency="XDR" value-date="2006-05-19">1538123.87</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOVERNMENT OF SIERRA LEONE</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -226,73 +321,7 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-03-31"></transaction-date>
-   <value currency="XDR" value-date="2010-03-31">53896.42</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-03-31"></transaction-date>
-   <value currency="XDR" value-date="2011-03-31">268780.86</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-31"></transaction-date>
-   <value currency="XDR" value-date="2010-12-31">22039.32</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-06-30"></transaction-date>
-   <value currency="XDR" value-date="2010-06-30">374372.32</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-09-30"></transaction-date>
-   <value currency="XDR" value-date="2010-09-30">237099.62</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">568619.83</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2006-05-19"></transaction-date>
    <value currency="XDR" value-date="2006-05-19">110000</value>
@@ -302,6 +331,24 @@
    <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/EN_PN10457.pdf">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/EN_PN10457.pdf">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/EN_PN10457.pdf">
    <title>
     <narrative xml:lang="EN">Project Completion Report</narrative>
@@ -328,6 +375,15 @@
    <category code="A07"></category>
    <category code="A08"></category>
    <language code="EN"></language>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://evrd.afdb.org/DocumentsDetails?DocNo=PN10457">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Sierra_Leone_-_%C3%89tudes_relatives_%C3%A0_la_route_Matotoka_-Sefadu_et_appui_institutionnel_au_secteur_des_transports_-_Rapport_d%E2%80%99ach%C3%A8vement_de_projet__RAP_.pdf">
    <title>
@@ -369,39 +425,12 @@
    <category code="A11"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/EN_PN10457.pdf">
-   <title>
-    <narrative xml:lang="EN">Evaluation Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/EN_PN10457.pdf">
-   <title>
-    <narrative xml:lang="EN">Evaluation Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="TEXT/HTML" url="http://evrd.afdb.org/DocumentsDetails?DocNo=PN10457">
-   <title>
-    <narrative xml:lang="EN">Evaluation Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>
