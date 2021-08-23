@@ -112,25 +112,6 @@ whereas the Specific Objective is defined as:
    <period-end iso-date="2023-06-30"></period-end>
    <value currency="EUR" value-date="2020-01-01">2151843</value>
   </budget>
-  <planned-disbursement type="1">
-   <period-start iso-date="2020-01-01"></period-start>
-   <period-end iso-date="2020-12-31"></period-end>
-   <value currency="EUR" value-date="2020-01-01">761940</value>
-  </planned-disbursement>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="EUR" value-date="2020-01-01">493976</value>
-   <description>
-    <narrative xml:lang="EN">Expenses for the year 2020</narrative>
-   </description>
-   <provider-org ref="US-EIN-13-5660870" type="21">
-    <narrative xml:lang="EN">International Rescue Committee IRC</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="NL-KVK-41160054-200446" ref="NL-KVK-41160054" type="21">
-    <narrative xml:lang="EN">Cordaid Global Office</narrative>
-   </receiver-org>
-  </transaction>
   <related-activity ref="NL-KVK-41160054-200331" type="5"></related-activity>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
@@ -180,6 +161,13 @@ whereas the Specific Objective is defined as:
     <baseline iso-date="2020-06-30" value="1954" year="2020">
      <location ref="SS"></location>
     </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <actual value="1680">
+      <location ref="SS"></location>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-06-30"></period-end>
@@ -250,6 +238,34 @@ whereas the Specific Objective is defined as:
      <location ref="SS"></location>
     </baseline>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-07-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="9"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of Participatory Disaster Risk Analysis (PDRAs) done at community/local level</narrative>
+    </title>
+    <reference code="SU1.18" vocabulary="99"></reference>
+    <baseline iso-date="2020-12-31" value="2" year="2020">
+     <location ref="SS"></location>
+    </baseline>
+    <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <actual value="2">
@@ -283,27 +299,6 @@ whereas the Specific Objective is defined as:
      <target value="9"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of Participatory Disaster Risk Analysis (PDRAs) done at community/local level</narrative>
-    </title>
-    <reference code="SU1.18" vocabulary="99"></reference>
-    <baseline iso-date="2023-12-31" value="2" year="2023">
-     <location ref="SS"></location>
-    </baseline>
-    <period>
-     <period-start iso-date="2023-07-01"></period-start>
-     <period-end iso-date="2023-12-31"></period-end>
-     <actual value="2">
-      <location ref="SS"></location>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2023-12-31"></period-end>
-     <target value="9"></target>
-    </period>
-   </indicator>
   </result>
   <result aggregation-status="1" type="1">
    <title>
@@ -314,22 +309,46 @@ whereas the Specific Objective is defined as:
      <narrative xml:lang="EN">Number of people actively participating in VSLAs/savings groups</narrative>
     </title>
     <reference code="SU2.87" vocabulary="99"></reference>
-    <baseline iso-date="2021-12-31" value="258" year="2021">
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="431538"></location>
+     <dimension name="Beneficiary type: Men, Women, Girls, Boys" value="Boys"></dimension>
+    </baseline>
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="431538"></location>
+     <dimension name="Beneficiary type: Men, Women, Girls, Boys" value="Girls"></dimension>
+    </baseline>
+    <baseline iso-date="2021-12-31" value="373" year="2021">
      <location ref="431538"></location>
      <dimension name="Beneficiary type: Men, Women, Girls, Boys" value="Men"></dimension>
     </baseline>
-    <baseline iso-date="2021-12-31" value="405" year="2021">
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="431538"></location>
+     <dimension name="Beneficiary type: Men, Women, Girls, Boys" value="Unknown"></dimension>
+    </baseline>
+    <baseline iso-date="2021-12-31" value="705" year="2021">
      <location ref="431538"></location>
      <dimension name="Beneficiary type: Men, Women, Girls, Boys" value="Women"></dimension>
     </baseline>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <actual value="258">
+     <actual value="0">
+      <location ref="431538"></location>
+      <dimension name="Beneficiary type: Men, Women, Girls, Boys" value="Boys"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="431538"></location>
+      <dimension name="Beneficiary type: Men, Women, Girls, Boys" value="Girls"></dimension>
+     </actual>
+     <actual value="373">
       <location ref="431538"></location>
       <dimension name="Beneficiary type: Men, Women, Girls, Boys" value="Men"></dimension>
      </actual>
-     <actual value="405">
+     <actual value="0">
+      <location ref="431538"></location>
+      <dimension name="Beneficiary type: Men, Women, Girls, Boys" value="Unknown"></dimension>
+     </actual>
+     <actual value="705">
       <location ref="431538"></location>
       <dimension name="Beneficiary type: Men, Women, Girls, Boys" value="Women"></dimension>
      </actual>
@@ -352,6 +371,45 @@ whereas the Specific Objective is defined as:
      <target value="2000"></target>
     </period>
    </indicator>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Volume of yields per hectare cultivated increased in % by farmers (crops, vegetable &amp; fruit)</narrative>
+    </title>
+    <reference code="SU2.13" vocabulary="99"></reference>
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="SS"></location>
+     <dimension name="Crop Type" value="Gnuts"></dimension>
+    </baseline>
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="SS"></location>
+     <dimension name="Crop Type" value="Maize"></dimension>
+    </baseline>
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="SS"></location>
+     <dimension name="Crop Type" value="Sorghum"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Crop Type" value="Gnuts"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Crop Type" value="Maize"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Crop Type" value="Sorghum"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="30"></target>
+    </period>
+   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of  of VSLA/savings groups established/supported</narrative>
@@ -361,13 +419,6 @@ whereas the Specific Objective is defined as:
      <location ref="431538"></location>
     </baseline>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <actual value="22">
-      <location ref="431538"></location>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <actual value="26">
@@ -375,9 +426,16 @@ whereas the Specific Objective is defined as:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="27">
+      <location ref="431538"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2023-07-31"></period-end>
-     <target value="27"></target>
+     <target value="50"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -391,6 +449,13 @@ whereas the Specific Objective is defined as:
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
      <actual value="0">
       <location ref="SS"></location>
      </actual>
@@ -410,16 +475,16 @@ whereas the Specific Objective is defined as:
      <location ref="SS"></location>
     </baseline>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <actual value="1135">
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="1200">
       <location ref="SS"></location>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="1200">
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="1680">
       <location ref="SS"></location>
      </actual>
     </period>
@@ -445,9 +510,16 @@ whereas the Specific Objective is defined as:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <actual value="56">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="92"></target>
+     <target value="96"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -458,6 +530,13 @@ whereas the Specific Objective is defined as:
     <baseline iso-date="2020-12-31" value="6" year="2020">
      <location ref="SS"></location>
     </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
@@ -480,6 +559,13 @@ whereas the Specific Objective is defined as:
      <location ref="SS"></location>
     </baseline>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <actual value="7">
@@ -489,7 +575,7 @@ whereas the Specific Objective is defined as:
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="2"></target>
+     <target value="10"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -501,6 +587,13 @@ whereas the Specific Objective is defined as:
      <location ref="SS"></location>
     </baseline>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <actual value="72">
@@ -511,6 +604,48 @@ whereas the Specific Objective is defined as:
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="120"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of counties that channel the early warning messages regularly to end users</narrative>
+    </title>
+    <reference code="SU2.67" vocabulary="99"></reference>
+    <baseline iso-date="2021-06-30" value="3" year="2021">
+     <location ref="SS"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <actual value="3">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="3"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of farmers reported increase in agricultural production and productivity of crops, fruits and vegetables per hectare by 30%</narrative>
+    </title>
+    <reference code="SU2.10" vocabulary="99"></reference>
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="SS"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="2808"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -526,9 +661,34 @@ whereas the Specific Objective is defined as:
      </actual>
     </period>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="80"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Early warning messages regularly disseminated from the national level to pilot counties (Yes/No)</narrative>
+    </title>
+    <reference code="SU2.66" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <actual value="100">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="100"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -536,6 +696,13 @@ whereas the Specific Objective is defined as:
      <narrative xml:lang="EN">Number of Training of CAHWs and veterinary personnel on vaccination, sampling, testing, cold chain management and reporting conducted</narrative>
     </title>
     <reference code="SU2.43" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
@@ -547,38 +714,6 @@ whereas the Specific Objective is defined as:
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="18"></target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Climate Resilience</narrative>
-   </title>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">The project integrates climate risks in programming</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Green: Project is successfully integrating climate risks in programming in accordance with project plan 
-Orange: Project is integrate climate risks in programming; however, not fully in accordance with project plan OR integration of climate risks is not at a satisfactory level. 
-Red: Project is NOT integrating climate risks in programming either because this was not planned for or it was planned, not done. 
-
-The integration of climate risks in programming included an undertaking of concrete actions to reduce and/or mitigate risks related to climate change impact and disaster risks  ( for example droughts, erosion, salinization, flooding, etc) 
-The projects we refer to could be on the themes of health education, justice, security, disaster management, finance and livelihoods.</narrative>
-    </description>
-    <reference code="CC1.03" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="100">
-      <location ref="SS"></location>
-      <dimension name="Traffic Lights" value="A - Green"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2023-12-31"></period-end>
-     <target value="100"></target>
     </period>
    </indicator>
   </result>
@@ -602,6 +737,26 @@ The projects we refer to could be on the themes of health education, justice, se
      <location ref="SS"></location>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
     </baseline>
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="SS"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
@@ -636,6 +791,26 @@ The projects we refer to could be on the themes of health education, justice, se
      <location ref="SS"></location>
      <dimension name="Gender - genre" value="Male - masculin"></dimension>
     </baseline>
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="SS"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
@@ -652,6 +827,48 @@ The projects we refer to could be on the themes of health education, justice, se
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="120"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people with improved food security</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of households with an improved score on the household food insecurity access scale (HFIAS) compared to the baseline score. This score is a household score and needs to be translated to the number of individual household members (based on average household size).</narrative>
+    </description>
+    <reference code="SU0.06" vocabulary="99"></reference>
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="SS"></location>
+     <dimension name="Gender - genre" value="Female - feminin"></dimension>
+    </baseline>
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="SS"></location>
+     <dimension name="Gender - genre" value="Male - masculin"></dimension>
+    </baseline>
+    <baseline iso-date="2021-12-31" value="0" year="2021">
+     <location ref="SS"></location>
+     <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="2130"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -673,13 +890,29 @@ The projects we refer to could be on the themes of health education, justice, se
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <actual value="1798">
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Direct/ Indirect" value="Beneficiaries (unspecified)"></dimension>
+     </actual>
+     <actual value="1680">
       <location ref="SS"></location>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
-     <actual value="10788">
+     <actual value="10080">
       <location ref="SS"></location>
       <dimension name="Direct/ Indirect" value="Indirect beneficiaries"></dimension>
+     </actual>
+     <actual value="650">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="1030">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+     <actual value="0">
+      <location ref="SS"></location>
+      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
     <period>
@@ -710,6 +943,59 @@ The projects we refer to could be on the themes of health education, justice, se
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="12780"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Accountability</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of feedback and valid complaints received that are responded to/resolved</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Percent of feedback and valid complaints received at project or country/field office level, via Cordaid, a partner or consortium member that are respond to and/or resolved (in accordance with Cordaid FCM minimum standards). This excludes invalid and sensitive complaints.</narrative>
+    </description>
+    <reference code="CC3.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="100">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="100"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Climate Resilience</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">The project integrates climate risks in programming</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">The integration of climate risks in programming includes an undertaking of concrete actions to reduce and/or mitigate risks related to climate change impact and disaster risks  ( for example droughts, erosion, salinization, flooding, etc.) 
+The projects we refer to could be on the themes of health education, justice, security, disaster management, finance and livelihoods.</narrative>
+    </description>
+    <reference code="CC1.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="100">
+      <location ref="SS"></location>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="100"></target>
     </period>
    </indicator>
   </result>
