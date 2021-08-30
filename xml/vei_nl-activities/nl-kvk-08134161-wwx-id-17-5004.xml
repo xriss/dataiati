@@ -172,27 +172,11 @@
    <transaction-date iso-date="2021-03-31"></transaction-date>
    <value currency="EUR" value-date="2021-03-31">20333</value>
   </transaction>
-  <result aggregation-status="1" type="2">
-   <title>
-    <narrative xml:lang="EN">Access to adequate sanitation</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Obligatory DGIS indicator</narrative>
-   </description>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of people with access to adequate sanitation</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Number of people that have obtained access to adequate sanitation facilities through WWX</narrative>
-    </description>
-    <baseline value="0" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2017-03-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-    </period>
-   </indicator>
-  </result>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="EUR" value-date="2021-06-30">75720</value>
+  </transaction>
   <result aggregation-status="1" type="2">
    <title>
     <narrative xml:lang="EN">Access to safe drinking water</narrative>
@@ -207,11 +191,34 @@
     <description>
      <narrative xml:lang="EN">Number of people that have obtained improved access to safe drinking water through WWX</narrative>
     </description>
-    <baseline value="0" year="2017"></baseline>
+    <reference code="WAT012" indicator-uri="https://helpdesk-opendata-minbuza.nl/indicator-codelist/" vocabulary="99"></reference>
+    <baseline iso-date="2021-06-03" value="0" year="2017"></baseline>
     <period>
      <period-start iso-date="2017-03-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <actual value="3435"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Access to adequate sanitation</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Obligatory DGIS indicator</narrative>
+   </description>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of people with access to adequate sanitation</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of people that have obtained access to adequate sanitation facilities through WWX</narrative>
+    </description>
+    <reference code="WAT013" indicator-uri="https://helpdesk-opendata-minbuza.nl/indicator-codelist/" vocabulary="99"></reference>
+    <baseline value="0" year="2017"></baseline>
+    <period>
+     <period-start iso-date="2017-03-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
     </period>
    </indicator>
   </result>
