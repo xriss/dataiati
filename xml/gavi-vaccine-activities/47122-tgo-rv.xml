@@ -38,7 +38,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2013-01-01" type="1"></activity-date>
   <activity-date iso-date="2013-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -54,7 +54,7 @@
     <narrative xml:lang="EN">Lome</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>6.1374800 1.2122700</pos>
+    <pos>6.13748 1.21227</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -80,6 +80,11 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">762681.2</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -347,11 +352,14 @@
     <narrative xml:lang="EN">The Government of Togo</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-13"></transaction-date>
-   <value currency="USD" value-date="2013-09-13">12000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="TGORV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">762681.2</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Togo RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -360,41 +368,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-13"></transaction-date>
-   <value currency="USD" value-date="2013-09-13">585973.44</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-05"></transaction-date>
-   <value currency="USD" value-date="2013-12-05">25000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-05"></transaction-date>
-   <value currency="USD" value-date="2013-12-05">846766.3</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-18"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-02-18"></transaction-date>
    <value currency="USD" value-date="2014-02-18">228000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme TGO-RV-R-VIG-MOH (Approval code: 13-TGO-08a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -404,239 +382,165 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-05-30"></transaction-date>
-   <value currency="USD" value-date="2014-05-30">229891.3</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-05-30"></transaction-date>
-   <value currency="USD" value-date="2014-05-30">6846</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
-   <value currency="USD" value-date="2015-01-30">11000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
-   <value currency="USD" value-date="2015-01-30">340463.41</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
-   <value currency="USD" value-date="2015-03-19">230589.81</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
-   <value currency="USD" value-date="2015-03-19">7500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-22"></transaction-date>
-   <value currency="USD" value-date="2015-04-22">1205.24</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
-   <value currency="USD" value-date="2015-06-03">226809.65</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
-   <value currency="USD" value-date="2015-06-03">7000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-31"></transaction-date>
-   <value currency="USD" value-date="2015-08-31">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-31"></transaction-date>
-   <value currency="USD" value-date="2015-08-31">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-31"></transaction-date>
-   <value currency="USD" value-date="2015-08-31">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">290657.89</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">8000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-29"></transaction-date>
-   <value currency="USD" value-date="2016-01-29">-0.87</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-29"></transaction-date>
-   <value currency="USD" value-date="2016-01-29">-51256.34</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-29"></transaction-date>
-   <value currency="USD" value-date="2016-01-29">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">290563.99</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">9000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
-   <value currency="USD" value-date="2016-05-03">10000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
-   <value currency="USD" value-date="2016-05-03">300203.85</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-04"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2016-05-04"></transaction-date>
    <value currency="USD" value-date="2016-05-04">-4268.26</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme TGO-RV-R-VIG-MOH (Approval code: 13-TGO-08a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TGORV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">373895</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TGO-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TGORV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">373895</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TGO-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TGORV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-21"></transaction-date>
+   <value currency="USD" value-date="2019-06-21">373526</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TGO-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TGORV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-05"></transaction-date>
+   <value currency="USD" value-date="2019-12-05">314050</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TGO-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TGORV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-28"></transaction-date>
+   <value currency="USD" value-date="2020-02-28">311130</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TGO-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TGORV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-26"></transaction-date>
+   <value currency="USD" value-date="2020-05-26">136033</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TGO-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TGORV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-20"></transaction-date>
+   <value currency="USD" value-date="2020-11-20">-6652.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TGO-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TGORV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-02"></transaction-date>
+   <value currency="USD" value-date="2020-12-02">14249.42</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TGO-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TGORV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-09"></transaction-date>
+   <value currency="USD" value-date="2020-12-09">256000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TGO-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TGORV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-19"></transaction-date>
+   <value currency="USD" value-date="2021-05-19">263428</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TGO-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-09-13"></transaction-date>
+   <value currency="USD" value-date="2013-09-13">12000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -646,8 +550,347 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-09-29"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-09-13"></transaction-date>
+   <value currency="USD" value-date="2013-09-13">585973.44</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-05"></transaction-date>
+   <value currency="USD" value-date="2013-12-05">25000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-05"></transaction-date>
+   <value currency="USD" value-date="2013-12-05">846766.3</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-05-30"></transaction-date>
+   <value currency="USD" value-date="2014-05-30">229891.3</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-05-30"></transaction-date>
+   <value currency="USD" value-date="2014-05-30">6846</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-04-22"></transaction-date>
+   <value currency="USD" value-date="2015-04-22">1205.24</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-08-31"></transaction-date>
+   <value currency="USD" value-date="2015-08-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-08-31"></transaction-date>
+   <value currency="USD" value-date="2015-08-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-08-31"></transaction-date>
+   <value currency="USD" value-date="2015-08-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
+   <value currency="USD" value-date="2015-01-30">11000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
+   <value currency="USD" value-date="2015-01-30">340463.41</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
+   <value currency="USD" value-date="2015-03-19">230589.81</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
+   <value currency="USD" value-date="2015-03-19">7500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
+   <value currency="USD" value-date="2015-06-03">226809.65</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
+   <value currency="USD" value-date="2015-06-03">7000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-01-29"></transaction-date>
+   <value currency="USD" value-date="2016-01-29">-0.87</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-01-29"></transaction-date>
+   <value currency="USD" value-date="2016-01-29">-51256.34</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-01-29"></transaction-date>
+   <value currency="USD" value-date="2016-01-29">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1315-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">290657.89</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 16-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">8000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 16-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">290563.99</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 16-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">9000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 16-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-03"></transaction-date>
+   <value currency="USD" value-date="2016-05-03">10000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 16-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-03"></transaction-date>
+   <value currency="USD" value-date="2016-05-03">300203.85</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 16-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-09-29"></transaction-date>
    <value currency="USD" value-date="2016-09-29">-2325.84</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 16-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -657,8 +900,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-09-30"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-09-30"></transaction-date>
    <value currency="USD" value-date="2016-09-30">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 16-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -668,8 +914,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-04-06"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-04-06"></transaction-date>
    <value currency="USD" value-date="2017-04-06">16729</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -679,8 +928,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-04-06"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-04-06"></transaction-date>
    <value currency="USD" value-date="2017-04-06">521040</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -690,8 +942,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
    <value currency="USD" value-date="2017-06-07">16546</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -701,8 +956,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
    <value currency="USD" value-date="2017-06-07">517920</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -712,8 +970,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-27"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-27"></transaction-date>
    <value currency="USD" value-date="2017-09-27">35332.17</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -723,8 +984,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-04"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-04"></transaction-date>
    <value currency="USD" value-date="2017-10-04">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -734,8 +998,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
    <value currency="USD" value-date="2017-11-24">11195</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -745,8 +1012,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
    <value currency="USD" value-date="2017-11-24">356310</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -756,8 +1026,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-11"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-11"></transaction-date>
    <value currency="USD" value-date="2018-04-11">12729</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -767,8 +1040,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-11"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-11"></transaction-date>
    <value currency="USD" value-date="2018-04-11">411754.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -778,8 +1054,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
    <value currency="USD" value-date="2018-06-26">246420</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -789,8 +1068,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
    <value currency="USD" value-date="2018-06-26">7920</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -800,30 +1082,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">11781</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">362114</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-21"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-12-21"></transaction-date>
    <value currency="USD" value-date="2018-12-21">-17760.34</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -833,8 +1096,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-27"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-12-27"></transaction-date>
    <value currency="USD" value-date="2018-12-27">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -844,8 +1110,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">11781</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">362114</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Togo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
    <value currency="USD" value-date="2019-02-25">11781</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -855,8 +1152,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
    <value currency="USD" value-date="2019-02-25">362114</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -866,8 +1166,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-21"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-21"></transaction-date>
    <value currency="USD" value-date="2019-06-21">11987</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -877,52 +1180,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-21"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-21"></transaction-date>
    <value currency="USD" value-date="2019-06-21">361539</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-05"></transaction-date>
-   <value currency="USD" value-date="2019-12-05">10116</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-05"></transaction-date>
-   <value currency="USD" value-date="2019-12-05">303934</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">301588</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Togo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">9542</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TGO-RV-R-VAC (Approval code: 1720-TGO-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

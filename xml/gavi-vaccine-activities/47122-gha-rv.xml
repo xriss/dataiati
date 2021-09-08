@@ -39,7 +39,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2012-01-01" type="1"></activity-date>
   <activity-date iso-date="2012-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -55,7 +55,7 @@
     <narrative xml:lang="EN">Accra</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>5.5560200 -0.1969000</pos>
+    <pos>5.55602 -0.1969</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -119,12 +119,27 @@
   <budget status="2" type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">-745054.54</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2019-01-01">2958000</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">-478624.3</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">1288500</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">2188386.1</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -491,28 +506,56 @@
     <narrative xml:lang="EN">The Government of Ghana</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="GHARV2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-03"></transaction-date>
-   <value currency="USD" value-date="2018-10-03">2958000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">-745054.54</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for Ghana RV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Ghana</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="GHARV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
-   <value currency="USD" value-date="2019-09-18">1288500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">-478624.3</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Ghana RV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">2188386.1</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Ghana RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-05"></transaction-date>
+   <value currency="USD" value-date="2020-06-05">225343</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GHA-RV-R-PSG-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -521,9 +564,180 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-12-16"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2011-12-16"></transaction-date>
    <value currency="USD" value-date="2011-12-16">305000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GHA-RV-R-VIG-MOH (Approval code: 12-GHA-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">936416</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">936417</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">915673</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-01"></transaction-date>
+   <value currency="USD" value-date="2019-11-01">-0.34</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-07"></transaction-date>
+   <value currency="USD" value-date="2020-05-07">0.34</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-15"></transaction-date>
+   <value currency="USD" value-date="2020-05-15">-87879.52</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-17"></transaction-date>
+   <value currency="USD" value-date="2020-06-17">496925</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-23"></transaction-date>
+   <value currency="USD" value-date="2020-07-23">84853.75</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-25"></transaction-date>
+   <value currency="USD" value-date="2020-11-25">2188385.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-11"></transaction-date>
+   <value currency="USD" value-date="2020-12-11">-58512.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">2753.1</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-15"></transaction-date>
+   <value currency="USD" value-date="2021-07-15">-223713.27</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -532,8 +746,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-03-02"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-03-02"></transaction-date>
    <value currency="USD" value-date="2012-03-02">154840</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -543,8 +760,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-03-02"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-03-02"></transaction-date>
    <value currency="USD" value-date="2012-03-02">6000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -554,8 +774,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-03-02"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-03-02"></transaction-date>
    <value currency="USD" value-date="2012-03-02">92788</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -565,8 +788,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-03-22"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-03-22"></transaction-date>
    <value currency="USD" value-date="2012-03-22">1886301</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -576,8 +802,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-03-22"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-03-22"></transaction-date>
    <value currency="USD" value-date="2012-03-22">45000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -587,8 +816,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-10"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-05-10"></transaction-date>
    <value currency="USD" value-date="2012-05-10">1523401.9</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -598,8 +830,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-10"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-05-10"></transaction-date>
    <value currency="USD" value-date="2012-05-10">37000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -609,8 +844,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-06-26"></transaction-date>
    <value currency="USD" value-date="2012-06-26">118444.81</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -620,8 +858,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-06-26"></transaction-date>
    <value currency="USD" value-date="2012-06-26">4000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -631,8 +872,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-13"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-09-13"></transaction-date>
    <value currency="USD" value-date="2012-09-13">22000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -642,8 +886,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-13"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-09-13"></transaction-date>
    <value currency="USD" value-date="2012-09-13">756032</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -653,30 +900,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-05"></transaction-date>
-   <value currency="USD" value-date="2012-11-05">1648146</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-05"></transaction-date>
-   <value currency="USD" value-date="2012-11-05">48000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-16"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-11-16"></transaction-date>
    <value currency="USD" value-date="2012-11-16">-1260</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -686,96 +914,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-01-24"></transaction-date>
-   <value currency="USD" value-date="2013-01-24">1027895</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-01-24"></transaction-date>
-   <value currency="USD" value-date="2013-01-24">31000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-07-05"></transaction-date>
-   <value currency="USD" value-date="2013-07-05">2055790</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-07-05"></transaction-date>
-   <value currency="USD" value-date="2013-07-05">62000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-05"></transaction-date>
-   <value currency="USD" value-date="2013-12-05">36000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-05"></transaction-date>
-   <value currency="USD" value-date="2013-12-05">403833.36</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-05"></transaction-date>
-   <value currency="USD" value-date="2013-12-05">58264.46</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-05"></transaction-date>
-   <value currency="USD" value-date="2013-12-05">918543.46</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-24"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-12-24"></transaction-date>
    <value currency="USD" value-date="2013-12-24">-11699.78</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -785,30 +928,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-28"></transaction-date>
-   <value currency="USD" value-date="2014-02-28">1398505.44</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-28"></transaction-date>
-   <value currency="USD" value-date="2014-02-28">36000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-10"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-03-10"></transaction-date>
    <value currency="USD" value-date="2014-03-10">-0.05</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -818,8 +942,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-10"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-03-10"></transaction-date>
    <value currency="USD" value-date="2014-03-10">-1.28</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -829,8 +956,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-10"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-03-10"></transaction-date>
    <value currency="USD" value-date="2014-03-10">-4.36</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -840,8 +970,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-10"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-03-10"></transaction-date>
    <value currency="USD" value-date="2014-03-10">5642.29</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -851,63 +984,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-05-30"></transaction-date>
-   <value currency="USD" value-date="2014-05-30">1398505.44</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-05-30"></transaction-date>
-   <value currency="USD" value-date="2014-05-30">36006</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
-   <value currency="USD" value-date="2014-07-23">-34114</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
-   <value currency="USD" value-date="2014-07-23">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
-   <value currency="USD" value-date="2014-07-23">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-20"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2015-02-20"></transaction-date>
    <value currency="USD" value-date="2015-02-20">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -917,8 +998,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-24"></transaction-date>
-   <value currency="USD" value-date="2015-02-24">3029011.76</value>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-05"></transaction-date>
+   <value currency="USD" value-date="2012-11-05">1648146</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -928,8 +1012,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-24"></transaction-date>
-   <value currency="USD" value-date="2015-02-24">44000</value>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-05"></transaction-date>
+   <value currency="USD" value-date="2012-11-05">48000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -939,8 +1026,221 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-22"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-01-24"></transaction-date>
+   <value currency="USD" value-date="2013-01-24">1027895</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-01-24"></transaction-date>
+   <value currency="USD" value-date="2013-01-24">31000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-07-05"></transaction-date>
+   <value currency="USD" value-date="2013-07-05">2055790</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-07-05"></transaction-date>
+   <value currency="USD" value-date="2013-07-05">62000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-23"></transaction-date>
+   <value currency="USD" value-date="2014-07-23">-34114</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-23"></transaction-date>
+   <value currency="USD" value-date="2014-07-23">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-23"></transaction-date>
+   <value currency="USD" value-date="2014-07-23">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-05"></transaction-date>
+   <value currency="USD" value-date="2013-12-05">36000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-05"></transaction-date>
+   <value currency="USD" value-date="2013-12-05">403833.36</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-05"></transaction-date>
+   <value currency="USD" value-date="2013-12-05">58264.46</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-05"></transaction-date>
+   <value currency="USD" value-date="2013-12-05">918543.46</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-28"></transaction-date>
+   <value currency="USD" value-date="2014-02-28">1398505.44</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-28"></transaction-date>
+   <value currency="USD" value-date="2014-02-28">36000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-05-30"></transaction-date>
+   <value currency="USD" value-date="2014-05-30">1398505.44</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-05-30"></transaction-date>
+   <value currency="USD" value-date="2014-05-30">36006</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-04-22"></transaction-date>
    <value currency="USD" value-date="2015-04-22">-9424.8</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -950,8 +1250,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-31"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-08-31"></transaction-date>
    <value currency="USD" value-date="2015-08-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1214-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -961,8 +1264,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-19"></transaction-date>
-   <value currency="USD" value-date="2016-02-19">1038111.86</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-24"></transaction-date>
+   <value currency="USD" value-date="2015-02-24">3029011.76</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -972,8 +1278,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-19"></transaction-date>
-   <value currency="USD" value-date="2016-02-19">1054032.79</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-24"></transaction-date>
+   <value currency="USD" value-date="2015-02-24">44000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -983,63 +1292,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-19"></transaction-date>
-   <value currency="USD" value-date="2016-02-19">35000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-19"></transaction-date>
-   <value currency="USD" value-date="2016-02-19">36000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-19"></transaction-date>
-   <value currency="USD" value-date="2016-02-19">7918.51</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
-   <value currency="USD" value-date="2016-05-03">1089037.37</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
-   <value currency="USD" value-date="2016-05-03">36000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-29"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-06-29"></transaction-date>
    <value currency="USD" value-date="2016-06-29">-133421.28</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1049,8 +1306,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-29"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-06-29"></transaction-date>
    <value currency="USD" value-date="2016-06-29">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1060,8 +1320,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">1198885.25</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-19"></transaction-date>
+   <value currency="USD" value-date="2016-02-19">1038111.86</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1071,8 +1334,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">40000</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-19"></transaction-date>
+   <value currency="USD" value-date="2016-02-19">1054032.79</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1082,8 +1348,81 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-28"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-19"></transaction-date>
+   <value currency="USD" value-date="2016-02-19">35000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-19"></transaction-date>
+   <value currency="USD" value-date="2016-02-19">36000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-19"></transaction-date>
+   <value currency="USD" value-date="2016-02-19">7918.51</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-03"></transaction-date>
+   <value currency="USD" value-date="2016-05-03">1089037.37</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-03"></transaction-date>
+   <value currency="USD" value-date="2016-05-03">36000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-28"></transaction-date>
    <value currency="USD" value-date="2016-12-28">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1093,8 +1432,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-28"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-28"></transaction-date>
    <value currency="USD" value-date="2016-12-28">5093.66</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1104,8 +1446,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-04-06"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">1198885.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">40000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-04-06"></transaction-date>
    <value currency="USD" value-date="2017-04-06">1213680</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1115,8 +1488,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-04-06"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-04-06"></transaction-date>
    <value currency="USD" value-date="2017-04-06">35376</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1126,8 +1502,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-03"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-03"></transaction-date>
    <value currency="USD" value-date="2017-10-03">1210560</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1137,8 +1516,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-03"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-03"></transaction-date>
    <value currency="USD" value-date="2017-10-03">38586</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1148,52 +1530,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-24"></transaction-date>
-   <value currency="USD" value-date="2018-01-24">22323</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-24"></transaction-date>
-   <value currency="USD" value-date="2018-01-24">799200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-11"></transaction-date>
-   <value currency="USD" value-date="2018-04-11">26038</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-11"></transaction-date>
-   <value currency="USD" value-date="2018-04-11">948073.62</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-30"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-04-30"></transaction-date>
    <value currency="USD" value-date="2018-04-30">100099.88</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1203,8 +1544,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-05-07"></transaction-date>
    <value currency="USD" value-date="2018-05-07">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1517-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1214,8 +1558,67 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-20"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-24"></transaction-date>
+   <value currency="USD" value-date="2018-01-24">22323</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-24"></transaction-date>
+   <value currency="USD" value-date="2018-01-24">799200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-11"></transaction-date>
+   <value currency="USD" value-date="2018-04-11">26038</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-11"></transaction-date>
+   <value currency="USD" value-date="2018-04-11">948073.62</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-20"></transaction-date>
    <value currency="USD" value-date="2018-09-20">1195470</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1225,8 +1628,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-20"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-20"></transaction-date>
    <value currency="USD" value-date="2018-09-20">34112</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1236,52 +1642,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">26326</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">910090</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
-   <value currency="USD" value-date="2019-02-25">26326</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
-   <value currency="USD" value-date="2019-02-25">910091</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Ghana</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-06-07"></transaction-date>
    <value currency="USD" value-date="2019-06-07">-142401.86</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1291,8 +1656,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1302,8 +1670,67 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">26326</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">910090</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">26326</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">910091</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">26143</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1313,8 +1740,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">889530</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GHA-RV-R-VAC (Approval code: 1819-GHA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

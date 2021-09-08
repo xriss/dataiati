@@ -43,7 +43,7 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2008-01-01" type="1"></activity-date>
   <activity-date iso-date="2008-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -59,7 +59,7 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">Kabul</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>34.533056 69.166111</pos>
+    <pos>34.52813 69.17233</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -143,12 +143,27 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <budget status="2" type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">-10709.11</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2019-01-01">2249787.5</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">2422000</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">96519.75</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">3015842.64</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -767,56 +782,42 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">The Government of Afghanistan</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="AFGPENTA2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-03"></transaction-date>
-   <value currency="USD" value-date="2018-10-03">2089500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">-10709.11</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for Afghanistan PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Afghanistan</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="AFGPENTA2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-28"></transaction-date>
-   <value currency="USD" value-date="2019-08-28">160287.5</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">96519.75</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Afghanistan PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Afghanistan</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="AFGPENTA2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">2259500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">3015842.64</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Afghanistan PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">162500</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -825,9 +826,292 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-08-07"></transaction-date>
+   <transaction-date gavi:budget-period="2008" iso-date="2008-08-07"></transaction-date>
    <value currency="USD" value-date="2008-08-07">404000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme AFG-PENTA-R-VIG-MOH (Approval code: 08-AFG-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-03-07"></transaction-date>
+   <value currency="USD" value-date="2019-03-07">1009012.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-25"></transaction-date>
+   <value currency="USD" value-date="2019-06-25">1009200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-08-29"></transaction-date>
+   <value currency="USD" value-date="2019-08-29">231575</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-01"></transaction-date>
+   <value currency="USD" value-date="2019-11-01">-725000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-04"></transaction-date>
+   <value currency="USD" value-date="2019-11-04">-725000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-15"></transaction-date>
+   <value currency="USD" value-date="2019-11-15">725000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-15"></transaction-date>
+   <value currency="USD" value-date="2019-11-15">725000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-15"></transaction-date>
+   <value currency="USD" value-date="2019-11-15">725000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-29"></transaction-date>
+   <value currency="USD" value-date="2019-11-29">774500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-28"></transaction-date>
+   <value currency="USD" value-date="2020-02-28">228159.75</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-10709</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-29"></transaction-date>
+   <value currency="USD" value-date="2020-05-29">338000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-17"></transaction-date>
+   <value currency="USD" value-date="2020-06-17">426370</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-20"></transaction-date>
+   <value currency="USD" value-date="2020-08-20">-82649.68</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-11"></transaction-date>
+   <value currency="USD" value-date="2020-12-11">835692</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">6587.46</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-03"></transaction-date>
+   <value currency="USD" value-date="2021-02-03">584987</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">-19311.58</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">-50000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="AFGPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-21"></transaction-date>
+   <value currency="USD" value-date="2021-05-21">1434045</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme AFG-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -836,8 +1120,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-10-20"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2008-10-20"></transaction-date>
    <value currency="USD" value-date="2008-10-20">8136881</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 0910-AFG-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -847,8 +1134,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-01-22"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-01-22"></transaction-date>
    <value currency="USD" value-date="2009-01-22">8136129</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 0910-AFG-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -858,41 +1148,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-07"></transaction-date>
-   <value currency="USD" value-date="2009-12-07">2209047</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-02-19"></transaction-date>
-   <value currency="USD" value-date="2010-02-19">3205326</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-05-07"></transaction-date>
-   <value currency="USD" value-date="2010-05-07">2981462</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-08-06"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2010-08-06"></transaction-date>
    <value currency="USD" value-date="2010-08-06">-30151.89</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 0910-AFG-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -902,8 +1162,53 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-08-06"></transaction-date>
+   <transaction-date gavi:budget-period="2010" iso-date="2009-12-07"></transaction-date>
+   <value currency="USD" value-date="2009-12-07">2209047</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 0910-AFG-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-02-19"></transaction-date>
+   <value currency="USD" value-date="2010-02-19">3205326</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 0910-AFG-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-05-07"></transaction-date>
+   <value currency="USD" value-date="2010-05-07">2981462</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 0910-AFG-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-08-06"></transaction-date>
    <value currency="USD" value-date="2010-08-06">3025350</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 0910-AFG-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -913,19 +1218,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-01"></transaction-date>
-   <value currency="USD" value-date="2010-12-01">3073025</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-02-18"></transaction-date>
+   <transaction-date gavi:budget-period="2010" iso-date="2011-02-18"></transaction-date>
    <value currency="USD" value-date="2011-02-18">168936.74</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 0910-AFG-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -935,8 +1232,25 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-02-18"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2010-12-01"></transaction-date>
+   <value currency="USD" value-date="2010-12-01">3073025</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-02-18"></transaction-date>
    <value currency="USD" value-date="2011-02-18">30800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -946,8 +1260,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-06-30"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-06-30"></transaction-date>
    <value currency="USD" value-date="2011-06-30">4934302</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -957,8 +1274,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-10-04"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-10-04"></transaction-date>
    <value currency="USD" value-date="2011-10-04">796820</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -968,96 +1288,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-11-07"></transaction-date>
-   <value currency="USD" value-date="2011-11-07">2351256</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-03-09"></transaction-date>
-   <value currency="USD" value-date="2012-03-09">2118125</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-04"></transaction-date>
-   <value currency="USD" value-date="2012-05-04">60970</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-07"></transaction-date>
-   <value currency="USD" value-date="2012-06-07">3884351</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">34504</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">4592545</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-02-21"></transaction-date>
-   <value currency="USD" value-date="2013-02-21">-4592545</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-02-21"></transaction-date>
-   <value currency="USD" value-date="2013-02-21">5908248</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-06-24"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2013-06-24"></transaction-date>
    <value currency="USD" value-date="2013-06-24">-47375.77</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1067,8 +1302,67 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-06-24"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2011-11-07"></transaction-date>
+   <value currency="USD" value-date="2011-11-07">2351256</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-03-09"></transaction-date>
+   <value currency="USD" value-date="2012-03-09">2118125</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-05-04"></transaction-date>
+   <value currency="USD" value-date="2012-05-04">60970</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-06-07"></transaction-date>
+   <value currency="USD" value-date="2012-06-07">3884351</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-06-24"></transaction-date>
    <value currency="USD" value-date="2013-06-24">-73112.05</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1078,8 +1372,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-13"></transaction-date>
-   <value currency="USD" value-date="2013-12-13">299233</value>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">34504</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1089,8 +1386,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-17"></transaction-date>
-   <value currency="USD" value-date="2013-12-17">6073022</value>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">4592545</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1100,8 +1400,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-05-13"></transaction-date>
-   <value currency="USD" value-date="2014-05-13">-1477183</value>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-02-21"></transaction-date>
+   <value currency="USD" value-date="2013-02-21">-4592545</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1111,8 +1414,25 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-02-21"></transaction-date>
+   <value currency="USD" value-date="2013-02-21">5908248</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-23"></transaction-date>
    <value currency="USD" value-date="2014-07-23">37558.23</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1122,8 +1442,53 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-17"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-13"></transaction-date>
+   <value currency="USD" value-date="2013-12-13">299233</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-17"></transaction-date>
+   <value currency="USD" value-date="2013-12-17">6073022</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-05-13"></transaction-date>
+   <value currency="USD" value-date="2014-05-13">-1477183</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-12-17"></transaction-date>
    <value currency="USD" value-date="2014-12-17">-183690</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1133,19 +1498,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-17"></transaction-date>
-   <value currency="USD" value-date="2014-12-17">-429150</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-17"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-12-17"></transaction-date>
    <value currency="USD" value-date="2014-12-17">1640964</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1155,8 +1512,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-17"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-12-17"></transaction-date>
    <value currency="USD" value-date="2014-12-17">27988</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1166,63 +1526,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-17"></transaction-date>
-   <value currency="USD" value-date="2014-12-17">3833740</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-17"></transaction-date>
-   <value currency="USD" value-date="2014-12-17">62000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">131540.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">15362</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-30"></transaction-date>
-   <value currency="USD" value-date="2015-03-30">-2214590</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-11"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-08-11"></transaction-date>
    <value currency="USD" value-date="2015-08-11">-26510.63</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1232,30 +1540,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-28"></transaction-date>
-   <value currency="USD" value-date="2015-09-28">25600</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-28"></transaction-date>
-   <value currency="USD" value-date="2015-09-28">2884550</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-11-09"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-11-09"></transaction-date>
    <value currency="USD" value-date="2015-11-09">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1265,8 +1554,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">1437500</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-17"></transaction-date>
+   <value currency="USD" value-date="2014-12-17">-429150</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1276,8 +1568,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">20800</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-17"></transaction-date>
+   <value currency="USD" value-date="2014-12-17">3833740</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1287,8 +1582,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">208346.5</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-17"></transaction-date>
+   <value currency="USD" value-date="2014-12-17">62000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1298,8 +1596,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">24822</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">131540.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1309,8 +1610,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-16"></transaction-date>
-   <value currency="USD" value-date="2016-02-16">2405225</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">15362</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1320,8 +1624,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-16"></transaction-date>
-   <value currency="USD" value-date="2016-02-16">41528</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-30"></transaction-date>
+   <value currency="USD" value-date="2015-03-30">-2214590</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1331,8 +1638,39 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-30"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-28"></transaction-date>
+   <value currency="USD" value-date="2015-09-28">25600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-28"></transaction-date>
+   <value currency="USD" value-date="2015-09-28">2884550</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-30"></transaction-date>
    <value currency="USD" value-date="2016-05-30">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1342,8 +1680,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-31"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-31"></transaction-date>
    <value currency="USD" value-date="2016-05-31">-103644.82</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1115-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1353,8 +1694,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-20"></transaction-date>
-   <value currency="USD" value-date="2017-01-20">1705875</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">1437500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1364,8 +1708,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-20"></transaction-date>
-   <value currency="USD" value-date="2017-01-20">29000</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">20800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1375,8 +1722,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-02-17"></transaction-date>
-   <value currency="USD" value-date="2017-02-17">1705875</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">208346.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1386,8 +1736,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-02-17"></transaction-date>
-   <value currency="USD" value-date="2017-02-17">26500</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">24822</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1397,8 +1750,39 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-02"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-16"></transaction-date>
+   <value currency="USD" value-date="2016-02-16">2405225</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-16"></transaction-date>
+   <value currency="USD" value-date="2016-02-16">41528</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-03-02"></transaction-date>
    <value currency="USD" value-date="2017-03-02">-97508.24</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1408,8 +1792,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-03"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-03-03"></transaction-date>
    <value currency="USD" value-date="2017-03-03">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1419,8 +1806,67 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-01-20"></transaction-date>
+   <value currency="USD" value-date="2017-01-20">1705875</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-01-20"></transaction-date>
+   <value currency="USD" value-date="2017-01-20">29000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-02-17"></transaction-date>
+   <value currency="USD" value-date="2017-02-17">1705875</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-02-17"></transaction-date>
+   <value currency="USD" value-date="2017-02-17">26500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-15"></transaction-date>
    <value currency="USD" value-date="2017-06-15">17000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1430,8 +1876,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-15"></transaction-date>
    <value currency="USD" value-date="2017-06-15">850500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1441,8 +1890,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-12-22"></transaction-date>
    <value currency="USD" value-date="2017-12-22">-24579.1</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1452,8 +1904,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-03"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-03"></transaction-date>
    <value currency="USD" value-date="2018-05-03">11000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1463,8 +1918,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-03"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-03"></transaction-date>
    <value currency="USD" value-date="2018-05-03">527850</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1474,8 +1932,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-11"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-10-11"></transaction-date>
    <value currency="USD" value-date="2018-10-11">255850</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1485,8 +1946,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-11"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-10-11"></transaction-date>
    <value currency="USD" value-date="2018-10-11">6000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1496,30 +1960,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-03-07"></transaction-date>
-   <value currency="USD" value-date="2019-03-07">21000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-03-07"></transaction-date>
-   <value currency="USD" value-date="2019-03-07">988012.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-08"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-04-08"></transaction-date>
    <value currency="USD" value-date="2019-04-08">-63935.79</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1529,8 +1974,39 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-25"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-03-07"></transaction-date>
+   <value currency="USD" value-date="2019-03-07">21000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-03-07"></transaction-date>
+   <value currency="USD" value-date="2019-03-07">988012.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-25"></transaction-date>
    <value currency="USD" value-date="2019-06-25">21000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1540,8 +2016,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-25"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-25"></transaction-date>
    <value currency="USD" value-date="2019-06-25">988200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1551,8 +2030,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-08-29"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-29"></transaction-date>
    <value currency="USD" value-date="2019-08-29">226575</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1562,85 +2044,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-08-29"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-29"></transaction-date>
    <value currency="USD" value-date="2019-08-29">5000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-15"></transaction-date>
-   <value currency="USD" value-date="2019-11-15">25000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-15"></transaction-date>
-   <value currency="USD" value-date="2019-11-15">700000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-29"></transaction-date>
-   <value currency="USD" value-date="2019-11-29">24500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-29"></transaction-date>
-   <value currency="USD" value-date="2019-11-29">750000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">179050</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">20741.75</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Afghanistan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">28368</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme AFG-PENTA-R-VAC (Approval code: 1619-AFG-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

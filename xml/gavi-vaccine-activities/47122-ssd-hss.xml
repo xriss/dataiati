@@ -36,10 +36,11 @@
   <other-identifier ref="47122-1418-SDS-10A-Y" type="A3"></other-identifier>
   <other-identifier ref="47122-1419-SDS-10A-Y" type="A3"></other-identifier>
   <other-identifier ref="47122-20-SDS-10A-Y" type="A3"></other-identifier>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2009-01-01" type="1"></activity-date>
   <activity-date iso-date="2009-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2019-12-31" type="3"></activity-date>
+  <activity-date iso-date="2019-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -55,7 +56,7 @@
     <narrative xml:lang="EN">Juba</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>4.8516500 31.5824700</pos>
+    <pos>4.85165 31.58247</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -81,6 +82,16 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">1378320</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">5931363</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -348,56 +359,14 @@
     <narrative xml:lang="EN">The Government of South Sudan</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="SSDHSS2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-04-06"></transaction-date>
-   <value currency="USD" value-date="2018-04-06">2786901</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">1378320</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for South Sudan HSS</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-04-06"></transaction-date>
-   <value currency="USD" value-date="2018-04-06">4119121</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-04-06"></transaction-date>
-   <value currency="USD" value-date="2018-04-06">693373</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-04-06"></transaction-date>
-   <value currency="USD" value-date="2018-04-06">9300000</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -474,11 +443,14 @@
     <narrative xml:lang="EN">The Government of South Sudan</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-09-24"></transaction-date>
-   <value currency="USD" value-date="2009-09-24">1725910</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="SSDHSS2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">5931363</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for South Sudan HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -487,8 +459,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-10-29"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-10-29"></transaction-date>
    <value currency="USD" value-date="2009-10-29">-372000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-1-MOH (Approval code: 0910-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -498,8 +473,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-10-29"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-10-29"></transaction-date>
    <value currency="USD" value-date="2009-10-29">372000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-1-MOH (Approval code: 0910-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -509,8 +487,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-03-29"></transaction-date>
-   <value currency="USD" value-date="2010-03-29">895000</value>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-09-24"></transaction-date>
+   <value currency="USD" value-date="2009-09-24">1725910</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-1-UNIC (Approval code: 0910-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -520,8 +501,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-08-04"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2011-08-04"></transaction-date>
    <value currency="USD" value-date="2011-08-04">-13256.49</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-1-UNIC (Approval code: 0910-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -531,19 +515,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-20"></transaction-date>
-   <value currency="USD" value-date="2012-09-20">1012055</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-20"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-09-20"></transaction-date>
    <value currency="USD" value-date="2012-09-20">1567385</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-1-UNIC (Approval code: 0911-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -553,8 +529,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-10-07"></transaction-date>
-   <value currency="USD" value-date="2015-10-07">3483371</value>
+   <transaction-date gavi:budget-period="2009" iso-date="2010-03-29"></transaction-date>
+   <value currency="USD" value-date="2010-03-29">895000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-1-WHO (Approval code: 0910-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -564,8 +543,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-10-09"></transaction-date>
-   <value currency="USD" value-date="2015-10-09">3406905</value>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-09-20"></transaction-date>
+   <value currency="USD" value-date="2012-09-20">1012055</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-1-WHO (Approval code: 0911-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -575,19 +557,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-25"></transaction-date>
-   <value currency="USD" value-date="2017-07-25">2454761.86</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-16"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2017-11-16"></transaction-date>
    <value currency="USD" value-date="2017-11-16">-4467</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-1-WHO (Approval code: 0911-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -597,8 +571,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-11"></transaction-date>
-   <value currency="USD" value-date="2017-12-11">3964326.96</value>
+   <transaction-date gavi:budget-period="2020" iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">1206242</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-CA (Approval code: 20-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -606,99 +583,14 @@
     <narrative xml:lang="EN">The Government of South Sudan</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-09"></transaction-date>
-   <value currency="USD" value-date="2018-05-09">1099059.82</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-25"></transaction-date>
-   <value currency="USD" value-date="2018-06-25">5046337.18</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-20"></transaction-date>
-   <value currency="USD" value-date="2018-09-20">1186020</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-08-28"></transaction-date>
-   <value currency="USD" value-date="2019-08-28">4119121</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-09"></transaction-date>
-   <value currency="USD" value-date="2019-09-09">2786901</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-09"></transaction-date>
-   <value currency="USD" value-date="2019-09-09">693373</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-09"></transaction-date>
-   <value currency="USD" value-date="2019-09-09">694741</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-09"></transaction-date>
-   <value currency="USD" value-date="2019-09-09">9300000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of South Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="SSDHSS2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">1206242</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-CA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -707,8 +599,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
-   <value currency="USD" value-date="2019-09-18">1980076.78</value>
+   <transaction-date gavi:budget-period="2020" iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">3712098</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-DFID-HPF3 (Approval code: 20-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -716,11 +611,322 @@
     <narrative xml:lang="EN">The Government of South Sudan</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="SSDHSS2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">3712098</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-DFID-HPF3</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SSDHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-04"></transaction-date>
+   <value currency="USD" value-date="2020-05-04">720000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-DFID-HPF3</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SSDHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-06-16"></transaction-date>
+   <value currency="USD" value-date="2021-06-16">22084</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-FCDO-HPF3</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SSDHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-06-16"></transaction-date>
+   <value currency="USD" value-date="2021-06-16">657910</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-FCDO-HPF3</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2020" iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">1980076.78</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-IOM (Approval code: 20-SDS-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SSDHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">1980076.78</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-IOM</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-10-09"></transaction-date>
+   <value currency="USD" value-date="2015-10-09">3406905</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC (Approval code: 1418-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-07-25"></transaction-date>
+   <value currency="USD" value-date="2017-07-25">2454761.86</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC (Approval code: 1418-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-25"></transaction-date>
+   <value currency="USD" value-date="2018-06-25">5046337.18</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC (Approval code: 1419-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-28"></transaction-date>
+   <value currency="USD" value-date="2019-08-28">4119121</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC (Approval code: 1419-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-09"></transaction-date>
+   <value currency="USD" value-date="2019-09-09">693373</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC (Approval code: 1419-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-09"></transaction-date>
+   <value currency="USD" value-date="2019-09-09">9300000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC (Approval code: 1419-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2020" iso-date="2019-09-09"></transaction-date>
+   <value currency="USD" value-date="2019-09-09">694741</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC (Approval code: 20-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-09"></transaction-date>
+   <value currency="USD" value-date="2018-05-09">1099059.82</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC SD (Approval code: 1419-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SSDHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-08-28"></transaction-date>
+   <value currency="USD" value-date="2019-08-28">4119121</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SSDHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-09"></transaction-date>
+   <value currency="USD" value-date="2019-09-09">694741</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SSDHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-09"></transaction-date>
+   <value currency="USD" value-date="2019-09-09">9993373</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SSDHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">565167.72</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-10-07"></transaction-date>
+   <value currency="USD" value-date="2015-10-07">3483371</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-WHO (Approval code: 1418-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-12-11"></transaction-date>
+   <value currency="USD" value-date="2017-12-11">3964326.96</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-WHO (Approval code: 1418-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-20"></transaction-date>
+   <value currency="USD" value-date="2018-09-20">1186020</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-WHO (Approval code: 1419-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-09"></transaction-date>
+   <value currency="USD" value-date="2019-09-09">2786901</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-WHO (Approval code: 1419-SDS-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of South Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SSDHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-09"></transaction-date>
+   <value currency="USD" value-date="2019-09-09">2786901</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SSD-HSS-2-WHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">

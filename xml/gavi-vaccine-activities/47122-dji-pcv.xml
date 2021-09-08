@@ -38,7 +38,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2012-01-01" type="1"></activity-date>
   <activity-date iso-date="2012-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -54,7 +54,7 @@
     <narrative xml:lang="EN">Djibouti</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>11.5876700 43.1446800</pos>
+    <pos>11.58767 43.14468</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -124,6 +124,11 @@
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">0</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">123731.45</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -728,10 +733,27 @@
     <narrative xml:lang="EN">The Government of Djibouti</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="DJIPCV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">123731.45</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Djibouti PCV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-12-16"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2011-12-16"></transaction-date>
    <value currency="USD" value-date="2011-12-16">100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme DJI-PCV-R-VIG-MOH (Approval code: 12-DJI-08a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -739,406 +761,587 @@
     <narrative xml:lang="EN">The Government of Djibouti</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-04-04"></transaction-date>
-   <value currency="USD" value-date="2012-04-04">308700</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-04-04"></transaction-date>
-   <value currency="USD" value-date="2012-04-04">308700</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-04-04"></transaction-date>
-   <value currency="USD" value-date="2012-04-04">35976</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">17000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">252000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">252000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-13"></transaction-date>
-   <value currency="USD" value-date="2012-12-13">-4460.32</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-01-28"></transaction-date>
-   <value currency="USD" value-date="2013-01-28">5375</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-05-02"></transaction-date>
-   <value currency="USD" value-date="2013-05-02">18900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-01-31"></transaction-date>
-   <value currency="USD" value-date="2014-01-31">1165</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-19"></transaction-date>
-   <value currency="USD" value-date="2014-02-19">2270.24</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-11"></transaction-date>
-   <value currency="USD" value-date="2014-03-11">10000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-11"></transaction-date>
-   <value currency="USD" value-date="2014-03-11">65340</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-11"></transaction-date>
-   <value currency="USD" value-date="2014-03-11">73260</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-11-03"></transaction-date>
-   <value currency="USD" value-date="2014-11-03">-4811.58</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-17"></transaction-date>
-   <value currency="USD" value-date="2015-06-17">19000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-17"></transaction-date>
-   <value currency="USD" value-date="2015-06-17">249480</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-17"></transaction-date>
-   <value currency="USD" value-date="2015-06-17">279720</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-08"></transaction-date>
-   <value currency="USD" value-date="2015-09-08">-3297.31</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-04"></transaction-date>
-   <value currency="USD" value-date="2016-02-04">2500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-04"></transaction-date>
-   <value currency="USD" value-date="2016-02-04">2652.75</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-19"></transaction-date>
-   <value currency="USD" value-date="2016-02-19">6000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-19"></transaction-date>
-   <value currency="USD" value-date="2016-02-19">83160</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-07"></transaction-date>
-   <value currency="USD" value-date="2017-03-07">149160</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-07"></transaction-date>
-   <value currency="USD" value-date="2017-03-07">3000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-07"></transaction-date>
-   <value currency="USD" value-date="2017-03-07">65340</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-07"></transaction-date>
-   <value currency="USD" value-date="2017-03-07">7000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
-   <value currency="USD" value-date="2017-08-29">-1972.3</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-28"></transaction-date>
-   <value currency="USD" value-date="2017-11-28">5000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-28"></transaction-date>
-   <value currency="USD" value-date="2017-11-28">94050</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-23"></transaction-date>
-   <value currency="USD" value-date="2018-03-23">-255.15</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-12"></transaction-date>
-   <value currency="USD" value-date="2018-06-12">118800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-12"></transaction-date>
-   <value currency="USD" value-date="2018-06-12">6000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-07"></transaction-date>
-   <value currency="USD" value-date="2018-11-07">-446.09</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="DJIPCV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-02-11"></transaction-date>
-   <value currency="USD" value-date="2019-02-11">149160</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2019-02-11">155660</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme DJI-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Djibouti</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-11"></transaction-date>
-   <value currency="USD" value-date="2019-02-11">6500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Djibouti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="DJIPCV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-09-06"></transaction-date>
    <value currency="USD" value-date="2019-09-06">-784.32</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme DJI-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="DJIPCV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-02"></transaction-date>
+   <value currency="USD" value-date="2020-12-02">120830</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme DJI-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="DJIPCV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-03"></transaction-date>
+   <value currency="USD" value-date="2021-02-03">2689</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme DJI-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="DJIPCV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-22"></transaction-date>
+   <value currency="USD" value-date="2021-04-22">-13.06</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme DJI-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-04-04"></transaction-date>
+   <value currency="USD" value-date="2012-04-04">308700</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-04-04"></transaction-date>
+   <value currency="USD" value-date="2012-04-04">308700</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-04-04"></transaction-date>
+   <value currency="USD" value-date="2012-04-04">35976</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-12-13"></transaction-date>
+   <value currency="USD" value-date="2012-12-13">-4460.32</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-05-02"></transaction-date>
+   <value currency="USD" value-date="2013-05-02">18900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">17000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">252000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">252000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-01-28"></transaction-date>
+   <value currency="USD" value-date="2013-01-28">5375</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-02-19"></transaction-date>
+   <value currency="USD" value-date="2014-02-19">2270.24</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-01-31"></transaction-date>
+   <value currency="USD" value-date="2014-01-31">1165</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-03-11"></transaction-date>
+   <value currency="USD" value-date="2014-03-11">10000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-03-11"></transaction-date>
+   <value currency="USD" value-date="2014-03-11">65340</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-03-11"></transaction-date>
+   <value currency="USD" value-date="2014-03-11">73260</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-11-03"></transaction-date>
+   <value currency="USD" value-date="2014-11-03">-4811.58</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-17"></transaction-date>
+   <value currency="USD" value-date="2015-06-17">19000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-17"></transaction-date>
+   <value currency="USD" value-date="2015-06-17">249480</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-17"></transaction-date>
+   <value currency="USD" value-date="2015-06-17">279720</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-08"></transaction-date>
+   <value currency="USD" value-date="2015-09-08">-3297.31</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1215-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-04"></transaction-date>
+   <value currency="USD" value-date="2016-02-04">2500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 16-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-04"></transaction-date>
+   <value currency="USD" value-date="2016-02-04">2652.75</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 16-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-19"></transaction-date>
+   <value currency="USD" value-date="2016-02-19">6000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 16-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-19"></transaction-date>
+   <value currency="USD" value-date="2016-02-19">83160</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 16-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-03-07"></transaction-date>
+   <value currency="USD" value-date="2017-03-07">3000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 16-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-03-07"></transaction-date>
+   <value currency="USD" value-date="2017-03-07">65340</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 16-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-08-29"></transaction-date>
+   <value currency="USD" value-date="2017-08-29">-1972.3</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 16-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-03-07"></transaction-date>
+   <value currency="USD" value-date="2017-03-07">149160</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-03-07"></transaction-date>
+   <value currency="USD" value-date="2017-03-07">7000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-28"></transaction-date>
+   <value currency="USD" value-date="2017-11-28">5000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-28"></transaction-date>
+   <value currency="USD" value-date="2017-11-28">94050</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-03-23"></transaction-date>
+   <value currency="USD" value-date="2018-03-23">-255.15</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-12"></transaction-date>
+   <value currency="USD" value-date="2018-06-12">118800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-12"></transaction-date>
+   <value currency="USD" value-date="2018-06-12">6000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-11-07"></transaction-date>
+   <value currency="USD" value-date="2018-11-07">-446.09</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-11"></transaction-date>
+   <value currency="USD" value-date="2019-02-11">149160</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-11"></transaction-date>
+   <value currency="USD" value-date="2019-02-11">6500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Djibouti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-06"></transaction-date>
+   <value currency="USD" value-date="2019-09-06">-784.32</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme DJI-PCV-R-VAC (Approval code: 1720-DJI-12c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

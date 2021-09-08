@@ -35,10 +35,11 @@
   <other-identifier ref="47122-18-IDN-32A-X" type="A3"></other-identifier>
   <other-identifier ref="47122-18-IDN-32A-Y" type="A3"></other-identifier>
   <other-identifier ref="47122-19-IDN-32A-Y" type="A3"></other-identifier>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2017-01-01" type="1"></activity-date>
   <activity-date iso-date="2017-01-01" type="2"></activity-date>
   <activity-date iso-date="2019-12-31" type="3"></activity-date>
+  <activity-date iso-date="2019-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -54,7 +55,7 @@
     <narrative xml:lang="EN">Jakarta</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-6.2146200 106.8451300</pos>
+    <pos>-6.21462 106.84513</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -236,54 +237,83 @@
     <narrative xml:lang="EN">The Government of Indonesia</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
-   <value currency="USD" value-date="2017-06-07">163500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Indonesia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-27"></transaction-date>
-   <value currency="USD" value-date="2018-06-27">182000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Indonesia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-25"></transaction-date>
-   <value currency="USD" value-date="2018-10-25">1167</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Indonesia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-25"></transaction-date>
-   <value currency="USD" value-date="2018-10-25">1500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Indonesia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="IDNISD2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-07-31"></transaction-date>
    <value currency="USD" value-date="2019-07-31">206000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme IDN-ISD-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Indonesia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-10-25"></transaction-date>
+   <value currency="USD" value-date="2018-10-25">1167</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme IDN-ISD (Approval code: 18-IDN-32a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Indonesia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-10-25"></transaction-date>
+   <value currency="USD" value-date="2018-10-25">1500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme IDN-ISD (Approval code: 18-IDN-32a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Indonesia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
+   <value currency="USD" value-date="2017-06-07">163500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme IDN-ISD-MOH (Approval code: 17-IDN-32a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Indonesia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-27"></transaction-date>
+   <value currency="USD" value-date="2018-06-27">182000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme IDN-ISD-MOH (Approval code: 18-IDN-32a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Indonesia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-07-31"></transaction-date>
+   <value currency="USD" value-date="2019-07-31">206000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme IDN-ISD-MOH (Approval code: 19-IDN-32a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

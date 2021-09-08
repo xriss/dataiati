@@ -40,7 +40,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2012-01-01" type="1"></activity-date>
   <activity-date iso-date="2012-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -56,7 +56,7 @@
     <narrative xml:lang="EN">Antananarivo</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-18.9143300 47.5309800</pos>
+    <pos>-18.91433 47.53098</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -120,12 +120,22 @@
   <budget status="2" type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">-180697.23</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2019-01-01">2627500</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">3136500</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">2153629.37</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -366,14 +376,14 @@
     <narrative xml:lang="EN">The Government of Madagascar</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MDGRV2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-03"></transaction-date>
-   <value currency="USD" value-date="2018-10-03">2627500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">-180697.23</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for Madagascar RV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -394,11 +404,182 @@
     <narrative xml:lang="EN">The Government of Madagascar</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="MDGRV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">2153629.37</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Madagascar RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-08-21"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-08-21"></transaction-date>
    <value currency="USD" value-date="2013-08-21">647500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MDG-RV-R-VIG-MOH (Approval code: 12-MDG-08a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">1256294</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">1234056</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-20"></transaction-date>
+   <value currency="USD" value-date="2019-11-20">1431961</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-43546.66</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-04"></transaction-date>
+   <value currency="USD" value-date="2020-05-04">1426646.29</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-29"></transaction-date>
+   <value currency="USD" value-date="2020-10-29">-26107.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-29"></transaction-date>
+   <value currency="USD" value-date="2020-10-29">-26107.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-18"></transaction-date>
+   <value currency="USD" value-date="2020-11-18">408.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-11"></transaction-date>
+   <value currency="USD" value-date="2020-12-11">2153627.24</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-21"></transaction-date>
+   <value currency="USD" value-date="2020-12-21">39927.73</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDGRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">26107.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDG-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -407,8 +588,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-13"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-09-13"></transaction-date>
    <value currency="USD" value-date="2013-09-13">1256180.56</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1314-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -418,8 +602,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-13"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-09-13"></transaction-date>
    <value currency="USD" value-date="2013-09-13">25000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1314-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -429,8 +616,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-05"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-05"></transaction-date>
    <value currency="USD" value-date="2013-12-05">1823804.35</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1314-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -440,8 +630,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-05"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-05"></transaction-date>
    <value currency="USD" value-date="2013-12-05">58000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1314-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -451,8 +644,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-28"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-28"></transaction-date>
    <value currency="USD" value-date="2014-02-28">1823804.35</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1314-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -462,8 +658,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-28"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-28"></transaction-date>
    <value currency="USD" value-date="2014-02-28">58000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1314-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -473,52 +672,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-19"></transaction-date>
-   <value currency="USD" value-date="2014-12-19">30000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-19"></transaction-date>
-   <value currency="USD" value-date="2014-12-19">822352.94</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
-   <value currency="USD" value-date="2015-03-19">17000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
-   <value currency="USD" value-date="2015-03-19">525442.36</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-06-03"></transaction-date>
    <value currency="USD" value-date="2015-06-03">12837.49</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1314-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -528,63 +686,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
-   <value currency="USD" value-date="2015-06-03">17000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
-   <value currency="USD" value-date="2015-06-03">521662.2</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-12"></transaction-date>
-   <value currency="USD" value-date="2015-08-12">1038.67</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-12"></transaction-date>
-   <value currency="USD" value-date="2015-08-12">14000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-12"></transaction-date>
-   <value currency="USD" value-date="2015-08-12">524182.31</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-31"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-08-31"></transaction-date>
    <value currency="USD" value-date="2015-08-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1314-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -594,8 +700,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">2381501.34</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-19"></transaction-date>
+   <value currency="USD" value-date="2014-12-19">30000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -605,8 +714,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">60000</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-19"></transaction-date>
+   <value currency="USD" value-date="2014-12-19">822352.94</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -616,8 +728,109 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-21"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
+   <value currency="USD" value-date="2015-03-19">17000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
+   <value currency="USD" value-date="2015-03-19">525442.36</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
+   <value currency="USD" value-date="2015-06-03">17000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
+   <value currency="USD" value-date="2015-06-03">521662.2</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-12"></transaction-date>
+   <value currency="USD" value-date="2015-08-12">1038.67</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-12"></transaction-date>
+   <value currency="USD" value-date="2015-08-12">14000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-12"></transaction-date>
+   <value currency="USD" value-date="2015-08-12">524182.31</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-12-21"></transaction-date>
    <value currency="USD" value-date="2015-12-21">-12884.42</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -627,8 +840,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-21"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-12-21"></transaction-date>
    <value currency="USD" value-date="2015-12-21">-3.02</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -638,8 +854,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-21"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-12-21"></transaction-date>
    <value currency="USD" value-date="2015-12-21">-84919.82</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -649,8 +868,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-28"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-12-28"></transaction-date>
    <value currency="USD" value-date="2015-12-28">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -660,8 +882,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">2381501.34</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">60000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
    <value currency="USD" value-date="2016-02-10">1156138.83</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -671,8 +924,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
    <value currency="USD" value-date="2016-02-10">40000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -682,8 +938,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-03-09"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-03-09"></transaction-date>
    <value currency="USD" value-date="2016-03-09">28000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -693,8 +952,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-03-09"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-03-09"></transaction-date>
    <value currency="USD" value-date="2016-03-09">805714.29</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -704,8 +966,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-08-25"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-08-25"></transaction-date>
    <value currency="USD" value-date="2016-08-25">-4.57</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -715,8 +980,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-08-25"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-08-25"></transaction-date>
    <value currency="USD" value-date="2016-08-25">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -726,8 +994,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-08-25"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-08-25"></transaction-date>
    <value currency="USD" value-date="2016-08-25">2547.96</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1516-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -737,8 +1008,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
    <value currency="USD" value-date="2016-11-22">1426950.82</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 17-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -748,8 +1022,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
    <value currency="USD" value-date="2016-11-22">60000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 17-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -759,8 +1036,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
    <value currency="USD" value-date="2017-06-07">1444560</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 17-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -770,8 +1050,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
    <value currency="USD" value-date="2017-06-07">52423</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 17-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -781,8 +1064,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-27"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-27"></transaction-date>
    <value currency="USD" value-date="2017-09-27">31773.91</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 17-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -792,8 +1078,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-04"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-04"></transaction-date>
    <value currency="USD" value-date="2017-10-04">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 17-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -803,8 +1092,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
    <value currency="USD" value-date="2017-11-24">1032300</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -814,8 +1106,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
    <value currency="USD" value-date="2017-11-24">37024</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -825,8 +1120,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-04"></transaction-date>
    <value currency="USD" value-date="2018-04-04">1032300</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -836,8 +1134,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-04"></transaction-date>
    <value currency="USD" value-date="2018-04-04">37878</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -847,8 +1148,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
    <value currency="USD" value-date="2018-06-26">1028970</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -858,8 +1162,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
    <value currency="USD" value-date="2018-06-26">37753</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -869,30 +1176,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">1211319</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">44975</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-06"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-02-06"></transaction-date>
    <value currency="USD" value-date="2019-02-06">-40900.17</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -902,8 +1190,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -913,8 +1204,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">1211319</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">44975</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Madagascar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">1189195</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -924,30 +1246,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">44861</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">1379011</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Madagascar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">52950</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDG-RV-R-VAC (Approval code: 1819-MDG-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

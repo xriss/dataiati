@@ -40,7 +40,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2015-01-01" type="1"></activity-date>
   <activity-date iso-date="2015-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2023-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -56,7 +56,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">Tarawa</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>1.3278000 172.9769600</pos>
+    <pos>1.3278 172.97696</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -111,6 +111,26 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">11500</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">5230.01</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">17981.31</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">11425.65</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">11425.65</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -379,28 +399,28 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Kiribati</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="KIRIPV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">11000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">5230.01</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Kiribati IPV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Kiribati</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="KIRIPV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">17981.31</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Kiribati IPV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -409,8 +429,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-08-21"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-08-21"></transaction-date>
    <value currency="USD" value-date="2014-08-21">100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme KIR-IPV-R-VIG-MOH (Approval code: 15-KIR-08h-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -418,164 +441,349 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Kiribati</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-09-18"></transaction-date>
-   <value currency="USD" value-date="2014-09-18">526</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="KIRIPV2022">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">11425.65</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2022 budget for Kiribati IPV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Kiribati</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-24"></transaction-date>
-   <value currency="USD" value-date="2015-02-24">1000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="KIRIPV2023">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-11-01">11425.65</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2023 budget for Kiribati IPV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Kiribati</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-24"></transaction-date>
-   <value currency="USD" value-date="2015-02-24">11760</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-11"></transaction-date>
-   <value currency="USD" value-date="2015-08-11">2456.03</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-11-03"></transaction-date>
-   <value currency="USD" value-date="2015-11-03">3000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-11-03"></transaction-date>
-   <value currency="USD" value-date="2015-11-03">3990</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">127.75</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">2000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-29"></transaction-date>
-   <value currency="USD" value-date="2016-06-29">-2891.04</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-24"></transaction-date>
-   <value currency="USD" value-date="2018-01-24">10080</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-24"></transaction-date>
-   <value currency="USD" value-date="2018-01-24">2000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-28"></transaction-date>
-   <value currency="USD" value-date="2018-06-28">2675.53</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="KIRIPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-02-28"></transaction-date>
-   <value currency="USD" value-date="2019-02-28">12600</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2019-02-28">17400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme KIR-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Kiribati</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-28"></transaction-date>
-   <value currency="USD" value-date="2019-02-28">4800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Kiribati</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="KIRIPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-08-27"></transaction-date>
+   <value currency="USD" value-date="2019-08-27">-718.88</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme KIR-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="KIRIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-04"></transaction-date>
+   <value currency="USD" value-date="2020-05-04">2270</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme KIR-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="KIRIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-08"></transaction-date>
+   <value currency="USD" value-date="2020-05-08">14180</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme KIR-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="KIRIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-11"></transaction-date>
+   <value currency="USD" value-date="2020-09-11">-1420.84</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme KIR-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="KIRIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-21"></transaction-date>
+   <value currency="USD" value-date="2020-12-21">751.75</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme KIR-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="KIRIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-21"></transaction-date>
+   <value currency="USD" value-date="2021-05-21">16196</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme KIR-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="KIRIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-14"></transaction-date>
+   <value currency="USD" value-date="2021-07-14">1782</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme KIR-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-09-18"></transaction-date>
+   <value currency="USD" value-date="2014-09-18">526</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-24"></transaction-date>
+   <value currency="USD" value-date="2015-02-24">1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-24"></transaction-date>
+   <value currency="USD" value-date="2015-02-24">11760</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-11"></transaction-date>
+   <value currency="USD" value-date="2015-08-11">2456.03</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-11-03"></transaction-date>
+   <value currency="USD" value-date="2015-11-03">3000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-11-03"></transaction-date>
+   <value currency="USD" value-date="2015-11-03">3990</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">127.75</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-06-29"></transaction-date>
+   <value currency="USD" value-date="2016-06-29">-2891.04</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-24"></transaction-date>
+   <value currency="USD" value-date="2018-01-24">10080</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-24"></transaction-date>
+   <value currency="USD" value-date="2018-01-24">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-28"></transaction-date>
+   <value currency="USD" value-date="2018-06-28">2675.53</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 1518-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-28"></transaction-date>
+   <value currency="USD" value-date="2019-02-28">12600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 19-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-28"></transaction-date>
+   <value currency="USD" value-date="2019-02-28">4800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 19-KIR-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Kiribati</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-27"></transaction-date>
    <value currency="USD" value-date="2019-08-27">-718.89</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme KIR-IPV-R-VAC (Approval code: 19-KIR-25d-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

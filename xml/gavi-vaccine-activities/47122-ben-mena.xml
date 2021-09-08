@@ -33,11 +33,10 @@
   </other-identifier>
   <other-identifier ref="47122-12-BEN-16A-X" type="A3"></other-identifier>
   <other-identifier ref="47122-12-BEN-17A-Y" type="A3"></other-identifier>
-  <activity-status code="3"></activity-status>
+  <activity-status code="2"></activity-status>
   <activity-date iso-date="2012-01-01" type="1"></activity-date>
   <activity-date iso-date="2012-01-01" type="2"></activity-date>
-  <activity-date iso-date="2012-12-31" type="3"></activity-date>
-  <activity-date iso-date="2012-12-31" type="4"></activity-date>
+  <activity-date iso-date="2023-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -53,7 +52,7 @@
     <narrative xml:lang="EN">Porto-Novo</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>6.4964600 2.6035900</pos>
+    <pos>6.49646 2.60359</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -83,6 +82,26 @@
    <period-start iso-date="2012-01-01"></period-start>
    <period-end iso-date="2012-12-31"></period-end>
    <value currency="USD" value-date="2012-01-01">3543669.54</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">3095448.36</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">314191.59</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">313771</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">324935</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -183,11 +202,56 @@
     <narrative xml:lang="EN">The Government of Benin</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">3095448.36</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2020 budget for Benin MenA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">314191.59</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Benin MenA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-04-27"></transaction-date>
-   <value currency="USD" value-date="2012-04-27">1728265</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2020-09-23"></transaction-date>
+   <value currency="USD" value-date="2020-09-23">1022772</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BEN-MENA-C-MCU-OPS-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-16"></transaction-date>
+   <value currency="USD" value-date="2020-09-16">346820</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BEN-MENA-R-VIG-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -196,19 +260,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-07"></transaction-date>
-   <value currency="USD" value-date="2012-05-07">140000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Benin</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-08"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-06-08"></transaction-date>
    <value currency="USD" value-date="2012-06-08">199750</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BEN-MenA-C-OPS-UNIC (Approval code: 12-BEN-17a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -218,19 +274,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-08"></transaction-date>
-   <value currency="USD" value-date="2012-06-08">599250</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Benin</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-10-04"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-10-04"></transaction-date>
    <value currency="USD" value-date="2012-10-04">231040</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BEN-MenA-C-OPS-UNIC (Approval code: 12-BEN-17a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -240,8 +288,249 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-10-04"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-06-08"></transaction-date>
+   <value currency="USD" value-date="2012-06-08">599250</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BEN-MenA-C-OPS-WHO (Approval code: 12-BEN-17a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-10-04"></transaction-date>
    <value currency="USD" value-date="2012-10-04">693120</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BEN-MenA-C-OPS-WHO (Approval code: 12-BEN-17a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2022">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">313771</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2022 budget for Benin MenA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2023">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-11-01">324935</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2023 budget for Benin MenA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-26"></transaction-date>
+   <value currency="USD" value-date="2020-05-26">1434589</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-CAM-MCU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-12"></transaction-date>
+   <value currency="USD" value-date="2020-06-12">141203.54</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-CAM-MCU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-21"></transaction-date>
+   <value currency="USD" value-date="2020-11-21">-18296.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-CAM-MCU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-17"></transaction-date>
+   <value currency="USD" value-date="2020-12-17">1.07</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-CAM-MCU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">8314.1</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-CAM-MCU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-12"></transaction-date>
+   <value currency="USD" value-date="2020-06-12">118912.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-12"></transaction-date>
+   <value currency="USD" value-date="2020-06-12">17940</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-20"></transaction-date>
+   <value currency="USD" value-date="2020-08-20">-4855</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-21"></transaction-date>
+   <value currency="USD" value-date="2020-11-21">-2395.49</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-02"></transaction-date>
+   <value currency="USD" value-date="2020-12-02">350.11</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-17"></transaction-date>
+   <value currency="USD" value-date="2020-12-17">0.88</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-09"></transaction-date>
+   <value currency="USD" value-date="2021-04-09">273673.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENMenA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-28"></transaction-date>
+   <value currency="USD" value-date="2021-05-28">40517</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-MENA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-04-27"></transaction-date>
+   <value currency="USD" value-date="2012-04-27">1728265</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BEN-MenA-C-VAC (Approval code: 12-BEN-16a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -251,8 +540,25 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-13"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-05-07"></transaction-date>
+   <value currency="USD" value-date="2012-05-07">140000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BEN-MenA-C-VAC (Approval code: 12-BEN-16a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-03-13"></transaction-date>
    <value currency="USD" value-date="2014-03-13">-47755.46</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BEN-MenA-C-VAC (Approval code: 12-BEN-16a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

@@ -40,7 +40,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2015-01-01" type="1"></activity-date>
   <activity-date iso-date="2015-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2023-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -56,7 +56,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">Vientiane</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>17.9666700 102.6000000</pos>
+    <pos>17.96667 102.6</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -111,6 +111,26 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">455000</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">73225.5</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">306226.27</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">572555.55</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">568707.15</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -351,28 +371,28 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Lao PDR</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="LAOIPV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">448000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">73225.5</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Lao PDR IPV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Lao PDR</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="LAOIPV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">7000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">306226.27</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Lao PDR IPV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -381,9 +401,222 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-10-24"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-10-24"></transaction-date>
    <value currency="USD" value-date="2014-10-24">145000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme LAO-IPV-R-VIG-MOH (Approval code: 15-LAO-08h-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2022">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">572555.55</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2022 budget for Lao PDR IPV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2023">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-11-01">568707.15</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2023 budget for Lao PDR IPV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-11-27"></transaction-date>
+   <value currency="USD" value-date="2018-11-27">125400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">116940</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-03-18"></transaction-date>
+   <value currency="USD" value-date="2019-03-18">6690</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-05-29"></transaction-date>
+   <value currency="USD" value-date="2019-05-29">125400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-07-15"></transaction-date>
+   <value currency="USD" value-date="2019-07-15">93860</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-25"></transaction-date>
+   <value currency="USD" value-date="2019-11-25">517920</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-28"></transaction-date>
+   <value currency="USD" value-date="2020-02-28">9608.27</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-675.04</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-08"></transaction-date>
+   <value currency="USD" value-date="2020-07-08">-3383.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-20"></transaction-date>
+   <value currency="USD" value-date="2020-07-20">697.23</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-31"></transaction-date>
+   <value currency="USD" value-date="2020-08-31">606.06</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-04"></transaction-date>
+   <value currency="USD" value-date="2020-12-04">293580</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="LAOIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-14"></transaction-date>
+   <value currency="USD" value-date="2021-07-14">7378</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme LAO-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -392,52 +625,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-16"></transaction-date>
-   <value currency="USD" value-date="2015-01-16">3381.75</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-16"></transaction-date>
-   <value currency="USD" value-date="2015-01-16">500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-24"></transaction-date>
-   <value currency="USD" value-date="2015-02-24">-3381.75</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-24"></transaction-date>
-   <value currency="USD" value-date="2015-02-24">-500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-16"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-04-16"></transaction-date>
    <value currency="USD" value-date="2015-04-16">109440</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -447,8 +639,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-16"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-04-16"></transaction-date>
    <value currency="USD" value-date="2015-04-16">3000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -458,19 +653,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-22"></transaction-date>
-   <value currency="USD" value-date="2015-04-22">63840</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-23"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-04-23"></transaction-date>
    <value currency="USD" value-date="2015-04-23">3161.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -480,8 +667,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-23"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-04-23"></transaction-date>
    <value currency="USD" value-date="2015-04-23">750</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -491,85 +681,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-05-28"></transaction-date>
-   <value currency="USD" value-date="2015-05-28">1000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-08"></transaction-date>
-   <value currency="USD" value-date="2015-12-08">228760</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-08"></transaction-date>
-   <value currency="USD" value-date="2015-12-08">3500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">12288.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">3000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-13"></transaction-date>
-   <value currency="USD" value-date="2016-07-13">127680</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-13"></transaction-date>
-   <value currency="USD" value-date="2016-07-13">2200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-29"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-11-29"></transaction-date>
    <value currency="USD" value-date="2016-11-29">-380</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -579,19 +695,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-29"></transaction-date>
-   <value currency="USD" value-date="2016-11-29">-39900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-02"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-03-02"></transaction-date>
    <value currency="USD" value-date="2017-03-02">169.38</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -601,8 +709,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-14"></transaction-date>
-   <value currency="USD" value-date="2017-03-14">1400</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-04-22"></transaction-date>
+   <value currency="USD" value-date="2015-04-22">63840</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -612,8 +723,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-14"></transaction-date>
-   <value currency="USD" value-date="2017-03-14">79800</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-05-28"></transaction-date>
+   <value currency="USD" value-date="2015-05-28">1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -623,8 +737,109 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-28"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-08"></transaction-date>
+   <value currency="USD" value-date="2015-12-08">228760</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-08"></transaction-date>
+   <value currency="USD" value-date="2015-12-08">3500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">12288.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">3000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-07-13"></transaction-date>
+   <value currency="USD" value-date="2016-07-13">127680</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-07-13"></transaction-date>
+   <value currency="USD" value-date="2016-07-13">2200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-11-29"></transaction-date>
+   <value currency="USD" value-date="2016-11-29">-39900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-03-28"></transaction-date>
    <value currency="USD" value-date="2017-03-28">-3634.17</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -634,8 +849,39 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-03-14"></transaction-date>
+   <value currency="USD" value-date="2017-03-14">1400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-03-14"></transaction-date>
+   <value currency="USD" value-date="2017-03-14">79800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-15"></transaction-date>
    <value currency="USD" value-date="2017-06-15">1600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -645,8 +891,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-15"></transaction-date>
    <value currency="USD" value-date="2017-06-15">79800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -656,8 +905,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-08-29"></transaction-date>
    <value currency="USD" value-date="2017-08-29">1800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -667,8 +919,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-08-29"></transaction-date>
    <value currency="USD" value-date="2017-08-29">79800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -678,8 +933,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-22"></transaction-date>
    <value currency="USD" value-date="2017-09-22">1500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -689,8 +947,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-22"></transaction-date>
    <value currency="USD" value-date="2017-09-22">79800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -700,8 +961,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-02"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-02"></transaction-date>
    <value currency="USD" value-date="2017-11-02">-29735</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -711,19 +975,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-14"></transaction-date>
-   <value currency="USD" value-date="2017-11-14">1680</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-14"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-14"></transaction-date>
    <value currency="USD" value-date="2017-11-14">31920</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -733,8 +989,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-14"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-14"></transaction-date>
    <value currency="USD" value-date="2017-11-14">680</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -744,41 +1003,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-14"></transaction-date>
-   <value currency="USD" value-date="2017-11-14">85120</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-24"></transaction-date>
-   <value currency="USD" value-date="2018-01-24">115900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-24"></transaction-date>
-   <value currency="USD" value-date="2018-01-24">2200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-02-28"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-02-28"></transaction-date>
    <value currency="USD" value-date="2018-02-28">-609.74</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -788,8 +1017,67 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-06"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-14"></transaction-date>
+   <value currency="USD" value-date="2017-11-14">1680</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-14"></transaction-date>
+   <value currency="USD" value-date="2017-11-14">85120</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-24"></transaction-date>
+   <value currency="USD" value-date="2018-01-24">115900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-24"></transaction-date>
+   <value currency="USD" value-date="2018-01-24">2200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-06"></transaction-date>
    <value currency="USD" value-date="2018-06-06">114380</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -799,8 +1087,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-06"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-06"></transaction-date>
    <value currency="USD" value-date="2018-06-06">2200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -810,8 +1101,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-24"></transaction-date>
    <value currency="USD" value-date="2018-09-24">146300</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -821,8 +1115,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-24"></transaction-date>
    <value currency="USD" value-date="2018-09-24">3100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -832,30 +1129,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-27"></transaction-date>
-   <value currency="USD" value-date="2018-11-27">123900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-27"></transaction-date>
-   <value currency="USD" value-date="2018-11-27">1500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-06"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-02-06"></transaction-date>
    <value currency="USD" value-date="2019-02-06">201.91</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -865,8 +1143,95 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-14"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-16"></transaction-date>
+   <value currency="USD" value-date="2015-01-16">3381.75</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-16"></transaction-date>
+   <value currency="USD" value-date="2015-01-16">500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-24"></transaction-date>
+   <value currency="USD" value-date="2015-02-24">-3381.75</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-24"></transaction-date>
+   <value currency="USD" value-date="2015-02-24">-500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 1518-LAO-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-27"></transaction-date>
+   <value currency="USD" value-date="2018-11-27">123900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 19-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-27"></transaction-date>
+   <value currency="USD" value-date="2018-11-27">1500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 19-LAO-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Lao PDR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
    <value currency="USD" value-date="2019-02-14">115640</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 19-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -876,8 +1241,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-14"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
    <value currency="USD" value-date="2019-02-14">1300</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 19-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -887,8 +1255,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-03-18"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-03-18"></transaction-date>
    <value currency="USD" value-date="2019-03-18">200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 19-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -898,8 +1269,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-03-18"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-03-18"></transaction-date>
    <value currency="USD" value-date="2019-03-18">6490</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 19-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -909,8 +1283,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-05-29"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-05-29"></transaction-date>
    <value currency="USD" value-date="2019-05-29">123900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 19-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -920,8 +1297,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-05-29"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-05-29"></transaction-date>
    <value currency="USD" value-date="2019-05-29">1500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 19-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -931,8 +1311,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-07-15"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-07-15"></transaction-date>
    <value currency="USD" value-date="2019-07-15">3000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 19-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -942,68 +1325,16 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-07-15"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-07-15"></transaction-date>
    <value currency="USD" value-date="2019-07-15">90860</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme LAO-IPV-R-VAC (Approval code: 19-LAO-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Lao PDR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-25"></transaction-date>
-   <value currency="USD" value-date="2019-11-25">512120</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao People&apos;s Democratic Republic (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-25"></transaction-date>
-   <value currency="USD" value-date="2019-11-25">5800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao People&apos;s Democratic Republic (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">1224</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao People&apos;s Democratic Republic (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">694.27</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao People&apos;s Democratic Republic (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">7690</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Lao People&apos;s Democratic Republic (the)</narrative>
    </receiver-org>
   </transaction>
   <document-link format="APPLICATION/MSWORD" url="https://www.gavi.org/fr/actualites/librarie-de-documents/proposal-nvs-ipv-support-lao-pdr">

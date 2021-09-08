@@ -56,7 +56,7 @@
     <narrative xml:lang="EN">Lusaka</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-15.4080900 28.2863600</pos>
+    <pos>-15.40809 28.28636</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -82,6 +82,16 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">90360.54</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">3218759.51</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -783,42 +793,28 @@
     <narrative xml:lang="EN">The Government of Zambia</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="ZMBPCV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">379000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">90360.54</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Zambia PCV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Zambia</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="ZMBPCV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">4071000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">3218759.51</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Zambia PCV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">59500</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -827,8 +823,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-01-30"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-01-30"></transaction-date>
    <value currency="USD" value-date="2012-01-30">207000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme ZMB-PCV-R-VIG-UNIC (Approval code: 12-ZMB-08a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -838,228 +837,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-18"></transaction-date>
-   <value currency="USD" value-date="2012-06-18">148750</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-18"></transaction-date>
-   <value currency="USD" value-date="2012-06-18">1831200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-18"></transaction-date>
-   <value currency="USD" value-date="2012-06-18">1831200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-08-03"></transaction-date>
-   <value currency="USD" value-date="2012-08-03">15000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-08-03"></transaction-date>
-   <value currency="USD" value-date="2012-08-03">1831200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-08-03"></transaction-date>
-   <value currency="USD" value-date="2012-08-03">1831200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-11"></transaction-date>
-   <value currency="USD" value-date="2012-09-11">-1726200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-11"></transaction-date>
-   <value currency="USD" value-date="2012-09-11">-1726200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-11"></transaction-date>
-   <value currency="USD" value-date="2012-09-11">-300000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-18"></transaction-date>
-   <value currency="USD" value-date="2012-09-18">109200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-10-31"></transaction-date>
-   <value currency="USD" value-date="2012-10-31">210000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">110600</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">110600</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">1331400</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">1331400</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">1822800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">1822800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">33000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-01"></transaction-date>
-   <value currency="USD" value-date="2012-11-01">41000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-12-17"></transaction-date>
    <value currency="USD" value-date="2012-12-17">344500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme ZMB-PCV-R-VIG-UNIC (Approval code: 12-ZMB-08a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1069,294 +851,221 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-01-28"></transaction-date>
-   <value currency="USD" value-date="2013-01-28">89875</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-28"></transaction-date>
-   <value currency="USD" value-date="2013-03-28">1113000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-28"></transaction-date>
-   <value currency="USD" value-date="2013-03-28">1113000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-28"></transaction-date>
-   <value currency="USD" value-date="2013-03-28">28000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-04-10"></transaction-date>
-   <value currency="USD" value-date="2013-04-10">175000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-04-10"></transaction-date>
-   <value currency="USD" value-date="2013-04-10">175000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-08-22"></transaction-date>
-   <value currency="USD" value-date="2013-08-22">310800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-12"></transaction-date>
-   <value currency="USD" value-date="2013-12-12">-20682.42</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-12"></transaction-date>
-   <value currency="USD" value-date="2013-12-12">20000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-13"></transaction-date>
-   <value currency="USD" value-date="2013-12-13">2657900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-20"></transaction-date>
-   <value currency="USD" value-date="2013-12-20">22000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-20"></transaction-date>
-   <value currency="USD" value-date="2013-12-20">2657900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-20"></transaction-date>
-   <value currency="USD" value-date="2013-12-20">94387</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
-   <value currency="USD" value-date="2014-07-23">-16076.91</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-11-03"></transaction-date>
-   <value currency="USD" value-date="2014-11-03">-62402.35</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-19"></transaction-date>
-   <value currency="USD" value-date="2014-12-19">23000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-19"></transaction-date>
-   <value currency="USD" value-date="2014-12-19">2657900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-18"></transaction-date>
-   <value currency="USD" value-date="2015-02-18">127322.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-18"></transaction-date>
-   <value currency="USD" value-date="2015-02-18">14870</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-26"></transaction-date>
-   <value currency="USD" value-date="2015-03-26">18000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-26"></transaction-date>
-   <value currency="USD" value-date="2015-03-26">3059000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-02"></transaction-date>
-   <value currency="USD" value-date="2015-09-02">11000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-02"></transaction-date>
-   <value currency="USD" value-date="2015-09-02">1761900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-02"></transaction-date>
-   <value currency="USD" value-date="2015-09-02">1761900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">1449700</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">9000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-04"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2016-02-04"></transaction-date>
    <value currency="USD" value-date="2016-02-04">-14231.82</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme ZMB-PCV-R-VIG-UNIC (Approval code: 12-ZMB-08a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-11-22"></transaction-date>
+   <value currency="USD" value-date="2018-11-22">2829000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-11"></transaction-date>
+   <value currency="USD" value-date="2019-02-11">2828500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-05-03"></transaction-date>
+   <value currency="USD" value-date="2019-05-03">223520</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-15"></transaction-date>
+   <value currency="USD" value-date="2019-11-15">2034080</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-01-20"></transaction-date>
+   <value currency="USD" value-date="2020-01-20">-20167.07</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-04"></transaction-date>
+   <value currency="USD" value-date="2020-02-04">1042860</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-28"></transaction-date>
+   <value currency="USD" value-date="2020-02-28">102912.26</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-17"></transaction-date>
+   <value currency="USD" value-date="2020-06-17">989040</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-21"></transaction-date>
+   <value currency="USD" value-date="2020-11-21">-21096.26</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-17"></transaction-date>
+   <value currency="USD" value-date="2020-12-17">3469.3</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-27"></transaction-date>
+   <value currency="USD" value-date="2021-01-27">74341</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">-7757.05</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">3137200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="ZMBPCV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">133980</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme ZMB-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-06-18"></transaction-date>
+   <value currency="USD" value-date="2012-06-18">148750</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1366,8 +1075,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-04"></transaction-date>
-   <value currency="USD" value-date="2016-02-04">73805.5</value>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-06-18"></transaction-date>
+   <value currency="USD" value-date="2012-06-18">1831200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1377,8 +1089,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-04"></transaction-date>
-   <value currency="USD" value-date="2016-02-04">8456</value>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-06-18"></transaction-date>
+   <value currency="USD" value-date="2012-06-18">1831200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1388,8 +1103,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-19"></transaction-date>
-   <value currency="USD" value-date="2016-02-19">20000</value>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-08-03"></transaction-date>
+   <value currency="USD" value-date="2012-08-03">15000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1399,8 +1117,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-19"></transaction-date>
-   <value currency="USD" value-date="2016-02-19">2900100</value>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-08-03"></transaction-date>
+   <value currency="USD" value-date="2012-08-03">1831200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1410,8 +1131,557 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-26"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-08-03"></transaction-date>
+   <value currency="USD" value-date="2012-08-03">1831200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-09-11"></transaction-date>
+   <value currency="USD" value-date="2012-09-11">-1726200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-09-11"></transaction-date>
+   <value currency="USD" value-date="2012-09-11">-1726200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-09-11"></transaction-date>
+   <value currency="USD" value-date="2012-09-11">-300000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-09-18"></transaction-date>
+   <value currency="USD" value-date="2012-09-18">109200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-10-31"></transaction-date>
+   <value currency="USD" value-date="2012-10-31">210000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-12-12"></transaction-date>
+   <value currency="USD" value-date="2013-12-12">-20682.42</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">110600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">110600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">1331400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">1331400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">1822800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">1822800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">33000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-01"></transaction-date>
+   <value currency="USD" value-date="2012-11-01">41000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-01-28"></transaction-date>
+   <value currency="USD" value-date="2013-01-28">89875</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-03-28"></transaction-date>
+   <value currency="USD" value-date="2013-03-28">1113000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-03-28"></transaction-date>
+   <value currency="USD" value-date="2013-03-28">1113000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-03-28"></transaction-date>
+   <value currency="USD" value-date="2013-03-28">28000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-04-10"></transaction-date>
+   <value currency="USD" value-date="2013-04-10">175000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-04-10"></transaction-date>
+   <value currency="USD" value-date="2013-04-10">175000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-08-22"></transaction-date>
+   <value currency="USD" value-date="2013-08-22">310800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-11-03"></transaction-date>
+   <value currency="USD" value-date="2014-11-03">-62402.35</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-12"></transaction-date>
+   <value currency="USD" value-date="2013-12-12">20000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-13"></transaction-date>
+   <value currency="USD" value-date="2013-12-13">2657900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-20"></transaction-date>
+   <value currency="USD" value-date="2013-12-20">22000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-20"></transaction-date>
+   <value currency="USD" value-date="2013-12-20">2657900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-20"></transaction-date>
+   <value currency="USD" value-date="2013-12-20">94387</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-07-23"></transaction-date>
+   <value currency="USD" value-date="2014-07-23">-16076.91</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-19"></transaction-date>
+   <value currency="USD" value-date="2014-12-19">23000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-19"></transaction-date>
+   <value currency="USD" value-date="2014-12-19">2657900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-18"></transaction-date>
+   <value currency="USD" value-date="2015-02-18">127322.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-18"></transaction-date>
+   <value currency="USD" value-date="2015-02-18">14870</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-26"></transaction-date>
+   <value currency="USD" value-date="2015-03-26">18000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-26"></transaction-date>
+   <value currency="USD" value-date="2015-03-26">3059000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-02"></transaction-date>
+   <value currency="USD" value-date="2015-09-02">11000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-02"></transaction-date>
+   <value currency="USD" value-date="2015-09-02">1761900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-02"></transaction-date>
+   <value currency="USD" value-date="2015-09-02">1761900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-02-26"></transaction-date>
    <value currency="USD" value-date="2016-02-26">-42770.88</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1215-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1421,8 +1691,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">1778150</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">1449700</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 16-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1432,8 +1705,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">18000</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">9000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 16-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1443,8 +1719,67 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-29"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-04"></transaction-date>
+   <value currency="USD" value-date="2016-02-04">73805.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 16-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-04"></transaction-date>
+   <value currency="USD" value-date="2016-02-04">8456</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 16-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-19"></transaction-date>
+   <value currency="USD" value-date="2016-02-19">20000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 16-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-19"></transaction-date>
+   <value currency="USD" value-date="2016-02-19">2900100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 16-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-11-29"></transaction-date>
    <value currency="USD" value-date="2016-11-29">-24782.71</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 16-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1454,8 +1789,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-29"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-11-29"></transaction-date>
    <value currency="USD" value-date="2016-11-29">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 16-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1465,8 +1803,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-21"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">1778150</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 17-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">18000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 17-ZMB-12b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Zambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-03-21"></transaction-date>
    <value currency="USD" value-date="2017-03-21">34000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 17-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1476,8 +1845,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-21"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-03-21"></transaction-date>
    <value currency="USD" value-date="2017-03-21">3555690</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 17-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1487,8 +1859,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-31"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-31"></transaction-date>
    <value currency="USD" value-date="2017-07-31">-10027.44</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 17-ZMB-12b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1498,8 +1873,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-30"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-30"></transaction-date>
    <value currency="USD" value-date="2017-11-30">22000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1509,8 +1887,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-30"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-30"></transaction-date>
    <value currency="USD" value-date="2017-11-30">3050000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1520,8 +1901,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-03"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-03"></transaction-date>
    <value currency="USD" value-date="2018-04-03">11000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1531,8 +1915,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-03"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-03"></transaction-date>
    <value currency="USD" value-date="2018-04-03">1527440</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1542,8 +1929,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-04"></transaction-date>
    <value currency="USD" value-date="2018-05-04">-1527440</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1553,8 +1943,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-04"></transaction-date>
    <value currency="USD" value-date="2018-05-04">1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1564,8 +1957,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-04"></transaction-date>
    <value currency="USD" value-date="2018-05-04">11000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1575,8 +1971,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-04"></transaction-date>
    <value currency="USD" value-date="2018-05-04">1333460</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1586,8 +1985,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-04"></transaction-date>
    <value currency="USD" value-date="2018-05-04">1334680</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1597,8 +1999,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-15"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-08-15"></transaction-date>
    <value currency="USD" value-date="2018-08-15">7000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1608,8 +2013,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-15"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-08-15"></transaction-date>
    <value currency="USD" value-date="2018-08-15">817400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1619,74 +2027,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-22"></transaction-date>
-   <value currency="USD" value-date="2018-11-22">23000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-22"></transaction-date>
-   <value currency="USD" value-date="2018-11-22">2806000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-11"></transaction-date>
-   <value currency="USD" value-date="2019-02-11">22500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-11"></transaction-date>
-   <value currency="USD" value-date="2019-02-11">2806000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-05-03"></transaction-date>
-   <value currency="USD" value-date="2019-05-03">220820</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-05-03"></transaction-date>
-   <value currency="USD" value-date="2019-05-03">2700</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-07-09"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-07-09"></transaction-date>
    <value currency="USD" value-date="2019-07-09">-11934.14</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1696,8 +2041,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-15"></transaction-date>
-   <value currency="USD" value-date="2019-11-15">16200</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-22"></transaction-date>
+   <value currency="USD" value-date="2018-11-22">23000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1707,8 +2055,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-15"></transaction-date>
-   <value currency="USD" value-date="2019-11-15">2017880</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-22"></transaction-date>
+   <value currency="USD" value-date="2018-11-22">2806000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1718,8 +2069,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-04"></transaction-date>
-   <value currency="USD" value-date="2020-02-04">1034560</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-11"></transaction-date>
+   <value currency="USD" value-date="2019-02-11">22500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1729,8 +2083,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-04"></transaction-date>
-   <value currency="USD" value-date="2020-02-04">8300</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-11"></transaction-date>
+   <value currency="USD" value-date="2019-02-11">2806000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1740,8 +2097,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">10404</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-05-03"></transaction-date>
+   <value currency="USD" value-date="2019-05-03">220820</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1751,52 +2111,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">15985</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">1644.07</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">2538</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">65595</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Zambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">6746.19</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-05-03"></transaction-date>
+   <value currency="USD" value-date="2019-05-03">2700</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme ZMB-PCV-R-VAC (Approval code: 1821-ZMB-12a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

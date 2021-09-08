@@ -55,7 +55,7 @@
     <narrative xml:lang="EN">Kampala</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>0.3162800 32.5821900</pos>
+    <pos>0.31628 32.58219</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -81,6 +81,21 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">7286000</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">17735272</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">761385</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -810,10 +825,55 @@
     <narrative xml:lang="EN">The Government of Uganda</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="UGAHSS2019">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">7286000</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2019 budget for Uganda HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">17735272</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2020 budget for Uganda HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">761385</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Uganda HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-20"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-09-20"></transaction-date>
    <value currency="USD" value-date="2012-09-20">15380</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0813-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -823,8 +883,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-12-17"></transaction-date>
    <value currency="USD" value-date="2012-12-17">10474.2</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0813-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -834,8 +897,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-05-17"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2013-05-17"></transaction-date>
    <value currency="USD" value-date="2013-05-17">14602</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0813-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -845,19 +911,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-05-30"></transaction-date>
-   <value currency="USD" value-date="2013-05-30">4372695</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-08-14"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2013-08-14"></transaction-date>
    <value currency="USD" value-date="2013-08-14">12947</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0813-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -867,8 +925,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-11-12"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2013-11-12"></transaction-date>
    <value currency="USD" value-date="2013-11-12">14012</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0813-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -878,8 +939,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-20"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2013-12-20"></transaction-date>
    <value currency="USD" value-date="2013-12-20">23502</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0813-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -889,8 +953,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-04-16"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2014-04-16"></transaction-date>
    <value currency="USD" value-date="2014-04-16">19992</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0813-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -900,8 +967,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-14"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2014-07-14"></transaction-date>
    <value currency="USD" value-date="2014-07-14">20082</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0813-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -911,8 +981,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-11-17"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-11-17"></transaction-date>
    <value currency="USD" value-date="2014-11-17">22727.75</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0815-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -922,19 +995,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-11-28"></transaction-date>
-   <value currency="USD" value-date="2014-11-28">8286982</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-05"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-05"></transaction-date>
    <value currency="USD" value-date="2015-03-05">7070</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0815-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -944,8 +1009,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-11-27"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-11-27"></transaction-date>
    <value currency="USD" value-date="2015-11-27">25737.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0815-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -955,8 +1023,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-16"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-02-16"></transaction-date>
    <value currency="USD" value-date="2016-02-16">28300</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0815-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -966,8 +1037,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-04-27"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-04-27"></transaction-date>
    <value currency="USD" value-date="2016-04-27">45680</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0815-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -977,8 +1051,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-21"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-07-21"></transaction-date>
    <value currency="USD" value-date="2016-07-21">48405</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0815-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -988,8 +1065,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-10-19"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-10-19"></transaction-date>
    <value currency="USD" value-date="2016-10-19">56507.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0815-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -999,19 +1079,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-16"></transaction-date>
-   <value currency="USD" value-date="2016-12-16">1324431</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-21"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-12-21"></transaction-date>
    <value currency="USD" value-date="2016-12-21">48252.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0817-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1021,8 +1093,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-02-21"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-02-21"></transaction-date>
    <value currency="USD" value-date="2017-02-21">80365</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0817-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1032,8 +1107,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-05-10"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-05-10"></transaction-date>
    <value currency="USD" value-date="2017-05-10">64930</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0817-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1043,19 +1121,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-08"></transaction-date>
-   <value currency="USD" value-date="2017-06-08">1784584</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-11"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-11"></transaction-date>
    <value currency="USD" value-date="2017-10-11">56638.75</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0817-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1065,8 +1135,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-18"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-12-18"></transaction-date>
    <value currency="USD" value-date="2017-12-18">37403.75</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-EDES (Approval code: 0817-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1076,8 +1149,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-04"></transaction-date>
-   <value currency="USD" value-date="2018-04-04">561803.86</value>
+   <transaction-date gavi:budget-period="2011" iso-date="2013-05-30"></transaction-date>
+   <value currency="USD" value-date="2013-05-30">4372695</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-MOH (Approval code: 0813-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1087,52 +1163,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-30"></transaction-date>
-   <value currency="USD" value-date="2018-04-30">46992.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-23"></transaction-date>
-   <value currency="USD" value-date="2018-05-23">560768</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-15"></transaction-date>
-   <value currency="USD" value-date="2018-06-15">47992.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-17"></transaction-date>
-   <value currency="USD" value-date="2018-08-17">98292.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-28"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2018-11-28"></transaction-date>
    <value currency="USD" value-date="2018-11-28">-77853.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-MOH (Approval code: 0813-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1142,8 +1177,95 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-01-24"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-16"></transaction-date>
+   <value currency="USD" value-date="2016-12-16">1324431</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-MOH (Approval code: 0817-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-08"></transaction-date>
+   <value currency="USD" value-date="2017-06-08">1784584</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-MOH (Approval code: 0817-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-11-28"></transaction-date>
+   <value currency="USD" value-date="2014-11-28">8286982</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-1-UNIC (Approval code: 0815-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-04-30"></transaction-date>
+   <value currency="USD" value-date="2018-04-30">46992.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-06-15"></transaction-date>
+   <value currency="USD" value-date="2018-06-15">47992.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-08-17"></transaction-date>
+   <value currency="USD" value-date="2018-08-17">98292.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-01-24"></transaction-date>
    <value currency="USD" value-date="2019-01-24">84769.38</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1153,8 +1275,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-05"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-06-05"></transaction-date>
    <value currency="USD" value-date="2019-06-05">105633</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1164,8 +1289,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-05"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-06-05"></transaction-date>
    <value currency="USD" value-date="2019-06-05">87537.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1175,41 +1303,95 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-20"></transaction-date>
-   <value currency="USD" value-date="2019-06-20">1619268.36</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-20"></transaction-date>
-   <value currency="USD" value-date="2019-06-20">5964150.64</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-07-17"></transaction-date>
-   <value currency="USD" value-date="2019-07-17">2090604</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Uganda</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-08-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-08-26"></transaction-date>
    <value currency="USD" value-date="2019-08-26">172352</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-17"></transaction-date>
+   <value currency="USD" value-date="2020-06-17">30637.79</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-12"></transaction-date>
+   <value currency="USD" value-date="2020-08-12">70875</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-04"></transaction-date>
+   <value currency="USD" value-date="2020-12-04">135075</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-17"></transaction-date>
+   <value currency="USD" value-date="2021-03-17">174673</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-28"></transaction-date>
+   <value currency="USD" value-date="2021-07-28">168891</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-EDES</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-05-23"></transaction-date>
+   <value currency="USD" value-date="2018-05-23">560768</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-MOH (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1218,32 +1400,251 @@
    </receiver-org>
   </transaction>
   <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-07-17"></transaction-date>
+   <value currency="USD" value-date="2019-07-17">2090604</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-MOH (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-03"></transaction-date>
+   <value currency="USD" value-date="2020-07-03">1664602</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">731624</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">944114.45</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-09"></transaction-date>
+   <value currency="USD" value-date="2020-04-09">1455999</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-PBF-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-17"></transaction-date>
+   <value currency="USD" value-date="2021-03-17">649134</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-SHIFO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-08-11"></transaction-date>
+   <value currency="USD" value-date="2021-08-11">216378</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-SHIFO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2019-06-20"></transaction-date>
+   <value currency="USD" value-date="2019-06-20">5964150.64</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNIC (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-06-20"></transaction-date>
+   <value currency="USD" value-date="2019-06-20">1619268.36</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNIC (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-04-04"></transaction-date>
+   <value currency="USD" value-date="2018-04-04">561803.86</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNIC SD (Approval code: 1721-UGA-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-11-04"></transaction-date>
    <value currency="USD" value-date="2019-11-04">1245083.55</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Uganda</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="UGAHSS2020">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-12"></transaction-date>
-   <value currency="USD" value-date="2019-12-12">95500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2020-07-02"></transaction-date>
+   <value currency="USD" value-date="2020-07-02">979973.94</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Uganda</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="UGAHSS2020">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-23"></transaction-date>
-   <value currency="USD" value-date="2020-03-23">209145</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2020-08-25"></transaction-date>
+   <value currency="USD" value-date="2020-08-25">1150360.2</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-21"></transaction-date>
+   <value currency="USD" value-date="2020-10-21">799140</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-18"></transaction-date>
+   <value currency="USD" value-date="2020-12-18">2218272</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-12"></transaction-date>
+   <value currency="USD" value-date="2021-05-12">-243194.35</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">1142116.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Uganda</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UGAHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-08"></transaction-date>
+   <value currency="USD" value-date="2020-07-08">3640801</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme UGA-HSS-2-UNICEF</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">

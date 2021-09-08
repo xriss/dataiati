@@ -35,10 +35,11 @@
   <other-identifier ref="47122-1012-GIN-10A-Y" type="A3"></other-identifier>
   <other-identifier ref="47122-1013-GIN-10A-Y" type="A3"></other-identifier>
   <other-identifier ref="47122-1721-GIN-10A-Y" type="A3"></other-identifier>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2010-01-01" type="1"></activity-date>
   <activity-date iso-date="2010-01-01" type="2"></activity-date>
-  <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -54,7 +55,7 @@
     <narrative xml:lang="EN">Conakry</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>9.5379500 -13.6772900</pos>
+    <pos>9.53795 -13.67729</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -113,7 +114,17 @@
   <budget status="2" type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">2914942</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2019-01-01">2914942</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">2393463</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
@@ -294,10 +305,41 @@
     <narrative xml:lang="EN">The Government of Guinea</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="GINHSS2019">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">2914942</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2019 budget for Guinea HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINHSS2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">2393463</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2020 budget for Guinea HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-08-20"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-08-20"></transaction-date>
    <value currency="USD" value-date="2012-08-20">1632500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-HSS-1-MOH (Approval code: 1012-GIN-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -307,8 +349,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-02"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2015-04-02"></transaction-date>
    <value currency="USD" value-date="2015-04-02">55697.78</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-HSS-1-UNIC (Approval code: 1013-GIN-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -318,8 +363,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-09"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2015-09-09"></transaction-date>
    <value currency="USD" value-date="2015-09-09">446302</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-HSS-1-UNIC (Approval code: 1013-GIN-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -329,8 +377,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-11"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-11"></transaction-date>
    <value currency="USD" value-date="2017-10-11">3776869</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-HSS-2-UNIC (Approval code: 1721-GIN-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -340,8 +391,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-03-29"></transaction-date>
    <value currency="USD" value-date="2018-03-29">3776871</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-HSS-2-UNIC (Approval code: 1721-GIN-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -351,30 +405,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-07-06"></transaction-date>
-   <value currency="USD" value-date="2018-07-06">1971137.18</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Guinea</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-20"></transaction-date>
-   <value currency="USD" value-date="2018-09-20">3128202.18</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Guinea</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-20"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-09-20"></transaction-date>
    <value currency="USD" value-date="2018-09-20">648666.82</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-HSS-2-UNIC (Approval code: 1721-GIN-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -384,8 +419,25 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-06"></transaction-date>
-   <value currency="USD" value-date="2019-12-06">54375.6</value>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-20"></transaction-date>
+   <value currency="USD" value-date="2018-09-20">3128202.18</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-HSS-2-UNIC (Approval code: 1721-GIN-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-07-06"></transaction-date>
+   <value currency="USD" value-date="2018-07-06">1971137.18</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-HSS-2-UNIC SD (Approval code: 1721-GIN-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

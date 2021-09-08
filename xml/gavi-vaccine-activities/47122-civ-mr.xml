@@ -44,7 +44,7 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2017-01-01" type="1"></activity-date>
   <activity-date iso-date="2017-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -60,7 +60,7 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
     <narrative xml:lang="EN">Yamoussoukro</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>6.8166700 -5.2833300</pos>
+    <pos>6.81667 -5.28333</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -99,12 +99,22 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   <budget status="2" type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">-3962.59</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2019-01-01">488232.4</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">0</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">9234243.56</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -219,28 +229,28 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
     <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="CIVMR2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-03"></transaction-date>
-   <value currency="USD" value-date="2018-10-03">470000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">-3962.59</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for C&#xF4;te d&apos;Ivoire MR</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="CIVMR2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-09"></transaction-date>
-   <value currency="USD" value-date="2019-08-09">18232.4</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">9234243.56</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for C&#xF4;te d&apos;Ivoire MR</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -249,31 +259,26 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-07"></transaction-date>
-   <value currency="USD" value-date="2017-07-07">346000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-07"></transaction-date>
-   <value currency="USD" value-date="2017-07-07">9572376</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-08"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-08"></transaction-date>
    <value currency="USD" value-date="2017-09-08">8701500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme CIV-MR-C-CU-OPS-UNIC (Approval code: 17-CIV-35b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CIVMR2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-23"></transaction-date>
+   <value currency="USD" value-date="2021-07-23">768546</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme CIV-MR-R-1ST-VIG-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -282,8 +287,137 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-02"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-02"></transaction-date>
    <value currency="USD" value-date="2017-11-02">683500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme CIV-MR-R-1st-VIG-UNIC (Approval code: 18-CIV-08l-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CIVMR2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-18"></transaction-date>
+   <value currency="USD" value-date="2020-11-18">553546</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CIV-MR-C-FU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CIVMR2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-20"></transaction-date>
+   <value currency="USD" value-date="2020-11-20">4886029.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CIV-MR-C-FU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CIVMR2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-08-12"></transaction-date>
+   <value currency="USD" value-date="2019-08-12">488232.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CIV-MR-R-1st-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CIVMR2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-3961.96</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CIV-MR-RTN-1st-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CIVMR2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-18"></transaction-date>
+   <value currency="USD" value-date="2020-11-18">10497</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CIV-MR-RTN-1st-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CIVMR2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-03"></transaction-date>
+   <value currency="USD" value-date="2021-02-03">139648</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CIV-MR-RTN-1st-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CIVMR2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-28"></transaction-date>
+   <value currency="USD" value-date="2021-05-28">19644.61</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CIV-MR-RTN-1st-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CIVMR2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-07"></transaction-date>
+   <value currency="USD" value-date="2021-07-07">153747</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CIV-MR-RTN-1st-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-07"></transaction-date>
+   <value currency="USD" value-date="2017-07-07">346000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CIV-MR-C-CU-VAC (Approval code: 17-CIV-18d-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -293,8 +427,25 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-07"></transaction-date>
+   <value currency="USD" value-date="2017-07-07">9572376</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CIV-MR-C-CU-VAC (Approval code: 17-CIV-18d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of C&#xF4;te d&apos;Ivoire</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-01-29"></transaction-date>
    <value currency="USD" value-date="2018-01-29">6872.14</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CIV-MR-C-CU-VAC (Approval code: 17-CIV-18d-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -304,8 +455,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-14"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-14"></transaction-date>
    <value currency="USD" value-date="2018-06-14">21000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CIV-MR-R-1st-VAC (Approval code: 1820-CIV-18c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -315,8 +469,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-14"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-14"></transaction-date>
    <value currency="USD" value-date="2018-06-14">626555.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CIV-MR-R-1st-VAC (Approval code: 1820-CIV-18c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -326,8 +483,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-07"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-02-07"></transaction-date>
    <value currency="USD" value-date="2019-02-07">9699</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CIV-MR-R-1st-VAC (Approval code: 1820-CIV-18c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -337,8 +497,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-07-09"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-07-09"></transaction-date>
    <value currency="USD" value-date="2019-07-09">-6881.61</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CIV-MR-R-1st-VAC (Approval code: 1820-CIV-18c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -348,8 +511,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-08-12"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-12"></transaction-date>
    <value currency="USD" value-date="2019-08-12">14666</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CIV-MR-R-1st-VAC (Approval code: 1820-CIV-18c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -359,8 +525,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-08-12"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-12"></transaction-date>
    <value currency="USD" value-date="2019-08-12">473566.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CIV-MR-R-1st-VAC (Approval code: 1820-CIV-18c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

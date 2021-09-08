@@ -44,7 +44,7 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2009-01-01" type="1"></activity-date>
   <activity-date iso-date="2009-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -60,7 +60,7 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">Sao Tome</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>0.3365400 6.7273200</pos>
+    <pos>0.33654 6.72732</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -86,6 +86,21 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">5439.24</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">3682.2</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">14722.07</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -801,52 +816,55 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="STPPENTA2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-03"></transaction-date>
-   <value currency="USD" value-date="2018-10-03">17000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">5439.24</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for Sao Tome and Principe PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="STPPENTA2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">15000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">3682.2</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Sao Tome and Principe PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="STPPENTA2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">1000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">14722.07</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Sao Tome and Principe PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
    </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-02-20"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-02-20"></transaction-date>
    <value currency="USD" value-date="2009-02-20">100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme STP-PENTA-R-VIG-MOH (Approval code: 09-STP-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -856,8 +874,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-02-25"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-02-25"></transaction-date>
    <value currency="USD" value-date="2009-02-25">-100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme STP-PENTA-R-VIG-MOH (Approval code: 09-STP-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -867,8 +888,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-03-04"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-03-04"></transaction-date>
    <value currency="USD" value-date="2009-03-04">100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme STP-PENTA-R-VIG-MOH (Approval code: 09-STP-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -878,8 +902,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-03-06"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-03-06"></transaction-date>
    <value currency="USD" value-date="2009-03-06">-100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme STP-PENTA-R-VIG-MOH (Approval code: 09-STP-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -889,8 +916,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-03-09"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-03-09"></transaction-date>
    <value currency="USD" value-date="2009-03-09">100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme STP-PENTA-R-VIG-MOH (Approval code: 09-STP-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -898,10 +928,139 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="STPPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-04"></transaction-date>
+   <value currency="USD" value-date="2019-02-04">15998.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme STP-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="STPPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-16"></transaction-date>
+   <value currency="USD" value-date="2020-04-16">1734.22</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme STP-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="STPPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-04"></transaction-date>
+   <value currency="USD" value-date="2020-05-04">3387.7</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme STP-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="STPPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-29"></transaction-date>
+   <value currency="USD" value-date="2020-05-29">14600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme STP-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="STPPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-20"></transaction-date>
+   <value currency="USD" value-date="2021-01-20">12322.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme STP-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="STPPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">1526.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme STP-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="STPPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">3346.82</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme STP-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="STPPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-21"></transaction-date>
+   <value currency="USD" value-date="2021-05-21">1451</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme STP-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="STPPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-14"></transaction-date>
+   <value currency="USD" value-date="2021-07-14">-280.43</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme STP-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome and Principe</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-04-23"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-04-23"></transaction-date>
    <value currency="USD" value-date="2009-04-23">41385</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -911,30 +1070,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-07"></transaction-date>
-   <value currency="USD" value-date="2009-12-07">75954.03</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-02-19"></transaction-date>
-   <value currency="USD" value-date="2010-02-19">1342</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-10-29"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2010-10-29"></transaction-date>
    <value currency="USD" value-date="2010-10-29">404.35</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -944,8 +1084,39 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-01"></transaction-date>
+   <transaction-date gavi:budget-period="2010" iso-date="2009-12-07"></transaction-date>
+   <value currency="USD" value-date="2009-12-07">75954.03</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-02-19"></transaction-date>
+   <value currency="USD" value-date="2010-02-19">1342</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-12-01"></transaction-date>
    <value currency="USD" value-date="2010-12-01">-1620.58</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -955,8 +1126,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-01"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2010-12-01"></transaction-date>
    <value currency="USD" value-date="2010-12-01">2041</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -966,8 +1140,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-14"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2010-12-14"></transaction-date>
    <value currency="USD" value-date="2010-12-14">60045</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -977,19 +1154,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-11-07"></transaction-date>
-   <value currency="USD" value-date="2011-11-07">58207</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-12-12"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-12-12"></transaction-date>
    <value currency="USD" value-date="2011-12-12">-6003.26</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -999,8 +1168,25 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-04"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2011-11-07"></transaction-date>
+   <value currency="USD" value-date="2011-11-07">58207</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-05-04"></transaction-date>
    <value currency="USD" value-date="2012-05-04">86</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1010,30 +1196,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">1100</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-02-19"></transaction-date>
-   <value currency="USD" value-date="2013-02-19">48875</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-21"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-03-21"></transaction-date>
    <value currency="USD" value-date="2013-03-21">-6632.14</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0912-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1043,8 +1210,39 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-11-29"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">1100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0914-STP-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-02-19"></transaction-date>
+   <value currency="USD" value-date="2013-02-19">48875</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0914-STP-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-11-29"></transaction-date>
    <value currency="USD" value-date="2013-11-29">55.54</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0914-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1054,8 +1252,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-13"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-13"></transaction-date>
    <value currency="USD" value-date="2013-12-13">1091</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0914-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1065,8 +1266,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-20"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-20"></transaction-date>
    <value currency="USD" value-date="2013-12-20">42280</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0914-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1076,8 +1280,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-04-10"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-04-10"></transaction-date>
    <value currency="USD" value-date="2014-04-10">500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0914-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1087,8 +1294,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-07-23"></transaction-date>
    <value currency="USD" value-date="2014-07-23">753.37</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 0914-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1098,8 +1308,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
    <value currency="USD" value-date="2015-01-30">40020</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 15-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1109,8 +1322,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
    <value currency="USD" value-date="2015-01-30">5100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 15-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1120,8 +1336,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
    <value currency="USD" value-date="2015-02-11">1052.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 15-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1131,8 +1350,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
    <value currency="USD" value-date="2015-02-11">200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 15-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1142,52 +1364,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-03"></transaction-date>
-   <value currency="USD" value-date="2016-02-03">26775</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-03"></transaction-date>
-   <value currency="USD" value-date="2016-02-03">5600</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">721.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">975</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-26"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-02-26"></transaction-date>
    <value currency="USD" value-date="2016-02-26">621.78</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 15-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1197,8 +1378,67 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-08-25"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-03"></transaction-date>
+   <value currency="USD" value-date="2016-02-03">26775</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 16-STP-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-03"></transaction-date>
+   <value currency="USD" value-date="2016-02-03">5600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 16-STP-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">721.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 16-STP-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">975</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 16-STP-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sao Tome &amp; Principe</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-08-25"></transaction-date>
    <value currency="USD" value-date="2016-08-25">-3176.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 16-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1208,8 +1448,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-05-03"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-05-03"></transaction-date>
    <value currency="USD" value-date="2017-05-03">15070</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 17-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1219,8 +1462,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-05-03"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-05-03"></transaction-date>
    <value currency="USD" value-date="2017-05-03">6500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 17-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1230,8 +1476,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-08-29"></transaction-date>
    <value currency="USD" value-date="2017-08-29">-3357.76</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 17-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1241,8 +1490,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-15"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-15"></transaction-date>
    <value currency="USD" value-date="2017-11-15">15400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 1820-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1252,8 +1504,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-15"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-15"></transaction-date>
    <value currency="USD" value-date="2017-11-15">2100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 1820-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1263,8 +1518,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-05"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-05"></transaction-date>
    <value currency="USD" value-date="2018-06-05">-1310.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 1820-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1274,8 +1532,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-04"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-04"></transaction-date>
    <value currency="USD" value-date="2019-02-04">13998.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 1820-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1285,8 +1546,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-04"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-04"></transaction-date>
    <value currency="USD" value-date="2019-02-04">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme STP-PENTA-R-VAC (Approval code: 1820-STP-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

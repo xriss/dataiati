@@ -61,7 +61,7 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
     <narrative xml:lang="EN">Bamako</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>12.6500000 -8.0000000</pos>
+    <pos>12.65 -8</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -97,10 +97,20 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">217500</value>
   </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">61306.42</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-01-01">274000</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">325670.06</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -229,12 +239,40 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
     <narrative xml:lang="EN">The Government of Mali</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MLIM2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">146500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">61306.42</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Mali M</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIM2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">325670.06</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Mali M</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">2276177</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MLI-M-C-FU-OPS-UNIC (Approval code: 19-MLI-37a-Y)</narrative>
    </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -243,69 +281,14 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
     <narrative xml:lang="EN">The Government of Mali</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">71000</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mali</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">1209036</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mali</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">94000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mali</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-01-24"></transaction-date>
-   <value currency="USD" value-date="2019-01-24">163103.4</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mali</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-01-24"></transaction-date>
-   <value currency="USD" value-date="2019-01-24">30800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mali</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="MLIM2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-02-14"></transaction-date>
    <value currency="USD" value-date="2019-02-14">2276177</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MLI-M-C-FU-OPS-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -313,64 +296,208 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
    </receiver-org>
   </transaction>
   <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">682082.4</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MLI-M-R-1&amp;2-VIG-UNIC (Approval code: 19-MLI-08n-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIM2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-02-25"></transaction-date>
    <value currency="USD" value-date="2019-02-25">682082.4</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MLI-M-R-1&amp;2-VIG-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Mali</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MLIM2019">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-07-09"></transaction-date>
-   <value currency="USD" value-date="2019-07-09">-1903.96</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">1303036</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-C-FU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Mali</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MLIM2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-07-09"></transaction-date>
    <value currency="USD" value-date="2019-07-09">-240939.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-C-FU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Mali</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MLIM2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-01-24"></transaction-date>
+   <value currency="USD" value-date="2019-01-24">193903.39</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIM2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-07-09"></transaction-date>
+   <value currency="USD" value-date="2019-07-09">-1903.96</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIM2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-02-14"></transaction-date>
-   <value currency="USD" value-date="2020-02-14">155756.4</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2020-02-14">178756.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Mali</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-14"></transaction-date>
-   <value currency="USD" value-date="2020-02-14">23000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mali</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="MLIM2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">12222</value>
+   <value currency="USD" value-date="2020-02-28">100050.02</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIM2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-12"></transaction-date>
+   <value currency="USD" value-date="2020-06-12">-40772.13</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIM2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-20"></transaction-date>
+   <value currency="USD" value-date="2020-09-20">-29770.81</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIM2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-02"></transaction-date>
+   <value currency="USD" value-date="2020-12-02">118935.11</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIM2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-09"></transaction-date>
+   <value currency="USD" value-date="2020-12-09">201525</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIM2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">-605.21</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIM2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">901.05</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-M-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">1209036</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MLI-M-C-FU-VAC (Approval code: 19-MLI-36a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -380,8 +507,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">68975</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">94000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MLI-M-C-FU-VAC (Approval code: 19-MLI-36a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -391,8 +521,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">9085.02</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-07-09"></transaction-date>
+   <value currency="USD" value-date="2019-07-09">-240939.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MLI-M-C-FU-VAC (Approval code: 19-MLI-36a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -402,8 +535,39 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">9768</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-01-24"></transaction-date>
+   <value currency="USD" value-date="2019-01-24">163103.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MLI-M-R-1&amp;2-VAC (Approval code: 19-MLI-09b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-01-24"></transaction-date>
+   <value currency="USD" value-date="2019-01-24">30800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MLI-M-R-1&amp;2-VAC (Approval code: 19-MLI-09b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-07-09"></transaction-date>
+   <value currency="USD" value-date="2019-07-09">-1903.96</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MLI-M-R-1&amp;2-VAC (Approval code: 19-MLI-09b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

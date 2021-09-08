@@ -43,7 +43,7 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2008-01-01" type="1"></activity-date>
   <activity-date iso-date="2008-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -59,7 +59,7 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">Niamey</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>13.5125000 2.1117800</pos>
+    <pos>13.5125 2.11178</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -85,6 +85,16 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">171517.33</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">1438953.89</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -772,14 +782,28 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">The Government of Niger</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="NERPENTA2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">1403000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">171517.33</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Niger PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="NERPENTA2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">1438953.89</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Niger PENTA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -787,78 +811,12 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">121000</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-29"></transaction-date>
-   <value currency="USD" value-date="2019-11-29">1457550</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-29"></transaction-date>
-   <value currency="USD" value-date="2019-11-29">68200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-19"></transaction-date>
-   <value currency="USD" value-date="2020-02-19">133210</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-19"></transaction-date>
-   <value currency="USD" value-date="2020-02-19">15443.33</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-19"></transaction-date>
-   <value currency="USD" value-date="2020-02-19">21114</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-02-05"></transaction-date>
+   <transaction-date gavi:budget-period="2008" iso-date="2008-02-05"></transaction-date>
    <value currency="USD" value-date="2008-02-05">253000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme NER-PENTA-R-VIG-MOH (Approval code: 08-NER-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -866,626 +824,979 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">The Government of Niger</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-03-10"></transaction-date>
-   <value currency="USD" value-date="2008-03-10">5171144</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-12-23"></transaction-date>
-   <value currency="USD" value-date="2008-12-23">5444640</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-12-23"></transaction-date>
-   <value currency="USD" value-date="2008-12-23">74382</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-02-24"></transaction-date>
-   <value currency="USD" value-date="2009-02-24">121216</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-04-07"></transaction-date>
-   <value currency="USD" value-date="2009-04-07">151084.82</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-05-28"></transaction-date>
-   <value currency="USD" value-date="2009-05-28">1129539</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-21"></transaction-date>
-   <value currency="USD" value-date="2009-12-21">69790.7</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-02-19"></transaction-date>
-   <value currency="USD" value-date="2010-02-19">3726638</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-05-07"></transaction-date>
-   <value currency="USD" value-date="2010-05-07">3705368</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-03-10"></transaction-date>
-   <value currency="USD" value-date="2011-03-10">1247867</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-03-10"></transaction-date>
-   <value currency="USD" value-date="2011-03-10">2075638</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-06-01"></transaction-date>
-   <value currency="USD" value-date="2011-06-01">360847.66</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-06-30"></transaction-date>
-   <value currency="USD" value-date="2011-06-30">2103683</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-10-04"></transaction-date>
-   <value currency="USD" value-date="2011-10-04">668785</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-11-30"></transaction-date>
-   <value currency="USD" value-date="2011-11-30">5892477</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-10-31"></transaction-date>
-   <value currency="USD" value-date="2012-10-31">1050000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-05"></transaction-date>
-   <value currency="USD" value-date="2012-12-05">-115650.26</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">135542</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">1879904</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-31"></transaction-date>
-   <value currency="USD" value-date="2012-12-31">-960000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-02-21"></transaction-date>
-   <value currency="USD" value-date="2013-02-21">-1879904</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-02-21"></transaction-date>
-   <value currency="USD" value-date="2013-02-21">2263689</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-06-24"></transaction-date>
-   <value currency="USD" value-date="2013-06-24">-293624.94</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-13"></transaction-date>
-   <value currency="USD" value-date="2013-12-13">205836</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-17"></transaction-date>
-   <value currency="USD" value-date="2013-12-17">3379572</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-19"></transaction-date>
-   <value currency="USD" value-date="2014-02-19">19431.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-17"></transaction-date>
-   <value currency="USD" value-date="2014-12-17">-275100</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-17"></transaction-date>
-   <value currency="USD" value-date="2014-12-17">2457560</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-17"></transaction-date>
-   <value currency="USD" value-date="2014-12-17">73500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-05"></transaction-date>
-   <value currency="USD" value-date="2015-06-05">117633.35</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-05"></transaction-date>
-   <value currency="USD" value-date="2015-06-05">13738</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-25"></transaction-date>
-   <value currency="USD" value-date="2015-06-25">29913.14</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-10-15"></transaction-date>
-   <value currency="USD" value-date="2015-10-15">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-29"></transaction-date>
-   <value currency="USD" value-date="2016-01-29">-48187.49</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-29"></transaction-date>
-   <value currency="USD" value-date="2016-01-29">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">1334000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">137734.75</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">15779</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">44697</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-16"></transaction-date>
-   <value currency="USD" value-date="2016-02-16">1037300</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-16"></transaction-date>
-   <value currency="USD" value-date="2016-02-16">34760</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-02"></transaction-date>
-   <value currency="USD" value-date="2016-12-02">40000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-02"></transaction-date>
-   <value currency="USD" value-date="2016-12-02">984375</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-05-01"></transaction-date>
-   <value currency="USD" value-date="2017-05-01">-10413.19</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-05-31"></transaction-date>
-   <value currency="USD" value-date="2017-05-31">-58437.95</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-01"></transaction-date>
-   <value currency="USD" value-date="2017-06-01">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
-   <value currency="USD" value-date="2017-11-24">1323750</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
-   <value currency="USD" value-date="2017-11-24">89779</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-30"></transaction-date>
-   <value currency="USD" value-date="2018-04-30">13500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-30"></transaction-date>
-   <value currency="USD" value-date="2018-04-30">248950</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-04"></transaction-date>
-   <value currency="USD" value-date="2018-09-04">-30838.46</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="NERPENTA2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-12-03"></transaction-date>
-   <value currency="USD" value-date="2018-12-03">1380000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2018-12-03">1450148</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Niger</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-03"></transaction-date>
-   <value currency="USD" value-date="2018-12-03">70148</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="NERPENTA2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-01-15"></transaction-date>
-   <value currency="USD" value-date="2019-01-15">-21191.6</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2019-01-15">-21191.59</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Niger</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="NERPENTA2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-04-29"></transaction-date>
-   <value currency="USD" value-date="2019-04-29">25611</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2019-04-29">527241</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Niger</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-29"></transaction-date>
-   <value currency="USD" value-date="2019-04-29">501630</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Niger</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="NERPENTA2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-09-06"></transaction-date>
    <value currency="USD" value-date="2019-09-06">-8465.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="NERPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-29"></transaction-date>
+   <value currency="USD" value-date="2019-11-29">1525750</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="NERPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-01-24"></transaction-date>
+   <value currency="USD" value-date="2020-01-24">-116604</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="NERPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-19"></transaction-date>
+   <value currency="USD" value-date="2020-02-19">169767.33</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="NERPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-116604</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="NERPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-30"></transaction-date>
+   <value currency="USD" value-date="2020-04-30">-8198.95</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="NERPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-20"></transaction-date>
+   <value currency="USD" value-date="2020-08-20">-62884.65</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="NERPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-04"></transaction-date>
+   <value currency="USD" value-date="2020-12-04">1239017</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="NERPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-22"></transaction-date>
+   <value currency="USD" value-date="2020-12-22">3432.81</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="NERPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-27"></transaction-date>
+   <value currency="USD" value-date="2021-01-27">154473</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme NER-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2008-03-10"></transaction-date>
+   <value currency="USD" value-date="2008-03-10">5171144</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 0810-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2009-04-07"></transaction-date>
+   <value currency="USD" value-date="2009-04-07">151084.82</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 0810-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2008-12-23"></transaction-date>
+   <value currency="USD" value-date="2008-12-23">5444640</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 0810-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2008-12-23"></transaction-date>
+   <value currency="USD" value-date="2008-12-23">74382</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 0810-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-02-24"></transaction-date>
+   <value currency="USD" value-date="2009-02-24">121216</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 0810-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-05-28"></transaction-date>
+   <value currency="USD" value-date="2009-05-28">1129539</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 0810-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-12-21"></transaction-date>
+   <value currency="USD" value-date="2009-12-21">69790.7</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 0810-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-02-19"></transaction-date>
+   <value currency="USD" value-date="2010-02-19">3726638</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 0810-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-05-07"></transaction-date>
+   <value currency="USD" value-date="2010-05-07">3705368</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 0810-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2011-06-01"></transaction-date>
+   <value currency="USD" value-date="2011-06-01">360847.66</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 0810-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-03-10"></transaction-date>
+   <value currency="USD" value-date="2011-03-10">1247867</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 11-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-03-10"></transaction-date>
+   <value currency="USD" value-date="2011-03-10">2075638</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 11-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-06-30"></transaction-date>
+   <value currency="USD" value-date="2011-06-30">2103683</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 11-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-10-04"></transaction-date>
+   <value currency="USD" value-date="2011-10-04">668785</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 11-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-12-05"></transaction-date>
+   <value currency="USD" value-date="2012-12-05">-115650.26</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 11-NER-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2011-11-30"></transaction-date>
+   <value currency="USD" value-date="2011-11-30">5892477</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-10-31"></transaction-date>
+   <value currency="USD" value-date="2012-10-31">1050000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-12-31"></transaction-date>
+   <value currency="USD" value-date="2012-12-31">-960000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-06-24"></transaction-date>
+   <value currency="USD" value-date="2013-06-24">-293624.94</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">135542</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">1879904</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-02-21"></transaction-date>
+   <value currency="USD" value-date="2013-02-21">-1879904</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-02-21"></transaction-date>
+   <value currency="USD" value-date="2013-02-21">2263689</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-02-19"></transaction-date>
+   <value currency="USD" value-date="2014-02-19">19431.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-13"></transaction-date>
+   <value currency="USD" value-date="2013-12-13">205836</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-17"></transaction-date>
+   <value currency="USD" value-date="2013-12-17">3379572</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-06-25"></transaction-date>
+   <value currency="USD" value-date="2015-06-25">29913.14</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-10-15"></transaction-date>
+   <value currency="USD" value-date="2015-10-15">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-17"></transaction-date>
+   <value currency="USD" value-date="2014-12-17">-275100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-17"></transaction-date>
+   <value currency="USD" value-date="2014-12-17">2457560</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-17"></transaction-date>
+   <value currency="USD" value-date="2014-12-17">73500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-05"></transaction-date>
+   <value currency="USD" value-date="2015-06-05">117633.35</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-05"></transaction-date>
+   <value currency="USD" value-date="2015-06-05">13738</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-01-29"></transaction-date>
+   <value currency="USD" value-date="2016-01-29">-48187.49</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-01-29"></transaction-date>
+   <value currency="USD" value-date="2016-01-29">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1215-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">1334000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 16-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">137734.75</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 16-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">15779</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 16-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">44697</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 16-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-16"></transaction-date>
+   <value currency="USD" value-date="2016-02-16">1037300</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 16-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-16"></transaction-date>
+   <value currency="USD" value-date="2016-02-16">34760</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 16-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-05-31"></transaction-date>
+   <value currency="USD" value-date="2017-05-31">-58437.95</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 16-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-06-01"></transaction-date>
+   <value currency="USD" value-date="2017-06-01">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 16-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-12-02"></transaction-date>
+   <value currency="USD" value-date="2016-12-02">40000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-12-02"></transaction-date>
+   <value currency="USD" value-date="2016-12-02">984375</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-05-01"></transaction-date>
+   <value currency="USD" value-date="2017-05-01">-10413.19</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
+   <value currency="USD" value-date="2017-11-24">1323750</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
+   <value currency="USD" value-date="2017-11-24">89779</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-30"></transaction-date>
+   <value currency="USD" value-date="2018-04-30">13500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-30"></transaction-date>
+   <value currency="USD" value-date="2018-04-30">248950</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-04"></transaction-date>
+   <value currency="USD" value-date="2018-09-04">-30838.46</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-03"></transaction-date>
+   <value currency="USD" value-date="2018-12-03">1380000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-03"></transaction-date>
+   <value currency="USD" value-date="2018-12-03">70148</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-01-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-15">-21191.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-04-29"></transaction-date>
+   <value currency="USD" value-date="2019-04-29">25611</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-04-29"></transaction-date>
+   <value currency="USD" value-date="2019-04-29">501630</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Niger</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-06"></transaction-date>
+   <value currency="USD" value-date="2019-09-06">-8465.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme NER-PENTA-R-VAC (Approval code: 1720-NER-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

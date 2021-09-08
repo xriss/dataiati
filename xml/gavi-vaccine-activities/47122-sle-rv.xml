@@ -55,7 +55,7 @@
     <narrative xml:lang="EN">Freetown</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>8.4840000 -13.2299400</pos>
+    <pos>8.484 -13.22994</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -81,6 +81,11 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">1352065.24</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -446,11 +451,14 @@
     <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-13"></transaction-date>
-   <value currency="USD" value-date="2013-09-13">244155.6</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="SLERV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">1352065.24</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Sierra Leone RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -459,63 +467,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-13"></transaction-date>
-   <value currency="USD" value-date="2013-09-13">5000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-17"></transaction-date>
-   <value currency="USD" value-date="2013-09-17">15000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-17"></transaction-date>
-   <value currency="USD" value-date="2013-09-17">349142.51</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-28"></transaction-date>
-   <value currency="USD" value-date="2014-02-28">35000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-28"></transaction-date>
-   <value currency="USD" value-date="2014-02-28">812282.61</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-04-16"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-04-16"></transaction-date>
    <value currency="USD" value-date="2014-04-16">193500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLE-RV-R-VIG-MOH (Approval code: 12-SLE-08a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -525,8 +481,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-04-24"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-04-24"></transaction-date>
    <value currency="USD" value-date="2014-04-24">-193500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLE-RV-R-VIG-MOH (Approval code: 12-SLE-08a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -536,8 +495,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-04-25"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-04-25"></transaction-date>
    <value currency="USD" value-date="2014-04-25">193500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLE-RV-R-VIG-MOH (Approval code: 12-SLE-08a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -547,8 +509,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-04-30"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-04-30"></transaction-date>
    <value currency="USD" value-date="2014-04-30">-193500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLE-RV-R-VIG-MOH (Approval code: 12-SLE-08a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -558,8 +523,81 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-05-06"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-05-06"></transaction-date>
    <value currency="USD" value-date="2014-05-06">193500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLE-RV-R-VIG-MOH (Approval code: 12-SLE-08a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SLERV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">868178</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SLE-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SLERV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-05"></transaction-date>
+   <value currency="USD" value-date="2019-12-05">72186</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SLE-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SLERV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-12"></transaction-date>
+   <value currency="USD" value-date="2020-06-12">-1697.59</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SLE-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SLERV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-24"></transaction-date>
+   <value currency="USD" value-date="2021-02-24">1352063.11</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SLE-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-09-13"></transaction-date>
+   <value currency="USD" value-date="2013-09-13">244155.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -569,8 +607,81 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-09-13"></transaction-date>
+   <value currency="USD" value-date="2013-09-13">5000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-09-17"></transaction-date>
+   <value currency="USD" value-date="2013-09-17">15000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-09-17"></transaction-date>
+   <value currency="USD" value-date="2013-09-17">349142.51</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-28"></transaction-date>
+   <value currency="USD" value-date="2014-02-28">35000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-28"></transaction-date>
+   <value currency="USD" value-date="2014-02-28">812282.61</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-07-23"></transaction-date>
    <value currency="USD" value-date="2014-07-23">-2121.57</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -580,8 +691,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-07-23"></transaction-date>
    <value currency="USD" value-date="2014-07-23">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -591,8 +705,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-07-23"></transaction-date>
    <value currency="USD" value-date="2014-07-23">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -602,8 +719,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
    <value currency="USD" value-date="2015-01-30">15000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -613,8 +733,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
    <value currency="USD" value-date="2015-01-30">319829.27</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -624,8 +747,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
    <value currency="USD" value-date="2015-06-03">241930.29</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -635,8 +761,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
    <value currency="USD" value-date="2015-06-03">9000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -646,8 +775,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-10-21"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-10-21"></transaction-date>
    <value currency="USD" value-date="2015-10-21">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -657,8 +789,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-10-21"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-10-21"></transaction-date>
    <value currency="USD" value-date="2015-10-21">49142.09</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -668,52 +803,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">19000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">582144.77</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">22000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">471019.52</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-02"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-02"></transaction-date>
    <value currency="USD" value-date="2016-05-02">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -723,8 +817,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-03"></transaction-date>
    <value currency="USD" value-date="2016-05-03">-0.56</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -734,8 +831,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-03"></transaction-date>
    <value currency="USD" value-date="2016-05-03">-49135.2</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1215-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -745,8 +845,67 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-08-25"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">19000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 16-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">582144.77</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 16-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">22000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 16-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">471019.52</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 16-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-08-25"></transaction-date>
    <value currency="USD" value-date="2016-08-25">-1.12</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 16-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -756,8 +915,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-08-25"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-08-25"></transaction-date>
    <value currency="USD" value-date="2016-08-25">-7213.16</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 16-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -767,8 +929,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-08-25"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-08-25"></transaction-date>
    <value currency="USD" value-date="2016-08-25">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 16-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -778,8 +943,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
    <value currency="USD" value-date="2016-11-22">24000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 17-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -789,8 +957,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
    <value currency="USD" value-date="2016-11-22">453049.18</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 17-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -800,8 +971,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
    <value currency="USD" value-date="2017-06-07">20602</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 17-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -811,8 +985,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
    <value currency="USD" value-date="2017-06-07">458640</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 17-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -822,30 +999,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
-   <value currency="USD" value-date="2017-11-24">25324</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
-   <value currency="USD" value-date="2017-11-24">569430</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-12-22"></transaction-date>
    <value currency="USD" value-date="2017-12-22">-12355.42</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 17-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -855,8 +1013,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-27"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-12-27"></transaction-date>
    <value currency="USD" value-date="2017-12-27">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 17-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -866,8 +1027,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
+   <value currency="USD" value-date="2017-11-24">25324</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1821-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
+   <value currency="USD" value-date="2017-11-24">569430</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1821-SLE-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
    <value currency="USD" value-date="2018-06-26">20171</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1821-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -877,8 +1069,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
    <value currency="USD" value-date="2018-06-26">442890</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1821-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -888,30 +1083,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
-   <value currency="USD" value-date="2019-02-25">38200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
-   <value currency="USD" value-date="2019-02-25">829978</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sierra Leone</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-08"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-04-08"></transaction-date>
    <value currency="USD" value-date="2019-04-08">2364.76</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1821-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -921,8 +1097,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1821-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -932,8 +1111,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-05"></transaction-date>
-   <value currency="USD" value-date="2019-12-05">3252</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">38200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1821-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -943,8 +1125,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-05"></transaction-date>
-   <value currency="USD" value-date="2019-12-05">68934</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">829978</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SLE-RV-R-VAC (Approval code: 1821-SLE-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

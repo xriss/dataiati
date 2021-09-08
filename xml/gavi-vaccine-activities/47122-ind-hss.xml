@@ -53,7 +53,7 @@
     <narrative xml:lang="EN">New Delhi</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>28.6357600 77.2244500</pos>
+    <pos>28.63576 77.22445</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -118,6 +118,11 @@
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">26223440</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">11465628</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-01-01"></period-start>
@@ -503,11 +508,14 @@
     <narrative xml:lang="EN">The Government of India</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-11-12"></transaction-date>
-   <value currency="USD" value-date="2013-11-12">13980000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="INDHSS2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2021-06-01">11465628</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for India HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -516,8 +524,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-20"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-12-20"></transaction-date>
    <value currency="USD" value-date="2013-12-20">5666000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-1-UNDP (Approval code: 1315-IND-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -527,19 +538,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-20"></transaction-date>
-   <value currency="USD" value-date="2013-12-20">7640000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-14"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-07-14"></transaction-date>
    <value currency="USD" value-date="2015-07-14">18547900</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-1-UNDP (Approval code: 1316-IND-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -549,41 +552,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-15"></transaction-date>
-   <value currency="USD" value-date="2015-07-15">13630000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-28"></transaction-date>
-   <value currency="USD" value-date="2015-07-28">4000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-28"></transaction-date>
-   <value currency="USD" value-date="2015-07-28">8912100</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-12"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-12"></transaction-date>
    <value currency="USD" value-date="2016-05-12">14336100</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-1-UNDP (Approval code: 1316-IND-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -593,8 +566,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-12"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-11-12"></transaction-date>
+   <value currency="USD" value-date="2013-11-12">13980000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-1-UNIC (Approval code: 1315-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-07-15"></transaction-date>
+   <value currency="USD" value-date="2015-07-15">13630000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-1-UNIC (Approval code: 1316-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-12"></transaction-date>
    <value currency="USD" value-date="2016-05-12">15450000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-1-UNIC (Approval code: 1316-IND-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -604,8 +608,53 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-12"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-12-20"></transaction-date>
+   <value currency="USD" value-date="2013-12-20">7640000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-1-WHO (Approval code: 1315-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2015-07-28"></transaction-date>
+   <value currency="USD" value-date="2015-07-28">4000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-1-WHO (Approval code: 1315-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-07-28"></transaction-date>
+   <value currency="USD" value-date="2015-07-28">8912100</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-1-WHO (Approval code: 1316-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-12"></transaction-date>
    <value currency="USD" value-date="2016-05-12">8833900</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-1-WHO (Approval code: 1316-IND-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -615,19 +664,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-11"></transaction-date>
-   <value currency="USD" value-date="2017-09-11">11596654</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-21"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-21"></transaction-date>
    <value currency="USD" value-date="2017-09-21">692298</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-JSI (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -637,63 +678,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-11"></transaction-date>
-   <value currency="USD" value-date="2017-10-11">9466305</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-18"></transaction-date>
-   <value currency="USD" value-date="2017-10-18">4710696</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-07-20"></transaction-date>
-   <value currency="USD" value-date="2018-07-20">12694080</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-07-20"></transaction-date>
-   <value currency="USD" value-date="2018-07-20">4422492</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-18"></transaction-date>
-   <value currency="USD" value-date="2018-10-18">9293755</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-25"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-10-25"></transaction-date>
    <value currency="USD" value-date="2018-10-25">1103423</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-JSI (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -703,8 +692,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-07-17"></transaction-date>
-   <value currency="USD" value-date="2019-07-17">4511997</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-02"></transaction-date>
+   <value currency="USD" value-date="2019-08-02">632917</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-JSI (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -712,66 +704,308 @@
     <narrative xml:lang="EN">The Government of India</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-07-17"></transaction-date>
-   <value currency="USD" value-date="2019-07-17">5692261</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-08-02"></transaction-date>
-   <value currency="USD" value-date="2019-08-02">5206367</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="INDHSS2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-08-02"></transaction-date>
    <value currency="USD" value-date="2019-08-02">632917</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-JSI</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of India</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-04"></transaction-date>
-   <value currency="USD" value-date="2019-11-04">197204</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-04"></transaction-date>
-   <value currency="USD" value-date="2019-11-04">6210188</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of India</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="INDHSS2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-03-23"></transaction-date>
    <value currency="USD" value-date="2020-03-23">540062</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-JSI</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-11"></transaction-date>
+   <value currency="USD" value-date="2017-10-11">9466305</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNDP (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-10-18"></transaction-date>
+   <value currency="USD" value-date="2018-10-18">9293755</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNDP (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-02"></transaction-date>
+   <value currency="USD" value-date="2019-08-02">5206367</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNDP (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-08-02"></transaction-date>
+   <value currency="USD" value-date="2019-08-02">5206367</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNDP</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-19"></transaction-date>
+   <value currency="USD" value-date="2020-03-19">-13780929</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNDP</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-22"></transaction-date>
+   <value currency="USD" value-date="2020-04-22">13780929</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNDP</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-13"></transaction-date>
+   <value currency="USD" value-date="2020-05-13">13780929</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNDP</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-06-30"></transaction-date>
+   <value currency="USD" value-date="2021-06-30">2267691</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNDP</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-11"></transaction-date>
+   <value currency="USD" value-date="2017-09-11">11596654</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNIC (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-07-20"></transaction-date>
+   <value currency="USD" value-date="2018-07-20">12694080</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNIC (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-04"></transaction-date>
+   <value currency="USD" value-date="2019-11-04">197204</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNICEF</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-04"></transaction-date>
+   <value currency="USD" value-date="2019-11-04">6210188</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNICEF</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-12"></transaction-date>
+   <value currency="USD" value-date="2021-05-12">3742092</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-UNICEF</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-18"></transaction-date>
+   <value currency="USD" value-date="2017-10-18">4710696</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-WHO (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-07-20"></transaction-date>
+   <value currency="USD" value-date="2018-07-20">4422492</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-WHO (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-07-17"></transaction-date>
+   <value currency="USD" value-date="2019-07-17">4511997</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-WHO (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2020" iso-date="2019-07-17"></transaction-date>
+   <value currency="USD" value-date="2019-07-17">5692261</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-WHO (Approval code: 1721-IND-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-07-17"></transaction-date>
+   <value currency="USD" value-date="2019-07-17">4511997</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-WHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-07-17"></transaction-date>
+   <value currency="USD" value-date="2019-07-17">5692261</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-WHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of India</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="INDHSS2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-19"></transaction-date>
+   <value currency="USD" value-date="2021-05-19">5455844</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme IND-HSS-2-WHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">

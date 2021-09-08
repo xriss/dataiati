@@ -41,10 +41,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   <other-identifier ref="47122-1416-SEN-09A-X" type="A3"></other-identifier>
   <other-identifier ref="47122-1718-SEN-09A-X" type="A3"></other-identifier>
   <other-identifier ref="47122-19-SEN-09A-X" type="A3"></other-identifier>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2014-01-01" type="1"></activity-date>
   <activity-date iso-date="2014-01-01" type="2"></activity-date>
   <activity-date iso-date="2019-12-31" type="3"></activity-date>
+  <activity-date iso-date="2019-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -60,7 +61,7 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
     <narrative xml:lang="EN">Dakar</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>14.6937000 -17.4440600</pos>
+    <pos>14.6937 -17.44406</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -86,6 +87,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">64547.8</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -409,12 +415,68 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
     <narrative xml:lang="EN">The Government of Senegal</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="SENM2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-03"></transaction-date>
-   <value currency="USD" value-date="2018-10-03">118000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">64547.8</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for Senegal M</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-06-12"></transaction-date>
+   <value currency="USD" value-date="2014-06-12">423500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SEN-M-R-2nd-VIG-MOH (Approval code: 14-SEN-08d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SENM2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-13"></transaction-date>
+   <value currency="USD" value-date="2019-11-13">122051.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-M-RTN-2nd-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SENM2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-763.53</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-M-RTN-2nd-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-06-12"></transaction-date>
+   <value currency="USD" value-date="2014-06-12">26822</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
    </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -425,30 +487,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-12"></transaction-date>
-   <value currency="USD" value-date="2014-06-12">26822</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-12"></transaction-date>
-   <value currency="USD" value-date="2014-06-12">423500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-08-07"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-08-07"></transaction-date>
    <value currency="USD" value-date="2014-08-07">147058</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -458,41 +501,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-09-18"></transaction-date>
-   <value currency="USD" value-date="2014-09-18">47289</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-08"></transaction-date>
-   <value currency="USD" value-date="2015-12-08">121927.2</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-08"></transaction-date>
-   <value currency="USD" value-date="2015-12-08">5460</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-08"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-12-08"></transaction-date>
    <value currency="USD" value-date="2015-12-08">5490</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -502,8 +515,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-08"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-12-08"></transaction-date>
    <value currency="USD" value-date="2015-12-08">7015.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -513,41 +529,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-10"></transaction-date>
-   <value currency="USD" value-date="2015-12-10">-25169.48</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">1000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">2442.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-26"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2016-02-26"></transaction-date>
    <value currency="USD" value-date="2016-02-26">-10345.16</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -557,8 +543,67 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-09-18"></transaction-date>
+   <value currency="USD" value-date="2014-09-18">47289</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-12-08"></transaction-date>
+   <value currency="USD" value-date="2015-12-08">121927.2</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-12-08"></transaction-date>
+   <value currency="USD" value-date="2015-12-08">5460</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-12-10"></transaction-date>
+   <value currency="USD" value-date="2015-12-10">-25169.48</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-03"></transaction-date>
    <value currency="USD" value-date="2016-05-03">-14409.65</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -568,8 +613,39 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-09-19"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">2442.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-09-19"></transaction-date>
    <value currency="USD" value-date="2016-09-19">2500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -579,8 +655,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-09-19"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-09-19"></transaction-date>
    <value currency="USD" value-date="2016-09-19">64539</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -590,8 +669,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-25"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-01-25"></transaction-date>
    <value currency="USD" value-date="2017-01-25">-1963.76</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1416-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -601,8 +683,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-16"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-04-16"></transaction-date>
    <value currency="USD" value-date="2018-04-16">1700</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1718-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -612,8 +697,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-16"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-04-16"></transaction-date>
    <value currency="USD" value-date="2018-04-16">50971.2</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1718-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -623,8 +711,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-07-27"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-07-27"></transaction-date>
    <value currency="USD" value-date="2018-07-27">-1105.77</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1718-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -634,8 +725,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-28"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-08-28"></transaction-date>
    <value currency="USD" value-date="2018-08-28">151357.8</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1718-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -645,8 +739,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-28"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-08-28"></transaction-date>
    <value currency="USD" value-date="2018-08-28">4300</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1718-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -656,30 +753,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-21"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-12-21"></transaction-date>
    <value currency="USD" value-date="2018-12-21">-1136.64</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-13"></transaction-date>
-   <value currency="USD" value-date="2019-11-13">118801.6</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-13"></transaction-date>
-   <value currency="USD" value-date="2019-11-13">3250</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-M-R-2nd-VAC (Approval code: 1718-SEN-09a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

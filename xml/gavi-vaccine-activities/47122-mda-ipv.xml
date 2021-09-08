@@ -40,7 +40,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2015-01-01" type="1"></activity-date>
   <activity-date iso-date="2015-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -56,7 +56,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">Chisinau</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>47.0055600 28.8575000</pos>
+    <pos>47.00556 28.8575</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -111,6 +111,16 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">130500</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">2537.51</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">51033.31</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -421,28 +431,28 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Moldova</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MDAIPV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">128000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">2537.51</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Moldova IPV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Moldova</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MDAIPV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">2500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">51033.31</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Moldova IPV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -451,8 +461,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-18"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-18"></transaction-date>
    <value currency="USD" value-date="2015-03-18">100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MDA-IPV-R-VIG-MOH (Approval code: 15-MDA-08h-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -460,296 +473,503 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Moldova</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-26"></transaction-date>
-   <value currency="USD" value-date="2015-03-26">20272</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-26"></transaction-date>
-   <value currency="USD" value-date="2015-03-26">3000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-26"></transaction-date>
-   <value currency="USD" value-date="2015-03-26">34160</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-30"></transaction-date>
-   <value currency="USD" value-date="2015-03-30">736.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-30"></transaction-date>
-   <value currency="USD" value-date="2015-03-30">750</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-05-28"></transaction-date>
-   <value currency="USD" value-date="2015-05-28">1000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">1400</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">2800.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-23"></transaction-date>
-   <value currency="USD" value-date="2016-05-23">-20272</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-23"></transaction-date>
-   <value currency="USD" value-date="2016-05-23">-34160</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-27"></transaction-date>
-   <value currency="USD" value-date="2016-05-27">-1000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-27"></transaction-date>
-   <value currency="USD" value-date="2016-05-27">-3000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-28"></transaction-date>
-   <value currency="USD" value-date="2017-03-28">-524.39</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-28"></transaction-date>
-   <value currency="USD" value-date="2017-03-28">-621.57</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
-   <value currency="USD" value-date="2017-11-24">6060</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
-   <value currency="USD" value-date="2017-11-24">80640</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-06"></transaction-date>
-   <value currency="USD" value-date="2018-06-06">4000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-06"></transaction-date>
-   <value currency="USD" value-date="2018-06-06">41328</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-07"></transaction-date>
-   <value currency="USD" value-date="2018-11-07">-6484.44</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-27"></transaction-date>
-   <value currency="USD" value-date="2018-11-27">3000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-27"></transaction-date>
-   <value currency="USD" value-date="2018-11-27">91980</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="MDAIPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-02-14"></transaction-date>
-   <value currency="USD" value-date="2019-02-14">2000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2019-02-14">302620</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDA-IPV-R-CU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Moldova</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-14"></transaction-date>
-   <value currency="USD" value-date="2019-02-14">298620</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-14"></transaction-date>
-   <value currency="USD" value-date="2019-02-14">4000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-14"></transaction-date>
-   <value currency="USD" value-date="2019-02-14">93240</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">1148.09</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Moldova</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="MDAIPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-09-06"></transaction-date>
    <value currency="USD" value-date="2019-09-06">6309.67</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDA-IPV-R-CU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDAIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-11-27"></transaction-date>
+   <value currency="USD" value-date="2018-11-27">94980</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDA-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDAIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">95240</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDA-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDAIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-08-27"></transaction-date>
+   <value currency="USD" value-date="2019-08-27">1148.08</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDA-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDAIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-16"></transaction-date>
+   <value currency="USD" value-date="2020-04-16">5108</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDA-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDAIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-23"></transaction-date>
+   <value currency="USD" value-date="2020-07-23">123352</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDA-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDAIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-29"></transaction-date>
+   <value currency="USD" value-date="2020-10-29">-1638.21</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDA-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MDAIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-14"></transaction-date>
+   <value currency="USD" value-date="2021-07-14">2170</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MDA-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">298620</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-CU-VAC (Approval code: 19-MDA-25h-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">4000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-CU-VAC (Approval code: 19-MDA-25h-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-06"></transaction-date>
+   <value currency="USD" value-date="2019-09-06">6309.67</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-CU-VAC (Approval code: 19-MDA-25h-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-26"></transaction-date>
+   <value currency="USD" value-date="2015-03-26">3000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-26"></transaction-date>
+   <value currency="USD" value-date="2015-03-26">34160</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-30"></transaction-date>
+   <value currency="USD" value-date="2015-03-30">736.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-30"></transaction-date>
+   <value currency="USD" value-date="2015-03-30">750</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-23"></transaction-date>
+   <value currency="USD" value-date="2016-05-23">-34160</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-27"></transaction-date>
+   <value currency="USD" value-date="2016-05-27">-3000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-03-28"></transaction-date>
+   <value currency="USD" value-date="2017-03-28">-524.39</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-03-26"></transaction-date>
+   <value currency="USD" value-date="2015-03-26">20272</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-05-28"></transaction-date>
+   <value currency="USD" value-date="2015-05-28">1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">1400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">2800.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-23"></transaction-date>
+   <value currency="USD" value-date="2016-05-23">-20272</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-27"></transaction-date>
+   <value currency="USD" value-date="2016-05-27">-1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-03-28"></transaction-date>
+   <value currency="USD" value-date="2017-03-28">-621.57</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
+   <value currency="USD" value-date="2017-11-24">6060</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
+   <value currency="USD" value-date="2017-11-24">80640</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-06"></transaction-date>
+   <value currency="USD" value-date="2018-06-06">4000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-06"></transaction-date>
+   <value currency="USD" value-date="2018-06-06">41328</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-11-07"></transaction-date>
+   <value currency="USD" value-date="2018-11-07">-6484.44</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 1518-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-27"></transaction-date>
+   <value currency="USD" value-date="2018-11-27">3000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 19-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-27"></transaction-date>
+   <value currency="USD" value-date="2018-11-27">91980</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 19-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 19-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">93240</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 19-MDA-25d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Moldova</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-27"></transaction-date>
+   <value currency="USD" value-date="2019-08-27">1148.09</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MDA-IPV-R-VAC (Approval code: 19-MDA-25d-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

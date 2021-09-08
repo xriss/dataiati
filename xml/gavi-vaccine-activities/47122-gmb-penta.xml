@@ -59,7 +59,7 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">Banjul</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>13.4527400 -16.5780300</pos>
+    <pos>13.45274 -16.57803</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -148,7 +148,17 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">1987.66</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">42000</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">136132.2</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-01-01"></period-start>
@@ -758,28 +768,28 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">The Government of Gambia</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="GMBPENTA2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">38500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2021-06-01">1987.66</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Gambia PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Gambia</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="GMBPENTA2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">3500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">136132.2</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Gambia PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -788,9 +798,152 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-09-29"></transaction-date>
+   <transaction-date gavi:budget-period="2008" iso-date="2008-09-29"></transaction-date>
    <value currency="USD" value-date="2008-09-29">100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GMB-PENTA-R-VIG-MOH (Approval code: 08-GMB-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-04"></transaction-date>
+   <value currency="USD" value-date="2019-02-04">104125</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-25"></transaction-date>
+   <value currency="USD" value-date="2019-06-25">42800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-16"></transaction-date>
+   <value currency="USD" value-date="2020-04-16">5514.23</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-23"></transaction-date>
+   <value currency="USD" value-date="2020-07-23">37645</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-13"></transaction-date>
+   <value currency="USD" value-date="2020-08-13">-1201.03</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-18"></transaction-date>
+   <value currency="USD" value-date="2020-09-18">26.66</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-11"></transaction-date>
+   <value currency="USD" value-date="2020-12-11">-784.35</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-29"></transaction-date>
+   <value currency="USD" value-date="2021-01-29">14471</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-03"></transaction-date>
+   <value currency="USD" value-date="2021-02-03">84777</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-08-13"></transaction-date>
+   <value currency="USD" value-date="2021-08-13">36883</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -799,8 +952,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-10-06"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2008-10-06"></transaction-date>
    <value currency="USD" value-date="2008-10-06">461339</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -810,8 +966,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-05-22"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-05-22"></transaction-date>
    <value currency="USD" value-date="2009-05-22">220775</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -821,8 +980,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-06-25"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-06-25"></transaction-date>
    <value currency="USD" value-date="2009-06-25">23000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -832,8 +994,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-08-14"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-08-14"></transaction-date>
    <value currency="USD" value-date="2009-08-14">187722</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -843,8 +1008,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-08-14"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-08-14"></transaction-date>
    <value currency="USD" value-date="2009-08-14">32689</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -854,52 +1022,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-02-19"></transaction-date>
-   <value currency="USD" value-date="2010-02-19">304649</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-02-23"></transaction-date>
-   <value currency="USD" value-date="2010-02-23">14278</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-05-07"></transaction-date>
-   <value currency="USD" value-date="2010-05-07">331006</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-06-08"></transaction-date>
-   <value currency="USD" value-date="2010-06-08">16000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-08-06"></transaction-date>
+   <transaction-date gavi:budget-period="2009" iso-date="2010-08-06"></transaction-date>
    <value currency="USD" value-date="2010-08-06">1487.14</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -909,8 +1036,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-01"></transaction-date>
-   <value currency="USD" value-date="2010-12-01">382287</value>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-02-19"></transaction-date>
+   <value currency="USD" value-date="2010-02-19">304649</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -920,8 +1050,53 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-02-18"></transaction-date>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-02-23"></transaction-date>
+   <value currency="USD" value-date="2010-02-23">14278</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-05-07"></transaction-date>
+   <value currency="USD" value-date="2010-05-07">331006</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-06-08"></transaction-date>
+   <value currency="USD" value-date="2010-06-08">16000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2011-02-18"></transaction-date>
    <value currency="USD" value-date="2011-02-18">-4160.27</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -931,8 +1106,25 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-06-30"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2010-12-01"></transaction-date>
+   <value currency="USD" value-date="2010-12-01">382287</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-06-30"></transaction-date>
    <value currency="USD" value-date="2011-06-30">203290</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -942,52 +1134,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-11-07"></transaction-date>
-   <value currency="USD" value-date="2011-11-07">13137</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-01-30"></transaction-date>
-   <value currency="USD" value-date="2012-01-30">229469</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-04"></transaction-date>
-   <value currency="USD" value-date="2012-05-04">1150</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-25"></transaction-date>
-   <value currency="USD" value-date="2012-05-25">200168</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-13"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-12-13"></transaction-date>
    <value currency="USD" value-date="2012-12-13">-52180.31</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -997,8 +1148,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">12320</value>
+   <transaction-date gavi:budget-period="2012" iso-date="2011-11-07"></transaction-date>
+   <value currency="USD" value-date="2011-11-07">13137</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1008,8 +1162,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">186601</value>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-01-30"></transaction-date>
+   <value currency="USD" value-date="2012-01-30">229469</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1019,8 +1176,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-04-11"></transaction-date>
-   <value currency="USD" value-date="2013-04-11">177271</value>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-05-04"></transaction-date>
+   <value currency="USD" value-date="2012-05-04">1150</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1030,8 +1190,25 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-12"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-05-25"></transaction-date>
+   <value currency="USD" value-date="2012-05-25">200168</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-09-12"></transaction-date>
    <value currency="USD" value-date="2013-09-12">6132.78</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1041,8 +1218,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-13"></transaction-date>
-   <value currency="USD" value-date="2013-12-13">23295</value>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">12320</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1052,8 +1232,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-20"></transaction-date>
-   <value currency="USD" value-date="2013-12-20">369773</value>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">186601</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1063,8 +1246,25 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-19"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-04-11"></transaction-date>
+   <value currency="USD" value-date="2013-04-11">177271</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-02-19"></transaction-date>
    <value currency="USD" value-date="2014-02-19">5350.09</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1074,8 +1274,39 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-24"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-13"></transaction-date>
+   <value currency="USD" value-date="2013-12-13">23295</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-20"></transaction-date>
+   <value currency="USD" value-date="2013-12-20">369773</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-06-24"></transaction-date>
    <value currency="USD" value-date="2014-06-24">298988</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1085,52 +1316,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">12218.75</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">1429</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">195000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">2240</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-12"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-02-12"></transaction-date>
    <value currency="USD" value-date="2015-02-12">2644.02</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1140,8 +1330,67 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-14"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">12218.75</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">1429</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">195000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">2240</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-07-14"></transaction-date>
    <value currency="USD" value-date="2015-07-14">155000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1151,8 +1400,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-14"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-07-14"></transaction-date>
    <value currency="USD" value-date="2015-07-14">2275</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1162,8 +1414,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-14"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-14"></transaction-date>
    <value currency="USD" value-date="2015-09-14">-155000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1173,8 +1428,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-14"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-14"></transaction-date>
    <value currency="USD" value-date="2015-09-14">155000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1184,52 +1442,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">15346.75</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">2000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">201000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">7554</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-26"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-02-26"></transaction-date>
    <value currency="USD" value-date="2016-02-26">-38719.18</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 0915-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1239,8 +1456,67 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-18"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">15346.75</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 16-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 16-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">201000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 16-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">7554</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 16-GMB-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-18"></transaction-date>
    <value currency="USD" value-date="2016-05-18">156750</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 16-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1250,8 +1526,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-18"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-18"></transaction-date>
    <value currency="USD" value-date="2016-05-18">3706</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 16-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1261,8 +1540,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-28"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-28"></transaction-date>
    <value currency="USD" value-date="2016-12-28">-8178.54</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 16-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1272,8 +1554,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-02-02"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-02-02"></transaction-date>
    <value currency="USD" value-date="2017-02-02">2038</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 17-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1283,8 +1568,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-02-02"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-02-02"></transaction-date>
    <value currency="USD" value-date="2017-02-02">42750</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 17-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1294,8 +1582,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-31"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-31"></transaction-date>
    <value currency="USD" value-date="2017-07-31">1708</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 17-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1305,8 +1596,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-31"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-31"></transaction-date>
    <value currency="USD" value-date="2017-07-31">42750</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 17-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1316,8 +1610,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-30"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-30"></transaction-date>
    <value currency="USD" value-date="2017-10-30">624.87</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 17-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1327,8 +1624,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-10"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-10"></transaction-date>
    <value currency="USD" value-date="2018-01-10">2700</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 1821-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1338,8 +1638,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-10"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-10"></transaction-date>
    <value currency="USD" value-date="2018-01-10">51000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 1821-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1349,8 +1652,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-28"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-08-28"></transaction-date>
    <value currency="USD" value-date="2018-08-28">6000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 1821-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1360,8 +1666,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-28"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-08-28"></transaction-date>
    <value currency="USD" value-date="2018-08-28">63375</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 1821-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1371,8 +1680,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-12-04"></transaction-date>
    <value currency="USD" value-date="2018-12-04">-1318.87</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 1821-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1382,8 +1694,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-04"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-04"></transaction-date>
    <value currency="USD" value-date="2019-02-04">100125</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 1821-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1393,8 +1708,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-04"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-04"></transaction-date>
    <value currency="USD" value-date="2019-02-04">4000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 1821-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1404,8 +1722,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-25"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-25"></transaction-date>
    <value currency="USD" value-date="2019-06-25">2200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 1821-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1415,8 +1736,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-25"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-25"></transaction-date>
    <value currency="USD" value-date="2019-06-25">40600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-PENTA-R-VAC (Approval code: 1821-GMB-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

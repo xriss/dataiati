@@ -39,7 +39,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2015-01-01" type="1"></activity-date>
   <activity-date iso-date="2015-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -55,7 +55,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">Nouakchott</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>18.1003300 -15.9497500</pos>
+    <pos>18.10033 -15.94975</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -81,6 +81,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">425413.5</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -278,11 +283,14 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Mauritania</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-12"></transaction-date>
-   <value currency="USD" value-date="2015-03-12">4859.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="MRTIPV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">425413.5</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Mauritania IPV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -291,74 +299,263 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-12"></transaction-date>
-   <value currency="USD" value-date="2015-03-12">568</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
-   <value currency="USD" value-date="2015-03-19">103075.29</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
-   <value currency="USD" value-date="2015-03-19">5400</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-26"></transaction-date>
-   <value currency="USD" value-date="2015-03-26">22023.81</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-02"></transaction-date>
-   <value currency="USD" value-date="2015-04-02">2500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-02"></transaction-date>
-   <value currency="USD" value-date="2015-04-02">52492.05</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-10"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-04-10"></transaction-date>
    <value currency="USD" value-date="2015-04-10">109000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MRT-IPV-R-VIG-WHO (Approval code: 15-MRT-08h-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-01-17"></transaction-date>
+   <value currency="USD" value-date="2019-01-17">69385</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-04-24"></transaction-date>
+   <value currency="USD" value-date="2019-04-24">68238</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-25"></transaction-date>
+   <value currency="USD" value-date="2019-06-25">134275</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-01-29"></transaction-date>
+   <value currency="USD" value-date="2020-01-29">91204</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-28"></transaction-date>
+   <value currency="USD" value-date="2020-02-28">7544.15</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-03"></transaction-date>
+   <value currency="USD" value-date="2020-03-03">-90904.02</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-12"></transaction-date>
+   <value currency="USD" value-date="2020-03-12">-89604</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-24"></transaction-date>
+   <value currency="USD" value-date="2020-04-24">1600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-15"></transaction-date>
+   <value currency="USD" value-date="2020-07-15">1600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-07-23"></transaction-date>
+   <value currency="USD" value-date="2020-07-23">90702.01</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-11"></transaction-date>
+   <value currency="USD" value-date="2020-09-11">-2612.47</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-18"></transaction-date>
+   <value currency="USD" value-date="2020-09-18">90904.02</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-18"></transaction-date>
+   <value currency="USD" value-date="2020-09-18">90904.02</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-24"></transaction-date>
+   <value currency="USD" value-date="2020-09-24">90904.02</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-24"></transaction-date>
+   <value currency="USD" value-date="2021-03-24">138050</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-19"></transaction-date>
+   <value currency="USD" value-date="2021-05-19">136950</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MRTIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-28"></transaction-date>
+   <value currency="USD" value-date="2021-05-28">9956</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MRT-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-12"></transaction-date>
+   <value currency="USD" value-date="2015-03-12">4859.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -368,8 +565,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">2000</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-12"></transaction-date>
+   <value currency="USD" value-date="2015-03-12">568</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -379,8 +579,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">7619.5</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
+   <value currency="USD" value-date="2015-03-19">103075.29</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -390,8 +593,25 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-10-24"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
+   <value currency="USD" value-date="2015-03-19">5400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-10-24"></transaction-date>
    <value currency="USD" value-date="2016-10-24">3369.01</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -401,8 +621,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-14"></transaction-date>
-   <value currency="USD" value-date="2017-03-14">1000</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-03-26"></transaction-date>
+   <value currency="USD" value-date="2015-03-26">22023.81</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -412,8 +635,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-14"></transaction-date>
-   <value currency="USD" value-date="2017-03-14">24840</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-04-02"></transaction-date>
+   <value currency="USD" value-date="2015-04-02">2500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -423,8 +649,53 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-28"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-04-02"></transaction-date>
+   <value currency="USD" value-date="2015-04-02">52492.05</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">7619.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-03-28"></transaction-date>
    <value currency="USD" value-date="2017-03-28">-431.67</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -434,8 +705,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-30"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-03-30"></transaction-date>
    <value currency="USD" value-date="2017-03-30">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -445,8 +719,39 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-03-14"></transaction-date>
+   <value currency="USD" value-date="2017-03-14">1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-03-14"></transaction-date>
+   <value currency="USD" value-date="2017-03-14">24840</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-15"></transaction-date>
    <value currency="USD" value-date="2017-06-15">1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -456,8 +761,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-15"></transaction-date>
    <value currency="USD" value-date="2017-06-15">24840</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -467,8 +775,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-22"></transaction-date>
    <value currency="USD" value-date="2017-09-22">1100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -478,8 +789,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-22"></transaction-date>
    <value currency="USD" value-date="2017-09-22">27100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -489,30 +803,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-24"></transaction-date>
-   <value currency="USD" value-date="2018-01-24">1600</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-24"></transaction-date>
-   <value currency="USD" value-date="2018-01-24">37635</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-01-29"></transaction-date>
    <value currency="USD" value-date="2018-01-29">1239.43</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -522,8 +817,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-02-02"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-02-02"></transaction-date>
    <value currency="USD" value-date="2018-02-02">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -533,8 +831,39 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-30"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-24"></transaction-date>
+   <value currency="USD" value-date="2018-01-24">1600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-24"></transaction-date>
+   <value currency="USD" value-date="2018-01-24">37635</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-30"></transaction-date>
    <value currency="USD" value-date="2018-04-30">1600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -544,8 +873,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-30"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-30"></transaction-date>
    <value currency="USD" value-date="2018-04-30">37128</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -555,8 +887,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-20"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-08-20"></transaction-date>
    <value currency="USD" value-date="2018-08-20">1600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -566,8 +901,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-20"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-08-20"></transaction-date>
    <value currency="USD" value-date="2018-08-20">37128</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -577,8 +915,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-20"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-08-20"></transaction-date>
    <value currency="USD" value-date="2018-08-20">952.8</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -588,8 +929,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-11-22"></transaction-date>
    <value currency="USD" value-date="2018-11-22">3300</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -599,8 +943,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-11-22"></transaction-date>
    <value currency="USD" value-date="2018-11-22">44673</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -610,30 +957,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-01-17"></transaction-date>
-   <value currency="USD" value-date="2019-01-17">1200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-01-17"></transaction-date>
-   <value currency="USD" value-date="2019-01-17">68185</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-08"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-04-08"></transaction-date>
    <value currency="USD" value-date="2019-04-08">-859.29</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -643,52 +971,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-24"></transaction-date>
-   <value currency="USD" value-date="2019-04-24">1200</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-24"></transaction-date>
-   <value currency="USD" value-date="2019-04-24">67038</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-25"></transaction-date>
-   <value currency="USD" value-date="2019-06-25">131875</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-25"></transaction-date>
-   <value currency="USD" value-date="2019-06-25">2400</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mauritania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 1518-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -698,8 +985,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-01-29"></transaction-date>
-   <value currency="USD" value-date="2020-01-29">1600</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-01-17"></transaction-date>
+   <value currency="USD" value-date="2019-01-17">1200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 19-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -709,8 +999,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-01-29"></transaction-date>
-   <value currency="USD" value-date="2020-01-29">89604</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-01-17"></transaction-date>
+   <value currency="USD" value-date="2019-01-17">68185</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 19-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -720,8 +1013,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">5935</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-04-24"></transaction-date>
+   <value currency="USD" value-date="2019-04-24">1200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 19-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -731,8 +1027,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">655.15</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-04-24"></transaction-date>
+   <value currency="USD" value-date="2019-04-24">67038</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 19-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -742,8 +1041,25 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">954</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-25"></transaction-date>
+   <value currency="USD" value-date="2019-06-25">131875</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 19-MRT-25c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mauritania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-25"></transaction-date>
+   <value currency="USD" value-date="2019-06-25">2400</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MRT-IPV-R-VAC (Approval code: 19-MRT-25c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

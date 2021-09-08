@@ -57,7 +57,7 @@
     <narrative xml:lang="EN">Honiara</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-9.4333300 159.9500000</pos>
+    <pos>-9.43333 159.95</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -83,6 +83,21 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">0</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">876944</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">428770</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -238,70 +253,42 @@
     <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="SLBHSS2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-06-11"></transaction-date>
-   <value currency="USD" value-date="2018-06-11">246190.6</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">0</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for Solomon Islands HSS</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="SLBHSS2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-06-11"></transaction-date>
-   <value currency="USD" value-date="2018-06-11">505728.7</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">876944</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Solomon Islands HSS</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="SLBHSS2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-06-11"></transaction-date>
-   <value currency="USD" value-date="2018-06-11">565348.7</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">428770</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Solomon Islands HSS</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">210900</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">787500</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -310,8 +297,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-08-14"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-08-14"></transaction-date>
    <value currency="USD" value-date="2013-08-14">499310</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-1-MOH (Approval code: 1215-SLB-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -321,8 +311,25 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-04"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2019-09-27"></transaction-date>
+   <value currency="USD" value-date="2019-09-27">-79974.81</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-1-MOH (Approval code: 1215-SLB-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-04"></transaction-date>
    <value currency="USD" value-date="2015-08-04">509310</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-1-MOH (Approval code: 1217-SLB-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -332,8 +339,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-04-25"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-04-25"></transaction-date>
    <value currency="USD" value-date="2017-04-25">377107.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-1-MOH (Approval code: 1217-SLB-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -343,8 +353,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-12"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-12-12"></transaction-date>
    <value currency="USD" value-date="2017-12-12">125702.5</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-1-MOH (Approval code: 1217-SLB-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -354,8 +367,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-12"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-12-12"></transaction-date>
    <value currency="USD" value-date="2017-12-12">208955</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-1-MOH (Approval code: 1217-SLB-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -365,19 +381,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-04"></transaction-date>
-   <value currency="USD" value-date="2018-04-04">2890</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-18"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-05-18"></transaction-date>
    <value currency="USD" value-date="2018-05-18">177378.38</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-1-MOH (Approval code: 1217-SLB-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -387,8 +395,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-07-06"></transaction-date>
-   <value currency="USD" value-date="2018-07-06">406118</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2018-04-04"></transaction-date>
+   <value currency="USD" value-date="2018-04-04">2890</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-1-PBF-MOH (Approval code: 16-SLB-10e-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -398,8 +409,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-03"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2018-12-03"></transaction-date>
    <value currency="USD" value-date="2018-12-03">117110</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-1-PBF-UNIC SD (Approval code: 16-SLB-10e-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -409,8 +423,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-03"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-12-03"></transaction-date>
    <value currency="USD" value-date="2018-12-03">120000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-1-PBF-UNIC SD (Approval code: 17-SLB-10e-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -420,8 +437,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-03"></transaction-date>
-   <value currency="USD" value-date="2018-12-03">505728.7</value>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-07-06"></transaction-date>
+   <value currency="USD" value-date="2018-07-06">406118</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-2-MOH (Approval code: 1821-SLB-10d-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -430,54 +450,125 @@
    </receiver-org>
   </transaction>
   <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-05"></transaction-date>
+   <value currency="USD" value-date="2019-06-05">565348.7</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-2-MOH (Approval code: 1821-SLB-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SLBHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-05"></transaction-date>
+   <value currency="USD" value-date="2019-06-05">565348.69</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-2-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SLBHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-20"></transaction-date>
+   <value currency="USD" value-date="2019-12-20">792584</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-2-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-05"></transaction-date>
+   <value currency="USD" value-date="2019-06-05">210900</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-2-UNIC (Approval code: 1821-SLB-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-03"></transaction-date>
+   <value currency="USD" value-date="2018-12-03">505728.7</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-2-UNIC SD (Approval code: 1821-SLB-10d-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SLBHSS2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-06-05"></transaction-date>
    <value currency="USD" value-date="2019-06-05">210900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-2-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="SLBHSS2019">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-05"></transaction-date>
-   <value currency="USD" value-date="2019-06-05">565348.7</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2018-12-03"></transaction-date>
+   <value currency="USD" value-date="2018-12-03">505728.7</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="SLBHSS2019">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-27"></transaction-date>
-   <value currency="USD" value-date="2019-09-27">-79974.81</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2021-06-23"></transaction-date>
+   <value currency="USD" value-date="2021-06-23">241106.6</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="SLBHSS2020">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-20"></transaction-date>
-   <value currency="USD" value-date="2019-12-20">246190.6</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Solomon Islands</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-20"></transaction-date>
-   <value currency="USD" value-date="2019-12-20">546393.4</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2021-06-23"></transaction-date>
+   <value currency="USD" value-date="2021-06-23">346730.48</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SLB-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">

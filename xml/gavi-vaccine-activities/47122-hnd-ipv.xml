@@ -39,7 +39,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2015-01-01" type="1"></activity-date>
   <activity-date iso-date="2015-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -55,7 +55,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">Tegucigalpa</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>14.0818000 -87.2068100</pos>
+    <pos>14.0818 -87.20681</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -110,6 +110,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">758500</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">769572.3</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -266,11 +271,14 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Honduras</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-07"></transaction-date>
-   <value currency="USD" value-date="2015-07-07">144000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="HNDIPV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">769572.3</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Honduras IPV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -279,19 +287,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-03"></transaction-date>
-   <value currency="USD" value-date="2015-08-03">555500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Honduras</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-27"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-27"></transaction-date>
    <value currency="USD" value-date="2015-08-27">169000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme HND-IPV-R-VIG-PAHO (Approval code: 15-HND-08h-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -301,30 +301,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-30"></transaction-date>
-   <value currency="USD" value-date="2016-11-30">443000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Honduras</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-08"></transaction-date>
-   <value currency="USD" value-date="2017-12-08">210500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Honduras</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-16"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2018-05-16"></transaction-date>
    <value currency="USD" value-date="2018-05-16">-5315.2</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme HND-IPV-R-VIG-PAHO (Approval code: 15-HND-08h-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -332,43 +313,69 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Honduras</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-17"></transaction-date>
-   <value currency="USD" value-date="2018-05-17">-350000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Honduras</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-17"></transaction-date>
-   <value currency="USD" value-date="2018-05-17">350000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Honduras</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-18"></transaction-date>
-   <value currency="USD" value-date="2018-05-18">350000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Honduras</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="HNDIPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-12-11"></transaction-date>
    <value currency="USD" value-date="2018-12-11">740500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme HND-IPV-RTN-VAC-PAHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Honduras</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="HNDIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-06"></transaction-date>
+   <value currency="USD" value-date="2019-11-06">758500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme HND-IPV-RTN-VAC-PAHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Honduras</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="HNDIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-16"></transaction-date>
+   <value currency="USD" value-date="2020-12-16">23247.44</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme HND-IPV-RTN-VAC-PAHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Honduras</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="HNDIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-16"></transaction-date>
+   <value currency="USD" value-date="2020-12-16">746324.86</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme HND-IPV-RTN-VAC-PAHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Honduras</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-07-07"></transaction-date>
+   <value currency="USD" value-date="2015-07-07">144000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HND-IPV-R-VAC-PAHO (Approval code: 1518-HND-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -378,8 +385,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-06"></transaction-date>
-   <value currency="USD" value-date="2019-11-06">1079</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-08-03"></transaction-date>
+   <value currency="USD" value-date="2015-08-03">555500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HND-IPV-R-VAC-PAHO (Approval code: 1518-HND-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -389,8 +399,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-06"></transaction-date>
-   <value currency="USD" value-date="2019-11-06">146186.78</value>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-30"></transaction-date>
+   <value currency="USD" value-date="2016-11-30">443000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HND-IPV-R-VAC-PAHO (Approval code: 1518-HND-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -400,8 +413,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-06"></transaction-date>
-   <value currency="USD" value-date="2019-11-06">5906.76</value>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-12-08"></transaction-date>
+   <value currency="USD" value-date="2017-12-08">210500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HND-IPV-R-VAC-PAHO (Approval code: 1518-HND-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -411,8 +427,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-06"></transaction-date>
-   <value currency="USD" value-date="2019-11-06">597813.22</value>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-17"></transaction-date>
+   <value currency="USD" value-date="2018-05-17">-350000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HND-IPV-R-VAC-PAHO (Approval code: 1518-HND-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -422,8 +441,39 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-06"></transaction-date>
-   <value currency="USD" value-date="2019-11-06">7514.24</value>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-17"></transaction-date>
+   <value currency="USD" value-date="2018-05-17">350000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HND-IPV-R-VAC-PAHO (Approval code: 1518-HND-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Honduras</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-18"></transaction-date>
+   <value currency="USD" value-date="2018-05-18">350000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HND-IPV-R-VAC-PAHO (Approval code: 1518-HND-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Honduras</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-11"></transaction-date>
+   <value currency="USD" value-date="2018-12-11">740500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HND-IPV-R-VAC-PAHO (Approval code: 19-HND-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

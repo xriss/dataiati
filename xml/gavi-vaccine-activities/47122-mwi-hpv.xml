@@ -64,7 +64,7 @@ L&#x2019;engagement de Gavi &#xE0; prot&#xE9;ger les femmes contre le cancer du 
     <narrative xml:lang="EN">Lilongwe</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-13.9833300 33.7833300</pos>
+    <pos>-13.98333 33.78333</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -90,6 +90,16 @@ L&#x2019;engagement de Gavi &#xE0; prot&#xE9;ger les femmes contre le cancer du 
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">47106.1</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">1184702.01</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -483,28 +493,28 @@ L&#x2019;engagement de Gavi &#xE0; prot&#xE9;ger les femmes contre le cancer du 
     <narrative xml:lang="EN">The Government of Malawi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MWIHPV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">2327500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">47106.1</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Malawi HPV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Malawi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MWIHPV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">25500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">1184702.01</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Malawi HPV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -513,19 +523,11 @@ L&#x2019;engagement de Gavi &#xE0; prot&#xE9;ger les femmes contre le cancer du 
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-06-18"></transaction-date>
-   <value currency="USD" value-date="2013-06-18">175044</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-07-10"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-07-10"></transaction-date>
    <value currency="USD" value-date="2013-07-10">172000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MWI-HPV-D-VIG-UNIC (Approval code: 1314-MWI-24a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -535,8 +537,11 @@ L&#x2019;engagement de Gavi &#xE0; prot&#xE9;ger les femmes contre le cancer du 
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-11-08"></transaction-date>
-   <value currency="USD" value-date="2013-11-08">159856</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-09-12"></transaction-date>
+   <value currency="USD" value-date="2018-09-12">674416</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MWI-HPV-R-VIG-MOH (Approval code: 19-MWI-08f-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -544,208 +549,209 @@ L&#x2019;engagement de Gavi &#xE0; prot&#xE9;ger les femmes contre le cancer du 
     <narrative xml:lang="EN">The Government of Malawi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
-   <value currency="USD" value-date="2014-07-23">1822.7</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-16"></transaction-date>
-   <value currency="USD" value-date="2015-04-16">-2159.93</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-25"></transaction-date>
-   <value currency="USD" value-date="2015-06-25">856.43</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-02"></transaction-date>
-   <value currency="USD" value-date="2016-12-02">137700</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-02"></transaction-date>
-   <value currency="USD" value-date="2016-12-02">1600</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-13"></transaction-date>
-   <value currency="USD" value-date="2016-12-13">1000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-13"></transaction-date>
-   <value currency="USD" value-date="2016-12-13">1876.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-05-23"></transaction-date>
-   <value currency="USD" value-date="2017-05-23">-137700</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-03"></transaction-date>
-   <value currency="USD" value-date="2018-08-03">1084500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-03"></transaction-date>
-   <value currency="USD" value-date="2018-08-03">12000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="MWIHPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-09-12"></transaction-date>
    <value currency="USD" value-date="2018-09-12">674416</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MWI-HPV-R-VIG-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Malawi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MWIHPV2019">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-07"></transaction-date>
-   <value currency="USD" value-date="2018-11-07">-3027.26</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2018-08-03"></transaction-date>
+   <value currency="USD" value-date="2018-08-03">1096500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Malawi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-27"></transaction-date>
-   <value currency="USD" value-date="2018-11-27">804150</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="MWIHPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-11-27"></transaction-date>
-   <value currency="USD" value-date="2018-11-27">8500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2018-11-27">812650</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Malawi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-30"></transaction-date>
-   <value currency="USD" value-date="2018-11-30">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="MWIHPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-12-18"></transaction-date>
    <value currency="USD" value-date="2018-12-18">12700</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Malawi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MWIHPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-02-14"></transaction-date>
-   <value currency="USD" value-date="2019-02-14">333000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2019-02-14">336800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Malawi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-14"></transaction-date>
-   <value currency="USD" value-date="2019-02-14">3800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="MWIHPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-09-06"></transaction-date>
    <value currency="USD" value-date="2019-09-06">11752.7</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MWIHPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">1137500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MWIHPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-27"></transaction-date>
+   <value currency="USD" value-date="2020-02-27">1188085.51</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MWIHPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-28"></transaction-date>
+   <value currency="USD" value-date="2020-02-28">35705.63</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MWIHPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-20"></transaction-date>
+   <value currency="USD" value-date="2020-08-20">-10580.03</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MWIHPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-11"></transaction-date>
+   <value currency="USD" value-date="2020-09-11">-415.78</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MWIHPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-30"></transaction-date>
+   <value currency="USD" value-date="2020-10-30">1164200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MWIHPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">37075.52</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MWIHPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-29"></transaction-date>
+   <value currency="USD" value-date="2021-01-29">20497</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-HPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-06-18"></transaction-date>
+   <value currency="USD" value-date="2013-06-18">175044</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 1314-MWI-19b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -755,8 +761,277 @@ L&#x2019;engagement de Gavi &#xE0; prot&#xE9;ger les femmes contre le cancer du 
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-23"></transaction-date>
+   <value currency="USD" value-date="2014-07-23">1822.7</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 1314-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-11-08"></transaction-date>
+   <value currency="USD" value-date="2013-11-08">159856</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 1314-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-04-16"></transaction-date>
+   <value currency="USD" value-date="2015-04-16">-2159.93</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 1314-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-06-25"></transaction-date>
+   <value currency="USD" value-date="2015-06-25">856.43</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 1314-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-02"></transaction-date>
+   <value currency="USD" value-date="2016-12-02">137700</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 16-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-02"></transaction-date>
+   <value currency="USD" value-date="2016-12-02">1600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 16-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-13"></transaction-date>
+   <value currency="USD" value-date="2016-12-13">1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 16-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-13"></transaction-date>
+   <value currency="USD" value-date="2016-12-13">1876.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 16-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-05-23"></transaction-date>
+   <value currency="USD" value-date="2017-05-23">-137700</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 16-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2018-11-07"></transaction-date>
+   <value currency="USD" value-date="2018-11-07">-3027.26</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 16-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2018-11-30"></transaction-date>
+   <value currency="USD" value-date="2018-11-30">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-D-VAC (Approval code: 16-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-08-03"></transaction-date>
+   <value currency="USD" value-date="2018-08-03">1084500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-R-VAC (Approval code: 1921-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-08-03"></transaction-date>
+   <value currency="USD" value-date="2018-08-03">12000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-R-VAC (Approval code: 1921-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-27"></transaction-date>
+   <value currency="USD" value-date="2018-11-27">804150</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-R-VAC (Approval code: 1921-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-27"></transaction-date>
+   <value currency="USD" value-date="2018-11-27">8500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-R-VAC (Approval code: 1921-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">12700</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-R-VAC (Approval code: 1921-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">333000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-R-VAC (Approval code: 1921-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">3800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-R-VAC (Approval code: 1921-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-06"></transaction-date>
+   <value currency="USD" value-date="2019-09-06">11752.7</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-R-VAC (Approval code: 1921-MWI-19b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2020" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">1125000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-R-VAC (Approval code: 1921-MWI-19b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -766,63 +1041,11 @@ L&#x2019;engagement de Gavi &#xE0; prot&#xE9;ger les femmes contre le cancer du 
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2020" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">12500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-27"></transaction-date>
-   <value currency="USD" value-date="2020-02-27">1175400</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-27"></transaction-date>
-   <value currency="USD" value-date="2020-02-27">12685.51</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">28010</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">3249.63</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Malawi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">4446</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MWI-HPV-R-VAC (Approval code: 1921-MWI-19b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

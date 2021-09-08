@@ -35,10 +35,11 @@
   <other-identifier ref="47122-1015-SOM-10A-Y" type="A3"></other-identifier>
   <other-identifier ref="47122-16-SOM-10A-Y" type="A3"></other-identifier>
   <other-identifier ref="47122-1721-SOM-10A-Y" type="A3"></other-identifier>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2010-01-01" type="1"></activity-date>
   <activity-date iso-date="2010-01-01" type="2"></activity-date>
-  <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -54,7 +55,7 @@
     <narrative xml:lang="EN">Mogadishu</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>2.0371100 45.3437500</pos>
+    <pos>2.03711 45.34375</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -80,6 +81,16 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">16544901</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">502131</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -347,10 +358,41 @@
     <narrative xml:lang="EN">The Government of Somalia</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="SOMHSS2019">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">16544901</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2019 budget for Somalia HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SOMHSS2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">502131</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2020 budget for Somalia HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-10-13"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-10-13"></transaction-date>
    <value currency="USD" value-date="2011-10-13">1381282</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-UNIC (Approval code: 1015-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -360,19 +402,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-10-13"></transaction-date>
-   <value currency="USD" value-date="2011-10-13">1405509</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Somalia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-12-17"></transaction-date>
    <value currency="USD" value-date="2012-12-17">1008851</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-UNIC (Approval code: 1015-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -382,30 +416,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">1461536</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Somalia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-24"></transaction-date>
-   <value currency="USD" value-date="2014-06-24">1829130</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Somalia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-24"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-06-24"></transaction-date>
    <value currency="USD" value-date="2014-06-24">720385</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-UNIC (Approval code: 1015-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -415,8 +430,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-05-28"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-05-28"></transaction-date>
    <value currency="USD" value-date="2015-05-28">1096405</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-UNIC (Approval code: 1015-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -426,19 +444,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-05-28"></transaction-date>
-   <value currency="USD" value-date="2015-05-28">2642403</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Somalia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-27"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-01-27"></transaction-date>
    <value currency="USD" value-date="2017-01-27">1365939</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-UNIC (Approval code: 16-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -448,8 +458,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-05-16"></transaction-date>
-   <value currency="USD" value-date="2017-05-16">634061</value>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-10-13"></transaction-date>
+   <value currency="USD" value-date="2011-10-13">1405509</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-WHO (Approval code: 1015-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -459,8 +472,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-18"></transaction-date>
-   <value currency="USD" value-date="2017-12-18">3112744</value>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">1461536</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-WHO (Approval code: 1015-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -470,8 +486,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-04"></transaction-date>
-   <value currency="USD" value-date="2018-04-04">1434716</value>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-06-24"></transaction-date>
+   <value currency="USD" value-date="2014-06-24">1829130</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-WHO (Approval code: 1015-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -481,8 +500,25 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-25"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-05-28"></transaction-date>
+   <value currency="USD" value-date="2015-05-28">2642403</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-WHO (Approval code: 1015-SOM-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2018-09-25"></transaction-date>
    <value currency="USD" value-date="2018-09-25">-415310</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-WHO (Approval code: 1015-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -492,8 +528,95 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-06"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-05-16"></transaction-date>
+   <value currency="USD" value-date="2017-05-16">634061</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-1-WHO (Approval code: 16-SOM-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SOMHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-02"></transaction-date>
+   <value currency="USD" value-date="2020-12-02">8570</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-TRANSTEC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SOMHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-01"></transaction-date>
+   <value currency="USD" value-date="2021-03-01">13712</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-TRANSTEC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SOMHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-01"></transaction-date>
+   <value currency="USD" value-date="2021-03-01">20568</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-TRANSTEC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SOMHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-03"></transaction-date>
+   <value currency="USD" value-date="2021-03-03">12400</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-TRANSTEC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-12-18"></transaction-date>
+   <value currency="USD" value-date="2017-12-18">3112744</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-UNIC (Approval code: 1721-SOM-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-12-06"></transaction-date>
    <value currency="USD" value-date="2018-12-06">3050696</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-UNIC (Approval code: 1721-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -501,55 +624,70 @@
     <narrative xml:lang="EN">The Government of Somalia</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-11"></transaction-date>
-   <value currency="USD" value-date="2018-12-11">983549</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Somalia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-29"></transaction-date>
-   <value currency="USD" value-date="2019-11-29">1645482</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Somalia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-06"></transaction-date>
-   <value currency="USD" value-date="2019-12-06">2353202</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Somalia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-19"></transaction-date>
-   <value currency="USD" value-date="2019-12-19">2970370</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Somalia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="SOMHSS2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-12-19"></transaction-date>
    <value currency="USD" value-date="2019-12-19">9527008</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-UNICEF</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-04-04"></transaction-date>
+   <value currency="USD" value-date="2018-04-04">1434716</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-WHO (Approval code: 1721-SOM-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-12-11"></transaction-date>
+   <value currency="USD" value-date="2018-12-11">983549</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-WHO (Approval code: 1721-SOM-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SOMHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-19"></transaction-date>
+   <value currency="USD" value-date="2019-12-19">2970370</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-WHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Somalia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SOMHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-12"></transaction-date>
+   <value currency="USD" value-date="2021-05-12">1051292</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SOM-HSS-2-WHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">

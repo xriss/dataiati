@@ -39,7 +39,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2014-01-01" type="1"></activity-date>
   <activity-date iso-date="2014-01-01" type="2"></activity-date>
-  <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2022-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -55,7 +55,7 @@
     <narrative xml:lang="EN">Bissau</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>11.8500000 -15.5833300</pos>
+    <pos>11.86357 -15.59767</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -116,10 +116,25 @@
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">235000</value>
   </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">2857.21</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">241375.13</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-01-01">260500</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">244987.5</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -346,6 +361,20 @@
     <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="GNBRV2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">2857.21</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2020 budget for Guinea-Bissau RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-08-27"></transaction-date>
@@ -360,11 +389,14 @@
     <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-16"></transaction-date>
-   <value currency="USD" value-date="2015-04-16">241930.29</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="GNBRV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">241375.13</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Guinea-Bissau RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -373,19 +405,137 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-16"></transaction-date>
-   <value currency="USD" value-date="2015-04-16">9000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-08"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-12-08"></transaction-date>
    <value currency="USD" value-date="2015-12-08">100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GNB-RV-R-VIG-WHO (Approval code: 14-GNB-08a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GNBRV2022">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">244987.5</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2022 budget for Guinea-Bissau RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GNBRV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">119269</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GNB-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GNBRV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-21"></transaction-date>
+   <value currency="USD" value-date="2019-06-21">85435</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GNB-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GNBRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-05"></transaction-date>
+   <value currency="USD" value-date="2019-12-05">122740</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GNB-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GNBRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-13"></transaction-date>
+   <value currency="USD" value-date="2020-05-13">94227</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GNB-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GNBRV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">120710</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GNB-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GNBRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">11132.76</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GNB-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GNBRV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-19"></transaction-date>
+   <value currency="USD" value-date="2021-05-19">120663</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GNB-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-04-16"></transaction-date>
+   <value currency="USD" value-date="2015-04-16">241930.29</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -395,8 +545,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">162546.92</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-04-16"></transaction-date>
+   <value currency="USD" value-date="2015-04-16">9000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -406,19 +559,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">5000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-30"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-30"></transaction-date>
    <value currency="USD" value-date="2016-05-30">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -428,8 +573,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-31"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-31"></transaction-date>
    <value currency="USD" value-date="2016-05-31">-0.47</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -439,8 +587,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-31"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-31"></transaction-date>
    <value currency="USD" value-date="2016-05-31">2343.03</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -450,8 +601,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-23"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">162546.92</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">5000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-07-23"></transaction-date>
    <value currency="USD" value-date="2016-07-23">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -461,8 +643,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-26"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-07-26"></transaction-date>
    <value currency="USD" value-date="2016-07-26">-0.32</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -472,8 +657,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-26"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-07-26"></transaction-date>
    <value currency="USD" value-date="2016-07-26">1619.57</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -483,8 +671,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
    <value currency="USD" value-date="2016-11-22">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -494,8 +685,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
    <value currency="USD" value-date="2016-11-22">221901.64</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -505,8 +699,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-05-31"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-05-31"></transaction-date>
    <value currency="USD" value-date="2017-05-31">1362.31</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -516,8 +713,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-01"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-01"></transaction-date>
    <value currency="USD" value-date="2017-06-01">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1517-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -527,8 +727,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
    <value currency="USD" value-date="2017-11-24">1206</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 18-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -538,8 +741,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
    <value currency="USD" value-date="2017-11-24">26640</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 18-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -549,8 +755,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-04"></transaction-date>
    <value currency="USD" value-date="2018-04-04">150</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 18-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -560,8 +769,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-04-04"></transaction-date>
    <value currency="USD" value-date="2018-04-04">53280</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 18-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -571,8 +783,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
    <value currency="USD" value-date="2018-06-26">2591</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 18-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -582,8 +797,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
    <value currency="USD" value-date="2018-06-26">49950</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 18-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -593,8 +811,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-24"></transaction-date>
    <value currency="USD" value-date="2018-09-24">137</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 18-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -604,8 +825,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-24"></transaction-date>
    <value currency="USD" value-date="2018-09-24">53280</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 18-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -615,30 +839,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">115364</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">3905</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-06"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-02-06"></transaction-date>
    <value currency="USD" value-date="2019-02-06">2319.15</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 18-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -648,30 +853,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-21"></transaction-date>
-   <value currency="USD" value-date="2019-06-21">3695</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-21"></transaction-date>
-   <value currency="USD" value-date="2019-06-21">81740</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 18-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -681,8 +867,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-05"></transaction-date>
-   <value currency="USD" value-date="2019-12-05">115934</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">115364</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1921-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -692,8 +881,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-05"></transaction-date>
-   <value currency="USD" value-date="2019-12-05">6806</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">3905</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1921-GNB-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-21"></transaction-date>
+   <value currency="USD" value-date="2019-06-21">3695</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1921-GNB-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea-Bissau</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-21"></transaction-date>
+   <value currency="USD" value-date="2019-06-21">81740</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GNB-RV-R-VAC (Approval code: 1921-GNB-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

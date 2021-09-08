@@ -41,7 +41,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2013-01-01" type="1"></activity-date>
   <activity-date iso-date="2013-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -57,7 +57,7 @@
     <narrative xml:lang="EN">Dodoma</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-6.1748600 35.7379200</pos>
+    <pos>-6.17486 35.73792</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -83,6 +83,16 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">-708736.46</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">6053134.06</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -364,32 +374,18 @@
     <narrative xml:lang="EN">The Government of Tanzania</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="TZARV2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-03"></transaction-date>
-   <value currency="USD" value-date="2018-10-03">64000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">-708736.46</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for United Republic of Tanzania RV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-03"></transaction-date>
-   <value currency="USD" value-date="2018-10-03">8670000</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
    </receiver-org>
   </transaction>
   <transaction>
@@ -420,10 +416,27 @@
     <narrative xml:lang="EN">The Government of Tanzania</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="TZARV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">6053134.06</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for United Republic of Tanzania RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-20"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-09-20"></transaction-date>
    <value currency="USD" value-date="2012-09-20">1580000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme TZA-RV-R-VIG-WHO (Approval code: 13-TZA-08a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -431,659 +444,237 @@
     <narrative xml:lang="EN">The Government of Tanzania</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="TZARV2020">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-10-17"></transaction-date>
-   <value currency="USD" value-date="2012-10-17">2831340</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2020-09-09"></transaction-date>
+   <value currency="USD" value-date="2020-09-09">65109.54</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-FER-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="TZARV2020">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-10-17"></transaction-date>
-   <value currency="USD" value-date="2012-10-17">54000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">-782</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-FER-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="TZARV2019">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-21"></transaction-date>
-   <value currency="USD" value-date="2012-11-21">2649888</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2021-02-24"></transaction-date>
+   <value currency="USD" value-date="2021-02-24">63601.94</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-FER-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="TZARV2019">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-21"></transaction-date>
-   <value currency="USD" value-date="2012-11-21">49000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2021-06-18"></transaction-date>
+   <value currency="USD" value-date="2021-06-18">-2552.34</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-FER-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-19"></transaction-date>
-   <value currency="USD" value-date="2013-03-19">4885554</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-19"></transaction-date>
-   <value currency="USD" value-date="2013-03-19">91000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-13"></transaction-date>
-   <value currency="USD" value-date="2013-09-13">373558.07</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-13"></transaction-date>
-   <value currency="USD" value-date="2013-09-13">8000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-05"></transaction-date>
-   <value currency="USD" value-date="2013-12-05">2371711.96</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-05"></transaction-date>
-   <value currency="USD" value-date="2013-12-05">45000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-28"></transaction-date>
-   <value currency="USD" value-date="2014-02-28">2371711.96</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-28"></transaction-date>
-   <value currency="USD" value-date="2014-02-28">45000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-05-30"></transaction-date>
-   <value currency="USD" value-date="2014-05-30">2375543.48</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-05-30"></transaction-date>
-   <value currency="USD" value-date="2014-05-30">46109</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
-   <value currency="USD" value-date="2014-07-23">-12641.78</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
-   <value currency="USD" value-date="2014-07-23">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
-   <value currency="USD" value-date="2014-07-23">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-08-07"></transaction-date>
-   <value currency="USD" value-date="2014-08-07">2371712</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-08-07"></transaction-date>
-   <value currency="USD" value-date="2014-08-07">46974</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
-   <value currency="USD" value-date="2015-01-30">1128000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
-   <value currency="USD" value-date="2015-01-30">1165829.27</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
-   <value currency="USD" value-date="2015-01-30">48000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
-   <value currency="USD" value-date="2015-03-19">2120670.24</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
-   <value currency="USD" value-date="2015-03-19">40500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-22"></transaction-date>
-   <value currency="USD" value-date="2015-04-22">-19255.7</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
-   <value currency="USD" value-date="2015-06-03">2120670.24</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
-   <value currency="USD" value-date="2015-06-03">41000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-12"></transaction-date>
-   <value currency="USD" value-date="2015-08-12">2120670.24</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-12"></transaction-date>
-   <value currency="USD" value-date="2015-08-12">42000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-31"></transaction-date>
-   <value currency="USD" value-date="2015-08-31">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">1945140.35</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">494949.06</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">56000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-29"></transaction-date>
-   <value currency="USD" value-date="2016-01-29">-12.21</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-29"></transaction-date>
-   <value currency="USD" value-date="2016-01-29">-337253.36</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">2324511.93</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">63000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
-   <value currency="USD" value-date="2016-05-03">2423986.41</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
-   <value currency="USD" value-date="2016-05-03">66000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">113000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">1806032.79</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">2302229.51</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-28"></transaction-date>
-   <value currency="USD" value-date="2016-12-28">-0.95</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-28"></transaction-date>
-   <value currency="USD" value-date="2016-12-28">-37806.4</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-28"></transaction-date>
-   <value currency="USD" value-date="2016-12-28">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-04-06"></transaction-date>
-   <value currency="USD" value-date="2017-04-06">1968720</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-04-06"></transaction-date>
-   <value currency="USD" value-date="2017-04-06">47508</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
-   <value currency="USD" value-date="2017-06-07">1968720</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
-   <value currency="USD" value-date="2017-06-07">47300</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-21"></transaction-date>
-   <value currency="USD" value-date="2017-11-21">3020310</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-21"></transaction-date>
-   <value currency="USD" value-date="2017-11-21">61027</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-29"></transaction-date>
-   <value currency="USD" value-date="2018-01-29">84681.95</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-02-02"></transaction-date>
-   <value currency="USD" value-date="2018-02-02">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-02-13"></transaction-date>
-   <value currency="USD" value-date="2018-02-13">2444220</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-02-13"></transaction-date>
-   <value currency="USD" value-date="2018-02-13">50315</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
-   <value currency="USD" value-date="2018-06-26">1674990</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
-   <value currency="USD" value-date="2018-06-26">34478</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="TZARV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-11-19"></transaction-date>
-   <value currency="USD" value-date="2018-11-19">2171085</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2018-11-19">2215829</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">4363897</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">1584956</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-20"></transaction-date>
+   <value currency="USD" value-date="2019-11-20">3158181</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-20"></transaction-date>
+   <value currency="USD" value-date="2020-03-20">2108542.86</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-203415.52</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-05"></transaction-date>
+   <value currency="USD" value-date="2020-05-05">-78872</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-15"></transaction-date>
+   <value currency="USD" value-date="2020-05-15">78872</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-09"></transaction-date>
+   <value currency="USD" value-date="2020-09-09">3300551.24</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-22"></transaction-date>
+   <value currency="USD" value-date="2021-01-22">2357901.84</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">-59971.96</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="TZARV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-12"></transaction-date>
+   <value currency="USD" value-date="2021-03-12">3649490.29</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme TZA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of United Republic of Tanzania</narrative>
    </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-19"></transaction-date>
-   <value currency="USD" value-date="2018-11-19">44744</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-27"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-11-27"></transaction-date>
    <value currency="USD" value-date="2018-11-27">2121</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-FER-VAC (Approval code: 18-TZA-13b-A)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1093,8 +684,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-27"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-11-27"></transaction-date>
    <value currency="USD" value-date="2018-11-27">99341</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-FER-VAC (Approval code: 18-TZA-13b-A)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1104,52 +698,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-29"></transaction-date>
-   <value currency="USD" value-date="2018-11-29">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
-   <value currency="USD" value-date="2019-02-25">4274864</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
-   <value currency="USD" value-date="2019-02-25">89033</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-08"></transaction-date>
-   <value currency="USD" value-date="2019-04-08">97328.06</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-05-09"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-05-09"></transaction-date>
    <value currency="USD" value-date="2019-05-09">2739.2</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-FER-VAC (Approval code: 18-TZA-13b-A)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1159,8 +712,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-FER-VAC (Approval code: 18-TZA-13b-A)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1170,8 +726,837 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-10-17"></transaction-date>
+   <value currency="USD" value-date="2012-10-17">2831340</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-10-17"></transaction-date>
+   <value currency="USD" value-date="2012-10-17">54000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-21"></transaction-date>
+   <value currency="USD" value-date="2012-11-21">2649888</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-11-21"></transaction-date>
+   <value currency="USD" value-date="2012-11-21">49000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-03-19"></transaction-date>
+   <value currency="USD" value-date="2013-03-19">4885554</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-03-19"></transaction-date>
+   <value currency="USD" value-date="2013-03-19">91000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-09-13"></transaction-date>
+   <value currency="USD" value-date="2013-09-13">373558.07</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-09-13"></transaction-date>
+   <value currency="USD" value-date="2013-09-13">8000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-23"></transaction-date>
+   <value currency="USD" value-date="2014-07-23">-12641.78</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-23"></transaction-date>
+   <value currency="USD" value-date="2014-07-23">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-23"></transaction-date>
+   <value currency="USD" value-date="2014-07-23">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-05"></transaction-date>
+   <value currency="USD" value-date="2013-12-05">2371711.96</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-05"></transaction-date>
+   <value currency="USD" value-date="2013-12-05">45000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-28"></transaction-date>
+   <value currency="USD" value-date="2014-02-28">2371711.96</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-28"></transaction-date>
+   <value currency="USD" value-date="2014-02-28">45000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-05-30"></transaction-date>
+   <value currency="USD" value-date="2014-05-30">2375543.48</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-05-30"></transaction-date>
+   <value currency="USD" value-date="2014-05-30">46109</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-08-07"></transaction-date>
+   <value currency="USD" value-date="2014-08-07">2371712</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-08-07"></transaction-date>
+   <value currency="USD" value-date="2014-08-07">46974</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-04-22"></transaction-date>
+   <value currency="USD" value-date="2015-04-22">-19255.7</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-08-31"></transaction-date>
+   <value currency="USD" value-date="2015-08-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
+   <value currency="USD" value-date="2015-01-30">1128000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
+   <value currency="USD" value-date="2015-01-30">1165829.27</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
+   <value currency="USD" value-date="2015-01-30">48000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
+   <value currency="USD" value-date="2015-03-19">2120670.24</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
+   <value currency="USD" value-date="2015-03-19">40500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
+   <value currency="USD" value-date="2015-06-03">2120670.24</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
+   <value currency="USD" value-date="2015-06-03">41000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-12"></transaction-date>
+   <value currency="USD" value-date="2015-08-12">2120670.24</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-12"></transaction-date>
+   <value currency="USD" value-date="2015-08-12">42000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-01-29"></transaction-date>
+   <value currency="USD" value-date="2016-01-29">-12.21</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-01-29"></transaction-date>
+   <value currency="USD" value-date="2016-01-29">-337253.36</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2018-11-29"></transaction-date>
+   <value currency="USD" value-date="2018-11-29">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1315-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">1945140.35</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 16-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">494949.06</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 16-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">56000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 16-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">2324511.93</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 16-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">63000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 16-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-03"></transaction-date>
+   <value currency="USD" value-date="2016-05-03">2423986.41</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 16-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-03"></transaction-date>
+   <value currency="USD" value-date="2016-05-03">66000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 16-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-28"></transaction-date>
+   <value currency="USD" value-date="2016-12-28">-0.95</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 16-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-28"></transaction-date>
+   <value currency="USD" value-date="2016-12-28">-37806.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 16-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-28"></transaction-date>
+   <value currency="USD" value-date="2016-12-28">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 16-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">113000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">1806032.79</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">2302229.51</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-04-06"></transaction-date>
+   <value currency="USD" value-date="2017-04-06">1968720</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-04-06"></transaction-date>
+   <value currency="USD" value-date="2017-04-06">47508</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
+   <value currency="USD" value-date="2017-06-07">1968720</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
+   <value currency="USD" value-date="2017-06-07">47300</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-01-29"></transaction-date>
+   <value currency="USD" value-date="2018-01-29">84681.95</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-02-02"></transaction-date>
+   <value currency="USD" value-date="2018-02-02">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-21"></transaction-date>
+   <value currency="USD" value-date="2017-11-21">3020310</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-21"></transaction-date>
+   <value currency="USD" value-date="2017-11-21">61027</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-02-13"></transaction-date>
+   <value currency="USD" value-date="2018-02-13">2444220</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-02-13"></transaction-date>
+   <value currency="USD" value-date="2018-02-13">50315</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
+   <value currency="USD" value-date="2018-06-26">1674990</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
+   <value currency="USD" value-date="2018-06-26">34478</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-04-08"></transaction-date>
+   <value currency="USD" value-date="2019-04-08">97328.06</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1181,8 +1566,67 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-19"></transaction-date>
+   <value currency="USD" value-date="2018-11-19">2171085</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-19"></transaction-date>
+   <value currency="USD" value-date="2018-11-19">44744</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">4274864</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">89033</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Tanzania</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">1551947</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1192,57 +1636,16 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">33009</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme TZA-RV-R-VAC (Approval code: 1720-TZA-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Tanzania</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">3098901</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania, United Republic of</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">59280</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania, United Republic of</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-20"></transaction-date>
-   <value currency="USD" value-date="2020-03-20">2063868</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania, United Republic of</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-20"></transaction-date>
-   <value currency="USD" value-date="2020-03-20">44674.86</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Tanzania, United Republic of</narrative>
    </receiver-org>
   </transaction>
   <document-link format="APPLICATION/MSWORD" url="https://www.gavi.org/fr/actualites/librarie-de-documents/proposal-nvs-pcv-rota-support-tanzania-united-republic">

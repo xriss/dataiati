@@ -39,7 +39,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2014-01-01" type="1"></activity-date>
   <activity-date iso-date="2014-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2023-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -55,7 +55,7 @@
     <narrative xml:lang="EN">Dakar</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>14.6937000 -17.4440600</pos>
+    <pos>14.6937 -17.44406</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -81,6 +81,21 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">1204980.91</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">2211873.9</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">2185714.3</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -334,10 +349,27 @@
     <narrative xml:lang="EN">The Government of Senegal</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="SENRV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">1204980.91</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Senegal RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-12"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-06-12"></transaction-date>
    <value currency="USD" value-date="2014-06-12">423500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SEN-RV-R-VIG-MOH (Approval code: 14-SEN-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -345,428 +377,195 @@
     <narrative xml:lang="EN">The Government of Senegal</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-08-07"></transaction-date>
-   <value currency="USD" value-date="2014-08-07">11063</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="SENRV2022">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">2211873.9</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2022 budget for Senegal RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Senegal</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-08-07"></transaction-date>
-   <value currency="USD" value-date="2014-08-07">536413.04</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="SENRV2023">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-11-01">2185714.3</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2023 budget for Senegal RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Senegal</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-09-18"></transaction-date>
-   <value currency="USD" value-date="2014-09-18">-536413.04</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-09-18"></transaction-date>
-   <value currency="USD" value-date="2014-09-18">14891</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-09-18"></transaction-date>
-   <value currency="USD" value-date="2014-09-18">520158.1</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-09-18"></transaction-date>
-   <value currency="USD" value-date="2014-09-18">718313.57</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-19"></transaction-date>
-   <value currency="USD" value-date="2014-12-19">1835294.12</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-19"></transaction-date>
-   <value currency="USD" value-date="2014-12-19">40000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-24"></transaction-date>
-   <value currency="USD" value-date="2015-02-24">20554.85</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
-   <value currency="USD" value-date="2015-03-19">381796.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
-   <value currency="USD" value-date="2015-03-19">8000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-22"></transaction-date>
-   <value currency="USD" value-date="2015-04-22">-7979.83</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-31"></transaction-date>
-   <value currency="USD" value-date="2015-08-31">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-08"></transaction-date>
-   <value currency="USD" value-date="2015-09-08">-0.73</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-08"></transaction-date>
-   <value currency="USD" value-date="2015-09-08">-215985.95</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-11-09"></transaction-date>
-   <value currency="USD" value-date="2015-11-09">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">1006268.98</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">21000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
-   <value currency="USD" value-date="2016-05-03">1047519.82</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
-   <value currency="USD" value-date="2016-05-03">22000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">21000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">770491.8</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-25"></transaction-date>
-   <value currency="USD" value-date="2017-01-25">-6346.71</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-30"></transaction-date>
-   <value currency="USD" value-date="2017-01-30">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-04-06"></transaction-date>
-   <value currency="USD" value-date="2017-04-06">165360</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-04-06"></transaction-date>
-   <value currency="USD" value-date="2017-04-06">3909</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
-   <value currency="USD" value-date="2017-08-29">-20269.65</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-04"></transaction-date>
-   <value currency="USD" value-date="2017-09-04">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
-   <value currency="USD" value-date="2017-11-24">1175490</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
-   <value currency="USD" value-date="2017-11-24">26941</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
-   <value currency="USD" value-date="2018-06-26">1175490</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
-   <value currency="USD" value-date="2018-06-26">27478</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-07"></transaction-date>
-   <value currency="USD" value-date="2018-11-07">-6351.16</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-09"></transaction-date>
-   <value currency="USD" value-date="2018-11-09">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="SENRV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-11-19"></transaction-date>
-   <value currency="USD" value-date="2018-11-19">1126230</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2018-11-19">1152550</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Senegal</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-19"></transaction-date>
-   <value currency="USD" value-date="2018-11-19">26320</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="SENRV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-02-25"></transaction-date>
-   <value currency="USD" value-date="2019-02-25">1108773</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2019-02-25">1135093</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Senegal</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
-   <value currency="USD" value-date="2019-02-25">26320</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Senegal</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="SENRV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-09-06"></transaction-date>
    <value currency="USD" value-date="2019-09-06">-47862.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SENRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-05"></transaction-date>
+   <value currency="USD" value-date="2019-12-05">1296601</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SENRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-13"></transaction-date>
+   <value currency="USD" value-date="2020-05-13">1358471</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SENRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-29"></transaction-date>
+   <value currency="USD" value-date="2020-10-29">-32906.49</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SENRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-29"></transaction-date>
+   <value currency="USD" value-date="2020-10-29">-32906.49</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SENRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-21"></transaction-date>
+   <value currency="USD" value-date="2020-12-21">99687.09</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SENRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">32906.49</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SENRV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">1169442</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SENRV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-15"></transaction-date>
+   <value currency="USD" value-date="2021-07-15">-1029.69</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SEN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-08-07"></transaction-date>
+   <value currency="USD" value-date="2014-08-07">11063</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -776,8 +575,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-05"></transaction-date>
-   <value currency="USD" value-date="2019-12-05">1265867</value>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-08-07"></transaction-date>
+   <value currency="USD" value-date="2014-08-07">536413.04</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -787,8 +589,515 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-05"></transaction-date>
-   <value currency="USD" value-date="2019-12-05">30734</value>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-09-18"></transaction-date>
+   <value currency="USD" value-date="2014-09-18">-536413.04</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-09-18"></transaction-date>
+   <value currency="USD" value-date="2014-09-18">520158.1</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-04-22"></transaction-date>
+   <value currency="USD" value-date="2015-04-22">-7979.83</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-08-31"></transaction-date>
+   <value currency="USD" value-date="2015-08-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-09-18"></transaction-date>
+   <value currency="USD" value-date="2014-09-18">14891</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-09-18"></transaction-date>
+   <value currency="USD" value-date="2014-09-18">718313.57</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-19"></transaction-date>
+   <value currency="USD" value-date="2014-12-19">1835294.12</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-19"></transaction-date>
+   <value currency="USD" value-date="2014-12-19">40000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-24"></transaction-date>
+   <value currency="USD" value-date="2015-02-24">20554.85</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
+   <value currency="USD" value-date="2015-03-19">381796.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
+   <value currency="USD" value-date="2015-03-19">8000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-08"></transaction-date>
+   <value currency="USD" value-date="2015-09-08">-0.73</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-08"></transaction-date>
+   <value currency="USD" value-date="2015-09-08">-215985.95</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-11-09"></transaction-date>
+   <value currency="USD" value-date="2015-11-09">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">1006268.98</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">21000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-03"></transaction-date>
+   <value currency="USD" value-date="2016-05-03">1047519.82</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-03"></transaction-date>
+   <value currency="USD" value-date="2016-05-03">22000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-01-25"></transaction-date>
+   <value currency="USD" value-date="2017-01-25">-6346.71</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-01-30"></transaction-date>
+   <value currency="USD" value-date="2017-01-30">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1416-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">21000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">770491.8</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-04-06"></transaction-date>
+   <value currency="USD" value-date="2017-04-06">165360</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-04-06"></transaction-date>
+   <value currency="USD" value-date="2017-04-06">3909</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-08-29"></transaction-date>
+   <value currency="USD" value-date="2017-08-29">-20269.65</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-04"></transaction-date>
+   <value currency="USD" value-date="2017-09-04">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
+   <value currency="USD" value-date="2017-11-24">1175490</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
+   <value currency="USD" value-date="2017-11-24">26941</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
+   <value currency="USD" value-date="2018-06-26">1175490</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
+   <value currency="USD" value-date="2018-06-26">27478</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-11-07"></transaction-date>
+   <value currency="USD" value-date="2018-11-07">-6351.16</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-11-09"></transaction-date>
+   <value currency="USD" value-date="2018-11-09">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 1718-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-19"></transaction-date>
+   <value currency="USD" value-date="2018-11-19">1126230</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 19-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-19"></transaction-date>
+   <value currency="USD" value-date="2018-11-19">26320</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 19-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">1108773</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 19-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">26320</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 19-SEN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Senegal</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-06"></transaction-date>
+   <value currency="USD" value-date="2019-09-06">-47862.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SEN-RV-R-VAC (Approval code: 19-SEN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

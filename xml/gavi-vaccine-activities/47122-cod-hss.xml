@@ -37,7 +37,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2007-01-01" type="1"></activity-date>
   <activity-date iso-date="2007-01-01" type="2"></activity-date>
-  <activity-date iso-date="2019-12-31" type="3"></activity-date>
+  <activity-date iso-date="2024-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -53,7 +53,7 @@
     <narrative xml:lang="EN">Kinshasa</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-4.3245900 15.3214600</pos>
+    <pos>-4.32459 15.32146</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -133,6 +133,31 @@
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2019-01-01">18049934</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">31756700</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">19953327</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">20188944</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">15062699</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-01-01"></period-start>
+   <period-end iso-date="2024-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">15982616</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -1171,32 +1196,41 @@
     <narrative xml:lang="EN">The Government of Congo, DR</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-24"></transaction-date>
-   <value currency="USD" value-date="2020-02-24">2782764</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="CODHSS2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">31756700</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2020 budget for Congo, Democratic Republic of the HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo (the Democratic Republic of the)</narrative>
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">19953327</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Congo, Democratic Republic of the HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
    </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-27"></transaction-date>
-   <value currency="USD" value-date="2020-03-27">426243</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo (the Democratic Republic of the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-02-12"></transaction-date>
+   <transaction-date gavi:budget-period="2007" iso-date="2008-02-12"></transaction-date>
    <value currency="USD" value-date="2008-02-12">21526000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-1-MOH (Approval code: 0710-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1206,8 +1240,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-04-28"></transaction-date>
+   <transaction-date gavi:budget-period="2008" iso-date="2008-04-28"></transaction-date>
    <value currency="USD" value-date="2008-04-28">20139000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-1-MOH (Approval code: 0710-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1217,8 +1254,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-08-16"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2013-08-16"></transaction-date>
    <value currency="USD" value-date="2013-08-16">7574500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-1-MOH (Approval code: 0712-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1228,8 +1268,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-08-16"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-08-16"></transaction-date>
    <value currency="USD" value-date="2013-08-16">7574500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-1-MOH (Approval code: 0712-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1239,261 +1282,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-28"></transaction-date>
-   <value currency="USD" value-date="2015-04-28">527143.2</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-12"></transaction-date>
-   <value currency="USD" value-date="2015-06-12">1000000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-07"></transaction-date>
-   <value currency="USD" value-date="2015-07-07">15870901</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-07"></transaction-date>
-   <value currency="USD" value-date="2015-07-07">21850136</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-09"></transaction-date>
-   <value currency="USD" value-date="2015-09-09">3540000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-09"></transaction-date>
-   <value currency="USD" value-date="2015-09-09">4560000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-25"></transaction-date>
-   <value currency="USD" value-date="2015-09-25">3586475</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-25"></transaction-date>
-   <value currency="USD" value-date="2015-09-25">842000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-11-20"></transaction-date>
-   <value currency="USD" value-date="2015-11-20">300825</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-11-20"></transaction-date>
-   <value currency="USD" value-date="2015-11-20">334873</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-23"></transaction-date>
-   <value currency="USD" value-date="2015-12-23">10000000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-03-21"></transaction-date>
-   <value currency="USD" value-date="2016-03-21">300825</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-16"></transaction-date>
-   <value currency="USD" value-date="2016-06-16">300825</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-08-04"></transaction-date>
-   <value currency="USD" value-date="2016-08-04">2500000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-08-05"></transaction-date>
-   <value currency="USD" value-date="2016-08-05">310152.08</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-08"></transaction-date>
-   <value currency="USD" value-date="2016-12-08">1115760</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-08"></transaction-date>
-   <value currency="USD" value-date="2016-12-08">9228985</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-19"></transaction-date>
-   <value currency="USD" value-date="2017-01-19">3000000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-02-16"></transaction-date>
-   <value currency="USD" value-date="2017-02-16">315067</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-29"></transaction-date>
-   <value currency="USD" value-date="2017-03-29">259937</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-04-04"></transaction-date>
-   <value currency="USD" value-date="2017-04-04">89444.48</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-18"></transaction-date>
-   <value currency="USD" value-date="2017-07-18">3834191.33</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-07"></transaction-date>
-   <value currency="USD" value-date="2017-08-07">1500000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-10"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2017-10-10"></transaction-date>
    <value currency="USD" value-date="2017-10-10">-200000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-1-MOH (Approval code: 0712-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1503,19 +1296,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-21"></transaction-date>
-   <value currency="USD" value-date="2017-11-21">386127</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2017-11-24"></transaction-date>
    <value currency="USD" value-date="2017-11-24">-200000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-1-MOH (Approval code: 0712-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1525,52 +1310,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-28"></transaction-date>
-   <value currency="USD" value-date="2017-11-28">5971265</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-08"></transaction-date>
-   <value currency="USD" value-date="2017-12-08">1126157.8</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-08"></transaction-date>
-   <value currency="USD" value-date="2017-12-08">28600.2</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-12"></transaction-date>
-   <value currency="USD" value-date="2017-12-12">5694782</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-23"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2018-01-23"></transaction-date>
    <value currency="USD" value-date="2018-01-23">-200000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-1-MOH (Approval code: 0712-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1580,8 +1324,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-25"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2018-01-25"></transaction-date>
    <value currency="USD" value-date="2018-01-25">-200000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-1-MOH (Approval code: 0712-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1591,8 +1338,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-29"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2018-01-29"></transaction-date>
    <value currency="USD" value-date="2018-01-29">-200000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-1-MOH (Approval code: 0712-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1602,19 +1352,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-06"></transaction-date>
-   <value currency="USD" value-date="2018-03-06">605333</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-22"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2018-03-22"></transaction-date>
    <value currency="USD" value-date="2018-03-22">-54183</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-1-MOH (Approval code: 0712-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-17"></transaction-date>
+   <value currency="USD" value-date="2021-03-17">982170.78</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GFA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-04-28"></transaction-date>
+   <value currency="USD" value-date="2015-04-28">527143.2</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1624,8 +1394,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-20"></transaction-date>
-   <value currency="USD" value-date="2018-04-20">3900000</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-11-20"></transaction-date>
+   <value currency="USD" value-date="2015-11-20">300825</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1635,8 +1408,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-17"></transaction-date>
-   <value currency="USD" value-date="2018-05-17">2082706.24</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-11-20"></transaction-date>
+   <value currency="USD" value-date="2015-11-20">334873</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1646,8 +1422,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-17"></transaction-date>
-   <value currency="USD" value-date="2018-05-17">767293.76</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-03-21"></transaction-date>
+   <value currency="USD" value-date="2016-03-21">300825</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1657,8 +1436,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-07-20"></transaction-date>
-   <value currency="USD" value-date="2018-07-20">4400000</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-06-16"></transaction-date>
+   <value currency="USD" value-date="2016-06-16">300825</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1668,8 +1450,95 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-09"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-08-05"></transaction-date>
+   <value currency="USD" value-date="2016-08-05">310152.08</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-02-16"></transaction-date>
+   <value currency="USD" value-date="2017-02-16">315067</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-03-29"></transaction-date>
+   <value currency="USD" value-date="2017-03-29">259937</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-04-04"></transaction-date>
+   <value currency="USD" value-date="2017-04-04">89444.48</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-21"></transaction-date>
+   <value currency="USD" value-date="2017-11-21">386127</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-03-06"></transaction-date>
+   <value currency="USD" value-date="2018-03-06">605333</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-08-09"></transaction-date>
    <value currency="USD" value-date="2018-08-09">330171</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1679,8 +1548,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-12"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-12"></transaction-date>
    <value currency="USD" value-date="2018-09-12">448358</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1690,8 +1562,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-20"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-20"></transaction-date>
    <value currency="USD" value-date="2018-09-20">321490</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1701,63 +1576,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-04"></transaction-date>
-   <value currency="USD" value-date="2018-10-04">1379000.09</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-04"></transaction-date>
-   <value currency="USD" value-date="2018-10-04">842963.91</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-25"></transaction-date>
-   <value currency="USD" value-date="2018-10-25">31680</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-08"></transaction-date>
-   <value currency="USD" value-date="2018-11-08">4864662</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">3861722</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-01-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-01-24"></transaction-date>
    <value currency="USD" value-date="2019-01-24">317752</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1767,8 +1590,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-14"></transaction-date>
-   <value currency="USD" value-date="2019-02-14">5700000</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-03"></transaction-date>
+   <value currency="USD" value-date="2019-09-03">896716</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1778,8 +1604,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
-   <value currency="USD" value-date="2019-02-25">1151204</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">178678</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1789,8 +1618,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-12"></transaction-date>
-   <value currency="USD" value-date="2019-04-12">3779961</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">180948</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1800,8 +1632,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-05"></transaction-date>
-   <value currency="USD" value-date="2019-06-05">18240</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">196605</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1809,65 +1644,167 @@
     <narrative xml:lang="EN">The Government of Congo, DR</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-20"></transaction-date>
-   <value currency="USD" value-date="2019-06-20">153440</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-20"></transaction-date>
-   <value currency="USD" value-date="2019-06-20">2098878</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-03"></transaction-date>
-   <value currency="USD" value-date="2019-09-03">1334212.91</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-03"></transaction-date>
-   <value currency="USD" value-date="2019-09-03">1354787</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-03"></transaction-date>
-   <value currency="USD" value-date="2019-09-03">1665787.09</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="CODHSS2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-09-03"></transaction-date>
    <value currency="USD" value-date="2019-09-03">896716</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">556231</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-22"></transaction-date>
+   <value currency="USD" value-date="2020-03-22">-426243</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-27"></transaction-date>
+   <value currency="USD" value-date="2020-03-27">426243</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-27"></transaction-date>
+   <value currency="USD" value-date="2020-03-27">426243</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-04"></transaction-date>
+   <value currency="USD" value-date="2020-05-04">448358</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-20"></transaction-date>
+   <value currency="USD" value-date="2020-05-20">-968666</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-26"></transaction-date>
+   <value currency="USD" value-date="2020-05-26">206908.35</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-06-23"></transaction-date>
+   <value currency="USD" value-date="2020-06-23">968666</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-09"></transaction-date>
+   <value currency="USD" value-date="2020-12-09">559179</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-12"></transaction-date>
+   <value currency="USD" value-date="2021-02-12">338180</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-GIZ</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">5700000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-IBRD (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1877,8 +1814,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
-   <value currency="USD" value-date="2019-09-18">178678</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-12-23"></transaction-date>
+   <value currency="USD" value-date="2015-12-23">10000000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1888,8 +1828,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
-   <value currency="USD" value-date="2019-09-18">180948</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-01-19"></transaction-date>
+   <value currency="USD" value-date="2017-01-19">3000000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1899,13 +1842,828 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
-   <value currency="USD" value-date="2019-09-18">196605</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-08-07"></transaction-date>
+   <value currency="USD" value-date="2017-08-07">1500000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-12-12"></transaction-date>
+   <value currency="USD" value-date="2017-12-12">5694782</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-04-20"></transaction-date>
+   <value currency="USD" value-date="2018-04-20">3900000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-07-20"></transaction-date>
+   <value currency="USD" value-date="2018-07-20">4400000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-11-08"></transaction-date>
+   <value currency="USD" value-date="2018-11-08">4864662</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-04-12"></transaction-date>
+   <value currency="USD" value-date="2019-04-12">3779961</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-09-03"></transaction-date>
+   <value currency="USD" value-date="2019-09-03">1334212.91</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-03"></transaction-date>
+   <value currency="USD" value-date="2019-09-03">1665787.09</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-03"></transaction-date>
+   <value currency="USD" value-date="2019-09-03">1665787.09</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-24"></transaction-date>
+   <value currency="USD" value-date="2020-02-24">2782764</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-12"></transaction-date>
+   <value currency="USD" value-date="2015-06-12">1000000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-08-04"></transaction-date>
+   <value currency="USD" value-date="2016-08-04">2500000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2018-05-17"></transaction-date>
+   <value currency="USD" value-date="2018-05-17">2082706.24</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-18"></transaction-date>
+   <value currency="USD" value-date="2017-07-18">3834191.33</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-05-17"></transaction-date>
+   <value currency="USD" value-date="2018-05-17">767293.76</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-10-04"></transaction-date>
+   <value currency="USD" value-date="2018-10-04">842963.91</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-10-04"></transaction-date>
+   <value currency="USD" value-date="2018-10-04">1379000.09</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">1151204</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-20"></transaction-date>
+   <value currency="USD" value-date="2019-06-20">2098878</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-03"></transaction-date>
+   <value currency="USD" value-date="2019-09-03">1354787</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-20"></transaction-date>
+   <value currency="USD" value-date="2019-06-20">2098878</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-03"></transaction-date>
+   <value currency="USD" value-date="2019-09-03">1354787</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-SANRU</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-10-25"></transaction-date>
+   <value currency="USD" value-date="2018-10-25">31680</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-TEAM (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-06-05"></transaction-date>
+   <value currency="USD" value-date="2019-06-05">18240</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-TEAM (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-06-20"></transaction-date>
+   <value currency="USD" value-date="2019-06-20">153440</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-TEAM (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-04"></transaction-date>
+   <value currency="USD" value-date="2020-05-04">78508.44</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-TEAM</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-07-07"></transaction-date>
+   <value currency="USD" value-date="2015-07-07">21850136</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNIC (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-12-08"></transaction-date>
+   <value currency="USD" value-date="2016-12-08">1115760</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNIC (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-12-08"></transaction-date>
+   <value currency="USD" value-date="2017-12-08">1126157.8</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNIC (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-07-07"></transaction-date>
+   <value currency="USD" value-date="2015-07-07">15870901</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNIC (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-08"></transaction-date>
+   <value currency="USD" value-date="2016-12-08">9228985</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNIC (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-12-08"></transaction-date>
+   <value currency="USD" value-date="2017-12-08">28600.2</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNIC (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-28"></transaction-date>
+   <value currency="USD" value-date="2020-08-28">4044311</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNICEF</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-28"></transaction-date>
+   <value currency="USD" value-date="2021-04-28">867038</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNICEF</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-09"></transaction-date>
+   <value currency="USD" value-date="2015-09-09">3540000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNOPS (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-09-09"></transaction-date>
+   <value currency="USD" value-date="2015-09-09">4560000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNOPS (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-28"></transaction-date>
+   <value currency="USD" value-date="2017-11-28">5971265</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-UNOPS (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-25"></transaction-date>
+   <value currency="USD" value-date="2015-09-25">3586475</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-WHO (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-09-25"></transaction-date>
+   <value currency="USD" value-date="2015-09-25">842000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-WHO (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">3861722</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-WHO (Approval code: 1519-COD-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, DR</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">3861722</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-WHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-29"></transaction-date>
+   <value currency="USD" value-date="2020-04-29">2115520</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-2-WHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-17"></transaction-date>
+   <value currency="USD" value-date="2020-04-17">3457011</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-08-11"></transaction-date>
+   <value currency="USD" value-date="2021-08-11">610854</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-07"></transaction-date>
+   <value currency="USD" value-date="2020-08-07">2504197</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-SANRU</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-09"></transaction-date>
+   <value currency="USD" value-date="2020-12-09">1368030</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-SANRU</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-23"></transaction-date>
+   <value currency="USD" value-date="2021-07-23">2559004</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-SANRU</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-26"></transaction-date>
+   <value currency="USD" value-date="2020-10-26">1754616.29</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-UNIC SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-06"></transaction-date>
+   <value currency="USD" value-date="2020-05-06">12878451</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-06"></transaction-date>
+   <value currency="USD" value-date="2020-05-06">2447454</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-02"></transaction-date>
+   <value currency="USD" value-date="2020-09-02">1325136</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-18"></transaction-date>
+   <value currency="USD" value-date="2020-12-18">321356</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-27"></transaction-date>
+   <value currency="USD" value-date="2021-01-27">1700553</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-UNIC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-02"></transaction-date>
+   <value currency="USD" value-date="2020-10-02">2481762</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-UNOPS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-04"></transaction-date>
+   <value currency="USD" value-date="2020-05-04">2688948</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-WHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-04"></transaction-date>
+   <value currency="USD" value-date="2020-05-04">837079</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COD-HSS-3-WHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2022">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">20188944</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2022 budget for Congo, Democratic Republic of the HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2023">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-11-01">15062699</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2023 budget for Congo, Democratic Republic of the HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODHSS2024">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-12-01">15982616</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2024 budget for Congo, Democratic Republic of the HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
    </receiver-org>
   </transaction>
   <document-link format="APPLICATION/MSWORD" url="https://www.gavi.org/fr/actualites/librarie-de-documents/proposal-hss-support-2014-congo-democratic-republic-0">

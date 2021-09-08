@@ -47,7 +47,7 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2002-01-01" type="1"></activity-date>
   <activity-date iso-date="2002-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2023-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -63,7 +63,7 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">Bujumbura</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-3.3822000 29.3644000</pos>
+    <pos>-3.3822 29.3644</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -172,7 +172,27 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">59067.45</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">601000</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">882631.2</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">731975.4</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">742778.6</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -973,28 +993,28 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">The Government of Burundi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="BDIPENTA2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">553000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">59067.45</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Burundi PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Burundi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="BDIPENTA2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">48000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">882631.2</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Burundi PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -1003,8 +1023,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2002-02-11"></transaction-date>
+   <transaction-date gavi:budget-period="2002" iso-date="2002-02-11"></transaction-date>
    <value currency="USD" value-date="2002-02-11">100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BDI-PENTA-R-VIG-MOH (Approval code: BDI-Lumpsum-1)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1012,824 +1035,1049 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">The Government of Burundi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2004-05-17"></transaction-date>
-   <value currency="USD" value-date="2004-05-17">56763</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2004-05-17"></transaction-date>
-   <value currency="USD" value-date="2004-05-17">834249</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-04-08"></transaction-date>
-   <value currency="USD" value-date="2005-04-08">2062734.41</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-04-20"></transaction-date>
-   <value currency="USD" value-date="2005-04-20">-8951.01</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-04-20"></transaction-date>
-   <value currency="USD" value-date="2005-04-20">13000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-07-11"></transaction-date>
-   <value currency="USD" value-date="2005-07-11">-1746.01</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-10-07"></transaction-date>
-   <value currency="USD" value-date="2005-10-07">-932.9</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-11-01"></transaction-date>
-   <value currency="USD" value-date="2005-11-01">932.9</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-12-13"></transaction-date>
-   <value currency="USD" value-date="2005-12-13">1163001.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2006-03-15"></transaction-date>
-   <value currency="USD" value-date="2006-03-15">3392366</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2006-06-13"></transaction-date>
-   <value currency="USD" value-date="2006-06-13">-819.15</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2006-06-21"></transaction-date>
-   <value currency="USD" value-date="2006-06-21">-21796.43</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2006-11-15"></transaction-date>
-   <value currency="USD" value-date="2006-11-15">1121845</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2006-12-08"></transaction-date>
-   <value currency="USD" value-date="2006-12-08">13356.64</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2007-03-08"></transaction-date>
-   <value currency="USD" value-date="2007-03-08">2167676</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2007-05-08"></transaction-date>
-   <value currency="USD" value-date="2007-05-08">-10074.77</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2007-11-16"></transaction-date>
-   <value currency="USD" value-date="2007-11-16">2083919</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-03-10"></transaction-date>
-   <value currency="USD" value-date="2008-03-10">1577857</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-06-06"></transaction-date>
-   <value currency="USD" value-date="2008-06-06">506040</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-08-27"></transaction-date>
-   <value currency="USD" value-date="2008-08-27">30000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-10-06"></transaction-date>
-   <value currency="USD" value-date="2008-10-06">-15120.6</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-12-19"></transaction-date>
-   <value currency="USD" value-date="2008-12-19">2419531</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-03-19"></transaction-date>
-   <value currency="USD" value-date="2009-03-19">1575230</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-04-07"></transaction-date>
-   <value currency="USD" value-date="2009-04-07">-10530.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-05-22"></transaction-date>
-   <value currency="USD" value-date="2009-05-22">55977</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-03"></transaction-date>
-   <value currency="USD" value-date="2009-12-03">3072.09</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-07"></transaction-date>
-   <value currency="USD" value-date="2009-12-07">1475675</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-05-07"></transaction-date>
-   <value currency="USD" value-date="2010-05-07">1250530</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-08-06"></transaction-date>
-   <value currency="USD" value-date="2010-08-06">446347</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-01"></transaction-date>
-   <value currency="USD" value-date="2010-12-01">98472</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-02-18"></transaction-date>
-   <value currency="USD" value-date="2011-02-18">2610726</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-06-01"></transaction-date>
-   <value currency="USD" value-date="2011-06-01">-89877.19</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-11-07"></transaction-date>
-   <value currency="USD" value-date="2011-11-07">-27973.12</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-11-07"></transaction-date>
-   <value currency="USD" value-date="2011-11-07">59597</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-03-09"></transaction-date>
-   <value currency="USD" value-date="2012-03-09">1114109</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="BDIPENTA2022">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">731975.4</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2022 budget for Burundi PENTA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Burundi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-04"></transaction-date>
-   <value currency="USD" value-date="2012-05-04">5180</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-08-03"></transaction-date>
-   <value currency="USD" value-date="2012-08-03">1113746</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">64893</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-19"></transaction-date>
-   <value currency="USD" value-date="2013-03-19">910550</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-21"></transaction-date>
-   <value currency="USD" value-date="2013-03-21">-39462.82</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-08-07"></transaction-date>
-   <value currency="USD" value-date="2013-08-07">746405</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-13"></transaction-date>
-   <value currency="USD" value-date="2013-12-13">65970</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-20"></transaction-date>
-   <value currency="USD" value-date="2013-12-20">983439</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-13"></transaction-date>
-   <value currency="USD" value-date="2014-03-13">-7983.35</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-24"></transaction-date>
-   <value currency="USD" value-date="2014-06-24">792800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-11-03"></transaction-date>
-   <value currency="USD" value-date="2014-11-03">2431.83</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">1237675</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">22170</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">77280</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">9025</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-02"></transaction-date>
-   <value currency="USD" value-date="2015-07-02">15500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-02"></transaction-date>
-   <value currency="USD" value-date="2015-07-02">991225</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-10-22"></transaction-date>
-   <value currency="USD" value-date="2015-10-22">-15749.32</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-11-09"></transaction-date>
-   <value currency="USD" value-date="2015-11-09">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">42343.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">4500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-18"></transaction-date>
-   <value currency="USD" value-date="2016-05-18">8099</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-18"></transaction-date>
-   <value currency="USD" value-date="2016-05-18">961500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-24"></transaction-date>
-   <value currency="USD" value-date="2017-01-24">10600</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-24"></transaction-date>
-   <value currency="USD" value-date="2017-01-24">383350</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
-   <value currency="USD" value-date="2017-06-15">10500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
-   <value currency="USD" value-date="2017-06-15">336000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
-   <value currency="USD" value-date="2017-08-29">-6734.38</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-04"></transaction-date>
-   <value currency="USD" value-date="2017-09-04">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-30"></transaction-date>
-   <value currency="USD" value-date="2017-10-30">-49680.86</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-11"></transaction-date>
-   <value currency="USD" value-date="2017-12-11">17000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-11"></transaction-date>
-   <value currency="USD" value-date="2017-12-11">451605</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-03"></transaction-date>
-   <value currency="USD" value-date="2018-05-03">218620</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-03"></transaction-date>
-   <value currency="USD" value-date="2018-05-03">9000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-07"></transaction-date>
-   <value currency="USD" value-date="2018-11-07">2726.12</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="BDIPENTA2023">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-11-01">742778.6</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2023 budget for Burundi PENTA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Burundi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="BDIPENTA2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-11-08"></transaction-date>
-   <value currency="USD" value-date="2018-11-08">13000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2018-11-08">447737.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Burundi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-08"></transaction-date>
-   <value currency="USD" value-date="2018-11-08">434737.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="BDIPENTA2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-04-24"></transaction-date>
-   <value currency="USD" value-date="2019-04-24">15000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2019-04-24">259387.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Burundi</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-24"></transaction-date>
-   <value currency="USD" value-date="2019-04-24">244387.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burundi</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="BDIPENTA2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-09-06"></transaction-date>
+   <value currency="USD" value-date="2019-09-06">-25189.54</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BDIPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-16"></transaction-date>
+   <value currency="USD" value-date="2019-12-16">351594</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BDIPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-16"></transaction-date>
+   <value currency="USD" value-date="2020-04-16">78777.24</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BDIPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-04"></transaction-date>
+   <value currency="USD" value-date="2020-05-04">229695</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BDIPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-20"></transaction-date>
+   <value currency="USD" value-date="2020-08-20">-33596.8</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BDIPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-29"></transaction-date>
+   <value currency="USD" value-date="2020-10-29">-20489.23</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BDIPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-29"></transaction-date>
+   <value currency="USD" value-date="2020-10-29">-267.74</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BDIPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-04"></transaction-date>
+   <value currency="USD" value-date="2020-12-04">338927</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BDIPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-29"></transaction-date>
+   <value currency="USD" value-date="2021-01-29">94094</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BDIPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-19"></transaction-date>
+   <value currency="USD" value-date="2021-03-19">449609</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BDI-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2007" iso-date="2006-11-15"></transaction-date>
+   <value currency="USD" value-date="2006-11-15">1121845</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2007" iso-date="2007-03-08"></transaction-date>
+   <value currency="USD" value-date="2007-03-08">2167676</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2007" iso-date="2008-10-06"></transaction-date>
+   <value currency="USD" value-date="2008-10-06">-15120.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2007-11-16"></transaction-date>
+   <value currency="USD" value-date="2007-11-16">2083919</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2008-03-10"></transaction-date>
+   <value currency="USD" value-date="2008-03-10">1577857</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2008-06-06"></transaction-date>
+   <value currency="USD" value-date="2008-06-06">506040</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2008-08-27"></transaction-date>
+   <value currency="USD" value-date="2008-08-27">30000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2009-04-07"></transaction-date>
+   <value currency="USD" value-date="2009-04-07">-10530.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2008-12-19"></transaction-date>
+   <value currency="USD" value-date="2008-12-19">2419531</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-03-19"></transaction-date>
+   <value currency="USD" value-date="2009-03-19">1575230</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-05-22"></transaction-date>
+   <value currency="USD" value-date="2009-05-22">55977</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-12-03"></transaction-date>
+   <value currency="USD" value-date="2009-12-03">3072.09</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2009-12-07"></transaction-date>
+   <value currency="USD" value-date="2009-12-07">1475675</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-05-07"></transaction-date>
+   <value currency="USD" value-date="2010-05-07">1250530</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-08-06"></transaction-date>
+   <value currency="USD" value-date="2010-08-06">446347</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2011-06-01"></transaction-date>
+   <value currency="USD" value-date="2011-06-01">-89877.19</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2010-12-01"></transaction-date>
+   <value currency="USD" value-date="2010-12-01">98472</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-02-18"></transaction-date>
+   <value currency="USD" value-date="2011-02-18">2610726</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-11-07"></transaction-date>
+   <value currency="USD" value-date="2011-11-07">-27973.12</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2011-11-07"></transaction-date>
+   <value currency="USD" value-date="2011-11-07">59597</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-03-09"></transaction-date>
+   <value currency="USD" value-date="2012-03-09">1114109</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-05-04"></transaction-date>
+   <value currency="USD" value-date="2012-05-04">5180</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-08-03"></transaction-date>
+   <value currency="USD" value-date="2012-08-03">1113746</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-03-21"></transaction-date>
+   <value currency="USD" value-date="2013-03-21">-39462.82</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">64893</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-03-19"></transaction-date>
+   <value currency="USD" value-date="2013-03-19">910550</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-08-07"></transaction-date>
+   <value currency="USD" value-date="2013-08-07">746405</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-03-13"></transaction-date>
+   <value currency="USD" value-date="2014-03-13">-7983.35</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-13"></transaction-date>
+   <value currency="USD" value-date="2013-12-13">65970</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-20"></transaction-date>
+   <value currency="USD" value-date="2013-12-20">983439</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-06-24"></transaction-date>
+   <value currency="USD" value-date="2014-06-24">792800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-11-03"></transaction-date>
+   <value currency="USD" value-date="2014-11-03">2431.83</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">1237675</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">22170</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">77280</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">9025</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-07-02"></transaction-date>
+   <value currency="USD" value-date="2015-07-02">15500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-07-02"></transaction-date>
+   <value currency="USD" value-date="2015-07-02">991225</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-10-22"></transaction-date>
+   <value currency="USD" value-date="2015-10-22">-15749.32</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-11-09"></transaction-date>
+   <value currency="USD" value-date="2015-11-09">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 0715-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">42343.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 16-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">4500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 16-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-18"></transaction-date>
+   <value currency="USD" value-date="2016-05-18">8099</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 16-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-18"></transaction-date>
+   <value currency="USD" value-date="2016-05-18">961500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 16-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-08-29"></transaction-date>
+   <value currency="USD" value-date="2017-08-29">-6734.38</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 16-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-09-04"></transaction-date>
+   <value currency="USD" value-date="2017-09-04">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 16-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-01-24"></transaction-date>
+   <value currency="USD" value-date="2017-01-24">10600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 17-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-01-24"></transaction-date>
+   <value currency="USD" value-date="2017-01-24">383350</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 17-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-15"></transaction-date>
+   <value currency="USD" value-date="2017-06-15">10500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 17-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-15"></transaction-date>
+   <value currency="USD" value-date="2017-06-15">336000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 17-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-30"></transaction-date>
+   <value currency="USD" value-date="2017-10-30">-49680.86</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 17-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-12-11"></transaction-date>
+   <value currency="USD" value-date="2017-12-11">17000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 18-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-12-11"></transaction-date>
+   <value currency="USD" value-date="2017-12-11">451605</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 18-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-03"></transaction-date>
+   <value currency="USD" value-date="2018-05-03">218620</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 18-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-03"></transaction-date>
+   <value currency="USD" value-date="2018-05-03">9000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 18-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-11-07"></transaction-date>
+   <value currency="USD" value-date="2018-11-07">2726.12</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 18-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-08"></transaction-date>
+   <value currency="USD" value-date="2018-11-08">13000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 19-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-08"></transaction-date>
+   <value currency="USD" value-date="2018-11-08">434737.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 19-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-04-24"></transaction-date>
+   <value currency="USD" value-date="2019-04-24">15000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 19-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-04-24"></transaction-date>
+   <value currency="USD" value-date="2019-04-24">244387.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 19-BDI-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-06"></transaction-date>
    <value currency="USD" value-date="2019-09-06">-25189.55</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: 19-BDI-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1839,8 +2087,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-16"></transaction-date>
-   <value currency="USD" value-date="2019-12-16">14094</value>
+   <transaction-date gavi:budget-period="2005" iso-date="2004-05-17"></transaction-date>
+   <value currency="USD" value-date="2004-05-17">56763</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-1)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1850,8 +2101,179 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-16"></transaction-date>
-   <value currency="USD" value-date="2019-12-16">337500</value>
+   <transaction-date gavi:budget-period="2005" iso-date="2004-05-17"></transaction-date>
+   <value currency="USD" value-date="2004-05-17">834249</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2005-04-08"></transaction-date>
+   <value currency="USD" value-date="2005-04-08">2062734.41</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2005-04-20"></transaction-date>
+   <value currency="USD" value-date="2005-04-20">-8951.01</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2005-04-20"></transaction-date>
+   <value currency="USD" value-date="2005-04-20">13000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2005-07-11"></transaction-date>
+   <value currency="USD" value-date="2005-07-11">-1746.01</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2005-10-07"></transaction-date>
+   <value currency="USD" value-date="2005-10-07">-932.9</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2005-11-01"></transaction-date>
+   <value currency="USD" value-date="2005-11-01">932.9</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2005-12-13"></transaction-date>
+   <value currency="USD" value-date="2005-12-13">1163001.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2006" iso-date="2006-03-15"></transaction-date>
+   <value currency="USD" value-date="2006-03-15">3392366</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-2)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2006" iso-date="2006-06-13"></transaction-date>
+   <value currency="USD" value-date="2006-06-13">-819.15</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-2)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2006" iso-date="2006-06-21"></transaction-date>
+   <value currency="USD" value-date="2006-06-21">-21796.43</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-2)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2006" iso-date="2006-12-08"></transaction-date>
+   <value currency="USD" value-date="2006-12-08">13356.64</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-2)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burundi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2006" iso-date="2007-05-08"></transaction-date>
+   <value currency="USD" value-date="2007-05-08">-10074.77</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BDI-PENTA-R-VAC (Approval code: BDI-NVS-2)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

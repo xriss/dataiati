@@ -39,7 +39,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2015-01-01" type="1"></activity-date>
   <activity-date iso-date="2015-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2022-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -55,7 +55,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">Brazzaville</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-4.2669000 15.2832700</pos>
+    <pos>-4.2669 15.28327</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -110,6 +110,21 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">375500</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">70854.63</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">197267.93</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">811465.73</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -322,60 +337,41 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Congo</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="COGIPV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">369000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">70854.63</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Congo, Republic of IPV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="COGIPV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">6500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">197267.93</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Congo, Republic of IPV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
    </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-03"></transaction-date>
-   <value currency="USD" value-date="2020-02-03">425320</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-03"></transaction-date>
-   <value currency="USD" value-date="2020-02-03">6600</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-12"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-12"></transaction-date>
    <value currency="USD" value-date="2015-03-12">137000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme COG-IPV-R-VIG-MOH (Approval code: 15-COG-08h-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -383,10 +379,181 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Congo</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="COGIPV2022">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">811465.73</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2022 budget for Congo, Republic of IPV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">125900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-05-29"></transaction-date>
+   <value currency="USD" value-date="2019-05-29">125900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-11"></transaction-date>
+   <value currency="USD" value-date="2019-09-11">251800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-03"></transaction-date>
+   <value currency="USD" value-date="2020-02-03">431920</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-627.35</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-16"></transaction-date>
+   <value currency="USD" value-date="2020-04-16">12342</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-13"></transaction-date>
+   <value currency="USD" value-date="2020-08-13">-4032.95</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-24"></transaction-date>
+   <value currency="USD" value-date="2020-09-24">6069.42</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-04"></transaction-date>
+   <value currency="USD" value-date="2020-12-04">171860</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-29"></transaction-date>
+   <value currency="USD" value-date="2021-01-29">3890</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="COGIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-14"></transaction-date>
+   <value currency="USD" value-date="2021-04-14">20685.9</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COG-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Republic of</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-12"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-12"></transaction-date>
    <value currency="USD" value-date="2015-03-12">2387</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -396,8 +563,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-12"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-12"></transaction-date>
    <value currency="USD" value-date="2015-03-12">4614</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -407,8 +577,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
    <value currency="USD" value-date="2015-03-19">127252.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -418,8 +591,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-19"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-03-19"></transaction-date>
    <value currency="USD" value-date="2015-03-19">3500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -429,41 +605,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">4500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">8576.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-15"></transaction-date>
-   <value currency="USD" value-date="2016-06-15">31302.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-15"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-06-15"></transaction-date>
    <value currency="USD" value-date="2016-06-15">32537.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -473,8 +619,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-15"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-06-15"></transaction-date>
    <value currency="USD" value-date="2016-06-15">4500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -484,41 +633,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-15"></transaction-date>
-   <value currency="USD" value-date="2016-06-15">4500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-29"></transaction-date>
-   <value currency="USD" value-date="2016-11-29">-2755.76</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-29"></transaction-date>
-   <value currency="USD" value-date="2016-11-29">-31302.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-29"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-11-29"></transaction-date>
    <value currency="USD" value-date="2016-11-29">-32537.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -528,8 +647,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-29"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-11-29"></transaction-date>
    <value currency="USD" value-date="2016-11-29">-4500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -539,19 +661,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-02"></transaction-date>
-   <value currency="USD" value-date="2017-03-02">-2233.62</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-02"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-03-02"></transaction-date>
    <value currency="USD" value-date="2017-03-02">-3253.96</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -561,8 +675,109 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-14"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">4500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">8576.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-06-15"></transaction-date>
+   <value currency="USD" value-date="2016-06-15">31302.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-06-15"></transaction-date>
+   <value currency="USD" value-date="2016-06-15">4500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-11-29"></transaction-date>
+   <value currency="USD" value-date="2016-11-29">-2755.76</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-11-29"></transaction-date>
+   <value currency="USD" value-date="2016-11-29">-31302.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-03-02"></transaction-date>
+   <value currency="USD" value-date="2017-03-02">-2233.62</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-03-14"></transaction-date>
    <value currency="USD" value-date="2017-03-14">2100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -572,8 +787,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-14"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-03-14"></transaction-date>
    <value currency="USD" value-date="2017-03-14">77140</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -583,8 +801,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-15"></transaction-date>
    <value currency="USD" value-date="2017-06-15">1600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -594,8 +815,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-15"></transaction-date>
    <value currency="USD" value-date="2017-06-15">77140</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -605,8 +829,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-08-29"></transaction-date>
    <value currency="USD" value-date="2017-08-29">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -616,8 +843,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-08-29"></transaction-date>
    <value currency="USD" value-date="2017-08-29">77140</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -627,8 +857,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-07"></transaction-date>
    <value currency="USD" value-date="2017-11-07">2200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -638,8 +871,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-07"></transaction-date>
    <value currency="USD" value-date="2017-11-07">79800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -649,30 +885,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-16"></transaction-date>
-   <value currency="USD" value-date="2018-03-16">106390.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-16"></transaction-date>
-   <value currency="USD" value-date="2018-03-16">2809.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-23"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-03-23"></transaction-date>
    <value currency="USD" value-date="2018-03-23">-337.44</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -682,8 +899,39 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-06"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-03-16"></transaction-date>
+   <value currency="USD" value-date="2018-03-16">106390.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-03-16"></transaction-date>
+   <value currency="USD" value-date="2018-03-16">2809.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-06"></transaction-date>
    <value currency="USD" value-date="2018-06-06">109060</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -693,8 +941,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-06"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-06"></transaction-date>
    <value currency="USD" value-date="2018-06-06">2900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -704,8 +955,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-24"></transaction-date>
    <value currency="USD" value-date="2018-09-24">109060</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -715,8 +969,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-24"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-24"></transaction-date>
    <value currency="USD" value-date="2018-09-24">2820</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -726,8 +983,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-10-04"></transaction-date>
    <value currency="USD" value-date="2018-10-04">109060</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -737,8 +997,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-10-04"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-10-04"></transaction-date>
    <value currency="USD" value-date="2018-10-04">2900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -748,30 +1011,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-14"></transaction-date>
-   <value currency="USD" value-date="2019-02-14">123900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-14"></transaction-date>
-   <value currency="USD" value-date="2019-02-14">2000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-03-07"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-03-07"></transaction-date>
    <value currency="USD" value-date="2019-03-07">-323.59</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 1518-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -781,8 +1025,39 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-05-29"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">123900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 19-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-14"></transaction-date>
+   <value currency="USD" value-date="2019-02-14">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 19-COG-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-05-29"></transaction-date>
    <value currency="USD" value-date="2019-05-29">123900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 19-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -792,8 +1067,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-05-29"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-05-29"></transaction-date>
    <value currency="USD" value-date="2019-05-29">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 19-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -803,8 +1081,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-11"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-11"></transaction-date>
    <value currency="USD" value-date="2019-09-11">247800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 19-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -814,8 +1095,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-11"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-11"></transaction-date>
    <value currency="USD" value-date="2019-09-11">4000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme COG-IPV-R-VAC (Approval code: 19-COG-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

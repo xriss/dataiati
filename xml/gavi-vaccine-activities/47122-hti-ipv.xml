@@ -39,7 +39,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2015-01-01" type="1"></activity-date>
   <activity-date iso-date="2015-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -55,7 +55,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">Port-au-Prince</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>18.5391700 -72.3350000</pos>
+    <pos>18.53917 -72.335</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -110,6 +110,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">314500</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">792419.73</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -252,11 +257,14 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Haiti</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-15"></transaction-date>
-   <value currency="USD" value-date="2015-07-15">93000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+  <transaction ref="HTIIPV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">792419.73</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Haiti IPV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -265,19 +273,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-03"></transaction-date>
-   <value currency="USD" value-date="2015-08-03">545000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Haiti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-16"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-16"></transaction-date>
    <value currency="USD" value-date="2015-09-16">211413</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme HTI-IPV-R-VIG-PAHO (Approval code: 15-HTI-08h-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -287,30 +287,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-30"></transaction-date>
-   <value currency="USD" value-date="2016-11-30">812500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Haiti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-08"></transaction-date>
-   <value currency="USD" value-date="2017-12-08">379500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Haiti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-16"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2018-05-16"></transaction-date>
    <value currency="USD" value-date="2018-05-16">-36345.37</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme HTI-IPV-R-VIG-PAHO (Approval code: 15-HTI-08h-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -318,43 +299,69 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Haiti</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-17"></transaction-date>
-   <value currency="USD" value-date="2018-05-17">-337000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Haiti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-17"></transaction-date>
-   <value currency="USD" value-date="2018-05-17">337000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Haiti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-18"></transaction-date>
-   <value currency="USD" value-date="2018-05-18">337000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Haiti</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="HTIIPV2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-12-11"></transaction-date>
    <value currency="USD" value-date="2018-12-11">449500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme HTI-IPV-RTN-VAC-PAHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Haiti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="HTIIPV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-20"></transaction-date>
+   <value currency="USD" value-date="2019-11-20">314500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme HTI-IPV-RTN-VAC-PAHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Haiti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="HTIIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-16"></transaction-date>
+   <value currency="USD" value-date="2020-12-16">18311.17</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme HTI-IPV-RTN-VAC-PAHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Haiti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="HTIIPV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-16"></transaction-date>
+   <value currency="USD" value-date="2020-12-16">774108.56</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme HTI-IPV-RTN-VAC-PAHO</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Haiti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-07-15"></transaction-date>
+   <value currency="USD" value-date="2015-07-15">93000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HTI-IPV-R-VAC-PAHO (Approval code: 1518-HTI-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -364,8 +371,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">246975.65</value>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-08-03"></transaction-date>
+   <value currency="USD" value-date="2015-08-03">545000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HTI-IPV-R-VAC-PAHO (Approval code: 1518-HTI-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -375,8 +385,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">3006.02</value>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-30"></transaction-date>
+   <value currency="USD" value-date="2016-11-30">812500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HTI-IPV-R-VAC-PAHO (Approval code: 1518-HTI-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -386,8 +399,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">3488.98</value>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-12-08"></transaction-date>
+   <value currency="USD" value-date="2017-12-08">379500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HTI-IPV-R-VAC-PAHO (Approval code: 1518-HTI-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -397,8 +413,11 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">505</value>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-17"></transaction-date>
+   <value currency="USD" value-date="2018-05-17">-337000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HTI-IPV-R-VAC-PAHO (Approval code: 1518-HTI-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -408,8 +427,39 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">60524.35</value>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-17"></transaction-date>
+   <value currency="USD" value-date="2018-05-17">337000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HTI-IPV-R-VAC-PAHO (Approval code: 1518-HTI-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Haiti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-05-18"></transaction-date>
+   <value currency="USD" value-date="2018-05-18">337000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HTI-IPV-R-VAC-PAHO (Approval code: 1518-HTI-25b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Haiti</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-11"></transaction-date>
+   <value currency="USD" value-date="2018-12-11">449500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme HTI-IPV-R-VAC-PAHO (Approval code: 19-HTI-25b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

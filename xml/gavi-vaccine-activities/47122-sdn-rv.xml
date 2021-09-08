@@ -39,7 +39,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2010-01-01" type="1"></activity-date>
   <activity-date iso-date="2010-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -55,7 +55,7 @@
     <narrative xml:lang="EN">Khartoum</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>15.5466500 32.5336100</pos>
+    <pos>15.54665 32.53361</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -81,6 +81,21 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">-575680.52</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">705638</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">4128611.13</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -432,14 +447,42 @@
     <narrative xml:lang="EN">The Government of Sudan</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="SDNRV2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-03"></transaction-date>
-   <value currency="USD" value-date="2018-10-03">6744500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">-575680.52</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for Sudan RV</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">705638</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2020 budget for Sudan RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">4128611.13</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Sudan RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -447,68 +490,195 @@
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">3276000</value>
-   <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-05"></transaction-date>
-   <value currency="USD" value-date="2019-12-05">1043400</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-05"></transaction-date>
-   <value currency="USD" value-date="2019-12-05">23470</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">1035348</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">25519</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan (the)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-05-24"></transaction-date>
+   <transaction-date gavi:budget-period="2010" iso-date="2011-05-24"></transaction-date>
    <value currency="USD" value-date="2011-05-24">371000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme SDN-RV-R-VIG-MOH (Approval code: 10-SDN-08b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">2184438</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-02-25"></transaction-date>
+   <value currency="USD" value-date="2019-02-25">2184438</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <value currency="USD" value-date="2019-09-18">1951027</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-05"></transaction-date>
+   <value currency="USD" value-date="2019-12-05">1066870</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-28"></transaction-date>
+   <value currency="USD" value-date="2020-02-28">1060867</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-151081.97</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-26"></transaction-date>
+   <value currency="USD" value-date="2020-05-26">201159</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-28"></transaction-date>
+   <value currency="USD" value-date="2020-08-28">678854</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-02"></transaction-date>
+   <value currency="USD" value-date="2020-12-02">1807739</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">1807739</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-22"></transaction-date>
+   <value currency="USD" value-date="2021-04-22">-1187.68</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">79835.71</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SDNRV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-19"></transaction-date>
+   <value currency="USD" value-date="2021-05-19">513131</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme SDN-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -517,8 +687,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-11-02"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2011-11-02"></transaction-date>
    <value currency="USD" value-date="2011-11-02">11374388</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -528,8 +701,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-04-30"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-04-30"></transaction-date>
    <value currency="USD" value-date="2012-04-30">1587664.51</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -539,8 +715,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-10"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-05-10"></transaction-date>
    <value currency="USD" value-date="2012-05-10">14000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -550,30 +729,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-10"></transaction-date>
-   <value currency="USD" value-date="2012-05-10">2494901.37</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-10"></transaction-date>
-   <value currency="USD" value-date="2012-05-10">49000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-10"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-05-10"></transaction-date>
    <value currency="USD" value-date="2012-05-10">680427.65</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -583,8 +743,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-05-25"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-05-25"></transaction-date>
    <value currency="USD" value-date="2012-05-25">-6880000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -594,8 +757,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-22"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-06-22"></transaction-date>
    <value currency="USD" value-date="2012-06-22">1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -605,8 +771,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-22"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-06-22"></transaction-date>
    <value currency="USD" value-date="2012-06-22">11340.46</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -616,151 +785,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-07-24"></transaction-date>
-   <value currency="USD" value-date="2012-07-24">1587665</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-07-24"></transaction-date>
-   <value currency="USD" value-date="2012-07-24">40000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-20"></transaction-date>
-   <value currency="USD" value-date="2012-09-20">22000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-20"></transaction-date>
-   <value currency="USD" value-date="2012-09-20">846756</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-01-24"></transaction-date>
-   <value currency="USD" value-date="2013-01-24">1373619</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-01-24"></transaction-date>
-   <value currency="USD" value-date="2013-01-24">1800403</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-01-24"></transaction-date>
-   <value currency="USD" value-date="2013-01-24">36000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-01-24"></transaction-date>
-   <value currency="USD" value-date="2013-01-24">47000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-07-05"></transaction-date>
-   <value currency="USD" value-date="2013-07-05">105000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-07-05"></transaction-date>
-   <value currency="USD" value-date="2013-07-05">4022708</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-28"></transaction-date>
-   <value currency="USD" value-date="2014-02-28">112000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-28"></transaction-date>
-   <value currency="USD" value-date="2014-02-28">4705108.7</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-05-14"></transaction-date>
-   <value currency="USD" value-date="2014-05-14">-26724.14</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2014-06-26"></transaction-date>
    <value currency="USD" value-date="2014-06-26">-8277.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -770,8 +799,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2014-06-26"></transaction-date>
    <value currency="USD" value-date="2014-06-26">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -781,8 +813,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2011" iso-date="2014-06-26"></transaction-date>
    <value currency="USD" value-date="2014-06-26">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -792,8 +827,193 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-16"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-05-10"></transaction-date>
+   <value currency="USD" value-date="2012-05-10">2494901.37</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-05-10"></transaction-date>
+   <value currency="USD" value-date="2012-05-10">49000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-07-24"></transaction-date>
+   <value currency="USD" value-date="2012-07-24">1587665</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-07-24"></transaction-date>
+   <value currency="USD" value-date="2012-07-24">40000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-09-20"></transaction-date>
+   <value currency="USD" value-date="2012-09-20">22000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-09-20"></transaction-date>
+   <value currency="USD" value-date="2012-09-20">846756</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-01-24"></transaction-date>
+   <value currency="USD" value-date="2013-01-24">1373619</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-01-24"></transaction-date>
+   <value currency="USD" value-date="2013-01-24">36000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-05-14"></transaction-date>
+   <value currency="USD" value-date="2014-05-14">-26724.14</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-01-24"></transaction-date>
+   <value currency="USD" value-date="2013-01-24">1800403</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-01-24"></transaction-date>
+   <value currency="USD" value-date="2013-01-24">47000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-07-05"></transaction-date>
+   <value currency="USD" value-date="2013-07-05">105000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-07-05"></transaction-date>
+   <value currency="USD" value-date="2013-07-05">4022708</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-16"></transaction-date>
    <value currency="USD" value-date="2014-07-16">-36530</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -803,8 +1023,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-23"></transaction-date>
    <value currency="USD" value-date="2014-07-23">-13172.38</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -814,8 +1037,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-23"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-23"></transaction-date>
    <value currency="USD" value-date="2014-07-23">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -825,8 +1051,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-28"></transaction-date>
+   <value currency="USD" value-date="2014-02-28">112000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-28"></transaction-date>
+   <value currency="USD" value-date="2014-02-28">4705108.7</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-06-03"></transaction-date>
    <value currency="USD" value-date="2015-06-03">-35774.69</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -836,52 +1093,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
-   <value currency="USD" value-date="2015-06-03">2097989.2799</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
-   <value currency="USD" value-date="2015-06-03">51000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-12"></transaction-date>
-   <value currency="USD" value-date="2015-08-12">2097989.28</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-12"></transaction-date>
-   <value currency="USD" value-date="2015-08-12">50000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-31"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-08-31"></transaction-date>
    <value currency="USD" value-date="2015-08-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1114-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -891,8 +1107,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">1981460.32</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
+   <value currency="USD" value-date="2015-06-03">2097989.2799</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -902,8 +1121,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">665308.31</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
+   <value currency="USD" value-date="2015-06-03">51000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -913,8 +1135,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">76000</value>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-12"></transaction-date>
+   <value currency="USD" value-date="2015-08-12">2097989.28</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -924,8 +1149,25 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-26"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-12"></transaction-date>
+   <value currency="USD" value-date="2015-08-12">50000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-02-26"></transaction-date>
    <value currency="USD" value-date="2016-02-26">-14356.96</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -935,8 +1177,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-26"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-02-26"></transaction-date>
    <value currency="USD" value-date="2016-02-26">-8.06</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -946,8 +1191,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-26"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-02-26"></transaction-date>
    <value currency="USD" value-date="2016-02-26">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -957,8 +1205,53 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">1981460.32</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">665308.31</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">76000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-03"></transaction-date>
    <value currency="USD" value-date="2016-05-03">2682672.71</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -968,8 +1261,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-05-03"></transaction-date>
    <value currency="USD" value-date="2016-05-03">78000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -979,8 +1275,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-10-24"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-10-24"></transaction-date>
    <value currency="USD" value-date="2016-10-24">-1.28</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -990,8 +1289,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-10-24"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-10-24"></transaction-date>
    <value currency="USD" value-date="2016-10-24">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1001,8 +1303,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-10-24"></transaction-date>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-10-24"></transaction-date>
    <value currency="USD" value-date="2016-10-24">36890.37</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1516-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1012,8 +1317,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
    <value currency="USD" value-date="2016-11-22">1328327.87</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 17-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1023,8 +1331,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
    <value currency="USD" value-date="2016-11-22">39000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 17-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1034,8 +1345,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
    <value currency="USD" value-date="2017-06-07">1038960</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 17-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1045,8 +1359,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
    <value currency="USD" value-date="2017-06-07">26517</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 17-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1056,8 +1373,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-19"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-19"></transaction-date>
    <value currency="USD" value-date="2017-09-19">17798</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 17-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1067,8 +1387,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-19"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-09-19"></transaction-date>
    <value currency="USD" value-date="2017-09-19">645840</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 17-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1078,30 +1401,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
-   <value currency="USD" value-date="2017-11-24">1555110</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-24"></transaction-date>
-   <value currency="USD" value-date="2017-11-24">33015</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-01-29"></transaction-date>
    <value currency="USD" value-date="2018-01-29">19853.1</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 17-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1111,8 +1415,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-02-02"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-02-02"></transaction-date>
    <value currency="USD" value-date="2018-02-02">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 17-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1122,8 +1429,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
+   <value currency="USD" value-date="2017-11-24">1555110</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-24"></transaction-date>
+   <value currency="USD" value-date="2017-11-24">33015</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
    <value currency="USD" value-date="2018-06-26">3203460</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1133,8 +1471,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
    <value currency="USD" value-date="2018-06-26">69314</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1144,30 +1485,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">2137432</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-18"></transaction-date>
-   <value currency="USD" value-date="2018-12-18">47006</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Sudan</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-21"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-12-21"></transaction-date>
    <value currency="USD" value-date="2018-12-21">-37476.66</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1177,8 +1499,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-27"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-12-27"></transaction-date>
    <value currency="USD" value-date="2018-12-27">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1188,8 +1513,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">2137432</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-12-18"></transaction-date>
+   <value currency="USD" value-date="2018-12-18">47006</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Sudan</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
    <value currency="USD" value-date="2019-02-25">2137432</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1199,8 +1555,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-25"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-02-25"></transaction-date>
    <value currency="USD" value-date="2019-02-25">47006</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1210,8 +1569,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">1908389</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1221,8 +1583,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-09-18"></transaction-date>
    <value currency="USD" value-date="2019-09-18">42638</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme SDN-RV-R-VAC (Approval code: 1820-SDN-13b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

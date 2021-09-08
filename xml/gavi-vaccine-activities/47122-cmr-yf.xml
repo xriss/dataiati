@@ -46,7 +46,7 @@ Les pays &#xE9;ligibles au soutien de Gavi peuvent compter sur la r&#xE9;serve m
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2003-01-01" type="1"></activity-date>
   <activity-date iso-date="2003-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -62,7 +62,7 @@ Les pays &#xE9;ligibles au soutien de Gavi peuvent compter sur la r&#xE9;serve m
     <narrative xml:lang="EN">Yaounde</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>3.8666700 11.5166700</pos>
+    <pos>3.86667 11.51667</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -176,7 +176,17 @@ Les pays &#xE9;ligibles au soutien de Gavi peuvent compter sur la r&#xE9;serve m
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">167293.36</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">462500</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">938842.73</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -1173,28 +1183,56 @@ Les pays &#xE9;ligibles au soutien de Gavi peuvent compter sur la r&#xE9;serve m
     <narrative xml:lang="EN">The Government of Cameroon</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="CMRYF2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-18"></transaction-date>
-   <value currency="USD" value-date="2019-09-18">446500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">167293.36</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Cameroon YF</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Cameroon</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="CMRYF2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">16000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">938842.73</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Cameroon YF</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CMRYF2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-09"></transaction-date>
+   <value currency="USD" value-date="2020-09-09">41268.44</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme CMR-YF-DIAG</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CMRYF2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-19"></transaction-date>
+   <value currency="USD" value-date="2021-05-19">17314.49</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme CMR-YF-DIAG</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -1203,8 +1241,11 @@ Les pays &#xE9;ligibles au soutien de Gavi peuvent compter sur la r&#xE9;serve m
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2003-10-13"></transaction-date>
+   <transaction-date gavi:budget-period="2003" iso-date="2003-10-13"></transaction-date>
    <value currency="USD" value-date="2003-10-13">100000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme CMR-YF-R-VIG-MOH (Approval code: CMR-Lumpsum-1)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1212,637 +1253,181 @@ Les pays &#xE9;ligibles au soutien de Gavi peuvent compter sur la r&#xE9;serve m
     <narrative xml:lang="EN">The Government of Cameroon</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2003-10-16"></transaction-date>
-   <value currency="USD" value-date="2003-10-16">890133</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-03-31"></transaction-date>
-   <value currency="USD" value-date="2005-03-31">391429.54</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-10-07"></transaction-date>
-   <value currency="USD" value-date="2005-10-07">-2005.92</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-10-07"></transaction-date>
-   <value currency="USD" value-date="2005-10-07">283891</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2005-12-30"></transaction-date>
-   <value currency="USD" value-date="2005-12-30">26259</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2006-04-07"></transaction-date>
-   <value currency="USD" value-date="2006-04-07">283891</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2006-04-26"></transaction-date>
-   <value currency="USD" value-date="2006-04-26">264786.49</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2006-06-21"></transaction-date>
-   <value currency="USD" value-date="2006-06-21">-4267.12</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2006-10-05"></transaction-date>
-   <value currency="USD" value-date="2006-10-05">-46312.52</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2006-11-16"></transaction-date>
-   <value currency="USD" value-date="2006-11-16">34963</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2007-04-09"></transaction-date>
-   <value currency="USD" value-date="2007-04-09">211058</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2007-05-08"></transaction-date>
-   <value currency="USD" value-date="2007-05-08">-1752.58</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2007-06-21"></transaction-date>
-   <value currency="USD" value-date="2007-06-21">210973</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2007-08-20"></transaction-date>
-   <value currency="USD" value-date="2007-08-20">1050</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2007-11-20"></transaction-date>
-   <value currency="USD" value-date="2007-11-20">128045</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-01-08"></transaction-date>
-   <value currency="USD" value-date="2008-01-08">127936</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-06-24"></transaction-date>
-   <value currency="USD" value-date="2008-06-24">9282.52</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2008-10-20"></transaction-date>
-   <value currency="USD" value-date="2008-10-20">-1862.84</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-01-16"></transaction-date>
-   <value currency="USD" value-date="2009-01-16">623483</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-06-25"></transaction-date>
-   <value currency="USD" value-date="2009-06-25">1000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-03"></transaction-date>
-   <value currency="USD" value-date="2009-12-03">-6844.1</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-03"></transaction-date>
-   <value currency="USD" value-date="2009-12-03">298748</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-02-22"></transaction-date>
-   <value currency="USD" value-date="2010-02-22">178282</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-01"></transaction-date>
-   <value currency="USD" value-date="2010-12-01">-3470.71</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-01"></transaction-date>
-   <value currency="USD" value-date="2010-12-01">711405</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-12-06"></transaction-date>
-   <value currency="USD" value-date="2011-12-06">597169</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-05"></transaction-date>
-   <value currency="USD" value-date="2012-12-05">-337.96</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-01-18"></transaction-date>
-   <value currency="USD" value-date="2013-01-18">599056</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-04"></transaction-date>
-   <value currency="USD" value-date="2013-03-04">-70204.64</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-13"></transaction-date>
-   <value currency="USD" value-date="2013-12-13">8549</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-01-29"></transaction-date>
-   <value currency="USD" value-date="2014-01-29">255962</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-11-20"></transaction-date>
-   <value currency="USD" value-date="2014-11-20">-19277.43</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
-   <value currency="USD" value-date="2015-01-30">10800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-01-30"></transaction-date>
-   <value currency="USD" value-date="2015-01-30">300969.3</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">12015</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-02-11"></transaction-date>
-   <value currency="USD" value-date="2015-02-11">1395</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-25"></transaction-date>
-   <value currency="USD" value-date="2015-06-25">-62409.24</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-10-15"></transaction-date>
-   <value currency="USD" value-date="2015-10-15">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">20000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">293150.4</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-29"></transaction-date>
-   <value currency="USD" value-date="2016-01-29">-81187.26</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-03"></transaction-date>
-   <value currency="USD" value-date="2016-02-03">23800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">14694.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">2000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-28"></transaction-date>
-   <value currency="USD" value-date="2016-12-28">-32435.43</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-20"></transaction-date>
-   <value currency="USD" value-date="2017-01-20">18900</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-20"></transaction-date>
-   <value currency="USD" value-date="2017-01-20">726657</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-30"></transaction-date>
-   <value currency="USD" value-date="2017-10-30">-124270.43</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-24"></transaction-date>
-   <value currency="USD" value-date="2018-01-24">13980</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-24"></transaction-date>
-   <value currency="USD" value-date="2018-01-24">773550.8</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="CMRYF2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-11-27"></transaction-date>
-   <value currency="USD" value-date="2018-11-27">12050</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2018-11-27">526547.2</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Cameroon</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-27"></transaction-date>
-   <value currency="USD" value-date="2018-11-27">514497.2</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-06"></transaction-date>
-   <value currency="USD" value-date="2019-02-06">-9960.33</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="CMRYF2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-06-07"></transaction-date>
    <value currency="USD" value-date="2019-06-07">-168886.2</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Cameroon</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="CMRYF2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-08-27"></transaction-date>
    <value currency="USD" value-date="2019-08-27">4172.17</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Cameroon</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="CMRYF2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-02-03"></transaction-date>
-   <value currency="USD" value-date="2020-02-03">16500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2020-02-03">538939.2</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Cameroon</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-03"></transaction-date>
-   <value currency="USD" value-date="2020-02-03">522439.2</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Cameroon</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="CMRYF2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-02-24"></transaction-date>
-   <value currency="USD" value-date="2020-02-24">14965</value>
+   <value currency="USD" value-date="2020-02-24">21821.23</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CMRYF2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-20"></transaction-date>
+   <value currency="USD" value-date="2020-08-20">-6568.37</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CMRYF2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-10-29"></transaction-date>
+   <value currency="USD" value-date="2020-10-29">-738.31</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CMRYF2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-02"></transaction-date>
+   <value currency="USD" value-date="2020-12-02">2461.87</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CMRYF2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-09"></transaction-date>
+   <value currency="USD" value-date="2020-12-09">682960</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CMRYF2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-03"></transaction-date>
+   <value currency="USD" value-date="2021-02-03">40393</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CMRYF2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-28"></transaction-date>
+   <value currency="USD" value-date="2021-05-28">186600</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CMRYF2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-02"></transaction-date>
+   <value currency="USD" value-date="2021-07-02">-220410</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme CMR-YF-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2007" iso-date="2006-11-16"></transaction-date>
+   <value currency="USD" value-date="2006-11-16">34963</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1852,8 +1437,11 @@ Les pays &#xE9;ligibles au soutien de Gavi peuvent compter sur la r&#xE9;serve m
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-24"></transaction-date>
-   <value currency="USD" value-date="2020-02-24">1762.23</value>
+   <transaction-date gavi:budget-period="2007" iso-date="2007-04-09"></transaction-date>
+   <value currency="USD" value-date="2007-04-09">211058</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1863,8 +1451,11 @@ Les pays &#xE9;ligibles au soutien de Gavi peuvent compter sur la r&#xE9;serve m
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-24"></transaction-date>
-   <value currency="USD" value-date="2020-02-24">2394</value>
+   <transaction-date gavi:budget-period="2007" iso-date="2007-06-21"></transaction-date>
+   <value currency="USD" value-date="2007-06-21">210973</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1874,8 +1465,725 @@ Les pays &#xE9;ligibles au soutien de Gavi peuvent compter sur la r&#xE9;serve m
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-24"></transaction-date>
-   <value currency="USD" value-date="2020-02-24">2700</value>
+   <transaction-date gavi:budget-period="2007" iso-date="2007-08-20"></transaction-date>
+   <value currency="USD" value-date="2007-08-20">1050</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2007" iso-date="2008-06-24"></transaction-date>
+   <value currency="USD" value-date="2008-06-24">9282.52</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2007-11-20"></transaction-date>
+   <value currency="USD" value-date="2007-11-20">128045</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2008-01-08"></transaction-date>
+   <value currency="USD" value-date="2008-01-08">127936</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2008-10-20"></transaction-date>
+   <value currency="USD" value-date="2008-10-20">-1862.84</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-01-16"></transaction-date>
+   <value currency="USD" value-date="2009-01-16">623483</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-06-25"></transaction-date>
+   <value currency="USD" value-date="2009-06-25">1000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2009" iso-date="2009-12-03"></transaction-date>
+   <value currency="USD" value-date="2009-12-03">-6844.1</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2009-12-03"></transaction-date>
+   <value currency="USD" value-date="2009-12-03">298748</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-02-22"></transaction-date>
+   <value currency="USD" value-date="2010-02-22">178282</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2010" iso-date="2010-12-01"></transaction-date>
+   <value currency="USD" value-date="2010-12-01">-3470.71</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2010-12-01"></transaction-date>
+   <value currency="USD" value-date="2010-12-01">711405</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2011" iso-date="2012-12-05"></transaction-date>
+   <value currency="USD" value-date="2012-12-05">-337.96</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2011-12-06"></transaction-date>
+   <value currency="USD" value-date="2011-12-06">597169</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-03-04"></transaction-date>
+   <value currency="USD" value-date="2013-03-04">-70204.64</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-01-18"></transaction-date>
+   <value currency="USD" value-date="2013-01-18">599056</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-11-20"></transaction-date>
+   <value currency="USD" value-date="2014-11-20">-19277.43</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-13"></transaction-date>
+   <value currency="USD" value-date="2013-12-13">8549</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-01-29"></transaction-date>
+   <value currency="USD" value-date="2014-01-29">255962</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-06-25"></transaction-date>
+   <value currency="USD" value-date="2015-06-25">-62409.24</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-10-15"></transaction-date>
+   <value currency="USD" value-date="2015-10-15">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
+   <value currency="USD" value-date="2015-01-30">10800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-01-30"></transaction-date>
+   <value currency="USD" value-date="2015-01-30">300969.3</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">12015</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-02-11"></transaction-date>
+   <value currency="USD" value-date="2015-02-11">1395</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-01-29"></transaction-date>
+   <value currency="USD" value-date="2016-01-29">-81187.26</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 0715-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">20000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">293150.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-03"></transaction-date>
+   <value currency="USD" value-date="2016-02-03">23800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">14694.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">2000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-12-28"></transaction-date>
+   <value currency="USD" value-date="2016-12-28">-32435.43</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-01-20"></transaction-date>
+   <value currency="USD" value-date="2017-01-20">18900</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-01-20"></transaction-date>
+   <value currency="USD" value-date="2017-01-20">726657</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-10-30"></transaction-date>
+   <value currency="USD" value-date="2017-10-30">-124270.43</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-24"></transaction-date>
+   <value currency="USD" value-date="2018-01-24">13980</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-01-24"></transaction-date>
+   <value currency="USD" value-date="2018-01-24">773550.8</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-02-06"></transaction-date>
+   <value currency="USD" value-date="2019-02-06">-9960.33</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-27"></transaction-date>
+   <value currency="USD" value-date="2018-11-27">12050</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-27"></transaction-date>
+   <value currency="USD" value-date="2018-11-27">514497.2</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-07"></transaction-date>
+   <value currency="USD" value-date="2019-06-07">-168886.2</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-27"></transaction-date>
+   <value currency="USD" value-date="2019-08-27">4172.17</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: 1619-CMR-06b-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2004" iso-date="2003-10-16"></transaction-date>
+   <value currency="USD" value-date="2003-10-16">890133</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: CMR-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2005-03-31"></transaction-date>
+   <value currency="USD" value-date="2005-03-31">391429.54</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: CMR-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2005-10-07"></transaction-date>
+   <value currency="USD" value-date="2005-10-07">-2005.92</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: CMR-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2006-04-26"></transaction-date>
+   <value currency="USD" value-date="2006-04-26">264786.49</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: CMR-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2006-06-21"></transaction-date>
+   <value currency="USD" value-date="2006-06-21">-4267.12</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: CMR-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2006-10-05"></transaction-date>
+   <value currency="USD" value-date="2006-10-05">-46312.52</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: CMR-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2005" iso-date="2007-05-08"></transaction-date>
+   <value currency="USD" value-date="2007-05-08">-1752.58</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: CMR-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2006" iso-date="2005-10-07"></transaction-date>
+   <value currency="USD" value-date="2005-10-07">283891</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: CMR-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2006" iso-date="2005-12-30"></transaction-date>
+   <value currency="USD" value-date="2005-12-30">26259</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: CMR-NVS-1)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Cameroon</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2006" iso-date="2006-04-07"></transaction-date>
+   <value currency="USD" value-date="2006-04-07">283891</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme CMR-YF-R-VAC (Approval code: CMR-NVS-1)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

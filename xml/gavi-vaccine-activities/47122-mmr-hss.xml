@@ -35,10 +35,11 @@
   <other-identifier ref="47122-0814-MMR-10A-Y" type="A3"></other-identifier>
   <other-identifier ref="47122-0815-MMR-10A-Y" type="A3"></other-identifier>
   <other-identifier ref="47122-1719-MMR-10A-Y" type="A3"></other-identifier>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2008-01-01" type="1"></activity-date>
   <activity-date iso-date="2008-01-01" type="2"></activity-date>
-  <activity-date iso-date="2019-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -54,7 +55,7 @@
     <narrative xml:lang="EN">Nay Pyi Taw</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>19.7450000 96.1297200</pos>
+    <pos>19.745 96.12972</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -134,6 +135,16 @@
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2019-01-01">14307616</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">5042663</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">2000000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -570,12 +581,40 @@
     <narrative xml:lang="EN">The Government of Myanmar</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MMRHSS2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-12-19"></transaction-date>
-   <value currency="USD" value-date="2018-12-19">9264953</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2021-06-01">5042663</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for Myanmar HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRHSS2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">2000000</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2020 budget for Myanmar HSS</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-06-05"></transaction-date>
+   <value currency="USD" value-date="2014-06-05">682542</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-RED CROSS (Approval code: 0814-MMR-10a-Y)</narrative>
    </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -586,129 +625,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-05-31"></transaction-date>
-   <value currency="USD" value-date="2011-05-31">2437405</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-08-24"></transaction-date>
-   <value currency="USD" value-date="2011-08-24">396000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">1188000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">3873666</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-19"></transaction-date>
-   <value currency="USD" value-date="2013-03-19">392500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-20"></transaction-date>
-   <value currency="USD" value-date="2013-12-20">2376000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-01-28"></transaction-date>
-   <value currency="USD" value-date="2014-01-28">5977249</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-01-28"></transaction-date>
-   <value currency="USD" value-date="2014-01-28">867500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-05"></transaction-date>
-   <value currency="USD" value-date="2014-06-05">682542</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-10-24"></transaction-date>
-   <value currency="USD" value-date="2014-10-24">3564000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-11-28"></transaction-date>
-   <value currency="USD" value-date="2014-11-28">7676891</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-06"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-07-06"></transaction-date>
    <value currency="USD" value-date="2016-07-06">341271</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-RED CROSS (Approval code: 0815-MMR-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -718,8 +639,151 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-22"></transaction-date>
+   <transaction-date gavi:budget-period="2008" iso-date="2011-08-24"></transaction-date>
+   <value currency="USD" value-date="2011-08-24">396000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-UNIC (Approval code: 0811-MMR-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">1188000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-UNIC (Approval code: 0814-MMR-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-03-19"></transaction-date>
+   <value currency="USD" value-date="2013-03-19">392500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-UNIC (Approval code: 0814-MMR-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-12-20"></transaction-date>
+   <value currency="USD" value-date="2013-12-20">2376000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-UNIC (Approval code: 0814-MMR-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-10-24"></transaction-date>
+   <value currency="USD" value-date="2014-10-24">3564000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-UNIC (Approval code: 0815-MMR-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2008" iso-date="2011-05-31"></transaction-date>
+   <value currency="USD" value-date="2011-05-31">2437405</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-WHO (Approval code: 0811-MMR-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">3873666</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-WHO (Approval code: 0814-MMR-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2014-01-28"></transaction-date>
+   <value currency="USD" value-date="2014-01-28">867500</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-WHO (Approval code: 0814-MMR-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-01-28"></transaction-date>
+   <value currency="USD" value-date="2014-01-28">5977249</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-WHO (Approval code: 0814-MMR-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-11-28"></transaction-date>
+   <value currency="USD" value-date="2014-11-28">7676891</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-1-WHO (Approval code: 0815-MMR-10a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-11-22"></transaction-date>
    <value currency="USD" value-date="2018-11-22">14694139</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-2-UNIC (Approval code: 1719-MMR-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -729,9 +793,26 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-11-29"></transaction-date>
    <value currency="USD" value-date="2018-11-29">1210138.44</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-2-UNIC SD (Approval code: 1719-MMR-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRHSS2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-07"></transaction-date>
+   <value currency="USD" value-date="2020-08-07">1086261.83</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-2-UNICEF SD</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -740,8 +821,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-12-03"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-12-03"></transaction-date>
    <value currency="USD" value-date="2018-12-03">4000000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-2-WHO (Approval code: 1719-MMR-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -751,41 +835,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-20"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2019-06-20"></transaction-date>
    <value currency="USD" value-date="2019-06-20">370264</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-12"></transaction-date>
-   <value currency="USD" value-date="2019-12-12">2992942</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-12"></transaction-date>
-   <value currency="USD" value-date="2019-12-12">3751668</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-03-16"></transaction-date>
-   <value currency="USD" value-date="2020-03-16">17273083</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-HSS-2-WHO (Approval code: 1719-MMR-10a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

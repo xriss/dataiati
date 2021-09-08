@@ -33,11 +33,10 @@
   </other-identifier>
   <other-identifier ref="47122-14-GIN-16A-X" type="A3"></other-identifier>
   <other-identifier ref="47122-14-GIN-17A-Y" type="A3"></other-identifier>
-  <activity-status code="3"></activity-status>
+  <activity-status code="2"></activity-status>
   <activity-date iso-date="2014-01-01" type="1"></activity-date>
   <activity-date iso-date="2014-01-01" type="2"></activity-date>
-  <activity-date iso-date="2014-12-31" type="3"></activity-date>
-  <activity-date iso-date="2014-12-31" type="4"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -53,7 +52,7 @@
     <narrative xml:lang="EN">Conakry</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>9.5379500 -13.6772900</pos>
+    <pos>9.53795 -13.67729</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -83,6 +82,16 @@
    <period-start iso-date="2014-01-01"></period-start>
    <period-end iso-date="2014-12-31"></period-end>
    <value currency="USD" value-date="2014-01-01">4844279.55</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">535294.08</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">927543.88</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -155,11 +164,42 @@
     <narrative xml:lang="EN">The Government of Guinea</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="GINMenA2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">535294.08</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2020 budget for Guinea MenA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">927543.88</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Guinea MenA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2020">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-08-07"></transaction-date>
-   <value currency="USD" value-date="2014-08-07">2590849</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <transaction-date iso-date="2020-11-20"></transaction-date>
+   <value currency="USD" value-date="2020-11-20">387955</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-MENA-R-VIG-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -168,30 +208,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-08-28"></transaction-date>
-   <value currency="USD" value-date="2014-08-28">277422</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Guinea</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-10-09"></transaction-date>
-   <value currency="USD" value-date="2014-10-09">1987018</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Guinea</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-28"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-04-28"></transaction-date>
    <value currency="USD" value-date="2015-04-28">334518</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-MenA-C-OPS-UNIC (Approval code: 14-GIN-17a-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -201,8 +222,207 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-08"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-10-09"></transaction-date>
+   <value currency="USD" value-date="2014-10-09">1987018</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme GIN-MenA-C-OPS-WHO (Approval code: 14-GIN-17a-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-28"></transaction-date>
+   <value currency="USD" value-date="2020-08-28">845624.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-C-MCU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-09-25"></transaction-date>
+   <value currency="USD" value-date="2020-09-25">81935.28</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-C-MCU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-05-27"></transaction-date>
+   <value currency="USD" value-date="2021-05-27">-11611.85</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-C-MCU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-14"></transaction-date>
+   <value currency="USD" value-date="2021-07-14">-35313.42</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-C-MCU-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-20"></transaction-date>
+   <value currency="USD" value-date="2020-08-20">88964</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-R-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-28"></transaction-date>
+   <value currency="USD" value-date="2020-08-28">16264</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-R-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-04"></transaction-date>
+   <value currency="USD" value-date="2020-12-04">38945.21</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-R-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-11"></transaction-date>
+   <value currency="USD" value-date="2020-12-11">-1119.33</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-R-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-20"></transaction-date>
+   <value currency="USD" value-date="2021-01-20">229134.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-R-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-15"></transaction-date>
+   <value currency="USD" value-date="2021-03-15">-1580.21</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-R-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GINMenA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-14"></transaction-date>
+   <value currency="USD" value-date="2021-07-14">-16787.35</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GIN-MENA-R-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-08-07"></transaction-date>
+   <value currency="USD" value-date="2014-08-07">2590849</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GIN-MenA-C-VAC (Approval code: 14-GIN-16a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-08-28"></transaction-date>
+   <value currency="USD" value-date="2014-08-28">277422</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GIN-MenA-C-VAC (Approval code: 14-GIN-16a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Guinea</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2016-01-08"></transaction-date>
    <value currency="USD" value-date="2016-01-08">-240597</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GIN-MenA-C-VAC (Approval code: 14-GIN-16a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -212,8 +432,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-29"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2016-01-29"></transaction-date>
    <value currency="USD" value-date="2016-01-29">-104930.45</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GIN-MenA-C-VAC (Approval code: 14-GIN-16a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -223,8 +446,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-01-29"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2016-01-29"></transaction-date>
    <value currency="USD" value-date="2016-01-29">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme GIN-MenA-C-VAC (Approval code: 14-GIN-16a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

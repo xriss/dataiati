@@ -56,7 +56,7 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">Nay Pyi Taw</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>19.7450000 96.1297200</pos>
+    <pos>19.745 96.12972</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -82,6 +82,21 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2018-09-01">-10200.17</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">67761.12</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">2595942.51</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -349,42 +364,42 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
     <narrative xml:lang="EN">The Government of Myanmar</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MMRPENTA2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-10-03"></transaction-date>
-   <value currency="USD" value-date="2018-10-03">1067500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">-10200.17</value>
    <description>
-    <narrative xml:lang="EN">Approved 2019 budget</narrative>
+    <narrative xml:lang="EN">Approved 2019 budget for Myanmar PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Myanmar</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MMRPENTA2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">1760500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">67761.12</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Myanmar PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Myanmar</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MMRPENTA2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">97500</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">2595942.51</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Myanmar PENTA</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -393,19 +408,193 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-07"></transaction-date>
-   <value currency="USD" value-date="2012-06-07">6120703</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-11-05"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-11-05"></transaction-date>
    <value currency="USD" value-date="2012-11-05">1209000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MMR-PENTA-R-VIG-WHO (Approval code: 12-MMR-08b-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-05-22"></transaction-date>
+   <value currency="USD" value-date="2019-05-22">1063185</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-29"></transaction-date>
+   <value currency="USD" value-date="2019-11-29">922500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-01-24"></transaction-date>
+   <value currency="USD" value-date="2020-01-24">-922500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-28"></transaction-date>
+   <value currency="USD" value-date="2020-02-28">136731.12</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-03-31"></transaction-date>
+   <value currency="USD" value-date="2020-03-31">-922500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-04-24"></transaction-date>
+   <value currency="USD" value-date="2020-04-24">367906</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-15"></transaction-date>
+   <value currency="USD" value-date="2020-05-15">-5885.17</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-20"></transaction-date>
+   <value currency="USD" value-date="2020-08-20">-44372.86</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-26"></transaction-date>
+   <value currency="USD" value-date="2020-08-26">1356961</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-27"></transaction-date>
+   <value currency="USD" value-date="2021-01-27">207610</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-03"></transaction-date>
+   <value currency="USD" value-date="2021-02-03">1283987</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRPENTA2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">10049.05</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MMR-PENTA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2012" iso-date="2012-06-07"></transaction-date>
+   <value currency="USD" value-date="2012-06-07">6120703</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -415,41 +604,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">338233</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-17"></transaction-date>
-   <value currency="USD" value-date="2012-12-17">5737922</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-04-11"></transaction-date>
-   <value currency="USD" value-date="2013-04-11">5104913</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-06-24"></transaction-date>
+   <transaction-date gavi:budget-period="2012" iso-date="2013-06-24"></transaction-date>
    <value currency="USD" value-date="2013-06-24">-564740.21</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -459,8 +618,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-13"></transaction-date>
-   <value currency="USD" value-date="2013-12-13">233202</value>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">338233</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -470,8 +632,39 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-01-21"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2012-12-17"></transaction-date>
+   <value currency="USD" value-date="2012-12-17">5737922</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-04-11"></transaction-date>
+   <value currency="USD" value-date="2013-04-11">5104913</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-01-21"></transaction-date>
    <value currency="USD" value-date="2014-01-21">250000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -481,8 +674,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-03"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-03"></transaction-date>
    <value currency="USD" value-date="2014-07-03">-1840806</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -492,8 +688,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-03"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-07-03"></transaction-date>
    <value currency="USD" value-date="2014-07-03">1184086</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -503,8 +702,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-10-02"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-10-02"></transaction-date>
    <value currency="USD" value-date="2014-10-02">-1184086</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -514,8 +716,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-10-02"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-10-02"></transaction-date>
    <value currency="USD" value-date="2014-10-02">1657500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -525,8 +730,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-03"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-12-03"></transaction-date>
    <value currency="USD" value-date="2014-12-03">153606</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -536,52 +744,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-30"></transaction-date>
-   <value currency="USD" value-date="2015-03-30">11700</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-30"></transaction-date>
-   <value currency="USD" value-date="2015-03-30">1736000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-16"></transaction-date>
-   <value currency="USD" value-date="2015-04-16">1364000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-16"></transaction-date>
-   <value currency="USD" value-date="2015-04-16">9300</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2015-06-03"></transaction-date>
    <value currency="USD" value-date="2015-06-03">-1031784.87</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -591,8 +758,81 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-16"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-12-13"></transaction-date>
+   <value currency="USD" value-date="2013-12-13">233202</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-03-30"></transaction-date>
+   <value currency="USD" value-date="2015-03-30">11700</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-03-30"></transaction-date>
+   <value currency="USD" value-date="2015-03-30">1736000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-04-16"></transaction-date>
+   <value currency="USD" value-date="2015-04-16">1364000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-04-16"></transaction-date>
+   <value currency="USD" value-date="2015-04-16">9300</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-07-16"></transaction-date>
    <value currency="USD" value-date="2015-07-16">1521945</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -602,8 +842,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-07-16"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-07-16"></transaction-date>
    <value currency="USD" value-date="2015-07-16">8120</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -613,8 +856,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-14"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-09-14"></transaction-date>
    <value currency="USD" value-date="2015-09-14">-1521945</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -624,8 +870,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-14"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-09-14"></transaction-date>
    <value currency="USD" value-date="2015-09-14">1521945</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -635,30 +884,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-22"></transaction-date>
-   <value currency="USD" value-date="2015-09-22">1</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-09-22"></transaction-date>
-   <value currency="USD" value-date="2015-09-22">232571.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-11-05"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-11-05"></transaction-date>
    <value currency="USD" value-date="2015-11-05">1500000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -668,8 +898,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-11-05"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-11-05"></transaction-date>
    <value currency="USD" value-date="2015-11-05">8202</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -679,41 +912,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-16"></transaction-date>
-   <value currency="USD" value-date="2015-12-16">10000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">149935.5</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-10"></transaction-date>
-   <value currency="USD" value-date="2016-02-10">15000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-03"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2016-05-03"></transaction-date>
    <value currency="USD" value-date="2016-05-03">-71690.42</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -723,8 +926,53 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-18"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-22"></transaction-date>
+   <value currency="USD" value-date="2015-09-22">1</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-09-22"></transaction-date>
+   <value currency="USD" value-date="2015-09-22">232571.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-12-16"></transaction-date>
+   <value currency="USD" value-date="2015-12-16">10000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-18"></transaction-date>
    <value currency="USD" value-date="2016-05-18">1500000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -734,8 +982,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-05-18"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-05-18"></transaction-date>
    <value currency="USD" value-date="2016-05-18">8384</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -745,8 +996,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-13"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-07-13"></transaction-date>
    <value currency="USD" value-date="2016-07-13">2700000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -756,8 +1010,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-13"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2016-07-13"></transaction-date>
    <value currency="USD" value-date="2016-07-13">38386</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -767,8 +1024,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-02"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-03-02"></transaction-date>
    <value currency="USD" value-date="2017-03-02">17925</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -778,8 +1038,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-02"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-03-02"></transaction-date>
    <value currency="USD" value-date="2017-03-02">705840</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -789,19 +1052,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
-   <value currency="USD" value-date="2017-08-29">-61477.71</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-08-29"></transaction-date>
    <value currency="USD" value-date="2017-08-29">-93982.11</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -811,8 +1066,81 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
+   <transaction-date gavi:budget-period="2015" iso-date="2017-09-04"></transaction-date>
+   <value currency="USD" value-date="2017-09-04">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">149935.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-10"></transaction-date>
+   <value currency="USD" value-date="2016-02-10">15000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-08-29"></transaction-date>
+   <value currency="USD" value-date="2017-08-29">-61477.71</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-09-04"></transaction-date>
+   <value currency="USD" value-date="2017-09-04">0</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1216-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-08-29"></transaction-date>
    <value currency="USD" value-date="2017-08-29">17834</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -822,8 +1150,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-29"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-08-29"></transaction-date>
    <value currency="USD" value-date="2017-08-29">680000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -833,30 +1164,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-04"></transaction-date>
-   <value currency="USD" value-date="2017-09-04">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-04"></transaction-date>
-   <value currency="USD" value-date="2017-09-04">0</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-08"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-08"></transaction-date>
    <value currency="USD" value-date="2017-11-08">19837</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -866,8 +1178,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-08"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-11-08"></transaction-date>
    <value currency="USD" value-date="2017-11-08">715000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -877,8 +1192,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-08"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-03-08"></transaction-date>
    <value currency="USD" value-date="2018-03-08">1047800</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -888,8 +1206,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-08"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-03-08"></transaction-date>
    <value currency="USD" value-date="2018-03-08">30031</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -899,41 +1220,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-07-11"></transaction-date>
-   <value currency="USD" value-date="2018-07-11">1334125</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-07-11"></transaction-date>
-   <value currency="USD" value-date="2018-07-11">39058</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-06"></transaction-date>
-   <value currency="USD" value-date="2018-09-06">-650000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-11-07"></transaction-date>
    <value currency="USD" value-date="2018-11-07">-7925.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -943,8 +1234,53 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-03-25"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-07-11"></transaction-date>
+   <value currency="USD" value-date="2018-07-11">1334125</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-07-11"></transaction-date>
+   <value currency="USD" value-date="2018-07-11">39058</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-09-06"></transaction-date>
+   <value currency="USD" value-date="2018-09-06">-650000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-03-25"></transaction-date>
    <value currency="USD" value-date="2019-03-25">18556</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -954,8 +1290,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-03-25"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-03-25"></transaction-date>
    <value currency="USD" value-date="2019-03-25">690000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -965,30 +1304,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-05-22"></transaction-date>
-   <value currency="USD" value-date="2019-05-22">1035345</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-05-22"></transaction-date>
-   <value currency="USD" value-date="2019-05-22">27840</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-09-06"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-09-06"></transaction-date>
    <value currency="USD" value-date="2019-09-06">-26244.81</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -998,8 +1318,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-29"></transaction-date>
-   <value currency="USD" value-date="2019-11-29">22500</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-05-22"></transaction-date>
+   <value currency="USD" value-date="2019-05-22">1035345</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1009,41 +1332,11 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-29"></transaction-date>
-   <value currency="USD" value-date="2019-11-29">900000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">107290</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">12431.12</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Myanmar</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">17010</value>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-05-22"></transaction-date>
+   <value currency="USD" value-date="2019-05-22">27840</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MMR-PENTA-R-VAC (Approval code: 1721-MMR-04c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

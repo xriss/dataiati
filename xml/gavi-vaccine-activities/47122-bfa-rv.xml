@@ -41,7 +41,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2013-01-01" type="1"></activity-date>
   <activity-date iso-date="2013-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -57,7 +57,7 @@
     <narrative xml:lang="EN">Ouagadougou</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>12.3642300 -1.5383400</pos>
+    <pos>12.36423 -1.53834</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -122,6 +122,16 @@
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-01-01">1226000</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">986</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">2311309</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -530,12 +540,68 @@
     <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="BFARV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">1226000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">986</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Burkina Faso RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BFARV2021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">2311309</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2021 budget for Burkina Faso RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-08-02"></transaction-date>
+   <value currency="USD" value-date="2019-08-02">198034</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BFA-RV-R-PSG-MOH (Approval code: 19-BFA-13g-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BFARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-08-02"></transaction-date>
+   <value currency="USD" value-date="2019-08-02">198034</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BFA-RV-R-PSG-MOH</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-09-27"></transaction-date>
+   <value currency="USD" value-date="2013-09-27">607000</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BFA-RV-R-VIG-MOH (Approval code: 14-BFA-08b-Y)</narrative>
    </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -546,338 +612,137 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-08-22"></transaction-date>
-   <value currency="USD" value-date="2013-08-22">1613500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-08-22"></transaction-date>
-   <value currency="USD" value-date="2013-08-22">247000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-08-22"></transaction-date>
-   <value currency="USD" value-date="2013-08-22">730100</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-27"></transaction-date>
-   <value currency="USD" value-date="2013-09-27">607000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-11-27"></transaction-date>
-   <value currency="USD" value-date="2013-11-27">159000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-11-27"></transaction-date>
-   <value currency="USD" value-date="2013-11-27">2274300</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-18"></transaction-date>
-   <value currency="USD" value-date="2014-02-18">2272725</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-02-18"></transaction-date>
-   <value currency="USD" value-date="2014-02-18">240000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-05-14"></transaction-date>
-   <value currency="USD" value-date="2014-05-14">2407065</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-07-02"></transaction-date>
-   <value currency="USD" value-date="2014-07-02">1203532</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-08-21"></transaction-date>
-   <value currency="USD" value-date="2014-08-21">1205535</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-09-09"></transaction-date>
-   <value currency="USD" value-date="2014-09-09">-99964.46</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-03"></transaction-date>
-   <value currency="USD" value-date="2014-12-03">1249535</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-16"></transaction-date>
-   <value currency="USD" value-date="2015-04-16">125000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-16"></transaction-date>
-   <value currency="USD" value-date="2015-04-16">3535875</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-22"></transaction-date>
-   <value currency="USD" value-date="2015-04-22">-216611.25</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-04-22"></transaction-date>
-   <value currency="USD" value-date="2015-04-22">-66382</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
-   <value currency="USD" value-date="2015-06-03">2357775</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-03"></transaction-date>
-   <value currency="USD" value-date="2015-06-03">72000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-12"></transaction-date>
-   <value currency="USD" value-date="2015-08-12">41000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-08-12"></transaction-date>
-   <value currency="USD" value-date="2015-08-12">611100</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-02"></transaction-date>
-   <value currency="USD" value-date="2015-12-02">1307250</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-02"></transaction-date>
-   <value currency="USD" value-date="2015-12-02">88000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-21"></transaction-date>
-   <value currency="USD" value-date="2015-12-21">-13651.13</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-03"></transaction-date>
-   <value currency="USD" value-date="2016-02-03">200000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-02-03"></transaction-date>
-   <value currency="USD" value-date="2016-02-03">2612925</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-04-20"></transaction-date>
-   <value currency="USD" value-date="2016-04-20">179000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-04-20"></transaction-date>
-   <value currency="USD" value-date="2016-04-20">2612925</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-13"></transaction-date>
-   <value currency="USD" value-date="2016-07-13">101000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-07-13"></transaction-date>
-   <value currency="USD" value-date="2016-07-13">1305675</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-10-06"></transaction-date>
+   <transaction-date gavi:budget-period="2014" iso-date="2016-10-06"></transaction-date>
    <value currency="USD" value-date="2016-10-06">-24400.1</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme BFA-RV-R-VIG-MOH (Approval code: 14-BFA-08b-Y)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BFARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-04-10"></transaction-date>
+   <value currency="USD" value-date="2019-04-10">3103068</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BFA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BFARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-06-21"></transaction-date>
+   <value currency="USD" value-date="2019-06-21">3751114</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BFA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BFARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-11-20"></transaction-date>
+   <value currency="USD" value-date="2019-11-20">817220</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BFA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BFARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-02-14"></transaction-date>
+   <value currency="USD" value-date="2020-02-14">409766</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BFA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BFARV2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-15"></transaction-date>
+   <value currency="USD" value-date="2020-05-15">-154695.89</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BFA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BFARV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-11-25"></transaction-date>
+   <value currency="USD" value-date="2020-11-25">1605315</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BFA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BFARV2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-05"></transaction-date>
+   <value currency="USD" value-date="2021-02-05">619426</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BFA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BFARV2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-04-22"></transaction-date>
+   <value currency="USD" value-date="2021-04-22">-93500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BFA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-08-22"></transaction-date>
+   <value currency="USD" value-date="2013-08-22">1613500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -887,8 +752,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">104000</value>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-08-22"></transaction-date>
+   <value currency="USD" value-date="2013-08-22">247000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -898,8 +766,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-11-22"></transaction-date>
-   <value currency="USD" value-date="2016-11-22">1345050</value>
+   <transaction-date gavi:budget-period="2013" iso-date="2013-08-22"></transaction-date>
+   <value currency="USD" value-date="2013-08-22">730100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -909,8 +780,375 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-01-25"></transaction-date>
+   <transaction-date gavi:budget-period="2013" iso-date="2014-09-09"></transaction-date>
+   <value currency="USD" value-date="2014-09-09">-99964.46</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-11-27"></transaction-date>
+   <value currency="USD" value-date="2013-11-27">159000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2013-11-27"></transaction-date>
+   <value currency="USD" value-date="2013-11-27">2274300</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-18"></transaction-date>
+   <value currency="USD" value-date="2014-02-18">2272725</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-02-18"></transaction-date>
+   <value currency="USD" value-date="2014-02-18">240000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-05-14"></transaction-date>
+   <value currency="USD" value-date="2014-05-14">2407065</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-07-02"></transaction-date>
+   <value currency="USD" value-date="2014-07-02">1203532</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2014-08-21"></transaction-date>
+   <value currency="USD" value-date="2014-08-21">1205535</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-04-22"></transaction-date>
+   <value currency="USD" value-date="2015-04-22">-216611.25</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2014" iso-date="2015-04-22"></transaction-date>
+   <value currency="USD" value-date="2015-04-22">-66382</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2014-12-03"></transaction-date>
+   <value currency="USD" value-date="2014-12-03">1249535</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-04-16"></transaction-date>
+   <value currency="USD" value-date="2015-04-16">125000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-04-16"></transaction-date>
+   <value currency="USD" value-date="2015-04-16">3535875</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
+   <value currency="USD" value-date="2015-06-03">2357775</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-06-03"></transaction-date>
+   <value currency="USD" value-date="2015-06-03">72000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-12"></transaction-date>
+   <value currency="USD" value-date="2015-08-12">41000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-08-12"></transaction-date>
+   <value currency="USD" value-date="2015-08-12">611100</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2015" iso-date="2015-12-21"></transaction-date>
+   <value currency="USD" value-date="2015-12-21">-13651.13</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1315-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-02"></transaction-date>
+   <value currency="USD" value-date="2015-12-02">1307250</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 16-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2015-12-02"></transaction-date>
+   <value currency="USD" value-date="2015-12-02">88000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 16-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-03"></transaction-date>
+   <value currency="USD" value-date="2016-02-03">200000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 16-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-02-03"></transaction-date>
+   <value currency="USD" value-date="2016-02-03">2612925</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 16-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-04-20"></transaction-date>
+   <value currency="USD" value-date="2016-04-20">179000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 16-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-04-20"></transaction-date>
+   <value currency="USD" value-date="2016-04-20">2612925</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 16-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-07-13"></transaction-date>
+   <value currency="USD" value-date="2016-07-13">101000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 16-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2016-07-13"></transaction-date>
+   <value currency="USD" value-date="2016-07-13">1305675</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 16-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2016" iso-date="2017-01-25"></transaction-date>
    <value currency="USD" value-date="2017-01-25">-273909.16</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 16-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -920,8 +1158,39 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-02-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">104000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2016-11-22"></transaction-date>
+   <value currency="USD" value-date="2016-11-22">1345050</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-02-22"></transaction-date>
    <value currency="USD" value-date="2017-02-22">1343475</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -931,8 +1200,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-02-22"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-02-22"></transaction-date>
    <value currency="USD" value-date="2017-02-22">92799</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -942,8 +1214,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
    <value currency="USD" value-date="2017-06-07">180405</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -953,8 +1228,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-06-07"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-06-07"></transaction-date>
    <value currency="USD" value-date="2017-06-07">1992960</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -964,8 +1242,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-17"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-17"></transaction-date>
    <value currency="USD" value-date="2017-07-17">34358</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -975,8 +1256,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-17"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-17"></transaction-date>
    <value currency="USD" value-date="2017-07-17">466560</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -986,8 +1270,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-31"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-31"></transaction-date>
    <value currency="USD" value-date="2017-07-31">180297</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -997,8 +1284,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-31"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-31"></transaction-date>
    <value currency="USD" value-date="2017-07-31">2455200</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1008,52 +1298,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-12"></transaction-date>
-   <value currency="USD" value-date="2017-12-12">139096</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-12-12"></transaction-date>
-   <value currency="USD" value-date="2017-12-12">1883520</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-08"></transaction-date>
-   <value currency="USD" value-date="2018-03-08">139096</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-03-08"></transaction-date>
-   <value currency="USD" value-date="2018-03-08">1883520</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-18"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-05-18"></transaction-date>
    <value currency="USD" value-date="2018-05-18">-1343475</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1063,8 +1312,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-18"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-05-18"></transaction-date>
    <value currency="USD" value-date="2018-05-18">-1345050</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1074,8 +1326,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-05-18"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-05-18"></transaction-date>
    <value currency="USD" value-date="2018-05-18">-466560</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1085,30 +1340,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
-   <value currency="USD" value-date="2018-06-26">139096</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
-   <value currency="USD" value-date="2018-06-26">1883520</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-09-04"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-09-04"></transaction-date>
    <value currency="USD" value-date="2018-09-04">-197950.1</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1118,8 +1354,95 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-10"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-12-12"></transaction-date>
+   <value currency="USD" value-date="2017-12-12">139096</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-12-12"></transaction-date>
+   <value currency="USD" value-date="2017-12-12">1883520</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-03-08"></transaction-date>
+   <value currency="USD" value-date="2018-03-08">139096</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-03-08"></transaction-date>
+   <value currency="USD" value-date="2018-03-08">1883520</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
+   <value currency="USD" value-date="2018-06-26">139096</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-06-26"></transaction-date>
+   <value currency="USD" value-date="2018-06-26">1883520</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1720-BFA-13a-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-04-10"></transaction-date>
    <value currency="USD" value-date="2019-04-10">212828</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1920-BFA-13F-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1129,8 +1452,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-10"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-04-10"></transaction-date>
    <value currency="USD" value-date="2019-04-10">2890240</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1920-BFA-13F-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1140,8 +1466,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-21"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-21"></transaction-date>
    <value currency="USD" value-date="2019-06-21">256714</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1920-BFA-13f-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -1151,85 +1480,11 @@
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-06-21"></transaction-date>
+   <transaction-date gavi:budget-period="2019" iso-date="2019-06-21"></transaction-date>
    <value currency="USD" value-date="2019-06-21">3494400</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-08-02"></transaction-date>
-   <value currency="USD" value-date="2019-08-02">198034</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-13"></transaction-date>
-   <value currency="USD" value-date="2019-11-13">108205</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-13"></transaction-date>
-   <value currency="USD" value-date="2019-11-13">16253</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">106525</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-11-20"></transaction-date>
-   <value currency="USD" value-date="2019-11-20">710695</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-14"></transaction-date>
-   <value currency="USD" value-date="2020-02-14">355300</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Burkina Faso</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-14"></transaction-date>
-   <value currency="USD" value-date="2020-02-14">54466</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme BFA-RV-R-VAC (Approval code: 1920-BFA-13f-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>

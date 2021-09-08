@@ -46,7 +46,7 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2017-01-01" type="1"></activity-date>
   <activity-date iso-date="2017-01-01" type="2"></activity-date>
-  <activity-date iso-date="2020-12-31" type="3"></activity-date>
+  <activity-date iso-date="2024-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -62,7 +62,7 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
     <narrative xml:lang="EN">Maputo</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-25.9652800 32.5891700</pos>
+    <pos>-25.96528 32.58917</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -88,6 +88,31 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2019-09-01">83781.58</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">433295.55</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">781242.18</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">796449.23</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2024-01-01"></period-start>
+   <period-end iso-date="2024-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">811613.35</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -285,28 +310,28 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
     <narrative xml:lang="EN">The Government of Mozambique</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MOZMR2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-08-27"></transaction-date>
-   <value currency="USD" value-date="2019-08-27">478000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">83781.58</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2020 budget for Mozambique MR</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Mozambique</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MOZMR2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">55000</value>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">433295.55</value>
    <description>
-    <narrative xml:lang="EN">Approved 2020 budget</narrative>
+    <narrative xml:lang="EN">Approved 2021 budget for Mozambique MR</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -315,8 +340,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-05"></transaction-date>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-05"></transaction-date>
    <value currency="USD" value-date="2017-07-05">7879866</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MOZ-MR-C-CU-OPS-MOH (Approval code: 17-MOZ-35b-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -326,8 +354,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-05"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-07-05"></transaction-date>
    <value currency="USD" value-date="2017-07-05">933198</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MOZ-MR-R-1st-VIG-MOH (Approval code: 18-MOZ-08l-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -337,140 +368,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-06"></transaction-date>
-   <value currency="USD" value-date="2017-07-06">210000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-07-06"></transaction-date>
-   <value currency="USD" value-date="2017-07-06">8729611.8</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-28"></transaction-date>
-   <value currency="USD" value-date="2017-11-28">17000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-11-28"></transaction-date>
-   <value currency="USD" value-date="2017-11-28">696051.6</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-02-22"></transaction-date>
-   <value currency="USD" value-date="2018-02-22">17964</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-30"></transaction-date>
-   <value currency="USD" value-date="2018-04-30">328056.26</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
-   <value currency="USD" value-date="2018-06-26">10500</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-26"></transaction-date>
-   <value currency="USD" value-date="2018-06-26">465378.4</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-07-27"></transaction-date>
-   <value currency="USD" value-date="2018-07-27">-720.26</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-19"></transaction-date>
-   <value currency="USD" value-date="2018-11-19">12000</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-11-19"></transaction-date>
-   <value currency="USD" value-date="2018-11-19">570064</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-02-06"></transaction-date>
-   <value currency="USD" value-date="2019-02-06">-722.64</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-04-01"></transaction-date>
+   <transaction-date gavi:budget-period="2018" iso-date="2019-04-01"></transaction-date>
    <value currency="USD" value-date="2019-04-01">-933198</value>
+   <description>
+    <narrative xml:lang="EN">Cash disbursement for programme MOZ-MR-R-1st-VIG-MOH (Approval code: 18-MOZ-08l-Y)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -478,32 +380,167 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
     <narrative xml:lang="EN">The Government of Mozambique</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MOZMR2022">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">781242.18</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2022 budget for Mozambique MR</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MOZMR2023">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-11-01">796449.23</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2023 budget for Mozambique MR</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MOZMR2024">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <value currency="USD" value-date="2020-12-01">811613.35</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2024 budget for Mozambique MR</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MOZMR2019">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-11-19"></transaction-date>
+   <value currency="USD" value-date="2018-11-19">582064</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MOZ-MR-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MOZMR2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-12-12"></transaction-date>
-   <value currency="USD" value-date="2019-12-12">463004.8</value>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <value currency="USD" value-date="2019-12-12">472804.8</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MOZ-MR-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Mozambique</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-12"></transaction-date>
-   <value currency="USD" value-date="2019-12-12">9800</value>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Mozambique</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction ref="MOZMR2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">52425</value>
+   <value currency="USD" value-date="2020-02-28">77239.78</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MOZ-MR-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MOZMR2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-08-20"></transaction-date>
+   <value currency="USD" value-date="2020-08-20">-22207.58</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MOZ-MR-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MOZMR2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-10"></transaction-date>
+   <value currency="USD" value-date="2021-02-10">-4875.83</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MOZ-MR-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MOZMR2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">1569</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MOZ-MR-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MOZMR2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-03-24"></transaction-date>
+   <value currency="USD" value-date="2021-03-24">45877</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MOZ-MR-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MOZMR2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-14"></transaction-date>
+   <value currency="USD" value-date="2021-07-14">67260</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MOZ-MR-RTN-1&amp;2-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-06"></transaction-date>
+   <value currency="USD" value-date="2017-07-06">210000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-C-CU-VAC (Approval code: 17-MOZ-18d-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -513,8 +550,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">7030.78</value>
+   <transaction-date gavi:budget-period="2017" iso-date="2017-07-06"></transaction-date>
+   <value currency="USD" value-date="2017-07-06">8729611.8</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-C-CU-VAC (Approval code: 17-MOZ-18d-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -524,8 +564,11 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">8370</value>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-04-30"></transaction-date>
+   <value currency="USD" value-date="2018-04-30">328056.26</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-C-CU-VAC (Approval code: 17-MOZ-18d-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
@@ -535,8 +578,123 @@ Riposte aux flamb&#xE9;es de rougeole (par le biais de l&#x2019;Initiative contr
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-02-28"></transaction-date>
-   <value currency="USD" value-date="2020-02-28">9414</value>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-06-26"></transaction-date>
+   <value currency="USD" value-date="2018-06-26">10500</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-C-CU-VAC (Approval code: 17-MOZ-18d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2018-06-26"></transaction-date>
+   <value currency="USD" value-date="2018-06-26">465378.4</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-C-CU-VAC (Approval code: 17-MOZ-18d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2017" iso-date="2019-02-06"></transaction-date>
+   <value currency="USD" value-date="2019-02-06">-722.64</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-C-CU-VAC (Approval code: 17-MOZ-18d-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-19"></transaction-date>
+   <value currency="USD" value-date="2018-11-19">12000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-R-1&amp;2-VAC (Approval code: 19-MOZ-18e-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2019" iso-date="2018-11-19"></transaction-date>
+   <value currency="USD" value-date="2018-11-19">570064</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-R-1&amp;2-VAC (Approval code: 19-MOZ-18e-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-28"></transaction-date>
+   <value currency="USD" value-date="2017-11-28">17000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-R-1st-VAC (Approval code: 1819-MOZ-18c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2017-11-28"></transaction-date>
+   <value currency="USD" value-date="2017-11-28">696051.6</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-R-1st-VAC (Approval code: 1819-MOZ-18c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-02-22"></transaction-date>
+   <value currency="USD" value-date="2018-02-22">17964</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-R-1st-VAC (Approval code: 1819-MOZ-18c-X)</narrative>
+   </description>
+   <provider-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mozambique</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date gavi:budget-period="2018" iso-date="2018-07-27"></transaction-date>
+   <value currency="USD" value-date="2018-07-27">-720.26</value>
+   <description>
+    <narrative xml:lang="EN">Vaccines disbursement for programme MOZ-MR-R-1st-VAC (Approval code: 1819-MOZ-18c-X)</narrative>
+   </description>
    <provider-org ref="XM-DAC-41122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
