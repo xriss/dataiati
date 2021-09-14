@@ -49,6 +49,25 @@ export -f restore
 cat dataflat/downloads.txt | sort -R | parallel -j 1 --bar restore
 
 
+# regenerate json metadata from the files in the xml directory so restored xml files have correct meta
+
+rm -rf json
+
+mkdir -p json
+mkdir -p json/activity-identifiers
+mkdir -p json/organisation-identifiers
+
+node_modules/d-portal/dflat/dflat packages-meta --dir "$dirname" --reparse
+
+# do not keep the individual metas 
+rm -rf json/activity-identifiers
+rm -rf json/organisation-identifiers
+
+
+
+
+# merge all the logs into one file
+
 cat dataflat/logs/*.txt >logs.txt
 grep --colour=never  --after-context=1 --before-context=1 --extended-regexp '(curl:|dflat:)' logs.txt >errors.txt
 
@@ -58,6 +77,7 @@ grep --colour=never  --after-context=1 --before-context=1 --extended-regexp '(cu
 git add logs.txt
 git add errors.txt
 git add xml
+git add json
 git commit -m"$(command date -I)"
 git gc
 
