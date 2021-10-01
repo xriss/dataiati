@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-GQ-K00-004</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Projet d&apos;appui &#xE0; la mise en oeuvre du plan national de d&#xE9;veloppement &#xE9;conomique et social (PNDES)</narrative>
@@ -17,47 +17,47 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">MINISTERE DU PLAN ET DU DEVELOPPEMENT.</narrative>
   </participating-org>
-  <participating-org ref="XM-DAC-MIC Fund" role="1" type="40">
+  <participating-org ref="MIC Fund" role="1">
    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="5"></activity-status>
   <activity-date iso-date="2009-04-10" type="1"></activity-date>
   <activity-date iso-date="2009-04-10" type="2"></activity-date>
   <activity-date iso-date="2014-12-30" type="3"></activity-date>
+  <activity-date iso-date="2014-12-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN">SNSP1</narrative>
+    <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">PUTHOD Dominique</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Strategy &amp; Policy Officer</narrative>
+    <narrative xml:lang="EN">Charg&#xE9; Principal des Politiques et de la Strat&#xE9;gie &#x2013; Macro&#xE9;conomiste</narrative>
    </job-title>
    <telephone></telephone>
    <email>d.puthod@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="GQ" percentage="100"></recipient-country>
-  <sector code="43010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Multisector aid</narrative>
+  <sector code="11330" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Multi-Sector</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="7.2.1" percentage="100" vocabulary="1">
+   <budget-item code="5.3.9" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">General Budget Support - General Budget Support</narrative>
+     <narrative xml:lang="EN">Education - vocational training</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -173,22 +173,7 @@
    <value currency="XDR" value-date="2014-07-10">17977.97</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="5500155001851">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="XDR" value-date="2014-12-31">63622.76</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2014</narrative>
-   </description>
-   <provider-org ref="XM-DAC-MIC Fund">
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5500155001851" ref="5500155001851">
+  <transaction ref="5500155001851">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2009-04-10"></transaction-date>
    <value currency="XDR" value-date="2009-04-10">395515.25</value>
@@ -203,7 +188,18 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction afdb:finance-type-id="1" ref="1">
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="XDR" value-date="2014-12-31">63622.76</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2014</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2009-04-10"></transaction-date>
    <value currency="XDR" value-date="2009-04-10">259218.92</value>
@@ -285,11 +281,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

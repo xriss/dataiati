@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-MZ-K00-008</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Mozambique - Extractive Industry Transparency Initiative Project</narrative>
@@ -11,7 +11,7 @@
   <description type="1">
    <narrative xml:lang="EN">1.1 Continued and sustainable growth that contributes to poverty reduction 1.2 Adequate and transparent redistribution of natural resource wealth for the sustainable, inter-generational and equitable benefit of the country&apos;s citizens 2.1 Establishment of revenue disclosure, oversight and publication mechanism to ensure that Mozambicans get all the information on their Extractive Industry revenue and public expenditure. 2.2 Mozambique becomes an EITI compliant country</narrative>
   </description>
-  <participating-org ref="XM-DAC-FAPA" role="1" type="40">
+  <participating-org ref="FAPA" role="1">
    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
   </participating-org>
   <participating-org role="3" type="10">
@@ -20,11 +20,6 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Ministry of Mineral Resources</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2010-07-22" type="1"></activity-date>
   <activity-date iso-date="2010-10-03" type="2"></activity-date>
@@ -32,22 +27,26 @@
   <activity-date iso-date="2011-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN">COSN</narrative>
+    <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">Joel Daniel MUZIMA</narrative>
+    <narrative xml:lang="EN"></narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Country Economist, ECCE</narrative>
+    <narrative xml:lang="EN"></narrative>
    </job-title>
    <telephone></telephone>
-   <email>j.muzima@afdb.org</email>
+   <email>fapa@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -57,8 +56,8 @@
    <name>
     <narrative xml:lang="EN">Mozambique</narrative>
    </name>
-   <administrative code="2120" level="1" vocabulary="G1"></administrative>
-   <administrative code="21925" level="2" vocabulary="G1"></administrative>
+   <administrative code="2120.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="21925.0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-18.25 35</pos>
    </point>
@@ -66,13 +65,13 @@
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
-  <sector code="43010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Multisector aid</narrative>
+  <sector code="11330" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Multi-Sector</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="7.2.1" percentage="100" vocabulary="1">
+   <budget-item code="5.3.9" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">General Budget Support - General Budget Support</narrative>
+     <narrative xml:lang="EN">Education - vocational training</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -103,34 +102,30 @@
    <value currency="XDR" value-date="2011-07-22">45629.95</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="5700155001201">
+  <transaction ref="5700155001201">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2010-10-03"></transaction-date>
+   <value currency="XDR" value-date="2010-10-03">228149.77</value>
+   <provider-org>
+    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2010-12-31"></transaction-date>
    <value currency="XDR" value-date="2010-12-31">228149.77</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
    </description>
-   <provider-org ref="XM-DAC-FAPA">
+   <provider-org>
     <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
    </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction afdb:finance-type-id="5700155001201" ref="5700155001201">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2010-10-03"></transaction-date>
-   <value currency="XDR" value-date="2010-10-03">228149.77</value>
-   <provider-org ref="XM-DAC-FAPA">
-    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="1" ref="1">
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2010-10-03"></transaction-date>
    <value currency="XDR" value-date="2010-10-03">32592.4</value>
@@ -148,11 +143,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

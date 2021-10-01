@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-GN-I00-009</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Guin&#xE9;e - Projet d&apos;assistance technique &#xE0; l&apos;emploi des jeunes (PATEJ)</narrative>
@@ -11,39 +11,38 @@
   <description>
    <narrative xml:lang="EN"></narrative>
   </description>
-  <participating-org ref="XM-DAC-FSF" role="1" type="40">
+  <participating-org ref="FSF" role="1">
    <narrative xml:lang="EN">Fragile States Facility</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Guinea</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-04-01" type="1"></activity-date>
   <activity-date iso-date="2021-01-15" type="2"></activity-date>
   <activity-date iso-date="2022-12-31" type="3"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN">AHHD</narrative>
+    <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">OUEDRAOGO Anouar Abdoulaye Somketta</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Flagships Programme Coord</narrative>
+    <narrative xml:lang="EN">Senior Flagships Programme Coordinator</narrative>
    </job-title>
    <telephone>+225 27 2026 5598</telephone>
    <email>a.n.ouedraogo@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -53,8 +52,8 @@
    <name>
     <narrative xml:lang="EN">Conakry</narrative>
    </name>
-   <administrative code="40701" level="1" vocabulary="G1"></administrative>
-   <administrative code="40713" level="2" vocabulary="G1"></administrative>
+   <administrative code="40701.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="40713.0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>9.53795 -13.67729</pos>
    </point>
@@ -62,13 +61,13 @@
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
-  <sector code="43010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Multisector aid</narrative>
+  <sector code="11231" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Social</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="7.2.1" percentage="100" vocabulary="1">
+   <budget-item code="5.3.6" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">General Budget Support - General Budget Support</narrative>
+     <narrative xml:lang="EN">Education - upper secondary</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -124,7 +123,7 @@
    <value currency="XDR" value-date="2022-07-01">175772.5</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="5900155016201" ref="5900155016201">
+  <transaction ref="5900155016201">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-04-01"></transaction-date>
    <value currency="XDR" value-date="2020-04-01">1000000</value>
@@ -139,7 +138,7 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction afdb:finance-type-id="5900155016367" ref="5900155016367">
+  <transaction ref="5900155016367">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-01-15"></transaction-date>
    <value currency="XDR" value-date="2021-01-15">757725</value>
@@ -154,7 +153,18 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction afdb:finance-type-id="1" ref="1">
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-15"></transaction-date>
+   <value currency="XDR" value-date="2021-07-15">105217.81</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in July of 2021</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fragile States Facility</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-01-15"></transaction-date>
    <value currency="XDR" value-date="2021-01-15">95759</value>
@@ -164,6 +174,25 @@
    <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fguinee_-_projet_dassistance_technique_a_lemploi_des_jeunes_patej_-_p-gn-i00-09_-_rapport_devaluation_de_projet.pdf#page=1&amp;zoom=auto,-14,848">
+   <title>
+    <narrative xml:lang="EN">Appraisal Report</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A04"></category>
+   <category code="A05"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.afdb.org/en/projects-and-operations/p-gn-i00-009">
+   <title>
+    <narrative xml:lang="EN">Activity</narrative>
+   </title>
+   <category code="A12"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="TEXT/HTML" url="https://www.afdb.org/en/projects-and-operations/p-gn-i00-009">
    <title>
     <narrative xml:lang="EN">Activity</narrative>
@@ -172,11 +201,11 @@
    <language code="FR"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

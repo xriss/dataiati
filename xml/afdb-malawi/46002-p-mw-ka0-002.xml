@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-MW-KA0-002</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Malawi - Programme de r&#xE9;tablissement de la stabilit&#xE9; budg&#xE9;taire et de la protection sociale (RFSSP)</narrative>
@@ -12,17 +12,12 @@
   <description type="2">
    <narrative xml:lang="EN">Policy objectives: To support implementation of PFM and business enabling environment reforms, with the aim of maintaining macroeconomic stability and inclusive growth. This will be achieved through three main programme components (i) Strengthening PFM transparency and accountability; (ii) Improving business enabling environment; and (iii) Skills development for job creation and service delivery.</narrative>
   </description>
-  <participating-org ref="XM-DAC-46003" role="1" type="40">
+  <participating-org ref="46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Ministry of Finance</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2012-07-11" type="1"></activity-date>
   <activity-date iso-date="2012-07-20" type="2"></activity-date>
@@ -30,22 +25,26 @@
   <activity-date iso-date="2013-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN">RDGW</narrative>
+    <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">KAMANGA Fenwick Dingiswayo</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Governance Officer, ECCE</narrative>
+    <narrative xml:lang="EN">Principal Governance Expert</narrative>
    </job-title>
    <telephone></telephone>
    <email>f.kamanga@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -55,8 +54,8 @@
    <name>
     <narrative xml:lang="EN">Malawi</narrative>
    </name>
-   <administrative code="1888" level="1" vocabulary="G1"></administrative>
-   <administrative code="19314" level="2" vocabulary="G1"></administrative>
+   <administrative code="1888.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="19314.0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-13.5 34</pos>
    </point>
@@ -64,13 +63,13 @@
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
-  <sector code="15110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+  <sector code="15124" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Multi-Sector</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.8.13" percentage="100" vocabulary="1">
+   <budget-item code="3.1.1" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Transport - meteorological services</narrative>
+     <narrative xml:lang="EN">General Economic, Commercial and Labour Affairs - policy, planning and administration</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -101,22 +100,7 @@
    <value currency="XDR" value-date="2013-07-11">5200000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="2100155023066">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-30"></transaction-date>
-   <value currency="XDR" value-date="2012-09-30">25554599.5</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2012</narrative>
-   </description>
-   <provider-org ref="XM-DAC-46003">
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="421"></finance-type>
-   <aid-type code="A01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="2100155023066" ref="2100155023066">
+  <transaction ref="2100155023066">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2012-07-20"></transaction-date>
    <value currency="XDR" value-date="2012-07-20">26000000</value>
@@ -130,6 +114,17 @@
    <finance-type code="421"></finance-type>
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2012-09-30"></transaction-date>
+   <value currency="XDR" value-date="2012-09-30">25554599.5</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2012</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Malawi%20-%20AR%20FSSP.pdf">
    <title>
@@ -163,11 +158,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-MW-AA0-001</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Institutionnal Support to the  Agricultural Sector (SDA)</narrative>
@@ -11,7 +11,7 @@
   <description type="2">
    <narrative xml:lang="EN">The objectives of the social dimensions of adjustment programme include to a) improve the Government&apos;s socio-economic data base; b) improve Government capacity for data analysis as to ensure the effective formulation of macro, social and sector policies programmes and initiatives; c) study the social and economic impact of the Structural Adjustment Programme on vulnerable groups and the poorer sections of society, d) formulate options for targeted social programmes for the vulnerable groups; and e) initiate a set of pilot interventions which will serve as models for a systematic and replicable support to the vulnerable groups.</narrative>
   </description>
-  <participating-org ref="XM-DAC-46003" role="1" type="40">
+  <participating-org ref="46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="4" type="10">
@@ -20,18 +20,14 @@
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Malawi</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="5"></activity-status>
   <activity-date iso-date="1990-08-28" type="1"></activity-date>
   <activity-date iso-date="1991-01-31" type="2"></activity-date>
   <activity-date iso-date="1996-12-31" type="3"></activity-date>
+  <activity-date iso-date="1996-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -46,13 +42,17 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="MW" percentage="100"></recipient-country>
   <sector code="31110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   <narrative xml:lang="EN">Agriculture and Rural Development</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.3.1" percentage="100" vocabulary="1">
@@ -188,22 +188,7 @@
    <value currency="XDR" value-date="1996-08-28">21542.68</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="2100155000213">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">557214.12</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org ref="XM-DAC-46003">
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="2100155000213" ref="2100155000213">
+  <transaction ref="2100155000213">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1991-01-31"></transaction-date>
    <value currency="XDR" value-date="1991-01-31">538567.08</value>
@@ -218,7 +203,18 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction afdb:finance-type-id="1" ref="1">
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">557214.12</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1991-01-31"></transaction-date>
    <value currency="XDR" value-date="1991-01-31">50000</value>
@@ -236,11 +232,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

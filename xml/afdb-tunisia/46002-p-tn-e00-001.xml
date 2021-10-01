@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-TN-E00-001</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Etude Dessalement Eau de Mer de Zaarat</narrative>
@@ -17,20 +17,15 @@
   <description type="3">
    <narrative xml:lang="FR">Les principaux b&#xE9;n&#xE9;ficiaires du projet sont: i) la population des gouvernorats de Gab&#xE9;s, M&#xE9;denine et Tataouine qui est estim&#xE9;e &#xE0; 530.000 habitants en l&#x2019;an 2008 et atteindra les 660.000 habitants en 2030 (l&#x2019;&#xE9;ch&#xE9;ance du projet); ii) les techniciens et les d&#xE9;cideurs de la SONEDE et iii) le Secteur Priv&#xE9;.</narrative>
   </description>
-  <participating-org ref="XM-DAC-FAPA" role="1" type="40">
+  <participating-org ref="FAPA" role="1">
    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Tunisia</narrative>
   </participating-org>
-  <participating-org role="4" type="10">
+  <participating-org role="4">
    <narrative xml:lang="EN">Soci&#xE9;t&#xE9; Nationale d&apos;Exploitation et de Distribution des Eaux (SONEDE)</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2009-08-05" type="1"></activity-date>
   <activity-date iso-date="2010-03-12" type="2"></activity-date>
@@ -38,7 +33,7 @@
   <activity-date iso-date="2014-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -53,7 +48,11 @@
    <email>fapa@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -63,8 +62,8 @@
    <name>
     <narrative xml:lang="EN">Gouvernorat de Gabes</narrative>
    </name>
-   <administrative code="2997" level="1" vocabulary="G1"></administrative>
-   <administrative code="39278" level="2" vocabulary="G1"></administrative>
+   <administrative code="2997.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="39278.0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>33.83333 9.75</pos>
    </point>
@@ -77,8 +76,8 @@
    <name>
     <narrative xml:lang="EN">Gouvernorat de M&#xE9;denine</narrative>
    </name>
-   <administrative code="3007" level="1" vocabulary="G1"></administrative>
-   <administrative code="39375" level="2" vocabulary="G1"></administrative>
+   <administrative code="3007.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="39375.0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>33.33333 11</pos>
    </point>
@@ -91,8 +90,8 @@
    <name>
     <narrative xml:lang="EN">Tataouine</narrative>
    </name>
-   <administrative code="3013" level="1" vocabulary="G1"></administrative>
-   <administrative code="39461" level="2" vocabulary="G1"></administrative>
+   <administrative code="3013.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="39461.0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>32 10</pos>
    </point>
@@ -101,7 +100,7 @@
    <feature-designation code="ADM1"></feature-designation>
   </location>
   <sector code="14010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Water sector policy and administrative management</narrative>
+   <narrative xml:lang="EN">Water supply and Sanitation</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="4.1.1" percentage="100" vocabulary="1">
@@ -217,127 +216,7 @@
    <value currency="XDR" value-date="2014-08-05">21634.38</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="5700155000701">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-31"></transaction-date>
-   <value currency="XDR" value-date="2014-03-31">67822.75</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2014</narrative>
-   </description>
-   <provider-org ref="XM-DAC-FAPA">
-    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5700155000701">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-31"></transaction-date>
-   <value currency="XDR" value-date="2015-03-31">34668.8</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2015</narrative>
-   </description>
-   <provider-org ref="XM-DAC-FAPA">
-    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5700155000701">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="XDR" value-date="2014-12-31">52715.31</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2014</narrative>
-   </description>
-   <provider-org ref="XM-DAC-FAPA">
-    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5700155000701">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-06-30"></transaction-date>
-   <value currency="XDR" value-date="2013-06-30">21761.75</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2013</narrative>
-   </description>
-   <provider-org ref="XM-DAC-FAPA">
-    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5700155000701">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-30"></transaction-date>
-   <value currency="XDR" value-date="2014-06-30">37590.4</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2014</narrative>
-   </description>
-   <provider-org ref="XM-DAC-FAPA">
-    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5700155000701">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-30"></transaction-date>
-   <value currency="XDR" value-date="2015-06-30">56641.87</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2015</narrative>
-   </description>
-   <provider-org ref="XM-DAC-FAPA">
-    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5700155000701">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-30"></transaction-date>
-   <value currency="XDR" value-date="2012-09-30">20864.03</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2012</narrative>
-   </description>
-   <provider-org ref="XM-DAC-FAPA">
-    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5700155000701">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-30"></transaction-date>
-   <value currency="XDR" value-date="2013-09-30">75209.53</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2013</narrative>
-   </description>
-   <provider-org ref="XM-DAC-FAPA">
-    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5700155000701" ref="5700155000701">
+  <transaction ref="5700155000701">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2010-03-12"></transaction-date>
    <value currency="XDR" value-date="2010-03-12">454322.04</value>
@@ -349,7 +228,95 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction afdb:finance-type-id="1" ref="1">
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-03-31"></transaction-date>
+   <value currency="XDR" value-date="2014-03-31">67822.75</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2014</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-03-31"></transaction-date>
+   <value currency="XDR" value-date="2015-03-31">34668.8</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2015</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="XDR" value-date="2014-12-31">52715.31</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2014</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-06-30"></transaction-date>
+   <value currency="XDR" value-date="2013-06-30">21761.75</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2013</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-06-30"></transaction-date>
+   <value currency="XDR" value-date="2014-06-30">37590.4</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2014</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-06-30"></transaction-date>
+   <value currency="XDR" value-date="2015-06-30">56641.87</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2015</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2012-09-30"></transaction-date>
+   <value currency="XDR" value-date="2012-09-30">20864.03</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2012</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-09-30"></transaction-date>
+   <value currency="XDR" value-date="2013-09-30">75209.53</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2013</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fund for African Private Sector Assistance</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2010-03-12"></transaction-date>
    <value currency="XDR" value-date="2010-03-12">150482.79</value>
@@ -426,11 +393,11 @@
    <language code="FR"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

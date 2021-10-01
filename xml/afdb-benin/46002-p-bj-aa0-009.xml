@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-BJ-AA0-009</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Benin - Emergency aid program for the communes of Malanville and Karimama affected by the floods</narrative>
@@ -15,14 +15,9 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">MINISTERE DE L&apos;AGRICULTURE DE L&apos;ELEVAGE ET DE LA PECHE</narrative>
   </participating-org>
-  <participating-org ref="XM-DAC-SRF" role="1" type="40">
+  <participating-org ref="SRF" role="1">
    <narrative xml:lang="EN">Special Relief Funds</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2014-03-19" type="1"></activity-date>
   <activity-date iso-date="2014-10-17" type="2"></activity-date>
@@ -30,22 +25,26 @@
   <activity-date iso-date="2015-06-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN">COSN</narrative>
+    <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">Hatem FELLAH</narrative>
+    <narrative xml:lang="EN">FELLAH Hatem</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Agronomist, AHAI</narrative>
+    <narrative xml:lang="EN">Principal Agronomist</narrative>
    </job-title>
    <telephone>+225 27 2026 6578</telephone>
    <email>h.fellah@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -55,8 +54,8 @@
    <name>
     <narrative xml:lang="EN">Karimama</narrative>
    </name>
-   <administrative code="5864" level="2" vocabulary="G1"></administrative>
-   <administrative code="609" level="1" vocabulary="G1"></administrative>
+   <administrative code="5864.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="609.0" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>11.93816 2.75703</pos>
    </point>
@@ -69,8 +68,8 @@
    <name>
     <narrative xml:lang="EN">Malanville</narrative>
    </name>
-   <administrative code="5865" level="2" vocabulary="G1"></administrative>
-   <administrative code="609" level="1" vocabulary="G1"></administrative>
+   <administrative code="5865.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="609.0" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>11.66636 3.26373</pos>
    </point>
@@ -79,7 +78,7 @@
    <feature-designation code="ADM2"></feature-designation>
   </location>
   <sector code="31110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
+   <narrative xml:lang="EN">Agriculture and Rural Development</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.3.1" percentage="100" vocabulary="1">
@@ -115,35 +114,31 @@
    <value currency="XDR" value-date="2015-03-19">110435.46</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="5000199003368">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-30"></transaction-date>
-   <value currency="XDR" value-date="2015-06-30">552177.3</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in December of 2014</narrative>
-   </description>
-   <provider-org ref="XM-DAC-SRF">
-    <narrative xml:lang="EN">Special Relief Funds</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5000199003368" ref="5000199003368">
+  <transaction ref="5000199003368">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2014-10-17"></transaction-date>
    <value currency="XDR" value-date="2014-10-17">552177.3</value>
-   <provider-org ref="XM-DAC-SRF">
+   <provider-org>
     <narrative xml:lang="EN">Special Relief Funds</narrative>
    </provider-org>
-   <receiver-org ref="XM-DAC-null">
+   <receiver-org>
     <narrative xml:lang="EN">GOUVERNEMENT DE LA REPUBLIQUE DU BENIN MINISTERE DES FINANCES</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
    <finance-type code="110"></finance-type>
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-06-30"></transaction-date>
+   <value currency="XDR" value-date="2015-06-30">552177.3</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in December of 2014</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Special Relief Funds</narrative>
+   </provider-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/B%C3%A9nin_-_Programme_d%E2%80%99aide_d%E2%80%99urgence_en_faveur_des_communes_de_Malanville_et_Karimama_affect%C3%A9es_par_les_inondations.pdf">
    <title>
@@ -172,11 +167,11 @@
    <language code="FR"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

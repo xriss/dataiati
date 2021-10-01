@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-SL-KA0-006</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Economic Rehabilitation and Recovery Program</narrative>
@@ -11,17 +11,12 @@
   <description type="1">
    <narrative xml:lang="EN">The proposed EERP-III, with resources in the amount of UA 10.7 million, will assist government in implementing policies designed to promote good governance while at the same time helping to close Sierra Leone&apos;s external financing gap.  As indicated in Annex Table V, the current account deficit (excluding official transfers) widened from 12.1 percent in 2002 to 17.7 percent in 2004, and while it is expected to narrow to 13.6 percent in 2005 it remains high at 10.4 percent by 2007.  The grant will help narrow the deficit. It will also help reduce the inflationary pressures in the economy.</narrative>
   </description>
-  <participating-org ref="XM-DAC-46003" role="1" type="40">
+  <participating-org ref="46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Ministry of Finance</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2005-07-27" type="1"></activity-date>
   <activity-date iso-date="2005-10-17" type="2"></activity-date>
@@ -29,13 +24,13 @@
   <activity-date iso-date="2007-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">null null</narrative>
+    <narrative xml:lang="EN"></narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -44,7 +39,11 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -54,8 +53,8 @@
    <name>
     <narrative xml:lang="EN">Freetown</narrative>
    </name>
-   <administrative code="14" level="2" vocabulary="G1"></administrative>
-   <administrative code="4" level="1" vocabulary="G1"></administrative>
+   <administrative code="14.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="4.0" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>8.45774 -13.23714</pos>
    </point>
@@ -63,13 +62,13 @@
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
-  <sector code="15110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+  <sector code="15124" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Multi-Sector</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.8.13" percentage="100" vocabulary="1">
+   <budget-item code="3.1.1" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Transport - meteorological services</narrative>
+     <narrative xml:lang="EN">General Economic, Commercial and Labour Affairs - policy, planning and administration</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -120,35 +119,31 @@
    <value currency="XDR" value-date="2007-07-27">1184256.1</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="2100155005416">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">10278543.82</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org ref="XM-DAC-46003">
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="421"></finance-type>
-   <aid-type code="A01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="2100155005416" ref="2100155005416">
+  <transaction ref="2100155005416">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2005-10-17"></transaction-date>
    <value currency="XDR" value-date="2005-10-17">10658305.53</value>
-   <provider-org ref="XM-DAC-46003">
+   <provider-org>
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org ref="XM-DAC-null">
+   <receiver-org>
     <narrative xml:lang="EN">GOVERNMENT OF SIERRA LEONE</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
    <finance-type code="421"></finance-type>
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">10278543.82</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/ADF-BD-IF-2008-168-EN-SIERRA-LEONE-PCR-ERRL-III_.PDF">
    <title>
@@ -176,11 +171,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-CF-AB0-002</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Central African Republic - Rural Infrastructure Rehabilitation Support Project (PARIR)</narrative>
@@ -12,7 +12,7 @@
   <description type="1">
    <narrative xml:lang="FR">Sp&#xE9;cifiquement, le projet vise la r&#xE9;habilitation des infrastructures rurales et le renforcement de la capacit&#xE9; institutionnelle des services d&apos;appui en vue de l&apos;accroissement de la production agricole.</narrative>
   </description>
-  <participating-org ref="XM-DAC-FSF" role="1" type="40">
+  <participating-org ref="FSF" role="1">
    <narrative xml:lang="EN">Fragile States Facility</narrative>
   </participating-org>
   <participating-org role="4" type="10">
@@ -21,18 +21,14 @@
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Central African Republic</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="5"></activity-status>
   <activity-date iso-date="2009-12-17" type="1"></activity-date>
   <activity-date iso-date="2009-12-21" type="2"></activity-date>
   <activity-date iso-date="2015-12-31" type="3"></activity-date>
+  <activity-date iso-date="2016-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -47,18 +43,34 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="CF" percentage="100"></recipient-country>
   <location>
+   <location-id code="2389853" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Bangui</narrative>
+   </name>
+   <administrative code="67154.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="67155.0" level="2" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>4.36122 18.55496</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="PCLI"></feature-designation>
+  </location>
+  <location>
    <location-id code="7732483" vocabulary="G1"></location-id>
    <name>
     <narrative xml:lang="EN">Sibut</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>5.73333 19.0833</pos>
    </point>
@@ -71,8 +83,6 @@
    <name>
     <narrative xml:lang="EN">Ngola</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>4.43333 18.5333</pos>
    </point>
@@ -85,8 +95,6 @@
    <name>
     <narrative xml:lang="EN">Kobadjia</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>5.79037 19.6383</pos>
    </point>
@@ -99,8 +107,6 @@
    <name>
     <narrative xml:lang="EN">Grimari</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>5.73333 20.05</pos>
    </point>
@@ -113,8 +119,6 @@
    <name>
     <narrative xml:lang="EN">Bambari</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>5.76194 20.6672</pos>
    </point>
@@ -122,22 +126,8 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPL"></feature-designation>
   </location>
-  <location>
-   <location-id code="2389853" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Bangui</narrative>
-   </name>
-   <administrative code="67154" level="1" vocabulary="G1"></administrative>
-   <administrative code="67155" level="2" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>4.36122 18.55496</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-   <feature-designation code="PCLI"></feature-designation>
-  </location>
-  <sector code="43040" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Rural development</narrative>
+  <sector code="43042" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Agriculture and Rural Development</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="5.4.7" percentage="100" vocabulary="1">
@@ -288,37 +278,7 @@
    <value currency="XDR" value-date="2016-09-17">137500</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="5900155000751">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-31"></transaction-date>
-   <value currency="XDR" value-date="2010-12-31">815228.97</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
-   </description>
-   <provider-org ref="XM-DAC-FSF">
-    <narrative xml:lang="EN">Fragile States Facility</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5900155000751">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-09-30"></transaction-date>
-   <value currency="XDR" value-date="2010-09-30">243448.09</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
-   </description>
-   <provider-org ref="XM-DAC-FSF">
-    <narrative xml:lang="EN">Fragile States Facility</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5900155000751" ref="5900155000751">
+  <transaction ref="5900155000751">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2009-12-21"></transaction-date>
    <value currency="XDR" value-date="2009-12-21">3850000</value>
@@ -333,7 +293,29 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction afdb:finance-type-id="1" ref="1">
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-12-31"></transaction-date>
+   <value currency="XDR" value-date="2010-12-31">815228.97</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fragile States Facility</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-09-30"></transaction-date>
+   <value currency="XDR" value-date="2010-09-30">243448.09</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Fragile States Facility</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2009-12-21"></transaction-date>
    <value currency="XDR" value-date="2009-12-21">182000</value>
@@ -391,11 +373,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

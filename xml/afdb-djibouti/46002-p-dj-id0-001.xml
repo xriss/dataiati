@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-DJ-ID0-001</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Djibouti - Projet d&apos;Appui &#xE0; la Promotion de la Femme</narrative>
@@ -12,7 +12,7 @@
   <description type="2">
    <narrative xml:lang="FR">Objectif du projet/Indicateurs V&#xE9;rifiables L&apos;objectif sp&#xE9;cifique assign&#xE9; au projet consiste &#xE0; &#xAB; renforcer les capacit&#xE9;s institutionnelles et op&#xE9;rationnelles du Minist&#xE8;re de la promotion de la femme, notamment dans ses activit&#xE9;s de plaidoyer et de coordination &#xBB;.</narrative>
   </description>
-  <participating-org ref="XM-DAC-46003" role="1" type="40">
+  <participating-org ref="46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="3" type="10">
@@ -21,11 +21,6 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Ministry of Promotion of Woman</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2001-11-28" type="1"></activity-date>
   <activity-date iso-date="2002-03-11" type="2"></activity-date>
@@ -33,7 +28,7 @@
   <activity-date iso-date="2010-03-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -48,7 +43,11 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -58,8 +57,8 @@
    <name>
     <narrative xml:lang="EN">Djibouti</narrative>
    </name>
-   <administrative code="1095" level="1" vocabulary="G1"></administrative>
-   <administrative code="15276" level="2" vocabulary="G1"></administrative>
+   <administrative code="1095.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="15276.0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>11.58901 43.14503</pos>
    </point>
@@ -68,7 +67,7 @@
    <feature-designation code="PPLC"></feature-designation>
   </location>
   <sector code="15170" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Women&apos;s equality organisations and institutions</narrative>
+   <narrative xml:lang="EN">Social</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="5.4.5" percentage="100" vocabulary="1">
@@ -244,22 +243,7 @@
    <value currency="XDR" value-date="2009-11-28">21818.18</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="2100155001743">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">762936.98</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org ref="XM-DAC-46003">
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="2100155001743" ref="2100155001743">
+  <transaction ref="2100155001743">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2002-03-11"></transaction-date>
    <value currency="XDR" value-date="2002-03-11">720000</value>
@@ -274,7 +258,18 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction afdb:finance-type-id="1" ref="1">
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">762936.98</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2002-03-11"></transaction-date>
    <value currency="XDR" value-date="2002-03-11">64000</value>
@@ -316,11 +311,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
   <result type="1">
@@ -334,12 +329,12 @@
     <period>
      <period-start iso-date="2008-01-01"></period-start>
      <period-end iso-date="2008-12-31"></period-end>
-     <actual value="154.5"></actual>
+     <actual value="154,5"></actual>
     </period>
     <period>
      <period-start iso-date="2001-01-01"></period-start>
      <period-end iso-date="2001-12-31"></period-end>
-     <target value="198.5"></target>
+     <target value="198,5"></target>
     </period>
    </indicator>
   </result>
@@ -354,12 +349,12 @@
     <period>
      <period-start iso-date="2008-01-01"></period-start>
      <period-end iso-date="2008-12-31"></period-end>
-     <actual value="200200.0"></actual>
+     <actual value="200200"></actual>
     </period>
     <period>
      <period-start iso-date="2001-01-01"></period-start>
      <period-end iso-date="2001-12-31"></period-end>
-     <target value="200200.0"></target>
+     <target value="200200"></target>
     </period>
    </indicator>
   </result>
@@ -374,12 +369,12 @@
     <period>
      <period-start iso-date="2008-01-01"></period-start>
      <period-end iso-date="2008-12-31"></period-end>
-     <actual value="309.0"></actual>
+     <actual value="309"></actual>
     </period>
     <period>
      <period-start iso-date="2001-01-01"></period-start>
      <period-end iso-date="2001-12-31"></period-end>
-     <target value="397.0"></target>
+     <target value="397"></target>
     </period>
    </indicator>
   </result>
@@ -394,12 +389,12 @@
     <period>
      <period-start iso-date="2008-01-01"></period-start>
      <period-end iso-date="2008-12-31"></period-end>
-     <actual value="400400.0"></actual>
+     <actual value="400400"></actual>
     </period>
     <period>
      <period-start iso-date="2001-01-01"></period-start>
      <period-end iso-date="2001-12-31"></period-end>
-     <target value="400400.0"></target>
+     <target value="400400"></target>
     </period>
    </indicator>
   </result>

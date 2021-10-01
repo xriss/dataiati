@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-SC-AAF-005</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Mariculture Master Plan</narrative>
@@ -11,24 +11,20 @@
   <description type="2">
    <narrative xml:lang="EN">1.,,The goal of this intervention is: &apos;To enable Seychelles to develop a sustainable mariculture sector that is integrated in the country&apos;s economic vision and respects the unique and sensitive nature of the marine environment&apos;. 2.,,The MIC Project goal will be achieved through meeting a specific project objective, that is: &apos;To develop, strengthen and integrate the key technical, regulatory, legislative and institutional mechanisms in order to achieve sustainable mariculture development and create an enabling environment for investment&apos;. 3.,,The principal mechanism and approach for meeting the Project objective is to develop a sector plan, hereafter referred to as the Mariculture Master Plan (MMP), which serves to guide and regulate responsible development and management of mariculture in Seychelles.</narrative>
   </description>
-  <participating-org ref="XM-DAC-MIC Fund" role="1" type="40">
+  <participating-org ref="MIC Fund" role="1">
    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
   </participating-org>
-  <participating-org role="4" type="10">
+  <participating-org role="4">
    <narrative xml:lang="EN">Seychelles Fishing Authority</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="5"></activity-status>
   <activity-date iso-date="2010-06-08" type="1"></activity-date>
   <activity-date iso-date="2010-10-05" type="2"></activity-date>
   <activity-date iso-date="2012-09-30" type="3"></activity-date>
+  <activity-date iso-date="2012-09-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -43,13 +39,17 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="SC" percentage="100"></recipient-country>
   <sector code="31320" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Fishery development</narrative>
+   <narrative xml:lang="EN">Agriculture and Rural Development</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.5.2" percentage="100" vocabulary="1">
@@ -105,22 +105,7 @@
    <value currency="XDR" value-date="2012-06-08">3115.06</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="5500155003551">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-06-30"></transaction-date>
-   <value currency="XDR" value-date="2011-06-30">29111.91</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2011</narrative>
-   </description>
-   <provider-org ref="XM-DAC-MIC Fund">
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5500155003551" ref="5500155003551">
+  <transaction ref="5500155003551">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2010-10-05"></transaction-date>
    <value currency="XDR" value-date="2010-10-05">28035.51</value>
@@ -135,6 +120,17 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2011-06-30"></transaction-date>
+   <value currency="XDR" value-date="2011-06-30">29111.91</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2011</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
     <narrative xml:lang="EN">Conditions</narrative>
@@ -143,11 +139,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

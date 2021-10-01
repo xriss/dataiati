@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-MU-DB0-011</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Maurice - R&#xE9;vision des Sch&#xE9;mas Directeurs d&#x2019;Am&#xE9;nagement des Zones Municipales et Assistance pour l&#x2019;Etablissement de l&#x2019;Agence des Transports Terrestres</narrative>
@@ -15,14 +15,9 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">GOVERNMENT OF MAURITIUS MINISTRY OF FINANCE</narrative>
   </participating-org>
-  <participating-org ref="XM-DAC-MIC Fund" role="1" type="40">
+  <participating-org ref="MIC Fund" role="1">
    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2007-07-24" type="1"></activity-date>
   <activity-date iso-date="2007-08-30" type="2"></activity-date>
@@ -30,7 +25,7 @@
   <activity-date iso-date="2014-03-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -45,18 +40,34 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="MU" percentage="100"></recipient-country>
   <location>
+   <location-id code="934154" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Port Louis</narrative>
+   </name>
+   <administrative code="19542.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="2024.0" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-20.16194 57.49889</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="PCLI"></feature-designation>
+  </location>
+  <location>
    <location-id code="933945" vocabulary="G1"></location-id>
    <name>
     <narrative xml:lang="EN">Vacoas</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-20.2981 57.4783</pos>
    </point>
@@ -69,8 +80,6 @@
    <name>
     <narrative xml:lang="EN">Quatre Bornes</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-20.2638 57.4791</pos>
    </point>
@@ -83,8 +92,6 @@
    <name>
     <narrative xml:lang="EN">Curepipe</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-20.3147 57.5203</pos>
    </point>
@@ -97,8 +104,6 @@
    <name>
     <narrative xml:lang="EN">Beau Bassin</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-20.2194 57.4583</pos>
    </point>
@@ -106,27 +111,13 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPL"></feature-designation>
   </location>
-  <location>
-   <location-id code="934154" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Port Louis</narrative>
-   </name>
-   <administrative code="19542" level="2" vocabulary="G1"></administrative>
-   <administrative code="2024" level="1" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-20.16194 57.49889</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-   <feature-designation code="PCLI"></feature-designation>
-  </location>
-  <sector code="21020" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Road transport</narrative>
+  <sector code="21023" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Transport</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.8.6" percentage="100" vocabulary="1">
+   <budget-item code="3.8.5" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Transport - national road maintenance</narrative>
+     <narrative xml:lang="EN">Transport - national road construction</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -262,67 +253,7 @@
    <value currency="XDR" value-date="2013-10-24">23076.92</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="5500155001251">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-31"></transaction-date>
-   <value currency="XDR" value-date="2014-03-31">53529.81</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2014</narrative>
-   </description>
-   <provider-org ref="XM-DAC-MIC Fund">
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5500155001251">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-06-30"></transaction-date>
-   <value currency="XDR" value-date="2013-06-30">88245.05</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2013</narrative>
-   </description>
-   <provider-org ref="XM-DAC-MIC Fund">
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5500155001251">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-30"></transaction-date>
-   <value currency="XDR" value-date="2012-09-30">306321.42</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2012</narrative>
-   </description>
-   <provider-org ref="XM-DAC-MIC Fund">
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5500155001251">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-09-30"></transaction-date>
-   <value currency="XDR" value-date="2014-09-30">80008.7</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2014</narrative>
-   </description>
-   <provider-org ref="XM-DAC-MIC Fund">
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5500155001251" ref="5500155001251">
+  <transaction ref="5500155001251">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2007-08-30"></transaction-date>
    <value currency="XDR" value-date="2007-08-30">600000</value>
@@ -337,22 +268,50 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
-   <title>
-    <narrative xml:lang="EN">Conditions</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10605.pdf">
-   <title>
-    <narrative xml:lang="EN">Evaluation Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-03-31"></transaction-date>
+   <value currency="XDR" value-date="2014-03-31">53529.81</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2014</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-06-30"></transaction-date>
+   <value currency="XDR" value-date="2013-06-30">88245.05</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2013</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2012-09-30"></transaction-date>
+   <value currency="XDR" value-date="2012-09-30">306321.42</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2012</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-09-30"></transaction-date>
+   <value currency="XDR" value-date="2014-09-30">80008.7</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2014</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10605.pdf">
    <title>
     <narrative xml:lang="EN">Project Completion Report</narrative>
@@ -361,6 +320,13 @@
    <category code="A07"></category>
    <category code="A08"></category>
    <language code="FR"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
+   <title>
+    <narrative xml:lang="EN">Conditions</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
   </document-link>
   <document-link format="APPLICATION/VND.MS-EXCEL" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/Listing_of_Awarded_Contracts_from_01_January_2000_to_16_April_2014_.xls">
    <title>
@@ -386,12 +352,21 @@
    <category code="A11"></category>
    <language code="EN"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10605.pdf">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

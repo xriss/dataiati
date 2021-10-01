@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-GA-IBE-002</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Projet d&apos;appui &#xE0; la Surveillance Fi&#xE8;vre Ebola</narrative>
@@ -11,17 +11,12 @@
   <description type="1">
    <narrative xml:lang="FR">L&apos;op&#xE9;ration d&apos;assistance de la Banque vise &#xE0; compl&#xE9;ter les actions du gouvernement et de ses partenaires au d&#xE9;veloppement en vue de : (i) renforcer la surveillance et le contr&#xF4;le &#xE9;pid&#xE9;miologique de la FHV et la prise en charge des cas et (ii) renforcer la pr&#xE9;vention de la contamination de cette maladie &#xE0; travers la mobilisation sociale.</narrative>
   </description>
-  <participating-org ref="XM-DAC-SRF" role="1" type="40">
+  <participating-org ref="SRF" role="1">
    <narrative xml:lang="EN">Special Relief Funds</narrative>
   </participating-org>
-  <participating-org role="4" type="10">
+  <participating-org role="4">
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2002-10-09" type="1"></activity-date>
   <activity-date iso-date="2003-02-03" type="2"></activity-date>
@@ -29,7 +24,7 @@
   <activity-date iso-date="2003-12-31" type="3"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -44,7 +39,11 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -54,8 +53,6 @@
    <name>
     <narrative xml:lang="EN">Mekambo</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>1.00652 13.9594</pos>
    </point>
@@ -64,7 +61,7 @@
    <feature-designation code="PPL"></feature-designation>
   </location>
   <sector code="12250" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Infectious disease control</narrative>
+   <narrative xml:lang="EN">Social</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
@@ -95,22 +92,7 @@
    <value currency="XDR" value-date="2003-07-09">81482.06</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="5000199000005">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2003-06-30"></transaction-date>
-   <value currency="XDR" value-date="2003-06-30">325928.24</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in June of 2003</narrative>
-   </description>
-   <provider-org ref="XM-DAC-SRF">
-    <narrative xml:lang="EN">Special Relief Funds</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5000199000005" ref="5000199000005">
+  <transaction ref="5000199000005">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2003-02-03"></transaction-date>
    <value currency="XDR" value-date="2003-02-03">325928.24</value>
@@ -125,6 +107,17 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2003-06-30"></transaction-date>
+   <value currency="XDR" value-date="2003-06-30">325928.24</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in June of 2003</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Special Relief Funds</narrative>
+   </provider-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
     <narrative xml:lang="EN">Conditions</narrative>
@@ -133,11 +126,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

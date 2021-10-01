@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-NG-H00-004</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Nigeria - Support for Nigerian Extractive Industries Transparency Initiatives (NEITI)</narrative>
@@ -14,14 +14,9 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Federal Ministry of Finance</narrative>
   </participating-org>
-  <participating-org ref="XM-DAC-MIC Fund" role="1" type="40">
+  <participating-org ref="MIC Fund" role="1">
    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2015-06-10" type="1"></activity-date>
   <activity-date iso-date="2016-01-08" type="2"></activity-date>
@@ -29,22 +24,26 @@
   <activity-date iso-date="2020-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN">RDNG</narrative>
+    <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">OMOLUABI-DAVIES Ometere</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Regional Integration Coor</narrative>
+    <narrative xml:lang="EN">Regional Integration Coordinator</narrative>
    </job-title>
    <telephone></telephone>
    <email>o.omoluabi-davies@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -54,8 +53,6 @@
    <name>
     <narrative xml:lang="EN">Abuja</narrative>
    </name>
-   <administrative code="0" level="1" vocabulary="G1"></administrative>
-   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>9.05735 7.48976</pos>
    </point>
@@ -64,7 +61,7 @@
    <feature-designation code="PPLC"></feature-designation>
   </location>
   <sector code="24030" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Formal sector financial intermediaries</narrative>
+   <narrative xml:lang="EN">Finance</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.12.1" percentage="100" vocabulary="1">
@@ -185,37 +182,7 @@
    <value currency="XDR" value-date="2020-09-10">6636.83</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="5500155009501">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="XDR" value-date="2016-12-31">58702.34</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2016</narrative>
-   </description>
-   <provider-org ref="XM-DAC-MIC Fund">
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5500155009501">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-01-31"></transaction-date>
-   <value currency="XDR" value-date="2018-01-31">43709.86</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in January of 2018</narrative>
-   </description>
-   <provider-org ref="XM-DAC-MIC Fund">
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5500155009501" ref="5500155009501">
+  <transaction ref="5500155009501">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-01-08"></transaction-date>
    <value currency="XDR" value-date="2016-01-08">146010.31</value>
@@ -230,13 +197,28 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
-   <title>
-    <narrative xml:lang="EN">Conditions</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-  </document-link>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="XDR" value-date="2016-12-31">58702.34</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2016</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-01-31"></transaction-date>
+   <value currency="XDR" value-date="2018-01-31">43709.86</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in January of 2018</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fnigeria_-_support_for_neiti_to_effectively_monitor_bid_rounds_processes_on_petroleum_prospecting_licenses_and_the_issuance_of_mining_leases_-_project_completion_report.pdf#page=1&amp;zoom=auto,-13,799">
    <title>
     <narrative xml:lang="EN">Project Completion Report</narrative>
@@ -255,11 +237,11 @@
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/EOI_-_Nigeria_-_Consultancy_Services_in_supporting_NEITI_to_effectively_monitor_bid_rounds.pdf">
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
-    <narrative xml:lang="EN">Expression of Interest</narrative>
+    <narrative xml:lang="EN">Conditions</narrative>
    </title>
-   <category code="A10"></category>
+   <category code="A04"></category>
    <language code="EN"></language>
   </document-link>
   <document-link format="APPLICATION/VND.MS-EXCEL" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/LISTING_OF_AWARDED_CONTRACTS_FROM_2013_TO_2018_AS_AT_APRIL_2019.xlsx">
@@ -310,6 +292,13 @@
    <category code="A11"></category>
    <language code="EN"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/EOI_-_Nigeria_-_Consultancy_Services_in_supporting_NEITI_to_effectively_monitor_bid_rounds.pdf">
+   <title>
+    <narrative xml:lang="EN">Expression of Interest</narrative>
+   </title>
+   <category code="A10"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="TEXT/HTML" url="https://www.afdb.org/en/projects-and-operations/p-ng-h00-004">
    <title>
     <narrative xml:lang="EN">Activity</narrative>
@@ -318,11 +307,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>

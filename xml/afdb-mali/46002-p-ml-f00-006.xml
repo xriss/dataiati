@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-ML-F00-006</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
-   <narrative xml:lang="EN">African Development Bank</narrative>
+  <reporting-org ref="46002" type="40">
+   <narrative xml:lang="EN">African Development Bank Group</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Etude d&apos;electrification Rurale</narrative>
   </title>
   <description type="1">
-   <narrative xml:lang="EN">Fournir au Gouvernement un document lui permettant de prendre une d&#xE9;cision coh&#xE9;rente d&apos;investissement en mati&#xE8;re d&apos;ER</narrative>
+   <narrative xml:lang="FR">Fournir au Gouvernement un document lui permettant de prendre une d&#xE9;cision coh&#xE9;rente d&apos;investissement en mati&#xE8;re d&apos;ER</narrative>
   </description>
-  <participating-org ref="XM-DAC-46003" role="1" type="40">
+  <participating-org ref="46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
-  <participating-org role="4" type="10">
+  <participating-org role="4">
    <narrative xml:lang="EN">Direction Nationale de l&apos;Energie</narrative>
   </participating-org>
-  <participating-org role="4" type="10">
+  <participating-org role="4">
    <narrative xml:lang="EN">Directorate National of Energy (Direction Nationale de l&apos;Energie - DNE)</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government of Mali</narrative>
   </participating-org>
-  <other-identifier ref="46002" type="B1">
-   <owner-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </owner-org>
-  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2003-09-24" type="1"></activity-date>
   <activity-date iso-date="2003-11-21" type="2"></activity-date>
@@ -35,22 +30,26 @@
   <activity-date iso-date="2009-01-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank</narrative>
+    <narrative xml:lang="EN">African Development Bank Group</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN">CHGS1</narrative>
+    <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">Nigambaye NDOUNDO</narrative>
+    <narrative xml:lang="EN">NDOUNDO Nigambaye</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Technical Equipment Engin</narrative>
+    <narrative xml:lang="EN">Senior Power Engineer</narrative>
    </job-title>
    <telephone>+225 27 2026 4286</telephone>
    <email>n.ndoundo@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group
+				Headquarters 
+				Avenue Joseph Anoma
+				01 BP 1387
+				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -60,8 +59,8 @@
    <name>
     <narrative xml:lang="EN">Mali</narrative>
    </name>
-   <administrative code="1934" level="1" vocabulary="G1"></administrative>
-   <administrative code="19420" level="2" vocabulary="G1"></administrative>
+   <administrative code="1934.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="19420.0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>18.0 -2.0</pos>
    </point>
@@ -69,13 +68,13 @@
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
-  <sector code="23110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Energy policy and administrative management</narrative>
+  <sector code="23220" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Power</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.6.1" percentage="100" vocabulary="1">
+   <budget-item code="3.6.6" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Energy - policy, planning and administration</narrative>
+     <narrative xml:lang="EN">Energy - power generation</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -191,35 +190,31 @@
    <value currency="XDR" value-date="2008-12-24">50020.08</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="2100155001991">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">1115722.04</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org ref="XM-DAC-46003">
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="2100155001991" ref="2100155001991">
+  <transaction ref="2100155001991">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2003-11-21"></transaction-date>
    <value currency="XDR" value-date="2003-11-21">1100441.77</value>
-   <provider-org ref="XM-DAC-46003">
+   <provider-org>
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org ref="XM-DAC-null">
+   <receiver-org>
     <narrative xml:lang="EN">REPUBLIQUE  DU MALI</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
    <finance-type code="110"></finance-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">1115722.04</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
@@ -253,11 +248,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">Type 1</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Type 2</narrative>
    </condition>
   </conditions>
  </iati-activity>
