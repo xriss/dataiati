@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-BI-K00-009</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Burundi - Cinqui&#xE8;me programme d&#x2019;appui aux r&#xE9;formes &#xE9;conomiques (PARE V)</narrative>
@@ -39,12 +39,20 @@ l&#x2019;am&#xE9;lioration de l&#x2019;efficacit&#xE9; de l&#x2019;Etat dans la 
 publiques et (ii) la promotion du d&#xE9;veloppement du secteur priv&#xE9; et de la
 cr&#xE9;ation d&#x2019;emplois.</narrative>
   </description>
-  <participating-org ref="FSF" role="1">
+  <participating-org ref="XM-DAC-FSF" role="1" type="40">
    <narrative xml:lang="EN">Fragile States Facility</narrative>
+  </participating-org>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">MINISTERE DES FINANCES ET DE LA PLANIFIC</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Partnership Framework Support Unit at the Ministry of Finance and Economic Development Planning (MFPDE)</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2012-07-11" type="1"></activity-date>
   <activity-date iso-date="2012-08-08" type="2"></activity-date>
@@ -52,26 +60,22 @@ cr&#xE9;ation d&#x2019;emplois.</narrative>
   <activity-date iso-date="2014-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">COGN</narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">BASSOLE Leandre</narrative>
+    <narrative xml:lang="EN">Leandre BASSOLE</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Country Manager</narrative>
+    <narrative xml:lang="EN">Country Manager, COGN</narrative>
    </job-title>
    <telephone>+225 27 2026 1729</telephone>
    <email>l.bassole@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -81,7 +85,8 @@ cr&#xE9;ation d&#x2019;emplois.</narrative>
    <name>
     <narrative xml:lang="EN">Bujumbura Mairie Province</narrative>
    </name>
-   <administrative code="24.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
+   <administrative code="24" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-3.3802 29.3547</pos>
    </point>
@@ -89,13 +94,13 @@ cr&#xE9;ation d&#x2019;emplois.</narrative>
    <location-class code="1"></location-class>
    <feature-designation code="ADM1"></feature-designation>
   </location>
-  <sector code="11330" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Multi-Sector</narrative>
+  <sector code="43010" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Multisector aid</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="5.3.9" percentage="100" vocabulary="1">
+   <budget-item code="7.2.1" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Education - vocational training</narrative>
+     <narrative xml:lang="EN">General Budget Support - General Budget Support</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -146,42 +151,50 @@ cr&#xE9;ation d&#x2019;emplois.</narrative>
    <value currency="XDR" value-date="2014-07-11">1333333.4</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5900155003351">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2012-08-08"></transaction-date>
-   <value currency="XDR" value-date="2012-08-08">12000000</value>
-   <provider-org>
-    <narrative xml:lang="EN">Fragile States Facility</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">GOUVERNEMENT DU BURUNDI</narrative>
-   </receiver-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="5900155003351">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2012-09-30"></transaction-date>
    <value currency="XDR" value-date="2012-09-30">6939266.53</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2012</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-FSF">
     <narrative xml:lang="EN">Fragile States Facility</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="5900155003351">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2014-09-30"></transaction-date>
    <value currency="XDR" value-date="2014-09-30">5000000</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2014</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-FSF">
     <narrative xml:lang="EN">Fragile States Facility</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5900155003351" ref="5900155003351">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2012-08-08"></transaction-date>
+   <value currency="XDR" value-date="2012-08-08">12000000</value>
+   <provider-org ref="XM-DAC-FSF">
+    <narrative xml:lang="EN">Fragile States Facility</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-null">
+    <narrative xml:lang="EN">GOUVERNEMENT DU BURUNDI</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Burundi%20-%20AR%20PARE%20V.pdf">
    <title>
@@ -207,15 +220,6 @@ cr&#xE9;ation d&#x2019;emplois.</narrative>
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10519.pdf">
-   <title>
-    <narrative xml:lang="EN">Project Completion Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
     <narrative xml:lang="EN">Conditions</narrative>
@@ -226,6 +230,15 @@ cr&#xE9;ation d&#x2019;emplois.</narrative>
   <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10519.pdf">
    <title>
     <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10519.pdf">
+   <title>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
    </title>
    <category code="A03"></category>
    <category code="A07"></category>
@@ -247,11 +260,11 @@ cr&#xE9;ation d&#x2019;emplois.</narrative>
    <language code="FR"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
   <result type="1">
@@ -265,12 +278,12 @@ cr&#xE9;ation d&#x2019;emplois.</narrative>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
      <period-end iso-date="2015-12-31"></period-end>
-     <actual value="15000"></actual>
+     <actual value="15000.0"></actual>
     </period>
     <period>
      <period-start iso-date="2012-01-01"></period-start>
      <period-end iso-date="2012-12-31"></period-end>
-     <target value="15000"></target>
+     <target value="15000.0"></target>
     </period>
    </indicator>
   </result>
@@ -285,12 +298,12 @@ cr&#xE9;ation d&#x2019;emplois.</narrative>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
      <period-end iso-date="2015-12-31"></period-end>
-     <actual value="7500"></actual>
+     <actual value="7500.0"></actual>
     </period>
     <period>
      <period-start iso-date="2012-01-01"></period-start>
      <period-end iso-date="2012-12-31"></period-end>
-     <target value="7500"></target>
+     <target value="7500.0"></target>
     </period>
    </indicator>
   </result>

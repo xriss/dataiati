@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-TN-HAA-008</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">2&#xE8;me Ligne de Cr&#xE9;dit &#xE0; la Soci&#xE9;t&#xE9; Tuniso-Saoudienne d&apos;Investissement et de D&#xE9;veloppement (STUSID)</narrative>
@@ -11,12 +11,17 @@
   <description type="1">
    <narrative xml:lang="FR">Le succ&#xE8;s de l&apos;op&#xE9;ration propos&#xE9;e pourrait &#xEA;tre menac&#xE9; d&apos;une part par l&apos;h&#xE9;sitation des entreprises concern&#xE9;s par l&apos;&#xE9;nergie &#xE0; &#xE9;liminer les ambiguit&#xE9;s dans les relations qu&apos;elles entretiennent avec les pouvoirs publics et &#xE0; devenir pleinement responsables de leurs actions, et d&apos;autre part par l&apos;h&#xE9;sitation des organismes publics &#xE0; abandonner leur contr&#xF4;le, motiv&#xE9; par la politique qu&apos;ils exercent sur la planification des investissements et la fixation des prix, au d&#xE9;triment d&apos;une saine gestion &#xE9;conomique et financi&#xE8;re.</narrative>
   </description>
-  <participating-org ref="46002" role="1" type="40">
+  <participating-org ref="XM-DAC-46002" role="1" type="40">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">STUSID (SOCIETE TUNISO-SEOUDIENNE D&apos;INVE ST - DEV)</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1991-06-17" type="1"></activity-date>
   <activity-date iso-date="1991-08-29" type="2"></activity-date>
@@ -24,13 +29,13 @@
   <activity-date iso-date="1996-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -39,17 +44,13 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="TN" percentage="100"></recipient-country>
   <sector code="24030" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Finance</narrative>
+   <narrative xml:lang="EN">Formal sector financial intermediaries</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.12.1" percentage="100" vocabulary="1">
@@ -170,53 +171,65 @@
    <value currency="XDR" value-date="1996-09-17">902065</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2000190000073">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="1991-08-29"></transaction-date>
-   <value currency="XDR" value-date="1991-08-29">19845430.59</value>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">STUSID (soci&#xE9;t&#xE9; tuniso - saoudienne d&#x2019;investissement et de d&#xE9;veloppement )</narrative>
-   </receiver-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="421"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2000190000073">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2009-12-31"></transaction-date>
    <value currency="XDR" value-date="2009-12-31">20978788.95</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46002">
     <narrative xml:lang="EN">African Development Bank</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2000190000073">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2009-12-31"></transaction-date>
    <value currency="XDR" value-date="2009-12-31">10535155.28</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment till end of 2009</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46002">
     <narrative xml:lang="EN">African Development Bank</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2000190000073">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2009-03-31"></transaction-date>
    <value currency="XDR" value-date="2009-03-31">20978788.95</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46002">
     <narrative xml:lang="EN">African Development Bank</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2000190000073" ref="2000190000073">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="1991-08-29"></transaction-date>
+   <value currency="XDR" value-date="1991-08-29">19845430.59</value>
+   <provider-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-null">
+    <narrative xml:lang="EN">STUSID (soci&#xE9;t&#xE9; tuniso - saoudienne d&#x2019;investissement et de d&#xE9;veloppement )</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
@@ -226,11 +239,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

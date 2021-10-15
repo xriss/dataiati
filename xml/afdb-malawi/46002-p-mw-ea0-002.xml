@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-MW-EA0-002</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Feas. Study for District Water Supply II</narrative>
@@ -11,12 +11,17 @@
   <description type="1">
    <narrative xml:lang="EN">The consultant will be required to: 1)  Make comprehensive assessment of the present and future demands by taking into consideration of such factors as the present population, public, institutional, commercial and industrial water users and making projections of the same. ii)  Make a thorough study of the existing water supply and evaluate their reliability to the present and projected District Centres requirements. iii)  Study the available water resources and formulate a long-term master plan of the development of the water supplies to all the said rural growth centres up to the year 2005, followed by preparation of a phased priority programme of the necessary works to satisfy demand in then year stages. iv)  Prepare an overall implementation programme of the centres&apos; water supply and carry out engineering design of the projects initial stage, make economic and financial analysis with an aim of arriving at a clearly defined project which would require minimum further preparation before implementation.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Malawi</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1983-08-25" type="1"></activity-date>
   <activity-date iso-date="1984-05-09" type="2"></activity-date>
@@ -24,13 +29,13 @@
   <activity-date iso-date="1993-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -39,17 +44,13 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="MW" percentage="100"></recipient-country>
   <sector code="14010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Water supply and Sanitation</narrative>
+   <narrative xml:lang="EN">Water sector policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="4.1.1" percentage="100" vocabulary="1">
@@ -265,14 +266,44 @@
    <value currency="XDR" value-date="1993-08-25">11642.25</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100150000697">
+  <transaction afdb:finance-type-id="2100150000697">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">548961.48</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000697">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2009-03-31"></transaction-date>
+   <value currency="XDR" value-date="2009-03-31">548961.48</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000697" ref="2100150000697">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1984-05-09"></transaction-date>
    <value currency="XDR" value-date="1984-05-09">477332.08</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOVERNMENT OF MALAWI</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -280,29 +311,7 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">548961.48</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2009-03-31"></transaction-date>
-   <value currency="XDR" value-date="2009-03-31">548961.48</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1984-05-09"></transaction-date>
    <value currency="XDR" value-date="1984-05-09">240100</value>
@@ -320,11 +329,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

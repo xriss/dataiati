@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-SZ-DB0-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Manzini-Mahamba Road Study</narrative>
@@ -11,12 +11,17 @@
   <description type="1">
    <narrative xml:lang="EN">The Extension of the Road Study comprises two parts: (i)  to prepare final engineering design and complete tender documents for the Usutu River-Hlatikulu section of the Manzini-Mahamba road (43 km) for which only determination of final alignment was required under the Terms of the original Contract, and complete tender documents for the Nhlangano-Mhlosheni section of main road MR11 (24 km).</narrative>
   </description>
-  <participating-org ref="46002" role="1" type="40">
+  <participating-org ref="XM-DAC-46002" role="1" type="40">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Ministry of Works - Communications</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1975-06-24" type="1"></activity-date>
   <activity-date iso-date="1975-11-06" type="2"></activity-date>
@@ -24,7 +29,7 @@
   <activity-date iso-date="1977-06-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -39,22 +44,18 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="SZ" percentage="100"></recipient-country>
-  <sector code="21023" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Transport</narrative>
+  <sector code="21020" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Road transport</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.8.5" percentage="100" vocabulary="1">
+   <budget-item code="3.8.6" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Transport - national road construction</narrative>
+     <narrative xml:lang="EN">Transport - national road maintenance</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -100,42 +101,50 @@
    <value currency="XDR" value-date="1977-03-24">21250</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2000192000435">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="1975-11-06"></transaction-date>
-   <value currency="XDR" value-date="1975-11-06">170000</value>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">GOVERNMENT OF SWAZILAND</narrative>
-   </receiver-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="421"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2000192000435">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2009-12-31"></transaction-date>
    <value currency="XDR" value-date="2009-12-31">133682.4</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46002">
     <narrative xml:lang="EN">African Development Bank</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2000192000435">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2009-03-31"></transaction-date>
    <value currency="XDR" value-date="2009-03-31">133682.4</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46002">
     <narrative xml:lang="EN">African Development Bank</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2000192000435" ref="2000192000435">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="1975-11-06"></transaction-date>
+   <value currency="XDR" value-date="1975-11-06">170000</value>
+   <provider-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-null">
+    <narrative xml:lang="EN">GOVERNMENT OF SWAZILAND</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
@@ -145,11 +154,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

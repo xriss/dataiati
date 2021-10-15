@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-BI-KF0-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Projet de renforcement des capacit&#xE9;s  institutionnelles (PRCI)</narrative>
@@ -41,7 +41,7 @@ programmation des investissements publics et de renforcement du syst&#xE8;me sta
 mettant l&#x2019;accent sur la valorisation des ressources humaines, l&#x2019;am&#xE9;lioration des proc&#xE9;dures et
 la modernisation des outils de travail.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="4" type="10">
@@ -51,6 +51,11 @@ reconstruction.</narrative>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Burundi</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2004-07-07" type="1"></activity-date>
   <activity-date iso-date="2004-09-17" type="2"></activity-date>
@@ -58,13 +63,13 @@ reconstruction.</narrative>
   <activity-date iso-date="2010-04-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -73,11 +78,7 @@ reconstruction.</narrative>
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -87,8 +88,8 @@ reconstruction.</narrative>
    <name>
     <narrative xml:lang="EN">Burundi</narrative>
    </name>
-   <administrative code="40548.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="40618.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="40548" level="1" vocabulary="G1"></administrative>
+   <administrative code="40618" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-3.5 30</pos>
    </point>
@@ -96,13 +97,13 @@ reconstruction.</narrative>
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
-  <sector code="15124" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Multi-Sector</narrative>
+  <sector code="15110" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.1.1" percentage="100" vocabulary="1">
+   <budget-item code="3.8.13" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">General Economic, Commercial and Labour Affairs - policy, planning and administration</narrative>
+     <narrative xml:lang="EN">Transport - meteorological services</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -223,14 +224,29 @@ reconstruction.</narrative>
    <value currency="XDR" value-date="2010-01-07">92608.7</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155002816">
+  <transaction afdb:finance-type-id="2100155002816">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">2149712.9</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155002816" ref="2100155002816">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2004-09-17"></transaction-date>
    <value currency="XDR" value-date="2004-09-17">2130000</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOUVERNEMENT DU BURUNDI</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -238,18 +254,7 @@ reconstruction.</narrative>
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">2149712.9</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2004-09-17"></transaction-date>
    <value currency="XDR" value-date="2004-09-17">110000</value>
@@ -283,6 +288,13 @@ reconstruction.</narrative>
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
+   <title>
+    <narrative xml:lang="EN">Conditions</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Evaluation-Reports-_Shared-With-OPEV_/Burundi.%20Institutional%20Capacity%20%20Building%20%20Project%20_EN.pdf">
    <title>
     <narrative xml:lang="EN">Project Completion Report</narrative>
@@ -310,13 +322,6 @@ reconstruction.</narrative>
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
-   <title>
-    <narrative xml:lang="EN">Conditions</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="APPLICATION/VND.MS-EXCEL" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Procurement_Docs/158385_EN_LISTING-OF-AWARDED-CONTRACTS-FROM-2006-TO-2008-OCTOBER-2008.XLS">
    <title>
     <narrative xml:lang="EN">Contract</narrative>
@@ -342,11 +347,11 @@ reconstruction.</narrative>
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

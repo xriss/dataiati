@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-CM-IBD-003</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Cameroon - Health System Development Project (PDSS)</narrative>
@@ -12,7 +12,7 @@
   <description type="2">
    <narrative xml:lang="FR">L&apos;objectif du projet est d&apos;am&#xE9;liorer la qualit&#xE9; et l&apos;accessibilit&#xE9; des services de sant&#xE9; dans les provinces du Sud et du Centre &#xE0; travers le renforcement des services de sant&#xE9; et du syst&#xE8;me d&apos;information sanitaire et l&apos;appui &#xE0; la maintenance. La qualit&#xE9; des services de sant&#xE9; sera am&#xE9;lior&#xE9;e par la mise en place de structures sanitaires appropri&#xE9;es.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="3" type="10">
@@ -21,6 +21,11 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">MINISTERE DE LA SANTE PUBLIQUE</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2000-06-07" type="1"></activity-date>
   <activity-date iso-date="2000-09-04" type="2"></activity-date>
@@ -28,26 +33,22 @@
   <activity-date iso-date="2011-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">RDGC2</narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">BISSAKONOU Judes</narrative>
+    <narrative xml:lang="EN">Judes BISSAKONOU</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Social Development Specialist</narrative>
+    <narrative xml:lang="EN">Labour Economist, AHHD</narrative>
    </job-title>
    <telephone></telephone>
    <email>j.bissakonou@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -57,6 +58,8 @@
    <name>
     <narrative xml:lang="EN">Centre Region</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>4.75 11.83333</pos>
    </point>
@@ -69,6 +72,8 @@
    <name>
     <narrative xml:lang="EN">South Region</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>2.5 11.75</pos>
    </point>
@@ -77,7 +82,7 @@
    <feature-designation code="ADM1"></feature-designation>
   </location>
   <sector code="12110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Social</narrative>
+   <narrative xml:lang="EN">Health policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
@@ -318,11 +323,209 @@
    <value currency="XDR" value-date="2011-09-07">174044.05</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100150000201">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2000-09-04"></transaction-date>
-   <value currency="XDR" value-date="2000-09-04">8006025.93</value>
-   <provider-org>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-03-31"></transaction-date>
+   <value currency="XDR" value-date="2010-03-31">137447.83</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-03-31"></transaction-date>
+   <value currency="XDR" value-date="2013-03-31">12997.23</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2013</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-12-31"></transaction-date>
+   <value currency="XDR" value-date="2010-12-31">81461.06</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2011-12-31"></transaction-date>
+   <value currency="XDR" value-date="2011-12-31">903473.09</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2011</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2012-12-31"></transaction-date>
+   <value currency="XDR" value-date="2012-12-31">2568638.14</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2012</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-06-30"></transaction-date>
+   <value currency="XDR" value-date="2010-06-30">140012.36</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-09-30"></transaction-date>
+   <value currency="XDR" value-date="2010-09-30">862563.89</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">4096386.55</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2017-08-31"></transaction-date>
+   <value currency="XDR" value-date="2017-08-31">27488.25</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in August of 2017</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2018-08-31"></transaction-date>
+   <value currency="XDR" value-date="2018-08-31">27172.51</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in August of 2018</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2018-08-31"></transaction-date>
+   <value currency="XDR" value-date="2018-08-31">27172.51</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in August of 2018</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2019-08-31"></transaction-date>
+   <value currency="XDR" value-date="2019-08-31">7986.7</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in August of 2019</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2020-08-15"></transaction-date>
+   <value currency="XDR" value-date="2020-08-15">27265.61</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in August of 2020</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000201">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2021-08-31"></transaction-date>
+   <value currency="XDR" value-date="2021-08-31">26798.43</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in August of 2021</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
    <receiver-org>
@@ -333,722 +536,790 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-03-31"></transaction-date>
-   <value currency="XDR" value-date="2010-03-31">137447.83</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-31"></transaction-date>
-   <value currency="XDR" value-date="2013-03-31">12997.23</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2013</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-31"></transaction-date>
-   <value currency="XDR" value-date="2010-12-31">81461.06</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-12-31"></transaction-date>
-   <value currency="XDR" value-date="2011-12-31">903473.09</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2011</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-31"></transaction-date>
-   <value currency="XDR" value-date="2012-12-31">2568638.14</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2012</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-06-30"></transaction-date>
-   <value currency="XDR" value-date="2010-06-30">140012.36</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-09-30"></transaction-date>
-   <value currency="XDR" value-date="2010-09-30">862563.89</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">4096386.55</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2017-08-31"></transaction-date>
-   <value currency="XDR" value-date="2017-08-31">27488.25</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in August of 2017</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2018-08-31"></transaction-date>
-   <value currency="XDR" value-date="2018-08-31">27172.51</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in August of 2018</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2018-08-31"></transaction-date>
-   <value currency="XDR" value-date="2018-08-31">27172.51</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in August of 2018</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2019-08-31"></transaction-date>
-   <value currency="XDR" value-date="2019-08-31">7986.7</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in August of 2019</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2020-08-15"></transaction-date>
-   <value currency="XDR" value-date="2020-08-15">27265.61</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in August of 2020</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2021-08-31"></transaction-date>
-   <value currency="XDR" value-date="2021-08-31">26798.43</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment in August of 2021</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-02-28"></transaction-date>
    <value currency="XDR" value-date="2018-02-28">27580.47</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in February of 2018</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-02-28"></transaction-date>
    <value currency="XDR" value-date="2018-02-28">27580.47</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in February of 2018</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-02-28"></transaction-date>
    <value currency="XDR" value-date="2019-02-28">27382.37</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in February of 2019</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-02-29"></transaction-date>
    <value currency="XDR" value-date="2020-02-29">15730.54</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in February of 2020</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-02-15"></transaction-date>
    <value currency="XDR" value-date="2021-02-15">16526.82</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in February of 2021</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
    <value currency="XDR" value-date="2021-02-28">10803.99</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in February of 2021</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2010-03-31"></transaction-date>
    <value currency="XDR" value-date="2010-03-31">23808.89</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2010</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2011-03-31"></transaction-date>
    <value currency="XDR" value-date="2011-03-31">25383.65</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2011</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2012-03-31"></transaction-date>
    <value currency="XDR" value-date="2012-03-31">26017.45</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2012</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2013-03-31"></transaction-date>
    <value currency="XDR" value-date="2013-03-31">27893.4</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2013</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2014-03-31"></transaction-date>
    <value currency="XDR" value-date="2014-03-31">29002.23</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2014</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2015-03-31"></transaction-date>
    <value currency="XDR" value-date="2015-03-31">28472.64</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2015</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2016-03-31"></transaction-date>
    <value currency="XDR" value-date="2016-03-31">27576.32</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2016</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-03-31"></transaction-date>
    <value currency="XDR" value-date="2017-03-31">27666.66</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in First Quarter of 2017</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
    <value currency="XDR" value-date="2020-03-31">11297.29</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in March of 2020</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
    <value currency="XDR" value-date="2019-09-30">19121.93</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in September of 2019</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2010-09-30"></transaction-date>
    <value currency="XDR" value-date="2010-09-30">24368.88</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2010</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2011-09-30"></transaction-date>
    <value currency="XDR" value-date="2011-09-30">25710.96</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2011</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2012-09-30"></transaction-date>
    <value currency="XDR" value-date="2012-09-30">26789.77</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2012</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2013-09-30"></transaction-date>
    <value currency="XDR" value-date="2013-09-30">28875.82</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2013</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2014-09-30"></transaction-date>
    <value currency="XDR" value-date="2014-09-30">28503.26</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2014</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2015-09-30"></transaction-date>
    <value currency="XDR" value-date="2015-09-30">27700.84</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2015</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2016-09-30"></transaction-date>
    <value currency="XDR" value-date="2016-09-30">27626.33</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment in Third Quarter of 2016</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2009-12-31"></transaction-date>
    <value currency="XDR" value-date="2009-12-31">351765.93</value>
    <description>
     <narrative xml:lang="EN">Total Interest Repayment till end of 2009</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-08-31"></transaction-date>
    <value currency="XDR" value-date="2017-08-31">44085.51</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in August of 2017</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-08-31"></transaction-date>
    <value currency="XDR" value-date="2018-08-31">8977.16</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in August of 2018</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-08-15"></transaction-date>
    <value currency="XDR" value-date="2020-08-15">4696.74</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in August of 2020</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
    <value currency="XDR" value-date="2020-08-31">4441.31</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in August of 2020</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-08-31"></transaction-date>
    <value currency="XDR" value-date="2021-08-31">120677.23</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in August of 2021</narrative>
    </description>
-   <receiver-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">GOUVERNEMENT DU CAMEROUN MINISTERE DE L&apos;ECONOMIE ET DES FINANCES</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-02-28"></transaction-date>
    <value currency="XDR" value-date="2018-02-28">9076.76</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in February of 2018</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-02-28"></transaction-date>
    <value currency="XDR" value-date="2019-02-28">9126.85</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in February of 2019</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-02-29"></transaction-date>
    <value currency="XDR" value-date="2020-02-29">2452.6</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in February of 2020</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-02-15"></transaction-date>
    <value currency="XDR" value-date="2021-02-15">73248.55</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in February of 2021</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
    <value currency="XDR" value-date="2021-02-28">47853.48</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in February of 2021</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2011-03-31"></transaction-date>
    <value currency="XDR" value-date="2011-03-31">31457.99</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2011</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2012-03-31"></transaction-date>
    <value currency="XDR" value-date="2012-03-31">31731.4</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2012</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2013-03-31"></transaction-date>
    <value currency="XDR" value-date="2013-03-31">18467.98</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2013</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2014-03-31"></transaction-date>
    <value currency="XDR" value-date="2014-03-31">28691.73</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2014</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2015-03-31"></transaction-date>
    <value currency="XDR" value-date="2015-03-31">27991.27</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2015</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2016-03-31"></transaction-date>
    <value currency="XDR" value-date="2016-03-31">26773.77</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2016</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-03-31"></transaction-date>
    <value currency="XDR" value-date="2017-03-31">26987.51</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in First Quarter of 2017</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
    <value currency="XDR" value-date="2020-03-31">6646.74</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in March of 2020</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-06-30"></transaction-date>
    <value currency="XDR" value-date="2017-06-30">91100.78</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in Second Quarter of 2017</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
    <value currency="XDR" value-date="2019-09-30">9108.77</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in September of 2019</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2011-09-30"></transaction-date>
    <value currency="XDR" value-date="2011-09-30">36178.12</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2011</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2012-09-30"></transaction-date>
    <value currency="XDR" value-date="2012-09-30">31731.4</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2012</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2013-09-30"></transaction-date>
    <value currency="XDR" value-date="2013-09-30">28554.15</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2013</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2014-09-30"></transaction-date>
    <value currency="XDR" value-date="2014-09-30">28532.43</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2014</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2015-09-30"></transaction-date>
    <value currency="XDR" value-date="2015-09-30">27070.37</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2015</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2016-09-30"></transaction-date>
    <value currency="XDR" value-date="2016-09-30">27104.45</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment in Third Quarter of 2016</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2009-03-31"></transaction-date>
    <value currency="XDR" value-date="2009-03-31">963858.59</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000201" ref="2100150000201">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2000-09-04"></transaction-date>
+   <value currency="XDR" value-date="2000-09-04">8006025.93</value>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-null">
+    <narrative xml:lang="EN">GOUVERNEMENT DU CAMEROUN MINISTERE DE L&apos;ECONOMIE ET DES FINANCES</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2000-09-04"></transaction-date>
    <value currency="XDR" value-date="2000-09-04">920000</value>
@@ -1066,6 +1337,33 @@
    <category code="A07"></category>
    <category code="A08"></category>
    <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/FR_PN10314.pdf">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10314.pdf">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
+  <document-link format="TEXT/HTML" url="http://evrd.afdb.org/DocumentsDetails?DocNo=PN10314">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/FR_PN10314.pdf">
    <title>
@@ -1125,39 +1423,12 @@
    <category code="A11"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/FR_PN10314.pdf">
-   <title>
-    <narrative xml:lang="EN">Evaluation Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10314.pdf">
-   <title>
-    <narrative xml:lang="EN">Evaluation Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
-  <document-link format="TEXT/HTML" url="http://evrd.afdb.org/DocumentsDetails?DocNo=PN10314">
-   <title>
-    <narrative xml:lang="EN">Evaluation Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
   <result type="1">
@@ -1171,12 +1442,12 @@
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <actual value="82,5"></actual>
+     <actual value="82.5"></actual>
     </period>
     <period>
      <period-start iso-date="2000-01-01"></period-start>
      <period-end iso-date="2000-12-31"></period-end>
-     <target value="103"></target>
+     <target value="103.0"></target>
     </period>
    </indicator>
   </result>
@@ -1191,12 +1462,12 @@
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <actual value="5"></actual>
+     <actual value="5.0"></actual>
     </period>
     <period>
      <period-start iso-date="2000-01-01"></period-start>
      <period-end iso-date="2000-12-31"></period-end>
-     <target value="11"></target>
+     <target value="11.0"></target>
     </period>
    </indicator>
   </result>
@@ -1211,12 +1482,12 @@
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <actual value="165"></actual>
+     <actual value="165.0"></actual>
     </period>
     <period>
      <period-start iso-date="2000-01-01"></period-start>
      <period-end iso-date="2000-12-31"></period-end>
-     <target value="206"></target>
+     <target value="206.0"></target>
     </period>
    </indicator>
   </result>
@@ -1231,12 +1502,12 @@
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <actual value="3191,5"></actual>
+     <actual value="3191.5"></actual>
     </period>
     <period>
      <period-start iso-date="2000-01-01"></period-start>
      <period-end iso-date="2000-12-31"></period-end>
-     <target value="2815"></target>
+     <target value="2815.0"></target>
     </period>
    </indicator>
   </result>
@@ -1251,12 +1522,12 @@
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <actual value="558"></actual>
+     <actual value="558.0"></actual>
     </period>
     <period>
      <period-start iso-date="2000-01-01"></period-start>
      <period-end iso-date="2000-12-31"></period-end>
-     <target value="432"></target>
+     <target value="432.0"></target>
     </period>
    </indicator>
   </result>
@@ -1271,12 +1542,12 @@
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <actual value="6383"></actual>
+     <actual value="6383.0"></actual>
     </period>
     <period>
      <period-start iso-date="2000-01-01"></period-start>
      <period-end iso-date="2000-12-31"></period-end>
-     <target value="5630"></target>
+     <target value="5630.0"></target>
     </period>
    </indicator>
   </result>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-MR-HZ0-002</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Programme Gestion Ressources Publiques</narrative>
@@ -11,12 +11,20 @@
   <description type="2">
    <narrative xml:lang="FR">Le programme vise &#xE0; consolider les r&#xE9;formes macro&#xE9;conomiques, am&#xE9;liorer la mobilisation des ressources internes, l&apos;affectation et la gestion des ressources publiques en r&#xE9;affectant celles-ci vers l&apos;infrastrure de base ainsi que les programmes d&apos;&#xE9;ducation, de sant&#xE9;, et de lutte contre la pauvret&#xE9;. Les mesures pr&#xE9;vus dans le but d&apos;atteindre ces objectifs sont les suivantes: i) Consolidation des r&#xE9;formes macro&#xE9;conomiques. R&#xE9;aliser un taux de croissance r&#xE9;elle de 4,8% en moyenne par an, r&#xE9;duire le taux d&apos;inflation &#xE0; 3,5% &#xE0; l&apos;horizon 1998, r&#xE9;duire le d&#xE8;ficit ext&#xE9;rieur courent(hors transferts officiels) de 13,1% du PIB en 1995 &#xE0; 4,3% en 1998, r&#xE9;aliser des exc&#xE9;dents budg&#xE9;taires et atteindre en 1998 un niveau de reserves couvrant 4,6 mois d&apos;importations. ii) Mobilisation des ressources internes. Am&#xE9;liorer l&apos;administration fiscale, op&#xE8;rer des r&#xE9;formes de l&apos;imp&#xF4;t sur les soci&#xE9;t&#xE9;s et les personnes ainsi que la r&#xE9;forme tarifaire, &#xE9;largir et diversifier l&apos;assiette fiscale. iii)    Gestion des d&#xE9;penses publiques -      un programme des d&#xE9;penses publiques comprenant un programme triennal flissant d&apos;investissements publics de base. -  Am&#xE9;liorer l&apos;&#xE9;fficacit&#xE9; des d&#xE9;penses plans les secteurs sociaux . _R&#xE9;affecter les d&#xE9;penses en faveur des programmes de lutte contre la pauvret&#xE9; et accroitre la transparence et la responsabilisation dans la gestion des finances publiques.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">MINISTERE DU PLAN ET AMENAGEMENT DU TERRITOIRE</narrative>
   </participating-org>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">MINISTERE DU PLAN ET AMENAGEMENT DU TERRITOIRE</narrative>
+  </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1996-12-17" type="1"></activity-date>
   <activity-date iso-date="1996-12-20" type="2"></activity-date>
@@ -24,13 +32,13 @@
   <activity-date iso-date="1999-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -39,17 +47,13 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="MR" percentage="100"></recipient-country>
   <sector code="24030" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Finance</narrative>
+   <narrative xml:lang="EN">Formal sector financial intermediaries</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.12.1" percentage="100" vocabulary="1">
@@ -120,14 +124,59 @@
    <value currency="XDR" value-date="1999-09-17">615528.75</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100150000638">
+  <transaction afdb:finance-type-id="2100150000638">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">8269584.56</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000638">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">347778.52</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment till end of 2009</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000638">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2009-03-31"></transaction-date>
+   <value currency="XDR" value-date="2009-03-31">8269584.56</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000638" ref="2100150000638">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1996-12-20"></transaction-date>
    <value currency="XDR" value-date="1996-12-20">7386344.99</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">MINISTERE DU PLAN ET AMENAGEMEnt</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -135,57 +184,6 @@
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">8269584.56</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">347778.52</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment till end of 2009</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2009-03-31"></transaction-date>
-   <value currency="XDR" value-date="2009-03-31">8269584.56</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/FR_PN10070.pdf">
-   <title>
-    <narrative xml:lang="EN">Project Completion Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10070.pdf">
-   <title>
-    <narrative xml:lang="EN">Project Completion Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
     <narrative xml:lang="EN">Conditions</narrative>
@@ -220,12 +218,30 @@
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/FR_PN10070.pdf">
+   <title>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10070.pdf">
+   <title>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

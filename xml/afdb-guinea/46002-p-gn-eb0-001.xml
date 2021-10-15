@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-GN-EB0-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Etude d&apos;assainissement 4 Villes</narrative>
@@ -11,29 +11,36 @@
   <description type="1">
    <narrative xml:lang="FR">A.  Pr&#xE9;parer un document de r&#xE9;f&#xE9;rence qui:  i) donne la situation du secteur dans les 4 villies; ii) permet au Gouvernement de programmer ses interventions dans le secteur de l&apos;assainissement;  iii) orienter les investissements du secteur B.  Pr&#xE9;parer un projet permettant de r&#xE9;soudre les probl&#xE8;mes principaux dans les 4 villes concern&#xE9;es.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Guinea</narrative>
   </participating-org>
+  <participating-org role="3" type="10">
+   <narrative xml:lang="EN">Government of Guinea</narrative>
+  </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">MINISTERE DE L&apos;URBANISME ET DE L&apos;HABITAT</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="5"></activity-status>
   <activity-date iso-date="1997-11-05" type="1"></activity-date>
   <activity-date iso-date="1998-01-22" type="2"></activity-date>
   <activity-date iso-date="2002-06-30" type="3"></activity-date>
-  <activity-date iso-date="2002-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -42,17 +49,13 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="GN" percentage="100"></recipient-country>
   <sector code="14022" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Water supply and Sanitation</narrative>
+   <narrative xml:lang="EN">Sanitation - large systems</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="4.1.8" percentage="100" vocabulary="1">
@@ -163,14 +166,29 @@
    <value currency="XDR" value-date="2002-08-05">30802.44</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155000138">
+  <transaction afdb:finance-type-id="2100155000138">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">660466.77</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155000138" ref="2100155000138">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1998-01-22"></transaction-date>
    <value currency="XDR" value-date="1998-01-22">616048.79</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOUVERNEMENT DE GUINEE</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -178,18 +196,7 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">660466.77</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1998-01-22"></transaction-date>
    <value currency="XDR" value-date="1998-01-22">38000</value>
@@ -207,11 +214,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

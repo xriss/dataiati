@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-RW-C00-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Projet d&apos;appui institutionnel &#xE0; la Gestion de l&apos;environnement (PAIGER)</narrative>
@@ -17,7 +17,7 @@
   <description type="2">
    <narrative xml:lang="EN">The project&#x2019;s sector goal is the sustainable management of natural resources and a better protection of environment. The project has targeted the following objectives: (i) building the institutional capacity of the Directorate of Environmental Protection by training its officers and providing equipment and technical assistance; and (ii) creating a database equipped with an environmental information and statistics system (SISE).</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="3" type="10">
@@ -26,6 +26,11 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">MINISTERE DES TERRES, DE L&apos;ENVIRONNEMENT, DES FORETS DE L&apos;EAU ET DES MINES</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2003-07-09" type="1"></activity-date>
   <activity-date iso-date="2003-09-24" type="2"></activity-date>
@@ -33,13 +38,13 @@
   <activity-date iso-date="2009-06-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -48,11 +53,7 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -62,6 +63,8 @@
    <name>
     <narrative xml:lang="EN">Eastern Province</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-1.75 30.5</pos>
    </point>
@@ -74,6 +77,8 @@
    <name>
     <narrative xml:lang="EN">Northern Province</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-1.58333 29.9167</pos>
    </point>
@@ -86,6 +91,8 @@
    <name>
     <narrative xml:lang="EN">Western Province</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-2.16667 29.3333</pos>
    </point>
@@ -98,6 +105,8 @@
    <name>
     <narrative xml:lang="EN">Province du Sud</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-2.33333 29.6667</pos>
    </point>
@@ -106,7 +115,7 @@
    <feature-designation code="ADM1"></feature-designation>
   </location>
   <sector code="41010" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Environment</narrative>
+   <narrative xml:lang="EN">Environmental policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="4.2.1" percentage="100" vocabulary="1">
@@ -232,14 +241,29 @@
    <value currency="XDR" value-date="2009-01-09">43233.3</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155001960">
+  <transaction afdb:finance-type-id="2100155001960">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">1021567.49</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155001960" ref="2100155001960">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2003-09-24"></transaction-date>
    <value currency="XDR" value-date="2003-09-24">994365.93</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">REPUBLIQUE DU RWANDA</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -247,18 +271,7 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">1021567.49</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2003-09-24"></transaction-date>
    <value currency="XDR" value-date="2003-09-24">90000</value>
@@ -268,24 +281,6 @@
    <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/FR_PN10392.pdf">
-   <title>
-    <narrative xml:lang="EN">Project Completion Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10392.pdf">
-   <title>
-    <narrative xml:lang="EN">Project Completion Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
     <narrative xml:lang="EN">Conditions</narrative>
@@ -344,12 +339,30 @@
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/FR_PN10392.pdf">
+   <title>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10392.pdf">
+   <title>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

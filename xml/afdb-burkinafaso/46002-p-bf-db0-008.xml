@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-BF-DB0-008</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Burkina Faso - Etude de la Route Dori-Djibo</narrative>
@@ -11,12 +11,17 @@
   <description type="1">
    <narrative xml:lang="FR">A l&apos;&#xE9;valuation le projet comprenait les principales composantes suivantes :  - pou eau :  A.  a) L&apos;ex&#xE9;cution de forages dans tous les chefs lieux &#xE0; l&apos;exception d&apos;adjoham  o&#xF9; il fallait am&#xE9;nager 4 sources;  b) La construction et equipment de 10 stations de pompage; c) La construction de 9 r&#xE9;servoirs m&#xE9;taliques et la r&#xE9;habilitation d&apos;un dixi&#xE8;me  d) La construction de 59,3 km r&#xE9;seaux, de 80 bornes-fontaines et la r&#xE9;alisation de branchements.  - pour l&apos;&#xE9;lectricit&#xE9; :  e) L&apos;extension de la centrale diesel d&apos;Alphahou&#xE9;, f) La construction de 36 postes de transformation MT/BT de 50 et 100 KVA ; g) La construction de 185 km de lignes MT, BT et mixtes.  - pour le volet commun eau et &#xE9;lectricit&#xE9; :  h) La construction d&apos;un stock de pi&#xE8;ces de rechange; i) Les &#xE9;tudes d&apos;ex&#xE9;cution; j) La supervision des travaux. co&#xFB;t du projet (en million d&apos;UCF) :</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">Direction G&#xE9;n&#xE9;rale de d&#xE9;senclavement Terrestre</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1974-06-28" type="1"></activity-date>
   <activity-date iso-date="1974-11-14" type="2"></activity-date>
@@ -24,13 +29,13 @@
   <activity-date iso-date="1978-11-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -39,11 +44,7 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -53,8 +54,8 @@
    <name>
     <narrative xml:lang="EN">Dori</narrative>
    </name>
-   <administrative code="12145.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="40287.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12145" level="2" vocabulary="G1"></administrative>
+   <administrative code="40287" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>14.0354 -0.0345</pos>
    </point>
@@ -67,8 +68,8 @@
    <name>
     <narrative xml:lang="EN">Djibo</narrative>
    </name>
-   <administrative code="12147.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="40287.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12147" level="2" vocabulary="G1"></administrative>
+   <administrative code="40287" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>14.0994 -1.62554</pos>
    </point>
@@ -76,13 +77,13 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPL"></feature-designation>
   </location>
-  <sector code="21023" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Transport</narrative>
+  <sector code="21020" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Road transport</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.8.5" percentage="100" vocabulary="1">
+   <budget-item code="3.8.6" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Transport - national road construction</narrative>
+     <narrative xml:lang="EN">Transport - national road maintenance</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -178,42 +179,50 @@
    <value currency="XDR" value-date="1978-09-28">20467.82</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100150000021">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="1974-11-14"></transaction-date>
-   <value currency="XDR" value-date="1974-11-14">368420.8</value>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">GOUVERNEMENT DE LA REPUBLIQUE</narrative>
-   </receiver-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="421"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000021">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2009-12-31"></transaction-date>
    <value currency="XDR" value-date="2009-12-31">289713.7</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000021">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2009-03-31"></transaction-date>
    <value currency="XDR" value-date="2009-03-31">289713.7</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000021" ref="2100150000021">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="1974-11-14"></transaction-date>
+   <value currency="XDR" value-date="1974-11-14">368420.8</value>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-null">
+    <narrative xml:lang="EN">GOUVERNEMENT DE LA REPUBLIQUE</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
@@ -223,11 +232,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

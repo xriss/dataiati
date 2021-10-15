@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-GM-KF0-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Gambia - Institutional Support for Economic and Financial Governance II Project (ISEFG II)</narrative>
@@ -31,8 +31,14 @@ corresponding audits. But significant challenges remain, including an increasing
 deficit (caused mainly by very high levels of debt and extra budgetary spending), and
 continued lack of human capacity in critical areas of PFM.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
+  </participating-org>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">GOVERNMENT OF GAMBIA MINISTRY OF FINANCE AND TRADE</narrative>
+  </participating-org>
+  <participating-org role="3" type="10">
+   <narrative xml:lang="EN">Government Of Gambia</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government of the Gambia</narrative>
@@ -40,6 +46,11 @@ continued lack of human capacity in critical areas of PFM.</narrative>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Ministry of Finance and Economic Affairs (MoFEA)</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2011-09-30" type="1"></activity-date>
   <activity-date iso-date="2011-10-12" type="2"></activity-date>
@@ -47,26 +58,22 @@ continued lack of human capacity in critical areas of PFM.</narrative>
   <activity-date iso-date="2015-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">ECGF</narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">ARVANITIS Yannis</narrative>
+    <narrative xml:lang="EN">Yannis ARVANITIS</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Principal Governance Officer</narrative>
+    <narrative xml:lang="EN">Governance Officer, ECGF</narrative>
    </job-title>
    <telephone>+225 27 2026 3312</telephone>
    <email>y.arvanitis@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -76,8 +83,8 @@ continued lack of human capacity in critical areas of PFM.</narrative>
    <name>
     <narrative xml:lang="EN">Gambia</narrative>
    </name>
-   <administrative code="1288.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="16427.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="1288" level="1" vocabulary="G1"></administrative>
+   <administrative code="16427" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>13.5 -15.5</pos>
    </point>
@@ -85,13 +92,13 @@ continued lack of human capacity in critical areas of PFM.</narrative>
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
-  <sector code="15124" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Multi-Sector</narrative>
+  <sector code="15110" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.1.1" percentage="100" vocabulary="1">
+   <budget-item code="3.8.13" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">General Economic, Commercial and Labour Affairs - policy, planning and administration</narrative>
+     <narrative xml:lang="EN">Transport - meteorological services</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -182,14 +189,74 @@ continued lack of human capacity in critical areas of PFM.</narrative>
    <value currency="XDR" value-date="2015-09-30">117647.06</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155021117">
+  <transaction afdb:finance-type-id="2100155021117">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2012-03-31"></transaction-date>
+   <value currency="XDR" value-date="2012-03-31">387865.82</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2012</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155021117">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2012-12-31"></transaction-date>
+   <value currency="XDR" value-date="2012-12-31">362986.28</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2012</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155021117">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-12-31"></transaction-date>
+   <value currency="XDR" value-date="2013-12-31">570652.69</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2013</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155021117">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-06-30"></transaction-date>
+   <value currency="XDR" value-date="2014-06-30">693036.31</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2014</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155021117" ref="2100155021117">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2011-10-12"></transaction-date>
    <value currency="XDR" value-date="2011-10-12">2000000</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOVERNMENT OF GAMBIA</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -197,51 +264,7 @@ continued lack of human capacity in critical areas of PFM.</narrative>
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-03-31"></transaction-date>
-   <value currency="XDR" value-date="2012-03-31">387865.82</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2012</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-31"></transaction-date>
-   <value currency="XDR" value-date="2012-12-31">362986.28</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2012</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-31"></transaction-date>
-   <value currency="XDR" value-date="2013-12-31">570652.69</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2013</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-30"></transaction-date>
-   <value currency="XDR" value-date="2014-06-30">693036.31</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2014</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2011-10-12"></transaction-date>
    <value currency="XDR" value-date="2011-10-12">200000</value>
@@ -275,6 +298,30 @@ continued lack of human capacity in critical areas of PFM.</narrative>
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
+   <title>
+    <narrative xml:lang="EN">Conditions</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/Gambia%20-%20Institutional%20Support%20for%20Economic%20and%20Financial%20Governance%20Project%20II%20-%20Contract%20Award%202.pdf">
+   <title>
+    <narrative xml:lang="EN">Contract</narrative>
+   </title>
+   <category code="A06"></category>
+   <category code="A11"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/EN_PN10723.pdf">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/EN_PN10723.pdf">
    <title>
     <narrative xml:lang="EN">Project Completion Report</narrative>
@@ -301,30 +348,6 @@ continued lack of human capacity in critical areas of PFM.</narrative>
    <category code="A07"></category>
    <category code="A08"></category>
    <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
-   <title>
-    <narrative xml:lang="EN">Conditions</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/Gambia%20-%20Institutional%20Support%20for%20Economic%20and%20Financial%20Governance%20Project%20II%20-%20Contract%20Award%202.pdf">
-   <title>
-    <narrative xml:lang="EN">Contract</narrative>
-   </title>
-   <category code="A06"></category>
-   <category code="A11"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/EN_PN10723.pdf">
-   <title>
-    <narrative xml:lang="EN">Evaluation Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="EN"></language>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/EOIGambiaISEFG%20%201%20%20%202-12.pdf">
    <title>
@@ -376,11 +399,11 @@ continued lack of human capacity in critical areas of PFM.</narrative>
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

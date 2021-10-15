@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-MW-DB0-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Malawi - Mzuzu-Muhuju Road Project Study</narrative>
@@ -11,12 +11,17 @@
   <description type="1">
    <narrative xml:lang="EN">The principal aim of the study will be to determine the technical and economic feasibility of constructing new or improved road connections between Mzuzu and Muhuju and to provide the basis for decisions on the standards of design, optimum routing and the feasibility of staged construction. Once such decisions are taken and the best solution is selected, final engineering design and relevant tender documents have to be prepared accordingly.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Ministry of Work</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1975-04-30" type="1"></activity-date>
   <activity-date iso-date="1975-08-19" type="2"></activity-date>
@@ -24,13 +29,13 @@
   <activity-date iso-date="1987-07-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -39,34 +44,18 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="MW" percentage="100"></recipient-country>
   <location>
-   <location-id code="925475" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Mzuzu</narrative>
-   </name>
-   <administrative code="1889.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="19318.0" level="2" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-11.4656 34.0207</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-   <feature-designation code="PPL"></feature-designation>
-  </location>
-  <location>
    <location-id code="925803" vocabulary="A1"></location-id>
    <name>
     <narrative xml:lang="EN">Muhuju</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="A1"></administrative>
+   <administrative code="0" level="2" vocabulary="A1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-10.88333 34.01667</pos>
    </point>
@@ -74,13 +63,27 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPL"></feature-designation>
   </location>
-  <sector code="21023" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Transport</narrative>
+  <location>
+   <location-id code="925475" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Mzuzu</narrative>
+   </name>
+   <administrative code="1889" level="1" vocabulary="G1"></administrative>
+   <administrative code="19318" level="2" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-11.4656 34.0207</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+   <feature-designation code="PPL"></feature-designation>
+  </location>
+  <sector code="21020" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Road transport</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.8.5" percentage="100" vocabulary="1">
+   <budget-item code="3.8.6" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Transport - national road construction</narrative>
+     <narrative xml:lang="EN">Transport - national road maintenance</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -331,42 +334,50 @@
    <value currency="XDR" value-date="1987-04-30">5632.61</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100150000667">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="1975-08-19"></transaction-date>
-   <value currency="XDR" value-date="1975-08-19">275998.12</value>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">GOVERNMENT OF MALAWI</narrative>
-   </receiver-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="421"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000667">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2009-12-31"></transaction-date>
    <value currency="XDR" value-date="2009-12-31">217035.62</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100150000667">
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2009-03-31"></transaction-date>
    <value currency="XDR" value-date="2009-03-31">217035.62</value>
    <description>
     <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
    </description>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000667" ref="2100150000667">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="1975-08-19"></transaction-date>
+   <value currency="XDR" value-date="1975-08-19">275998.12</value>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-null">
+    <narrative xml:lang="EN">GOVERNMENT OF MALAWI</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
@@ -376,11 +387,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

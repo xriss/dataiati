@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-BJ-KA0-007</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Benin - Control Institutions Support Project (PAIC)</narrative>
@@ -13,8 +13,11 @@
   <description type="2">
    <narrative xml:lang="FR">Les objectifs du projet se pr&#xE9;sentent comme suit : -,,Contribuer au renforcement et &#xE0; la rationalisation du contr&#xF4;le interne avec des proc&#xE9;dures simplifi&#xE9;es, une meilleure d&#xE9;finition des attributions des diff&#xE9;rentes structures de contr&#xF4;le et l&apos;unification des organes de contr&#xF4;le interne au sein d&apos;un m&#xEA;me minist&#xE8;re ; -,,rationaliser et renforcer les institutions de contr&#xF4;le externe; -,,renforcer les capacit&#xE9;s de la Cour supr&#xEA;me -,,renforcer les capacit&#xE9;s de la Commission des finances de l&apos;Assembl&#xE9;e pour un meilleur contr&#xF4;le de l&apos;ex&#xE9;cutif et une plus grande compr&#xE9;hension des textes soumis &#xE0; son adoption.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
+  </participating-org>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">CAISSE AUTONOME D&apos;AMORTISSEMENT PROJET D&apos;APPUI A LA GESTION DES FORETS COMMUNALES</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Benin</narrative>
@@ -22,6 +25,11 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Minist&#xE8;re de l&#x2019;Economie et des Finances/ Cellule de suivi des programmes &#xE9;conomiques et financiers (CSPEF)</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2005-06-29" type="1"></activity-date>
   <activity-date iso-date="2005-07-25" type="2"></activity-date>
@@ -29,26 +37,22 @@
   <activity-date iso-date="2012-11-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">ECGF</narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">COULIBALY Abdoulaye</narrative>
+    <narrative xml:lang="EN">Abdoulaye COULIBALY</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Director</narrative>
+    <narrative xml:lang="EN">Director, ECGF</narrative>
    </job-title>
    <telephone>+225 27 2026 2536</telephone>
    <email>a.d.coulibaly@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -58,8 +62,8 @@
    <name>
     <narrative xml:lang="EN">Benin</narrative>
    </name>
-   <administrative code="5891.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="612.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="5891" level="2" vocabulary="G1"></administrative>
+   <administrative code="612" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>9.5 2.25</pos>
    </point>
@@ -67,13 +71,13 @@
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
-  <sector code="15124" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Multi-Sector</narrative>
+  <sector code="15110" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.1.1" percentage="100" vocabulary="1">
+   <budget-item code="3.8.13" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">General Economic, Commercial and Labour Affairs - policy, planning and administration</narrative>
+     <narrative xml:lang="EN">Transport - meteorological services</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -229,14 +233,89 @@
    <value currency="XDR" value-date="2012-09-29">58209.49</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155005216">
+  <transaction afdb:finance-type-id="2100155005216">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-03-31"></transaction-date>
+   <value currency="XDR" value-date="2013-03-31">139331.8</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2013</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155005216">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-12-31"></transaction-date>
+   <value currency="XDR" value-date="2010-12-31">23834.84</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155005216">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-06-30"></transaction-date>
+   <value currency="XDR" value-date="2010-06-30">58807.97</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155005216">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-09-30"></transaction-date>
+   <value currency="XDR" value-date="2010-09-30">163387.56</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155005216">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">1350077.89</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155005216" ref="2100155005216">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2005-07-25"></transaction-date>
    <value currency="XDR" value-date="2005-07-25">1746284.75</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOUVERNEMENT DE LA REPUBLIQUE</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -244,62 +323,7 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-31"></transaction-date>
-   <value currency="XDR" value-date="2013-03-31">139331.8</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2013</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-31"></transaction-date>
-   <value currency="XDR" value-date="2010-12-31">23834.84</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-06-30"></transaction-date>
-   <value currency="XDR" value-date="2010-06-30">58807.97</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-09-30"></transaction-date>
-   <value currency="XDR" value-date="2010-09-30">163387.56</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">1350077.89</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2005-07-25"></transaction-date>
    <value currency="XDR" value-date="2005-07-25">191000</value>
@@ -309,33 +333,6 @@
    <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Evaluation-Reports-_Shared-With-OPEV_/BENIN-_Control_institutions_support_project__PAIC__-PCR_15_02_2011_.pdf">
-   <title>
-    <narrative xml:lang="EN">Project Completion Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/FR_PN10353.pdf">
-   <title>
-    <narrative xml:lang="EN">Project Completion Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Evaluation-Reports-_Shared-With-OPEV_/Benin-_Projet_d_Appui_aux_Institutions_de_Contr%C3%B4le__PAIC__.pdf">
-   <title>
-    <narrative xml:lang="EN">Project Completion Report</narrative>
-   </title>
-   <category code="A03"></category>
-   <category code="A07"></category>
-   <category code="A08"></category>
-   <language code="FR"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
     <narrative xml:lang="EN">Conditions</narrative>
@@ -343,20 +340,13 @@
    <category code="A04"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/VND.MS-EXCEL" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/Listing_of_Awarded_Contracts_from_01_January_2000_to_16_April_2014_.xls">
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Evaluation-Reports-_Shared-With-OPEV_/BENIN-_Control_institutions_support_project__PAIC__-PCR_15_02_2011_.pdf">
    <title>
-    <narrative xml:lang="EN">Contract</narrative>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
    </title>
-   <category code="A06"></category>
-   <category code="A11"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/VND.MS-EXCEL" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/Listing_of_Awarded_Contracts_from_01_January_2000_to_4_May_2015_-_Eng.xls">
-   <title>
-    <narrative xml:lang="EN">Contract</narrative>
-   </title>
-   <category code="A06"></category>
-   <category code="A11"></category>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
    <language code="EN"></language>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://evrd.afdb.org/documents/docs/FR_PN10353.pdf">
@@ -377,12 +367,46 @@
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="http://evrd.afdb.org/documents/docs/FR_PN10353.pdf">
+   <title>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Evaluation-Reports-_Shared-With-OPEV_/Benin-_Projet_d_Appui_aux_Institutions_de_Contr%C3%B4le__PAIC__.pdf">
+   <title>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
+  <document-link format="APPLICATION/VND.MS-EXCEL" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/Listing_of_Awarded_Contracts_from_01_January_2000_to_16_April_2014_.xls">
+   <title>
+    <narrative xml:lang="EN">Contract</narrative>
+   </title>
+   <category code="A06"></category>
+   <category code="A11"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/VND.MS-EXCEL" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/Listing_of_Awarded_Contracts_from_01_January_2000_to_4_May_2015_-_Eng.xls">
+   <title>
+    <narrative xml:lang="EN">Contract</narrative>
+   </title>
+   <category code="A06"></category>
+   <category code="A11"></category>
+   <language code="EN"></language>
+  </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

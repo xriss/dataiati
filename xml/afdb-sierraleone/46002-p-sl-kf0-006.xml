@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-SL-KF0-006</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Tech Assistance for Mcc Ca Development</narrative>
   </title>
   <description type="2">
    <narrative xml:lang="FR">Le projet a deux objectifs principaux: (i) fournir un appui technique &#xE0; l&#x2019;&#xE9;quipe de base nationale du MCC pour effectuer une analyse des contraintes et (ii) identifier les principales contraintes et opportunit&#xE9;s d&#x2019;investissement essentielles pour stimuler la croissance &#xE9;conomique et r&#xE9;duire la pauvret&#xE9;.</narrative>
-  </description>
-  <description type="2">
    <narrative xml:lang="EN">The project has two main objectives, namely: (i) provide technical backstopping to the MCC National Core Team to conduct Constraints Analysis and (ii) identify the core constraints and investment opportunities which are essential in stimulating economic growth and poverty reduction.</narrative>
   </description>
-  <participating-org ref="FSF" role="1">
+  <participating-org ref="XM-DAC-FSF" role="1" type="40">
    <narrative xml:lang="EN">Fragile States Facility</narrative>
+  </participating-org>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">Ministry of Finance</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Minist&#xE8;re des Finances</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2013-03-31" type="1"></activity-date>
   <activity-date iso-date="2013-04-17" type="2"></activity-date>
@@ -27,26 +33,22 @@
   <activity-date iso-date="2013-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">RDGE4</narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">MKANDAWIRE Timothy Blackwell Kausipa</narrative>
+    <narrative xml:lang="EN">Timothy Blackwell Kausipa MKANDAWIRE</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Principal Financial Analyst</narrative>
+    <narrative xml:lang="EN">Financial Management Coor</narrative>
    </job-title>
    <telephone></telephone>
    <email>t.mkandawire@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -56,8 +58,8 @@
    <name>
     <narrative xml:lang="EN">Freetown</narrative>
    </name>
-   <administrative code="14.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="4.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="14" level="2" vocabulary="G1"></administrative>
+   <administrative code="4" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>8.45774 -13.23714</pos>
    </point>
@@ -65,13 +67,13 @@
    <location-class code="1"></location-class>
    <feature-designation code="PCLI"></feature-designation>
   </location>
-  <sector code="15124" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Multi-Sector</narrative>
+  <sector code="15110" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.1.1" percentage="100" vocabulary="1">
+   <budget-item code="3.8.13" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">General Economic, Commercial and Labour Affairs - policy, planning and administration</narrative>
+     <narrative xml:lang="EN">Transport - meteorological services</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -92,42 +94,50 @@
    <value currency="XDR" value-date="2013-09-30">45822.33</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="5900155004601">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2013-04-17"></transaction-date>
-   <value currency="XDR" value-date="2013-04-17">137467</value>
-   <provider-org>
-    <narrative xml:lang="EN">Fragile States Facility</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">GOVERNMENT OF SIERRA LEONE</narrative>
-   </receiver-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="5900155004601">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2013-12-31"></transaction-date>
    <value currency="XDR" value-date="2013-12-31">17978.68</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2013</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-FSF">
     <narrative xml:lang="EN">Fragile States Facility</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="5900155004601">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2013-09-30"></transaction-date>
    <value currency="XDR" value-date="2013-09-30">102895.55</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2013</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-FSF">
     <narrative xml:lang="EN">Fragile States Facility</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5900155004601" ref="5900155004601">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2013-04-17"></transaction-date>
+   <value currency="XDR" value-date="2013-04-17">137467</value>
+   <provider-org ref="XM-DAC-FSF">
+    <narrative xml:lang="EN">Fragile States Facility</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-null">
+    <narrative xml:lang="EN">GOVERNMENT OF SIERRA LEONE</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
@@ -201,11 +211,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

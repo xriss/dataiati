@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-ET-AAC-010</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Awash River Flood Control Study</narrative>
@@ -11,7 +11,7 @@
   <description type="2">
    <narrative xml:lang="EN">The overall objective of the study is to provide information for a better understanding of the development challenges in the Awash River Basin area. A full understanding of the basin development constraints and potentials can improve programme formulation and effectiveness to enhance food security, employment and reduce poverty in the Awash River Basin. The specific objectives of the study are to: (i) generate data and information for the analysis of the technical, social, and economic issues important to the formulation and implementation of effective and sustainable flood control and watershed management projects in the Awash Basin; ii) provide proposals to focus development direction and thrust in the basin; and (iii) prepare  at least two viable projects to address the problems of flooding, watershed management, and agricultural production for future financing.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="3" type="10">
@@ -23,6 +23,11 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Ministry of Water Resources</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2003-07-21" type="1"></activity-date>
   <activity-date iso-date="2003-10-15" type="2"></activity-date>
@@ -30,13 +35,13 @@
   <activity-date iso-date="2009-06-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -45,11 +50,7 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -59,6 +60,8 @@
    <name>
     <narrative xml:lang="EN">Awash</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>8.98333 40.1667</pos>
    </point>
@@ -67,7 +70,7 @@
    <feature-designation code="PPL"></feature-designation>
   </location>
   <sector code="31140" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Agriculture and Rural Development</narrative>
+   <narrative xml:lang="EN">Agricultural water resources</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.3.2" percentage="100" vocabulary="1">
@@ -193,14 +196,29 @@
    <value currency="XDR" value-date="2009-01-21">73427.38</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155001957">
+  <transaction afdb:finance-type-id="2100155001957">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">1743066.85</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155001957" ref="2100155001957">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2003-10-15"></transaction-date>
    <value currency="XDR" value-date="2003-10-15">1688829.67</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOVERNMENT OF ETHIOPIA</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -208,18 +226,7 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">1743066.85</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2003-10-15"></transaction-date>
    <value currency="XDR" value-date="2003-10-15">130000</value>
@@ -253,11 +260,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

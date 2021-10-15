@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-ZA-F00-004</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Afrique du Sud - Projet sur les &#xE9;nergies renouvelables d&#x2019;Eskom</narrative>
@@ -18,39 +18,42 @@
   <description type="2">
    <narrative xml:lang="EN">The project&apos;s development objective is to facilitate the accelerated development of large-scale renewable energy generation capacity in support of South Africa&apos;s long-term strategy for carbon reduction.</narrative>
   </description>
-  <participating-org ref="46002" role="1" type="40">
+  <participating-org ref="XM-DAC-46002" role="1" type="40">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">ESKOM HOLDINGS LTD (Public Sector client)</narrative>
+  </participating-org>
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">Eskom Holdings SOC Ltd</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="5"></activity-status>
   <activity-date iso-date="2011-05-30" type="1"></activity-date>
   <activity-date iso-date="2011-09-25" type="2"></activity-date>
   <activity-date iso-date="2018-12-31" type="3"></activity-date>
-  <activity-date iso-date="2018-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">RDGS1</narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">PEDERSEN Anders Cajus</narrative>
+    <narrative xml:lang="EN">Anders Cajus PEDERSEN</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Chief Regional Power Systems Officer</narrative>
+    <narrative xml:lang="EN">Regional Power Syst. Offi</narrative>
    </job-title>
    <telephone></telephone>
    <email>a.pedersen@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -60,6 +63,8 @@
    <name>
     <narrative xml:lang="EN">Province of the Western Cape</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-34.0 20.0</pos>
    </point>
@@ -72,6 +77,8 @@
    <name>
     <narrative xml:lang="EN">Upington</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-28.4478 21.2561</pos>
    </point>
@@ -84,6 +91,8 @@
    <name>
     <narrative xml:lang="EN">Vredendal</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-31.6683 18.5012</pos>
    </point>
@@ -91,13 +100,13 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPLA3"></feature-designation>
   </location>
-  <sector code="23220" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Power</narrative>
+  <sector code="23110" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Energy policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.6.6" percentage="100" vocabulary="1">
+   <budget-item code="3.6.1" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Energy - power generation</narrative>
+     <narrative xml:lang="EN">Energy - policy, planning and administration</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -253,14 +262,14 @@
    <value currency="XDR" value-date="2018-08-28">4780281</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2000130009980">
+  <transaction afdb:finance-type-id="2000130009980" ref="2000130009980">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2011-09-25"></transaction-date>
    <value currency="XDR" value-date="2011-09-25">143408427.2</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46002">
     <narrative xml:lang="EN">African Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">ESKOM HOLDINGS LTD</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -268,6 +277,15 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Environmental-and-Social-Assessments/ESIA_Summary_Eskom%20Renewable%20Energy%20Investment%20Project_%20FINAL_%20July%202010.pdf">
+   <title>
+    <narrative xml:lang="EN">Environmental Study</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Policy-Documents/RSA%20-%20RE%20Energies%20renouvelables%20d&apos;Eskom.pdf">
    <title>
     <narrative xml:lang="EN">Appraisal Report</narrative>
@@ -279,15 +297,6 @@
    <category code="A05"></category>
    <category code="A08"></category>
    <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Environmental-and-Social-Assessments/ESIA_Summary_Eskom%20Renewable%20Energy%20Investment%20Project_%20FINAL_%20July%202010.pdf">
-   <title>
-    <narrative xml:lang="EN">Environmental Study</narrative>
-   </title>
-   <category code="A01"></category>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <language code="EN"></language>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
@@ -304,11 +313,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
   <result type="1">
@@ -322,12 +331,12 @@
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <actual value="1"></actual>
+     <actual value="1.0"></actual>
     </period>
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <target value="1"></target>
+     <target value="1.0"></target>
     </period>
    </indicator>
   </result>
@@ -342,12 +351,12 @@
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <actual value="9"></actual>
+     <actual value="9.0"></actual>
     </period>
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <target value="10"></target>
+     <target value="10.0"></target>
     </period>
    </indicator>
   </result>
@@ -362,12 +371,12 @@
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <actual value="28,49"></actual>
+     <actual value="28.49"></actual>
     </period>
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <target value="10,57"></target>
+     <target value="10.57"></target>
     </period>
    </indicator>
   </result>
@@ -382,12 +391,12 @@
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <actual value="100"></actual>
+     <actual value="100.0"></actual>
     </period>
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <target value="100"></target>
+     <target value="100.0"></target>
     </period>
    </indicator>
   </result>
@@ -402,12 +411,12 @@
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <actual value="400"></actual>
+     <actual value="400.0"></actual>
     </period>
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <target value="140"></target>
+     <target value="140.0"></target>
     </period>
    </indicator>
   </result>
@@ -422,12 +431,12 @@
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <actual value="407"></actual>
+     <actual value="407.0"></actual>
     </period>
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <target value="151"></target>
+     <target value="151.0"></target>
     </period>
    </indicator>
   </result>
@@ -442,12 +451,12 @@
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <actual value="44"></actual>
+     <actual value="44.0"></actual>
     </period>
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <target value="44"></target>
+     <target value="44.0"></target>
     </period>
    </indicator>
   </result>
@@ -462,12 +471,12 @@
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <actual value="4,5"></actual>
+     <actual value="4.5"></actual>
     </period>
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <target value="5"></target>
+     <target value="5.0"></target>
     </period>
    </indicator>
   </result>
@@ -482,12 +491,12 @@
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <actual value="200"></actual>
+     <actual value="200.0"></actual>
     </period>
     <period>
      <period-start iso-date="2011-01-01"></period-start>
      <period-end iso-date="2011-12-31"></period-end>
-     <target value="70"></target>
+     <target value="70.0"></target>
     </period>
    </indicator>
   </result>

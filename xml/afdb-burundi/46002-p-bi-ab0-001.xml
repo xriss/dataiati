@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-BI-AB0-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Multinational - Projet de D&#xE9;veloppement Rural Int&#xE9;gr&#xE9; du Bugesera (PPF au Burundi)</narrative>
@@ -32,12 +32,20 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
   <description type="3">
    <narrative xml:lang="FR">Population de Bugesera</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
+  </participating-org>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">MINAGRIE - BURUNDI</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Minist&#xE8;re de l&apos;Agriculture et de l&apos;Elevage</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2008-12-27" type="1"></activity-date>
   <activity-date iso-date="2009-02-27" type="2"></activity-date>
@@ -45,76 +53,33 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
   <activity-date iso-date="2011-06-30" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">AHFR2</narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN">KANE Mamadou</narrative>
+    <narrative xml:lang="EN">Mamadou KANE</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Chief Irrigation &amp; Rural Infrastructures Engineer</narrative>
+    <narrative xml:lang="EN">Rural Infrast/Irrigation</narrative>
    </job-title>
    <telephone>+225 27 2026 3004</telephone>
    <email>m.a.kane@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="BI" percentage="100"></recipient-country>
   <location>
-   <location-id code="433561" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Burundi</narrative>
-   </name>
-   <administrative code="40548.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="40618.0" level="2" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-3.5 30</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-   <feature-designation code="PCLI"></feature-designation>
-  </location>
-  <location>
-   <location-id code="432455" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Kirundo</narrative>
-   </name>
-   <administrative code="40551.0" level="1" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-2.58333 30.1667</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-   <feature-designation code="ADM1"></feature-designation>
-  </location>
-  <location>
-   <location-id code="11186992" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Ngenda</narrative>
-   </name>
-   <administrative code="6413337.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="7688803.0" level="2" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-2.32009 29.9824</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-   <feature-designation code="ADM1"></feature-designation>
-  </location>
-  <location>
    <location-id code="202320" vocabulary="G1"></location-id>
    <name>
     <narrative xml:lang="EN">Lac Cyohoha Nord</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-2.25 30.1333</pos>
    </point>
@@ -127,6 +92,8 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
    <name>
     <narrative xml:lang="EN">Lac Cohoha Sud</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-2.42944 30.1022</pos>
    </point>
@@ -139,6 +106,8 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
    <name>
     <narrative xml:lang="EN">Rwanda</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-2 30</pos>
    </point>
@@ -151,6 +120,8 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
    <name>
     <narrative xml:lang="EN">Lac Rweru</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-2.4 30.3167</pos>
    </point>
@@ -163,6 +134,8 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
    <name>
     <narrative xml:lang="EN">Kabuyenge</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-2.61056 30.2967</pos>
    </point>
@@ -175,6 +148,8 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
    <name>
     <narrative xml:lang="EN">Nyavyamo</narrative>
    </name>
+   <administrative code="0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-2.54333 30.0372</pos>
    </point>
@@ -182,8 +157,50 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
    <location-class code="4"></location-class>
    <feature-designation code="WTLD"></feature-designation>
   </location>
-  <sector code="43042" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Agriculture and Rural Development</narrative>
+  <location>
+   <location-id code="433561" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Burundi</narrative>
+   </name>
+   <administrative code="40548" level="1" vocabulary="G1"></administrative>
+   <administrative code="40618" level="2" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-3.5 30</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="PCLI"></feature-designation>
+  </location>
+  <location>
+   <location-id code="432455" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Kirundo</narrative>
+   </name>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
+   <administrative code="40551" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-2.58333 30.1667</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM1"></feature-designation>
+  </location>
+  <location>
+   <location-id code="11186992" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Ngenda</narrative>
+   </name>
+   <administrative code="6413337" level="1" vocabulary="G1"></administrative>
+   <administrative code="7688803" level="2" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-2.32009 29.9824</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM1"></feature-designation>
+  </location>
+  <sector code="43040" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Rural development</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="5.4.7" percentage="100" vocabulary="1">
@@ -244,64 +261,80 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
    <value currency="XDR" value-date="2011-03-27">29889.69</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155015016">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2009-02-27"></transaction-date>
-   <value currency="XDR" value-date="2009-02-27">298896.93</value>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">GOUVERNEMENT DU BURUNDI</narrative>
-   </receiver-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100155015016">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2011-03-31"></transaction-date>
    <value currency="XDR" value-date="2011-03-31">7587.55</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100155015016">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2011-06-30"></transaction-date>
    <value currency="XDR" value-date="2011-06-30">5466.84</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2011</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100155015016">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2010-09-30"></transaction-date>
    <value currency="XDR" value-date="2010-09-30">78434.44</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100155015016">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2011-09-30"></transaction-date>
    <value currency="XDR" value-date="2011-09-30">203797.41</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2011</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155015016" ref="2100155015016">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2009-02-27"></transaction-date>
+   <value currency="XDR" value-date="2009-02-27">298896.93</value>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-null">
+    <narrative xml:lang="EN">GOUVERNEMENT DU BURUNDI</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Multinational_-_Integrated_Rural_Development_Project_of_Bugesera_-_Project_Appraisal_Report_.pdf">
    <title>
@@ -334,6 +367,20 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
    <category code="A04"></category>
    <language code="EN"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Multinational_-_Integrated_Rural_Development_Project_of_Bugesera_-_Project_Appraisal_Report_.pdf">
+   <title>
+    <narrative xml:lang="EN">Memorandum of Understanding</narrative>
+   </title>
+   <category code="A09"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Multinational_-_Projet_de_d%C3%A9veloppement_rural_int%C3%A9gr%C3%A9_du_Bugesera_-_Rapport_d%E2%80%99%C3%A9valuation_de_projet_.pdf">
+   <title>
+    <narrative xml:lang="EN">Memorandum of Understanding</narrative>
+   </title>
+   <category code="A09"></category>
+   <language code="FR"></language>
+  </document-link>
   <document-link format="APPLICATION/VND.MS-EXCEL" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/Listing_of_Awarded_Contracts_from_01_January_2000_to_16_April_2014_.xls">
    <title>
     <narrative xml:lang="EN">Contract</narrative>
@@ -350,26 +397,12 @@ l&#x2019;am&#xE9;lioration des conditions de vie des populations de la r&#xE9;gi
    <category code="A11"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Multinational_-_Integrated_Rural_Development_Project_of_Bugesera_-_Project_Appraisal_Report_.pdf">
-   <title>
-    <narrative xml:lang="EN">Memorandum of Understanding</narrative>
-   </title>
-   <category code="A09"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Multinational_-_Projet_de_d%C3%A9veloppement_rural_int%C3%A9gr%C3%A9_du_Bugesera_-_Rapport_d%E2%80%99%C3%A9valuation_de_projet_.pdf">
-   <title>
-    <narrative xml:lang="EN">Memorandum of Understanding</narrative>
-   </title>
-   <category code="A09"></category>
-   <language code="FR"></language>
-  </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

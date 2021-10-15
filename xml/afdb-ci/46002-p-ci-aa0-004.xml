@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-CI-AA0-004</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Etude de faisabilit&#xE9; d&apos;un projet de d&#xE9;veloppement rural des r&#xE9;gions du Centre et du Centre-Nord de la C&#xF4;te d&apos;Ivoire</narrative>
@@ -11,15 +11,20 @@
   <description type="2">
    <narrative xml:lang="FR">L&apos;objectif de l&apos;&#xE9;tude envisag&#xE9;e est l&apos;&#xE9;laboration d&apos;un rapport de faisabilit&#xE9; d&apos;un projet de d&#xE9;veloppement rural des r&#xE9;gions du Centre et du Centre-Nord de la C&#xF4;te d&apos;Ivoire. Le but vis&#xE9; est, conform&#xE9;ment aux objectifs et &#xE0; la strat&#xE9;gie fix&#xE9;s dans le Plan Directeur de D&#xE9;veloppement Agricole pour la p&#xE9;riode 1992-2015, la d&#xE9;finition d&apos;un cadre coh&#xE9;rent de d&#xE9;veloppement rural, bas&#xE9; sur les potentialit&#xE9;s et les contraintes de la zone d&apos;&#xE9;tude d&apos;une part, et les besoins sp&#xE9;cifiques des populations concern&#xE9;s notammment des femmes, d&apos;autre part.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of C&#xF4;te D&apos;Ivoire</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">&quot;DIRECTION DE LA PROGRAMMATION,MIN  DE&quot; &quot;L&apos;AGRICULTURE ,RESSOURCE ANIMAL&quot;</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1993-09-02" type="1"></activity-date>
   <activity-date iso-date="1993-12-01" type="2"></activity-date>
@@ -27,7 +32,7 @@
   <activity-date iso-date="1998-10-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -42,17 +47,13 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="CI" percentage="100"></recipient-country>
   <sector code="31110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Agriculture and Rural Development</narrative>
+   <narrative xml:lang="EN">Agricultural policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="3.3.1" percentage="100" vocabulary="1">
@@ -168,14 +169,29 @@
    <value currency="XDR" value-date="1998-09-02">80502.36</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155000057">
+  <transaction afdb:finance-type-id="2100155000057">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">1718205.73</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155000057" ref="2100155000057">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1993-12-01"></transaction-date>
    <value currency="XDR" value-date="1993-12-01">1690549.58</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOUVERNEMENT DE LA COTE D&apos;IVOIre</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -183,18 +199,7 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">1718205.73</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1993-12-01"></transaction-date>
    <value currency="XDR" value-date="1993-12-01">180000</value>
@@ -212,11 +217,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

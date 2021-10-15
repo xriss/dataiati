@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-TZ-DB0-005</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Route de Mingoyo-Masasi (P)</narrative>
@@ -11,7 +11,7 @@
   <description type="1">
    <narrative xml:lang="FR">Le projet consiste &#xE0; am&#xE9;liorer une route existante en la trans- formant en une route &#xE0; deux voies comportant un rev&#xEA;tement bi-couche. Cette route relie Mingoyo &#xE0; Masasi via Nanganga (118 km). Le projet comprend &#xE9;galement des prestations d&apos;ing&#xE9;nieurs conseils qui effectueront sur place le contr&#xF4;le et la surveillance des travaux de construction.</narrative>
   </description>
-  <participating-org ref="46002" role="1" type="40">
+  <participating-org ref="XM-DAC-46002" role="1" type="40">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </participating-org>
   <participating-org role="3" type="10">
@@ -20,6 +20,11 @@
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Ministry of Communications and Works</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1974-11-21" type="1"></activity-date>
   <activity-date iso-date="1975-01-15" type="2"></activity-date>
@@ -27,7 +32,7 @@
   <activity-date iso-date="1977-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -42,22 +47,18 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="TZ" percentage="100"></recipient-country>
-  <sector code="21023" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Transport</narrative>
+  <sector code="21020" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Road transport</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.8.5" percentage="100" vocabulary="1">
+   <budget-item code="3.8.6" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Transport - national road construction</narrative>
+     <narrative xml:lang="EN">Transport - national road maintenance</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -123,14 +124,59 @@
    <value currency="XDR" value-date="1977-08-21">333333.34</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2000192000489">
+  <transaction afdb:finance-type-id="2000192000489">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">3175372.69</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2000192000489">
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">190101.47</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment till end of 2009</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2000192000489">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2009-03-31"></transaction-date>
+   <value currency="XDR" value-date="2009-03-31">3175372.69</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2000192000489" ref="2000192000489">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1975-01-15"></transaction-date>
    <value currency="XDR" value-date="1975-01-15">4000000</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46002">
     <narrative xml:lang="EN">African Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOVERNMENT OF TANZANIA</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -138,40 +184,7 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">3175372.69</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="5"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">190101.47</value>
-   <description>
-    <narrative xml:lang="EN">Total Interest Repayment till end of 2009</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2009-03-31"></transaction-date>
-   <value currency="XDR" value-date="2009-03-31">3175372.69</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1975-01-15"></transaction-date>
    <value currency="XDR" value-date="1975-01-15">5570000</value>
@@ -189,11 +202,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

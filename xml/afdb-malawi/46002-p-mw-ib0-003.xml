@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-MW-IB0-003</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Malawi - Capacity building project to the National Aids Secretariat in support of the National Aids Control Programme</narrative>
   </title>
   <description type="1">
    <narrative xml:lang="FR">La pr&#xE9;sente intervention concerne le projet de renforcement des capacit&#xE9;s du Secr&#xE9;tariat National de lutte contre le SIDA en appui du Programme National de Contr&#xF4;le du SIDA. Il devrait contribuer &#xE0; l&#x2019;objectif g&#xE9;n&#xE9;ral du Plan strat&#xE9;gique national de lutte contre le VIH / SIDA (2000-2004), qui est de r&#xE9;duire l&#x2019;incidence du VIH / SIDA. Le projet devrait contribuer au renforcement des capacit&#xE9;s du Secr&#xE9;tariat national sur le SIDA (SNS) afin de mettre en &#x153;uvre avec succ&#xE8;s les strat&#xE9;gies du Plan national de sant&#xE9;.</narrative>
-  </description>
-  <description type="1">
    <narrative xml:lang="EN">The present intervention relates to the capacity building project to the National Aids Secretariat in support of the National Aids Control Programme. It should contribute to the overall objective of the National HIV/AIDS strategic Plan (2000-2004) which is to reduce the incidence of HIV/AIDS. The project is expected to contribute to strengthening the capacity of the National AIDS Secretariat (NHS) to successfully implement National Health Plan strategies.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Malawi</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">National Aids Secretariat</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="1999-12-15" type="1"></activity-date>
   <activity-date iso-date="2000-02-10" type="2"></activity-date>
@@ -30,13 +33,13 @@
   <activity-date iso-date="2004-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -45,11 +48,7 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -59,8 +58,8 @@
    <name>
     <narrative xml:lang="EN">Malawi</narrative>
    </name>
-   <administrative code="1888.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="19314.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="1888" level="1" vocabulary="G1"></administrative>
+   <administrative code="19314" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-13.5 34</pos>
    </point>
@@ -69,7 +68,7 @@
    <feature-designation code="PCLI"></feature-designation>
   </location>
   <sector code="12110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Social</narrative>
+   <narrative xml:lang="EN">Health policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
@@ -180,14 +179,29 @@
    <value currency="XDR" value-date="2004-09-15">42974.92</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155000227">
+  <transaction afdb:finance-type-id="2100155000227">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">1005954.65</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155000227" ref="2100155000227">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2000-02-10"></transaction-date>
    <value currency="XDR" value-date="2000-02-10">859498.35</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOVERNMENT OF MALAWI</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -195,18 +209,7 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">1005954.65</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2000-02-10"></transaction-date>
    <value currency="XDR" value-date="2000-02-10">74077</value>
@@ -240,11 +243,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

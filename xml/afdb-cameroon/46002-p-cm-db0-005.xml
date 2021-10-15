@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-CM-DB0-005</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Etude de la route Yaound&#xE9;-Kribi</narrative>
@@ -11,8 +11,11 @@
   <description type="1">
    <narrative xml:lang="FR">Le projet vise, dans une premi&#xE8;re phase, la r&#xE9;alisation d&apos;une &#xE9;tude de factibilit&#xE9; de la route Yaound&#xE9;-Kribi en passant par Lolodorf comprenant une &#xE9;tude &#xE9;conomique et une v&#xE9;rification du choix du tra- c&#xE9; fait dans les &#xE9;tudes ant&#xE9;rieures. Cette &#xE9;tude de factibilit&#xE9; founira, au vu de la rentabilit&#xE9; du projet, les &#xE9;l&#xE9;ments de d&#xE9;cision relatifs &#xE0; la conception du corps de chauss&#xE9;e, au trac&#xE9; optimum et &#xE0; la technique la plus appropri&#xE9;e pour la construction de la route.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
+  </participating-org>
+  <participating-org role="4" type="10">
+   <narrative xml:lang="EN">GOUVERNEMENT DU CAMEROUN MINISTERE DE L&apos;ECONOMIE ET DES FINANCES</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">GOUVERNEMENT DU CAMEROUN MINISTERE DE L&apos;ECONOMIE ET DES FINANCES</narrative>
@@ -20,20 +23,24 @@
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government Of Cameroon</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="5"></activity-status>
   <activity-date iso-date="1985-03-12" type="1"></activity-date>
   <activity-date iso-date="1985-06-13" type="2"></activity-date>
   <activity-date iso-date="1994-12-31" type="3"></activity-date>
-  <activity-date iso-date="1994-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
    </department>
    <person-name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">null null</narrative>
    </person-name>
    <job-title>
     <narrative xml:lang="EN"></narrative>
@@ -42,22 +49,18 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="CM" percentage="100"></recipient-country>
-  <sector code="21023" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Transport</narrative>
+  <sector code="21020" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Road transport</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.8.5" percentage="100" vocabulary="1">
+   <budget-item code="3.8.6" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Transport - national road construction</narrative>
+     <narrative xml:lang="EN">Transport - national road maintenance</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -258,14 +261,44 @@
    <value currency="XDR" value-date="1994-09-12">42009.05</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100150000194">
+  <transaction afdb:finance-type-id="2100150000194">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">1509646.17</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000194">
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2009-03-31"></transaction-date>
+   <value currency="XDR" value-date="2009-03-31">1509646.17</value>
+   <description>
+    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150000194" ref="2100150000194">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1985-06-13"></transaction-date>
    <value currency="XDR" value-date="1985-06-13">1638352.88</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOUVERNEMENT DU CAMEROUN</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -273,29 +306,7 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">1509646.17</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="6"></transaction-type>
-   <transaction-date iso-date="2009-03-31"></transaction-date>
-   <value currency="XDR" value-date="2009-03-31">1509646.17</value>
-   <description>
-    <narrative xml:lang="EN">Total Loan Repayment till end of 2009</narrative>
-   </description>
-   <receiver-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="1985-06-13"></transaction-date>
    <value currency="XDR" value-date="1985-06-13">170000</value>
@@ -313,11 +324,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>
