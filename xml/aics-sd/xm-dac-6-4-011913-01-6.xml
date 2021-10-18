@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-011913-01-6</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="IT">Contrasto alla malnutrizione in Sudan attraverso azioni di counselling e assistenza nutrizionale a livello dei servizi sanitari di base</narrative>
    <narrative xml:lang="EN">Define and implement effective nutrition counselling and practices at primary health care level to reduce stunting and wasting in Sudan</narrative>
   </title>
   <description>
@@ -15,17 +14,17 @@
   <description>
    <narrative xml:lang="EN">The project aims at supporting Sudan in its national efforts to improve the management of acute malnutrition, and to contribute to the reduction of stunting by strengthening nutrition services in the Primary Health Care system and setting up a Nutrition Surveillance System in the states of Kassala, Khartoum, Gedaref, and Red Sea</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="41307" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="41307" role="4" type="40">
-   <narrative xml:lang="EN">WHO- World Health Organisation</narrative>
+  <participating-org crs-channel-code="41307" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="011913/01/6" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
+  <participating-org crs-channel-code="41307" role="4" type="40">
+   <narrative xml:lang="EN">WHO - ORGANIZZAZIONE MONDIALE DELLA SANIT&#xC0;</narrative>
+  </participating-org>
+  <other-identifier ref="011913/01/6" type="A1"></other-identifier>
+  <other-identifier ref="2019000293" type="A2"></other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2019-09-01" type="1"></activity-date>
   <activity-date iso-date="2022-09-30" type="3"></activity-date>
@@ -33,28 +32,38 @@
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="SD" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="12220" percentage="5" vocabulary="1">
-   <narrative xml:lang="EN">Basic health care</narrative>
+   <narrative xml:lang="EN">BASIC HEALTH CARE</narrative>
   </sector>
   <sector code="12240" percentage="70" vocabulary="1">
-   <narrative xml:lang="EN">Basic nutrition</narrative>
+   <narrative xml:lang="EN">BASIC NUTRITION</narrative>
   </sector>
   <sector code="12261" percentage="10" vocabulary="1">
-   <narrative xml:lang="EN">Health education</narrative>
+   <narrative xml:lang="EN">HEALTH EDUCATION</narrative>
   </sector>
   <sector code="12281" percentage="10" vocabulary="1">
-   <narrative xml:lang="EN">Health personnel development</narrative>
+   <narrative xml:lang="EN">HEALTH PERSONNEL DEVELOPMENT</narrative>
   </sector>
   <sector code="12110" percentage="5" vocabulary="1">
-   <narrative xml:lang="EN">Health policy and administrative management</narrative>
+   <narrative xml:lang="EN">HEALTH POLICY AND ADMINISTRATIVE MANAGEMENT</narrative>
   </sector>
+  <tag code="2.2" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5&#xA0;years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons</narrative>
+  </tag>
+  <tag code="3.2" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, end preventable deaths of newborns and children under 5&#xA0;years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under&#x2011;5 mortality to at least as low as 25 per 1,000 live births</narrative>
+  </tag>
+  <tag code="2" vocabulary="2">
+   <narrative xml:lang="EN">End hunger, achieve food security and improved nutrition and promote sustainable agriculture</narrative>
+  </tag>
+  <tag code="3" vocabulary="2">
+   <narrative xml:lang="EN">Ensure healthy lives and promote well-being for all at all ages</narrative>
+  </tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -70,8 +79,17 @@
   <policy-marker code="2" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid to Environment</narrative>
   </policy-marker>
+  <policy-marker code="11" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Disability</narrative>
+  </policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Disaster Risk Reduction (DRR)</narrative>
+  </policy-marker>
   <policy-marker code="1" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Gender Equality</narrative>
+  </policy-marker>
+  <policy-marker code="12" significance="2" vocabulary="1">
+   <narrative xml:lang="EN">Nutrition</narrative>
   </policy-marker>
   <policy-marker code="3" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
@@ -86,38 +104,21 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-09-19"></transaction-date>
-   <value currency="EUR" value-date="2019-09-19">526018.78</value>
+   <value currency="EUR" value-date="2019-09-19">1481254.4</value>
    <description>
     <narrative xml:lang="EN">Commitment - Financial Year 2019</narrative>
    </description>
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-19"></transaction-date>
-   <value currency="EUR" value-date="2019-09-19">577812.61</value>
-   <description>
-    <narrative xml:lang="EN">Commitment - Financial Year 2020</narrative>
-   </description>
-   <provider-org ref="XM-DAC-6-4">
-    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-19"></transaction-date>
-   <value currency="EUR" value-date="2019-09-19">377423.01</value>
-   <description>
-    <narrative xml:lang="EN">Commitment - Financial Year 2021</narrative>
-   </description>
-   <provider-org ref="XM-DAC-6-4">
-    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
-   </provider-org>
+   <receiver-org type="40">
+    <narrative xml:lang="EN">WHO - ORGANIZZAZIONE MONDIALE DELLA SANIT&#xC0;</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -129,8 +130,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="40">
+    <narrative xml:lang="EN">WHO - ORGANIZZAZIONE MONDIALE DELLA SANIT&#xC0;</narrative>
+   </receiver-org>
   </transaction>
-  <related-activity ref="XM-DAC-6-4-011913" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

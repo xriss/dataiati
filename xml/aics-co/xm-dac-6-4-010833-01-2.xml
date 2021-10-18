@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-010833-01-2</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="IT">Fondo Fiduciario dell&apos;Unione Europea per la Colombia</narrative>
-   <narrative xml:lang="EN">Support to the European Union Trust Fund for Colombia</narrative>
   </title>
   <description>
    <narrative xml:lang="IT">Contribuire all&apos;attuazione dell&apos;accordo di pace in Colombia attraverso azioni di assistenza immediata e sostegno a medio termine alla situazione d post-conflitto nel paese</narrative>
@@ -15,34 +14,38 @@
   <description>
    <narrative xml:lang="EN">The Trust Fund overall objective is to support the implementation of the provisions established in the Peace Agreement between the Government of Colombia and the FARC and to support the Colombian population in overcoming the negative effects of the 50-year old internal armed conflict.</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="42001" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="42003" role="4" type="40">
-   <narrative xml:lang="EN">EDF - European Commission - European Development Fund</narrative>
+  <participating-org crs-channel-code="42001" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="010833/01/2" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
-  <activity-status code="2"></activity-status>
+  <participating-org crs-channel-code="42001" ref="42001" role="4" type="40">
+   <narrative xml:lang="EN">EUROPEAN COMMISSION ALT</narrative>
+  </participating-org>
+  <other-identifier ref="010833/01/2" type="A1"></other-identifier>
+  <other-identifier ref="2017000336" type="A2"></other-identifier>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2017-01-01" type="1"></activity-date>
   <activity-date iso-date="2020-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="CO" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="15220" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Civilian peace-building, conflict prevention and resolution</narrative>
+   <narrative xml:lang="EN">CIVILIAN PEACE-BUILDING, CONFLICT PREVENTION AND RESOLUTION</narrative>
   </sector>
+  <tag code="16" vocabulary="2">
+   <narrative xml:lang="EN">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</narrative>
+  </tag>
+  <tag code="16.1" vocabulary="3">
+   <narrative xml:lang="EN">Significantly reduce all forms of violence and related death rates everywhere</narrative>
+  </tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -75,6 +78,7 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2016-12-07"></transaction-date>
@@ -85,6 +89,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="42001" type="40">
+    <narrative xml:lang="EN">EUROPEAN COMMISSION ALT</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -96,17 +103,23 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="42001" type="40">
+    <narrative xml:lang="EN">EUROPEAN COMMISSION ALT</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-17"></transaction-date>
-   <value currency="EUR" value-date="2017-03-17">3000000</value>
+   <transaction-date iso-date="2017-01-17"></transaction-date>
+   <value currency="EUR" value-date="2017-01-17">3000000</value>
    <description>
     <narrative xml:lang="EN">Disboursement - Financial Year 2017</narrative>
    </description>
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="42001" type="40">
+    <narrative xml:lang="EN">EUROPEAN COMMISSION ALT</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -118,10 +131,11 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="42001" type="40">
+    <narrative xml:lang="EN">EUROPEAN COMMISSION ALT</narrative>
+   </receiver-org>
   </transaction>
-  <related-activity ref="XM-DAC-6-4-010833" type="1"></related-activity>
   <related-activity ref="XM-DAC-6-4-010833-02-3" type="3"></related-activity>
   <related-activity ref="XM-DAC-6-4-010833-03-4" type="3"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

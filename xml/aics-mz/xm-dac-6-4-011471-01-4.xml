@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-011471-01-4</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Beyond subsistence. Promotion of sustainable agricultural supply chains in Gorongosa and Mar&#xED;ngu&#xE8; through support of producers&apos; associations</narrative>
-   <narrative xml:lang="IT">Oltre la sussistenza. Promozione di filiere agricole sostenibili a Gorongosa e Mar&#xED;ngu&#xE8; attraverso il sostegno alle associazioni di produttori/trici</narrative>
   </title>
   <description>
    <narrative xml:lang="IT">Aumentare i redditi dei piccoli produttori agricoli e l&apos;uguaglianza di genere, grazie al rafforzamento delle associazioni, aumentato accesso alle risorse idriche, incremento della produzione e miglioramento della qualit&#xE0; di colture selezionate (mais, patate, fagioli e sesamo), rafforzamento delle capacit&#xE0; nella post-produzione e nell&apos;accesso al mercato.</narrative>
@@ -15,17 +14,17 @@
   <description>
    <narrative xml:lang="EN">Increase the income of small farmers and the gender equality, by strengthening the associations, increasing access to water resources, increasing production and improving quality of selected crops (maize, potatoes, beans and sesame), capacity strengthening in the post-harvesting and in access to market.</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="22000" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="22000" role="4" type="22">
-   <narrative xml:lang="EN">HELPCODE ITALIA</narrative>
+  <participating-org crs-channel-code="22000" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="011471/01/4" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
+  <participating-org crs-channel-code="22000" role="4" type="22">
+   <narrative xml:lang="EN">HELP CODE ITALIA ONLUS</narrative>
+  </participating-org>
+  <other-identifier ref="011471/01/4" type="A1"></other-identifier>
+  <other-identifier ref="2018000218" type="A2"></other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2018-05-01" type="1"></activity-date>
   <activity-date iso-date="2021-04-30" type="3"></activity-date>
@@ -33,19 +32,35 @@
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="MZ" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="31120" percentage="50" vocabulary="1">
-   <narrative xml:lang="EN">Agricultural development</narrative>
+   <narrative xml:lang="EN">AGRICULTURAL DEVELOPMENT</narrative>
   </sector>
   <sector code="31161" percentage="50" vocabulary="1">
-   <narrative xml:lang="EN">Food crop production</narrative>
+   <narrative xml:lang="EN">FOOD CROP PRODUCTION</narrative>
   </sector>
+  <tag code="5" vocabulary="2">
+   <narrative xml:lang="EN">Achieve gender equality and empower all women and girls</narrative>
+  </tag>
+  <tag code="2.3" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment</narrative>
+  </tag>
+  <tag code="1.4" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance</narrative>
+  </tag>
+  <tag code="2" vocabulary="2">
+   <narrative xml:lang="EN">End hunger, achieve food security and improved nutrition and promote sustainable agriculture</narrative>
+  </tag>
+  <tag code="1" vocabulary="2">
+   <narrative xml:lang="EN">End poverty in all its forms everywhere</narrative>
+  </tag>
+  <tag code="5.5" vocabulary="3">
+   <narrative xml:lang="EN">Ensure women&#x2019;s full and effective participation and equal opportunities for leadership at all levels of decision-making in political, economic and public life</narrative>
+  </tag>
   <policy-marker code="7" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
   </policy-marker>
@@ -61,9 +76,6 @@
   <policy-marker code="3" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
   </policy-marker>
-  <policy-marker code="9" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
-  </policy-marker>
   <policy-marker code="4" significance="2" vocabulary="1">
    <narrative xml:lang="EN">Trade Development</narrative>
   </policy-marker>
@@ -71,38 +83,21 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2018-03-27"></transaction-date>
-   <value currency="EUR" value-date="2018-03-27">733418</value>
+   <value currency="EUR" value-date="2018-03-27">1612812</value>
    <description>
     <narrative xml:lang="EN">Commitment - Financial Year 2018</narrative>
    </description>
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-03-27"></transaction-date>
-   <value currency="EUR" value-date="2018-03-27">628620</value>
-   <description>
-    <narrative xml:lang="EN">Commitment - Financial Year 2019</narrative>
-   </description>
-   <provider-org ref="XM-DAC-6-4">
-    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2018-03-27"></transaction-date>
-   <value currency="EUR" value-date="2018-03-27">250774</value>
-   <description>
-    <narrative xml:lang="EN">Commitment - Financial Year 2020</narrative>
-   </description>
-   <provider-org ref="XM-DAC-6-4">
-    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
-   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">HELP CODE ITALIA ONLUS</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -114,6 +109,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">HELP CODE ITALIA ONLUS</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -125,15 +123,30 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">HELP CODE ITALIA ONLUS</narrative>
+   </receiver-org>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=3288">
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-07-13"></transaction-date>
+   <value currency="EUR" value-date="2021-07-13">231473.9</value>
+   <description>
+    <narrative xml:lang="EN">Disboursement - Financial Year 2021</narrative>
+   </description>
+   <provider-org ref="XM-DAC-6-4">
+    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">HELP CODE ITALIA ONLUS</narrative>
+   </receiver-org>
+  </transaction>
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/3288 - Allegato 9_Proposta completa CCS Italia Onlus-Oltre la sussitenza-Mozambico.pdf">
    <title>
     <narrative xml:lang="EN">Documento di progetto - Profili</narrative>
    </title>
    <category code="A02"></category>
    <language code="IT"></language>
   </document-link>
-  <related-activity ref="XM-DAC-6-4-011471" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

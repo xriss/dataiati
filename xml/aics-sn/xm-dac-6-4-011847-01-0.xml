@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-011847-01-0</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="IT">Iniziativa di supporto al meccanismo di coordinamento dei partner tecnici e finanziari in Senegal</narrative>
    <narrative xml:lang="EN">Programme of support to the coordination mechanism of technical and financial partners in Senegal</narrative>
   </title>
   <description>
@@ -15,17 +14,17 @@
   <description>
    <narrative xml:lang="EN">The aim of the initiative is to provide coordinated and harmonized support to the government in the implementation of the plan for an emerging Senegal, reforms and development plans, in line with the Paris declaration on aid effectiveness, the Accra Agenda for action and the Busan Forum</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="41114" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="41114" role="4" type="40">
-   <narrative xml:lang="EN">UNDP - UNITED NATIONS DEVELOPMENT PROGRAMME FONDO SVILUPPO DONNE</narrative>
+  <participating-org crs-channel-code="41114" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="011847/01/0" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
+  <participating-org crs-channel-code="41114" ref="XM-DAC-41114" role="4" type="40">
+   <narrative xml:lang="EN">UNDP - UNITED NATIONS DEVELOPMENT PROGRAMME ALT</narrative>
+  </participating-org>
+  <other-identifier ref="011847/01/0" type="A1"></other-identifier>
+  <other-identifier ref="2020000112" type="A2"></other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2019-07-01" type="1"></activity-date>
   <activity-date iso-date="2022-06-30" type="3"></activity-date>
@@ -33,16 +32,20 @@
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="SN" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="15110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Public sector policy and administrative management</narrative>
+   <narrative xml:lang="EN">PUBLIC SECTOR POLICY AND ADMINISTRATIVE MANAGEMENT</narrative>
   </sector>
+  <tag code="17.13" vocabulary="3">
+   <narrative xml:lang="EN">Enhance global macroeconomic stability, including through policy coordination and policy coherence</narrative>
+  </tag>
+  <tag code="17" vocabulary="2">
+   <narrative xml:lang="EN">Strengthen the means of implementation and revitalize the global partnership for sustainable development</narrative>
+  </tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -64,9 +67,6 @@
   <policy-marker code="3" significance="2" vocabulary="1">
    <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
   </policy-marker>
-  <policy-marker code="9" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
-  </policy-marker>
   <policy-marker code="4" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Trade Development</narrative>
   </policy-marker>
@@ -74,27 +74,21 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-10-22"></transaction-date>
-   <value currency="EUR" value-date="2019-10-22">40000</value>
+   <value currency="EUR" value-date="2019-10-22">60000</value>
    <description>
-    <narrative xml:lang="EN">Commitment - Financial Year 2020</narrative>
+    <narrative xml:lang="EN">Commitment - Financial Year 2019</narrative>
    </description>
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-10-22"></transaction-date>
-   <value currency="EUR" value-date="2019-10-22">20000</value>
-   <description>
-    <narrative xml:lang="EN">Commitment - Financial Year 2021</narrative>
-   </description>
-   <provider-org ref="XM-DAC-6-4">
-    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
-   </provider-org>
+   <receiver-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">UNDP - UNITED NATIONS DEVELOPMENT PROGRAMME ALT</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -106,8 +100,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">UNDP - UNITED NATIONS DEVELOPMENT PROGRAMME ALT</narrative>
+   </receiver-org>
   </transaction>
-  <related-activity ref="XM-DAC-6-4-011847" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-012084-01-5</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="EN">Rehabilitation of Basic Services for Returnees in Sinjar</narrative>
    <narrative xml:lang="IT">Riabilitazione dei servizi di base per la popolazione di ritorno in Sinjar</narrative>
   </title>
   <description>
@@ -15,17 +14,17 @@
   <description>
    <narrative xml:lang="EN">The initiative focuses on the rehabilitation of water provision infrastructures in an area, the Sinjar, which was heavily affected by the recent conflict and by ISIS occupation. It is aligned with the country-wide sustainable returns approach, aiming at providing support to returnees and to support returns for some of the communities that have been most affected by the conflict in the country, such as the Yazidis. The technical component of the project will focus on the provision of water service in some mostly rural centres in the Sinjar District by rehabilitating and/or replacing damaged assets related to water distribution. The initiative foresees the inclusion of innovative technologies such as renewable and hybrid systems when applicable.</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="41502" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="41502" role="4" type="40">
-   <narrative xml:lang="EN">UNOPS - UNITED NATIONS OFFICE FOR PROJECT SERVICE</narrative>
+  <participating-org crs-channel-code="41502" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="012084/01/5" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
+  <participating-org crs-channel-code="41502" ref="41AAA" role="4" type="40">
+   <narrative xml:lang="EN">UNOPS - UFFICIO DELLE NAZIONI UNITE PER L&apos;ASSISTENZA E GESTIONE DI PROGETTI DI SVILUPPO</narrative>
+  </participating-org>
+  <other-identifier ref="012084/01/5" type="A1"></other-identifier>
+  <other-identifier ref="2020000028" type="A2"></other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2019-12-11" type="1"></activity-date>
   <activity-date iso-date="2020-12-11" type="3"></activity-date>
@@ -33,16 +32,20 @@
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="IQ" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="14021" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Water supply - large systems</narrative>
+   <narrative xml:lang="EN">WATER SUPPLY - LARGE SYSTEMS</narrative>
   </sector>
+  <tag code="6.1" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, achieve universal and equitable access to safe and affordable drinking water for all</narrative>
+  </tag>
+  <tag code="6" vocabulary="2">
+   <narrative xml:lang="EN">Ensure availability and sustainable management of water and sanitation for all</narrative>
+  </tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -58,14 +61,17 @@
   <policy-marker code="2" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid to Environment</narrative>
   </policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Disaster Risk Reduction (DRR)</narrative>
+  </policy-marker>
   <policy-marker code="1" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Gender Equality</narrative>
   </policy-marker>
+  <policy-marker code="12" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Nutrition</narrative>
+  </policy-marker>
   <policy-marker code="3" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
-  </policy-marker>
-  <policy-marker code="9" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
   </policy-marker>
   <policy-marker code="4" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Trade Development</narrative>
@@ -74,6 +80,8 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-08-20"></transaction-date>
@@ -84,6 +92,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="41AAA" type="40">
+    <narrative xml:lang="EN">UNOPS - UFFICIO DELLE NAZIONI UNITE PER L&apos;ASSISTENZA E GESTIONE DI PROGETTI DI SVILUPPO</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -95,8 +106,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="41AAA" type="40">
+    <narrative xml:lang="EN">UNOPS - UFFICIO DELLE NAZIONI UNITE PER L&apos;ASSISTENZA E GESTIONE DI PROGETTI DI SVILUPPO</narrative>
+   </receiver-org>
   </transaction>
-  <related-activity ref="XM-DAC-6-4-012084" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

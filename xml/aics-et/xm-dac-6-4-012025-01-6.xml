@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-012025-01-6</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Emergency Initiative to support vulnerable migrants and returnees in Ethiopia and Djibouti, for a safe and informed migration</narrative>
-   <narrative xml:lang="IT">Iniziativa di Emergenza in supporto a migranti vulnerabili e migranti di ritorno in etiopia e Gibuti, per una migrazione sicura e informata</narrative>
   </title>
   <description>
    <narrative xml:lang="IT">L&apos;Iniziativa regionale, realizzata in Etiopia e Gibuti, si prefigge di supportare la protezione di migranti e ritornati e lottare contro la tratta e il traffco di esseri umani, migliorando al contempo le opportunit&#xE0; di accesso al lavoro e servizi per rendere la migrazione una scelta consapevole, non una necessit&#xE0; inevitabile</narrative>
@@ -15,37 +14,41 @@
   <description>
    <narrative xml:lang="EN">The Initiative aims at strengthening the protection systems for migrants and returnees, tackling human trafficking and smuggling providing better opportunities for young people and migrants in Ethiopia and Djibouti. The goal of the intervention is to contribute in making migration a choice and not a necessity. The Specific Objectives are as follows</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="11001" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="11001" role="4" type="10">
-   <narrative xml:lang="EN">AICS - Sede Addis Abeba</narrative>
+  <participating-org crs-channel-code="11001" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="012025/01/6" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
-  <activity-status code="2"></activity-status>
+  <participating-org crs-channel-code="11001" role="4" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
+  </participating-org>
+  <other-identifier ref="012025/01/6" type="A1"></other-identifier>
+  <other-identifier ref="2020000053" type="A2"></other-identifier>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-03-01" type="1"></activity-date>
   <activity-date iso-date="2022-03-01" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="ET" percentage="100"></recipient-country>
-  <sector percentage="50" vocabulary="1">
-   <narrative xml:lang="EN">Facilitation of orderly, safe, regular and responsible migration and mobility</narrative>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
+  <sector code="15190" percentage="50" vocabulary="1">
+   <narrative xml:lang="EN">FACILITATION OF ORDERLY, SAFE, REGULAR AND RESPONSIBLE MIGRATION AND MOBILITY</narrative>
   </sector>
   <sector code="72050" percentage="50" vocabulary="1">
-   <narrative xml:lang="EN">Relief co-ordination and support services</narrative>
+   <narrative xml:lang="EN">RELIEF CO-ORDINATION; PROTECTION AND SUPPORT SERVICES</narrative>
   </sector>
+  <tag code="10.7" vocabulary="3">
+   <narrative xml:lang="EN">Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies</narrative>
+  </tag>
+  <tag code="10" vocabulary="2">
+   <narrative xml:lang="EN">Reduce inequality within and among countries</narrative>
+  </tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -61,8 +64,17 @@
   <policy-marker code="2" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid to Environment</narrative>
   </policy-marker>
+  <policy-marker code="11" significance="1" vocabulary="1">
+   <narrative xml:lang="EN">Disability</narrative>
+  </policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Disaster Risk Reduction (DRR)</narrative>
+  </policy-marker>
   <policy-marker code="1" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Gender Equality</narrative>
+  </policy-marker>
+  <policy-marker code="12" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Nutrition</narrative>
   </policy-marker>
   <policy-marker code="3" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
@@ -77,6 +89,8 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-04-22"></transaction-date>
@@ -87,6 +101,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -98,29 +115,30 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
+   </receiver-org>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5816">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5816 - 20.-Delibera-Min-n.-20-del-10.02.2020.pdf">
    <title>
     <narrative xml:lang="EN">Delibera del comitato congiunto</narrative>
    </title>
    <category code="A02"></category>
    <language code="IT"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5817">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5817 - PdF AID 012025 ETHGibuti migrazioni 2019_compressed.pdf">
    <title>
     <narrative xml:lang="EN">Proposta di finanziamento</narrative>
    </title>
    <category code="A02"></category>
    <language code="IT"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5818">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5818 - Call-primissima-12025_per-pubblicazione.docx.pdf">
    <title>
     <narrative xml:lang="EN">Call for proposals I</narrative>
    </title>
    <category code="A11"></category>
    <language code="IT"></language>
   </document-link>
-  <related-activity ref="XM-DAC-6-4-012025" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

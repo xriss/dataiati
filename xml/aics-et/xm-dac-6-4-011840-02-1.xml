@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-011840-02-1</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="EN">Intervention to reduce geographic inequalities in Afar, Gambella, Benishangul Gumuz and Somali with gender and nutrition components</narrative>
    <narrative xml:lang="IT">Intervento per ridurre le disuguaglianze geografiche in Afar, Gambella,Benishangul Gumuz e Somali con componeneti di genere e nutrizione - FL</narrative>
   </title>
   <description>
@@ -15,17 +14,17 @@
   <description>
    <narrative xml:lang="EN">The proposed initiative, plans to contribute to the national action of the sector to counter the health inequalities still present in the so-called Emerging Regions, (RE) which are Afar (North West), Somali (South West), Gambella (East) and Benishangul- Gumuz (East). These inequalities are the cause and effect of the poor quality of the existing health service and the low demand for health services by the population that lives there</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="11001" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="11001" role="4" type="10">
-   <narrative xml:lang="EN">AICS - Sede Addis Abeba</narrative>
+  <participating-org crs-channel-code="11001" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="011840/02/1" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
+  <participating-org crs-channel-code="11001" role="4" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
+  </participating-org>
+  <other-identifier ref="011840/02/1" type="A1"></other-identifier>
+  <other-identifier ref="2019000229" type="A2"></other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2019-06-30" type="1"></activity-date>
   <activity-date iso-date="2022-06-01" type="3"></activity-date>
@@ -33,25 +32,38 @@
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="ET" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="12220" percentage="25" vocabulary="1">
-   <narrative xml:lang="EN">Basic health care</narrative>
+   <narrative xml:lang="EN">BASIC HEALTH CARE</narrative>
   </sector>
   <sector code="12261" percentage="25" vocabulary="1">
-   <narrative xml:lang="EN">Health education</narrative>
+   <narrative xml:lang="EN">HEALTH EDUCATION</narrative>
   </sector>
   <sector code="12281" percentage="25" vocabulary="1">
-   <narrative xml:lang="EN">Health personnel development</narrative>
+   <narrative xml:lang="EN">HEALTH PERSONNEL DEVELOPMENT</narrative>
   </sector>
   <sector code="13040" percentage="25" vocabulary="1">
-   <narrative xml:lang="EN">STD control including HIV/AIDS</narrative>
+   <narrative xml:lang="EN">STD CONTROL INCLUDING HIV/AIDS</narrative>
   </sector>
+  <tag code="3.8" vocabulary="3">
+   <narrative xml:lang="EN">Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all</narrative>
+  </tag>
+  <tag code="3.2" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, end preventable deaths of newborns and children under 5&#xA0;years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under&#x2011;5 mortality to at least as low as 25 per 1,000 live births</narrative>
+  </tag>
+  <tag code="3.7" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes</narrative>
+  </tag>
+  <tag code="3.1" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</narrative>
+  </tag>
+  <tag code="3" vocabulary="2">
+   <narrative xml:lang="EN">Ensure healthy lives and promote well-being for all at all ages</narrative>
+  </tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -67,8 +79,14 @@
   <policy-marker code="2" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid to Environment</narrative>
   </policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Disaster Risk Reduction (DRR)</narrative>
+  </policy-marker>
   <policy-marker code="1" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Gender Equality</narrative>
+  </policy-marker>
+  <policy-marker code="12" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Nutrition</narrative>
   </policy-marker>
   <policy-marker code="3" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
@@ -83,38 +101,21 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-09-16"></transaction-date>
-   <value currency="EUR" value-date="2019-09-16">350000</value>
+   <value currency="EUR" value-date="2019-09-16">750000</value>
    <description>
     <narrative xml:lang="EN">Commitment - Financial Year 2019</narrative>
    </description>
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-16"></transaction-date>
-   <value currency="EUR" value-date="2019-09-16">200000</value>
-   <description>
-    <narrative xml:lang="EN">Commitment - Financial Year 2020</narrative>
-   </description>
-   <provider-org ref="XM-DAC-6-4">
+   <receiver-org type="10">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-16"></transaction-date>
-   <value currency="EUR" value-date="2019-09-16">200000</value>
-   <description>
-    <narrative xml:lang="EN">Commitment - Financial Year 2021</narrative>
-   </description>
-   <provider-org ref="XM-DAC-6-4">
-    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
-   </provider-org>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -126,33 +127,39 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-08-10"></transaction-date>
-   <value currency="EUR" value-date="2020-08-10">250000</value>
+   <transaction-date iso-date="2021-01-15"></transaction-date>
+   <value currency="EUR" value-date="2021-01-15">156000</value>
    <description>
-    <narrative xml:lang="EN">Disboursement - Financial Year 2020</narrative>
+    <narrative xml:lang="EN">Disboursement - Financial Year 2021</narrative>
    </description>
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
+   </receiver-org>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5857">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5857 - Delibera n.66 del 16.09.2019 FE in FGL.pdf">
    <title>
     <narrative xml:lang="EN">Delibera del Direttore</narrative>
    </title>
    <category code="A02"></category>
    <language code="IT"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5856">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5856 - Delibera_47 del 23 Maggio 2019.pdf">
    <title>
     <narrative xml:lang="EN">Delibera del comitato congiunto</narrative>
    </title>
    <category code="A02"></category>
    <language code="IT"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5855">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5855 - PROPOSTA_DI_FIN. EQUITY.pdf">
    <title>
     <narrative xml:lang="EN">Proposta di finanziamento</narrative>
    </title>
@@ -160,14 +167,13 @@
    <category code="A05"></category>
    <language code="IT"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5858">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5858 - AGREEMENT AID 11840.pdf">
    <title>
     <narrative xml:lang="EN">Agreement</narrative>
    </title>
    <category code="A09"></category>
    <language code="EN"></language>
   </document-link>
-  <related-activity ref="XM-DAC-6-4-011840" type="1"></related-activity>
-  <conditions attached="0"></conditions>
+  <related-activity ref="XM-DAC-6-4-011840-01-0" type="3"></related-activity>
  </iati-activity>
 </iati-activities>

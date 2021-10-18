@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-011337-01-2</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="IT">ETIOPIA Contributo italiano al Health Pool Fund - HPF IV</narrative>
    <narrative xml:lang="EN">ETIOPIA Italian Contribution to Health Pool Fund - HPF IV</narrative>
   </title>
   <description>
@@ -15,34 +14,38 @@
   <description>
    <narrative xml:lang="EN">The Health Pool Fund (HPF) is a multi-donor fund managed  by UNICEF aimed at contributing to the Health Sector Transformation Plan (HSTP) 2015 / 2016-2019/2020. The fund ensures support to the implementation process of the HSTP through a flexible and timely financing mechanism.The fund is managed by the Ministry of Health through the Joint Core Coordination Committee (JCCC), organ of joint government of the HSTP, of which AICS is part</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="41122" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="41000" role="4" type="40">
-   <narrative xml:lang="EN">UNICEF - UNITED NATIONS CHILDREN&apos;S FUND</narrative>
+  <participating-org crs-channel-code="41122" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="011337/01/2" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
-  <activity-status code="2"></activity-status>
+  <participating-org crs-channel-code="41122" ref="XM-DAC-41122" role="4" type="40">
+   <narrative xml:lang="EN">UNICEF - FONDO DELLE NAZIONI UNITE PER L&apos;INFANZIA</narrative>
+  </participating-org>
+  <other-identifier ref="011337/01/2" type="A1"></other-identifier>
+  <other-identifier ref="2018000137" type="A2"></other-identifier>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2017-12-31" type="1"></activity-date>
   <activity-date iso-date="2018-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="ET" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="12110" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Health policy and administrative management</narrative>
+   <narrative xml:lang="EN">HEALTH POLICY AND ADMINISTRATIVE MANAGEMENT</narrative>
   </sector>
+  <tag code="3" vocabulary="2">
+   <narrative xml:lang="EN">Ensure healthy lives and promote well-being for all at all ages</narrative>
+  </tag>
+  <tag code="3.D" vocabulary="3">
+   <narrative xml:lang="EN">Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks</narrative>
+  </tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -58,8 +61,17 @@
   <policy-marker code="2" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid to Environment</narrative>
   </policy-marker>
+  <policy-marker code="11" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Disability</narrative>
+  </policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Disaster Risk Reduction (DRR)</narrative>
+  </policy-marker>
   <policy-marker code="1" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Gender Equality</narrative>
+  </policy-marker>
+  <policy-marker code="12" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Nutrition</narrative>
   </policy-marker>
   <policy-marker code="3" significance="2" vocabulary="1">
    <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
@@ -74,6 +86,8 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2018-12-17"></transaction-date>
@@ -84,6 +98,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">UNICEF - FONDO DELLE NAZIONI UNITE PER L&apos;INFANZIA</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -95,36 +112,37 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">UNICEF - FONDO DELLE NAZIONI UNITE PER L&apos;INFANZIA</narrative>
+   </receiver-org>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5550">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5550 - DELIBERA N. 134 DEL 21.12.2017.pdf">
    <title>
     <narrative xml:lang="EN">Delibera Comitato Congiunto</narrative>
    </title>
    <category code="A02"></category>
    <language code="IT"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5552">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5552 - NOTA TEC HPF IV.pdf">
    <title>
     <narrative xml:lang="EN">Nota Tecnica</narrative>
    </title>
    <category code="A05"></category>
    <language code="IT"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5549">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5549 - ACCORDO HPF firmato.pdf">
    <title>
     <narrative xml:lang="EN">Agreement</narrative>
    </title>
    <category code="A09"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=5551">
+  <document-link format="APPLICATION/PDF" url="https://openaid.aics.gov.it/activity_attachment/5551 - MOU HPF IV between FMOH and Development  Partners and UNICEF.PDF">
    <title>
     <narrative xml:lang="EN">MoU</narrative>
    </title>
    <category code="A09"></category>
    <language code="EN"></language>
   </document-link>
-  <related-activity ref="XM-DAC-6-4-011337" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

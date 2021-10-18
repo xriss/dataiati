@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-010702-01-6</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="IT">Fornitura servizi di base essenziali a rifugiati, richiedenti asilo e comunit&#xE0; ospitanti in Sudan Orientale-2016-Contr. vol UNHCR</narrative>
-   <narrative xml:lang="EN">Provision of basic and essential services to refugees, asylum-seekers and host communities in East Sudan - 2016</narrative>
   </title>
   <description>
    <narrative xml:lang="IT">L&apos;intervento mira a migliorare le condizioni di vita dei rifugiati, richiedenti asilo e comunit&#xE0; ospitanti garantendo l&apos;accesso a servizi sanitari di base.</narrative>
@@ -15,34 +14,39 @@
   <description>
    <narrative xml:lang="EN">The project aims to improve the living conditions of refugees, asylum seekers and host communities by ensuring access to basic health services</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="41121" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="41121" role="4" type="40">
-   <narrative xml:lang="EN">UNHCR - United Nations High Commissioner for Refugees</narrative>
+  <participating-org crs-channel-code="41121" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="010702/01/6" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
-  <activity-status code="3"></activity-status>
+  <participating-org crs-channel-code="41121" ref="XM-DAC-41121" role="4" type="40">
+   <narrative xml:lang="EN">UNHCR - ALTO COMMISSARIATO DELLE NAZIONI UNITE PER I RIFUGIATI</narrative>
+  </participating-org>
+  <other-identifier ref="010702/01/6" type="A1"></other-identifier>
+  <other-identifier ref="2017000204" type="A2"></other-identifier>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2016-01-01" type="1"></activity-date>
   <activity-date iso-date="2016-12-31" type="3"></activity-date>
+  <activity-date iso-date="2018-05-24" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="SD" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="12220" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Basic health care</narrative>
+   <narrative xml:lang="EN">BASIC HEALTH CARE</narrative>
   </sector>
+  <tag code="3.1" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</narrative>
+  </tag>
+  <tag code="3" vocabulary="2">
+   <narrative xml:lang="EN">Ensure healthy lives and promote well-being for all at all ages</narrative>
+  </tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -75,6 +79,7 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B03" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2017-09-13"></transaction-date>
@@ -85,19 +90,23 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="XM-DAC-41121" type="40">
+    <narrative xml:lang="EN">UNHCR - ALTO COMMISSARIATO DELLE NAZIONI UNITE PER I RIFUGIATI</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-09-25"></transaction-date>
-   <value currency="EUR" value-date="2017-09-25">500000</value>
+   <transaction-date iso-date="2017-09-14"></transaction-date>
+   <value currency="EUR" value-date="2017-09-14">500000</value>
    <description>
     <narrative xml:lang="EN">Disboursement - Financial Year 2017</narrative>
    </description>
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="XM-DAC-41121" type="40">
+    <narrative xml:lang="EN">UNHCR - ALTO COMMISSARIATO DELLE NAZIONI UNITE PER I RIFUGIATI</narrative>
+   </receiver-org>
   </transaction>
-  <related-activity ref="XM-DAC-6-4-010702" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>
