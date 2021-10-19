@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-011828-01-4</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="IT">PAM - Contributo Volontario 2019</narrative>
    <narrative xml:lang="EN">WFP - Voluntary Contribution 2019</narrative>
   </title>
   <description>
@@ -15,34 +14,51 @@
   <description>
    <narrative xml:lang="EN">WFP - Voluntary Contribution 2019</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="41140" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="41140" role="4" type="40">
-   <narrative xml:lang="EN">WFP - WORLD FOOD PROGRAMME</narrative>
+  <participating-org crs-channel-code="41140" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="011828/01/4" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
-  <activity-status code="3"></activity-status>
+  <participating-org crs-channel-code="41140" ref="XM-DAC-41140" role="4" type="40">
+   <narrative xml:lang="EN">WFP (ITALIA) - WORLD FOOD PROGRAMME</narrative>
+  </participating-org>
+  <other-identifier ref="011828/01/4" type="A1"></other-identifier>
+  <other-identifier ref="2019000219" type="A2"></other-identifier>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2019-03-01" type="1"></activity-date>
   <activity-date iso-date="2019-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-08-07" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-region code="998" percentage="100" vocabulary="1"></recipient-region>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="99810" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Sectors not specified</narrative>
+   <narrative xml:lang="EN">SECTORS NOT SPECIFIED</narrative>
   </sector>
+  <tag code="5" vocabulary="2">
+   <narrative xml:lang="EN">Achieve gender equality and empower all women and girls</narrative>
+  </tag>
+  <tag code="2.1" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round</narrative>
+  </tag>
+  <tag code="5.1" vocabulary="3">
+   <narrative xml:lang="EN">End all forms of discrimination against all women and girls everywhere</narrative>
+  </tag>
+  <tag code="2" vocabulary="2">
+   <narrative xml:lang="EN">End hunger, achieve food security and improved nutrition and promote sustainable agriculture</narrative>
+  </tag>
+  <tag code="17.9" vocabulary="3">
+   <narrative xml:lang="EN">Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the Sustainable Development Goals, including through North-South, South-South and triangular cooperation</narrative>
+  </tag>
+  <tag code="17" vocabulary="2">
+   <narrative xml:lang="EN">Strengthen the means of implementation and revitalize the global partnership for sustainable development</narrative>
+  </tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -64,9 +80,6 @@
   <policy-marker code="3" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
   </policy-marker>
-  <policy-marker code="9" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
-  </policy-marker>
   <policy-marker code="4" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Trade Development</narrative>
   </policy-marker>
@@ -74,6 +87,8 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B02" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-05-28"></transaction-date>
@@ -84,6 +99,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="XM-DAC-41140" type="40">
+    <narrative xml:lang="EN">WFP (ITALIA) - WORLD FOOD PROGRAMME</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -95,8 +113,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org ref="XM-DAC-41140" type="40">
+    <narrative xml:lang="EN">WFP (ITALIA) - WORLD FOOD PROGRAMME</narrative>
+   </receiver-org>
   </transaction>
-  <related-activity ref="XM-DAC-6-4-011828" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

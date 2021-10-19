@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-011482-01-5</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">Inclusion is a mission: youth and citizenship are involved in build inclusive and sustainable cities.</narrative>
-   <narrative xml:lang="IT">Missione Inclusione: giovani e cittadini si attivano con Agente 0011 per costruire citt&#xE0; inclusive e sostenibili.</narrative>
   </title>
   <description>
    <narrative xml:lang="IT">Contribuire alla comprensione critica dei fenomeni globali attraverso il dialogo e percorsi di formazione.</narrative>
@@ -15,34 +14,51 @@
   <description>
    <narrative xml:lang="EN">The aim is to contribute to a critical understanding of global phenomena through  dialogue and training.</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="22000" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="22000" role="4" type="22">
-   <narrative xml:lang="EN">CESVI - Fondazione di partecipazione e ONG</narrative>
+  <participating-org crs-channel-code="22000" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <other-identifier ref="011482/01/5" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
-  <activity-status code="2"></activity-status>
+  <participating-org crs-channel-code="22000" role="4" type="22">
+   <narrative xml:lang="EN">CESVI FONDAZIONE ONLUS</narrative>
+  </participating-org>
+  <other-identifier ref="011482/01/5" type="A1"></other-identifier>
+  <other-identifier ref="2018000228" type="A2"></other-identifier>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2018-02-01" type="1"></activity-date>
   <activity-date iso-date="2019-07-31" type="3"></activity-date>
+  <activity-date iso-date="2021-02-11" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-region code="998" percentage="100" vocabulary="1"></recipient-region>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="99820" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Promotion of development awareness (non-sector allocable)</narrative>
+   <narrative xml:lang="EN">PROMOTION OF DEVELOPMENT AWARENESS (NON-SECTOR ALLOCABLE)</narrative>
   </sector>
+  <tag code="11.B" vocabulary="3">
+   <narrative xml:lang="EN">By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015&#x2013;2030, holistic disaster risk management at all levels</narrative>
+  </tag>
+  <tag code="10.2" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status</narrative>
+  </tag>
+  <tag code="11" vocabulary="2">
+   <narrative xml:lang="EN">Make cities and human settlements inclusive, safe, resilient and sustainable</narrative>
+  </tag>
+  <tag code="16.B" vocabulary="3">
+   <narrative xml:lang="EN">Promote and enforce non-discriminatory laws and policies for sustainable development</narrative>
+  </tag>
+  <tag code="16" vocabulary="2">
+   <narrative xml:lang="EN">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</narrative>
+  </tag>
+  <tag code="10" vocabulary="2">
+   <narrative xml:lang="EN">Reduce inequality within and among countries</narrative>
+  </tag>
   <policy-marker code="5" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -64,9 +80,6 @@
   <policy-marker code="3" significance="2" vocabulary="1">
    <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
   </policy-marker>
-  <policy-marker code="9" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
-  </policy-marker>
   <policy-marker code="4" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Trade Development</narrative>
   </policy-marker>
@@ -74,6 +87,8 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="H01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2018-03-26"></transaction-date>
@@ -84,6 +99,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">CESVI FONDAZIONE ONLUS</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -95,8 +113,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">CESVI FONDAZIONE ONLUS</narrative>
+   </receiver-org>
   </transaction>
-  <related-activity ref="XM-DAC-6-4-011482" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>
