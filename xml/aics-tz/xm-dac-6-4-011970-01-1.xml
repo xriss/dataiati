@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-011970-01-1</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="EN">Relaunch of the pyrethrum supply chain in the District of Kilolo - Tanzania</narrative>
    <narrative xml:lang="IT">Rilancio della filiera del piretro nel Distretto di Kilolo - Tanzania</narrative>
   </title>
   <description>
@@ -15,17 +14,17 @@
   <description>
    <narrative xml:lang="IT">Rivitalizzare la filiera del piretro nel Distretto di Kilolo ed espandere le attivit&#xE0; di produzione e di lavorazione della materia prima esercitando un controllo su tutta la filiera del prodotto. Il progetto prevede l&apos;ampliamento di una nucleus farm attorno a cui si creer&#xE0; un a rete di piccoli produttori da cui l&apos;azienda acquisir&#xE0; larga parte del fabbisogno dei fiori di piretro.</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="61009" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="61000" role="4" type="70">
+  <participating-org crs-channel-code="61009" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
+  </participating-org>
+  <participating-org crs-channel-code="61009" role="4">
    <narrative xml:lang="EN">La general chimica</narrative>
   </participating-org>
-  <other-identifier ref="011970/01/1" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
+  <other-identifier ref="011970/01/1" type="A1"></other-identifier>
+  <other-identifier ref="2019000335" type="A2"></other-identifier>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2020-03-01" type="1"></activity-date>
   <activity-date iso-date="2021-09-01" type="3"></activity-date>
@@ -33,16 +32,26 @@
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="TZ" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="32130" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Small and medium-sized enterprises (SME) development</narrative>
   </sector>
+  <tag code="8.2" vocabulary="3">
+   <narrative xml:lang="EN">Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors</narrative>
+  </tag>
+  <tag code="1.2" vocabulary="3">
+   <narrative xml:lang="EN">By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions</narrative>
+  </tag>
+  <tag code="1" vocabulary="2">
+   <narrative xml:lang="EN">End poverty in all its forms everywhere</narrative>
+  </tag>
+  <tag code="8" vocabulary="2">
+   <narrative xml:lang="EN">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</narrative>
+  </tag>
   <policy-marker code="5" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
   </policy-marker>
@@ -58,14 +67,17 @@
   <policy-marker code="2" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Aid to Environment</narrative>
   </policy-marker>
+  <policy-marker code="10" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Disaster Risk Reduction (DRR)</narrative>
+  </policy-marker>
   <policy-marker code="1" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Gender Equality</narrative>
   </policy-marker>
+  <policy-marker code="12" significance="0" vocabulary="1">
+   <narrative xml:lang="EN">Nutrition</narrative>
+  </policy-marker>
   <policy-marker code="3" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Participatory Development/Good Governance</narrative>
-  </policy-marker>
-  <policy-marker code="9" significance="0" vocabulary="1">
-   <narrative xml:lang="EN">Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
   </policy-marker>
   <policy-marker code="4" significance="1" vocabulary="1">
    <narrative xml:lang="EN">Trade Development</narrative>
@@ -74,6 +86,8 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
+  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2019-11-06"></transaction-date>
@@ -84,8 +98,9 @@
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">La general chimica</narrative>
+   </receiver-org>
   </transaction>
-  <related-activity ref="XM-DAC-6-4-011970" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.01">
- <iati-activity default-currency="EUR" hierarchy="2" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-6-4-009010-01-3</iati-identifier>
   <reporting-org ref="XM-DAC-6-4" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </reporting-org>
   <title>
-   <narrative xml:lang="IT">CAMERA ARBITRALE PALESTINESE (CAP)</narrative>
    <narrative xml:lang="EN">PALESTINE CHAMBER OF ARBITRATION (CAP)</narrative>
   </title>
   <description>
@@ -15,31 +14,31 @@
   <description>
    <narrative xml:lang="EN">PALESTINE CHAMBER OF ARBITRATION (CAP)</narrative>
   </description>
-  <participating-org ref="XM-DAC-6-4" role="1" type="10">
+  <participating-org crs-channel-code="11002" ref="XM-DAC-6-4" role="1" type="10">
    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
   </participating-org>
-  <participating-org ref="11002" role="4" type="10">
+  <participating-org crs-channel-code="11002" ref="XM-DAC-6-4" role="2" type="10">
+   <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
+  </participating-org>
+  <participating-org crs-channel-code="11002" role="4" type="10">
    <narrative xml:lang="EN">REGIONE UMBRIA</narrative>
   </participating-org>
-  <other-identifier ref="009010/01/3" type="A1">
-   <owner-org>
-    <narrative xml:lang="EN"></narrative>
-   </owner-org>
-  </other-identifier>
-  <activity-status code="3"></activity-status>
+  <other-identifier ref="009010/01/3" type="A1"></other-identifier>
+  <other-identifier ref="2010001538" type="A2"></other-identifier>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2008-08-01" type="1"></activity-date>
+  <activity-date iso-date="2010-11-02" type="2"></activity-date>
   <activity-date iso-date="2011-02-01" type="3"></activity-date>
+  <activity-date iso-date="2018-05-24" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </organisation>
-   <telephone>+ 39 06 32492 305</telephone>
-   <email>info@aics.gov.it</email>
-   <mailing-address>
-    <narrative xml:lang="EN">via Salvatore Contarini 25, 00135 Roma</narrative>
-   </mailing-address>
   </contact-info>
   <recipient-country code="PS" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+  </location>
   <sector code="15130" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Legal and judicial development</narrative>
   </sector>
@@ -58,6 +57,9 @@
   <policy-marker code="2" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Aid to Environment</narrative>
   </policy-marker>
+  <policy-marker code="11" significance="2" vocabulary="1">
+   <narrative xml:lang="EN">Disability</narrative>
+  </policy-marker>
   <policy-marker code="1" significance="0" vocabulary="1">
    <narrative xml:lang="EN">Gender Equality</narrative>
   </policy-marker>
@@ -74,95 +76,83 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <default-tied-status code="5"></default-tied-status>
+  <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2010-10-07"></transaction-date>
-   <value currency="EUR" value-date="2010-10-07">184182</value>
+   <value currency="EUR" value-date="2010-10-07">920910</value>
    <description>
     <narrative xml:lang="EN">Commitment - Financial Year 2010</narrative>
    </description>
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2010-10-07"></transaction-date>
-   <value currency="EUR" value-date="2010-10-07">368364</value>
-   <description>
-    <narrative xml:lang="EN">Commitment - Financial Year 2011</narrative>
-   </description>
-   <provider-org ref="XM-DAC-6-4">
-    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2010-10-07"></transaction-date>
-   <value currency="EUR" value-date="2010-10-07">368364</value>
-   <description>
-    <narrative xml:lang="EN">Commitment - Financial Year 2012</narrative>
-   </description>
-   <provider-org ref="XM-DAC-6-4">
-    <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
-   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">REGIONE UMBRIA</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="EUR" value-date="2015-12-31">115572.98</value>
+   <transaction-date iso-date="2015-09-30"></transaction-date>
+   <value currency="EUR" value-date="2015-09-30">115572.98</value>
    <description>
     <narrative xml:lang="EN">Disboursement - Financial Year 2015</narrative>
    </description>
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">REGIONE UMBRIA</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-05-09"></transaction-date>
-   <value currency="EUR" value-date="2017-05-09">251982.61</value>
+   <transaction-date iso-date="2017-03-20"></transaction-date>
+   <value currency="EUR" value-date="2017-03-20">251982.61</value>
    <description>
     <narrative xml:lang="EN">Disboursement - Financial Year 2017</narrative>
    </description>
    <provider-org ref="XM-DAC-6-4">
     <narrative xml:lang="EN">AICS - Italian Agency for Cooperation and Development</narrative>
    </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">REGIONE UMBRIA</narrative>
+   </receiver-org>
   </transaction>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=2692">
+  <document-link format="APPLICATION/PDF" url="https%3A//openaid.aics.gov.it/activity_attachment/2692%20-%20POG_CAP%2018%2012%2012.pdf">
    <title>
     <narrative xml:lang="EN">Doc di progetto</narrative>
    </title>
    <category code="A02"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=2693">
+  <document-link format="APPLICATION/PDF" url="https%3A//openaid.aics.gov.it/activity_attachment/2693%20-%20Relazione%20al%2010-%2009%20-2014.pdf">
    <title>
     <narrative xml:lang="EN">Doc di valutazione intermedia</narrative>
    </title>
    <category code="A07"></category>
    <language code="PT"></language>
   </document-link>
-  <document-link format="IMAGE/JPEG" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=2694">
+  <document-link format="IMAGE/JPEG" url="https%3A//openaid.aics.gov.it/activity_attachment/2694%20-%20DSC_0468.JPG">
    <title>
     <narrative xml:lang="EN">Evento</narrative>
    </title>
    <category code="A12"></category>
+   <language code="IT"></language>
   </document-link>
-  <document-link format="IMAGE/PNG" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=2696">
+  <document-link format="IMAGE/PNG" url="https%3A//openaid.aics.gov.it/activity_attachment/2696%20-%20logo-1.png">
    <title>
     <narrative xml:lang="EN">LOGO</narrative>
    </title>
    <category code="A12"></category>
+   <language code="IT"></language>
   </document-link>
-  <document-link format="IMAGE/JPEG" url="https://activities.aics.gov.it/Download.aspx?Type=PRJ&amp;Id=2695">
+  <document-link format="IMAGE/JPEG" url="https%3A//openaid.aics.gov.it/activity_attachment/2695%20-%20foto%201.jpg">
    <title>
     <narrative xml:lang="EN">Pubblicazione</narrative>
    </title>
    <category code="A12"></category>
+   <language code="IT"></language>
   </document-link>
-  <related-activity ref="XM-DAC-6-4-009010" type="1"></related-activity>
-  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>
