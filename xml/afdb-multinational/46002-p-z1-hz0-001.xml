@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-Z1-HZ0-001</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Multinational - Projet de syst&#xE8;me de paiement de la Zone mon&#xE9;taire de l&#x2019;Afrique de l&#x2019;ouest
@@ -19,15 +19,20 @@
   <description type="2">
    <narrative xml:lang="EN">The sector goal for WAMZ is to achieve full economic and monetary union of its six member states: Nigeria, Ghana, The Gambia, Guinea, Sierra Leone, and Liberia, to foster a more conducive environment for private sector-led growth. The primary objective of the ongoing project is to augment the payment systems in The Gambia, Guinea, and Sierra Leone in order to enhance the performance of their financial systems. In addition to deepening these countries&#x2019; financial sectors, the project aims to foster increased private investment through improved efficiency of financial intermediation. Further, the project will facilitate the process for the launch of a monetary union in the Zone, and would stimulate increased economic and trade relations in the region.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
   <participating-org role="3" type="10">
    <narrative xml:lang="EN">Government</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">West African Monetary Institute (WAMI)</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2008-07-09" type="1"></activity-date>
   <activity-date iso-date="2008-08-07" type="2"></activity-date>
@@ -35,26 +40,22 @@
   <activity-date iso-date="2016-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">RDGE3</narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">KYOKUNDA Grace</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Chief Investment Officer-Nat &amp; Reg Power Sys</narrative>
+    <narrative xml:lang="EN">Investment Officer, RDGE3</narrative>
    </job-title>
    <telephone></telephone>
    <email>g.kyokunda@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="3"></activity-scope>
@@ -64,8 +65,8 @@
    <name>
     <narrative xml:lang="EN">Sierra Leone</narrative>
    </name>
-   <administrative code="1.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="2.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="1" level="1" vocabulary="G1"></administrative>
+   <administrative code="2" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>8.5 -11.5</pos>
    </point>
@@ -78,8 +79,8 @@
    <name>
     <narrative xml:lang="EN">Gambia</narrative>
    </name>
-   <administrative code="1288.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="16427.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="1288" level="1" vocabulary="G1"></administrative>
+   <administrative code="16427" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>13.5 -15.5</pos>
    </point>
@@ -92,8 +93,8 @@
    <name>
     <narrative xml:lang="EN">Guinea</narrative>
    </name>
-   <administrative code="40703.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="40723.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="40703" level="1" vocabulary="G1"></administrative>
+   <administrative code="40723" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>10.83333 -10.66667</pos>
    </point>
@@ -102,190 +103,558 @@
    <feature-designation code="PCLI"></feature-designation>
   </location>
   <sector code="24030" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Finance</narrative>
+   <narrative xml:lang="EN">Formal sector financial intermediaries</narrative>
   </sector>
-  <country-budget-items vocabulary="1">
-   <budget-item code="3.12.1" percentage="100" vocabulary="1">
-    <description>
-     <narrative xml:lang="EN">Microfinance and financial services - Microfinance and financial services</narrative>
-    </description>
-   </budget-item>
-  </country-budget-items>
   <collaboration-type code="2"></collaboration-type>
   <budget type="1">
    <period-start iso-date="2008-07-09"></period-start>
    <period-end iso-date="2008-10-09"></period-end>
-   <value currency="XDR" value-date="2008-07-09">424242.44</value>
+   <value currency="XDR" value-date="2008-07-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2008-10-09"></period-start>
    <period-end iso-date="2009-01-09"></period-end>
-   <value currency="XDR" value-date="2008-10-09">424242.44</value>
+   <value currency="XDR" value-date="2008-10-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2009-01-09"></period-start>
    <period-end iso-date="2009-04-09"></period-end>
-   <value currency="XDR" value-date="2009-01-09">424242.44</value>
+   <value currency="XDR" value-date="2009-01-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2009-04-09"></period-start>
    <period-end iso-date="2009-07-09"></period-end>
-   <value currency="XDR" value-date="2009-04-09">424242.44</value>
+   <value currency="XDR" value-date="2009-04-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2009-07-09"></period-start>
    <period-end iso-date="2009-10-09"></period-end>
-   <value currency="XDR" value-date="2009-07-09">424242.44</value>
+   <value currency="XDR" value-date="2009-07-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2009-10-09"></period-start>
    <period-end iso-date="2010-01-09"></period-end>
-   <value currency="XDR" value-date="2009-10-09">424242.44</value>
+   <value currency="XDR" value-date="2009-10-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2010-01-09"></period-start>
    <period-end iso-date="2010-04-09"></period-end>
-   <value currency="XDR" value-date="2010-01-09">424242.44</value>
+   <value currency="XDR" value-date="2010-01-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2010-04-09"></period-start>
    <period-end iso-date="2010-07-09"></period-end>
-   <value currency="XDR" value-date="2010-04-09">424242.44</value>
+   <value currency="XDR" value-date="2010-04-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2010-07-09"></period-start>
    <period-end iso-date="2010-10-09"></period-end>
-   <value currency="XDR" value-date="2010-07-09">424242.44</value>
+   <value currency="XDR" value-date="2010-07-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2010-10-09"></period-start>
    <period-end iso-date="2011-01-09"></period-end>
-   <value currency="XDR" value-date="2010-10-09">424242.44</value>
+   <value currency="XDR" value-date="2010-10-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2011-01-09"></period-start>
    <period-end iso-date="2011-04-09"></period-end>
-   <value currency="XDR" value-date="2011-01-09">424242.44</value>
+   <value currency="XDR" value-date="2011-01-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2011-04-09"></period-start>
    <period-end iso-date="2011-07-09"></period-end>
-   <value currency="XDR" value-date="2011-04-09">424242.44</value>
+   <value currency="XDR" value-date="2011-04-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2011-07-09"></period-start>
    <period-end iso-date="2011-10-09"></period-end>
-   <value currency="XDR" value-date="2011-07-09">424242.44</value>
+   <value currency="XDR" value-date="2011-07-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2011-10-09"></period-start>
    <period-end iso-date="2012-01-09"></period-end>
-   <value currency="XDR" value-date="2011-10-09">424242.44</value>
+   <value currency="XDR" value-date="2011-10-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2012-01-09"></period-start>
    <period-end iso-date="2012-04-09"></period-end>
-   <value currency="XDR" value-date="2012-01-09">424242.44</value>
+   <value currency="XDR" value-date="2012-01-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2012-04-09"></period-start>
    <period-end iso-date="2012-07-09"></period-end>
-   <value currency="XDR" value-date="2012-04-09">424242.44</value>
+   <value currency="XDR" value-date="2012-04-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2012-07-09"></period-start>
    <period-end iso-date="2012-10-09"></period-end>
-   <value currency="XDR" value-date="2012-07-09">424242.44</value>
+   <value currency="XDR" value-date="2012-07-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2012-10-09"></period-start>
    <period-end iso-date="2013-01-09"></period-end>
-   <value currency="XDR" value-date="2012-10-09">424242.44</value>
+   <value currency="XDR" value-date="2012-10-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2013-01-09"></period-start>
    <period-end iso-date="2013-04-09"></period-end>
-   <value currency="XDR" value-date="2013-01-09">424242.44</value>
+   <value currency="XDR" value-date="2013-01-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2013-04-09"></period-start>
    <period-end iso-date="2013-07-09"></period-end>
-   <value currency="XDR" value-date="2013-04-09">424242.44</value>
+   <value currency="XDR" value-date="2013-04-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2013-07-09"></period-start>
    <period-end iso-date="2013-10-09"></period-end>
-   <value currency="XDR" value-date="2013-07-09">424242.44</value>
+   <value currency="XDR" value-date="2013-07-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2013-10-09"></period-start>
    <period-end iso-date="2014-01-09"></period-end>
-   <value currency="XDR" value-date="2013-10-09">424242.44</value>
+   <value currency="XDR" value-date="2013-10-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2014-01-09"></period-start>
    <period-end iso-date="2014-04-09"></period-end>
-   <value currency="XDR" value-date="2014-01-09">424242.44</value>
+   <value currency="XDR" value-date="2014-01-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2014-04-09"></period-start>
    <period-end iso-date="2014-07-09"></period-end>
-   <value currency="XDR" value-date="2014-04-09">424242.44</value>
+   <value currency="XDR" value-date="2014-04-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2014-07-09"></period-start>
    <period-end iso-date="2014-10-09"></period-end>
-   <value currency="XDR" value-date="2014-07-09">424242.44</value>
+   <value currency="XDR" value-date="2014-07-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2014-10-09"></period-start>
    <period-end iso-date="2015-01-09"></period-end>
-   <value currency="XDR" value-date="2014-10-09">424242.44</value>
+   <value currency="XDR" value-date="2014-10-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2015-01-09"></period-start>
    <period-end iso-date="2015-04-09"></period-end>
-   <value currency="XDR" value-date="2015-01-09">424242.44</value>
+   <value currency="XDR" value-date="2015-01-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2015-04-09"></period-start>
    <period-end iso-date="2015-07-09"></period-end>
-   <value currency="XDR" value-date="2015-04-09">424242.44</value>
+   <value currency="XDR" value-date="2015-04-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2015-07-09"></period-start>
    <period-end iso-date="2015-10-09"></period-end>
-   <value currency="XDR" value-date="2015-07-09">424242.44</value>
+   <value currency="XDR" value-date="2015-07-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2015-10-09"></period-start>
    <period-end iso-date="2016-01-09"></period-end>
-   <value currency="XDR" value-date="2015-10-09">424242.44</value>
+   <value currency="XDR" value-date="2015-10-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2016-01-09"></period-start>
    <period-end iso-date="2016-04-09"></period-end>
-   <value currency="XDR" value-date="2016-01-09">424242.44</value>
+   <value currency="XDR" value-date="2016-01-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2016-04-09"></period-start>
    <period-end iso-date="2016-07-09"></period-end>
-   <value currency="XDR" value-date="2016-04-09">424242.44</value>
+   <value currency="XDR" value-date="2016-04-09">424242.4242</value>
   </budget>
   <budget type="1">
    <period-start iso-date="2016-07-09"></period-start>
    <period-end iso-date="2016-12-31"></period-end>
-   <value currency="XDR" value-date="2016-07-09">424242.44</value>
+   <value currency="XDR" value-date="2016-07-09">424242.4242</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155012266">
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2011-03-31"></transaction-date>
+   <value currency="XDR" value-date="2011-03-31">1557347.04</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-03-31"></transaction-date>
+   <value currency="XDR" value-date="2013-03-31">171975.65</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2013</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-03-31"></transaction-date>
+   <value currency="XDR" value-date="2014-03-31">1012891.58</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2014</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-03-31"></transaction-date>
+   <value currency="XDR" value-date="2016-03-31">156548.55</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2016</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-03-31"></transaction-date>
+   <value currency="XDR" value-date="2017-03-31">195710.06</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2017</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-12-31"></transaction-date>
+   <value currency="XDR" value-date="2010-12-31">776294.34</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2012-12-31"></transaction-date>
+   <value currency="XDR" value-date="2012-12-31">803679.74</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2012</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-12-31"></transaction-date>
+   <value currency="XDR" value-date="2013-12-31">1130761.84</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2013</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="XDR" value-date="2014-12-31">138440.32</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2014</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="XDR" value-date="2015-12-31">127597.11</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2015</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-12-31"></transaction-date>
+   <value currency="XDR" value-date="2016-12-31">128317.59</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2016</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-06-30"></transaction-date>
+   <value currency="XDR" value-date="2010-06-30">750603.75</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2011-06-30"></transaction-date>
+   <value currency="XDR" value-date="2011-06-30">1097994.26</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2011</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2012-06-30"></transaction-date>
+   <value currency="XDR" value-date="2012-06-30">1884436.47</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2012</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-06-30"></transaction-date>
+   <value currency="XDR" value-date="2013-06-30">213157.21</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2013</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-06-30"></transaction-date>
+   <value currency="XDR" value-date="2014-06-30">390126.18</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2014</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-06-30"></transaction-date>
+   <value currency="XDR" value-date="2015-06-30">7521.63</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2015</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-06-30"></transaction-date>
+   <value currency="XDR" value-date="2016-06-30">56792.43</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2016</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2010-09-30"></transaction-date>
+   <value currency="XDR" value-date="2010-09-30">1332434.28</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2011-09-30"></transaction-date>
+   <value currency="XDR" value-date="2011-09-30">376346.73</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2011</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2012-09-30"></transaction-date>
+   <value currency="XDR" value-date="2012-09-30">37479.26</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2012</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-09-30"></transaction-date>
+   <value currency="XDR" value-date="2013-09-30">200462.73</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2013</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-09-30"></transaction-date>
+   <value currency="XDR" value-date="2014-09-30">217495.07</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2014</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-09-30"></transaction-date>
+   <value currency="XDR" value-date="2016-09-30">58983.5</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2016</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2009-12-31"></transaction-date>
+   <value currency="XDR" value-date="2009-12-31">1149606.93</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155012266" ref="2100155012266">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2008-08-07"></transaction-date>
    <value currency="XDR" value-date="2008-08-07">14000000</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">WEST AFRICAN MONETARY INSTITUTE -WAMI</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -293,290 +662,13 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-03-31"></transaction-date>
-   <value currency="XDR" value-date="2011-03-31">1557347.04</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2011</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-03-31"></transaction-date>
-   <value currency="XDR" value-date="2013-03-31">171975.65</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2013</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-03-31"></transaction-date>
-   <value currency="XDR" value-date="2014-03-31">1012891.58</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2014</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-03-31"></transaction-date>
-   <value currency="XDR" value-date="2016-03-31">156548.55</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2016</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-03-31"></transaction-date>
-   <value currency="XDR" value-date="2017-03-31">195710.06</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-12-31"></transaction-date>
-   <value currency="XDR" value-date="2010-12-31">776294.34</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-12-31"></transaction-date>
-   <value currency="XDR" value-date="2012-12-31">803679.74</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2012</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-31"></transaction-date>
-   <value currency="XDR" value-date="2013-12-31">1130761.84</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2013</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="XDR" value-date="2014-12-31">138440.32</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2014</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="XDR" value-date="2015-12-31">127597.11</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2015</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-12-31"></transaction-date>
-   <value currency="XDR" value-date="2016-12-31">128317.59</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2016</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-06-30"></transaction-date>
-   <value currency="XDR" value-date="2010-06-30">750603.75</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-06-30"></transaction-date>
-   <value currency="XDR" value-date="2011-06-30">1097994.26</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2011</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-06-30"></transaction-date>
-   <value currency="XDR" value-date="2012-06-30">1884436.47</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2012</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-06-30"></transaction-date>
-   <value currency="XDR" value-date="2013-06-30">213157.21</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2013</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-06-30"></transaction-date>
-   <value currency="XDR" value-date="2014-06-30">390126.18</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2014</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-06-30"></transaction-date>
-   <value currency="XDR" value-date="2015-06-30">7521.63</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2015</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-30"></transaction-date>
-   <value currency="XDR" value-date="2016-06-30">56792.43</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2016</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2010-09-30"></transaction-date>
-   <value currency="XDR" value-date="2010-09-30">1332434.28</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2010</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2011-09-30"></transaction-date>
-   <value currency="XDR" value-date="2011-09-30">376346.73</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2011</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2012-09-30"></transaction-date>
-   <value currency="XDR" value-date="2012-09-30">37479.26</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2012</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-09-30"></transaction-date>
-   <value currency="XDR" value-date="2013-09-30">200462.73</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2013</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-09-30"></transaction-date>
-   <value currency="XDR" value-date="2014-09-30">217495.07</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2014</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-09-30"></transaction-date>
-   <value currency="XDR" value-date="2016-09-30">58983.5</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2016</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2009-12-31"></transaction-date>
-   <value currency="XDR" value-date="2009-12-31">1149606.93</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement till end of 2009</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2008-08-07"></transaction-date>
    <value currency="XDR" value-date="2008-08-07">1620000</value>
    <provider-org>
     <narrative xml:lang="EN">Government</narrative>
    </provider-org>
-   <flow-type code="10"></flow-type>
-   <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Gambia__Guinea_And_Sierra_Leone_-_The_Wamz_Payment_System_Development_-_Appraisal_Report.PDF">
    <title>
@@ -708,13 +800,5 @@
    <category code="A10"></category>
    <language code="EN"></language>
   </document-link>
-  <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
-   <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
-   </condition>
-  </conditions>
  </iati-activity>
 </iati-activities>

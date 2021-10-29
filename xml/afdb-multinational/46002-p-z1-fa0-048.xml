@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-Z1-FA0-048</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Multinational - Etude du projet d&#x2019;interconnexion des r&#xE9;seaux &#xE9;lectriques du Cameroun et du Tchad</narrative>
@@ -50,12 +50,17 @@ d&#xE9;termination des co&#xFB;ts estimatifs du projet, (iv) la d&#xE9;terminati
 et financi&#xE8;re du projet, (v) la d&#xE9;finition des cadres institutionnel et commercial qui devront r&#xE9;gir
 le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offres.</narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">PEAC - POOL ENERGETIQUE DE L&apos;AFRIQUE CEN</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2013-10-07" type="1"></activity-date>
   <activity-date iso-date="2013-12-17" type="2"></activity-date>
@@ -63,26 +68,22 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
   <activity-date iso-date="2017-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">COCM</narrative>
    </department>
    <person-name>
     <narrative xml:lang="EN">MUTSINZI Jean-Pierre</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Principal Power Engineer</narrative>
+    <narrative xml:lang="EN">Regional Power Syst. Offi</narrative>
    </job-title>
    <telephone>+225 27 2026 2300</telephone>
    <email>jp.mutsinzi@afdb.org</email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="3"></activity-scope>
@@ -92,8 +93,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">Chari-Baguirmi Region</narrative>
    </name>
-   <administrative code="12910.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="65582.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="12910" level="1" vocabulary="G1"></administrative>
+   <administrative code="65582" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>11.34 16.25</pos>
    </point>
@@ -102,25 +103,12 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <feature-designation code="ADM1"></feature-designation>
   </location>
   <location>
-   <location-id code="2427123" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">N&apos;Djamena</narrative>
-   </name>
-   <administrative code="12912.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="65629.0" level="2" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>12.1067 15.0444</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="2"></location-class>
-   <feature-designation code="PPL"></feature-designation>
-  </location>
-  <location>
    <location-id code="7603254" vocabulary="G1"></location-id>
    <name>
     <narrative xml:lang="EN">Ville de N&apos;Djam&#xE9;na</narrative>
    </name>
-   <administrative code="12912.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="0" level="2" vocabulary="G1"></administrative>
+   <administrative code="12912" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>12.1167 15.0667</pos>
    </point>
@@ -129,12 +117,26 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <feature-designation code="ADM1"></feature-designation>
   </location>
   <location>
+   <location-id code="2427123" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">N&apos;Djamena</narrative>
+   </name>
+   <administrative code="12912" level="1" vocabulary="G1"></administrative>
+   <administrative code="65629" level="2" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>12.1067 15.0444</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="2"></location-class>
+   <feature-designation code="PPL"></feature-designation>
+  </location>
+  <location>
    <location-id code="7670584" vocabulary="G1"></location-id>
    <name>
     <narrative xml:lang="EN">Mayo-Boneye</narrative>
    </name>
-   <administrative code="12921.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="65416.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="12921" level="1" vocabulary="G1"></administrative>
+   <administrative code="65416" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>10.4113 15.5943</pos>
    </point>
@@ -147,8 +149,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">Mogroum</narrative>
    </name>
-   <administrative code="12921.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="65603.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="12921" level="1" vocabulary="G1"></administrative>
+   <administrative code="65603" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>11.1106 15.4128</pos>
    </point>
@@ -161,8 +163,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">Vina</narrative>
    </name>
-   <administrative code="12466.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="815.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12466" level="2" vocabulary="G1"></administrative>
+   <administrative code="815" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>7.16365 13.7271</pos>
    </point>
@@ -175,8 +177,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">Ngaound&#xE9;r&#xE9;</narrative>
    </name>
-   <administrative code="12466.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="815.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12466" level="2" vocabulary="G1"></administrative>
+   <administrative code="815" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>7.32765 13.5847</pos>
    </point>
@@ -189,8 +191,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">D&#xE9;partement du Diamar&#xE9;</narrative>
    </name>
-   <administrative code="12481.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="818.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12481" level="2" vocabulary="G1"></administrative>
+   <administrative code="818" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>10.5 14.5</pos>
    </point>
@@ -203,8 +205,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">Maroua</narrative>
    </name>
-   <administrative code="12481.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="818.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12481" level="2" vocabulary="G1"></administrative>
+   <administrative code="818" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>10.5909 14.3159</pos>
    </point>
@@ -217,8 +219,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">D&#xE9;partement du Logone-et-Chari</narrative>
    </name>
-   <administrative code="12482.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="818.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12482" level="2" vocabulary="G1"></administrative>
+   <administrative code="818" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>12.0833 14.8333</pos>
    </point>
@@ -231,8 +233,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">D&#xE9;partement du Mayo Danai</narrative>
    </name>
-   <administrative code="12483.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="818.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12483" level="2" vocabulary="G1"></administrative>
+   <administrative code="818" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>10.5 15</pos>
    </point>
@@ -245,8 +247,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">Departement du Mayo-Kani</narrative>
    </name>
-   <administrative code="12484.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="818.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12484" level="2" vocabulary="G1"></administrative>
+   <administrative code="818" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>10.2243 14.5186</pos>
    </point>
@@ -259,8 +261,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">Lagdo</narrative>
    </name>
-   <administrative code="12498.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="820.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12498" level="2" vocabulary="G1"></administrative>
+   <administrative code="820" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>9.0263 13.6919</pos>
    </point>
@@ -273,8 +275,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">Mayo-Louti</narrative>
    </name>
-   <administrative code="12500.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="820.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12500" level="2" vocabulary="G1"></administrative>
+   <administrative code="820" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>9.96577 13.7274</pos>
    </point>
@@ -287,8 +289,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">D&#xE9;partement de la B&#xE9;nou&#xE9;</narrative>
    </name>
-   <administrative code="12501.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="820.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12501" level="2" vocabulary="G1"></administrative>
+   <administrative code="820" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>9 14</pos>
    </point>
@@ -301,8 +303,8 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <name>
     <narrative xml:lang="EN">Mayo-Rey</narrative>
    </name>
-   <administrative code="12501.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="820.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="12501" level="2" vocabulary="G1"></administrative>
+   <administrative code="820" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>8.1263 14.6146</pos>
    </point>
@@ -310,13 +312,13 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <location-class code="1"></location-class>
    <feature-designation code="ADM1"></feature-designation>
   </location>
-  <sector code="23630" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Power</narrative>
+  <sector code="23110" percentage="100" vocabulary="1">
+   <narrative xml:lang="EN">Energy policy and administrative management</narrative>
   </sector>
   <country-budget-items vocabulary="1">
-   <budget-item code="3.6.4" percentage="100" vocabulary="1">
+   <budget-item code="3.6.1" percentage="100" vocabulary="1">
     <description>
-     <narrative xml:lang="EN">Energy - electricity transmission</narrative>
+     <narrative xml:lang="EN">Energy - policy, planning and administration</narrative>
     </description>
    </budget-item>
   </country-budget-items>
@@ -402,14 +404,134 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <value currency="XDR" value-date="2017-07-07">234375</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155027967">
+  <transaction afdb:finance-type-id="2100155027967">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-04-30"></transaction-date>
+   <value currency="XDR" value-date="2018-04-30">123668.82</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in April of 2018</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155027967">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-08-31"></transaction-date>
+   <value currency="XDR" value-date="2017-08-31">292063.57</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in August of 2017</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155027967">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-03-31"></transaction-date>
+   <value currency="XDR" value-date="2015-03-31">112669.48</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2015</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155027967">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2014-12-31"></transaction-date>
+   <value currency="XDR" value-date="2014-12-31">71284.24</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2014</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155027967">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2015-12-31"></transaction-date>
+   <value currency="XDR" value-date="2015-12-31">86386.68</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2015</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155027967">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-06-30"></transaction-date>
+   <value currency="XDR" value-date="2018-06-30">14417.59</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in June of 2018</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155027967">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2017-10-31"></transaction-date>
+   <value currency="XDR" value-date="2017-10-31">138412.06</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in October of 2017</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155027967">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2016-06-30"></transaction-date>
+   <value currency="XDR" value-date="2016-06-30">225852.05</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2016</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155027967" ref="2100155027967">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2013-12-17"></transaction-date>
    <value currency="XDR" value-date="2013-12-17">1250000</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">GOUVERNEMENT DU TCHAD (MULTINATIONAL)</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -417,14 +539,14 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction ref="2100155026116">
+  <transaction afdb:finance-type-id="2100155026116" ref="2100155026116">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2013-12-17"></transaction-date>
    <value currency="XDR" value-date="2013-12-17">1250000</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">PEAC - POOL ENERGETIQUE DE L&apos;AFRIQU</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -432,108 +554,20 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction ref="2100150030143">
+  <transaction afdb:finance-type-id="2100150030143" ref="2100150030143">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2014-01-29"></transaction-date>
    <value currency="XDR" value-date="2014-01-29">1250000</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="XM-DAC-null">
     <narrative xml:lang="EN">PEAC - POOL ENERGETIQUE DE L&apos;AFRIQUE CEN</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
    <finance-type code="421"></finance-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-04-30"></transaction-date>
-   <value currency="XDR" value-date="2018-04-30">123668.82</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in April of 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-08-31"></transaction-date>
-   <value currency="XDR" value-date="2017-08-31">292063.57</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in August of 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-03-31"></transaction-date>
-   <value currency="XDR" value-date="2015-03-31">112669.48</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in First Quarter of 2015</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2014-12-31"></transaction-date>
-   <value currency="XDR" value-date="2014-12-31">71284.24</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2014</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="XDR" value-date="2015-12-31">86386.68</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Fourth Quarter of 2015</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-06-30"></transaction-date>
-   <value currency="XDR" value-date="2018-06-30">14417.59</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in June of 2018</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2017-10-31"></transaction-date>
-   <value currency="XDR" value-date="2017-10-31">138412.06</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in October of 2017</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2016-06-30"></transaction-date>
-   <value currency="XDR" value-date="2016-06-30">225852.05</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in Second Quarter of 2016</narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Cameroon-Chad_-_Electricity_Interconnection_-_Project_Study.pdf">
    <title>
@@ -654,11 +688,11 @@ le projet, et (vi) la pr&#xE9;paration des dossiers d&#x2019;appel d&#x2019;offr
    <language code="FR"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>

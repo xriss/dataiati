@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.01">
- <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-Z1-IBE-009</iati-identifier>
-  <reporting-org ref="46002" type="40">
-   <narrative xml:lang="EN">African Development Bank Group</narrative>
+  <reporting-org ref="XM-DAC-46002" type="40">
+   <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="FR">Multinational - Assistance &#xE0; caract&#xE8;re exceptionnel et urgent pour la lutte contre l&#x2019;&#xE9;pid&#xE9;mie de fi&#xE8;vre h&#xE9;morragique Ebola en Guin&#xE9;e et ses pays frontaliers (C&#xF4;te d&#x2019;Ivoire, Gambie, Guin&#xE9;e Bissau, Liberia, Mali, S&#xE9;n&#xE9;gal et Sierra Leone)</narrative>
@@ -12,12 +12,17 @@
   <description>
    <narrative xml:lang="EN"></narrative>
   </description>
-  <participating-org ref="46003" role="1" type="40">
+  <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
   </participating-org>
-  <participating-org role="4">
+  <participating-org role="4" type="10">
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
+  <other-identifier ref="46002" type="B1">
+   <owner-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </owner-org>
+  </other-identifier>
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2014-04-23" type="1"></activity-date>
   <activity-date iso-date="2014-05-19" type="2"></activity-date>
@@ -25,7 +30,7 @@
   <activity-date iso-date="2014-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
-    <narrative xml:lang="EN">African Development Bank Group</narrative>
+    <narrative xml:lang="EN">African Development Bank</narrative>
    </organisation>
    <department>
     <narrative xml:lang="EN"></narrative>
@@ -40,11 +45,7 @@
    <email></email>
    <website>www.afdb.org</website>
    <mailing-address>
-    <narrative xml:lang="EN">African Development Bank Group
-				Headquarters 
-				Avenue Joseph Anoma
-				01 BP 1387
-				Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
+    <narrative xml:lang="EN">African Development Bank Group Headquarters Avenue Joseph Anoma 01 BP 1387 Abidjan 01, C&#xF4;te d&apos;Ivoire</narrative>
    </mailing-address>
   </contact-info>
   <activity-scope code="3"></activity-scope>
@@ -54,8 +55,8 @@
    <name>
     <narrative xml:lang="EN">Sierra Leone</narrative>
    </name>
-   <administrative code="1.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="2.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="1" level="1" vocabulary="G1"></administrative>
+   <administrative code="2" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>8.5 -11.5</pos>
    </point>
@@ -68,8 +69,8 @@
    <name>
     <narrative xml:lang="EN">Ivory Coast</narrative>
    </name>
-   <administrative code="1051.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="14936.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="1051" level="1" vocabulary="G1"></administrative>
+   <administrative code="14936" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>8.0 -5.5</pos>
    </point>
@@ -82,8 +83,8 @@
    <name>
     <narrative xml:lang="EN">Gambia</narrative>
    </name>
-   <administrative code="1288.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="16427.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="1288" level="1" vocabulary="G1"></administrative>
+   <administrative code="16427" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>13.5 -15.5</pos>
    </point>
@@ -96,8 +97,8 @@
    <name>
     <narrative xml:lang="EN">Guinea-Bissau</narrative>
    </name>
-   <administrative code="1390.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="17095.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="1390" level="1" vocabulary="G1"></administrative>
+   <administrative code="17095" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>12 -15</pos>
    </point>
@@ -110,8 +111,8 @@
    <name>
     <narrative xml:lang="EN">Liberia</narrative>
    </name>
-   <administrative code="1815.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="39176.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="1815" level="1" vocabulary="G1"></administrative>
+   <administrative code="39176" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.5 -9.5</pos>
    </point>
@@ -124,8 +125,8 @@
    <name>
     <narrative xml:lang="EN">Mali</narrative>
    </name>
-   <administrative code="1934.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="19420.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="1934" level="1" vocabulary="G1"></administrative>
+   <administrative code="19420" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>18.0 -2.0</pos>
    </point>
@@ -138,8 +139,8 @@
    <name>
     <narrative xml:lang="EN">Senegal</narrative>
    </name>
-   <administrative code="25342.0" level="2" vocabulary="G1"></administrative>
-   <administrative code="2643.0" level="1" vocabulary="G1"></administrative>
+   <administrative code="25342" level="2" vocabulary="G1"></administrative>
+   <administrative code="2643" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>14.5 -14.25</pos>
    </point>
@@ -152,8 +153,8 @@
    <name>
     <narrative xml:lang="EN">Guinea</narrative>
    </name>
-   <administrative code="40703.0" level="1" vocabulary="G1"></administrative>
-   <administrative code="40723.0" level="2" vocabulary="G1"></administrative>
+   <administrative code="40703" level="1" vocabulary="G1"></administrative>
+   <administrative code="40723" level="2" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>10.83333 -10.66667</pos>
    </point>
@@ -162,7 +163,7 @@
    <feature-designation code="PCLI"></feature-designation>
   </location>
   <sector code="12250" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Social</narrative>
+   <narrative xml:lang="EN">Infectious disease control</narrative>
   </sector>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
@@ -183,31 +184,35 @@
    <value currency="XDR" value-date="2014-07-23">1000000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="2100155027266">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2014-05-19"></transaction-date>
-   <value currency="XDR" value-date="2014-05-19">2000000</value>
-   <provider-org>
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">WORLD HEALTH ORGANIZATION</narrative>
-   </receiver-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction>
+  <transaction afdb:finance-type-id="2100155027266">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2014-09-30"></transaction-date>
    <value currency="XDR" value-date="2014-09-30">1997072.22</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in Third Quarter of 2014</narrative>
    </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155027266" ref="2100155027266">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2014-05-19"></transaction-date>
+   <value currency="XDR" value-date="2014-05-19">2000000</value>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-null">
+    <narrative xml:lang="EN">WORLD HEALTH ORGANIZATION</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Legal-Documents/General%20Conditions%202009.pdf">
    <title>
@@ -217,11 +222,11 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
-   </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
+   </condition>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
  </iati-activity>
