@@ -20,6 +20,9 @@
   <participating-org role="4" type="22">
    <narrative xml:lang="EN">Caritas Lebanon Headquarters</narrative>
   </participating-org>
+  <participating-org role="1">
+   <narrative xml:lang="EN">Caritas Switzerland</narrative>
+  </participating-org>
   <participating-org role="4">
    <narrative xml:lang="EN">Caritas Switzerland</narrative>
   </participating-org>
@@ -70,6 +73,17 @@
    <value currency="EUR" value-date="2020-10-01">300410</value>
   </budget>
   <transaction humanitarian="1">
+   <transaction-type code="7"></transaction-type>
+   <transaction-date iso-date="2021-07-19"></transaction-date>
+   <value currency="EUR" value-date="2021-07-19">68120</value>
+   <provider-org>
+    <narrative xml:lang="EN">Caritas Switzerland</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41160054-200876" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-12-14"></transaction-date>
    <value currency="EUR" value-date="2020-12-14">300410</value>
@@ -89,6 +103,28 @@
    </provider-org>
    <receiver-org>
     <narrative xml:lang="EN">Caritas Switzerland</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="EUR" value-date="2021-09-01">68120</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200876" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41160054-200914" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="EUR" value-date="2021-09-01">68120</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200876" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41160054-200914" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
    </receiver-org>
   </transaction>
   <transaction humanitarian="1">
@@ -157,15 +193,19 @@
     <period>
      <period-start iso-date="2021-04-01"></period-start>
      <period-end iso-date="2021-06-30"></period-end>
-     <actual value="700">
+     <actual value="314">
       <location ref="LB"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="378">
+      <location ref="LB"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2021-08-31"></period-end>
-     <target value="525"></target>
+     <target value="700"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -176,6 +216,14 @@
      <narrative xml:lang="EN">(KRI Definition: Number of teachers and other education personnel trained)</narrative>
     </description>
     <reference code="COV.ED.02" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <actual value="38">
+      <location ref="LB"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2020-07-01"></period-start>
      <period-end iso-date="2020-09-30"></period-end>
@@ -201,17 +249,9 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2021-04-01"></period-start>
-     <period-end iso-date="2021-06-30"></period-end>
-     <actual value="35">
-      <location ref="LB"></location>
-      <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2021-08-31"></period-end>
-     <target value="24"></target>
+     <target value="40"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -243,7 +283,7 @@
     <period>
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2021-08-31"></period-end>
-     <target value="1575"></target>
+     <target value="700"></target>
     </period>
    </indicator>
   </result>
@@ -276,14 +316,107 @@
     <period>
      <period-start iso-date="2021-04-01"></period-start>
      <period-end iso-date="2021-06-30"></period-end>
-     <actual value="35">
+     <actual value="38">
       <location ref="LB"></location>
      </actual>
     </period>
     <period>
      <period-start iso-date="2020-10-01"></period-start>
      <period-end iso-date="2021-08-31"></period-end>
-     <target value="2"></target>
+     <target value="40"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Saving Lives Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (SL)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of people  who benefitted directly or indirectly with life-saving humanitarian assistance and/or resilient recovery services and/or disaster preparedness from activities in a humanitarian response implemented by Cordaid and implementing partners</narrative>
+    </description>
+    <reference code="SL0.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="692">
+      <location ref="LB"></location>
+      <dimension name="Age (-18/18+)" value="Age &lt; 18"></dimension>
+     </actual>
+     <actual value="38">
+      <location ref="LB"></location>
+      <dimension name="Age (-18/18+)" value="Unknown"></dimension>
+     </actual>
+     <actual value="730">
+      <location ref="LB"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+     </actual>
+     <actual value="352">
+      <location ref="LB"></location>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="378">
+      <location ref="LB"></location>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-08-31"></period-end>
+     <target value="1601"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Education Corporate Indicators</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of beneficiaries reached (ED)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of people who benefitted directly or indirectly from (PBF) education project activities (e.g., training, radio programs, community involvement, parents associations) or services established/enabled/improved by a Cordaid Education project/programme.</narrative>
+    </description>
+    <reference code="ED0.01" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="352">
+      <location ref="LB"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Female - feminin"></dimension>
+     </actual>
+     <actual value="378">
+      <location ref="LB"></location>
+      <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
+      <dimension name="Gender - genre" value="Male - masculin"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="2">
+   <title>
+    <narrative xml:lang="EN">Climate Resilience</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">The project integrates climate risks in programming</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">The integration of climate risks in programming includes an undertaking of concrete actions to reduce and/or mitigate risks related to climate change impact and disaster risks  ( for example droughts, erosion, salinization, flooding, etc.) 
+The projects we refer to could be on the themes of health education, justice, security, disaster management, finance and livelihoods.</narrative>
+    </description>
+    <reference code="CC1.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0">
+      <location ref="LB"></location>
+     </actual>
     </period>
    </indicator>
   </result>
