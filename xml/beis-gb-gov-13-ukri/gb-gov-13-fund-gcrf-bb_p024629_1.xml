@@ -14,6 +14,15 @@
   <description type="1">
    <narrative xml:lang="EN">The livestock sectors of many LMIC are negatively impacted by pathogens for which no viable vaccines are currently available. T-cells are known to contribute to protection against a number of these pathogens (e.g. tuberculosis, East Coast Fever) and current efforts are directed to better understanding the role these cells plays in conferring immunity and defining the &apos;correlates of protection&apos; that can be used to rationalise future vaccine development.   One parameter that has been advocated for inclusion in comprehensive analysis of T-cell responses is the repertoire of the expressed TCR, which can be exploited to study the clonotypic structure, kinetics and recall of pathogen-specific T-cells. TCRs are heterodimeric, clonotypically distributed receptors composed of alpha (TRA) and beta (TRB) chains that determine the antigenic-specificity of individual T-cells. Somatic V(D)J recombination and non-germline editing of the V(D)J junction generates a vastly diverse TCR repertoire, that in humans has been estimated to be ~2x10&apos;7. Upon encountering their cognate antigen, either during vaccination or pathogen exposure, T-cells undergo clonotypic expansion which can be evaluated by the increased expression of the clonotypic TRA and/or TRB chains. However, achieving sufficient sequencing depth of the TCR repertoire to reliably detect such clonal expansions in highly complex T-cell populations (e.g. in vivo PBMC or primary T-cell cultures) was difficult before development of NGS platforms.   In the last decade, development of a number of bioinformatic pipelines (e.g. MiTCR and IMGT-HighV-Quest) has enabled TCR analysis using NGS data to be applied to the study of human and murine T-cell populations. The pre-requisites for these analyses are i) TCR chain-specific PCR protocols that generate unbiased TCR chain amplicons, ii) a comprehensive database of V and J gene segment sequences and iii) sophisticated algorithms that can align TCR sequences to the relevant V and J gene segment databases (and so define V and J usage and the hypervariable CDR3 sequence of individual TCR chains) and also compensate and correct for the inevitable PCR/sequencing errors that can significantly compromise sequence data interpretation.  The principles used in bioinformatic pipelines developed for human and murine TCR analysis are generic and in recent studies we have demonstrated that given the appropriate V and J gene databases the pipelines can be modified and applied to NGS sequence data from other species (in this case European Bos taurus cattle). In this project we propose to:  1 - Design PCR protocols to enable unbiased PCR amplification of TRA and TRB chains from the relevant livestock populations. Optimised SMART-based PCR amplification protocols for pig, goat, sheep and water buffalo TRA and TRB chains will be validated. 2 - Sequence sufficient full length TRA/TRB amplicons to enable comprehensive coverage of the expressed TRA and TRB repertoires. Amplicons generated from 5 representative individuals from different LMIC and European breeds will be subjected to PacBio sequencing to obtain full length amplicon sequence. 3 - Bio-informatically de-construct somatically recombined TRA and TRB chains to construct database of germline V and J gene segments sequences. Pipelines to de-construct recombined TRA/TRB chains will be developed to enable germline sequences of the constituent V and J gene segments to be established and a comprehensive database populated. 4 - Modify existing algorithms to enable these databases to be employed in NGS analysis of TCR repertoires (and provide TRBV, TRBJ, TRAV and TRAJ databases to managers of publicly accessible TCR analysis algorithms). A modified version of the MiTCR algorithm which will enable the utilisation of the livestock species databases will be established and hosted by the CTLGH bioinformatics repository. In addition, the databases will be hosted by the publicly available Milaboratory website.</narrative>
   </description>
+  <participating-org ref="GB-GOV-13" role="1" type="10">
+   <narrative xml:lang="EN">UK - Department for Business, Energy and Industrial Strategy</narrative>
+  </participating-org>
+  <participating-org role="3" type="90">
+   <narrative xml:lang="EN">UK Research &amp; Innovation</narrative>
+  </participating-org>
+  <participating-org ref="GB-UKPRN-10007790" role="4" type="80">
+   <narrative xml:lang="EN">University of Edinburgh</narrative>
+  </participating-org>
   <activity-status code="4"></activity-status>
   <activity-date iso-date="2017-07-01" type="1"></activity-date>
   <activity-date iso-date="2017-07-01" type="2"></activity-date>
@@ -39,6 +48,9 @@
   <sector code="43082" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Research/scientific institutions</narrative>
   </sector>
+  <tag code="RI" vocabulary="99" vocabulary-uri="https://devtracker.fcdo.gov.uk/custom-codes">
+   <narrative xml:lang="EN">Research and Innovation</narrative>
+  </tag>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -46,14 +58,28 @@
   <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="1">
    <period-start iso-date="2017-04-01"></period-start>
-   <period-end iso-date="2017-03-31"></period-end>
+   <period-end iso-date="2018-03-31"></period-end>
    <value currency="GBP" value-date="2017-03-28">43132.9</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2017-03-28"></transaction-date>
+   <value currency="GBP" value-date="2017-03-28">57495.43</value>
+   <description>
+    <narrative xml:lang="EN">BBSRC GCRF BBR Scheme Award to University of Edinburgh</narrative>
+   </description>
+   <provider-org provider-activity-id="GB-GOV-13-FUND--GCRF-BB/P024629/1" ref="GB-GOV-13">
+    <narrative xml:lang="EN">UK Research &amp; Innovation</narrative>
+   </provider-org>
+   <receiver-org ref="GB-UKPRN-10007790">
+    <narrative xml:lang="EN">University of Edinburgh</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2017-07-01"></transaction-date>
-   <value currency="GBP" value-date="2017/18 FY Q2">13471.29</value>
+   <value currency="GBP" value-date="2017-07-01">13471.29</value>
    <description>
     <narrative xml:lang="EN">Quarterly Payment for the GCRF funded activity</narrative>
    </description>
@@ -67,7 +93,7 @@
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2017-10-01"></transaction-date>
-   <value currency="GBP" value-date="2017/18 FY Q3">13471.29</value>
+   <value currency="GBP" value-date="2017-10-01">13471.29</value>
    <description>
     <narrative xml:lang="EN">Quarterly Payment for the GCRF funded activity</narrative>
    </description>
@@ -81,7 +107,7 @@
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-01-01"></transaction-date>
-   <value currency="GBP" value-date="2017/18 FY Q4">16190.32</value>
+   <value currency="GBP" value-date="2018-01-01">16190.32</value>
    <description>
     <narrative xml:lang="EN">Quarterly Payment for the GCRF funded activity</narrative>
    </description>
@@ -95,7 +121,7 @@
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-07-01"></transaction-date>
-   <value currency="GBP" value-date="2018/19 FY Q2">14362.52</value>
+   <value currency="GBP" value-date="2018-07-01">14362.52</value>
    <description>
     <narrative xml:lang="EN">Quarterly Payment for the GCRF funded activity</narrative>
    </description>
@@ -106,6 +132,14 @@
     <narrative xml:lang="EN">University of Edinburgh</narrative>
    </receiver-org>
   </transaction>
+  <document-link format="APPLICATION/HTTP" url="http://gtr.rcuk.ac.uk/projects?ref=BB%2FP024629%2F1">
+   <title>
+    <narrative xml:lang="EN">Abstract/Planned Impact</narrative>
+   </title>
+   <category code="A01"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2017-07-01"></document-date>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.ukri.org/funding/information-for-award-holders/grant-terms-and-conditions/">
    <title>
     <narrative xml:lang="EN">UK Research &amp; Innovation Grant Terms and Conditions</narrative>
@@ -113,12 +147,5 @@
    <category code="A04"></category>
   </document-link>
   <conditions attached="1"></conditions>
-  <iati-activities>
-   <iati-activity>
-    <title>
-     <narrative xml:lang="EN"></narrative>
-    </title>
-   </iati-activity>
-  </iati-activities>
  </iati-activity>
 </iati-activities>
