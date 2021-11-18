@@ -1,9 +1,10 @@
+
+echo " This script will download the latest datasets and parse them into individual xml files "
+echo " Build json metadata for these files and finally push the changes into this git repo "
+
 dirname=$( dirname "$(readlink -f "$0")" )
 cd "$dirname"
 
-# if you want to use this script then you should also
-# .gitignore node_modules and dataflat
-# to help keep thongs clean
 
 # make sure we are uptodate with git
 
@@ -51,18 +52,12 @@ cat dataflat/downloads.txt | sort -R | parallel -j 1 --bar restore
 
 # regenerate json metadata from the files in the xml directory so restored xml files have correct meta
 
-rm -rf json
+./json.sh
 
-mkdir -p json
-mkdir -p json/activity-identifiers
-mkdir -p json/organisation-identifiers
 
-node_modules/d-portal/dflat/dflat packages-meta --dir "$dirname" --reparse
-
-# do not keep the individual metas 
-rm -rf json/activity-identifiers
-rm -rf json/organisation-identifiers
-
+# do not keep the individual metas
+#rm -rf json/activity-identifiers
+#rm -rf json/organisation-identifiers
 
 
 

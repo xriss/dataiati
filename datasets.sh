@@ -1,6 +1,6 @@
 
-# This script will recreate datasets from our individual activitiy files by joining them together
-# and removing all duplicate activities so each id is only used once
+echo " This script will recreate datasets from our individual activitiy files by joining them together "
+echo " and removing all duplicate activities so each id is only used once "
 
 export dirname=$( dirname "$(readlink -f "$0")" )
 cd "$dirname"
