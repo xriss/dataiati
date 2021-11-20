@@ -66,7 +66,9 @@
    <narrative xml:lang="EN">United States</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2020-01-01" type="1"></activity-date>
   <activity-date iso-date="2020-01-01" type="2"></activity-date>
+  <activity-date iso-date="2020-12-31" type="3"></activity-date>
   <activity-date iso-date="2020-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
@@ -111,6 +113,9 @@
   <sector code="112" percentage="1.5" vocabulary="98">
    <narrative xml:lang="EN">Administrative Institutions and Practice</narrative>
   </sector>
+  <sector code="72011" percentage="4.44" vocabulary="1">
+   <narrative xml:lang="EN">Basic Health Care Services in Emergencies</narrative>
+  </sector>
   <sector code="418" percentage="13.68" vocabulary="98">
    <narrative xml:lang="EN">Basic and Domestic Items</narrative>
   </sector>
@@ -128,6 +133,9 @@
   </sector>
   <sector code="2" percentage="14.83" vocabulary="10">
    <narrative xml:lang="EN">Early Recovery</narrative>
+  </sector>
+  <sector code="72012" percentage="9.59" vocabulary="1">
+   <narrative xml:lang="EN">Education in emergencies</narrative>
   </sector>
   <sector code="3" percentage="10.01" vocabulary="10">
    <narrative xml:lang="EN">Education</narrative>
@@ -162,7 +170,7 @@
   <sector code="113" percentage="1.17" vocabulary="98">
    <narrative xml:lang="EN">Legal Remedies and Legal Assistance</narrative>
   </sector>
-  <sector code="72010" percentage="37.81" vocabulary="1">
+  <sector code="72010" percentage="67.78" vocabulary="1">
    <narrative xml:lang="EN">Material relief assistance and services</narrative>
   </sector>
   <sector code="9" percentage="14.65" vocabulary="10">
@@ -180,17 +188,14 @@
   <sector code="115" percentage="3.44" vocabulary="98">
    <narrative xml:lang="EN">Public Attitudes towards Persons of Concern</narrative>
   </sector>
-  <sector code="73010" percentage="14.22" vocabulary="1">
-   <narrative xml:lang="EN">Reconstruction relief and rehabilitation</narrative>
-  </sector>
   <sector code="1" percentage="98.81" vocabulary="99">
    <narrative xml:lang="EN">Refugee programme</narrative>
   </sector>
   <sector code="212" percentage="6.51" vocabulary="98">
    <narrative xml:lang="EN">Registration and Profiling</narrative>
   </sector>
-  <sector code="72050" percentage="33.93" vocabulary="1">
-   <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
+  <sector code="72050" percentage="4.15" vocabulary="1">
+   <narrative xml:lang="EN">Relief co-ordination and support services</narrative>
   </sector>
   <sector code="614" percentage="1.54" vocabulary="98">
    <narrative xml:lang="EN">Resettlement</narrative>
@@ -237,7 +242,7 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B02" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget>
+  <budget status="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2019-10-11">13331892.65</value>
@@ -296,36 +301,12 @@
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">565999.98</value>
    <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19) Annual contribution summary</narrative>
+    <narrative xml:lang="EN">Annual contribution summary</narrative>
    </description>
    <provider-org type="70">
     <narrative xml:lang="EN">Private donors in the United Kingdom of Great Britain and Northern Ireland</narrative>
    </provider-org>
    <unhcr:value-USD>565999.98</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-03-13"></transaction-date>
-   <value currency="USD" value-date="2020-03-13">450000</value>
-   <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
-   </description>
-   <provider-org type="10">
-    <narrative xml:lang="EN">Government of Japan</narrative>
-   </provider-org>
-   <unhcr:value-USD>450000</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-08-28"></transaction-date>
-   <value currency="USD" value-date="2020-08-28">149519</value>
-   <description>
-    <narrative xml:lang="EN">GLIDE: EP-2020-000012-001 (COVID-19)</narrative>
-   </description>
-   <provider-org ref="41119" type="40">
-    <narrative xml:lang="EN">United Nations Population Fund</narrative>
-   </provider-org>
-   <unhcr:value-USD>149519</unhcr:value-USD>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -367,6 +348,24 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-03-13"></transaction-date>
+   <value currency="USD" value-date="2020-03-13">450000</value>
+   <provider-org type="10">
+    <narrative xml:lang="EN">Government of Japan</narrative>
+   </provider-org>
+   <unhcr:value-USD>450000</unhcr:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-08-28"></transaction-date>
+   <value currency="USD" value-date="2020-08-28">149519</value>
+   <provider-org ref="41119" type="40">
+    <narrative xml:lang="EN">United Nations Population Fund</narrative>
+   </provider-org>
+   <unhcr:value-USD>149519</unhcr:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-07-16"></transaction-date>
    <value currency="USD" value-date="2020-07-16">900000</value>
    <provider-org ref="US-USAGOV" type="10">
@@ -380,7 +379,7 @@
    </title>
    <category code="A12"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-10-31"></document-date>
+   <document-date iso-date="2021-11-14"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://help.unhcr.org/">
    <title>
@@ -388,7 +387,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-10-31"></document-date>
+   <document-date iso-date="2021-11-14"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unhcr.org/">
    <title>
@@ -396,7 +395,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-10-31"></document-date>
+   <document-date iso-date="2021-11-14"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/iati">
    <title>
@@ -404,7 +403,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-10-31"></document-date>
+   <document-date iso-date="2021-11-14"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unhcr.org/search?page=search&amp;skip=0&amp;docid=&amp;cid=49aea93a7d&amp;coi=IND&amp;comid=4a098fdd6">
    <title>
@@ -412,7 +411,7 @@
    </title>
    <category code="B17"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-10-31"></document-date>
+   <document-date iso-date="2021-11-14"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://app.powerbi.com/view?r=eyJrIjoiM2M2NDMyZTgtZmQ4OC00ZDE1LWEyYWMtMTAxZDY2NzMyY2QxIiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9">
    <title>
@@ -420,7 +419,7 @@
    </title>
    <category code="B17"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-10-31"></document-date>
+   <document-date iso-date="2021-11-14"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/covid-19">
    <title>
@@ -428,68 +427,28 @@
    </title>
    <category code="B18"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-10-31"></document-date>
+   <document-date iso-date="2021-11-14"></document-date>
   </document-link>
   <related-activity ref="XM-DAC-41121-2019-ASO-IND" type="3"></related-activity>
   <related-activity ref="XM-DAC-41121-2020-ASO" type="1"></related-activity>
   <related-activity ref="XM-DAC-41121-2021-ASO-IND" type="3"></related-activity>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Identification of statelessness</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: All stateless persons and those at risk of statelessness | Goal: Advocacy for protection and solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of studies on statelessness situations produced</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="15"></target>
-     <actual value="12"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
     <narrative xml:lang="EN">Services for persons with specific needs</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Emergency response</narrative>
-   </description>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">% of persons of concern with disabilities who receive services for their specific needs</narrative>
-    </title>
-    <baseline value="53" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="65"></target>
-     <actual value="50.56"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">SGBV prevention and response</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Emergency response</narrative>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
    </description>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">Extent known SGBV survivors receive appropriate support</narrative>
+     <narrative xml:lang="EN"># of PoC receiving cash grants</narrative>
     </title>
-    <baseline value="75" year="2020"></baseline>
+    <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="80"></target>
-     <actual value="78"></actual>
+     <target value="5500"></target>
+     <actual value="1202"></actual>
     </period>
    </indicator>
   </result>
@@ -498,18 +457,98 @@
     <narrative xml:lang="EN">Health</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Emergency response</narrative>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
    </description>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of persons referred to secondary and tertiary medical care</narrative>
     </title>
-    <baseline year="2020"></baseline>
+    <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="150"></target>
-     <actual value="129"></actual>
+     <target value="8000"></target>
+     <actual value="1232"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Services for persons with specific needs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of PoC assessed for vulnerability</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="5000"></target>
+     <actual value="1271"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Child protection</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of best interests determination decisions taken by BID panel</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="60"></target>
+     <actual value="22"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Registration and profiling</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of PoC registered on an individual basis with minimum set of data required</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="3860"></target>
+     <actual value="2311"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Basic and domestic  and hygiene Items</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of households receiving seasonal support</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2963"></target>
+     <actual value="2793"></actual>
     </period>
    </indicator>
   </result>
@@ -518,18 +557,78 @@
     <narrative xml:lang="EN">Health</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Emergency response</narrative>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
    </description>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN"># of long-lasting insecticide treated bednets distributed</narrative>
+     <narrative xml:lang="EN"># of community health workers</narrative>
     </title>
-    <baseline year="2020"></baseline>
+    <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="5350"></target>
-     <actual value="5345"></actual>
+     <target value="130"></target>
+     <actual value="30"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Child protection</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of best interests assessments conducted</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="400"></target>
+     <actual value="357"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Basic and domestic  and hygiene Items</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of women receiving sanitary materials</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="5300"></target>
+     <actual value="5316"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Child protection</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of children&apos;s committees, groups and other structures that are operational and facilitate children&apos;s participation</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="120"></target>
+     <actual value="97"></actual>
     </period>
    </indicator>
   </result>
@@ -555,66 +654,6 @@
   </result>
   <result aggregation-status="0" type="2">
    <title>
-    <narrative xml:lang="EN">Status determination</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Average # of days from registration to first instance interview</narrative>
-    </title>
-    <baseline value="281" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="210"></target>
-     <actual value="346"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">Status determination</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Average # of days from first instance interview to notification of first instance decision</narrative>
-    </title>
-    <baseline value="333" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="180"></target>
-     <actual value="450"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">Community mobilization</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">% of active female participants in leadership/ management structures</narrative>
-    </title>
-    <baseline value="37.6" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="60"></target>
-     <actual value="39.14"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
     <narrative xml:lang="EN">Basic and domestic  and hygiene Items</narrative>
    </title>
    <description>
@@ -630,26 +669,6 @@
      <period-end iso-date="2020-12-31"></period-end>
      <target value="50"></target>
      <actual value="46.88"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">Education</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">% of primary school-aged children enrolled in primary education</narrative>
-    </title>
-    <baseline value="50" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="60"></target>
-     <actual value="60"></actual>
     </period>
    </indicator>
   </result>
@@ -675,46 +694,6 @@
   </result>
   <result aggregation-status="0" type="2">
    <title>
-    <narrative xml:lang="EN">Status determination</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Average # of days from submission of appeal to notification of appeal decision</narrative>
-    </title>
-    <baseline value="650" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="300"></target>
-     <actual value="744"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">SGBV prevention and response</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Extent community is active in SGBV prevention and survivor centered protection</narrative>
-    </title>
-    <baseline value="71" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="80"></target>
-     <actual value="71"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
     <narrative xml:lang="EN">Child protection</narrative>
    </title>
    <description>
@@ -730,26 +709,6 @@
      <period-end iso-date="2020-12-31"></period-end>
      <target value="75"></target>
      <actual value="75"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">SGBV prevention and response</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Extent known SGBV survivors receive appropriate support</narrative>
-    </title>
-    <baseline value="75" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="80"></target>
-     <actual value="78"></actual>
     </period>
    </indicator>
   </result>
@@ -813,263 +772,63 @@
     </period>
    </indicator>
   </result>
-  <result aggregation-status="0" type="2">
+  <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Resettlement</narrative>
+    <narrative xml:lang="EN">Voluntary return</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
+    <narrative xml:lang="EN">Population targeted: Sri Lankan refugees | Goal: Voluntary return</narrative>
    </description>
    <indicator measure="2">
     <title>
-     <narrative xml:lang="EN">% of persons of concern identified in need of resettlement submitted for resettlement</narrative>
+     <narrative xml:lang="EN">% of PoC for whom voluntariness of return has been verified</narrative>
     </title>
-    <baseline value="97.8" year="2020"></baseline>
+    <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="97.8"></target>
-     <actual value="65.12"></actual>
+     <target value="100"></target>
+     <actual value="100"></actual>
     </period>
    </indicator>
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Services for persons with specific needs</narrative>
+    <narrative xml:lang="EN">Voluntary return</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
+    <narrative xml:lang="EN">Population targeted: Sri Lankan refugees | Goal: Voluntary return</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of PoC provided with safe and dignified returnee transport</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="4000"></target>
+     <actual value="196"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Voluntary return</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Sri Lankan refugees | Goal: Voluntary return</narrative>
    </description>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of PoC receiving cash grants</narrative>
     </title>
-    <baseline year="2020"></baseline>
+    <baseline value="0" year="2020"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="5500"></target>
-     <actual value="1202"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Health</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of persons referred to secondary and tertiary medical care</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="8000"></target>
-     <actual value="1232"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Services for persons with specific needs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of PoC assessed for vulnerability</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="5000"></target>
-     <actual value="1271"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">SGBV prevention and response</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of reported SGBV incidents for which survivors receive psychosocial counselling</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="275"></target>
-     <actual value="172"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Child protection</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of best interests determination decisions taken by BID panel</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="60"></target>
-     <actual value="22"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Registration and profiling</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of PoC registered on an individual basis with minimum set of data required</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="3860"></target>
-     <actual value="2311"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Basic and domestic  and hygiene Items</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of households receiving seasonal support</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2963"></target>
-     <actual value="2793"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Health</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of community health workers</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="130"></target>
-     <actual value="30"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Child protection</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of best interests assessments conducted</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="400"></target>
-     <actual value="357"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Education</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of children aged 3-5 enrolled in early childhood education</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2000"></target>
-     <actual value="528"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Basic and domestic  and hygiene Items</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of women receiving sanitary materials</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="5300"></target>
-     <actual value="5316"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Child protection</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Refugees and asylum seekers in urban areas | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of children&apos;s committees, groups and other structures that are operational and facilitate children&apos;s participation</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="120"></target>
-     <actual value="97"></actual>
+     <target value="4000"></target>
+     <actual value="196"></actual>
     </period>
    </indicator>
   </result>
@@ -1110,66 +869,6 @@
      <period-end iso-date="2020-12-31"></period-end>
      <target value="100"></target>
      <actual value="100"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Voluntary return</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Sri Lankan refugees | Goal: Voluntary return</narrative>
-   </description>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">% of PoC for whom voluntariness of return has been verified</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="100"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Voluntary return</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Sri Lankan refugees | Goal: Voluntary return</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of PoC provided with safe and dignified returnee transport</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="4000"></target>
-     <actual value="196"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Voluntary return</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Sri Lankan refugees | Goal: Voluntary return</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of PoC receiving cash grants</narrative>
-    </title>
-    <baseline year="2020"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="4000"></target>
-     <actual value="196"></actual>
     </period>
    </indicator>
   </result>

@@ -23,14 +23,11 @@
   <participating-org ref="DAC-1601" role="1" type="60">
    <narrative xml:lang="EN">Bill &amp; Melinda Gates Foundation</narrative>
   </participating-org>
-  <participating-org ref="XM-DAC-3-1" role="1" type="10">
-   <narrative xml:lang="EN">Denmark - Ministry of Foreign Affairs</narrative>
-  </participating-org>
   <participating-org role="1" type="22">
    <narrative xml:lang="EN">Espa&#xF1;a con ACNUR</narrative>
   </participating-org>
-  <participating-org ref="XI-IATI-EC_DEVCO" role="1" type="15">
-   <narrative xml:lang="EN">European Commission - Directorate-General for International Cooperation and Development</narrative>
+  <participating-org ref="XI-IATI-EC_INTPA" role="1" type="15">
+   <narrative xml:lang="EN">European Commission - International Partnerships</narrative>
   </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">European Union</narrative>
@@ -56,6 +53,9 @@
   <participating-org role="1" type="22">
    <narrative xml:lang="EN">Japan for UNHCR</narrative>
   </participating-org>
+  <participating-org ref="XM-DAC-3-1" role="1" type="10">
+   <narrative xml:lang="EN">Ministry of Foreign Affairs, Denmark</narrative>
+  </participating-org>
   <participating-org role="1" type="70">
    <narrative xml:lang="EN">Private donors</narrative>
   </participating-org>
@@ -77,8 +77,10 @@
   <participating-org role="1" type="40">
    <narrative xml:lang="EN">United Nations</narrative>
   </participating-org>
-  <activity-status code="3"></activity-status>
+  <activity-status code="4"></activity-status>
+  <activity-date iso-date="2019-01-01" type="1"></activity-date>
   <activity-date iso-date="2019-01-01" type="2"></activity-date>
+  <activity-date iso-date="2019-12-31" type="3"></activity-date>
   <activity-date iso-date="2019-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
@@ -243,7 +245,7 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B02" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget>
+  <budget status="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2019-04-01">246988720.053</value>
@@ -252,7 +254,15 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">234494571.13</value>
+   <value currency="USD" value-date="2019-12-31">0</value>
+   <description>
+    <narrative xml:lang="EN">Total expenditure under Other:</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-12-31">234494571.05</value>
    <description>
     <narrative xml:lang="EN">Total expenditure under Pillar 1: Refugee programme</narrative>
    </description>
@@ -268,28 +278,10 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2019-06-24"></transaction-date>
-   <value currency="USD" value-date="2019-06-24">1065000</value>
-   <provider-org ref="XM-DAC-3-1" type="10">
-    <narrative xml:lang="EN">Denmark - Ministry of Foreign Affairs</narrative>
-   </provider-org>
-   <unhcr:value-USD>1065000</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2019-10-30"></transaction-date>
-   <value currency="USD" value-date="2019-10-30">1475700.66</value>
-   <provider-org ref="XM-DAC-3-1" type="10">
-    <narrative xml:lang="EN">Denmark - Ministry of Foreign Affairs</narrative>
-   </provider-org>
-   <unhcr:value-USD>1475700.66</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2018-02-28"></transaction-date>
    <value currency="EUR" value-date="2018-02-28">127050</value>
-   <provider-org ref="XI-IATI-EC_DEVCO" type="15">
-    <narrative xml:lang="EN">European Commission - Directorate-General for International Cooperation and Development</narrative>
+   <provider-org ref="XI-IATI-EC_INTPA" type="15">
+    <narrative xml:lang="EN">European Commission - International Partnerships</narrative>
    </provider-org>
    <unhcr:value-USD>157826.087</unhcr:value-USD>
   </transaction>
@@ -358,6 +350,24 @@
   </transaction>
   <transaction>
    <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2019-06-24"></transaction-date>
+   <value currency="USD" value-date="2019-06-24">1065000</value>
+   <provider-org ref="XM-DAC-3-1" type="10">
+    <narrative xml:lang="EN">Ministry of Foreign Affairs, Denmark</narrative>
+   </provider-org>
+   <unhcr:value-USD>1065000</unhcr:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2019-10-30"></transaction-date>
+   <value currency="USD" value-date="2019-10-30">1475700.66</value>
+   <provider-org ref="XM-DAC-3-1" type="10">
+    <narrative xml:lang="EN">Ministry of Foreign Affairs, Denmark</narrative>
+   </provider-org>
+   <unhcr:value-USD>1475700.66</unhcr:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2019-01-28"></transaction-date>
    <value currency="USD" value-date="2019-01-28">21498950</value>
    <provider-org type="40">
@@ -407,7 +417,7 @@
    </title>
    <category code="B16"></category>
    <language code="EN"></language>
-   <document-date iso-date="2020-06-14"></document-date>
+   <document-date iso-date="2021-11-14"></document-date>
   </document-link>
   <related-activity ref="XM-DAC-41121-2018-HQ" type="3"></related-activity>
   <related-activity ref="XM-DAC-41121-2019" type="1"></related-activity>
