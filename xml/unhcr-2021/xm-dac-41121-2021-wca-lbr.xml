@@ -181,7 +181,7 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B02" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="1">
+  <budget status="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2019-10-11">11827022.96</value>
@@ -189,20 +189,13 @@
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2019-12-10"></transaction-date>
-   <value currency="USD" value-date="2019-12-10">32100</value>
-   <provider-org ref="XM-DAC-41110" type="40">
-    <narrative xml:lang="EN">United Nations Joint Programme on HIV and AIDS Secretariat (UNAIDS)</narrative>
-   </provider-org>
-   <unhcr:value-USD>32100</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2021-06-15"></transaction-date>
    <value currency="USD" value-date="2021-06-15">500000</value>
    <provider-org ref="US-USAGOV" type="10">
     <narrative xml:lang="EN">United States</narrative>
    </provider-org>
+   <aid-type code="2" vocabulary="2"></aid-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
    <unhcr:value-USD>500000</unhcr:value-USD>
   </transaction>
   <transaction>
@@ -212,7 +205,20 @@
    <provider-org ref="US-USAGOV" type="10">
     <narrative xml:lang="EN">United States</narrative>
    </provider-org>
+   <aid-type code="2" vocabulary="2"></aid-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
    <unhcr:value-USD>1500000</unhcr:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2019-12-10"></transaction-date>
+   <value currency="USD" value-date="2019-12-10">32100</value>
+   <provider-org ref="XM-DAC-41110" type="40">
+    <narrative xml:lang="EN">United Nations Joint Programme on HIV and AIDS Secretariat (UNAIDS)</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>32100</unhcr:value-USD>
   </transaction>
   <document-link format="TEXT/HTML" url="http://reporting.unhcr.org/node/2548">
    <title>
@@ -265,6 +271,44 @@
   <related-activity ref="XM-DAC-41121-2020-WCA-LBR" type="3"></related-activity>
   <related-activity ref="XM-DAC-41121-2021-WCA" type="1"></related-activity>
   <related-activity ref="XM-DAC-41121-2022-WCA-LBR" type="3"></related-activity>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Sanitation and hygiene</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Emergency response</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of PoC reached by environmental health and hygiene campaigns</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="38000"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Sanitation and hygiene</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Emergency response</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># persons trained in sanitation and hygiene promotion in collaboration with local authorities and external partners</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="700"></target>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="2">
    <title>
     <narrative xml:lang="EN">Sanitation and hygiene</narrative>
@@ -281,6 +325,310 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="100"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Integration</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of advocacy  interventions made for realization of Convention rights</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="10"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">SGBV prevention and response</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of community-based committees/ groups working on SGBV prevention and response</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="30"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Law and policy</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of copies of legal materials distributed</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="300"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Self-reliance and livelihoods</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of PoC provided with cash/vouchers for livelihoods provisioning</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="3000"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Self-reliance and livelihoods</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of PoC provided with entrepreneurship / business training</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="3000"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Community mobilization</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of participatory assessments conducted</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="4"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Integration</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of coexistence projects implemented</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="5"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Coordination and partnerships</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of partners receiving support and capacity development</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="5"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Self-reliance and livelihoods</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of PoC receiving production kits or inputs for agriculture/livestock/fisheries activities</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="500"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Community mobilization</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of instances of joint planning initiatives undertaken with community of concern</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="60"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Coordination and partnerships</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of actors regularly participating in UNHCR coordination meetings</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="7"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Law and policy</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of advocacy interventions made</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="7"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Law and policy</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of events, workshops and seminars organized</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="7"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Self-reliance and livelihoods</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">% of households with access to arable land or other productive natural resources</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="90"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Integration</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Area or sectoral-based monitoring systems providing disaggregated data established (yes/no)</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="90"></target>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Integration</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Population targeted: Refugees and Asylum seekers in Liberia | Goal: Protection and mixed solutions</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Local integration strategy established and endorsed by PoC, development actors, government and other relevant stakeholders (yes/no)</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="95"></target>
     </period>
    </indicator>
   </result>
