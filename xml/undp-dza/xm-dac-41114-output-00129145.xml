@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="FR" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="FR" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00129145</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="FR">United Nations Development Programme</narrative>
@@ -11,9 +11,6 @@
   <description type="1">
    <narrative xml:lang="FR">Renforcer les capacit&#xE9;s du Minist&#xE8;re de la Sant&#xE9; pour faire face &#xE0; la pand&#xE9;mie du Covid-19 par l&#x2019;acquisition de mat&#xE9;riels et &#xE9;quipements m&#xE9;dicaux et d&#xE9;quipement de Diagnostic.</narrative>
   </description>
-  <participating-org ref="47045" role="1">
-   <narrative xml:lang="FR">GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
-  </participating-org>
   <participating-org ref="00046" role="1" type="10">
    <narrative xml:lang="FR">GOVERNMENT OF ALGERIA</narrative>
   </participating-org>
@@ -31,7 +28,12 @@
   <recipient-country code="DZ" percentage="100">
    <narrative xml:lang="FR">Algeria</narrative>
   </recipient-country>
-  <sector code="51010" percentage="100" vocabulary="1"></sector>
+  <sector code="3.D" percentage="100" vocabulary="8"></sector>
+  <sector code="99810" percentage="100" vocabulary="1"></sector>
+  <tag code="3.D" vocabulary="3"></tag>
+  <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
+   <narrative xml:lang="FR">Global COVID-19</narrative>
+  </humanitarian-scope>
   <policy-marker code="1" significance="0" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -41,15 +43,15 @@
   <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2021-10-31">1913572</value>
+   <value currency="USD" value-date="2021-10-31">956786</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="11"></transaction-type>
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-10-31"></transaction-date>
-   <value currency="USD" value-date="2021-10-31">956786</value>
-   <provider-org ref="47045">
-    <narrative xml:lang="FR">GLOBAL FUND TO FIGHT AIDS, TUBERCULOSIS</narrative>
+   <value currency="USD" value-date="2021-10-31">947270</value>
+   <provider-org ref="00046" type="10">
+    <narrative xml:lang="FR">GOVERNMENT OF ALGERIA</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00129145" ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
@@ -71,7 +73,7 @@
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-10-31"></transaction-date>
-   <value currency="USD" value-date="2021-10-31">1913572</value>
+   <value currency="USD" value-date="2021-10-31">956786</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
@@ -85,6 +87,7 @@
   </document-link>
   <related-activity ref="XM-DAC-41114-OUTPUT-00120718" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00121524" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-OUTPUT-00129469" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-PROJECT-00126752" type="1"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
