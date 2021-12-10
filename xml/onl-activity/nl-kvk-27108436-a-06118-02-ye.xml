@@ -70,13 +70,8 @@ The process of beneficiary selection will go as follows: the initial beneficiary
   <budget type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="EUR" value-date="2021-12-07">702334</value>
+   <value currency="EUR" value-date="2021-12-08">702334</value>
   </budget>
-  <planned-disbursement type="1">
-   <period-start iso-date="2021-05-01"></period-start>
-   <period-end iso-date="2021-05-31"></period-end>
-   <value currency="EUR" value-date="2021-05-01">47264</value>
-  </planned-disbursement>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-04-01"></transaction-date>
@@ -89,9 +84,31 @@ The process of beneficiary selection will go as follows: the initial beneficiary
    </receiver-org>
   </transaction>
   <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-01"></transaction-date>
+   <value currency="EUR" value-date="2021-12-01">47264</value>
+   <description>
+    <narrative xml:lang="EN">CARE Nederland</narrative>
+   </description>
+   <receiver-org ref="GB-CHC-202918">
+    <narrative xml:lang="EN">Oxfam Great Britain</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-04-01"></transaction-date>
    <value currency="EUR" value-date="2020-04-01">632100</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-41158230-YEM028N" ref="NL-KVK-41158230">
+    <narrative xml:lang="EN">Care Nederland</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-12-01"></transaction-date>
+   <value currency="EUR" value-date="2021-12-01">47264</value>
    <description>
     <narrative xml:lang="EN">incoming transaction</narrative>
    </description>
