@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="2" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="EUR" hierarchy="2" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-40409352-PRJ13-106-0005</iati-identifier>
   <reporting-org ref="NL-KVK-40409352" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
@@ -26,14 +26,14 @@
   <participating-org role="1">
    <narrative xml:lang="EN">Nationale Postcode Loterij</narrative>
   </participating-org>
-  <participating-org role="4">
-   <narrative xml:lang="EN">Palestinian Red Crescent Society</narrative>
-  </participating-org>
   <participating-org ref="NL-KVK-40409352" role="1" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
   </participating-org>
   <participating-org ref="NL-KVK-40409352" role="2" type="21">
    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+  </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">The Palestine Red Crescent Society</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2021-07-03" type="2">
@@ -57,6 +57,9 @@
    </mailing-address>
   </contact-info>
   <recipient-country code="LB" percentage="100"></recipient-country>
+  <sector code="2" percentage="100" vocabulary="98">
+   <narrative xml:lang="EN">Response</narrative>
+  </sector>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -68,6 +71,34 @@
    <value currency="EUR" value-date="2021-07-03">130000</value>
   </budget>
   <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-09-30"></transaction-date>
+   <value currency="EUR" value-date="2021-09-30">130000</value>
+   <description>
+    <narrative xml:lang="EN">Commitment</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-106-0005" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">The Palestine Red Crescent Society</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-08-04"></transaction-date>
+   <value currency="EUR" value-date="2021-08-04">130000</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-40409352-PRJ13-106-0005" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">The Palestine Red Crescent Society</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2021-06-30"></transaction-date>
    <value currency="EUR" value-date="2021-06-30">75000</value>
@@ -76,6 +107,20 @@
    </description>
    <provider-org>
     <narrative xml:lang="EN">Nationale Postcode Loterij</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-106-0005" ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-12-16"></transaction-date>
+   <value currency="EUR" value-date="2021-12-16">55000</value>
+   <description>
+    <narrative xml:lang="EN">Incoming Commitment</narrative>
+   </description>
+   <provider-org ref="NL-KVK-40409352" type="21">
+    <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="NL-KVK-40409352-PRJ13-106-0005" ref="NL-KVK-40409352" type="21">
     <narrative xml:lang="EN">The Netherlands Red Cross</narrative>
