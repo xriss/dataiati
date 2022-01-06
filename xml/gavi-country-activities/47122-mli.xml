@@ -34,7 +34,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2000-01-01" type="1"></activity-date>
   <activity-date iso-date="2000-01-01" type="2"></activity-date>
-  <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2022-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -46,11 +46,13 @@
   <recipient-country code="ML" percentage="100"></recipient-country>
   <location>
    <location-reach code="1"></location-reach>
+   <location-id code="ML" vocabulary="A4"></location-id>
    <name>
     <narrative xml:lang="EN">Bamako</narrative>
    </name>
+   <administrative code="ML" vocabulary="A4"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>12.6500000 -8.0000000</pos>
+    <pos>12.65 -8</pos>
    </point>
    <exactness code="1"></exactness>
    <location-class code="2"></location-class>
@@ -179,39 +181,58 @@
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2019-09-01">13140624.4</value>
+   <value currency="USD" value-date="2019-09-01">13162425.7</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2020-09-01">16891386.31</value>
+   <value currency="USD" value-date="2020-09-01">49885841.34</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2020-09-01">10177771.46</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction>
+  <transaction ref="MLI2020approved">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-09-01"></transaction-date>
-   <value currency="USD" value-date="2019-09-01">13140624.4</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">13162425.7</value>
    <description>
     <narrative xml:lang="EN">Approved 2020 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41224" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Mali</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction ref="MLI2021approved">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-09-01"></transaction-date>
-   <value currency="USD" value-date="2020-09-01">16891386.31</value>
+   <value currency="USD" value-date="2020-09-01">49885841.34</value>
    <description>
     <narrative xml:lang="EN">Approved 2021 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41225" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLI2022approved">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-10-01"></transaction-date>
+   <value currency="USD" value-date="2020-10-01">10177771.46</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2022 budget for Mali</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
     <narrative xml:lang="EN">The Government of Mali</narrative>
    </receiver-org>
   </transaction>
@@ -222,7 +243,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2000 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -236,7 +257,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2001 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -250,7 +271,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2002 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -264,7 +285,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2003 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -278,7 +299,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2004 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -292,7 +313,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2005 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -306,7 +327,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2006 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -320,7 +341,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2007 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -334,7 +355,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2008 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -348,7 +369,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2009 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -362,7 +383,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2010 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -376,7 +397,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2011 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -390,7 +411,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2012 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -404,7 +425,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2013 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -418,7 +439,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2014 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -432,7 +453,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2015 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -446,7 +467,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2016 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -460,7 +481,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2017 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -474,7 +495,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2018 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -488,7 +509,7 @@
    <description>
     <narrative xml:lang="EN">Confirmed 2019 budget for Mali</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
    <receiver-org type="10">
@@ -499,19 +520,64 @@
    <title>
     <narrative xml:lang="EN">Comprehensive multi-year plan for 2012-2016</narrative>
    </title>
+   <description>
+    <narrative xml:lang="EN">Le Plan pluriannuel complet pour la vaccination (PPCV) est un plan unique qui consolide plusieurs activit&#xE9;s li&#xE9;es &#xE0; la vaccination. Il s&#x2019;agit d&#x2019;un outil essentiel pour la planification et la gestion des programmes de vaccination nationaux. Il aborde les objectifs de vaccination globaux, nationaux, et sous-nationaux, ainsi que les strat&#xE9;gies, et &#xE9;value les co&#xFB;ts et le financement du programme, en ligne avec la Strat&#xE9;gie GIVS de l&#x2019;OMS/UNICEF (La vaccination dans le monde : vision et strat&#xE9;gie 2006-2015). GAVI exige que les pays soumettent un PPCV avec leur formulaire de demande lorsqu&#x2019;ils postulent au soutien GAVI. En 2006, plus de 50 pays avaient d&#xE9;velopp&#xE9; des PPCV en utilisant les directives et outils budg&#xE9;taires de l&#x2019;OMS/UNICEF pour les PPCV.
+Le PPCV remplace le plan d&#xE9;taill&#xE9; de viabilit&#xE9; financi&#xE8;re, utilis&#xE9; pour &#xE9;valuer les d&#xE9;fis financiers d&#x2019;un programme de vaccination national d&#x2019;un pays, dans le contexte &#xE9;largi du financement de la sant&#xE9;, et pour d&#xE9;crire l&#x2019;approche du gouvernement pour mobiliser et utiliser les ressources efficacement afin de soutenir les objectifs de vaccination &#xE0; moyen et long terme.</narrative>
+   </description>
    <category code="A02"></category>
-   <category code="A03"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2016-12-31"></document-date>
+   <category code="A08"></category>
+   <language code="FR"></language>
+   <document-date iso-date="2012-01-01"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.gavi.org/news/document-library/comprehensive-multi-year-plan-2012-2016-3">
    <title>
     <narrative xml:lang="EN">Comprehensive multi-year plan for 2012-2016</narrative>
    </title>
+   <description>
+    <narrative xml:lang="EN">Le Plan pluriannuel complet pour la vaccination (PPCV) est un plan unique qui consolide plusieurs activit&#xE9;s li&#xE9;es &#xE0; la vaccination. Il s&#x2019;agit d&#x2019;un outil essentiel pour la planification et la gestion des programmes de vaccination nationaux. Il aborde les objectifs de vaccination globaux, nationaux, et sous-nationaux, ainsi que les strat&#xE9;gies, et &#xE9;value les co&#xFB;ts et le financement du programme, en ligne avec la Strat&#xE9;gie GIVS de l&#x2019;OMS/UNICEF (La vaccination dans le monde : vision et strat&#xE9;gie 2006-2015). GAVI exige que les pays soumettent un PPCV avec leur formulaire de demande lorsqu&#x2019;ils postulent au soutien GAVI. En 2006, plus de 50 pays avaient d&#xE9;velopp&#xE9; des PPCV en utilisant les directives et outils budg&#xE9;taires de l&#x2019;OMS/UNICEF pour les PPCV.
+Le PPCV remplace le plan d&#xE9;taill&#xE9; de viabilit&#xE9; financi&#xE8;re, utilis&#xE9; pour &#xE9;valuer les d&#xE9;fis financiers d&#x2019;un programme de vaccination national d&#x2019;un pays, dans le contexte &#xE9;largi du financement de la sant&#xE9;, et pour d&#xE9;crire l&#x2019;approche du gouvernement pour mobiliser et utiliser les ressources efficacement afin de soutenir les objectifs de vaccination &#xE0; moyen et long terme.</narrative>
+   </description>
    <category code="A02"></category>
-   <category code="A03"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+   <document-date iso-date="2012-01-01"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.gavi.org/fr/actualites/librarie-de-documents/comprehensive-multi-year-plan-mali-20217-2021french">
+   <title>
+    <narrative xml:lang="EN">Comprehensive Multi-Year Plan Mali 2017-2021[French]</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Le Plan pluriannuel complet pour la vaccination (PPCV) est un plan unique qui consolide plusieurs activit&#xE9;s li&#xE9;es &#xE0; la vaccination. Il s&#x2019;agit d&#x2019;un outil essentiel pour la planification et la gestion des programmes de vaccination nationaux. Il aborde les objectifs de vaccination globaux, nationaux, et sous-nationaux, ainsi que les strat&#xE9;gies, et &#xE9;value les co&#xFB;ts et le financement du programme, en ligne avec la Strat&#xE9;gie GIVS de l&#x2019;OMS/UNICEF (La vaccination dans le monde : vision et strat&#xE9;gie 2006-2015). GAVI exige que les pays soumettent un PPCV avec leur formulaire de demande lorsqu&#x2019;ils postulent au soutien GAVI. En 2006, plus de 50 pays avaient d&#xE9;velopp&#xE9; des PPCV en utilisant les directives et outils budg&#xE9;taires de l&#x2019;OMS/UNICEF pour les PPCV.
+Le PPCV remplace le plan d&#xE9;taill&#xE9; de viabilit&#xE9; financi&#xE8;re, utilis&#xE9; pour &#xE9;valuer les d&#xE9;fis financiers d&#x2019;un programme de vaccination national d&#x2019;un pays, dans le contexte &#xE9;largi du financement de la sant&#xE9;, et pour d&#xE9;crire l&#x2019;approche du gouvernement pour mobiliser et utiliser les ressources efficacement afin de soutenir les objectifs de vaccination &#xE0; moyen et long terme.</narrative>
+   </description>
+   <category code="A02"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+   <document-date iso-date="2017-01-01"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.gavi.org/news/document-library/targeted-country-assistance-plan-mali-2020">
+   <title>
+    <narrative xml:lang="EN">Targeted Country Assistance Plan Mali 2020</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Targeted country assistance (TCA) are resources provided to in-country partners under Gavi&#x2019;s partners&#x2019; engagement framework (PEF). A country&#x2019;s TCA plan is based on needs expressed by the country during the joint appraisal discussions. It includes sets of activities, milestones and budget for a given year.</narrative>
+   </description>
+   <category code="A02"></category>
+   <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2016-12-31"></document-date>
+   <document-date iso-date="2020-07-13"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.gavi.org/news/document-library/targeted-country-assistance-plan-mali-2021">
+   <title>
+    <narrative xml:lang="EN">Targeted Country Assistance Plan Mali 2021</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Targeted country assistance (TCA) are resources provided to in-country partners under Gavi&#x2019;s partners&#x2019; engagement framework (PEF). A country&#x2019;s TCA plan is based on needs expressed by the country during the joint appraisal discussions. It includes sets of activities, milestones and budget for a given year.</narrative>
+   </description>
+   <category code="A02"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-05-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.gavi.org/fr/actualites/librarie-de-documents/targeted-country-assistance-plan-mali-2019">
    <title>
@@ -520,9 +586,7 @@
    <description>
     <narrative xml:lang="EN">Targeted country assistance (TCA) are resources provided to in-country partners under Gavi&#x2019;s partners&#x2019; engagement framework (PEF). A country&#x2019;s TCA plan is based on needs expressed by the country during the joint appraisal discussions. It includes sets of activities, milestones and budget for a given year.</narrative>
    </description>
-   <category code="A01"></category>
    <category code="A02"></category>
-   <category code="A03"></category>
    <category code="A05"></category>
    <language code="EN"></language>
    <document-date iso-date="2019-12-31"></document-date>
@@ -534,9 +598,7 @@
    <description>
     <narrative xml:lang="EN">Targeted country assistance (TCA) are resources provided to in-country partners under Gavi&#x2019;s partners&#x2019; engagement framework (PEF). A country&#x2019;s TCA plan is based on needs expressed by the country during the joint appraisal discussions. It includes sets of activities, milestones and budget for a given year.</narrative>
    </description>
-   <category code="A01"></category>
    <category code="A02"></category>
-   <category code="A03"></category>
    <category code="A05"></category>
    <language code="EN"></language>
    <document-date iso-date="2019-12-31"></document-date>
@@ -545,9 +607,7 @@
    <title>
     <narrative xml:lang="EN">Targeted country assistance plan Mali 2017 [French]</narrative>
    </title>
-   <category code="A01"></category>
    <category code="A02"></category>
-   <category code="A03"></category>
    <category code="A05"></category>
    <language code="FR"></language>
    <document-date iso-date="2017-12-31"></document-date>
@@ -556,9 +616,7 @@
    <title>
     <narrative xml:lang="EN">Targeted country assistance plan Mali 2017 [French]</narrative>
    </title>
-   <category code="A01"></category>
    <category code="A02"></category>
-   <category code="A03"></category>
    <category code="A05"></category>
    <language code="FR"></language>
    <document-date iso-date="2017-12-31"></document-date>
@@ -567,9 +625,7 @@
    <title>
     <narrative xml:lang="EN">Targeted country assistance plan Mali 2018 [French]</narrative>
    </title>
-   <category code="A01"></category>
    <category code="A02"></category>
-   <category code="A03"></category>
    <category code="A05"></category>
    <language code="FR"></language>
    <document-date iso-date="2018-12-31"></document-date>
@@ -578,9 +634,7 @@
    <title>
     <narrative xml:lang="EN">Targeted country assistance plan Mali 2018 [French]</narrative>
    </title>
-   <category code="A01"></category>
    <category code="A02"></category>
-   <category code="A03"></category>
    <category code="A05"></category>
    <language code="FR"></language>
    <document-date iso-date="2018-12-31"></document-date>
@@ -633,7 +687,19 @@
    <language code="FR"></language>
    <document-date iso-date="2002-12-31"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="https://www.gavi.org/sites/default/files/document/2020/Mali%20Joint%20Appraisal%202019%20EN.pdf">
+  <document-link format="APPLICATION/PDF" url="https://www.gavi.org/fr/actualites/librarie-de-documents/rapport-de-levaluation-conjointe-mali-2019">
+   <title>
+    <narrative xml:lang="EN">Rapport de l&apos;&#xE9;valuation conjointe Mali 2019</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">L&#x2019;&#xE9;valuation conjointe est une &#xE9;valuation nationale, multi-parties prenantes de l&#x2019;avancement de la mise en &#x153;uvre et de la performance des subventions allou&#xE9;es au titre du soutien aux vaccins et en esp&#xE8;ces, et de sa contribution &#xE0; l&#x2019;am&#xE9;lioration des services de vaccination. Il en r&#xE9;sulte un &#xAB; rapport de l&#x2019;&#xE9;valuation conjointe &#xBB;, qui fait &#xE9;tat de la performance de la subvention Gavi, ainsi que des d&#xE9;fis li&#xE9;s &#xE0; la mise en &#x153;uvre. Le rapport de l&#x2019;&#xE9;valuation conjointe guide les discussions men&#xE9;es avec l&#x2019;instance de coordination nationale concern&#xE9;e sur les domaines o&#xF9; des investissements et des efforts accrus, ainsi qu&#x2019;un soutien technique, sont requis.</narrative>
+   </description>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+   <document-date iso-date="2020-05-01"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.gavi.org/news/document-library/joint-appraisal-mali-2019">
    <title>
     <narrative xml:lang="EN">Joint Appraisal Mali 2019</narrative>
    </title>
@@ -643,7 +709,7 @@
    <category code="A07"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2019-12-31"></document-date>
+   <document-date iso-date="2020-04-30"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.gavi.org/country-documents/mali">
    <title>
@@ -1158,6 +1224,7 @@
    <category code="A12"></category>
    <language code="FR"></language>
   </document-link>
+  <related-activity ref="47122-MLI-COVAX" type="2"></related-activity>
   <related-activity ref="47122-MLI-HEPB" type="2"></related-activity>
   <related-activity ref="47122-MLI-HPV" type="2"></related-activity>
   <related-activity ref="47122-MLI-HSS" type="2"></related-activity>
