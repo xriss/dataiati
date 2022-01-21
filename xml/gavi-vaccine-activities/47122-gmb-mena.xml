@@ -40,7 +40,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2013-01-01" type="1"></activity-date>
   <activity-date iso-date="2013-01-01" type="2"></activity-date>
-  <activity-date iso-date="2022-12-31" type="3"></activity-date>
+  <activity-date iso-date="2023-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -60,7 +60,7 @@
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>13.45274 -16.57803</pos>
    </point>
-   <exactness code="1"></exactness>
+   <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
@@ -100,11 +100,6 @@
    <value currency="USD" value-date="2018-01-01">64589.06</value>
   </budget>
   <budget status="2" type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-01-01">0</value>
-  </budget>
-  <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2019-09-01">3969.25</value>
@@ -113,6 +108,11 @@
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2020-09-01">-31000</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2021-09-01">41172.64</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction ref="13-GMB-16a-X">
@@ -369,10 +369,24 @@
   </transaction>
   <transaction ref="GMBMenA2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">3969.25</value>
+   <transaction-date iso-date="2019-09-01"></transaction-date>
+   <value currency="USD" value-date="2019-09-01">3969.25</value>
    <description>
     <narrative xml:lang="EN">Approved 2020 budget for Gambia MenA</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GMBMenA2022">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="USD" value-date="2021-09-01">41172.64</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2022 budget for Gambia MenA</narrative>
    </description>
    <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -439,7 +453,7 @@
   </transaction>
   <transaction ref="GMBMenA2021">
    <transaction-type code="12"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <transaction-date iso-date="2020-09-01"></transaction-date>
    <value currency="USD" value-date="2020-09-01">-31000</value>
    <description>
     <narrative xml:lang="EN">Endorsed 2021 budget for Gambia MenA</narrative>
@@ -553,6 +567,20 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-10-27"></transaction-date>
    <value currency="USD" value-date="2021-10-27">35104.5</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-MenA-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="5100006657">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-08"></transaction-date>
+   <value currency="USD" value-date="2021-12-08">6067</value>
    <description>
     <narrative xml:lang="EN">Vaccine disbursement for programme GMB-MenA-RTN-VAC</narrative>
    </description>

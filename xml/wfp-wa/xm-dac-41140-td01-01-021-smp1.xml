@@ -181,6 +181,26 @@
    <period-end iso-date="2023-12-31"></period-end>
    <value currency="USD" value-date="2023-10-01">1581844.61</value>
   </budget>
+  <budget type="2">
+   <period-start iso-date="2024-01-01"></period-start>
+   <period-end iso-date="2024-03-31"></period-end>
+   <value currency="USD" value-date="2024-01-01">0</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2024-04-01"></period-start>
+   <period-end iso-date="2024-06-30"></period-end>
+   <value currency="USD" value-date="2024-04-01">0</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2024-07-01"></period-start>
+   <period-end iso-date="2024-09-30"></period-end>
+   <value currency="USD" value-date="2024-07-01">0</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2024-10-01"></period-start>
+   <period-end iso-date="2024-12-31"></period-end>
+   <value currency="USD" value-date="2024-10-01">0</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="1"></transaction-type>
@@ -578,6 +598,14 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-09-30"></transaction-date>
    <value currency="USD" value-date="2021-09-30">-2725</value>
+   <provider-org ref="DE-1">
+    <narrative xml:lang="FR">Germany - Ministry for Economic Cooperation and Development</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-12-31">-109686</value>
    <provider-org ref="DE-1">
     <narrative xml:lang="FR">Germany - Ministry for Economic Cooperation and Development</narrative>
    </provider-org>
@@ -1068,6 +1096,16 @@
    <transaction-date iso-date="2021-11-30"></transaction-date>
    <value currency="USD" value-date="2021-11-30">683796</value>
   </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-12-31">843767</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-12-31">843767</value>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://www.wfp.org">
    <title>
     <narrative xml:lang="FR">Activity website</narrative>
@@ -1076,6 +1114,25 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0"></conditions>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual CBT Distribution (USD)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">CBT (USD)</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="1299942"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
   <result type="1">
    <title>
     <narrative xml:lang="FR">Total Outputs</narrative>
@@ -1129,7 +1186,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="1299942"></target>
-     <actual value="460357.61"></actual>
+     <actual value="558566.8831"></actual>
     </period>
    </indicator>
   </result>
@@ -1275,63 +1332,6 @@
    </description>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="FR">Micronutrient Powder</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="10.34"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="FR">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="FR">Iodised Salt</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="129.2"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="FR">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="FR">Vegetable Oil</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="387.59"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="FR">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
      <narrative xml:lang="FR">Sorghum/Millet</narrative>
     </title>
     <period>
@@ -1351,13 +1351,108 @@
    </description>
    <indicator measure="1">
     <title>
+     <narrative xml:lang="FR">Micronutrient Powder</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="10.3356"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Iodised Salt</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="129.195"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Vegetable Oil</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="387.585"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Sorghum/Millet</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="3875.85"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
      <narrative xml:lang="FR">Split Peas</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="775.17"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Micronutrient Powder</narrative>
     </title>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="775.17"></target>
-     <actual value="0"></actual>
+     <target value="10.3356"></target>
+     <actual value="0.631"></actual>
     </period>
    </indicator>
   </result>
@@ -1377,6 +1472,25 @@
      <period-end iso-date="2019-12-31"></period-end>
      <target value="0"></target>
      <actual value="13.55"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Rice</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="0"></target>
+     <actual value="1536.714"></actual>
     </period>
    </indicator>
   </result>
@@ -1415,6 +1529,25 @@
      <period-end iso-date="2019-12-31"></period-end>
      <target value="391.5"></target>
      <actual value="168.79"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Vegetable Oil</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="387.585"></target>
+     <actual value="182.386"></actual>
     </period>
    </indicator>
   </result>
@@ -1468,6 +1601,63 @@
      <narrative xml:lang="FR">Beans</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="0"></target>
+     <actual value="30.909"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Split Peas</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="775.17"></target>
+     <actual value="320.994"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Iodised Salt</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="129.195"></target>
+     <actual value="34.303"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Outputs</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Annual Food Distribution (MTs)</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Beans</narrative>
+    </title>
+    <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target value="0"></target>
@@ -1491,63 +1681,6 @@
      <period-end iso-date="2019-12-31"></period-end>
      <target value="0"></target>
      <actual value="8.4"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="FR">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="FR">Total number of Outputs</narrative>
-   </description>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="FR">Feeding days as percentage of total school days</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="FR">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="FR">Total number of Outputs</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="FR">Average number of school days per month on which multi-fortified or at least 4 food groups were provided (nutrition-sensitive indicator)</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="20"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="FR">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="FR">Total number of Outputs</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="FR">Number of rations provided</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="30000000"></target>
-     <actual value="0"></actual>
     </period>
    </indicator>
   </result>
@@ -1679,6 +1812,25 @@
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
+     <target value="245545"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Total Number of Beneficiaries</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="FR">Total number of people who received tangible benefit from this project</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of Beneficiaries</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
      <target value="245545"></target>
      <actual value="0"></actual>
     </period>

@@ -39,7 +39,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2013-01-01" type="1"></activity-date>
   <activity-date iso-date="2013-01-01" type="2"></activity-date>
-  <activity-date iso-date="2022-12-31" type="3"></activity-date>
+  <activity-date iso-date="2023-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -59,7 +59,7 @@
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>12.65 -8</pos>
    </point>
-   <exactness code="1"></exactness>
+   <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
@@ -127,6 +127,11 @@
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2020-09-01">2640096</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2021-09-01">879714.95</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction ref="1316-MLI-13a-X">
@@ -425,8 +430,8 @@
   </transaction>
   <transaction ref="MLIRV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">-266201</value>
+   <transaction-date iso-date="2019-09-01"></transaction-date>
+   <value currency="USD" value-date="2019-09-01">-266201</value>
    <description>
     <narrative xml:lang="EN">Approved 2020 budget for Mali RV</narrative>
    </description>
@@ -439,10 +444,24 @@
   </transaction>
   <transaction ref="MLIRV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <transaction-date iso-date="2020-09-01"></transaction-date>
    <value currency="USD" value-date="2020-09-01">2640096</value>
    <description>
     <narrative xml:lang="EN">Approved 2021 budget for Mali RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MLIRV2022">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="USD" value-date="2021-09-01">879714.95</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2022 budget for Mali RV</narrative>
    </description>
    <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -595,6 +614,20 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-09-03"></transaction-date>
    <value currency="USD" value-date="2021-09-03">689648</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MLI-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mali</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="5100006481">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-03"></transaction-date>
+   <value currency="USD" value-date="2021-12-03">879714</value>
    <description>
     <narrative xml:lang="EN">Vaccine disbursement for programme MLI-RV-RTN-VAC</narrative>
    </description>

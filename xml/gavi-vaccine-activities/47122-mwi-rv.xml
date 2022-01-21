@@ -36,9 +36,9 @@
   <other-identifier ref="47122-1516-MWI-13B-X" type="A3"></other-identifier>
   <other-identifier ref="47122-1720-MWI-13B-X" type="A3"></other-identifier>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2019-01-01" type="1"></activity-date>
-  <activity-date iso-date="2019-01-01" type="2"></activity-date>
-  <activity-date iso-date="2022-12-31" type="3"></activity-date>
+  <activity-date iso-date="2012-01-01" type="1"></activity-date>
+  <activity-date iso-date="2012-01-01" type="2"></activity-date>
+  <activity-date iso-date="2023-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -58,7 +58,7 @@
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-13.98333 33.78333</pos>
    </point>
-   <exactness code="1"></exactness>
+   <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
@@ -83,14 +83,59 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="2">
+   <period-start iso-date="2012-01-01"></period-start>
+   <period-end iso-date="2012-12-31"></period-end>
+   <value currency="USD" value-date="2012-01-01">2980906.2399999998</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2013-01-01"></period-start>
+   <period-end iso-date="2013-12-31"></period-end>
+   <value currency="USD" value-date="2013-01-01">3588744.6</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2014-01-01"></period-start>
+   <period-end iso-date="2014-12-31"></period-end>
+   <value currency="USD" value-date="2014-01-01">2955277.22</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2015-01-01"></period-start>
+   <period-end iso-date="2015-12-31"></period-end>
+   <value currency="USD" value-date="2015-01-01">1929781.6600000001</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2016-01-01"></period-start>
+   <period-end iso-date="2016-12-31"></period-end>
+   <value currency="USD" value-date="2016-01-01">2741632.94</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2017-01-01"></period-start>
+   <period-end iso-date="2017-12-31"></period-end>
+   <value currency="USD" value-date="2017-01-01">2438615.68</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2018-01-01"></period-start>
+   <period-end iso-date="2018-12-31"></period-end>
+   <value currency="USD" value-date="2018-01-01">1688122.3199999998</value>
+  </budget>
+  <budget status="2" type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
    <value currency="USD" value-date="2018-09-01">-250858.17</value>
   </budget>
   <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-01-01">1428000</value>
+  </budget>
+  <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2020-09-01">2384700.14</value>
+   <value currency="USD" value-date="2020-09-01">2454018.03</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2021-09-01">2399848</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction ref="12-MWI-08a-Y">
@@ -403,8 +448,8 @@
   </transaction>
   <transaction ref="MWIRV2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2019-01-01">-250858.17</value>
+   <transaction-date iso-date="2018-09-01"></transaction-date>
+   <value currency="USD" value-date="2018-09-01">-250858.17</value>
    <description>
     <narrative xml:lang="EN">Approved 2019 budget for Malawi RV</narrative>
    </description>
@@ -431,10 +476,24 @@
   </transaction>
   <transaction ref="MWIRV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-09-01">2384700.14</value>
+   <transaction-date iso-date="2020-09-01"></transaction-date>
+   <value currency="USD" value-date="2020-09-01">2454018.03</value>
    <description>
     <narrative xml:lang="EN">Approved 2021 budget for Malawi RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MWIRV2022">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="USD" value-date="2021-09-01">2399848</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2022 budget for Malawi RV</narrative>
    </description>
    <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -615,6 +674,20 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">762.16</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme MWI-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="5100006484">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-03"></transaction-date>
+   <value currency="USD" value-date="2021-12-03">1344280</value>
    <description>
     <narrative xml:lang="EN">Vaccine disbursement for programme MWI-RV-RTN-VAC</narrative>
    </description>

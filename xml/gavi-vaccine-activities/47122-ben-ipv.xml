@@ -60,7 +60,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.49646 2.60359</pos>
    </point>
-   <exactness code="1"></exactness>
+   <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
@@ -92,7 +92,7 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   <budget status="2" type="2">
    <period-start iso-date="2016-01-01"></period-start>
    <period-end iso-date="2016-12-31"></period-end>
-   <value currency="USD" value-date="2016-01-01">448097.92</value>
+   <value currency="USD" value-date="2016-01-01">448097.92000000004</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2017-01-01"></period-start>
@@ -119,15 +119,15 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2020-09-01">957783.68</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2020-09-01">950818.68</value>
+   <value currency="USD" value-date="2021-09-01">867826.46</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2023-01-01"></period-start>
    <period-end iso-date="2023-12-31"></period-end>
-   <value currency="USD" value-date="2020-09-01">966266.65</value>
+   <value currency="USD" value-date="2021-09-01">966266.65</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction ref="15-BEN-08h-Y">
@@ -342,8 +342,8 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction ref="BENIPV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">35553.54</value>
+   <transaction-date iso-date="2019-09-01"></transaction-date>
+   <value currency="USD" value-date="2019-09-01">35553.54</value>
    <description>
     <narrative xml:lang="EN">Approved 2020 budget for Benin IPV</narrative>
    </description>
@@ -356,10 +356,24 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
   </transaction>
   <transaction ref="BENIPV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <transaction-date iso-date="2020-09-01"></transaction-date>
    <value currency="USD" value-date="2020-09-01">957783.68</value>
    <description>
     <narrative xml:lang="EN">Approved 2021 budget for Benin IPV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="BENIPV2022">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="USD" value-date="2021-09-01">867826.46</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2022 budget for Benin IPV</narrative>
    </description>
    <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -382,24 +396,10 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
     <narrative xml:lang="EN">The Government of Benin</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="BENIPV2022">
-   <transaction-type code="12"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-10-01">950818.68</value>
-   <description>
-    <narrative xml:lang="EN">Endorsed 2022 budget for Benin IPV</narrative>
-   </description>
-   <provider-org ref="47122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Benin</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="BENIPV2023">
    <transaction-type code="12"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-11-01">966266.65</value>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="USD" value-date="2021-09-01">966266.65</value>
    <description>
     <narrative xml:lang="EN">Endorsed 2023 budget for Benin IPV</narrative>
    </description>
@@ -652,6 +652,20 @@ Afin de se joindre aux efforts de l&#x2019;Initiative mondiale pour l&#x2019;&#x
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-10-27"></transaction-date>
    <value currency="USD" value-date="2021-10-27">841763.95</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme BEN-IPV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Benin</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="5100006653">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-08"></transaction-date>
+   <value currency="USD" value-date="2021-12-08">26062</value>
    <description>
     <narrative xml:lang="EN">Vaccine disbursement for programme BEN-IPV-RTN-VAC</narrative>
    </description>

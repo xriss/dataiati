@@ -39,7 +39,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2012-01-01" type="1"></activity-date>
   <activity-date iso-date="2012-01-01" type="2"></activity-date>
-  <activity-date iso-date="2022-12-31" type="3"></activity-date>
+  <activity-date iso-date="2023-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -59,7 +59,7 @@
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>5.55602 -0.1969</pos>
    </point>
-   <exactness code="1"></exactness>
+   <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
@@ -86,7 +86,7 @@
   <budget status="2" type="2">
    <period-start iso-date="2012-01-01"></period-start>
    <period-end iso-date="2012-12-31"></period-end>
-   <value currency="USD" value-date="2012-01-01">4943484.53</value>
+   <value currency="USD" value-date="2012-01-01">4943484.529999999</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2013-01-01"></period-start>
@@ -116,7 +116,7 @@
   <budget status="2" type="2">
    <period-start iso-date="2018-01-01"></period-start>
    <period-end iso-date="2018-12-31"></period-end>
-   <value currency="USD" value-date="2018-01-01">2882814.76</value>
+   <value currency="USD" value-date="2018-01-01">2882814.7600000002</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2019-01-01"></period-start>
@@ -126,12 +126,17 @@
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2019-09-01">-478624.3</value>
+   <value currency="USD" value-date="2019-09-01">-537137.65</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2020-09-01">2188386.1</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2021-09-01">676390</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction ref="12-GHA-08b-Y">
@@ -500,8 +505,8 @@
   </transaction>
   <transaction ref="GHARV2019">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2019-01-01">-745054.54</value>
+   <transaction-date iso-date="2018-09-01"></transaction-date>
+   <value currency="USD" value-date="2018-09-01">-745054.54</value>
    <description>
     <narrative xml:lang="EN">Approved 2019 budget for Ghana RV</narrative>
    </description>
@@ -514,8 +519,8 @@
   </transaction>
   <transaction ref="GHARV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">-478624.3</value>
+   <transaction-date iso-date="2019-09-01"></transaction-date>
+   <value currency="USD" value-date="2019-09-01">-537137.65</value>
    <description>
     <narrative xml:lang="EN">Approved 2020 budget for Ghana RV</narrative>
    </description>
@@ -528,10 +533,24 @@
   </transaction>
   <transaction ref="GHARV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <transaction-date iso-date="2020-09-01"></transaction-date>
    <value currency="USD" value-date="2020-09-01">2188386.1</value>
    <description>
     <narrative xml:lang="EN">Approved 2021 budget for Ghana RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GHARV2022">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="USD" value-date="2021-09-01">676390</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2022 budget for Ghana RV</narrative>
    </description>
    <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -726,6 +745,20 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-07-15"></transaction-date>
    <value currency="USD" value-date="2021-07-15">-223713.27</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Ghana</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="5100006837">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-10"></transaction-date>
+   <value currency="USD" value-date="2021-12-10">354828</value>
    <description>
     <narrative xml:lang="EN">Vaccine disbursement for programme GHA-RV-RTN-VAC</narrative>
    </description>

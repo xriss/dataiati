@@ -63,7 +63,7 @@
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>-4.32459 15.32146</pos>
    </point>
-   <exactness code="1"></exactness>
+   <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
@@ -152,20 +152,20 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2020-09-01">30195021.36</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2020-09-01">31697806.15</value>
+   <value currency="USD" value-date="2021-09-01">17244457.51</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2023-01-01"></period-start>
    <period-end iso-date="2023-12-31"></period-end>
-   <value currency="USD" value-date="2020-09-01">32298401.63</value>
+   <value currency="USD" value-date="2021-09-01">32298401.63</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2024-01-01"></period-start>
    <period-end iso-date="2024-12-31"></period-end>
-   <value currency="USD" value-date="2020-09-01">32903764.5</value>
+   <value currency="USD" value-date="2021-09-01">32903764.5</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction ref="08-COD-08c-Y">
@@ -1094,8 +1094,8 @@
   </transaction>
   <transaction ref="CODPCV2020">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-01-01">11862983.07</value>
+   <transaction-date iso-date="2019-09-01"></transaction-date>
+   <value currency="USD" value-date="2019-09-01">11862983.07</value>
    <description>
     <narrative xml:lang="EN">Approved 2020 budget for Congo, Democratic Republic of the PCV</narrative>
    </description>
@@ -1108,10 +1108,24 @@
   </transaction>
   <transaction ref="CODPCV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <transaction-date iso-date="2020-09-01"></transaction-date>
    <value currency="USD" value-date="2020-09-01">30195021.36</value>
    <description>
     <narrative xml:lang="EN">Approved 2021 budget for Congo, Democratic Republic of the PCV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="CODPCV2022">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="USD" value-date="2021-09-01">17244457.51</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2022 budget for Congo, Democratic Republic of the PCV</narrative>
    </description>
    <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -1162,24 +1176,10 @@
     <narrative xml:lang="EN">The Government of Congo, DR</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="CODPCV2022">
-   <transaction-type code="12"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-10-01">31697806.15</value>
-   <description>
-    <narrative xml:lang="EN">Endorsed 2022 budget for Congo, Democratic Republic of the PCV</narrative>
-   </description>
-   <provider-org ref="47122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="CODPCV2023">
    <transaction-type code="12"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-11-01">32298401.63</value>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="USD" value-date="2021-09-01">32298401.63</value>
    <description>
     <narrative xml:lang="EN">Endorsed 2023 budget for Congo, Democratic Republic of the PCV</narrative>
    </description>
@@ -1192,8 +1192,8 @@
   </transaction>
   <transaction ref="CODPCV2024">
    <transaction-type code="12"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
-   <value currency="USD" value-date="2020-12-01">32903764.5</value>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="USD" value-date="2021-09-01">32903764.5</value>
    <description>
     <narrative xml:lang="EN">Endorsed 2024 budget for Congo, Democratic Republic of the PCV</narrative>
    </description>
@@ -1556,8 +1556,8 @@
   </transaction>
   <transaction ref="5100003759">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-08-11"></transaction-date>
-   <value currency="USD" value-date="2021-08-11">-4234.08</value>
+   <transaction-date iso-date="2021-08-05"></transaction-date>
+   <value currency="USD" value-date="2021-08-05">-4234.08</value>
    <description>
     <narrative xml:lang="EN">Vaccine disbursement for programme COD-PCV-RTN-VAC</narrative>
    </description>
@@ -1572,6 +1572,20 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-11-17"></transaction-date>
    <value currency="USD" value-date="2021-11-17">8811000</value>
+   <description>
+    <narrative xml:lang="EN">Vaccine disbursement for programme COD-PCV-RTN-VAC</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Congo, Democratic Republic of the</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="5100006656">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-08"></transaction-date>
+   <value currency="USD" value-date="2021-12-08">461357</value>
    <description>
     <narrative xml:lang="EN">Vaccine disbursement for programme COD-PCV-RTN-VAC</narrative>
    </description>

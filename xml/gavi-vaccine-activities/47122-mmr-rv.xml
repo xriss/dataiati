@@ -35,9 +35,9 @@
   <other-identifier ref="47122-20-MMR-13B-X" type="A3"></other-identifier>
   <other-identifier ref="47122-20-MMR-13E-X" type="A3"></other-identifier>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2021-01-01" type="1"></activity-date>
-  <activity-date iso-date="2021-01-01" type="2"></activity-date>
-  <activity-date iso-date="2022-12-31" type="3"></activity-date>
+  <activity-date iso-date="2020-01-01" type="1"></activity-date>
+  <activity-date iso-date="2020-01-01" type="2"></activity-date>
+  <activity-date iso-date="2023-12-31" type="3"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -57,7 +57,7 @@
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>19.745 96.12972</pos>
    </point>
-   <exactness code="1"></exactness>
+   <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
@@ -82,9 +82,19 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-01-01">6055158.9</value>
+  </budget>
+  <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2020-09-01">4064864.8</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2021-09-01">2890413.5</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction ref="20-MMR-13e-X">
@@ -145,10 +155,24 @@
   </transaction>
   <transaction ref="MMRRV2021">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-15"></transaction-date>
+   <transaction-date iso-date="2020-09-01"></transaction-date>
    <value currency="USD" value-date="2020-09-01">4064864.8</value>
    <description>
     <narrative xml:lang="EN">Approved 2021 budget for Myanmar RV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Myanmar</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MMRRV2022">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="USD" value-date="2021-09-01">2890413.5</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2022 budget for Myanmar RV</narrative>
    </description>
    <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
