@@ -53,6 +53,9 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPLC"></feature-designation>
   </location>
+  <sector code="1.4" percentage="100" vocabulary="8"></sector>
+  <sector code="99810" percentage="100" vocabulary="1"></sector>
+  <tag code="1.4" vocabulary="3"></tag>
   <policy-marker code="1" significance="0" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -206,9 +209,18 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">-881</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">200034</value>
+   <value currency="USD" value-date="2021-12-31">199153</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -222,5 +234,37 @@
   </document-link>
   <related-activity ref="XM-DAC-41114-PROJECT-00013428" type="1"></related-activity>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Annual Output Results</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Output Indicator</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of primary health facilities constructed to enhance health services</narrative>
+    </description>
+    <baseline year="2004">
+     <comment>
+      <narrative xml:lang="EN">Number of primary health facilities constructed to enhance health services</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">Three 3 clinic facilities in Bong County have renewable and sustainable energy (electricity) through the provision and installation of solar power systems.</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">The solar panel power systems were procured and installed at three clinics in Bong County and verified by a Joint Monitoring Team comprising of UNDP, ADB and MoHSW. The citizens of Bong County are immensely benefiting from this gesture.</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>
