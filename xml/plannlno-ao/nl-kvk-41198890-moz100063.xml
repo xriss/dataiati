@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-MOZ100063</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -203,7 +203,7 @@ Community awareness raising activities and community resilience building includi
    <description>
     <narrative xml:lang="EN">Humanitarian support: Water, Sanitation &amp; Hygiene (WASH)</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people having regular access to soap to meet hygienic needs</narrative>
     </title>
@@ -232,7 +232,7 @@ Community awareness raising activities and community resilience building includi
    <description>
     <narrative xml:lang="EN">Humanitarian support: Water, Sanitation &amp; Hygiene (WASH)</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people reached with hygiene promotion/awareness raising activities</narrative>
     </title>
@@ -248,10 +248,6 @@ Community awareness raising activities and community resilience building includi
     <period>
      <period-start iso-date="2019-04-08"></period-start>
      <period-end iso-date="2019-11-30"></period-end>
-     <target value="0">
-      <dimension name="age" value="over 18 years"></dimension>
-      <dimension name="age" value="under 18 years"></dimension>
-     </target>
     </period>
    </indicator>
   </result>
@@ -262,7 +258,7 @@ Community awareness raising activities and community resilience building includi
    <description>
     <narrative xml:lang="EN">Humanitarian support: protection</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children &lt; 18 (boys and girls) benefit from psychosocial and life skills support within Child Friendly Spaces / Childrens clubs</narrative>
     </title>
@@ -277,7 +273,7 @@ Community awareness raising activities and community resilience building includi
      <period-end iso-date="2019-11-30"></period-end>
      <target value="2500.00">
       <dimension name="sex" value="female"></dimension>
-      <dimension name="sex" value="mlae"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </target>
     </period>
    </indicator>
@@ -289,7 +285,7 @@ Community awareness raising activities and community resilience building includi
    <description>
     <narrative xml:lang="EN">Humanitarian support: protection</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of persons reached by the implementation of specific prevention measures</narrative>
     </title>
@@ -302,11 +298,6 @@ Community awareness raising activities and community resilience building includi
       <narrative xml:lang="EN">Number of persons reached by the implementation of specific prevention measures</narrative>
      </comment>
     </baseline>
-    <period>
-     <period-start iso-date="2019-04-08"></period-start>
-     <period-end iso-date="2019-11-30"></period-end>
-     <target value="0"></target>
-    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
@@ -316,7 +307,7 @@ Community awareness raising activities and community resilience building includi
    <description>
     <narrative xml:lang="EN">Humanitarian support: shelter</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people provided with non-food items</narrative>
     </title>
@@ -333,7 +324,6 @@ Community awareness raising activities and community resilience building includi
      <period-start iso-date="2019-04-08"></period-start>
      <period-end iso-date="2019-11-30"></period-end>
      <target value="6000.00">
-      <dimension name="households" value="6 persons per household"></dimension>
       <comment>
        <narrative xml:lang="EN">Hygiene Kit (for families) 1000 families of 6 persons</narrative>
       </comment>
@@ -345,7 +335,7 @@ Community awareness raising activities and community resilience building includi
    <title>
     <narrative xml:lang="EN">Menstrual Hygiene Management</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of women and girls using affordable and hygienic sanitary pads</narrative>
     </title>
@@ -362,10 +352,12 @@ Community awareness raising activities and community resilience building includi
      <period-start iso-date="2019-04-08"></period-start>
      <period-end iso-date="2019-11-30"></period-end>
      <target value="1750.00">
-      <dimension name="Women 24 years+"></dimension>
+      <dimension name="age" value="24 years+"></dimension>
+      <dimension name="sex" value="female"></dimension>
      </target>
      <actual value="480.00">
-      <dimension name="Women 24 years+" value="480"></dimension>
+      <dimension name="age" value="24 years+"></dimension>
+      <dimension name="sex" value="female"></dimension>
      </actual>
     </period>
    </indicator>
@@ -374,7 +366,7 @@ Community awareness raising activities and community resilience building includi
    <title>
     <narrative xml:lang="EN">Performance Plan Nederland as a development organisation</narrative>
    </title>
-   <indicator ascending="1" measure="4">
+   <indicator measure="4">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
     </title>
@@ -394,7 +386,7 @@ Community awareness raising activities and community resilience building includi
      <actual value="3.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of boys reached (under 18)</narrative>
     </title>
@@ -408,14 +400,14 @@ Community awareness raising activities and community resilience building includi
      <period-start iso-date="2019-04-08"></period-start>
      <period-end iso-date="2019-11-30"></period-end>
      <target value="0.00">
-      <dimension name="11-17 years"></dimension>
+      <dimension name="age" value="11-17 years"></dimension>
      </target>
      <actual value="1013.00">
-      <dimension name="11-17 years" value="1013"></dimension>
+      <dimension name="age" value="11-17 years"></dimension>
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of girls reached (under 18)</narrative>
     </title>
@@ -428,21 +420,18 @@ Community awareness raising activities and community resilience building includi
     <period>
      <period-start iso-date="2019-04-08"></period-start>
      <period-end iso-date="2019-11-30"></period-end>
-     <target value="0">
-      <dimension name="11-17 years"></dimension>
-     </target>
      <actual value="1072.00">
-      <dimension name="11-17 years" value="1072"></dimension>
+      <dimension name="age" value="11-17 years"></dimension>
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young women (age 18-24) reached</narrative>
     </title>
     <reference code="0000.7" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young men (age 18-24) reached</narrative>
     </title>
@@ -453,7 +442,7 @@ Community awareness raising activities and community resilience building includi
    <title>
     <narrative xml:lang="EN">Children, youth or adults use services</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who have used protection services over the past 12 months (indicate sample size)</narrative>
     </title>
@@ -466,50 +455,34 @@ Community awareness raising activities and community resilience building includi
     <period>
      <period-start iso-date="2019-04-08"></period-start>
      <period-end iso-date="2019-11-30"></period-end>
-     <target value="100.00">
-      <dimension name="Boys"></dimension>
-      <dimension name="Girls"></dimension>
+     <target value="0.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
       <comment>
        <narrative xml:lang="EN">Cases of child protection handled</narrative>
       </comment>
      </target>
-     <actual value="521.00">
-      <dimension name="Boys" value="177"></dimension>
-      <dimension name="Girls" value="344"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Dissemination of SRHR information</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of children, youth or adults who participated in SRHR education sessions and awareness raising activities</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Increasing knowlegde on SRHR</narrative>
-    </description>
-    <reference code="1700.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0.00" year="2019">
-     <comment>
-      <narrative xml:lang="EN">Number of children, youth or adults who participated in SRHR education sessions and awareness raising activities</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-04-08"></period-start>
-     <period-end iso-date="2019-11-30"></period-end>
-     <target value="0">
-      <dimension name="sex" value="female"></dimension>
-     </target>
-    </period>
-    <period>
-     <period-start iso-date="2019-04-08"></period-start>
-     <period-end iso-date="2019-11-30"></period-end>
-     <target value="0">
+     <target value="0.00">
+      <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Cases of child protection handled</narrative>
+      </comment>
      </target>
+     <actual value="344.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Cases of child protection handled</narrative>
+      </comment>
+     </actual>
+     <actual value="177.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Cases of child protection handled</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -517,28 +490,7 @@ Community awareness raising activities and community resilience building includi
    <title>
     <narrative xml:lang="EN">Training of peer educators</narrative>
    </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of children, youth or adults who participated in SRHR education sessions and awareness raising activities</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Increasing knowlegde on SRHR</narrative>
-    </description>
-    <reference code="1700.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <baseline value="0.00" year="2019">
-     <comment>
-      <narrative xml:lang="EN">Number of children, youth or adults who participated in SRHR education sessions and awareness raising activities</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-04-08"></period-start>
-     <period-end iso-date="2019-11-30"></period-end>
-     <target value="0">
-      <dimension name="age" value="over 18 years"></dimension>
-     </target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who participated in SRHR education sessions and awareness raising activities</narrative>
     </title>
@@ -555,6 +507,51 @@ Community awareness raising activities and community resilience building includi
      <period-start iso-date="2019-04-08"></period-start>
      <period-end iso-date="2019-11-30"></period-end>
      <target value="2500.00"></target>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of children, youth or adults who participated in SRHR education sessions and awareness raising activities</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Increasing knowlegde on SRHR</narrative>
+    </description>
+    <reference code="1700.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="0.00" year="2019">
+     <comment>
+      <narrative xml:lang="EN">Number of children, youth or adults who participated in SRHR education sessions and awareness raising activities</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2019-04-08"></period-start>
+     <period-end iso-date="2019-11-30"></period-end>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Dissemination of SRHR information</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of children, youth or adults who participated in SRHR education sessions and awareness raising activities</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Increasing knowlegde on SRHR</narrative>
+    </description>
+    <reference code="1700.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="0.00" year="2019">
+     <comment>
+      <narrative xml:lang="EN">Number of children, youth or adults who participated in SRHR education sessions and awareness raising activities</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2019-04-08"></period-start>
+     <period-end iso-date="2019-11-30"></period-end>
+    </period>
+    <period>
+     <period-start iso-date="2019-04-08"></period-start>
+     <period-end iso-date="2019-11-30"></period-end>
     </period>
    </indicator>
   </result>

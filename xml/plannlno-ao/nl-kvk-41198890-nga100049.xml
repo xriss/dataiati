@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-NGA100049</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -224,7 +224,7 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
    <description>
     <narrative xml:lang="EN">Humanitarian support: nutrition</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children under 5 admitted for treatment of Severe or Moderate Acute Malnutrition</narrative>
     </title>
@@ -237,13 +237,21 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="2000.00">
-      <dimension name="Boys (under 18)"></dimension>
-      <dimension name="Girls (under 18)"></dimension>
+     <target value="0.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="4676.00">
-      <dimension name="Boys (under 18)" value="2046"></dimension>
-      <dimension name="Girls (under 18)" value="2630"></dimension>
+     <target value="0.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="2630.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="2046.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
@@ -255,7 +263,7 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
    <description>
     <narrative xml:lang="EN">Humanitarian support: nutrition</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of SMART, coverage, NCA or other surveys implemented</narrative>
     </title>
@@ -279,7 +287,7 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
    <description>
     <narrative xml:lang="EN">Humanitarian support: nutrition</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of health facilities where nutrition programmes are implemented</narrative>
     </title>
@@ -294,38 +302,12 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Support to separated/unaccompanied children</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Humanitarian support: protection</narrative>
-   </description>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of unaccompanied and/or separated children who are reunited with their caregivers OR in appropriate protective care arrangements based on BIA</narrative>
-    </title>
-    <reference code="PRO-I8" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <target value="150.00">
-      <dimension name="Boys (under 18)"></dimension>
-      <dimension name="Girls (under 18)"></dimension>
-     </target>
-     <actual value="150.00">
-      <dimension name="Boys (under 18)" value="96"></dimension>
-      <dimension name="Girls (under 18)" value="54"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
     <narrative xml:lang="EN">Capacity building (Protection)</narrative>
    </title>
    <description>
     <narrative xml:lang="EN">Humanitarian support: protection</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of participants showing an increased knowledge on the protection subject in focus</narrative>
     </title>
@@ -333,13 +315,21 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
-     <target value="80.00">
-      <dimension name="Men (18+)"></dimension>
-      <dimension name="Women (18+)"></dimension>
+     <target value="0.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="80.00">
-      <dimension name="Men (18+)" value="59"></dimension>
-      <dimension name="Women (18+)" value="21"></dimension>
+     <target value="0.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="21.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="59.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
@@ -351,7 +341,7 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
    <description>
     <narrative xml:lang="EN">Humanitarian support: protection</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of persons with increased/appropriate information on relevant rights and/or entitlements</narrative>
     </title>
@@ -359,13 +349,55 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="3000.00">
-      <dimension name="Men (18+)"></dimension>
-      <dimension name="Women (18+)"></dimension>
+     <target value="0.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="3056.00">
-      <dimension name="Men (18+)" value="723"></dimension>
-      <dimension name="Women (18+)" value="2333"></dimension>
+     <target value="0.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="2333.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="723.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Support to separated/unaccompanied children</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Humanitarian support: protection</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of unaccompanied and/or separated children who are reunited with their caregivers OR in appropriate protective care arrangements based on BIA</narrative>
+    </title>
+    <reference code="PRO-I8" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <target value="0.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <target value="0.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="54.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="96.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
@@ -374,7 +406,7 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
    <title>
     <narrative xml:lang="EN">Performance Plan Nederland as a development organisation</narrative>
    </title>
-   <indicator ascending="1" measure="4">
+   <indicator measure="4">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
     </title>
@@ -391,7 +423,7 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
      <actual value="3.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of boys reached (under 18)</narrative>
     </title>
@@ -399,11 +431,10 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="0"></target>
      <actual value="2142.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young women (age 18-24) reached</narrative>
     </title>
@@ -411,11 +442,10 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="0"></target>
      <actual value="2652.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of girls reached (under 18)</narrative>
     </title>
@@ -423,11 +453,10 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="0"></target>
      <actual value="3285.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young men (age 18-24) reached</narrative>
     </title>
@@ -435,7 +464,6 @@ Child nutrition in Nigeria has improved in recent years, but around 11 million c
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="0"></target>
      <actual value="782.00"></actual>
     </period>
    </indicator>

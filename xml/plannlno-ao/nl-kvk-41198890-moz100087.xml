@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-MOZ100087</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -122,6 +122,7 @@ Result areas:
   <activity-date iso-date="2020-09-01" type="1"></activity-date>
   <activity-date iso-date="2020-09-01" type="2"></activity-date>
   <activity-date iso-date="2021-11-30" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -196,6 +197,14 @@ Result areas:
     <narrative xml:lang="EN">Plan International Mozambique</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="UB1599">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-11-30"></transaction-date>
+   <value currency="EUR" value-date="2021-11-30">105000</value>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Plan International Mozambique</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="kosten oktober 2020">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
@@ -256,13 +265,28 @@ Result areas:
    <transaction-date iso-date="2021-09-30"></transaction-date>
    <value currency="EUR" value-date="2021-09-30">1278</value>
   </transaction>
+  <transaction ref="WASH First: Scaling up WASH SDG efforts: the first line of defence against COVID-19- Mozambique:  ()">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-10-31"></transaction-date>
+   <value currency="EUR" value-date="2021-10-31">2130</value>
+  </transaction>
+  <transaction ref="WASH First: Scaling up WASH SDG efforts: the first line of defence against COVID-19- Mozambique:  ()">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-11-30"></transaction-date>
+   <value currency="EUR" value-date="2021-11-30">3337</value>
+  </transaction>
+  <transaction ref="WASH First: Scaling up WASH SDG efforts: the first line of defence against COVID-19- Mozambique:  ()">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">1562</value>
+  </transaction>
   <related-activity ref="NL-KVK-41198890-Wash First" type="1"></related-activity>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Access to handwashing facilities</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Estimated number of at risk population who have access to handwashing facilities</narrative>
     </title>
@@ -283,7 +307,7 @@ Result areas:
    <title>
     <narrative xml:lang="EN">Performance Plan Nederland as a development organisation</narrative>
    </title>
-   <indicator ascending="1" measure="4">
+   <indicator measure="4">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
     </title>
@@ -302,7 +326,7 @@ Result areas:
      <target value="3.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of girls reached (under 18)</narrative>
     </title>
@@ -311,7 +335,7 @@ Result areas:
     </description>
     <reference code="0000.03" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of boys reached (under 18)</narrative>
     </title>
@@ -320,7 +344,7 @@ Result areas:
     </description>
     <reference code="0000.04" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young men (age 18-24) reached</narrative>
     </title>
@@ -329,7 +353,7 @@ Result areas:
     </description>
     <reference code="0000.08" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young women (age 18-24) reached</narrative>
     </title>
@@ -338,7 +362,7 @@ Result areas:
     </description>
     <reference code="0000.07" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
-   <indicator ascending="1" measure="4">
+   <indicator measure="4">
     <title>
      <narrative xml:lang="EN">Gender transformative marker - implementation</narrative>
     </title>
@@ -346,9 +370,9 @@ Result areas:
      <narrative xml:lang="EN">Scoring of the implementation phase by the gender transformative marker of Plan International; 
 gender blind (1), gender neutral (2), gender aware (3), gender transformative (4)</narrative>
     </description>
-    <reference code="0000.12" indicator-uri="none" vocabulary="1"></reference>
+    <reference code="0000.12" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
-   <indicator ascending="1" measure="4">
+   <indicator measure="4">
     <title>
      <narrative xml:lang="EN">Gender transformative marker - design</narrative>
     </title>
@@ -356,14 +380,14 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <narrative xml:lang="EN">Scoring of the project design by the gender transformative marker of Plan International; 
 gender blind (1), gender neutral (2), gender aware (3), gender transformative (4)</narrative>
     </description>
-    <reference code="0000.11" indicator-uri="none" vocabulary="1"></reference>
+    <reference code="0000.11" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">COVID-19 prevention &amp; response</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of PPEs that have been provided directly to the at risk population</narrative>
     </title>
@@ -382,7 +406,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <target value="120.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of hygiene kits (including menstrual health products) that has been provided directly to the at risk population</narrative>
     </title>
@@ -398,7 +422,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <target value="4092.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of new, repaired, temporary and/or mobile handwashing facilities that are provided to the at risk population</narrative>
     </title>
@@ -414,7 +438,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <target value="2092.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people that are reached directly with awareness raising activities</narrative>
     </title>
@@ -432,11 +456,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      </target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people that are reached through mass media</narrative>
     </title>
-    <reference code="1.2.1" indicator-uri="none" vocabulary="1"></reference>
+    <reference code="1.2.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <baseline value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN">Number of people that are reached through mass media</narrative>
@@ -448,7 +472,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <target value="24500.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people trained related to COVID-19 prevention and response</narrative>
     </title>
@@ -464,11 +488,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <target value="60.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people trained related to COVID-19 prevention and response</narrative>
     </title>
-    <reference code="1.3.1." indicator-uri="none" vocabulary="1"></reference>
+    <reference code="1.3.1." indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <baseline value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN">Number of people trained related to COVID-19 prevention and response</narrative>
@@ -480,11 +504,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <target value="60.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of soaps, disinfection equipment that has been provided among at risk population</narrative>
     </title>
-    <reference code="2.4.1" indicator-uri="none" vocabulary="1"></reference>
+    <reference code="2.4.1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <baseline value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN">Number of soaps, disinfection equipment that has been provided among at risk population</narrative>
@@ -496,11 +520,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <target value="2000.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Total number of at risk population who are provided with soaps, disinfection equipment</narrative>
     </title>
-    <reference code="2.4.2" indicator-uri="none" vocabulary="1"></reference>
+    <reference code="2.4.2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <baseline value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN">Total number of at risk population who are provided with soaps, disinfection equipment</narrative>
@@ -512,13 +536,13 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <target value="2000.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Total number of at risk population who were provided with hygiene kits</narrative>
     </title>
     <reference code="2.3.2" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Total number of at Risk Population who are provided PPEs</narrative>
     </title>
@@ -529,11 +553,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
    <title>
     <narrative xml:lang="EN">Capacity training for service providers</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of WASH service providers and suppliers supported/trained</narrative>
     </title>
-    <reference code="2.1.1." indicator-uri="none" vocabulary="1"></reference>
+    <reference code="2.1.1." indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <baseline value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN">Number of WASH service providers and suppliers supported/trained</narrative>
@@ -546,11 +570,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <actual value="0.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of WASH service providers and suppliers supported/trained</narrative>
     </title>
-    <reference code="2.1.1." indicator-uri="none" vocabulary="1"></reference>
+    <reference code="2.1.1." indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <baseline value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN">Number of WASH service providers and suppliers supported/trained</narrative>
@@ -567,11 +591,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
    <title>
     <narrative xml:lang="EN">Access to drinking water</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people using the water points constructed or rehabilitated</narrative>
     </title>
-    <reference code="3.1.2." indicator-uri="none" vocabulary="1"></reference>
+    <reference code="3.1.2." indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <baseline value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN">Number of people using the water points constructed or rehabilitated</narrative>
@@ -584,11 +608,11 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <actual value="0.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people using the water points constructed or rehabilitated</narrative>
     </title>
-    <reference code="3.1.2." indicator-uri="none" vocabulary="1"></reference>
+    <reference code="3.1.2." indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <baseline value="0.00" year="2020">
      <comment>
       <narrative xml:lang="EN">Number of people using the water points constructed or rehabilitated</narrative>
@@ -600,7 +624,7 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
      <target value="750.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of water point constructed of rehabilitated using programme funds</narrative>
     </title>

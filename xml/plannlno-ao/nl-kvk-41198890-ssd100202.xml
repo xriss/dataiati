@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-SSD100202</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -194,7 +194,7 @@ Support flood affected displaced and host communities in Pibor County from 26.11
    <description>
     <narrative xml:lang="EN">Humanitarian support: Multi-Purpose Cash</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people benefitting unconditional and unrestricted cash</narrative>
     </title>
@@ -211,7 +211,7 @@ Support flood affected displaced and host communities in Pibor County from 26.11
    <description>
     <narrative xml:lang="EN">Humanitarian support: Multi-Purpose Cash</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people benefitting from conditional and unrestricted cash</narrative>
     </title>
@@ -228,7 +228,7 @@ Support flood affected displaced and host communities in Pibor County from 26.11
    <description>
     <narrative xml:lang="EN">Humanitarian support: accountability</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of crisis-affected people who are also involved in the design, implementation, montoring and/or evaluation of the programme</narrative>
     </title>
@@ -245,15 +245,21 @@ Support flood affected displaced and host communities in Pibor County from 26.11
      <period-start iso-date="2019-11-26"></period-start>
      <period-end iso-date="2020-05-25"></period-end>
      <target value="33.00">
-      <dimension name="boys" value="33"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Boys</narrative>
+      </comment>
      </target>
+     <actual value="0.00"></actual>
     </period>
     <period>
      <period-start iso-date="2019-11-26"></period-start>
      <period-end iso-date="2020-05-25"></period-end>
      <target value="18.00">
-      <dimension name="girls" value="18"></dimension>
+      <comment>
+       <narrative xml:lang="EN">girls</narrative>
+      </comment>
      </target>
+     <actual value="0.00"></actual>
     </period>
    </indicator>
   </result>
@@ -264,7 +270,7 @@ Support flood affected displaced and host communities in Pibor County from 26.11
    <description>
     <narrative xml:lang="EN">Humanitarian support: food security &amp; livelihoods</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people enabled to meet their basic food needs</narrative>
     </title>
@@ -280,12 +286,34 @@ Support flood affected displaced and host communities in Pibor County from 26.11
     <period>
      <period-start iso-date="2019-11-26"></period-start>
      <period-end iso-date="2020-05-25"></period-end>
-     <target value="0">
-      <dimension name="Boys under 18" value="2250"></dimension>
-      <dimension name="Girls under 18" value="2340"></dimension>
-      <dimension name="Men over 18" value="2160"></dimension>
-      <dimension name="Women over 18" value="2250"></dimension>
+     <target value="2160.00">
+      <comment>
+       <narrative xml:lang="EN">Men over 18</narrative>
+      </comment>
      </target>
+     <target value="2250.00">
+      <comment>
+       <narrative xml:lang="EN">Women over 18</narrative>
+      </comment>
+     </target>
+     <target value="2340.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <target value="2250.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+     <actual value="0.00"></actual>
+     <actual value="0.00"></actual>
     </period>
    </indicator>
   </result>
@@ -296,7 +324,7 @@ Support flood affected displaced and host communities in Pibor County from 26.11
    <description>
     <narrative xml:lang="EN">Humanitarian support: food security &amp; livelihoods</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people provided with resources to protect and start rebuilding livelihood assets</narrative>
     </title>
@@ -312,12 +340,34 @@ Support flood affected displaced and host communities in Pibor County from 26.11
     <period>
      <period-start iso-date="2019-11-26"></period-start>
      <period-end iso-date="2020-05-25"></period-end>
-     <target value="2020.00">
-      <dimension name="Boys under 18" value="450"></dimension>
-      <dimension name="Girls under 18" value="468"></dimension>
-      <dimension name="Men over 18" value="432"></dimension>
-      <dimension name="Women over 18" value="450"></dimension>
+     <target value="432.00">
+      <comment>
+       <narrative xml:lang="EN">Men over 18</narrative>
+      </comment>
      </target>
+     <target value="450.00">
+      <comment>
+       <narrative xml:lang="EN">Women over 18</narrative>
+      </comment>
+     </target>
+     <target value="468.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <target value="450.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+     <actual value="0.00"></actual>
+     <actual value="0.00"></actual>
     </period>
    </indicator>
   </result>
@@ -325,7 +375,7 @@ Support flood affected displaced and host communities in Pibor County from 26.11
    <title>
     <narrative xml:lang="EN">Performance Plan Nederland as a development organisation</narrative>
    </title>
-   <indicator ascending="1" measure="3">
+   <indicator measure="3">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
     </title>
@@ -341,11 +391,9 @@ Support flood affected displaced and host communities in Pibor County from 26.11
     <period>
      <period-start iso-date="2019-11-26"></period-start>
      <period-end iso-date="2020-05-25"></period-end>
-     <target value="3.00"></target>
-     <actual value="3.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of boys reached (under 18)</narrative>
     </title>
@@ -362,11 +410,14 @@ Support flood affected displaced and host communities in Pibor County from 26.11
      <period-start iso-date="2019-11-26"></period-start>
      <period-end iso-date="2020-11-25"></period-end>
      <target value="2700.00">
-      <dimension name="boys" value="2700"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Boys</narrative>
+      </comment>
      </target>
+     <actual value="0.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of girls reached (under 18)</narrative>
     </title>
@@ -383,11 +434,14 @@ Support flood affected displaced and host communities in Pibor County from 26.11
      <period-start iso-date="2019-11-26"></period-start>
      <period-end iso-date="2020-05-25"></period-end>
      <target value="2808.00">
-      <dimension name="girls" value="2808"></dimension>
+      <comment>
+       <narrative xml:lang="EN">girls</narrative>
+      </comment>
      </target>
+     <actual value="0.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young men (age 18-24) reached</narrative>
     </title>
@@ -396,7 +450,7 @@ Support flood affected displaced and host communities in Pibor County from 26.11
     </description>
     <reference code="0000.8" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young women (age 18-24) reached</narrative>
     </title>
@@ -405,13 +459,13 @@ Support flood affected displaced and host communities in Pibor County from 26.11
     </description>
     <reference code="0000.7" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Potential reach from influencing- number of girls (0-18 years)</narrative>
     </title>
     <reference code="0000.10" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Potential reach from influencing-  number of persons</narrative>
     </title>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-CAF100183</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -213,7 +213,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">Gender training by CPiE specialist</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of CSO officials reached with gender training</narrative>
     </title>
@@ -241,7 +241,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">Operational support</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of CSOs reached with operational support</narrative>
     </title>
@@ -269,7 +269,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">PROTECTION - Objective 1 - Activity 1.1 : Provide training to local service providers and organize a case conference to ensure that essential services are provided in a child-friendly manner and realize children&apos;s rights</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of service provider employees reached with rights training</narrative>
     </title>
@@ -285,13 +285,17 @@ This project was implemented between April 1 and December 31, 2017. The politica
     <period>
      <period-start iso-date="2017-04-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="90.00">
-      <dimension name="men" value="50"></dimension>
-      <dimension name="women" value="40"></dimension>
+     <target value="40.00">
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="96.00">
-      <dimension name="men" value="72"></dimension>
-      <dimension name="women" value="24"></dimension>
+     <target value="50.00">
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="24.00">
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="72.00">
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
@@ -303,7 +307,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">PROTECTION - Objective 1 - Activity 1.2 : Regular Coaching and capacity building of all caseworkers and local Ministry of Social Affairs representative, on case management, including SOPs, guiding principles, tools and key competencies in line with minimum standards for case mangement</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of service provider employees reached with capacity training</narrative>
     </title>
@@ -319,13 +323,17 @@ This project was implemented between April 1 and December 31, 2017. The politica
     <period>
      <period-start iso-date="2017-04-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="10.00">
-      <dimension name="Men" value="6"></dimension>
-      <dimension name="Women" value="4"></dimension>
+     <target value="4.00">
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="18.00">
-      <dimension name="Men" value="10"></dimension>
-      <dimension name="Women" value="8"></dimension>
+     <target value="6.00">
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="8.00">
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="10.00">
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
@@ -337,7 +345,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">PROTECTION - Objective 1 and 2 and 3 - Activity 1.3, 1.4, 2.1, 3.1 :  UASC, CAFAAG, child survivors of GBV and other vulnerable children are provided with OR support to reintegration into their communities through education and vocational training opportunities and family remediation AND/OR case management services AND/OR interim care, tracing services and reunified with their biological families AND/OR with age, gender and culturally appropriate psychosocial activities in CFS</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who benefited from direct service deliveries</narrative>
     </title>
@@ -353,21 +361,65 @@ This project was implemented between April 1 and December 31, 2017. The politica
     <period>
      <period-start iso-date="2017-04-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="3620.00">
-      <dimension name="Case management" value="120"></dimension>
-      <dimension name="Interim care, famiily tracing and reunification services" value="25"></dimension>
-      <dimension name="Psychosocial and recreational activities" value="3500"></dimension>
-      <dimension name="Reintegration program, through education/vocational training and family mediation" value="35"></dimension>
+     <target value="120.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Case management</narrative>
+      </comment>
      </target>
-     <actual value="4025.00">
-      <dimension name="Case management" value="105"></dimension>
-      <dimension name="Interim care, famiily tracing and reunification services" value="15"></dimension>
-      <dimension name="Psychosocial and recreational activities" value="3920"></dimension>
-      <dimension name="Reintegration program, through education/vocational training and family mediation" value="139"></dimension>
+     <target value="25.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Interim care, famiily tracing and reunification services</narrative>
+      </comment>
+     </target>
+     <target value="3500.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Psychosocial and recreational activities</narrative>
+      </comment>
+     </target>
+     <target value="35.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Reintegration program, through education/vocational training and family mediation</narrative>
+      </comment>
+     </target>
+     <actual value="105.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Case management</narrative>
+      </comment>
+     </actual>
+     <actual value="15.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Interim care, famiily tracing and reunification services</narrative>
+      </comment>
+     </actual>
+     <actual value="3920.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Psychosocial and recreational activities</narrative>
+      </comment>
+     </actual>
+     <actual value="139.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Reintegration program, through education/vocational training and family mediation</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who benefited from direct service deliveries</narrative>
     </title>
@@ -383,17 +435,61 @@ This project was implemented between April 1 and December 31, 2017. The politica
     <period>
      <period-start iso-date="2017-04-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="3580.00">
-      <dimension name="Case management services," value="80"></dimension>
-      <dimension name="Interim care, family tracing and reunification processes" value="25"></dimension>
-      <dimension name="Psychosocial and recreational activities" value="3500"></dimension>
-      <dimension name="Reintegration support through education/vocational training and family mediation" value="65"></dimension>
+     <target value="80.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Case management services,</narrative>
+      </comment>
      </target>
-     <actual value="4624.00">
-      <dimension name="Case management services," value="123"></dimension>
-      <dimension name="Interim care, family tracing and reunification processes" value="34"></dimension>
-      <dimension name="Psychosocial and recreational activities" value="4501"></dimension>
-      <dimension name="Reintegration support through education/vocational training and family mediation" value="116"></dimension>
+     <target value="25.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Interim care, family tracing and reunification processes</narrative>
+      </comment>
+     </target>
+     <target value="3500.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Psychosocial and recreational activities</narrative>
+      </comment>
+     </target>
+     <target value="65.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Reintegration support through education/vocational training and family mediation</narrative>
+      </comment>
+     </target>
+     <actual value="123.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Case management services,</narrative>
+      </comment>
+     </actual>
+     <actual value="34.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Interim care, family tracing and reunification processes</narrative>
+      </comment>
+     </actual>
+     <actual value="4501.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Psychosocial and recreational activities</narrative>
+      </comment>
+     </actual>
+     <actual value="116.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Reintegration support through education/vocational training and family mediation</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
@@ -405,7 +501,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">PROTECTION - Objective 3 - Activity 3.1 :  Organize Life Skills session to empower girls and boys aged 10-17 years and improve their psychosocial well-being</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who participated in skills trainings</narrative>
     </title>
@@ -422,14 +518,18 @@ This project was implemented between April 1 and December 31, 2017. The politica
      <period-start iso-date="2017-04-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
      <target value="125.00">
-      <dimension name="Life Skils" value="125"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Life Skils</narrative>
+      </comment>
      </target>
      <actual value="75.00">
-      <dimension name="Life Skils" value="75"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Life Skils</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who participated in skills trainings</narrative>
     </title>
@@ -446,10 +546,14 @@ This project was implemented between April 1 and December 31, 2017. The politica
      <period-start iso-date="2017-04-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
      <target value="125.00">
-      <dimension name="Life Skills sessions" value="125"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Life Skills sessions</narrative>
+      </comment>
      </target>
      <actual value="75.00">
-      <dimension name="Life Skills sessions" value="75"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Life Skills sessions</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
@@ -461,7 +565,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">PROTECTION - Objective 3 - Activity 3.3 : Support existing Community based child protection mechanisms (RECOPE, Youth Clubs, Parents clubs, FATs, CFS monitors) through the development of a capacity building plan, including training, weekly coaching sessions and equipment</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of CSO officials reached with capacity training</narrative>
     </title>
@@ -477,17 +581,21 @@ This project was implemented between April 1 and December 31, 2017. The politica
     <period>
      <period-start iso-date="2017-04-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="240.00">
-      <dimension name="men" value="120"></dimension>
-      <dimension name="women" value="120"></dimension>
+     <target value="120.00">
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="240.00">
-      <dimension name="men" value="120"></dimension>
-      <dimension name="women" value="120"></dimension>
+     <target value="120.00">
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="120.00">
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="120.00">
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of CSOs reached with capacity training</narrative>
     </title>
@@ -515,7 +623,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">PROTECTION - Objective 3 - Activity 3.4 : Train key influential cmmunity members on gender equlality, masculinity and GBV, with a particular focus on girl&apos;s and boy&apos;s vulnerabilities</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of CSO officials reached with gender training</narrative>
     </title>
@@ -531,17 +639,21 @@ This project was implemented between April 1 and December 31, 2017. The politica
     <period>
      <period-start iso-date="2017-04-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="150.00">
-      <dimension name="men" value="75"></dimension>
-      <dimension name="women" value="75"></dimension>
+     <target value="75.00">
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="77.00">
-      <dimension name="men" value="61"></dimension>
-      <dimension name="women" value="16"></dimension>
+     <target value="75.00">
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="16.00">
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="61.00">
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of CSOs reached with gender training</narrative>
     </title>
@@ -569,7 +681,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">PROTECTION - Objective 3 - Activity 3.5 : Awareness raising campaign on the African Day of the Child and other advocacy events to draw the attention to preventing violations of children&apos;s rights</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of communities reached with initiatives for community action</narrative>
     </title>
@@ -597,7 +709,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">PROTECTION - Objective 3 - Activity 3.6 : Organize parenting sessions for parents and caregivers to imprve their psychosocial well-being and strenghten their awareness of child protectin risks and children&apos;s well-being</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who have participated in rights trainings</narrative>
     </title>
@@ -617,7 +729,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
      <actual value="75.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who have participated in rights trainings</narrative>
     </title>
@@ -645,7 +757,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <description>
     <narrative xml:lang="EN">Training on CPiE provided by CPiE specialist : Child protection, psychosocial support, case management, CFS, GBV, child participation and awareness raising</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of CSO officials reached with capacity training</narrative>
     </title>
@@ -670,7 +782,7 @@ This project was implemented between April 1 and December 31, 2017. The politica
    <title>
     <narrative xml:lang="EN">Performance Plan Nederland as a development organisation</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
     </title>
@@ -678,11 +790,10 @@ This project was implemented between April 1 and December 31, 2017. The politica
     <period>
      <period-start iso-date="2017-04-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="0"></target>
      <actual value="3.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children and youth reached (m/f)</narrative>
     </title>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-SSD100101</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -241,7 +241,7 @@ A UN Security Council report, which was published in December 2014, stated that 
    <title>
     <narrative xml:lang="EN">Children, youth or adults use services</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of beneficiaries having access to rehabilitated or newly constructed water points</narrative>
     </title>
@@ -254,13 +254,17 @@ A UN Security Council report, which was published in December 2014, stated that 
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-02-28"></period-end>
-     <target value="7500.00">
-      <dimension name="Females"></dimension>
-      <dimension name="Male"></dimension>
+     <target value="0.00">
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="6000.00">
-      <dimension name="Females" value="3120"></dimension>
-      <dimension name="Male" value="2880"></dimension>
+     <target value="0.00">
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="3120.00">
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="2880.00">
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
     <period>
@@ -275,7 +279,7 @@ A UN Security Council report, which was published in December 2014, stated that 
    <title>
     <narrative xml:lang="EN">Capacity training for CSOs</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of capacity trainings delivered to CSOs</narrative>
     </title>
@@ -297,7 +301,7 @@ A UN Security Council report, which was published in December 2014, stated that 
    <title>
     <narrative xml:lang="EN">Direct service delivery to individuals</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of boreholes rehabilitated in disaster situations</narrative>
     </title>
@@ -314,7 +318,7 @@ A UN Security Council report, which was published in December 2014, stated that 
      <actual value="15.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who benefited from direct service deliveries</narrative>
     </title>
@@ -339,7 +343,7 @@ A UN Security Council report, which was published in December 2014, stated that 
    <title>
     <narrative xml:lang="EN">Dissemination of information</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of community members reached with information dissemination initiatives</narrative>
     </title>
@@ -359,7 +363,7 @@ A UN Security Council report, which was published in December 2014, stated that 
      <actual value="3278.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of community members reached with information dissemination initiatives</narrative>
     </title>
@@ -379,7 +383,7 @@ A UN Security Council report, which was published in December 2014, stated that 
      <actual value="37.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of community members reached with information dissemination initiatives</narrative>
     </title>
@@ -399,7 +403,7 @@ A UN Security Council report, which was published in December 2014, stated that 
      <actual value="45.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of community members reached with information dissemination initiatives</narrative>
     </title>
@@ -419,7 +423,7 @@ A UN Security Council report, which was published in December 2014, stated that 
      <actual value="70.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of information dissemination activities for communities (specify)</narrative>
     </title>
@@ -444,7 +448,7 @@ A UN Security Council report, which was published in December 2014, stated that 
    <title>
     <narrative xml:lang="EN">Vocational, business and life skills training for children, youth or adults</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number participants in WASH related skills trainings</narrative>
     </title>
@@ -466,7 +470,7 @@ A UN Security Council report, which was published in December 2014, stated that 
    <title>
     <narrative xml:lang="EN">Children, youth or adults know their rights and rights that are denied to them</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who can mention rights that are denied to them (specify rights)</narrative>
     </title>
@@ -474,11 +478,10 @@ A UN Security Council report, which was published in December 2014, stated that 
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-02-28"></period-end>
-     <target value="0"></target>
      <actual value="15.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who can mention rights that are denied to them (specify rights)</narrative>
     </title>
@@ -486,7 +489,6 @@ A UN Security Council report, which was published in December 2014, stated that 
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-02-28"></period-end>
-     <target value="0"></target>
      <actual value="15.00"></actual>
     </period>
    </indicator>
@@ -495,7 +497,7 @@ A UN Security Council report, which was published in December 2014, stated that 
    <title>
     <narrative xml:lang="EN">Children, youth or adults work together in organisations and networks, eg VSLA</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children and youth who are active members of networks or organizations</narrative>
     </title>
@@ -503,11 +505,10 @@ A UN Security Council report, which was published in December 2014, stated that 
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-02-28"></period-end>
-     <target value="0"></target>
      <actual value="1131.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children and youth who are active members of networks or organizations</narrative>
     </title>
@@ -515,7 +516,6 @@ A UN Security Council report, which was published in December 2014, stated that 
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2017-02-28"></period-end>
-     <target value="0"></target>
      <actual value="1824.00"></actual>
     </period>
    </indicator>

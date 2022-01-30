@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-DOM100141</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -302,6 +302,22 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-21"></transaction-date>
    <value currency="EUR" value-date="2020-12-21">4692</value>
+   <receiver-org ref="XI-BRIDGE-3405618043" type="22">
+    <narrative xml:lang="EN">Plan International Dominican Republic</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UB1552">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">-28721</value>
+   <receiver-org ref="XI-BRIDGE-3405618043" type="22">
+    <narrative xml:lang="EN">Plan International Dominican Republic</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="UB1553">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">-6859</value>
    <receiver-org ref="XI-BRIDGE-3405618043" type="22">
     <narrative xml:lang="EN">Plan International Dominican Republic</narrative>
    </receiver-org>
@@ -625,7 +641,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
    <description>
     <narrative xml:lang="EN">Links to the Plan indicator 0156 - Children, youth or adults are enabled to realize their rights</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of CSEC victims receiving specialised services (e.g. shelter, health services, educational services, legal aid)</narrative>
     </title>
@@ -638,17 +654,29 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
     <period>
      <period-start iso-date="2016-07-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="185.00">
-      <dimension name="# of boys" value="90"></dimension>
-      <dimension name="# of girls" value="95"></dimension>
+     <target value="90.00">
+      <comment>
+       <narrative xml:lang="EN"># of boys</narrative>
+      </comment>
      </target>
-     <actual value="253.00">
-      <dimension name="# of boys" value="101"></dimension>
-      <dimension name="# of girls" value="152"></dimension>
+     <target value="95.00">
+      <comment>
+       <narrative xml:lang="EN"># of girls</narrative>
+      </comment>
+     </target>
+     <actual value="101.00">
+      <comment>
+       <narrative xml:lang="EN"># of boys</narrative>
+      </comment>
+     </actual>
+     <actual value="152.00">
+      <comment>
+       <narrative xml:lang="EN"># of girls</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of boy CSEC victims receiving specialised services (e.g. shelter, health services, educational services, legal aid)</narrative>
     </title>
@@ -685,7 +713,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="67.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of boys participated in awareness activities</narrative>
     </title>
@@ -701,13 +729,8 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <target value="319.00"></target>
      <actual value="726.00"></actual>
     </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="0"></target>
-    </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of boys trained on CSEC and how to report cases</narrative>
     </title>
@@ -734,7 +757,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="913.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of boys trained to advocate for child rights and protect against CSEC</narrative>
     </title>
@@ -767,7 +790,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="19.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of boys trained to raise issues of CSEC among their peers</narrative>
     </title>
@@ -800,7 +823,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="69.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of children trained on CSEC and gender equality and on how to report cases</narrative>
     </title>
@@ -813,17 +836,25 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
     <period>
      <period-start iso-date="2016-07-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="980.00">
-      <dimension name="# of boys" value="490"></dimension>
-      <dimension name="# of girls" value="490"></dimension>
+     <target value="490.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="1835.00">
-      <dimension name="# of boys" value="749"></dimension>
-      <dimension name="# of girls" value="1086"></dimension>
+     <target value="490.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="1086.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="749.00">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of children trained to advocate for child rights and protect against CSEC</narrative>
     </title>
@@ -839,17 +870,29 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
     <period>
      <period-start iso-date="2016-07-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="240.00">
-      <dimension name="# of boys" value="120"></dimension>
-      <dimension name="# of girls" value="120"></dimension>
+     <target value="120.00">
+      <comment>
+       <narrative xml:lang="EN"># of boys</narrative>
+      </comment>
      </target>
-     <actual value="1217.00">
-      <dimension name="# of boys" value="487"></dimension>
-      <dimension name="# of girls" value="730"></dimension>
+     <target value="120.00">
+      <comment>
+       <narrative xml:lang="EN"># of girls</narrative>
+      </comment>
+     </target>
+     <actual value="487.00">
+      <comment>
+       <narrative xml:lang="EN"># of boys</narrative>
+      </comment>
+     </actual>
+     <actual value="730.00">
+      <comment>
+       <narrative xml:lang="EN"># of girls</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of children trained to raise issues of CSEC among their peers</narrative>
     </title>
@@ -862,17 +905,29 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
     <period>
      <period-start iso-date="2016-07-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="190.00">
-      <dimension name="# of boys" value="85"></dimension>
-      <dimension name="# of girls" value="85"></dimension>
+     <target value="85.00">
+      <comment>
+       <narrative xml:lang="EN"># of boys</narrative>
+      </comment>
      </target>
-     <actual value="449.00">
-      <dimension name="# of boys" value="170"></dimension>
-      <dimension name="# of girls" value="279"></dimension>
+     <target value="85.00">
+      <comment>
+       <narrative xml:lang="EN"># of girls</narrative>
+      </comment>
+     </target>
+     <actual value="170.00">
+      <comment>
+       <narrative xml:lang="EN"># of boys</narrative>
+      </comment>
+     </actual>
+     <actual value="279.00">
+      <comment>
+       <narrative xml:lang="EN"># of girls</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of girl CSEC victims receiving specialised services (e.g. shelter, health services, educational services, legal aid)</narrative>
     </title>
@@ -909,7 +964,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="77.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of girls participated in awareness activities</narrative>
     </title>
@@ -925,13 +980,8 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <target value="350.00"></target>
      <actual value="946.00"></actual>
     </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="0"></target>
-    </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of girls trained on CSEC and how to report cases</narrative>
     </title>
@@ -958,7 +1008,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="146.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of girls trained to advocate for child rights and protect against CSEC</narrative>
     </title>
@@ -991,7 +1041,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="404.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of girls trained to raise issues of CSEC among their peers</narrative>
     </title>
@@ -1028,7 +1078,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="89.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of children participated in awareness activities</narrative>
     </title>
@@ -1051,7 +1101,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
    <description>
     <narrative xml:lang="EN">Linkt aan Plan Result area 0213 Communities encourage children and youth to develop their potential and claim their rights (specify)</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of child protection committees supported</narrative>
     </title>
@@ -1083,13 +1133,8 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <target value="18.00"></target>
      <actual value="41.00"></actual>
     </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="0"></target>
-    </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of community leaders participated in awareness activities on CSEC prevention</narrative>
     </title>
@@ -1106,7 +1151,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="244.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of community leaders trained on CSEC prevention</narrative>
     </title>
@@ -1123,7 +1168,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="244.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of community members (with children at risk of CSEC) that participated in awareness raising activities</narrative>
     </title>
@@ -1140,7 +1185,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="449.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of effective referral systems established</narrative>
     </title>
@@ -1173,7 +1218,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="35.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of families of child victims receiving support services (e.g. counseling)</narrative>
     </title>
@@ -1210,7 +1255,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="86.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of fathers (with children at risk of CSEC) that participated in awareness raising activities</narrative>
     </title>
@@ -1243,7 +1288,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="463.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of mothers (with children at risk of CSEC) that participated in awareness raising activities</narrative>
     </title>
@@ -1284,7 +1329,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
    <description>
     <narrative xml:lang="EN">Linkt met Plan Result area 0611 Policies and legislations are being aligned with the with rights of children and youth and gender equality</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of female judiciary and police staff trained on CSEC and child-safe justice</narrative>
     </title>
@@ -1304,13 +1349,8 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
       </comment>
      </actual>
     </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="0"></target>
-    </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of judiciary and police staff trained on CSEC and child-safe justice</narrative>
     </title>
@@ -1333,7 +1373,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="67.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of lobby and advocacy documents presented to law enforcement agencies</narrative>
     </title>
@@ -1350,7 +1390,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="1.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of male judiciary and police staff trained on CSEC and child-safe justice</narrative>
     </title>
@@ -1370,13 +1410,8 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
       </comment>
      </actual>
     </period>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="0"></target>
-    </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of meetings held with police and judiciary on CSEC</narrative>
     </title>
@@ -1411,7 +1446,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
    <description>
     <narrative xml:lang="EN">Linkt met Plan resultaat 0411 The private sector responds to the needs &amp; rights for children and youth</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of companies sensitized on CSEC</narrative>
     </title>
@@ -1444,7 +1479,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="41.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of female private sector staff trained on CSEC and gender equality</narrative>
     </title>
@@ -1481,7 +1516,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="56.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of male private sector staff trained on CSEC and gender equality</narrative>
     </title>
@@ -1510,7 +1545,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
      <actual value="55.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># media campaigns held on CSEC towards the tourism sector</narrative>
     </title>
@@ -1530,7 +1565,7 @@ Lastly, the private sector will be encouraged to commit to zero-tolerance toward
    <description>
     <narrative xml:lang="EN">Linkt met Plan resultaat 0611 Policies and legislations are being aligned with the rights of children and youth and gender equality</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of government officials trained on CSEC</narrative>
     </title>
@@ -1575,7 +1610,7 @@ Facilitate Interinstitutional coordination for case management</narrative>
      <actual value="85.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of lobby and advocacy documents presented to government</narrative>
     </title>
@@ -1602,7 +1637,7 @@ Facilitate Interinstitutional coordination for case management</narrative>
      <actual value="1.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of meetings held with Government officials</narrative>
     </title>
@@ -1635,7 +1670,7 @@ Facilitate Interinstitutional coordination for case management</narrative>
      <actual value="9.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of training materials developed for government officials</narrative>
     </title>
@@ -1660,7 +1695,7 @@ Facilitate Interinstitutional coordination for case management</narrative>
    <title>
     <narrative xml:lang="EN">Capacity training for CSOs</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of capacity trainings delivered to CSOs</narrative>
     </title>
@@ -1686,7 +1721,7 @@ Facilitate Interinstitutional coordination for case management</narrative>
    <title>
     <narrative xml:lang="EN">Dialoquing with CSOs</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of dialogues with CSOs</narrative>
     </title>
@@ -1707,7 +1742,7 @@ Facilitate Interinstitutional coordination for case management</narrative>
    <title>
     <narrative xml:lang="EN">Performance Plan Nederland as a development organisation</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
     </title>
@@ -1725,7 +1760,7 @@ Facilitate Interinstitutional coordination for case management</narrative>
      <actual value="3.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of boys reached (under 18)</narrative>
     </title>
@@ -1733,17 +1768,15 @@ Facilitate Interinstitutional coordination for case management</narrative>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
-     <target value="0"></target>
      <actual value="666.00"></actual>
     </period>
     <period>
      <period-start iso-date="2017-07-01"></period-start>
      <period-end iso-date="2018-06-30"></period-end>
-     <target value="0"></target>
      <actual value="726.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of girls reached (under 18)</narrative>
     </title>
@@ -1751,17 +1784,15 @@ Facilitate Interinstitutional coordination for case management</narrative>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-06-30"></period-end>
-     <target value="0"></target>
      <actual value="1044.00"></actual>
     </period>
     <period>
      <period-start iso-date="2017-07-01"></period-start>
      <period-end iso-date="2018-06-30"></period-end>
-     <target value="0"></target>
      <actual value="946.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young women (age 18-24) reached</narrative>
     </title>
@@ -1769,21 +1800,18 @@ Facilitate Interinstitutional coordination for case management</narrative>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="0"></target>
      <actual value="19.00"></actual>
     </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="0"></target>
     </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="0"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young men (age 18-24) reached</narrative>
     </title>
@@ -1791,12 +1819,10 @@ Facilitate Interinstitutional coordination for case management</narrative>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="0"></target>
     </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="0"></target>
     </period>
    </indicator>
   </result>

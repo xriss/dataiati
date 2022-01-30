@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-LBN100026</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -47,7 +47,7 @@ The  phasing out strategy will be developed with the participation of adolescent
   <participating-org ref="NL-KVK-41198890" role="2" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
   </participating-org>
-  <activity-status code="3"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2020-01-01" type="1"></activity-date>
   <activity-date iso-date="2020-01-01" type="2"></activity-date>
   <activity-date iso-date="2021-03-30" type="4"></activity-date>
@@ -151,6 +151,14 @@ The  phasing out strategy will be developed with the participation of adolescent
     <narrative xml:lang="EN">Plan International Lebanon</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="UB1594">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-11-30"></transaction-date>
+   <value currency="EUR" value-date="2021-11-30">20380</value>
+   <receiver-org ref="LB-MOI-5585" type="22">
+    <narrative xml:lang="EN">Plan International Lebanon</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="2020-09-30T00:00:00.000">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
@@ -169,7 +177,7 @@ The  phasing out strategy will be developed with the participation of adolescent
    <description>
     <narrative xml:lang="EN">Humanitarian support: protection</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children &lt; 18 (boys and girls) benefit from psychosocial and life skills support within Child Friendly Spaces / Childrens clubs</narrative>
     </title>
@@ -185,17 +193,37 @@ The  phasing out strategy will be developed with the participation of adolescent
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-03-30"></period-end>
-     <target value="600.00">
-      <dimension name="Adolescent boys 11-17" value="90"></dimension>
-      <dimension name="Adolescent girls 11-17" value="210"></dimension>
-      <dimension name="Youth - Girls 18-24" value="210"></dimension>
-      <dimension name="Youth - boys 18-24" value="90"></dimension>
+     <target value="210.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="605.00">
-      <dimension name="Adolescent boys 11-17"></dimension>
-      <dimension name="Adolescent girls 11-17"></dimension>
-      <dimension name="Youth - Girls 18-24"></dimension>
-      <dimension name="Youth - boys 18-24"></dimension>
+     <target value="90.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <target value="210.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <target value="90.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
@@ -207,7 +235,7 @@ The  phasing out strategy will be developed with the participation of adolescent
    <description>
     <narrative xml:lang="EN">Humanitarian support: protection</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of survivors who receive an appropriate response to GBV</narrative>
     </title>
@@ -224,11 +252,11 @@ The  phasing out strategy will be developed with the participation of adolescent
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-03-30"></period-end>
      <target value="12.00">
-      <dimension name="Specialised Referrals for girls" value="12"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Specialised Referrals for girls</narrative>
+      </comment>
      </target>
-     <actual value="45.00">
-      <dimension name="Specialised Referrals for girls"></dimension>
-     </actual>
+     <actual value="45.00"></actual>
     </period>
    </indicator>
   </result>
@@ -239,7 +267,7 @@ The  phasing out strategy will be developed with the participation of adolescent
    <description>
     <narrative xml:lang="EN">Humanitarian support: shelter</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of people provided with non-food items</narrative>
     </title>
@@ -256,11 +284,11 @@ The  phasing out strategy will be developed with the participation of adolescent
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-03-30"></period-end>
      <target value="400.00">
-      <dimension name="Vulnerable Households" value="400"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Vulnerable Households</narrative>
+      </comment>
      </target>
-     <actual value="400.00">
-      <dimension name="Vulnerable Households"></dimension>
-     </actual>
+     <actual value="400.00"></actual>
     </period>
    </indicator>
   </result>
@@ -268,7 +296,7 @@ The  phasing out strategy will be developed with the participation of adolescent
    <title>
     <narrative xml:lang="EN">Performance Plan Nederland as a development organisation</narrative>
    </title>
-   <indicator ascending="1" measure="4">
+   <indicator measure="4">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
     </title>
@@ -292,7 +320,7 @@ The  phasing out strategy will be developed with the participation of adolescent
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of boys reached (under 18)</narrative>
     </title>
@@ -311,7 +339,7 @@ The  phasing out strategy will be developed with the participation of adolescent
      <target value="120.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of girls reached (under 18)</narrative>
     </title>
@@ -330,7 +358,7 @@ The  phasing out strategy will be developed with the participation of adolescent
      <target value="280.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young men (age 18-24) reached</narrative>
     </title>
@@ -349,7 +377,7 @@ The  phasing out strategy will be developed with the participation of adolescent
      <target value="120.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young women (age 18-24) reached</narrative>
     </title>
@@ -368,7 +396,7 @@ The  phasing out strategy will be developed with the participation of adolescent
      <target value="280.00"></target>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Potential reach from influencing-  number of persons</narrative>
     </title>
@@ -381,14 +409,27 @@ The  phasing out strategy will be developed with the participation of adolescent
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="2150.00">
-      <dimension name="Community leaders / members" value="150"></dimension>
-      <dimension name="Community members" value="1600"></dimension>
-      <dimension name="Parents and caregivers" value="400"></dimension>
+     <target value="150.00">
+      <comment>
+       <narrative xml:lang="EN">Community leaders / members</narrative>
+      </comment>
      </target>
+     <target value="1600.00">
+      <comment>
+       <narrative xml:lang="EN">Community members</narrative>
+      </comment>
+     </target>
+     <target value="400.00">
+      <comment>
+       <narrative xml:lang="EN">Parents and caregivers</narrative>
+      </comment>
+     </target>
+     <actual value="0.00"></actual>
+     <actual value="0.00"></actual>
+     <actual value="0.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Potential reach from influencing- number of girls (0-18 years)</narrative>
     </title>
@@ -404,7 +445,7 @@ The  phasing out strategy will be developed with the participation of adolescent
    <title>
     <narrative xml:lang="EN">Skills training for Children and Youth or other individuals</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who completed life skills trainings</narrative>
     </title>
@@ -420,21 +461,57 @@ The  phasing out strategy will be developed with the participation of adolescent
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-03-30"></period-end>
-     <target value="500.00">
-      <dimension name="Adolescent boys 11-17" value="75"></dimension>
-      <dimension name="Adolescent girls 11-17" value="175"></dimension>
-      <dimension name="Caregivers - female" value="140"></dimension>
-      <dimension name="Caregivers - male" value="40"></dimension>
-      <dimension name="Youth - boys 18-24" value="75"></dimension>
-      <dimension name="Youth - girls 18-24" value="175"></dimension>
+     <target value="140.00">
+      <comment>
+       <narrative xml:lang="EN">Caregivers - female</narrative>
+      </comment>
      </target>
-     <actual value="878.00">
-      <dimension name="Adolescent boys 11-17"></dimension>
-      <dimension name="Adolescent girls 11-17"></dimension>
-      <dimension name="Caregivers - female"></dimension>
-      <dimension name="Caregivers - male"></dimension>
-      <dimension name="Youth - boys 18-24"></dimension>
-      <dimension name="Youth - girls 18-24"></dimension>
+     <target value="40.00">
+      <comment>
+       <narrative xml:lang="EN">Caregivers - male</narrative>
+      </comment>
+     </target>
+     <target value="175.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <target value="75.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <target value="175.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <target value="75.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0.00">
+      <comment>
+       <narrative xml:lang="EN">Caregivers - female</narrative>
+      </comment>
+     </actual>
+     <actual value="0.00">
+      <comment>
+       <narrative xml:lang="EN">Caregivers - male</narrative>
+      </comment>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
@@ -443,7 +520,7 @@ The  phasing out strategy will be developed with the participation of adolescent
    <title>
     <narrative xml:lang="EN">Dissemination of SRHR information</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who participated in SRHR education sessions and awareness raising activities</narrative>
     </title>
@@ -459,21 +536,57 @@ The  phasing out strategy will be developed with the participation of adolescent
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="800.00">
-      <dimension name="Adolescent boys 11-17" value="120"></dimension>
-      <dimension name="Adolescent girls 11-17" value="280"></dimension>
-      <dimension name="Community leader - male" value="10"></dimension>
-      <dimension name="Community leaders - female" value="5"></dimension>
-      <dimension name="Youth - female 18-24" value="280"></dimension>
-      <dimension name="Youth - male 18-24" value="120"></dimension>
+     <target value="10.00">
+      <comment>
+       <narrative xml:lang="EN">Community leader - male</narrative>
+      </comment>
      </target>
-     <actual value="3107.00">
-      <dimension name="Adolescent boys 11-17"></dimension>
-      <dimension name="Adolescent girls 11-17"></dimension>
-      <dimension name="Community leader - male"></dimension>
-      <dimension name="Community leaders - female"></dimension>
-      <dimension name="Youth - female 18-24"></dimension>
-      <dimension name="Youth - male 18-24"></dimension>
+     <target value="5.00">
+      <comment>
+       <narrative xml:lang="EN">Community leaders - female</narrative>
+      </comment>
+     </target>
+     <target value="280.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <target value="120.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <target value="280.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <target value="120.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0.00">
+      <comment>
+       <narrative xml:lang="EN">Community leader - male</narrative>
+      </comment>
+     </actual>
+     <actual value="0.00">
+      <comment>
+       <narrative xml:lang="EN">Community leaders - female</narrative>
+      </comment>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="11-17 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="0.00">
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
@@ -482,7 +595,7 @@ The  phasing out strategy will be developed with the participation of adolescent
    <title>
     <narrative xml:lang="EN">Communities take charge of their own development processes</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of community initiatives that adress childrights issues</narrative>
     </title>
@@ -507,7 +620,7 @@ The  phasing out strategy will be developed with the participation of adolescent
    <title>
     <narrative xml:lang="EN">Menstrual Hygiene Management</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of community members with increased knowledge on menstrual hygiene management</narrative>
     </title>
@@ -520,10 +633,18 @@ The  phasing out strategy will be developed with the participation of adolescent
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="100.00">
-      <dimension name="Female community members" value="50"></dimension>
-      <dimension name="Male community members" value="50"></dimension>
+     <target value="50.00">
+      <comment>
+       <narrative xml:lang="EN">Female community members</narrative>
+      </comment>
      </target>
+     <target value="50.00">
+      <comment>
+       <narrative xml:lang="EN">Male community members</narrative>
+      </comment>
+     </target>
+     <actual value="0.00"></actual>
+     <actual value="0.00"></actual>
     </period>
    </indicator>
   </result>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-PHL100534</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -50,7 +50,7 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
   <participating-org ref="PH-SEC-FN200903004" role="4" type="22">
    <narrative xml:lang="EN">Plan International Philippines</narrative>
   </participating-org>
-  <activity-status code="3"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2018-11-01" type="1"></activity-date>
   <activity-date iso-date="2019-01-01" type="2"></activity-date>
   <activity-date iso-date="2021-03-31" type="3"></activity-date>
@@ -276,6 +276,7 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">600</value>
   </transaction>
+  <related-activity ref="NL-KVK-41198890-PHL100581" type="3"></related-activity>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
    <title>
@@ -284,23 +285,11 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
    <description>
     <narrative xml:lang="EN">Humanitarian support: accountability</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of crisis-affected people who are also involved in the design, implementation, montoring and/or evaluation of the programme</narrative>
     </title>
     <reference code="ACC-I1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="70.00">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-     <actual value="131.00">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
@@ -311,6 +300,18 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
      <actual value="315.00">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="125.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="216.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
     <period>
@@ -328,12 +329,12 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="125.00">
-      <dimension name="age" value="18+"></dimension>
+     <target value="70.00">
+      <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="216.00">
-      <dimension name="age" value="18+"></dimension>
+     <actual value="131.00">
+      <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
@@ -346,7 +347,7 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
    <description>
     <narrative xml:lang="EN">Humanitarian support: protection</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of participants showing an increased knowledge on the protection subject in focus</narrative>
     </title>
@@ -372,11 +373,11 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
    <description>
     <narrative xml:lang="EN">Humanitarian support: protection</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of persons reached by the implementation of specific prevention measures</narrative>
     </title>
-    <reference code="PRO-I1" indicator-uri="none" vocabulary="1"></reference>
+    <reference code="PRO-I1" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2021-02-28"></period-end>
@@ -434,23 +435,11 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
    <description>
     <narrative xml:lang="EN">Humanitarian support: protection</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of persons with increased/appropriate information on relevant rights and/or entitlements</narrative>
     </title>
     <reference code="PRO-I5" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="15.00">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-     <actual value="38.00">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
@@ -463,13 +452,25 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
       <dimension name="sex" value="female"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="15.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="38.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="9">
    <title>
     <narrative xml:lang="EN">Performance Plan Nederland as a development organisation</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of girls reached (under 18)</narrative>
     </title>
@@ -487,7 +488,7 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of boys reached (under 18)</narrative>
     </title>
@@ -505,7 +506,7 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
      </actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young men (age 18-24) reached</narrative>
     </title>
@@ -513,11 +514,10 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="0"></target>
      <actual value="165.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of young women (age 18-24) reached</narrative>
     </title>
@@ -529,7 +529,7 @@ Outcome 2: New and technological data on climate forecasting is integrated in lo
      <actual value="180.00"></actual>
     </period>
    </indicator>
-   <indicator ascending="1" measure="4">
+   <indicator measure="4">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
     </title>

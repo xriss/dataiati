@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iati-activities version="2.02">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.02" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<iati-activities version="2.03">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-SSD100115</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -162,7 +162,7 @@ In 2016 the humanitarian crisis in South Sudan has deepened and spread since Dec
    <description>
     <narrative xml:lang="EN">Activity 4. Training of local government authorities on conservation agriculture, protection and gen</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of service provider employees reached with capacity training</narrative>
     </title>
@@ -178,13 +178,21 @@ In 2016 the humanitarian crisis in South Sudan has deepened and spread since Dec
     <period>
      <period-start iso-date="2017-03-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="35.00">
-      <dimension name="Females 18+" value="15"></dimension>
-      <dimension name="Males 18+" value="20"></dimension>
+     <target value="15.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="5.00">
-      <dimension name="Females 18+" value="4"></dimension>
-      <dimension name="Males 18+" value="1"></dimension>
+     <target value="20.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="4.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="1.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
@@ -196,7 +204,7 @@ In 2016 the humanitarian crisis in South Sudan has deepened and spread since Dec
    <description>
     <narrative xml:lang="EN">FSL1.4 # of beneficiaries trained in agricultural, aquacultural and/or animal health practices</narrative>
    </description>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who participated in skills trainings</narrative>
     </title>
@@ -212,16 +220,21 @@ In 2016 the humanitarian crisis in South Sudan has deepened and spread since Dec
     <period>
      <period-start iso-date="2017-03-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="7384.00">
-      <dimension name="Females 18+" value="3840"></dimension>
-      <dimension name="Males 18+" value="3544"></dimension>
+     <target value="3840.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="180.00">
-      <dimension name="Females 18+" value="72"></dimension>
-      <dimension name="Males 18+" value="108"></dimension>
-      <comment>
-       <narrative xml:lang="EN">180 individuals were selected and trained, they will cascade to the other members of the communal farming groups. In the end the capacity building will reach at least 3600 farmers.</narrative>
-      </comment>
+     <target value="3544.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="72.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+     <actual value="108.00">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
      </actual>
     </period>
    </indicator>
@@ -230,7 +243,7 @@ In 2016 the humanitarian crisis in South Sudan has deepened and spread since Dec
    <title>
     <narrative xml:lang="EN">Capacity support for CSOs</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of baselines/evaluations supported</narrative>
     </title>
@@ -256,7 +269,7 @@ In 2016 the humanitarian crisis in South Sudan has deepened and spread since Dec
    <title>
     <narrative xml:lang="EN">Direct service delivery to individuals</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number of children, youth or adults who benefited from direct service deliveries</narrative>
     </title>
@@ -270,16 +283,22 @@ In 2016 the humanitarian crisis in South Sudan has deepened and spread since Dec
      <period-start iso-date="2017-03-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
      <target value="10543.00">
-      <dimension name="Adults 18+" value="7381"></dimension>
-      <dimension name="Children (U18)" value="3162"></dimension>
-      <dimension name="Female" value="5482"></dimension>
-      <dimension name="Male" value="5061"></dimension>
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN"># of beneficiaries receiving start-up agricultural and/or aquacultural inputs (seeds, tools, fishing). Male: 5061, Female: 5482, Children (U18): 3162, Adults 18+: 7381</narrative>
+      </comment>
      </target>
      <actual value="29502.00">
-      <dimension name="Adults 18+" value="14456"></dimension>
-      <dimension name="Children (U18)" value="15046"></dimension>
-      <dimension name="Female" value="15342"></dimension>
-      <dimension name="Male" value="14160"></dimension>
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+      <dimension name="sex" value="male"></dimension>
+      <comment>
+       <narrative xml:lang="EN"># of beneficiaries receiving start-up agricultural and/or aquacultural inputs (seeds, tools, fishing). Male: 14160, Female: 15342, Children (U18): 15046, Adults 18+: 14456</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
@@ -288,7 +307,7 @@ In 2016 the humanitarian crisis in South Sudan has deepened and spread since Dec
    <title>
     <narrative xml:lang="EN">Performance Plan Nederland as a development organisation</narrative>
    </title>
-   <indicator ascending="1" measure="1">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
     </title>
@@ -296,7 +315,6 @@ In 2016 the humanitarian crisis in South Sudan has deepened and spread since Dec
     <period>
      <period-start iso-date="2017-03-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="0"></target>
      <actual value="3.00"></actual>
     </period>
    </indicator>
