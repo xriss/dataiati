@@ -51,7 +51,9 @@
    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2018-01-01" type="1"></activity-date>
   <activity-date iso-date="2018-01-01" type="2"></activity-date>
+  <activity-date iso-date="2018-12-31" type="3"></activity-date>
   <activity-date iso-date="2018-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
@@ -102,6 +104,9 @@
   <sector code="111" percentage="14.27" vocabulary="98">
    <narrative xml:lang="EN">Law and Policy</narrative>
   </sector>
+  <sector code="72010" percentage="91.25" vocabulary="1">
+   <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
   <sector code="811" percentage="0.21" vocabulary="98">
    <narrative xml:lang="EN">Operations management, Coordination and Support</narrative>
   </sector>
@@ -120,8 +125,8 @@
   <sector code="1" percentage="97.96" vocabulary="99">
    <narrative xml:lang="EN">Refugee programme</narrative>
   </sector>
-  <sector code="72050" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
+  <sector code="72050" percentage="8.75" vocabulary="1">
+   <narrative xml:lang="EN">Relief co-ordination and support services</narrative>
   </sector>
   <sector code="610" percentage="11.77" vocabulary="98">
    <narrative xml:lang="EN">Solutions Strategy</narrative>
@@ -147,6 +152,50 @@
    <value currency="USD" value-date="2019-06-15">21926143.6</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
+  <transaction ref="BK003">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2018-06-30"></transaction-date>
+   <value currency="USD" value-date="2018-06-30">8177</value>
+   <provider-org type="10">
+    <narrative xml:lang="EN">Government of Austria</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>8177</unhcr:value-USD>
+  </transaction>
+  <transaction ref="BK003">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2018-11-01"></transaction-date>
+   <value currency="USD" value-date="2018-11-01">8177</value>
+   <provider-org type="10">
+    <narrative xml:lang="EN">Government of Austria</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>8177</unhcr:value-USD>
+  </transaction>
+  <transaction ref="A0041">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2017-01-11"></transaction-date>
+   <value currency="EUR" value-date="2017-01-11">21310.98</value>
+   <provider-org ref="XM-DAC-47066" type="40">
+    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>22291.82</unhcr:value-USD>
+  </transaction>
+  <transaction ref="A0041">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2018-11-16"></transaction-date>
+   <value currency="EUR" value-date="2018-11-16">2337.41</value>
+   <provider-org ref="XM-DAC-47066" type="40">
+    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>2656.147</unhcr:value-USD>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-12-31"></transaction-date>
@@ -196,42 +245,6 @@
     <narrative xml:lang="EN">Total expenditure under Pillar 2: Stateless programme</narrative>
    </description>
   </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2018-06-30"></transaction-date>
-   <value currency="USD" value-date="2018-06-30">8177</value>
-   <provider-org type="10">
-    <narrative xml:lang="EN">Government of Austria</narrative>
-   </provider-org>
-   <unhcr:value-USD>8177</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2018-11-01"></transaction-date>
-   <value currency="USD" value-date="2018-11-01">8177</value>
-   <provider-org type="10">
-    <narrative xml:lang="EN">Government of Austria</narrative>
-   </provider-org>
-   <unhcr:value-USD>8177</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2017-01-11"></transaction-date>
-   <value currency="EUR" value-date="2017-01-11">21310.98</value>
-   <provider-org ref="XM-DAC-47066" type="40">
-    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
-   </provider-org>
-   <unhcr:value-USD>22291.82</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2018-11-16"></transaction-date>
-   <value currency="EUR" value-date="2018-11-16">2337.41</value>
-   <provider-org ref="XM-DAC-47066" type="40">
-    <narrative xml:lang="EN">International Organization for Migration (IOM)</narrative>
-   </provider-org>
-   <unhcr:value-USD>2656.147</unhcr:value-USD>
-  </transaction>
   <document-link format="TEXT/HTML" url="https://help.unhcr.org/">
    <title>
     <narrative xml:lang="EN">Information for Refugees, Asylum-seekers and Stateless People</narrative>
@@ -255,19 +268,28 @@
    <title>
     <narrative xml:lang="EN">Solutions strategy</narrative>
    </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: All populations of concern in Europe | Goal: Advocacy for protection and solutions</narrative>
-   </description>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Extent Comprehensive Solutions strategy identified and agreed</narrative>
     </title>
-    <baseline value="75" year="2018"></baseline>
+    <baseline value="75" year="2018">
+     <location ref="Regional Activities for Europe"></location>
+     <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+     <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="75"></target>
-     <actual value="75"></actual>
+     <target value="75">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+      <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+     </target>
+     <actual value="75">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+      <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -275,19 +297,28 @@
    <title>
     <narrative xml:lang="EN">Status determination</narrative>
    </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: All populations of concern in Europe | Goal: Advocacy for protection and solutions</narrative>
-   </description>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Extent status determination procedure meets minimum procedural standards advocated by UNHCR</narrative>
     </title>
-    <baseline value="80" year="2018"></baseline>
+    <baseline value="80" year="2018">
+     <location ref="Regional Activities for Europe"></location>
+     <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+     <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="80"></target>
-     <actual value="80"></actual>
+     <target value="80">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+      <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+     </target>
+     <actual value="80">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+      <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -295,19 +326,28 @@
    <title>
     <narrative xml:lang="EN">Community mobilization</narrative>
    </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: All populations of concern in Europe | Goal: Protection and mixed solutions</narrative>
-   </description>
    <indicator measure="2">
     <title>
      <narrative xml:lang="EN">% of programme priorities identified by the community that are implemented</narrative>
     </title>
-    <baseline value="100" year="2018"></baseline>
+    <baseline value="100" year="2018">
+     <location ref="Regional Activities for Europe"></location>
+     <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+     <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="100"></actual>
+     <target value="100">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+     </target>
+     <actual value="100">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -315,39 +355,28 @@
    <title>
     <narrative xml:lang="EN">Child protection</narrative>
    </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: All populations of concern in Europe | Goal: Protection and mixed solutions</narrative>
-   </description>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Extent children of concern have non-discriminatory access to national child protection and social services</narrative>
     </title>
-    <baseline value="60" year="2018"></baseline>
+    <baseline value="60" year="2018">
+     <location ref="Regional Activities for Europe"></location>
+     <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+     <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="60"></target>
-     <actual value="60"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Child protection</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: All populations of concern in Europe | Goal: Protection and mixed solutions</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of UNHCR staff trained in child protection and/or communication with children and child-friendly procedures</narrative>
-    </title>
-    <baseline year="2018"></baseline>
-    <period>
-     <period-start iso-date="2018-01-01"></period-start>
-     <period-end iso-date="2018-12-31"></period-end>
-     <target value="25"></target>
-     <actual value="47"></actual>
+     <target value="60">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+     </target>
+     <actual value="60">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -355,19 +384,53 @@
    <title>
     <narrative xml:lang="EN">Law and policy</narrative>
    </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Stateless Persons in Europe | Goal: Advocacy for protection and solutions</narrative>
-   </description>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN"># of advocacy interventions made</narrative>
     </title>
-    <baseline year="2018"></baseline>
+    <description>
+     <narrative xml:lang="EN">Related output: Advocacy conducted</narrative>
+    </description>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="10"></target>
-     <actual value="23"></actual>
+     <target value="10">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+      <dimension name="Population targeted" value="Stateless Persons in Europe"></dimension>
+     </target>
+     <actual value="23">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+      <dimension name="Population targeted" value="Stateless Persons in Europe"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Child protection</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of UNHCR staff trained in child protection and/or communication with children and child-friendly procedures</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Related output: Capacity development supported</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <target value="25">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+     </target>
+     <actual value="47">
+      <location ref="Regional Activities for Europe"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="All populations of concern in Europe"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>

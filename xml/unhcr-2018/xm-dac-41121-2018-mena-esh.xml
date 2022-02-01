@@ -48,7 +48,9 @@
    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2018-01-01" type="1"></activity-date>
   <activity-date iso-date="2018-01-01" type="2"></activity-date>
+  <activity-date iso-date="2018-12-31" type="3"></activity-date>
   <activity-date iso-date="2018-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
@@ -91,6 +93,9 @@
   <sector code="8" percentage="16.6" vocabulary="10">
    <narrative xml:lang="EN">Logistics</narrative>
   </sector>
+  <sector code="72010" percentage="55.74" vocabulary="1">
+   <narrative xml:lang="EN">Material relief assistance and services</narrative>
+  </sector>
   <sector code="811" percentage="15.34" vocabulary="98">
    <narrative xml:lang="EN">Operations management, Coordination and Support</narrative>
   </sector>
@@ -103,8 +108,8 @@
   <sector code="1" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Refugee programme</narrative>
   </sector>
-  <sector code="72050" percentage="100" vocabulary="1">
-   <narrative xml:lang="EN">Relief co-ordination; protection and support services</narrative>
+  <sector code="72050" percentage="44.26" vocabulary="1">
+   <narrative xml:lang="EN">Relief co-ordination and support services</narrative>
   </sector>
   <sector code="810" percentage="11.1" vocabulary="98">
    <narrative xml:lang="EN">Supply Chain/ Logistics</narrative>
@@ -124,6 +129,28 @@
    <value currency="USD" value-date="2019-06-15">8478237.38</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
+  <transaction ref="BK023">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2018-07-10"></transaction-date>
+   <value currency="USD" value-date="2018-07-10">12799.04</value>
+   <provider-org type="10">
+    <narrative xml:lang="EN">Government of Morocco</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>12799.04</unhcr:value-USD>
+  </transaction>
+  <transaction ref="BK023">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2018-11-23"></transaction-date>
+   <value currency="USD" value-date="2018-11-23">12799.04</value>
+   <provider-org type="10">
+    <narrative xml:lang="EN">Government of Morocco</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>12799.04</unhcr:value-USD>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-12-31"></transaction-date>
@@ -142,24 +169,6 @@
    <description>
     <narrative xml:lang="EN">Total expenditure under Pillar 1: Refugee programme</narrative>
    </description>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2018-07-10"></transaction-date>
-   <value currency="USD" value-date="2018-07-10">12799.04</value>
-   <provider-org type="10">
-    <narrative xml:lang="EN">Government of Morocco</narrative>
-   </provider-org>
-   <unhcr:value-USD>12799.04</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2018-11-23"></transaction-date>
-   <value currency="USD" value-date="2018-11-23">12799.04</value>
-   <provider-org type="10">
-    <narrative xml:lang="EN">Government of Morocco</narrative>
-   </provider-org>
-   <unhcr:value-USD>12799.04</unhcr:value-USD>
   </transaction>
   <document-link format="TEXT/HTML" url="https://help.unhcr.org/">
    <title>
@@ -192,19 +201,28 @@
    <title>
     <narrative xml:lang="EN">Community mobilization</narrative>
    </title>
-   <description>
-    <narrative xml:lang="EN">Population targeted: Sahrawis of concern in Tindouf  - CBM | Goal: Protection pending solutions</narrative>
-   </description>
    <indicator measure="2">
     <title>
      <narrative xml:lang="EN">% of programme priorities identified by the community that are implemented</narrative>
     </title>
-    <baseline value="0" year="2018"></baseline>
+    <baseline value="0" year="2018">
+     <location ref="Western Sahara"></location>
+     <dimension name="Goal" value="Protection pending solutions"></dimension>
+     <dimension name="Population targeted" value="Sahrawis of concern in Tindouf  - CBM"></dimension>
+    </baseline>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="100"></actual>
+     <target value="100">
+      <location ref="Western Sahara"></location>
+      <dimension name="Goal" value="Protection pending solutions"></dimension>
+      <dimension name="Population targeted" value="Sahrawis of concern in Tindouf  - CBM"></dimension>
+     </target>
+     <actual value="100">
+      <location ref="Western Sahara"></location>
+      <dimension name="Goal" value="Protection pending solutions"></dimension>
+      <dimension name="Population targeted" value="Sahrawis of concern in Tindouf  - CBM"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
