@@ -2,7 +2,7 @@
 <iati-activities version="2.01">
  <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-UG-E00-012</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
+  <reporting-org ref="XM-DAC-46002" type="10">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
@@ -35,10 +35,11 @@
     <narrative xml:lang="EN">African Development Bank</narrative>
    </owner-org>
   </other-identifier>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2016-02-03" type="1"></activity-date>
   <activity-date iso-date="2016-03-03" type="2"></activity-date>
   <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="4"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">African Development Bank</narrative>
@@ -530,6 +531,21 @@
   </transaction>
   <transaction afdb:finance-type-id="2100150034694">
    <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2021-11-30"></transaction-date>
+   <value currency="XDR" value-date="2021-11-30">249792.61</value>
+   <description>
+    <narrative xml:lang="EN">Total Interest Repayment in November of 2021</narrative>
+   </description>
+   <receiver-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="A02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150034694">
+   <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-06-30"></transaction-date>
    <value currency="XDR" value-date="2017-06-30">180406.18</value>
    <description>
@@ -565,7 +581,7 @@
    <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org ref="XM-DAC-null">
+   <receiver-org>
     <narrative xml:lang="EN">GOVERNMENT OF UGANDA</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -630,6 +646,24 @@
    <category code="A07"></category>
    <category code="A08"></category>
    <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fuganda_-_water_supply_and_sanitation_programme_phase_ii_wssp_ii_-_project_completion_report.pdf#page=1&amp;zoom=auto,-13,798">
+   <title>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fouganda_-_programme_dalimentation_en_eau_et_dassainissement_-_phase_ii_paea_ii_-_rapport_dachevement_de_projet_0.pdf#page=1&amp;zoom=auto,-13,792">
+   <title>
+    <narrative xml:lang="EN">Project Completion Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/EOI_%E2%80%93_Uganda_-_Engineering_supervision_of_construction_works_for_Bududa-Nabweya_Phase-II__Lirima_Phase-II_and_Bukwo_Phase-II_Gravity_Flow_Schemes.pdf">
    <title>
@@ -785,7 +819,7 @@
    <category code="A12"></category>
    <language code="FR"></language>
   </document-link>
-  <conditions attached="0">
+  <conditions attached="1">
    <condition type="2">
     <narrative xml:lang="EN">Performance</narrative>
    </condition>
@@ -802,8 +836,8 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <actual value="1.0"></actual>
     </period>
     <period>
@@ -822,14 +856,54 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="5.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="8.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
      <target value="10.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">New connections installed (WSS)</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="9166.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="10000.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">New Connections Installed (GFS)</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="14938.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="11788"></target>
     </period>
    </indicator>
   </result>
@@ -842,9 +916,9 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="6.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="12.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -862,9 +936,9 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="16.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="28.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -882,9 +956,9 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="132.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="64.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -902,9 +976,9 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="10.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="15.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -922,9 +996,9 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="1.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="2.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -942,8 +1016,8 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <actual value="25.0"></actual>
     </period>
     <period>
@@ -962,9 +1036,9 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="250.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="448.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -982,34 +1056,14 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <actual value="242.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
      <target value="205.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">New connections installed</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="9266.0"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="21788.0"></target>
     </period>
    </indicator>
   </result>
@@ -1022,9 +1076,9 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="16.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="22.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1042,8 +1096,8 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <actual value="495.0"></actual>
     </period>
     <period>
@@ -1062,9 +1116,9 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="327.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="339.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1082,9 +1136,9 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="7.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="14.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1095,15 +1149,15 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">JSRs and  JTRs (Joint Sector Reviews) conducted</narrative>
+    <narrative xml:lang="EN">Annual Sector Performance Reports compiled</narrative>
    </title>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <actual value="4.0"></actual>
     </period>
     <period>
@@ -1115,16 +1169,36 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Communities trained on  hygiene promotion</narrative>
+    <narrative xml:lang="EN">Capacity development program for private sector, Local Government and Ministry staff in drilling and solar energy implemented - Capacity development trainings conducted</narrative>
    </title>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="32.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="4.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="4.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Communities trained on hygiene promotion</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="40.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1142,8 +1216,8 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <actual value="495.0"></actual>
     </period>
     <period>
@@ -1155,16 +1229,16 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Rural population  with access to (and using) hand washing facilities (households)</narrative>
+    <narrative xml:lang="EN">Rural population with access to (and using) hand washing facilities (households)</narrative>
    </title>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">%</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="36.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="44,7"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1182,9 +1256,9 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="37.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="47.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1195,16 +1269,16 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Urban population  with access to (and using) hand washing facilities (households)</narrative>
+    <narrative xml:lang="EN">Urban population with access to (and using) hand washing facilities (households)</narrative>
    </title>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">%</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="40.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="54,7"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1222,9 +1296,9 @@
      <narrative xml:lang="EN">%</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="42.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="58.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1242,8 +1316,8 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <actual value="4.0"></actual>
     </period>
     <period>
@@ -1262,134 +1336,14 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="30.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="70.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
      <target value="70.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Water User committees established &amp; trained with at least one women on the executive body (CSI)</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="30.0"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="75.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Rural population  with access to improved sanitation</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="16.6"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="77.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Rural population with access to safe drinking water</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="69.0"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="77.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Annual Sector Performance Reports compiled</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="7.0"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="8.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Urban population  with access to improved sanitation</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="37.4"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="88.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Water sources catchments protected</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="63.0"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="90.0"></target>
     </period>
    </indicator>
   </result>
@@ -1402,9 +1356,109 @@
      <narrative xml:lang="EN">%</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="79.0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="71,6"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="72.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Water User committees established &amp; trained with at least one women on the executive body (CSI)</narrative>
+   </title>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="75.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="75.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Rural population with access to safe drinking water</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="68.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="77.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Rural population with access to improved sanitation</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="76,4"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="77.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">JSRs and JTRs (Joint Sector Reviews) conducted</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="8.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="8.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Water sources catchments protected</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="62.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1422,9 +1476,29 @@
      <narrative xml:lang="EN">%</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <actual value="85.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="90.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Urban population with access to improved sanitation</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="89,7"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1442,69 +1516,9 @@
      <narrative xml:lang="EN">%</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <actual value="100.0"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="95.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Urban water boards with women in executive positions</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="75.0"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="95.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Rural water boards with women in executive positions</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="85.0"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="95.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Rural water points with actively functioning water and sanitation committees</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="89.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1522,9 +1536,29 @@
      <narrative xml:lang="EN">%</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="94.3"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="90,2"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="95.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Rural water points with actively functioning water and sanitation committees</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="90.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
@@ -1542,34 +1576,14 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="98.1"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="102.0"></actual>
     </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
      <target value="99.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Capacity development program for private sector, Local Government and Ministry staff in drilling and solar energy implemented</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">None</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="4 Manuals prepared and used in training staff of the drillers association"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="Yes"></target>
     </period>
    </indicator>
   </result>

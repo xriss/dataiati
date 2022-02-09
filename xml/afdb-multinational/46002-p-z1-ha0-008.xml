@@ -2,7 +2,7 @@
 <iati-activities version="2.01">
  <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-Z1-HA0-008</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
+  <reporting-org ref="XM-DAC-46002" type="10">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
@@ -31,6 +31,12 @@
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Banque Centrale des Etats de l&#x2019;Afrique de l&#x2019;Ouest (BCEAO)</narrative>
+  </participating-org>
+  <participating-org role="3" type="10">
+   <narrative xml:lang="EN">Government of Multinational</narrative>
+  </participating-org>
+  <participating-org role="3" type="10">
+   <narrative xml:lang="EN">Government</narrative>
   </participating-org>
   <other-identifier ref="46002" type="B1">
    <owner-org ref="XM-DAC-46002">
@@ -391,12 +397,22 @@
    <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org ref="XM-DAC-null">
+   <receiver-org>
     <narrative xml:lang="EN">BANQUE CENTRALE DES ETATS DE L&apos;AFRIQUE DE L&apos;OUEST - BCEAO CPT SPECIAL FAD-MRSMP</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
    <finance-type code="110"></finance-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="1" ref="1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-12-20"></transaction-date>
+   <value currency="XDR" value-date="2016-12-20">1400000</value>
+   <provider-org>
+    <narrative xml:lang="EN">Government</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Multinational_-_Approved-Project_to_Support_the_Promotion_of_Access_by_Microfinance_Institutions_-or_Decentralized_Financial_Systems-_to_the_Regional_Payment_System_of_the___003_.pdf">
@@ -519,7 +535,7 @@
    <category code="A12"></category>
    <language code="FR"></language>
   </document-link>
-  <conditions attached="0">
+  <conditions attached="1">
    <condition type="2">
     <narrative xml:lang="EN">Performance</narrative>
    </condition>

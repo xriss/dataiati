@@ -2,7 +2,7 @@
 <iati-activities version="2.01">
  <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-NG-D00-011</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
+  <reporting-org ref="XM-DAC-46002" type="10">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
@@ -35,7 +35,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2019-02-07" type="1"></activity-date>
   <activity-date iso-date="2019-05-15" type="2"></activity-date>
-  <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2022-12-30" type="3"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">African Development Bank</narrative>
@@ -156,6 +156,21 @@
   <capital-spend percentage="0"></capital-spend>
   <transaction afdb:finance-type-id="5500155013301">
    <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-10-31"></transaction-date>
+   <value currency="XDR" value-date="2019-10-31">2310.51</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in December of 2021</narrative>
+   </description>
+   <provider-org ref="XM-DAC-MIC Fund">
+    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5500155013301">
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-07-31"></transaction-date>
    <value currency="XDR" value-date="2020-07-31">2918.12</value>
    <description>
@@ -175,21 +190,6 @@
    <value currency="XDR" value-date="2021-06-30">131176.56</value>
    <description>
     <narrative xml:lang="EN">Total Disbursement in June of 2021</narrative>
-   </description>
-   <provider-org ref="XM-DAC-MIC Fund">
-    <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="5500155013301">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-10-31"></transaction-date>
-   <value currency="XDR" value-date="2019-10-31">2310.51</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in October of 2019</narrative>
    </description>
    <provider-org ref="XM-DAC-MIC Fund">
     <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
@@ -221,7 +221,7 @@
    <provider-org ref="XM-DAC-MIC Fund">
     <narrative xml:lang="EN">Middle Income Countries Fund</narrative>
    </provider-org>
-   <receiver-org ref="XM-DAC-null">
+   <receiver-org>
     <narrative xml:lang="EN">GOVERNMENT OF NIGERIA</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -277,6 +277,15 @@
    <category code="A11"></category>
    <language code="EN"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fnigeria_-_mictaf-_abia_state_integrated_infrastructure_development_project_absiidp_preparation_studies_-_p-ng-d00-011_-_ipr_july_2020.pdf#page=1&amp;zoom=auto,-13,842">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/EOI_%E2%80%93_Nigeria_-_Engagement_of_a_procurement_consultant_for_Abia_state_integrated_infrastructure_development_project_-_ABSIIDP.pdf">
    <title>
     <narrative xml:lang="EN">Expression of Interest</narrative>
@@ -305,13 +314,6 @@
    <category code="A10"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="TEXT/HTML" url="https://www.afdb.org/en/projects-and-operations/p-ng-d00-011">
-   <title>
-    <narrative xml:lang="EN">Activity</narrative>
-   </title>
-   <category code="A12"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="TEXT/HTML" url="https://projectsportal.afdb.org/dataportal/VProject/show/P-NG-D00-011">
    <title>
     <narrative xml:lang="EN">Activity</narrative>
@@ -319,7 +321,7 @@
    <category code="A12"></category>
    <language code="FR"></language>
   </document-link>
-  <conditions attached="0">
+  <conditions attached="1">
    <condition type="2">
     <narrative xml:lang="EN">Performance</narrative>
    </condition>
@@ -327,5 +329,85 @@
     <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Audit Report</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="1.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Concept Note prepared</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="1.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Design Reports</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="1.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Level of preparedness to implement project</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="444.0"></target>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>

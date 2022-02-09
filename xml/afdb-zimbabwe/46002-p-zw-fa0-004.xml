@@ -2,7 +2,7 @@
 <iati-activities version="2.01">
  <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-ZW-FA0-004</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
+  <reporting-org ref="XM-DAC-46002" type="10">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
@@ -262,6 +262,21 @@
    <aid-type code="D02" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction afdb:finance-type-id="2100155033969">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-10-31"></transaction-date>
+   <value currency="XDR" value-date="2019-10-31">7902.39</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in December of 2021</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction afdb:finance-type-id="5900155011351">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-02-28"></transaction-date>
@@ -346,21 +361,6 @@
    </description>
    <provider-org ref="XM-DAC-FSF">
     <narrative xml:lang="EN">Fragile States Facility</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="D02" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
-  <transaction afdb:finance-type-id="2100155033969">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-10-31"></transaction-date>
-   <value currency="XDR" value-date="2019-10-31">7902.39</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in October of 2019</narrative>
-   </description>
-   <provider-org ref="XM-DAC-46003">
-    <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
    <flow-type code="10"></flow-type>
    <finance-type code="110"></finance-type>
@@ -479,7 +479,7 @@
    <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
-   <receiver-org ref="XM-DAC-null">
+   <receiver-org>
     <narrative xml:lang="EN">GOVERNMENT OF ZIMBABWE MINISTRY OF FINANCE &amp; ECON DEVELOPMENT</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -494,7 +494,7 @@
    <provider-org ref="XM-DAC-FSF">
     <narrative xml:lang="EN">Fragile States Facility</narrative>
    </provider-org>
-   <receiver-org ref="XM-DAC-null">
+   <receiver-org>
     <narrative xml:lang="EN">GOVERNMENT OF ZIMBABWE MINISTRY OF FINANCE &amp; ECON DEVELOPMENT</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -651,7 +651,25 @@
    <category code="A11"></category>
    <language code="EN"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fzimbabwe_-_alaska_karoi_transmission_reinforcement_project_-_p-zw-fa0-004_-_ipr_december_2018.pdf#page=1&amp;zoom=auto,-13,842">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fzimbabwe_-_alaska_karoi_transmission_reinforcement_project_-_p-zw-fa0-004_-_ipr_december_2019.pdf#page=1&amp;zoom=auto,-13,842">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fzimbabwe_-_alaska_karoi_transmission_reinforcement_project_-_p-zw-fa0-004_-_ipr_june_2019.pdf#page=1&amp;zoom=auto,-13,842">
    <title>
     <narrative xml:lang="EN">Evaluation Report</narrative>
    </title>
@@ -702,7 +720,7 @@
    <category code="A12"></category>
    <language code="FR"></language>
   </document-link>
-  <conditions attached="0">
+  <conditions attached="1">
    <condition type="2">
     <narrative xml:lang="EN">Performance</narrative>
    </condition>
