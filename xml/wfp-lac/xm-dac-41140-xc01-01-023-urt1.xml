@@ -143,7 +143,35 @@
    <period-end iso-date="2023-12-31"></period-end>
    <value currency="USD" value-date="2023-10-01">0</value>
   </budget>
-  <capital-spend percentage="0.82"></capital-spend>
+  <budget type="2">
+   <period-start iso-date="2024-01-01"></period-start>
+   <period-end iso-date="2024-03-31"></period-end>
+   <value currency="USD" value-date="2024-01-01">0</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2024-04-01"></period-start>
+   <period-end iso-date="2024-06-30"></period-end>
+   <value currency="USD" value-date="2024-04-01">0</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2024-07-01"></period-start>
+   <period-end iso-date="2024-09-30"></period-end>
+   <value currency="USD" value-date="2024-07-01">0</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2024-10-01"></period-start>
+   <period-end iso-date="2024-12-31"></period-end>
+   <value currency="USD" value-date="2024-10-01">0</value>
+  </budget>
+  <capital-spend percentage="0.78"></capital-spend>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">108450</value>
+   <provider-org ref="XM-DAC-6-4">
+    <narrative xml:lang="EN">AICS - Agenzia Italiana per la Cooperazione allo Sviluppo / Italian Agency for Cooperation and Development</narrative>
+   </provider-org>
+  </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
@@ -172,6 +200,14 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-07-31"></transaction-date>
    <value currency="USD" value-date="2021-07-31">186422</value>
+   <provider-org ref="CA-3">
+    <narrative xml:lang="EN">Canada - Global Affairs Canada | Affaires mondiales Canada</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">72814</value>
    <provider-org ref="CA-3">
     <narrative xml:lang="EN">Canada - Global Affairs Canada | Affaires mondiales Canada</narrative>
    </provider-org>
@@ -316,6 +352,14 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-11-30"></transaction-date>
    <value currency="USD" value-date="2021-11-30">24048</value>
+   <provider-org ref="MU">
+    <narrative xml:lang="EN">Multilateral</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">7400</value>
    <provider-org ref="MU">
     <narrative xml:lang="EN">Multilateral</narrative>
    </provider-org>
@@ -694,6 +738,16 @@
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">1940885</value>
   </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">537333</value>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">537333</value>
+  </transaction>
   <document-link format="TEXT/HTML" url="http://www.wfp.org">
    <title>
     <narrative xml:lang="EN">Activity website</narrative>
@@ -702,25 +756,6 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0"></conditions>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Annual CBT Distribution (USD)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">CBT (USD)</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="0"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
   <result type="1">
    <title>
     <narrative xml:lang="EN">Total Outputs</narrative>
@@ -755,7 +790,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="8460000"></target>
-     <actual value="4794721.852"></actual>
+     <actual value="6194043.063"></actual>
     </period>
    </indicator>
   </result>
@@ -901,25 +936,6 @@
    </description>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">Rice</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="243"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
      <narrative xml:lang="EN">Pasta</narrative>
     </title>
     <period>
@@ -996,70 +1012,13 @@
    </description>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">Beans</narrative>
+     <narrative xml:lang="EN">Rations</narrative>
     </title>
     <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <target value="0"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Iodised Salt</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="0"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Oat</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="0"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Pasta</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="0"></target>
-     <actual value="0"></actual>
+     <actual value="133.301"></actual>
     </period>
    </indicator>
   </result>
@@ -1075,29 +1034,10 @@
      <narrative xml:lang="EN">Rice</narrative>
     </title>
     <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="0"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Total Outputs</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">Annual Food Distribution (MTs)</narrative>
-   </description>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Vegetable Oil</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="0"></target>
-     <actual value="0"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="243"></target>
+     <actual value="198.865"></actual>
     </period>
    </indicator>
   </result>
@@ -1116,7 +1056,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="24000"></target>
-     <actual value="0"></actual>
+     <actual value="83572"></actual>
     </period>
    </indicator>
   </result>
