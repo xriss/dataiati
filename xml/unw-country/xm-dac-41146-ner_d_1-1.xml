@@ -81,15 +81,15 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">70000</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">135000</value>
+   <value currency="USD" value-date="2022-01-31">123994</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">246994</value>
+   <value currency="USD" value-date="2022-01-31">246994</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -108,6 +108,18 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">70000</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41146-NER_D_1.1" ref="XM-DAC-41146" type="40">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">123994</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -225,9 +237,18 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">104543</value>
+   <value currency="USD" value-date="2021-12-31">8917</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">186609</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -325,11 +346,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="3"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -341,11 +358,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="30"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -357,11 +370,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="40"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -469,54 +478,6 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Gender sensitive data is collected for knowledge management and policies developpment</narrative>
-   </title>
-   <description>
-    <narrative xml:lang="EN">knowledge management and policies developpment</narrative>
-   </description>
-   <indicator ascending="0" measure="3">
-    <title>
-     <narrative xml:lang="EN">A quality assessment of existing mechanisms and the gaps thereof</narrative>
-    </title>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">no</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">yes</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of Knowledge products generated and shared for policy dialogue initiatives (in french and local languages)</narrative>
-    </title>
-    <baseline value="0" year="2021"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="6"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
     <narrative xml:lang="EN">gender-sensitive data is collected in the area of entrepreneurship and political participation for knowledge management and policy development</narrative>
    </title>
    <description>
@@ -589,32 +550,52 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">Elected women are supported at national and local levels</narrative>
+    <narrative xml:lang="EN">Gender sensitive data is collected for knowledge management and policies developpment</narrative>
    </title>
-   <indicator ascending="0" measure="2">
+   <description>
+    <narrative xml:lang="EN">knowledge management and policies developpment</narrative>
+   </description>
+   <indicator ascending="0" measure="3">
     <title>
-     <narrative xml:lang="EN">% of elected  women trained on their mandate</narrative>
+     <narrative xml:lang="EN">A quality assessment of existing mechanisms and the gaps thereof</narrative>
     </title>
-    <baseline value="0" year="2020">
+    <baseline year="2020">
      <comment>
-      <narrative xml:lang="EN">0%</narrative>
+      <narrative xml:lang="EN">no</narrative>
      </comment>
     </baseline>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="100">
+     <target>
       <comment>
-       <narrative xml:lang="EN">100%</narrative>
+       <narrative xml:lang="EN">yes</narrative>
       </comment>
      </target>
      <actual>
       <comment>
-       <narrative xml:lang="EN">-</narrative>
+       <narrative xml:lang="EN">True</narrative>
       </comment>
      </actual>
     </period>
    </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of Knowledge products generated and shared for policy dialogue initiatives (in french and local languages)</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="6"></target>
+     <actual value="6"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Elected women are supported at national and local levels</narrative>
+   </title>
    <indicator ascending="0" measure="2">
     <title>
      <narrative xml:lang="EN">%of elected woment parlementarian  trained on gender responsive Budget</narrative>
@@ -632,9 +613,54 @@
        <narrative xml:lang="EN">100%</narrative>
       </comment>
      </target>
+     <actual value="37"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of elected  women trained on their mandate</narrative>
+    </title>
+    <baseline value="0" year="2020">
+     <comment>
+      <narrative xml:lang="EN">0%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="100">
+      <comment>
+       <narrative xml:lang="EN">100%</narrative>
+      </comment>
+     </target>
+     <actual value="59"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Strengthen ed legislative framework enables women&#x2019;s participation and leadership (quota law legislated and enforced in compliance with Covid19 preventive measures)</narrative>
+   </title>
+   <indicator ascending="0" measure="3">
+    <title>
+     <narrative xml:lang="EN">Gender responsive legal reforms in place: The implementation decree is in place and implemented</narrative>
+    </title>
+    <baseline year="2019">
+     <comment>
+      <narrative xml:lang="EN">No</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">Yes</narrative>
+      </comment>
+     </target>
      <actual>
       <comment>
-       <narrative xml:lang="EN">-</narrative>
+       <narrative xml:lang="EN">True</narrative>
       </comment>
      </actual>
     </period>
@@ -661,9 +687,9 @@
        <narrative xml:lang="EN">25%</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="100">
       <comment>
-       <narrative xml:lang="EN">-</narrative>
+       <narrative xml:lang="EN">100%</narrative>
       </comment>
      </actual>
     </period>
@@ -687,7 +713,7 @@
      </target>
      <actual>
       <comment>
-       <narrative xml:lang="EN">-</narrative>
+       <narrative xml:lang="EN">True</narrative>
       </comment>
      </actual>
     </period>
@@ -707,35 +733,6 @@
      <target>
       <comment>
        <narrative xml:lang="EN">yes</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Strengthen ed legislative framework enables women&#x2019;s participation and leadership (quota law legislated and enforced in compliance with Covid19 preventive measures)</narrative>
-   </title>
-   <indicator ascending="0" measure="3">
-    <title>
-     <narrative xml:lang="EN">Gender responsive legal reforms in place: The implementation decree is in place and implemented</narrative>
-    </title>
-    <baseline year="2019">
-     <comment>
-      <narrative xml:lang="EN">No</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">Yes</narrative>
       </comment>
      </target>
      <actual>
@@ -900,11 +897,7 @@ in leadership</narrative>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="3"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -916,11 +909,7 @@ in leadership</narrative>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="30"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -932,11 +921,7 @@ in leadership</narrative>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="40"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">

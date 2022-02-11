@@ -68,16 +68,6 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="1" type="1">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">50000</value>
-  </budget>
-  <budget status="2" type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">50000</value>
-  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -101,12 +91,12 @@
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">1950000</value>
+   <value currency="USD" value-date="2022-01-31">396705</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">396705</value>
+   <value currency="USD" value-date="2022-01-31">396705</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -197,6 +187,18 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">396705</value>
+   <provider-org ref="00141">
+    <narrative xml:lang="EN">GOVERNMENT OF JAPAN</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41146-NGA_D_4.4" ref="XM-DAC-41146" type="40">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-07-31"></transaction-date>
    <value currency="USD" value-date="2021-07-31">864</value>
@@ -251,41 +253,20 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">325</value>
+   <provider-org ref="00141">
+    <narrative xml:lang="EN">GOVERNMENT OF JAPAN</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">719650</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">462478</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">50000</value>
-   <provider-org ref="00297">
-    <narrative xml:lang="EN">UNAIDS</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41146-NGA_D_4.4" ref="XM-DAC-41146" type="40">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-11-30"></transaction-date>
-   <value currency="USD" value-date="2019-11-30">397</value>
-   <provider-org ref="00297">
-    <narrative xml:lang="EN">UNAIDS</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">41426</value>
-   <provider-org ref="00297">
-    <narrative xml:lang="EN">UNAIDS</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -312,37 +293,6 @@
    <title>
     <narrative xml:lang="EN">Conflict affected young women and girls benefit from GBV prevention and recovery skills, relevant legal protection and other support services.</narrative>
    </title>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">#of trained women with increased GBV prevention life skills</narrative>
-    </title>
-    <baseline value="0" year="2021"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="800"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of domesticated VAPP act action plans for implementation</narrative>
-    </title>
-    <baseline value="0" year="2021"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
    <indicator ascending="0" measure="1">
     <title>
      <narrative xml:lang="EN"># of domesticated VAPP act action plans for implementation</narrative>
@@ -375,67 +325,34 @@
      </actual>
     </period>
    </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN"># of domesticated VAPP act action plans for implementation</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="1"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">#of trained women with increased GBV prevention life skills</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="800"></target>
+     <actual value="230"></actual>
+    </period>
+   </indicator>
   </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Marginalized displaced women&#x2019;s and girls&#x2019; access to rehabilitation and reintegration support  (including second chance education, vocational skills trainings and other economic empowerment opportunities and deradicalisation interventions), is enhanced</narrative>
    </title>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of community level mobilization initiatives community leaders (traditional and faith-based) to support the rehabilitation and reintegration of marginalized women and girls</narrative>
-    </title>
-    <baseline year="2017">
-     <comment>
-      <narrative xml:lang="EN">50</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">20</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">High&gt;70%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of survivors (women and girls) of Boko Haram accessing second chance education, vocational skills training opportunities and other economic empowerment opportunities- and deradicalisation interventions, with UN Women support</narrative>
-    </title>
-    <baseline value="104" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="100"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of survivors (women and girls) of Boko Haram accessing second chance education, vocational skills training opportunities and other economic empowerment opportunities- and deradicalisation interventions, with UN Women support</narrative>
-    </title>
-    <baseline value="104" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="50"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
    <indicator ascending="0" measure="1">
     <title>
      <narrative xml:lang="EN"># of survivors (women and girls) of Boko Haram accessing second chance education, vocational skills training opportunities and other economic empowerment opportunities- and deradicalisation interventions, with UN Women support</narrative>
@@ -466,18 +383,14 @@
    </indicator>
    <indicator ascending="0" measure="1">
     <title>
-     <narrative xml:lang="EN"># of community level mobilization initiatives community leaders (traditional and faith-based) to support the rehabilitation and reintegration of marginalized women and girls</narrative>
+     <narrative xml:lang="EN"># of survivors (women and girls) of Boko Haram accessing second chance education, vocational skills training opportunities and other economic empowerment opportunities- and deradicalisation interventions, with UN Women support</narrative>
     </title>
-    <baseline value="50" year="2017"></baseline>
+    <baseline value="104" year="2017"></baseline>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="300"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <target value="50"></target>
+     <actual value="623"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -494,6 +407,18 @@
        <narrative xml:lang="EN">-</narrative>
       </comment>
      </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN"># of community level mobilization initiatives community leaders (traditional and faith-based) to support the rehabilitation and reintegration of marginalized women and girls</narrative>
+    </title>
+    <baseline value="50" year="2017"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="300"></target>
+     <actual value="229"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">

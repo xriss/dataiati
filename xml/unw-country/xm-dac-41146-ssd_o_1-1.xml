@@ -139,16 +139,6 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">18500</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">61000</value>
-  </budget>
-  <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-12-31">15030</value>
@@ -168,21 +158,21 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">4500</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">4500</value>
+   <value currency="USD" value-date="2022-01-31">1500</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">4500</value>
+   <value currency="USD" value-date="2022-01-31">4500</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">4000</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">1500</value>
    <provider-org ref="00231">
     <narrative xml:lang="EN">GOVERNMENT OF SWEDEN</narrative>
    </provider-org>
@@ -198,18 +188,6 @@
    <provider-org ref="00231">
     <narrative xml:lang="EN">GOVERNMENT OF SWEDEN</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">14500</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41146-SSD_O_1.1" ref="XM-DAC-41146" type="40">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -237,36 +215,9 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-02-28"></transaction-date>
-   <value currency="USD" value-date="2019-02-28">1641</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-03-31"></transaction-date>
-   <value currency="USD" value-date="2019-03-31">3024</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-04-30"></transaction-date>
-   <value currency="USD" value-date="2019-04-30">2990</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">11252</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">1923</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -282,6 +233,22 @@
    </description>
    <indicator ascending="0" measure="1">
     <title>
+     <narrative xml:lang="EN"># of agencies that track and report on allocations and expenditure using gender markers validated by a quality assurance process (measured by UNSWAP) [QCPR]</narrative>
+    </title>
+    <baseline year="2020">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="8"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
      <narrative xml:lang="EN"># of UN agencies receiving gender parity advice and/or technical assistance by UN women</narrative>
     </title>
     <baseline year="2020">
@@ -293,11 +260,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="15"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="19"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -313,55 +276,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="2"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of agencies that track and report on allocations and expenditure using gender markers validated by a quality assurance process (measured by UNSWAP) [QCPR]</narrative>
-    </title>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">TBD</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="8"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="3">
-    <title>
-     <narrative xml:lang="EN">United Nations Country Team (UNCT) implements performance indicators on Gender Equality (Gender Scorecards or similar accountability tools) in United Nations Cooperation Framework (UNCF)</narrative>
-    </title>
-    <baseline year="2018">
-     <comment>
-      <narrative xml:lang="EN">no</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">yes</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">False</narrative>
-      </comment>
-     </actual>
+     <actual value="2"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="3">
@@ -407,263 +322,6 @@
      </target>
      <actual>
       <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="3">
-    <title>
-     <narrative xml:lang="EN">United Nations Country Team (UNCT) implements performance indicators on Gender Equality (Gender Scorecards or similar accountability tools) in United Nations Cooperation Framework (UNCF)</narrative>
-    </title>
-    <baseline year="2021">
-     <comment>
-      <narrative xml:lang="EN">yes</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">yes</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of remedial plans submitted under the UN System-wide Action Plan (SWAP) reviewed by UN Women</narrative>
-    </title>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="1"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of agencies that track and report on allocations and expenditure using gender markers validated by a quality assurance process (measured by UNSWAP) [QCPR]</narrative>
-    </title>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="3"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of UN agencies, Ministries, Humanitarian Response Clusters, Civil Society Organizations, receiving gender parity advice and/or technical assistance by UN women</narrative>
-    </title>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="5"></target>
-     <actual value="15"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of remedial plans submitted under the UN System-wide Action Plan (SWAP) reviewed by UN Women</narrative>
-    </title>
-    <baseline value="0" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of agencies that track and report on allocations and expenditure using gender markers validated by a quality assurance process (measured by UNSWAP) [QCPR]</narrative>
-    </title>
-    <baseline value="0" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="5"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of agencies that track and report on allocations and expenditure using gender markers validated by a quality assurance process (measured by UNSWAP) [QCPR]</narrative>
-    </title>
-    <baseline value="0" year="2021"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="5"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of remedial plans submitted under the UN System-wide Action Plan (SWAP) reviewed by UN Women</narrative>
-    </title>
-    <baseline value="1" year="2021"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="2"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of UN agencies receiving gender parity advice and/or technical assistance by UN women</narrative>
-    </title>
-    <baseline value="12" year="2021"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="10"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of UN agencies receiving gender parity advice and/or technical assistance by UN women</narrative>
-    </title>
-    <baseline value="15" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="10"></target>
-     <actual value="12"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">UN Women effectively leads, coordinates and promotes accountability for the implementation of gender equality commitments across the UN system in South Sudan</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of UN agencies receiving gender parity advice and/or technical assistance by UN women</narrative>
-    </title>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">TBD</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="15"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of remedial plans submitted under the UN System-wide Action Plan (SWAP) reviewed by UN Women</narrative>
-    </title>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">TBD</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="2"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of agencies that track and report on allocations and expenditure using gender markers validated by a quality assurance process (measured by UNSWAP) [QCPR]</narrative>
-    </title>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">TBD</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="8"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="3">
-    <title>
-     <narrative xml:lang="EN">United Nations Country Team (UNCT) implements performance indicators on Gender Equality (Gender Scorecards or similar accountability tools) in United Nations Cooperation Framework (UNCF)</narrative>
-    </title>
-    <baseline year="2018">
-     <comment>
-      <narrative xml:lang="EN">no</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">yes</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">False</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="3">
-    <title>
-     <narrative xml:lang="EN">United Nations Country Team (UNCT) implements performance indicators on Gender Equality (Gender Scorecards or similar accountability tools) in United Nations Cooperation Framework (UNCF)</narrative>
-    </title>
-    <baseline year="2019">
-     <comment>
-      <narrative xml:lang="EN">yes</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">yes</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
        <narrative xml:lang="EN">True</narrative>
       </comment>
      </actual>
@@ -673,30 +331,6 @@
     <title>
      <narrative xml:lang="EN">United Nations Country Team (UNCT) implements performance indicators on Gender Equality (Gender Scorecards or similar accountability tools) in United Nations Cooperation Framework (UNCF)</narrative>
     </title>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">yes</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">yes</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="3">
-    <title>
-     <narrative xml:lang="EN">United Nations Country Team (UNCT) implements performance indicators on Gender Equality (Gender Scorecards or similar accountability tools) in United Nations Cooperation Framework (UNCF)</narrative>
-    </title>
     <baseline year="2021">
      <comment>
       <narrative xml:lang="EN">yes</narrative>
@@ -715,42 +349,6 @@
        <narrative xml:lang="EN">-</narrative>
       </comment>
      </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of remedial plans submitted under the UN System-wide Action Plan (SWAP) reviewed by UN Women</narrative>
-    </title>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="1"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of agencies that track and report on allocations and expenditure using gender markers validated by a quality assurance process (measured by UNSWAP) [QCPR]</narrative>
-    </title>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="3"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of UN agencies, Ministries, Humanitarian Response Clusters, Civil Society Organizations, receiving gender parity advice and/or technical assistance by UN women</narrative>
-    </title>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="5"></target>
-     <actual value="15"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">

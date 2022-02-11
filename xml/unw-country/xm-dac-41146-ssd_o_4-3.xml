@@ -52,11 +52,6 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="1" type="1">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">16000</value>
-  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -80,12 +75,12 @@
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">7425</value>
+   <value currency="USD" value-date="2022-01-31">7425</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">7425</value>
+   <value currency="USD" value-date="2022-01-31">7425</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -113,9 +108,21 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">7425</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41146-SSD_O_4.3" ref="XM-DAC-41146" type="40">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">12425</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">7425</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -146,11 +153,7 @@
        <narrative xml:lang="EN">30% core vs 70% non-core</narrative>
       </comment>
      </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="2">
@@ -170,11 +173,7 @@
        <narrative xml:lang="EN">35% at midterm, 90% at year end</narrative>
       </comment>
      </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="100"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="2">
@@ -194,11 +193,7 @@
        <narrative xml:lang="EN">35% at midterm, 90% at year end</narrative>
       </comment>
      </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="90"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="2">
@@ -241,22 +236,6 @@
     <title>
      <narrative xml:lang="EN">% of total core expenditures directed to program expenditure vs. non-core expenditure [QCPR]</narrative>
     </title>
-    <baseline value="12" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="2080">
-      <comment>
-       <narrative xml:lang="EN">20% core vs 80% non-core</narrative>
-      </comment>
-     </target>
-     <actual value="15"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of total core expenditures directed to program expenditure vs. non-core expenditure [QCPR]</narrative>
-    </title>
     <baseline value="15" year="2019"></baseline>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
@@ -287,271 +266,6 @@
        <narrative xml:lang="EN">-</narrative>
       </comment>
      </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of implementation for Core resources</narrative>
-    </title>
-    <baseline value="35" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="35,90">
-      <comment>
-       <narrative xml:lang="EN">35% at midterm, 90% at year end</narrative>
-      </comment>
-     </target>
-     <actual value="100"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of implementation for non-core resources</narrative>
-    </title>
-    <baseline value="35" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="35,90">
-      <comment>
-       <narrative xml:lang="EN">35% at midterm, 90% at yearend</narrative>
-      </comment>
-     </target>
-     <actual value="85"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of implementation for non-core resources</narrative>
-    </title>
-    <baseline value="85" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="35,90">
-      <comment>
-       <narrative xml:lang="EN">35% at midterm, 90% at year end</narrative>
-      </comment>
-     </target>
-     <actual value="76.51"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of implementation for non-core resources</narrative>
-    </title>
-    <baseline value="85" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="35,90">
-      <comment>
-       <narrative xml:lang="EN">35% at midterm, 90% at year end</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">UN Women staff have the capacity and accountability for delivering results</narrative>
-   </title>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of total core expenditures directed to program expenditure vs. non-core expenditure [QCPR]</narrative>
-    </title>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">TBD</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="3070">
-      <comment>
-       <narrative xml:lang="EN">30% core vs 70% non-core</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of implementation for Core resources</narrative>
-    </title>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">TBD</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="35,90">
-      <comment>
-       <narrative xml:lang="EN">35% at midterm, 90% at year end</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of implementation for non-core resources</narrative>
-    </title>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">TBD</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="35,90">
-      <comment>
-       <narrative xml:lang="EN">35% at midterm, 90% at year end</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of implementation for Core resources</narrative>
-    </title>
-    <baseline value="100" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="35,90">
-      <comment>
-       <narrative xml:lang="EN">35% at midterm, 90% at year end</narrative>
-      </comment>
-     </target>
-     <actual value="100"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of implementation for Core resources</narrative>
-    </title>
-    <baseline value="100" year="2021"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="35,90">
-      <comment>
-       <narrative xml:lang="EN">35% at midterm, 90% at year end</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of total core expenditures directed to program expenditure vs. non-core expenditure [QCPR]</narrative>
-    </title>
-    <baseline value="12" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="2080">
-      <comment>
-       <narrative xml:lang="EN">20% core vs 80% non-core</narrative>
-      </comment>
-     </target>
-     <actual value="15"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of total core expenditures directed to program expenditure vs. non-core expenditure [QCPR]</narrative>
-    </title>
-    <baseline value="15" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2575">
-      <comment>
-       <narrative xml:lang="EN">25% core vs 75% non-core</narrative>
-      </comment>
-     </target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of total core expenditures directed to program expenditure vs. non-core expenditure [QCPR]</narrative>
-    </title>
-    <baseline value="15" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="3070">
-      <comment>
-       <narrative xml:lang="EN">30% core vs 70% non-core</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of implementation for Core resources</narrative>
-    </title>
-    <baseline value="35" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="35,90">
-      <comment>
-       <narrative xml:lang="EN">35% at midterm, 90% at year end</narrative>
-      </comment>
-     </target>
-     <actual value="100"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of implementation for non-core resources</narrative>
-    </title>
-    <baseline value="35" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="35,90">
-      <comment>
-       <narrative xml:lang="EN">35% at midterm, 90% at yearend</narrative>
-      </comment>
-     </target>
-     <actual value="85"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="2">

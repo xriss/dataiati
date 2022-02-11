@@ -54,11 +54,6 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="1" type="1">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">7000</value>
-  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -79,10 +74,15 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">875</value>
   </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-01-31">15000</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">20000</value>
+   <value currency="USD" value-date="2022-01-31">20000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -101,6 +101,18 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">875</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41146-APA_O_1.4" ref="XM-DAC-41146" type="40">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">15000</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -147,8 +159,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">19193</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">29193</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -201,33 +213,6 @@
    </indicator>
    <indicator ascending="0" measure="2">
     <title>
-     <narrative xml:lang="EN">Percentage of gender specific or gender sensitive outcomes in UNDAFs in AP</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">UNDAF desk review</narrative>
-    </description>
-    <baseline value="26" year="2018">
-     <comment>
-      <narrative xml:lang="EN">26%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="30">
-      <comment>
-       <narrative xml:lang="EN">30%</narrative>
-      </comment>
-     </target>
-     <actual value="26">
-      <comment>
-       <narrative xml:lang="EN">26%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
      <narrative xml:lang="EN">Percentage of gender results at the outcome level in UNDAFs in AP</narrative>
     </title>
     <description>
@@ -297,198 +282,6 @@
        <narrative xml:lang="EN">-</narrative>
       </comment>
      </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Level of general satisfaction on strategic planning and coordination</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Staff survey</narrative>
-    </description>
-    <baseline value="7.3" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="7.5"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Level of general satisfaction on strategic planning and coordination</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Staff survey</narrative>
-    </description>
-    <baseline value="7.3" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="7.7"></target>
-     <actual value="7"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Level of general satisfaction on strategic planning and coordination</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Staff survey</narrative>
-    </description>
-    <baseline value="7.3" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="8"></target>
-     <actual value="8"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Inter-agency coordination support: UN Women field offices and UNCTs have increased capacity to mainstream GEEW in the UNDAF and other common country programming processes, including through effective coordination of GTGs/results groups.</narrative>
-   </title>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of gender results at the outcome level in UNDAFs in AP</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">UNDAF desk review</narrative>
-    </description>
-    <baseline value="26" year="2018">
-     <comment>
-      <narrative xml:lang="EN">26%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="50">
-      <comment>
-       <narrative xml:lang="EN">50%</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of gender specific or gender sensitive outcomes in UNDAFs in AP</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">UNDAF desk review</narrative>
-    </description>
-    <baseline value="26" year="2018">
-     <comment>
-      <narrative xml:lang="EN">26%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="30">
-      <comment>
-       <narrative xml:lang="EN">30%</narrative>
-      </comment>
-     </target>
-     <actual value="26">
-      <comment>
-       <narrative xml:lang="EN">26%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of gender results at the outcome level in UNDAFs in AP</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">UNDAF desk review</narrative>
-    </description>
-    <baseline value="26" year="2018">
-     <comment>
-      <narrative xml:lang="EN">26%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="30">
-      <comment>
-       <narrative xml:lang="EN">30%</narrative>
-      </comment>
-     </target>
-     <actual value="43">
-      <comment>
-       <narrative xml:lang="EN">43%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of gender results at the outcome level in UNDAFs in AP</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">UNDAF desk review</narrative>
-    </description>
-    <baseline value="26" year="2018">
-     <comment>
-      <narrative xml:lang="EN">26%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="45">
-      <comment>
-       <narrative xml:lang="EN">45%</narrative>
-      </comment>
-     </target>
-     <actual value="75">
-      <comment>
-       <narrative xml:lang="EN">75%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Level of general satisfaction on strategic planning and coordination</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Staff survey</narrative>
-    </description>
-    <baseline value="7.3" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="8"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Level of general satisfaction on strategic planning and coordination</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Staff survey</narrative>
-    </description>
-    <baseline value="7.3" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="7.5"></target>
-     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">

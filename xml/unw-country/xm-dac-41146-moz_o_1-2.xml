@@ -63,16 +63,6 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="1" type="1">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">4500</value>
-  </budget>
-  <budget status="2" type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">4500</value>
-  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -88,21 +78,21 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">1000</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">9500</value>
+   <value currency="USD" value-date="2022-01-31">7000</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">9500</value>
+   <value currency="USD" value-date="2022-01-31">9500</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">4500</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">7000</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -112,36 +102,9 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-05-31"></transaction-date>
-   <value currency="USD" value-date="2019-05-31">2250</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-07-31"></transaction-date>
-   <value currency="USD" value-date="2019-07-31">1400</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">633</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">4283</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">7000</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -193,35 +156,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="5"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
-    </title>
-    <baseline value="2" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="3"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">No. of joint initiatives developed and implemented with CSAGs/CS-NRG</narrative>
-    </title>
-    <baseline value="2" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="4"></target>
-     <actual value="2"></actual>
+     <actual value="1"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -234,6 +169,44 @@
      <period-end iso-date="2020-12-31"></period-end>
      <target value="4"></target>
      <actual value="2"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">This includes MOU, agreements for contributions and non-formal collaborative initiatives to advance GEWE.</narrative>
+    </description>
+    <baseline value="2" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="3"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">This includes MOU, agreements for contributions and non-formal collaborative initiatives to advance GEWE.</narrative>
+    </description>
+    <baseline value="2" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="5"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -248,11 +221,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="2"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="4"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -267,225 +236,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="6"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">This includes MOU, agreements for contributions and non-formal collaborative initiatives to advance GEWE.</narrative>
-    </description>
-    <baseline value="2" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="3"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">This includes MOU, agreements for contributions and non-formal collaborative initiatives to advance GEWE.</narrative>
-    </description>
-    <baseline value="2" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="5"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
-    </title>
-    <baseline value="2" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="3"></target>
-     <actual value="3"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
-    </title>
-    <baseline value="2" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="5"></target>
-     <actual value="3"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Effective partnerships between UN WOMEN and major stakeholders, including C S O, private sector as well as national and international organizations</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">No. of joint initiatives developed and implemented with women&apos;s organizations</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Count all initiatives/activities that Un Women will implement with women&apos;s organizations</narrative>
-    </description>
-    <baseline value="2" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="8"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">No. of joint initiatives developed and implemented with CSAGs/CS-NRG</narrative>
-    </title>
-    <baseline value="2" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="5"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
-    </title>
-    <baseline value="2" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="3"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">No. of joint initiatives developed and implemented with CSAGs/CS-NRG</narrative>
-    </title>
-    <baseline value="2" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="4"></target>
-     <actual value="2"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">No. of joint initiatives developed and implemented with CSAGs/CS-NRG</narrative>
-    </title>
-    <baseline value="2" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="4"></target>
-     <actual value="2"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">This includes MOU, agreements for contributions and non-formal collaborative initiatives to advance GEWE.</narrative>
-    </description>
-    <baseline value="2" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="2"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">This includes MOU, agreements for contributions and non-formal collaborative initiatives to advance GEWE.</narrative>
-    </description>
-    <baseline value="2" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="6"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">This includes MOU, agreements for contributions and non-formal collaborative initiatives to advance GEWE.</narrative>
-    </description>
-    <baseline value="2" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="3"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of partnerships established with private sector</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">This includes MOU, agreements for contributions and non-formal collaborative initiatives to advance GEWE.</narrative>
-    </description>
-    <baseline value="2" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="5"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="4"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">

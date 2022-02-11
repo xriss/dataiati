@@ -68,6 +68,11 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">11</value>
   </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-01-31">52800</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="1"></transaction-type>
@@ -94,9 +99,21 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">52800</value>
+   <provider-org ref="00555" type="10">
+    <narrative xml:lang="EN">SWEDISH INTERNATIONAL DEVELOPMENT COOPERATION (SIDA)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00129492" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">11</value>
+   <value currency="USD" value-date="2021-12-31">52811</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -114,5 +131,71 @@
   <related-activity ref="XM-DAC-41114-OUTPUT-00128155" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-PROJECT-00136606" type="1"></related-activity>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Annual Output Results</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Output Indicator</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">1. Number of people deployed in the private sector 
+2.Number of people deployed to basic services providers 
+3.Number of people accessing freelancing and e-work opportunities
+4.% of e-work participants showing improved technical knowledge and skills after e-work training
+5.Number of workdays generated
+6.% of people reporting improved ability to meet essential needs at individual and/or household level, because of the livelihood support received</narrative>
+    </description>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">1. 0
+2. 0
+3.0
+4. 0
+5.0
+6.0</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">1. 0
+2. 0
+3.0
+4.0
+5.0
+6.0</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">1. 0
+2. 0
+3.0
+4.0
+5.0
+6.0</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>

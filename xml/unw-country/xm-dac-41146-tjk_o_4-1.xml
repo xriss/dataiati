@@ -52,11 +52,6 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="1" type="1">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">5</value>
-  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -141,7 +136,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">1314</value>
+   <value currency="USD" value-date="2021-12-31">3261</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -149,8 +144,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">9165</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">9160</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -164,48 +159,19 @@
    <description>
     <narrative xml:lang="EN">UN Women will be ensuring sound operational and financial management through developing SoPs and improving business operations with the support of RO and Kyrgyz Office (finance, safety &amp; security, IT, facilities &amp; administrative services, procurement, ent</narrative>
    </description>
-   <indicator ascending="0" measure="5">
-    <title>
-     <narrative xml:lang="EN">Percentage of newly staff members completing mandatory trainings</narrative>
-    </title>
-    <baseline year="2018">
-     <comment>
-      <narrative xml:lang="EN">0</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">0</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="5">
+   <indicator ascending="0" measure="2">
     <title>
      <narrative xml:lang="EN">Percentage of donor reports meeting the quality assurance standards</narrative>
     </title>
-    <baseline year="2018">
-     <comment>
-      <narrative xml:lang="EN">0</narrative>
-     </comment>
-    </baseline>
+    <description>
+     <narrative xml:lang="EN">full compliance with corporate and donor&apos; requirements</narrative>
+    </description>
+    <baseline value="0" year="2018"></baseline>
     <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="100">
       <comment>
        <narrative xml:lang="EN">100%</narrative>
       </comment>
@@ -223,19 +189,15 @@
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="100"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="2">
     <title>
-     <narrative xml:lang="EN">Percentage of donor reports meeting the quality assurance standards</narrative>
+     <narrative xml:lang="EN">Percentage of newly staff members completing mandatory training</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">full compliance with corporate and donor&apos; requirements</narrative>
+     <narrative xml:lang="EN">timely completion and submission of mandatory training certificates by staff</narrative>
     </description>
     <baseline value="0" year="2018"></baseline>
     <period>
@@ -260,45 +222,7 @@
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of newly staff members completing mandatory training</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">timely completion and submission of mandatory training certificates by staff</narrative>
-    </description>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Overall Information Security &amp; Compliance Risk Level</narrative>
-    </title>
-    <baseline value="0" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="100"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="2">
@@ -313,133 +237,6 @@
      <actual value="10"></actual>
     </period>
    </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">UN Women Tajikistan effectively manages its financial and human resources in pursuit of results</narrative>
-   </title>
-   <indicator ascending="0" measure="5">
-    <title>
-     <narrative xml:lang="EN">Percentage of newly staff members completing mandatory trainings</narrative>
-    </title>
-    <baseline year="2018">
-     <comment>
-      <narrative xml:lang="EN">0</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">0</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="5">
-    <title>
-     <narrative xml:lang="EN">Percentage of donor reports meeting the quality assurance standards</narrative>
-    </title>
-    <baseline year="2018">
-     <comment>
-      <narrative xml:lang="EN">0</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of donor reports meeting the quality assurance standards</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">full compliance with corporate and donor&apos; requirements</narrative>
-    </description>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of donor reports meeting the quality assurance standards</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">full compliance with corporate and donor&apos; requirements</narrative>
-    </description>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of newly staff members completing mandatory training</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">timely completion and submission of mandatory training certificates by staff</narrative>
-    </description>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of newly staff members completing mandatory training</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">timely completion and submission of mandatory training certificates by staff</narrative>
-    </description>
-    <baseline value="0" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
    <indicator ascending="0" measure="2">
     <title>
      <narrative xml:lang="EN">Overall Information Security &amp; Compliance Risk Level</narrative>
@@ -448,23 +245,7 @@
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Overall Information Security &amp; Compliance Risk Level</narrative>
-    </title>
-    <baseline value="0" year="2019"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="20"></target>
-     <actual value="10"></actual>
+     <actual value="20"></actual>
     </period>
    </indicator>
   </result>

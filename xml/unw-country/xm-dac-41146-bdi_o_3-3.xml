@@ -67,16 +67,6 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="2" type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">6054</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">86738</value>
-  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -97,20 +87,20 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">40168</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">200000</value>
+   <value currency="USD" value-date="2022-01-31">55408</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">56008</value>
+   <value currency="USD" value-date="2022-01-31">56008</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2023-01-01"></period-start>
    <period-end iso-date="2023-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">200000</value>
+   <value currency="USD" value-date="2022-01-31">150000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -325,18 +315,6 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">6054</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41146-BDI_O_3.3" ref="XM-DAC-41146" type="40">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">5000</value>
    <provider-org ref="00032">
@@ -360,30 +338,15 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-05-31"></transaction-date>
-   <value currency="USD" value-date="2019-05-31">155</value>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">55408</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-08-31"></transaction-date>
-   <value currency="USD" value-date="2019-08-31">1161</value>
-   <provider-org ref="00032">
+   <receiver-org receiver-activity-id="XM-DAC-41146-BDI_O_3.3" ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-09-30"></transaction-date>
-   <value currency="USD" value-date="2019-09-30">368</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -433,8 +396,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">105298</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">153534</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -514,9 +477,9 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="100"></target>
-     <actual>
+     <actual value="85.7">
       <comment>
-       <narrative xml:lang="EN">-</narrative>
+       <narrative xml:lang="EN">85.7%</narrative>
       </comment>
      </actual>
     </period>
@@ -577,11 +540,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="100"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="80"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -605,11 +564,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="35"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -621,11 +576,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="36"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -693,11 +644,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="6"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="1"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -714,56 +661,6 @@
        <narrative xml:lang="EN">-</narrative>
       </comment>
      </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">UN Women Burundi uses monitoring and evaluation to generate evidence based knowledge for improved decision making and accountability</narrative>
-   </title>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of recommendations from monitoring missions adopted by Senior Management for implementation and follow-up</narrative>
-    </title>
-    <baseline value="30" year="2018">
-     <comment>
-      <narrative xml:lang="EN">30%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Status of implementation of the &#xAB; Evaluation Management Response &#xBB;</narrative>
-    </title>
-    <baseline value="80" year="2018">
-     <comment>
-      <narrative xml:lang="EN">80%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="80"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of Researches and Studies produced and published</narrative>
-    </title>
-    <baseline value="3" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="1"></actual>
     </period>
    </indicator>
   </result>

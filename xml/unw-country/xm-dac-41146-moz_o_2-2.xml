@@ -61,16 +61,6 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="1" type="1">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">4000</value>
-  </budget>
-  <budget status="2" type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">6384</value>
-  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -89,26 +79,14 @@
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">2000</value>
+   <value currency="USD" value-date="2022-01-31">2000</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">2000</value>
+   <value currency="USD" value-date="2022-01-31">2000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">6384</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41146-MOZ_O_2.2" ref="XM-DAC-41146" type="40">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -134,30 +112,15 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-05-31"></transaction-date>
-   <value currency="USD" value-date="2019-05-31">359</value>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">2000</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-07-31"></transaction-date>
-   <value currency="USD" value-date="2019-07-31">4925</value>
-   <provider-org ref="00032">
+   <receiver-org receiver-activity-id="XM-DAC-41146-MOZ_O_2.2" ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-10-31"></transaction-date>
-   <value currency="USD" value-date="2019-10-31">459</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -171,8 +134,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">11245</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">5500</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -265,11 +228,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="200"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="9"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -281,33 +240,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="25"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.2.b: Number of requests of support  (including technical advice, information or KM products) received by the CO and responded to provide on demand support and assistance.</narrative>
-    </title>
-    <baseline value="20" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="21"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">N&#xBA; of participants to the UEM Gender Responsive Budgeting and Planning</narrative>
-    </title>
-    <baseline value="202" year="2015"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0"></actual>
+     <actual value="9"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -357,11 +290,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="150"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="13"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -373,258 +302,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="50"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of KM products developed and published by UN Women</narrative>
-    </title>
-    <baseline value="42" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="50"></target>
-     <actual value="19"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of KM products developed and published by UN Women</narrative>
-    </title>
-    <baseline value="42" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="200"></target>
-     <actual value="32"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of KM products developed and published by UN Women</narrative>
-    </title>
-    <baseline value="42" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="50"></target>
-     <actual value="32"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">CO  is a recognized hub of knowledge on achieving gender equality and women&#x2019;s empowerment in Mozambique</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.2.b: Number of requests of support  (including technical advice, information or KM products) received by the CO and responded to provide on demand support and assistance.</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Count all requests submitted to UN Women by external stakeholders on technical support on GEWE issues, including request of information related to GEWE.</narrative>
-    </description>
-    <baseline value="20" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="10"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.2.b: Number of requests of support  (including technical advice, information or KM products) received by the CO and responded to provide on demand support and assistance.</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Count all requests submitted to UN Women by external stakeholders on technical support on GEWE issues, including request of information related to GEWE.</narrative>
-    </description>
-    <baseline value="20" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="200"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.2.b: Number of requests of support  (including technical advice, information or KM products) received by the CO and responded to provide on demand support and assistance.</narrative>
-    </title>
-    <baseline value="20" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="27"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.2.b: Number of requests of support  (including technical advice, information or KM products) received by the CO and responded to provide on demand support and assistance.</narrative>
-    </title>
-    <baseline value="20" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="30"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.2.b: Number of requests of support  (including technical advice, information or KM products) received by the CO and responded to provide on demand support and assistance.</narrative>
-    </title>
-    <baseline value="20" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="200"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.2.b: Number of requests of support  (including technical advice, information or KM products) received by the CO and responded to provide on demand support and assistance.</narrative>
-    </title>
-    <baseline value="20" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="25"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Indicator 2.2.b: Number of requests of support  (including technical advice, information or KM products) received by the CO and responded to provide on demand support and assistance.</narrative>
-    </title>
-    <baseline value="20" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="21"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">N&#xBA; of participants to the UEM Gender Responsive Budgeting and Planning</narrative>
-    </title>
-    <baseline value="202" year="2015"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of KM products developed and published by UN Women</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Count all KP produced and disseminated by UN Women and disaggregate by type of KP and channel of dissemination.</narrative>
-    </description>
-    <baseline value="42" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="150"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of KM products developed and published by UN Women</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Count all KP produced and disseminated by UN Women and disaggregate by type of KP and channel of dissemination.</narrative>
-    </description>
-    <baseline value="42" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="20"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of KM products developed and published by UN Women</narrative>
-    </title>
-    <baseline value="42" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="150"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of KM products developed and published by UN Women</narrative>
-    </title>
-    <baseline value="42" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="50"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of KM products developed and published by UN Women</narrative>
-    </title>
-    <baseline value="42" year="2017"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="50"></target>
-     <actual value="19"></actual>
+     <actual value="13"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">

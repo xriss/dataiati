@@ -65,11 +65,6 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget status="1" type="1">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">54500</value>
-  </budget>
-  <budget status="1" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-12-31">17550</value>
@@ -92,27 +87,27 @@
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">125200</value>
+   <value currency="USD" value-date="2022-01-31">125200</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">168800</value>
+   <value currency="USD" value-date="2022-01-31">2600</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2023-01-01"></period-start>
    <period-end iso-date="2023-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">168800</value>
+   <value currency="USD" value-date="2022-01-31">168800</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2024-01-01"></period-start>
    <period-end iso-date="2024-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">168800</value>
+   <value currency="USD" value-date="2022-01-31">168800</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2025-01-01"></period-start>
    <period-end iso-date="2025-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">102000</value>
+   <value currency="USD" value-date="2022-01-31">102000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -131,6 +126,18 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">2600</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41146-IDN_O_4.2" ref="XM-DAC-41146" type="40">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">2600</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -241,7 +248,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-10-31"></transaction-date>
-   <value currency="USD" value-date="2021-10-31">58</value>
+   <value currency="USD" value-date="2021-10-31">1404</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -259,7 +266,25 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">115</value>
+   <value currency="USD" value-date="2021-12-31">30730</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">26</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">58</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -267,8 +292,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">5899</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">36814</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -292,78 +317,6 @@
    <description>
     <narrative xml:lang="EN">Facilitate, support and monitored the office effectiveness and efficiency to support  the program implementation</narrative>
    </description>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Average turnaround time for processing payments</narrative>
-    </title>
-    <baseline value="100" year="2018">
-     <comment>
-      <narrative xml:lang="EN">100%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Management ratio</narrative>
-    </title>
-    <baseline value="100" year="2018">
-     <comment>
-      <narrative xml:lang="EN">100%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual value="11">
-      <comment>
-       <narrative xml:lang="EN">11%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Delivery rate</narrative>
-    </title>
-    <baseline value="100" year="2018">
-     <comment>
-      <narrative xml:lang="EN">100%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual value="93">
-      <comment>
-       <narrative xml:lang="EN">93%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
    <indicator ascending="0" measure="2">
     <title>
      <narrative xml:lang="EN">Average turnaround time for processing payments</narrative>
@@ -460,33 +413,6 @@
      </actual>
     </period>
    </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of available core vs. non-core resources annually</narrative>
-    </title>
-    <baseline value="20.2479.76" year="2018">
-     <comment>
-      <narrative xml:lang="EN">20.24% &amp; 79.76%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="40"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of donors providing non-core resources to UN Women Indonesia in amount larger than USD 100,000</narrative>
-    </title>
-    <baseline value="2" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="3"></target>
-     <actual value="6"></actual>
-    </period>
-   </indicator>
    <indicator ascending="0" measure="1">
     <title>
      <narrative xml:lang="EN">Number of donors providing non-core resources to UN Women Indonesia in amount larger than USD 100,000</narrative>
@@ -497,18 +423,6 @@
      <period-end iso-date="2020-12-31"></period-end>
      <target value="3"></target>
      <actual value="7"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of women owned businesses addressed/encouraged to participate in procurement processes</narrative>
-    </title>
-    <baseline value="5" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="10"></target>
-     <actual value="0"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -538,11 +452,11 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="80">
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="85">
       <comment>
-       <narrative xml:lang="EN">80%</narrative>
+       <narrative xml:lang="EN">85%</narrative>
       </comment>
      </target>
      <actual>
@@ -562,11 +476,83 @@
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="80">
+      <comment>
+       <narrative xml:lang="EN">80%</narrative>
+      </comment>
+     </target>
+     <actual value="80">
+      <comment>
+       <narrative xml:lang="EN">80%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of partnership agreement &amp; procurement action clearance/approved within 6 weeks</narrative>
+    </title>
+    <baseline value="80" year="2020">
+     <comment>
+      <narrative xml:lang="EN">80%</narrative>
+     </comment>
+    </baseline>
+    <period>
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
      <target value="85">
       <comment>
        <narrative xml:lang="EN">85%</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of payment process completed in less than 4 weeks</narrative>
+    </title>
+    <baseline value="80" year="2020">
+     <comment>
+      <narrative xml:lang="EN">80%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="90">
+      <comment>
+       <narrative xml:lang="EN">90%</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of staff that received capacity development interventions to support independent program delivery and procurement by UNW Indonesia</narrative>
+    </title>
+    <baseline value="80" year="2020">
+     <comment>
+      <narrative xml:lang="EN">80%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="90">
+      <comment>
+       <narrative xml:lang="EN">90%</narrative>
       </comment>
      </target>
      <actual>
@@ -593,9 +579,9 @@
        <narrative xml:lang="EN">80%</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="100">
       <comment>
-       <narrative xml:lang="EN">-</narrative>
+       <narrative xml:lang="EN">100%</narrative>
       </comment>
      </actual>
     </period>
@@ -617,33 +603,9 @@
        <narrative xml:lang="EN">85%</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="100">
       <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Level of compliance with UNDSS and MOSS standards</narrative>
-    </title>
-    <baseline value="80" year="2020">
-     <comment>
-      <narrative xml:lang="EN">80%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="85">
-      <comment>
-       <narrative xml:lang="EN">85%</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
+       <narrative xml:lang="EN">100%</narrative>
       </comment>
      </actual>
     </period>
@@ -665,9 +627,33 @@
        <narrative xml:lang="EN">85%</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="80">
       <comment>
-       <narrative xml:lang="EN">-</narrative>
+       <narrative xml:lang="EN">80%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Level of compliance with UNDSS and MOSS standards</narrative>
+    </title>
+    <baseline value="80" year="2020">
+     <comment>
+      <narrative xml:lang="EN">80%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="85">
+      <comment>
+       <narrative xml:lang="EN">85%</narrative>
+      </comment>
+     </target>
+     <actual value="90">
+      <comment>
+       <narrative xml:lang="EN">90%</narrative>
       </comment>
      </actual>
     </period>
@@ -689,105 +675,9 @@
        <narrative xml:lang="EN">85%</narrative>
       </comment>
      </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of partnership agreement &amp; procurement action clearance/approved within 6 weeks</narrative>
-    </title>
-    <baseline value="80" year="2020">
-     <comment>
-      <narrative xml:lang="EN">80%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="85">
-      <comment>
-       <narrative xml:lang="EN">85%</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of payment process completed in less than 4 weeks</narrative>
-    </title>
-    <baseline value="80" year="2020">
-     <comment>
-      <narrative xml:lang="EN">80%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="90">
+     <actual value="90">
       <comment>
        <narrative xml:lang="EN">90%</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of staff that received capacity development interventions to support independent program delivery and procurement by UNW Indonesia</narrative>
-    </title>
-    <baseline value="80" year="2020">
-     <comment>
-      <narrative xml:lang="EN">80%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="90">
-      <comment>
-       <narrative xml:lang="EN">90%</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Delivery Rate of Indonesia Country Office</narrative>
-    </title>
-    <baseline value="85" year="2020">
-     <comment>
-      <narrative xml:lang="EN">85%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="85">
-      <comment>
-       <narrative xml:lang="EN">85%</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
       </comment>
      </actual>
     </period>
@@ -816,240 +706,28 @@
      </actual>
     </period>
    </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Sound management of financial resources supports delivery of results</narrative>
-   </title>
    <indicator ascending="0" measure="2">
     <title>
-     <narrative xml:lang="EN">Average turnaround time for processing payments</narrative>
+     <narrative xml:lang="EN">Delivery Rate of Indonesia Country Office</narrative>
     </title>
-    <baseline value="100" year="2018">
+    <baseline value="85" year="2020">
      <comment>
-      <narrative xml:lang="EN">100%</narrative>
+      <narrative xml:lang="EN">85%</narrative>
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="100">
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="85">
       <comment>
-       <narrative xml:lang="EN">100%</narrative>
+       <narrative xml:lang="EN">85%</narrative>
       </comment>
      </target>
-     <actual value="100">
+     <actual value="80">
       <comment>
-       <narrative xml:lang="EN">100%</narrative>
+       <narrative xml:lang="EN">80%</narrative>
       </comment>
      </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Management ratio</narrative>
-    </title>
-    <baseline value="100" year="2018">
-     <comment>
-      <narrative xml:lang="EN">100%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual value="11">
-      <comment>
-       <narrative xml:lang="EN">11%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Delivery rate</narrative>
-    </title>
-    <baseline value="100" year="2018">
-     <comment>
-      <narrative xml:lang="EN">100%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual value="93">
-      <comment>
-       <narrative xml:lang="EN">93%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Average turnaround time for processing payments</narrative>
-    </title>
-    <baseline value="100" year="2019">
-     <comment>
-      <narrative xml:lang="EN">100%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Management ratio</narrative>
-    </title>
-    <baseline value="100" year="2019">
-     <comment>
-      <narrative xml:lang="EN">100%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Delivery rate</narrative>
-    </title>
-    <baseline value="100" year="2019">
-     <comment>
-      <narrative xml:lang="EN">100%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual value="88">
-      <comment>
-       <narrative xml:lang="EN">88%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of available core vs. non-core resources annually</narrative>
-    </title>
-    <baseline value="20.2479.76" year="2018">
-     <comment>
-      <narrative xml:lang="EN">20.24% &amp; 79.76%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="2080">
-      <comment>
-       <narrative xml:lang="EN">20% &amp; 80%</narrative>
-      </comment>
-     </target>
-     <actual value="19">
-      <comment>
-       <narrative xml:lang="EN">19%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of available core vs. non-core resources annually</narrative>
-    </title>
-    <baseline value="20.2479.76" year="2018">
-     <comment>
-      <narrative xml:lang="EN">20.24% &amp; 79.76%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <actual value="40"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of donors providing non-core resources to UN Women Indonesia in amount larger than USD 100,000</narrative>
-    </title>
-    <baseline value="2" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="3"></target>
-     <actual value="6"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of donors providing non-core resources to UN Women Indonesia in amount larger than USD 100,000</narrative>
-    </title>
-    <baseline value="2" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="3"></target>
-     <actual value="7"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of women owned businesses addressed/encouraged to participate in procurement processes</narrative>
-    </title>
-    <baseline value="5" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="10"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of women owned businesses addressed/encouraged to participate in procurement processes</narrative>
-    </title>
-    <baseline value="5" year="2018"></baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="10"></target>
-     <actual value="7"></actual>
     </period>
    </indicator>
   </result>

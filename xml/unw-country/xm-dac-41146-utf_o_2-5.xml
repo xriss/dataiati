@@ -61,15 +61,15 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">210000</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">154000</value>
+   <value currency="USD" value-date="2022-01-31">150000</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">208000</value>
+   <value currency="USD" value-date="2022-01-31">208000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -82,6 +82,27 @@
    <receiver-org receiver-activity-id="XM-DAC-41146-UTF_O_2.5" ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">150000</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41146-UTF_O_2.5" ref="XM-DAC-41146" type="40">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">3413</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -113,57 +134,14 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">210000</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">164389</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <conditions attached="0"></conditions>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">The UNTF facilitates organizational learning across the focus areas of the Strategic Plan to inform implementation, programming and operations.</narrative>
-   </title>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number and percentage of planned corporate evaluations, and/or assessments of the UN Trust Fund&#x2019;s work completed annually</narrative>
-    </title>
-    <baseline year="2019">
-     <comment>
-      <narrative xml:lang="EN">1 OF 1 (100%)</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Number and percentage of evaluation / assessment management response actions that are on /off track (referring to UN Trust Fund management responses to agreed recommendations from external evaluations / assessments)</narrative>
-    </title>
-    <baseline value="92" year="2020">
-     <comment>
-      <narrative xml:lang="EN">92%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-  </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">The UNTF produces and co-creates knowledge and facilitates learning from UNTF projects with a focus on practitioner-based knowledge and analyses UNTF data on EVAW trends and demands.</narrative>
@@ -207,6 +185,49 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="7"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">The UNTF facilitates organizational learning across the focus areas of the Strategic Plan to inform implementation, programming and operations.</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number and percentage of planned corporate evaluations, and/or assessments of the UN Trust Fund&#x2019;s work completed annually</narrative>
+    </title>
+    <baseline year="2019">
+     <comment>
+      <narrative xml:lang="EN">1 OF 1 (100%)</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Number and percentage of evaluation / assessment management response actions that are on /off track (referring to UN Trust Fund management responses to agreed recommendations from external evaluations / assessments)</narrative>
+    </title>
+    <baseline value="92" year="2020">
+     <comment>
+      <narrative xml:lang="EN">92%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>

@@ -84,15 +84,15 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">363674</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">154981</value>
+   <value currency="USD" value-date="2022-01-31">118481</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">260481</value>
+   <value currency="USD" value-date="2022-01-31">260481</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -108,9 +108,21 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">105500</value>
+   <provider-org ref="12314">
+    <narrative xml:lang="EN">JP UN Women as AA</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41146-ARG_D_2.2" ref="XM-DAC-41146" type="40">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">6542</value>
+   <value currency="USD" value-date="2021-01-31">6570</value>
    <provider-org ref="12314">
     <narrative xml:lang="EN">JP UN Women as AA</narrative>
    </provider-org>
@@ -138,6 +150,18 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">88701</value>
+   <provider-org ref="13556">
+    <narrative xml:lang="EN">MPTF-UN COVID-19 Response Rcvy</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41146-ARG_D_2.2" ref="XM-DAC-41146" type="40">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">12981</value>
    <provider-org ref="13556">
     <narrative xml:lang="EN">MPTF-UN COVID-19 Response Rcvy</narrative>
    </provider-org>
@@ -239,7 +263,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">6418</value>
+   <value currency="USD" value-date="2021-12-31">6474</value>
    <provider-org ref="13556">
     <narrative xml:lang="EN">MPTF-UN COVID-19 Response Rcvy</narrative>
    </provider-org>
@@ -247,8 +271,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">272918</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">208696</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -276,31 +300,7 @@
        <narrative xml:lang="EN">+1</narrative>
       </comment>
      </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of initiatives in response to COVID-19 crisis at national level that promote gender equality in the care systems focused on at risk</narrative>
-    </title>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1">
-      <comment>
-       <narrative xml:lang="EN">+1</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="1"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -316,11 +316,23 @@
        <narrative xml:lang="EN">+1</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="2"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of initiatives in response to COVID-19 crisis at national level that promote gender equality in the care systems focused on at risk</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="1">
       <comment>
-       <narrative xml:lang="EN">-</narrative>
+       <narrative xml:lang="EN">+1</narrative>
       </comment>
-     </actual>
+     </target>
+     <actual value="4"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -438,31 +450,7 @@
        <narrative xml:lang="EN">+1</narrative>
       </comment>
      </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of initiatives in response to COVID-19 crisis at national level that promote gender equality in the care systems focused on at risk</narrative>
-    </title>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1">
-      <comment>
-       <narrative xml:lang="EN">+1</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <actual value="1"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -478,11 +466,23 @@
        <narrative xml:lang="EN">+1</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="2"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of initiatives in response to COVID-19 crisis at national level that promote gender equality in the care systems focused on at risk</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="1">
       <comment>
-       <narrative xml:lang="EN">-</narrative>
+       <narrative xml:lang="EN">+1</narrative>
       </comment>
-     </actual>
+     </target>
+     <actual value="4"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">

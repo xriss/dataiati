@@ -55,16 +55,6 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="2" type="2">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">3000</value>
-  </budget>
-  <budget status="1" type="1">
-   <period-start iso-date="2019-01-01"></period-start>
-   <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2019-12-31">5000</value>
-  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -88,31 +78,19 @@
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">19000</value>
+   <value currency="USD" value-date="2022-01-31">19000</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">19000</value>
+   <value currency="USD" value-date="2022-01-31">5000</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2023-01-01"></period-start>
    <period-end iso-date="2023-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">19000</value>
+   <value currency="USD" value-date="2022-01-31">19000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">3000</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41146-TLS_O_2.2" ref="XM-DAC-41146" type="40">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -138,30 +116,15 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-08-31"></transaction-date>
-   <value currency="USD" value-date="2019-08-31">415</value>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">5000</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-10-31"></transaction-date>
-   <value currency="USD" value-date="2019-10-31">370</value>
-   <provider-org ref="00032">
+   <receiver-org receiver-activity-id="XM-DAC-41146-TLS_O_2.2" ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2019-12-31"></transaction-date>
-   <value currency="USD" value-date="2019-12-31">337</value>
-   <provider-org ref="00032">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </provider-org>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -382,8 +345,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">29367</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">31805</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -394,33 +357,6 @@
    <title>
     <narrative xml:lang="EN">UN Women Communications capacity and systems provide a foundation for effective advocacy of gender equality and empowerment of women.</narrative>
    </title>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of mentions of UN-Women in both traditional and new media</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Based on weekly media monitoring</narrative>
-    </description>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">TBD</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">12</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
    <indicator ascending="0" measure="1">
     <title>
      <narrative xml:lang="EN">Number of mentions of UN-Women in both traditional and new media</narrative>
@@ -450,14 +386,29 @@
    </indicator>
    <indicator ascending="0" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of timely communication products/ materials produced annually</narrative>
+     <narrative xml:lang="EN">Number of mentions of UN-Women in both traditional and new media</narrative>
     </title>
-    <baseline value="10" year="2014"></baseline>
+    <description>
+     <narrative xml:lang="EN">Based on weekly media monitoring</narrative>
+    </description>
+    <baseline year="2020">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
     <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="25"></target>
-     <actual value="28"></actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">12</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">Medium 30-69%</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -488,9 +439,9 @@ Target: 2025: 50,000</narrative>
     </description>
     <baseline value="23000" year="2020"></baseline>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="30000"></target>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="35000"></target>
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>
@@ -514,14 +465,10 @@ Target: 2025: 50,000</narrative>
     </description>
     <baseline value="23000" year="2020"></baseline>
     <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="35000"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="30000"></target>
+     <actual value="2800"></actual>
     </period>
    </indicator>
   </result>
