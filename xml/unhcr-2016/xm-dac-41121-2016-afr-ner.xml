@@ -377,17 +377,6 @@
    <aid-type code="B03" vocabulary="1"></aid-type>
    <unhcr:value-USD>599250.936</unhcr:value-USD>
   </transaction>
-  <transaction ref="63005">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2016-03-18"></transaction-date>
-   <value currency="EUR" value-date="2016-03-18">1800000</value>
-   <provider-org ref="XI-IATI-EC_ECHO" type="15">
-    <narrative xml:lang="EN">European Commission - Humanitarian Aid &amp; Civil Protection</narrative>
-   </provider-org>
-   <aid-type code="3" vocabulary="2"></aid-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
-   <unhcr:value-USD>2011173.184</unhcr:value-USD>
-  </transaction>
   <transaction ref="60095">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2016-02-26"></transaction-date>
@@ -460,7 +449,7 @@
   <transaction ref="65093">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2016-02-29"></transaction-date>
-   <value currency="USD" value-date="2016-02-29">131560.17</value>
+   <value currency="USD" value-date="2016-02-29">131560</value>
    <description>
     <narrative xml:lang="EN">Monthly contribution summary</narrative>
    </description>
@@ -475,12 +464,23 @@
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2016-03-16"></transaction-date>
    <value currency="EUR" value-date="2016-03-16">600000</value>
-   <provider-org ref="XI-IATI-EC_ECHO" type="15">
+   <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-WF/BUD/2015/91094" ref="XI-IATI-EC_ECHO" type="15">
     <narrative xml:lang="EN">European Commission - Humanitarian Aid &amp; Civil Protection</narrative>
    </provider-org>
    <aid-type code="4" vocabulary="2"></aid-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
    <unhcr:value-USD>670391.061</unhcr:value-USD>
+  </transaction>
+  <transaction ref="63005">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2016-03-18"></transaction-date>
+   <value currency="EUR" value-date="2016-03-18">1800000</value>
+   <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-WF/BUD/2016/91027" ref="XI-IATI-EC_ECHO" type="15">
+    <narrative xml:lang="EN">European Commission - Humanitarian Aid &amp; Civil Protection</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>2011173.184</unhcr:value-USD>
   </transaction>
   <transaction ref="53046">
    <transaction-type code="11"></transaction-type>
@@ -838,59 +838,6 @@
   </result>
   <result aggregation-status="0" type="2">
    <title>
-    <narrative xml:lang="EN">Child protection</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">% of UASC for whom a best interests process has been initiated or completed</narrative>
-    </title>
-    <baseline value="100" year="2016">
-     <location ref="Niger"></location>
-     <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-     <dimension name="Population targeted" value="Malian refugees"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="100">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="Malian refugees"></dimension>
-     </target>
-     <actual value="100">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="Malian refugees"></dimension>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">% of UASC for whom a best interests process has been initiated or completed</narrative>
-    </title>
-    <baseline value="100" year="2016">
-     <location ref="Niger"></location>
-     <dimension name="Goal" value="Emergency response"></dimension>
-     <dimension name="Population targeted" value="Nigerian refugees"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="100">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
-     </target>
-     <actual value="100">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
     <narrative xml:lang="EN">Health</narrative>
    </title>
    <indicator measure="1">
@@ -944,6 +891,59 @@
   </result>
   <result aggregation-status="0" type="2">
    <title>
+    <narrative xml:lang="EN">Child protection</narrative>
+   </title>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">% of UASC for whom a best interests process has been initiated or completed</narrative>
+    </title>
+    <baseline value="100" year="2016">
+     <location ref="Niger"></location>
+     <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+     <dimension name="Population targeted" value="Malian refugees"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="100">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="Malian refugees"></dimension>
+     </target>
+     <actual value="100">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="Malian refugees"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">% of UASC for whom a best interests process has been initiated or completed</narrative>
+    </title>
+    <baseline value="100" year="2016">
+     <location ref="Niger"></location>
+     <dimension name="Goal" value="Emergency response"></dimension>
+     <dimension name="Population targeted" value="Nigerian refugees"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="100">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
+     </target>
+     <actual value="100">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
     <narrative xml:lang="EN">Voluntary return</narrative>
    </title>
    <indicator measure="2">
@@ -973,37 +973,13 @@
   </result>
   <result aggregation-status="0" type="2">
    <title>
-    <narrative xml:lang="EN">Water</narrative>
+    <narrative xml:lang="EN">Nutrition</narrative>
    </title>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">Average # of litres of potable water available per person per day</narrative>
+     <narrative xml:lang="EN">Prevalence of global acute malnutrition (6-59 months)</narrative>
     </title>
-    <baseline value="16" year="2016">
-     <location ref="Niger"></location>
-     <dimension name="Goal" value="Emergency response"></dimension>
-     <dimension name="Population targeted" value="Internally Displaced Persons in Niger"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="20">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Internally Displaced Persons in Niger"></dimension>
-     </target>
-     <actual value="15.3">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Internally Displaced Persons in Niger"></dimension>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Average # of litres of potable water available per person per day</narrative>
-    </title>
-    <baseline value="16.3" year="2016">
+    <baseline value="8.3" year="2016">
      <location ref="Niger"></location>
      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
      <dimension name="Population targeted" value="Malian refugees"></dimension>
@@ -1011,12 +987,12 @@
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
-     <target value="20">
+     <target value=".8">
       <location ref="Niger"></location>
       <dimension name="Goal" value="Protection and mixed solutions"></dimension>
       <dimension name="Population targeted" value="Malian refugees"></dimension>
      </target>
-     <actual value="20.3">
+     <actual value="15.1">
       <location ref="Niger"></location>
       <dimension name="Goal" value="Protection and mixed solutions"></dimension>
       <dimension name="Population targeted" value="Malian refugees"></dimension>
@@ -1025,9 +1001,9 @@
    </indicator>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">Average # of litres of potable water available per person per day</narrative>
+     <narrative xml:lang="EN">Prevalence of global acute malnutrition (6-59 months)</narrative>
     </title>
-    <baseline value="15" year="2016">
+    <baseline value="15.2" year="2016">
      <location ref="Niger"></location>
      <dimension name="Goal" value="Emergency response"></dimension>
      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
@@ -1035,12 +1011,12 @@
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
-     <target value="20">
+     <target value="11">
       <location ref="Niger"></location>
       <dimension name="Goal" value="Emergency response"></dimension>
       <dimension name="Population targeted" value="Nigerian refugees"></dimension>
      </target>
-     <actual value="17.5">
+     <actual value="11.24">
       <location ref="Niger"></location>
       <dimension name="Goal" value="Emergency response"></dimension>
       <dimension name="Population targeted" value="Nigerian refugees"></dimension>
@@ -1320,13 +1296,37 @@
   </result>
   <result aggregation-status="0" type="2">
    <title>
-    <narrative xml:lang="EN">Nutrition</narrative>
+    <narrative xml:lang="EN">Water</narrative>
    </title>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">Prevalence of global acute malnutrition (6-59 months)</narrative>
+     <narrative xml:lang="EN">Average # of litres of potable water available per person per day</narrative>
     </title>
-    <baseline value="8.3" year="2016">
+    <baseline value="16" year="2016">
+     <location ref="Niger"></location>
+     <dimension name="Goal" value="Emergency response"></dimension>
+     <dimension name="Population targeted" value="Internally Displaced Persons in Niger"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="20">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Internally Displaced Persons in Niger"></dimension>
+     </target>
+     <actual value="15.3">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Internally Displaced Persons in Niger"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Average # of litres of potable water available per person per day</narrative>
+    </title>
+    <baseline value="16.3" year="2016">
      <location ref="Niger"></location>
      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
      <dimension name="Population targeted" value="Malian refugees"></dimension>
@@ -1334,12 +1334,12 @@
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
-     <target value=".8">
+     <target value="20">
       <location ref="Niger"></location>
       <dimension name="Goal" value="Protection and mixed solutions"></dimension>
       <dimension name="Population targeted" value="Malian refugees"></dimension>
      </target>
-     <actual value="15.1">
+     <actual value="20.3">
       <location ref="Niger"></location>
       <dimension name="Goal" value="Protection and mixed solutions"></dimension>
       <dimension name="Population targeted" value="Malian refugees"></dimension>
@@ -1348,9 +1348,9 @@
    </indicator>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">Prevalence of global acute malnutrition (6-59 months)</narrative>
+     <narrative xml:lang="EN">Average # of litres of potable water available per person per day</narrative>
     </title>
-    <baseline value="15.2" year="2016">
+    <baseline value="15" year="2016">
      <location ref="Niger"></location>
      <dimension name="Goal" value="Emergency response"></dimension>
      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
@@ -1358,12 +1358,12 @@
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
-     <target value="11">
+     <target value="20">
       <location ref="Niger"></location>
       <dimension name="Goal" value="Emergency response"></dimension>
       <dimension name="Population targeted" value="Nigerian refugees"></dimension>
      </target>
-     <actual value="11.24">
+     <actual value="17.5">
       <location ref="Niger"></location>
       <dimension name="Goal" value="Emergency response"></dimension>
       <dimension name="Population targeted" value="Nigerian refugees"></dimension>
@@ -1816,55 +1816,6 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Nutrition</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">IYCF programmes targeting children 0-24 months established or maintained (yes/no)</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Related output: Appropriate infant and young child feeding practices promoted</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="100">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="Malian refugees"></dimension>
-     </target>
-     <actual value="80">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="Malian refugees"></dimension>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of new admissions to community management of acute malnutrition programmes</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Related output: Community management of acute malnutrition programmes implemented and monitored</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="1000">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
-     </target>
-     <actual value="926">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
     <narrative xml:lang="EN">Child protection</narrative>
    </title>
    <indicator measure="1">
@@ -1968,6 +1919,55 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
+    <narrative xml:lang="EN">Nutrition</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IYCF programmes targeting children 0-24 months established or maintained (yes/no)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Related output: Appropriate infant and young child feeding practices promoted</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="100">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="Malian refugees"></dimension>
+     </target>
+     <actual value="80">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="Malian refugees"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of new admissions to community management of acute malnutrition programmes</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Related output: Community management of acute malnutrition programmes implemented and monitored</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="1000">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
+     </target>
+     <actual value="926">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
     <narrative xml:lang="EN">Community mobilization</narrative>
    </title>
    <indicator measure="1">
@@ -1989,6 +1989,77 @@
       <location ref="Niger"></location>
       <dimension name="Goal" value="Protection and mixed solutions"></dimension>
       <dimension name="Population targeted" value="Refugees and asylum-seekers"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Energy</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of PoC per month receiving fuel</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Related output: Domestic fuel provided</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="50000">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
+     </target>
+     <actual value="21378">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">% of public places with access to electricity/lighting</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Related output: Electricity/ lighting provided</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="100">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
+     </target>
+     <actual value="0">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of PoC receiving cash grants or vouchers for energy saving equipment</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Related output: Sectoral cash grants or vouchers provided</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="20000">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="Malian refugees"></dimension>
+     </target>
+     <actual value="5502">
+      <location ref="Niger"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="Malian refugees"></dimension>
      </actual>
     </period>
    </indicator>
@@ -2256,77 +2327,6 @@
       <location ref="Niger"></location>
       <dimension name="Goal" value="Emergency response"></dimension>
       <dimension name="Population targeted" value="Nigerian refugees"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Energy</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of PoC per month receiving fuel</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Related output: Domestic fuel provided</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="50000">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
-     </target>
-     <actual value="21378">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">% of public places with access to electricity/lighting</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Related output: Electricity/ lighting provided</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="100">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
-     </target>
-     <actual value="0">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Nigerian refugees"></dimension>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of PoC receiving cash grants or vouchers for energy saving equipment</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Related output: Sectoral cash grants or vouchers provided</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="20000">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="Malian refugees"></dimension>
-     </target>
-     <actual value="5502">
-      <location ref="Niger"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="Malian refugees"></dimension>
      </actual>
     </period>
    </indicator>

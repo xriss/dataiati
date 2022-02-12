@@ -360,7 +360,7 @@
   <transaction ref="55495">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
-   <value currency="USD" value-date="2015-12-31">1481481.482</value>
+   <value currency="USD" value-date="2015-12-31">1481481</value>
    <description>
     <narrative xml:lang="EN">Monthly contribution summary</narrative>
    </description>
@@ -402,7 +402,7 @@
   <transaction ref="65369">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2016-06-30"></transaction-date>
-   <value currency="USD" value-date="2016-06-30">222965.441</value>
+   <value currency="USD" value-date="2016-06-30">222965</value>
    <description>
     <narrative xml:lang="EN">Monthly contribution summary</narrative>
    </description>
@@ -482,7 +482,7 @@
   <transaction ref="65288">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2016-05-31"></transaction-date>
-   <value currency="USD" value-date="2016-05-31">145560.407</value>
+   <value currency="USD" value-date="2016-05-31">145560</value>
    <description>
     <narrative xml:lang="EN">Monthly contribution summary</narrative>
    </description>
@@ -510,7 +510,7 @@
   <transaction ref="65514">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2016-10-31"></transaction-date>
-   <value currency="USD" value-date="2016-10-31">101214.575</value>
+   <value currency="USD" value-date="2016-10-31">101215</value>
    <description>
     <narrative xml:lang="EN">Monthly contribution summary</narrative>
    </description>
@@ -525,34 +525,34 @@
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2016-04-20"></transaction-date>
    <value currency="EUR" value-date="2016-04-20">25000000</value>
-   <provider-org ref="XI-IATI-EC_ECHO" type="15">
+   <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-EU/BUD/2016/01005" ref="XI-IATI-EC_ECHO" type="15">
     <narrative xml:lang="EN">European Commission - Humanitarian Aid &amp; Civil Protection</narrative>
    </provider-org>
    <aid-type code="4" vocabulary="2"></aid-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
    <unhcr:value-USD>28184892.898</unhcr:value-USD>
   </transaction>
-  <transaction ref="63043">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2016-08-16"></transaction-date>
-   <value currency="EUR" value-date="2016-08-16">82275</value>
-   <provider-org ref="XI-IATI-EC_ECHO" type="15">
-    <narrative xml:lang="EN">European Commission - Humanitarian Aid &amp; Civil Protection</narrative>
-   </provider-org>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <unhcr:value-USD>91927.374</unhcr:value-USD>
-  </transaction>
   <transaction ref="63021">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2016-11-14"></transaction-date>
    <value currency="EUR" value-date="2016-11-14">13000001</value>
-   <provider-org ref="XI-IATI-EC_ECHO" type="15">
+   <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-EU/BUD/2016/01005" ref="XI-IATI-EC_ECHO" type="15">
     <narrative xml:lang="EN">European Commission - Humanitarian Aid &amp; Civil Protection</narrative>
    </provider-org>
    <aid-type code="4" vocabulary="2"></aid-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
    <unhcr:value-USD>14207651.366</unhcr:value-USD>
+  </transaction>
+  <transaction ref="63043">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2016-08-16"></transaction-date>
+   <value currency="EUR" value-date="2016-08-16">82275</value>
+   <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/-EU/BUD/2016/01011" ref="XI-IATI-EC_ECHO" type="15">
+    <narrative xml:lang="EN">European Commission - Humanitarian Aid &amp; Civil Protection</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>91927.374</unhcr:value-USD>
   </transaction>
   <transaction ref="53040">
    <transaction-type code="11"></transaction-type>
@@ -923,6 +923,78 @@
   </result>
   <result aggregation-status="0" type="2">
    <title>
+    <narrative xml:lang="EN">Status determination</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Extent applicants have access to status determination procedure</narrative>
+    </title>
+    <baseline value="50" year="2016">
+     <location ref="Greece"></location>
+     <dimension name="Goal" value="Emergency response"></dimension>
+     <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="75">
+      <location ref="Greece"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
+     </target>
+     <actual value="70">
+      <location ref="Greece"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Extent status determination procedure meets minimum procedural standards advocated by UNHCR</narrative>
+    </title>
+    <baseline value="50" year="2016">
+     <location ref="Greece"></location>
+     <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+     <dimension name="Population targeted" value="Refugees and asylum seekers in Greece"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="75">
+      <location ref="Greece"></location>
+      <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+      <dimension name="Population targeted" value="Refugees and asylum seekers in Greece"></dimension>
+     </target>
+     <actual value="70">
+      <location ref="Greece"></location>
+      <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+      <dimension name="Population targeted" value="Refugees and asylum seekers in Greece"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Extent applicants have access to status determination procedure</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="100">
+      <location ref="Greece"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
+     </target>
+     <actual value="100">
+      <location ref="Greece"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
     <narrative xml:lang="EN">Law and policy</narrative>
    </title>
    <indicator measure="1">
@@ -1099,78 +1171,6 @@
      <actual value="97.85">
       <location ref="Greece"></location>
       <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">Status determination</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Extent applicants have access to status determination procedure</narrative>
-    </title>
-    <baseline value="50" year="2016">
-     <location ref="Greece"></location>
-     <dimension name="Goal" value="Emergency response"></dimension>
-     <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="75">
-      <location ref="Greece"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
-     </target>
-     <actual value="70">
-      <location ref="Greece"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Extent status determination procedure meets minimum procedural standards advocated by UNHCR</narrative>
-    </title>
-    <baseline value="50" year="2016">
-     <location ref="Greece"></location>
-     <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
-     <dimension name="Population targeted" value="Refugees and asylum seekers in Greece"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="75">
-      <location ref="Greece"></location>
-      <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
-      <dimension name="Population targeted" value="Refugees and asylum seekers in Greece"></dimension>
-     </target>
-     <actual value="70">
-      <location ref="Greece"></location>
-      <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
-      <dimension name="Population targeted" value="Refugees and asylum seekers in Greece"></dimension>
-     </actual>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Extent applicants have access to status determination procedure</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2016-01-01"></period-start>
-     <period-end iso-date="2016-12-31"></period-end>
-     <target value="100">
-      <location ref="Greece"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
-     </target>
-     <actual value="100">
-      <location ref="Greece"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
       <dimension name="Population targeted" value="POC Arriving by Med Sea (SMI)"></dimension>
      </actual>
     </period>

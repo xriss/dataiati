@@ -292,17 +292,6 @@
    <aid-type code="B03" vocabulary="1"></aid-type>
    <unhcr:value-USD>371747.212</unhcr:value-USD>
   </transaction>
-  <transaction ref="A3019">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2017-06-15"></transaction-date>
-   <value currency="EUR" value-date="2017-06-15">8272711</value>
-   <provider-org ref="XI-IATI-EC_NEAR" type="15">
-    <narrative xml:lang="EN">European Commission - Neighbourhood and Enlargement Negotiations</narrative>
-   </provider-org>
-   <aid-type code="3" vocabulary="2"></aid-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
-   <unhcr:value-USD>9263954.088</unhcr:value-USD>
-  </transaction>
   <transaction ref="A0175">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2017-06-20"></transaction-date>
@@ -401,6 +390,17 @@
    <aid-type code="4" vocabulary="2"></aid-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
    <unhcr:value-USD>11806375.443</unhcr:value-USD>
+  </transaction>
+  <transaction ref="A3019">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2017-06-15"></transaction-date>
+   <value currency="EUR" value-date="2017-06-15">8272711</value>
+   <provider-org ref="XI-IATI-EC_NEAR" type="15">
+    <narrative xml:lang="EN">European Commission - Neighbourhood and Enlargement Negotiations</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>9263954.088</unhcr:value-USD>
   </transaction>
   <transaction ref="60290">
    <transaction-type code="11"></transaction-type>
@@ -600,6 +600,59 @@
   <related-activity ref="XM-DAC-41121-2018-MENA-LBY" type="3"></related-activity>
   <result aggregation-status="0" type="2">
    <title>
+    <narrative xml:lang="EN">Services for persons with specific needs</narrative>
+   </title>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">% of persons of concern with disabilities who receive services for their specific needs</narrative>
+    </title>
+    <baseline value="10" year="2017">
+     <location ref="Libya"></location>
+     <dimension name="Goal" value="Emergency response"></dimension>
+     <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2017-12-31"></period-end>
+     <target value="30">
+      <location ref="Libya"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
+     </target>
+     <actual value="42.5">
+      <location ref="Libya"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">% of persons of concern with disabilities who receive services for their specific needs</narrative>
+    </title>
+    <baseline value="67.1" year="2017">
+     <location ref="Libya"></location>
+     <dimension name="Goal" value="Protection pending solutions"></dimension>
+     <dimension name="Population targeted" value="Refugees and asylum seekers in urban areas"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2017-12-31"></period-end>
+     <target value="100">
+      <location ref="Libya"></location>
+      <dimension name="Goal" value="Protection pending solutions"></dimension>
+      <dimension name="Population targeted" value="Refugees and asylum seekers in urban areas"></dimension>
+     </target>
+     <actual value="70">
+      <location ref="Libya"></location>
+      <dimension name="Goal" value="Protection pending solutions"></dimension>
+      <dimension name="Population targeted" value="Refugees and asylum seekers in urban areas"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
     <narrative xml:lang="EN">Shelter and infrastructure</narrative>
    </title>
    <indicator measure="2">
@@ -620,64 +673,6 @@
       <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
      </target>
      <actual value="0">
-      <location ref="Libya"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">Voluntary return</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Extent persons of concern able to make an informed choice concerning return</narrative>
-    </title>
-    <baseline value="40" year="2017">
-     <location ref="Libya"></location>
-     <dimension name="Goal" value="Emergency response"></dimension>
-     <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="65">
-      <location ref="Libya"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
-     </target>
-     <actual value="60">
-      <location ref="Libya"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">Community mobilization</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">% of programme priorities identified by the community that are implemented</narrative>
-    </title>
-    <baseline value="75" year="2017">
-     <location ref="Libya"></location>
-     <dimension name="Goal" value="Emergency response"></dimension>
-     <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="80">
-      <location ref="Libya"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
-     </target>
-     <actual value="76.47">
       <location ref="Libya"></location>
       <dimension name="Goal" value="Emergency response"></dimension>
       <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
@@ -758,6 +753,64 @@
       <location ref="Libya"></location>
       <dimension name="Goal" value="Emergency response"></dimension>
       <dimension name="Population targeted" value="Refugees and asylum seekers in urban areas"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Voluntary return</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Extent persons of concern able to make an informed choice concerning return</narrative>
+    </title>
+    <baseline value="40" year="2017">
+     <location ref="Libya"></location>
+     <dimension name="Goal" value="Emergency response"></dimension>
+     <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2017-12-31"></period-end>
+     <target value="65">
+      <location ref="Libya"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
+     </target>
+     <actual value="60">
+      <location ref="Libya"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Community mobilization</narrative>
+   </title>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">% of programme priorities identified by the community that are implemented</narrative>
+    </title>
+    <baseline value="75" year="2017">
+     <location ref="Libya"></location>
+     <dimension name="Goal" value="Emergency response"></dimension>
+     <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2017-12-31"></period-end>
+     <target value="80">
+      <location ref="Libya"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
+     </target>
+     <actual value="76.47">
+      <location ref="Libya"></location>
+      <dimension name="Goal" value="Emergency response"></dimension>
+      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
      </actual>
     </period>
    </indicator>
@@ -926,56 +979,42 @@
     </period>
    </indicator>
   </result>
-  <result aggregation-status="0" type="2">
+  <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Services for persons with specific needs</narrative>
+    <narrative xml:lang="EN">SGBV prevention and response</narrative>
    </title>
-   <indicator measure="2">
+   <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">% of persons of concern with disabilities who receive services for their specific needs</narrative>
+     <narrative xml:lang="EN">#  of reported SGBV incidents for which survivors receive medical assistance</narrative>
     </title>
-    <baseline value="10" year="2017">
-     <location ref="Libya"></location>
-     <dimension name="Goal" value="Emergency response"></dimension>
-     <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
-    </baseline>
+    <description>
+     <narrative xml:lang="EN">Related output: Access to medical services facilitated</narrative>
+    </description>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="30">
+     <target value="150">
       <location ref="Libya"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
+      <dimension name="Goal" value="Protection pending solutions"></dimension>
+      <dimension name="Population targeted" value="Refugees and asylum seekers in urban areas"></dimension>
      </target>
-     <actual value="42.5">
-      <location ref="Libya"></location>
-      <dimension name="Goal" value="Emergency response"></dimension>
-      <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
-     </actual>
     </period>
    </indicator>
-   <indicator measure="2">
+   <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">% of persons of concern with disabilities who receive services for their specific needs</narrative>
+     <narrative xml:lang="EN"># of reported SGBV incidents for which survivors receive psychosocial counselling</narrative>
     </title>
-    <baseline value="67.1" year="2017">
-     <location ref="Libya"></location>
-     <dimension name="Goal" value="Protection pending solutions"></dimension>
-     <dimension name="Population targeted" value="Refugees and asylum seekers in urban areas"></dimension>
-    </baseline>
+    <description>
+     <narrative xml:lang="EN">Related output: Psychosocial counselling provided</narrative>
+    </description>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
-     <target value="100">
+     <target value="150">
       <location ref="Libya"></location>
       <dimension name="Goal" value="Protection pending solutions"></dimension>
       <dimension name="Population targeted" value="Refugees and asylum seekers in urban areas"></dimension>
      </target>
-     <actual value="70">
-      <location ref="Libya"></location>
-      <dimension name="Goal" value="Protection pending solutions"></dimension>
-      <dimension name="Population targeted" value="Refugees and asylum seekers in urban areas"></dimension>
-     </actual>
     </period>
    </indicator>
   </result>
@@ -1165,45 +1204,6 @@
       <location ref="Libya"></location>
       <dimension name="Goal" value="Emergency response"></dimension>
       <dimension name="Population targeted" value="Internally Displaced Persons in Libya"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">SGBV prevention and response</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">#  of reported SGBV incidents for which survivors receive medical assistance</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Related output: Access to medical services facilitated</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="150">
-      <location ref="Libya"></location>
-      <dimension name="Goal" value="Protection pending solutions"></dimension>
-      <dimension name="Population targeted" value="Refugees and asylum seekers in urban areas"></dimension>
-     </target>
-    </period>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of reported SGBV incidents for which survivors receive psychosocial counselling</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Related output: Psychosocial counselling provided</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2017-12-31"></period-end>
-     <target value="150">
-      <location ref="Libya"></location>
-      <dimension name="Goal" value="Protection pending solutions"></dimension>
-      <dimension name="Population targeted" value="Refugees and asylum seekers in urban areas"></dimension>
      </target>
     </period>
    </indicator>

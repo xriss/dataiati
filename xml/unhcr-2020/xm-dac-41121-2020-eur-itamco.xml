@@ -182,7 +182,7 @@
   <transaction ref="D5008">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">119.474</value>
+   <value currency="USD" value-date="2020-12-31">119</value>
    <description>
     <narrative xml:lang="EN">Monthly contribution summary</narrative>
    </description>
@@ -218,7 +218,7 @@
   <transaction ref="C5134">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2019-04-30"></transaction-date>
-   <value currency="USD" value-date="2019-04-30">112233.445</value>
+   <value currency="USD" value-date="2019-04-30">112233</value>
    <description>
     <narrative xml:lang="EN">Monthly contribution summary</narrative>
    </description>
@@ -232,7 +232,7 @@
   <transaction ref="D5008">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-01-31"></transaction-date>
-   <value currency="USD" value-date="2020-01-31">5580.357</value>
+   <value currency="USD" value-date="2020-01-31">5580</value>
    <description>
     <narrative xml:lang="EN">Monthly contribution summary</narrative>
    </description>
@@ -246,7 +246,7 @@
   <transaction ref="DK515">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
-   <value currency="USD" value-date="2020-06-30">16594.85</value>
+   <value currency="USD" value-date="2020-06-30">16595</value>
    <description>
     <narrative xml:lang="EN">Monthly contribution summary</narrative>
    </description>
@@ -401,6 +401,35 @@
   </result>
   <result aggregation-status="0" type="2">
    <title>
+    <narrative xml:lang="EN">SGBV prevention and response</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Extent known SGBV survivors receive appropriate support</narrative>
+    </title>
+    <baseline value="70" year="2020">
+     <location ref="Italy MCO"></location>
+     <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+     <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100">
+      <location ref="Italy MCO"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
+     </target>
+     <actual value="75">
+      <location ref="Italy MCO"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
     <narrative xml:lang="EN">Status determination</narrative>
    </title>
    <indicator measure="1">
@@ -445,35 +474,6 @@
       <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
      </target>
      <actual value="0">
-      <location ref="Italy MCO"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="2">
-   <title>
-    <narrative xml:lang="EN">SGBV prevention and response</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Extent known SGBV survivors receive appropriate support</narrative>
-    </title>
-    <baseline value="70" year="2020">
-     <location ref="Italy MCO"></location>
-     <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-     <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100">
-      <location ref="Italy MCO"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
-     </target>
-     <actual value="75">
       <location ref="Italy MCO"></location>
       <dimension name="Goal" value="Protection and mixed solutions"></dimension>
       <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
@@ -590,33 +590,6 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Community mobilization</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN"># of participatory assessments conducted</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Related output: Participatory Approach implemented</narrative>
-    </description>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="10">
-      <location ref="Italy MCO"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
-     </target>
-     <actual value="27">
-      <location ref="Italy MCO"></location>
-      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
-      <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
     <narrative xml:lang="EN">Law and policy</narrative>
    </title>
    <indicator measure="1">
@@ -703,6 +676,33 @@
      <actual value="1">
       <location ref="Italy MCO"></location>
       <dimension name="Goal" value="Advocacy for protection and solutions"></dimension>
+      <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Community mobilization</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN"># of participatory assessments conducted</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Related output: Participatory Approach implemented</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="10">
+      <location ref="Italy MCO"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
+      <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
+     </target>
+     <actual value="27">
+      <location ref="Italy MCO"></location>
+      <dimension name="Goal" value="Protection and mixed solutions"></dimension>
       <dimension name="Population targeted" value="Refugees and asylum seekers in Italy"></dimension>
      </actual>
     </period>
