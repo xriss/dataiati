@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="ES" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="ES" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00107452</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="ES">United Nations Development Programme</narrative>
@@ -14,6 +14,9 @@
   <participating-org ref="12641" role="1" type="40">
    <narrative xml:lang="ES">MPTFO-UN Multi-Partner Trust Fund for Sustaining Peace in Colombia (previously known as MPTF-Colombia Post-Conflict UNMPTF)</narrative>
   </participating-org>
+  <participating-org ref="11278" role="1" type="40">
+   <narrative xml:lang="ES">Multi-Donor Trust Fund Office</narrative>
+  </participating-org>
   <participating-org ref="XM-DAC-41114" role="4" type="40">
    <narrative xml:lang="ES">United Nations Development Programme</narrative>
   </participating-org>
@@ -24,7 +27,7 @@
   <activity-date iso-date="2022-12-31" type="3"></activity-date>
   <contact-info type="1">
    <email>fo.col@undp.org</email>
-   <website>https://www.co.undp.org/</website>
+   <website>http://www.pnud.org.co/</website>
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="CO" percentage="100">
@@ -129,6 +132,30 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">1</value>
+   <provider-org ref="12641" type="40">
+    <narrative xml:lang="ES">MPTFO-UN Multi-Partner Trust Fund for Sustaining Peace in Colombia (previously known as MPTF-Colombia Post-Conflict UNMPTF)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00107452" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="ES">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">-1</value>
+   <provider-org ref="11278" type="40">
+    <narrative xml:lang="ES">Multi-Donor Trust Fund Office</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00107452" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="ES">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
    <value currency="USD" value-date="2017-12-31">246461</value>
@@ -157,8 +184,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">617247</value>
+   <transaction-date iso-date="2021-04-30"></transaction-date>
+   <value currency="USD" value-date="2021-04-30">617248</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="ES">United Nations Development Programme</narrative>
    </provider-org>
@@ -170,6 +197,9 @@
    </title>
    <category code="A12"></category>
   </document-link>
+  <related-activity ref="XM-DAC-41114-OUTPUT-00100904" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-OUTPUT-00103854" type="3"></related-activity>
+  <related-activity ref="XM-DAC-41114-OUTPUT-00103855" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00104317" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00104318" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00104319" type="3"></related-activity>
@@ -190,7 +220,6 @@
   <related-activity ref="XM-DAC-41114-OUTPUT-00123254" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00123255" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00123943" type="3"></related-activity>
-  <related-activity ref="XM-DAC-41114-OUTPUT-00128634" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-PROJECT-00097044" type="1"></related-activity>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
@@ -210,6 +239,20 @@
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="ES">Dar cumplimiento a sus objetivos, la secretaria t&#xE9;cnica proveer&#xE1; a los notables de reportes anal&#xED;ticos sobre el avance del cumplimiento verificado del Acuerdo final. Tambi&#xE9;n deber&#xE1; preparar propuestas dirigidas a la soluci&#xF3;n de dificultades para la implementaci&#xF3;n de los acuerdos y la resoluci&#xF3;n de controversias identificadas.</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="ES">La secretaria responde a las demandas puntuales que el Acuerdo Final establece, tambi&#xE9;n busca contribuir con la comunicaci&#xF3;n eficaz y transparente del acuerdo final al publico colombiano. Los productos contendr&#xE1;n informaci&#xF3;n transparente y rigurosa sobre el cumplimiento verificado o comprobado de la implementaci&#xF3;n para reducir el impacto de las controversias que pueden surgir, y contribuir a la construcci&#xF3;n de una paz estable y duradera, as&#xED; como a garantizar la sostenibilidad de su implementaci&#xF3;n.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target>
@@ -226,20 +269,6 @@
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="ES">N/A</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="ES">N/A</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
      <target>
       <comment>
        <narrative xml:lang="ES">N/A</narrative>
