@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-PROJECT-00063928</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -44,6 +44,9 @@
   <participating-org ref="00555" role="1" type="10">
    <narrative xml:lang="EN">SWEDISH INTERNATIONAL DEVELOPMENT COOPERATION (SIDA)</narrative>
   </participating-org>
+  <participating-org ref="13877" role="1" type="40">
+   <narrative xml:lang="EN">The Leona M. and Harry B. Helmsley Charitable Trust</narrative>
+  </participating-org>
   <participating-org ref="12519" role="1">
    <narrative xml:lang="EN">UNAIDS Budget Results Accountability Framework (UBRAF)</narrative>
   </participating-org>
@@ -55,9 +58,6 @@
   </participating-org>
   <participating-org ref="41119" role="1">
    <narrative xml:lang="EN">UNITED NATIONS POPULATION FUND</narrative>
-  </participating-org>
-  <participating-org ref="US-USAGOV" role="1" type="10">
-   <narrative xml:lang="EN">UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT (USAID)</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-41114" role="4" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -78,21 +78,24 @@
   <recipient-region code="998" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Developing countries, unspecified</narrative>
   </recipient-region>
-  <sector code="1.2" percentage="8.33" vocabulary="8"></sector>
-  <sector code="1.A" percentage="8.33" vocabulary="8"></sector>
-  <sector code="10.2" percentage="8.33" vocabulary="8"></sector>
-  <sector code="10.3" percentage="8.33" vocabulary="8"></sector>
-  <sector code="12.4" percentage="8.33" vocabulary="8"></sector>
-  <sector code="16.B" percentage="8.33" vocabulary="8"></sector>
+  <sector code="1.2" percentage="6.67" vocabulary="8"></sector>
+  <sector code="1.A" percentage="6.67" vocabulary="8"></sector>
+  <sector code="10.2" percentage="6.67" vocabulary="8"></sector>
+  <sector code="10.3" percentage="6.67" vocabulary="8"></sector>
+  <sector code="12.4" percentage="6.67" vocabulary="8"></sector>
+  <sector code="16.B" percentage="6.67" vocabulary="8"></sector>
   <sector code="16050" percentage="25" vocabulary="1"></sector>
-  <sector code="3.3" percentage="8.33" vocabulary="8"></sector>
-  <sector code="3.4" percentage="8.33" vocabulary="8"></sector>
-  <sector code="3.9" percentage="8.33" vocabulary="8"></sector>
-  <sector code="3.A" percentage="8.33" vocabulary="8"></sector>
-  <sector code="3.B" percentage="8.33" vocabulary="8"></sector>
+  <sector code="23210" percentage="25" vocabulary="1"></sector>
+  <sector code="3.3" percentage="6.67" vocabulary="8"></sector>
+  <sector code="3.4" percentage="6.67" vocabulary="8"></sector>
+  <sector code="3.5" percentage="6.67" vocabulary="8"></sector>
+  <sector code="3.8" percentage="6.67" vocabulary="8"></sector>
+  <sector code="3.9" percentage="6.67" vocabulary="8"></sector>
+  <sector code="3.A" percentage="6.67" vocabulary="8"></sector>
+  <sector code="3.B" percentage="6.67" vocabulary="8"></sector>
   <sector code="41010" percentage="25" vocabulary="1"></sector>
-  <sector code="51010" percentage="25" vocabulary="1"></sector>
-  <sector code="9.4" percentage="8.33" vocabulary="8"></sector>
+  <sector code="7.1" percentage="6.67" vocabulary="8"></sector>
+  <sector code="9.4" percentage="6.67" vocabulary="8"></sector>
   <sector code="99810" percentage="25" vocabulary="1"></sector>
   <tag code="1.2" vocabulary="3"></tag>
   <tag code="1.A" vocabulary="3"></tag>
@@ -102,9 +105,12 @@
   <tag code="16.B" vocabulary="3"></tag>
   <tag code="3.3" vocabulary="3"></tag>
   <tag code="3.4" vocabulary="3"></tag>
+  <tag code="3.5" vocabulary="3"></tag>
+  <tag code="3.8" vocabulary="3"></tag>
   <tag code="3.9" vocabulary="3"></tag>
   <tag code="3.A" vocabulary="3"></tag>
   <tag code="3.B" vocabulary="3"></tag>
+  <tag code="7.1" vocabulary="3"></tag>
   <tag code="9.4" vocabulary="3"></tag>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -230,6 +236,13 @@
   <document-link format="APPLICATION/PDF" url="https://info.undp.org/docs/pdc/Documents/H70/CDR Q4 2018 CDR Project 88695 Jan-Dec 2018.PDF">
    <title>
     <narrative xml:lang="EN">CDR Q4 2018 CDR Project 88695 Jan-Dec 2018</narrative>
+   </title>
+   <category code="A08"></category>
+   <language code="EN"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://info.undp.org/docs/pdc/Documents/H70/CDR Q4 2020 088695 ACT.pdf">
+   <title>
+    <narrative xml:lang="EN">CDR Q4 2020 088695 ACT</narrative>
    </title>
    <category code="A08"></category>
    <language code="EN"></language>
@@ -741,7 +754,6 @@
   <related-activity ref="XM-DAC-41114-OUTPUT-00088694" type="2"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00088695" type="2"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00088696" type="2"></related-activity>
-  <related-activity ref="XM-DAC-41114-OUTPUT-00100102" type="2"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00100987" type="2"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00100989" type="2"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00100992" type="2"></related-activity>
@@ -767,6 +779,7 @@
   <related-activity ref="XM-DAC-41114-OUTPUT-00126895" type="2"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00126897" type="2"></related-activity>
   <related-activity ref="XM-DAC-41114-OUTPUT-00127113" type="2"></related-activity>
+  <related-activity ref="XM-DAC-41114-OUTPUT-00128769" type="2"></related-activity>
   <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

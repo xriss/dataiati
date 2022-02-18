@@ -15,6 +15,9 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <participating-org ref="GB-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">British Government (DFID)</narrative>
   </participating-org>
+  <participating-org ref="US-GOV-1" role="1" type="10">
+   <narrative xml:lang="EN">Bureau for Humanitarian Assistance</narrative>
+  </participating-org>
   <participating-org role="1" type="10">
    <narrative xml:lang="EN">Canada</narrative>
   </participating-org>
@@ -45,7 +48,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <participating-org ref="CH-4" role="1" type="10">
    <narrative xml:lang="EN">Switzerland</narrative>
   </participating-org>
-  <participating-org ref="XM-DAC-41122-U47105" role="4">
+  <participating-org ref="XM-UNICEF-05" role="4">
    <narrative xml:lang="EN">UNDP REPRESENTATIVE IN VENEZUELA US</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-41122" role="4" type="40">
@@ -53,9 +56,6 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   </participating-org>
   <participating-org role="3" type="40">
    <narrative xml:lang="EN">UNICEF</narrative>
-  </participating-org>
-  <participating-org ref="US-GOV-1" role="1" type="10">
-   <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
   </participating-org>
   <participating-org ref="US-GOV-1" role="1" type="10">
    <narrative xml:lang="EN">USAID/Food for Peace</narrative>
@@ -116,9 +116,27 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    <activity-description>
     <narrative xml:lang="EN"></narrative>
    </activity-description>
-   <administrative level="1" vocabulary="G1"></administrative>
+   <administrative code="1419790" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>6.42375 -66.58973</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id vocabulary="1"></location-id>
+   <name>
+    <narrative xml:lang="EN">San Cristobal</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">San Cristobal</narrative>
+   </description>
+   <activity-description>
+    <narrative xml:lang="EN"></narrative>
+   </activity-description>
+   <administrative code="3583326" level="2" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>7.77567 -72.2214</pos>
    </point>
    <exactness code="1"></exactness>
   </location>
@@ -194,37 +212,28 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    </point>
    <exactness code="1"></exactness>
   </location>
-  <location>
-   <location-reach code="1"></location-reach>
-   <location-id vocabulary="1"></location-id>
-   <name>
-    <narrative xml:lang="EN">San Cristobal</narrative>
-   </name>
-   <description>
-    <narrative xml:lang="EN">San Cristobal</narrative>
-   </description>
-   <activity-description>
-    <narrative xml:lang="EN"></narrative>
-   </activity-description>
-   <administrative level="2" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>7.77567 -72.2214</pos>
-   </point>
-   <exactness code="1"></exactness>
-  </location>
+  <sector code="91010" percentage="4.3" vocabulary="1">
+   <narrative xml:lang="EN">Administrative costs (non-sector allocable)</narrative>
+  </sector>
   <sector code="14010" percentage="0.2" vocabulary="1">
    <narrative xml:lang="EN">Basic drinking water supply</narrative>
   </sector>
-  <sector code="6" percentage="100" vocabulary="7">
+  <sector code="6" percentage="95.7" vocabulary="7">
    <narrative xml:lang="EN">Clean Water and Sanitation</narrative>
   </sector>
-  <sector code="74020" percentage="99.8" vocabulary="1">
+  <sector code="74020" percentage="95.5" vocabulary="1">
    <narrative xml:lang="EN">Multi-hazard response preparedness</narrative>
+  </sector>
+  <sector code="26-07-01" percentage="4.3" vocabulary="99">
+   <narrative xml:lang="EN">Operations support to programme delivery</narrative>
+  </sector>
+  <sector code="17" percentage="4.3" vocabulary="7">
+   <narrative xml:lang="EN">Partnerships for the Goals</narrative>
   </sector>
   <sector code="24-01-99" percentage="0.2" vocabulary="99">
    <narrative xml:lang="EN">Technical assistance - Water</narrative>
   </sector>
-  <sector code="24-02-12" percentage="99.8" vocabulary="99">
+  <sector code="24-02-12" percentage="95.5" vocabulary="99">
    <narrative xml:lang="EN">WASH in emergencies - institutions (schools, health care facilities, ECD centres) response including menstrual hygiene management</narrative>
   </sector>
   <sector code="11" percentage="0.2" vocabulary="10" vocabulary-uri="https://data.humdata.org/dataset/global-coordination-groups-beta">
@@ -240,8 +249,8 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
     </description>
    </budget-item>
   </country-budget-items>
-  <humanitarian-scope code="HAC" type="2" vocabulary="99" vocabulary-uri="https://www.unicef.org/appeals/venezuela.html">
-   <narrative xml:lang="EN">Humanitarian Action for Children Appeal</narrative>
+  <humanitarian-scope code="HAC" type="2" vocabulary="99" vocabulary-uri="https://www.unicef.org/appeals/venezuela">
+   <narrative xml:lang="EN">Humanitarian Action for Children Appeal (HAC)</narrative>
   </humanitarian-scope>
   <policy-marker code="1" significance="1" vocabulary="1">
    <narrative xml:lang="EN"></narrative>
@@ -249,62 +258,62 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
-  <default-aid-type code="B03" vocabulary="1"></default-aid-type>
+  <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-03-31"></period-end>
-   <value currency="USD" value-date="2021-03-31">279457.75</value>
+   <value currency="USD" value-date="2021-03-31">279457.5</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2021-04-01"></period-start>
    <period-end iso-date="2021-06-30"></period-end>
-   <value currency="USD" value-date="2021-06-30">279457.75</value>
+   <value currency="USD" value-date="2021-06-30">279457.5</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2021-07-01"></period-start>
    <period-end iso-date="2021-09-30"></period-end>
-   <value currency="USD" value-date="2021-09-30">279457.75</value>
+   <value currency="USD" value-date="2021-09-30">279457.5</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">1117831</value>
+   <value currency="USD" value-date="2022-01-31">1117830</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2021-10-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">279457.75</value>
+   <value currency="USD" value-date="2021-12-31">279457.5</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-03-31"></period-end>
-   <value currency="USD" value-date="2022-03-31">279457.75</value>
+   <value currency="USD" value-date="2022-03-31">279457.5</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2022-04-01"></period-start>
    <period-end iso-date="2022-06-30"></period-end>
-   <value currency="USD" value-date="2022-06-30">279457.75</value>
+   <value currency="USD" value-date="2022-06-30">279457.5</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2022-07-01"></period-start>
    <period-end iso-date="2022-09-30"></period-end>
-   <value currency="USD" value-date="2022-09-30">279457.75</value>
+   <value currency="USD" value-date="2022-09-30">279457.5</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">1117831</value>
+   <value currency="USD" value-date="2022-01-31">1117830</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2022-10-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-12-31">279457.75</value>
+   <value currency="USD" value-date="2022-12-31">279457.5</value>
   </budget>
   <planned-disbursement type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">1117831</value>
+   <value currency="USD" value-date="2022-01-31">1117830</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -315,7 +324,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <planned-disbursement type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">1117831</value>
+   <value currency="USD" value-date="2022-01-31">1117830</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -351,6 +360,54 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">340611</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Bureau for Humanitarian Assistance</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">340611</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Bureau for Humanitarian Assistance</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">31356</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Bureau for Humanitarian Assistance</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">31356</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Bureau for Humanitarian Assistance</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-01-01">32942</value>
    <description>
     <narrative xml:lang="EN"></narrative>
@@ -364,6 +421,30 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-01-01">32942</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Canada</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">306084</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Canada</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">306084</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -388,6 +469,30 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-01-01">210792</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">European Commission / ECHO</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">72049</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">European Commission / ECHO</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">72049</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -412,6 +517,30 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-01-01">134362</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">German Federal Foreign Office</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">33383</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">German Federal Foreign Office</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">33383</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -470,6 +599,30 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">55325</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">55325</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Thematic Humanitarian Resp</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-01-01">5391</value>
    <description>
@@ -484,6 +637,30 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-01-01">5391</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Water Sanitation &amp; Hygiene</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">29609</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Global - Water Sanitation &amp; Hygiene</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">29609</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -542,6 +719,54 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">15958</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">SIDA - Sweden</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">15958</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">SIDA - Sweden</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">81565</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Spain</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">81565</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">Spain</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-01-01">67260</value>
    <description>
@@ -566,25 +791,25 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">340611</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">97146</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
+    <narrative xml:lang="EN">Switzerland</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-01">340611</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">97146</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
    <provider-org>
-    <narrative xml:lang="EN">USA (USAID) OFDA</narrative>
+    <narrative xml:lang="EN">Switzerland</narrative>
    </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
@@ -604,6 +829,30 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-01-01">11961</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USAID/Food for Peace</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">1391682</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN">USAID/Food for Peace</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Commitment">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-01">1391682</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -615,7 +864,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-01-31"></transaction-date>
-   <value currency="USD" value-date="2021-01-31">79727</value>
+   <value currency="USD" value-date="2021-01-31">79728</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -627,7 +876,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">84850</value>
+   <value currency="USD" value-date="2021-02-28">84851</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -639,7 +888,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="USD" value-date="2021-03-31">71498</value>
+   <value currency="USD" value-date="2021-03-31">71503</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -687,7 +936,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-07-31"></transaction-date>
-   <value currency="USD" value-date="2021-07-31">87811</value>
+   <value currency="USD" value-date="2021-07-31">87804</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -747,19 +996,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-11-30"></transaction-date>
-   <value currency="USD" value-date="2021-11-30">140740</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction humanitarian="0" ref="Disbursement">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">0</value>
+   <value currency="USD" value-date="2021-11-30">140742</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -771,7 +1008,43 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
   <transaction humanitarian="1" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">93932</value>
+   <value currency="USD" value-date="2021-12-31">93929</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Disbursement">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">711316</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">54060</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">78937</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -836,41 +1109,41 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    <language code="EN"></language>
    <document-date iso-date="2021-09-10"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_become_a_supplier.html">
-   <title>
-    <narrative xml:lang="EN">Become a Supplier</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2016-10-04"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="http://www.unicef.org/about/partnerships/index_60043.html">
-   <title>
-    <narrative xml:lang="EN">Conditions for Partnerships</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-06-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/about/partnerships/index_60074.html">
-   <title>
-    <narrative xml:lang="EN">Principles of Partnership</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-06-01"></document-date>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/about/partnerships/index_81428.html">
-   <title>
-    <narrative xml:lang="EN">CSO Procedure</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2017-09-26"></document-date>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="https://open.unicef.org/sites/transparency/files/documents/PCA_4710_Venezuela_2021.pdf">
    <title>
     <narrative xml:lang="EN">4710/A0/05/905/001 Programme Cooperation Agreement</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-10-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/suppliers-and-service-providers">
+   <title>
+    <narrative xml:lang="EN">For suppliers and service providers</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-10-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://open.unicef.org/sites/transparency/files/documents/UNICEF_HACT_Policy.pdf">
+   <title>
+    <narrative xml:lang="EN">UNICEF Policy on Harmonized Approach to Cash Transfers to Implementing Partners</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-10-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://open.unicef.org/sites/transparency/files/documents/UNICEF_HACT_Procedure.pdf">
+   <title>
+    <narrative xml:lang="EN">UNICEF Procedure on Harmonized Approach to Cash Transfers to Implementing Partners</narrative>
+   </title>
+   <category code="A04"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2021-10-31"></document-date>
+  </document-link>
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/partnerships/procedure-programme-implementation-partnerships">
+   <title>
+    <narrative xml:lang="EN">UNICEF procedure for programme implementation partnerships</narrative>
    </title>
    <category code="A04"></category>
    <language code="EN"></language>
@@ -883,7 +1156,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    <category code="A04"></category>
    <category code="A05"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-12-31"></document-date>
+   <document-date iso-date="2022-01-31"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/ContractAward?agencyEnglishAbbreviation=UNICEF">
    <title>
@@ -891,7 +1164,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    </title>
    <category code="A06"></category>
    <language code="EN"></language>
-   <document-date iso-date="2017-10-06"></document-date>
+   <document-date iso-date="2021-10-31"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/evaluation/reports#/?&amp;Country=Venezuela">
    <title>
@@ -910,29 +1183,29 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    <language code="EN"></language>
    <document-date iso-date="2021-02-28"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="http://www.unicef.org/about/partnerships/index_60043.html">
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/partnerships">
    <title>
-    <narrative xml:lang="EN">Frameworks for Partnerships</narrative>
+    <narrative xml:lang="EN">UNICEF partnerships</narrative>
    </title>
    <category code="A09"></category>
    <language code="EN"></language>
-   <document-date iso-date="2017-06-01"></document-date>
+   <document-date iso-date="2021-10-31"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25983.html">
+  <document-link format="TEXT/HTML" url="https://supply.unicef.org/">
    <title>
-    <narrative xml:lang="EN">Tender Calendars</narrative>
+    <narrative xml:lang="EN">UNICEF Supply Catalogue</narrative>
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2012-05-15"></document-date>
+   <document-date iso-date="2021-10-31"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_25947.html">
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/tender-calendars">
    <title>
-    <narrative xml:lang="EN">Bidding Opportunities</narrative>
+    <narrative xml:lang="EN">UNICEF Tender Calendars</narrative>
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2017-12-31"></document-date>
+   <document-date iso-date="2021-10-31"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/Notice?agencyEnglishAbbreviation=UNICEF">
    <title>
@@ -940,7 +1213,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2017-12-31"></document-date>
+   <document-date iso-date="2021-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://open.unicef.org/sites/transparency/files/documents/Venezuela Country Office Tender Notice.pdf">
    <title>
@@ -948,15 +1221,23 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-12-31"></document-date>
+   <document-date iso-date="2022-01-31"></document-date>
   </document-link>
-  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/index_27009.html">
+  <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/contract-awards">
    <title>
     <narrative xml:lang="EN">UNICEF Supply Contract Awards</narrative>
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2017-10-06"></document-date>
+   <document-date iso-date="2021-10-31"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://open.unicef.org/sites/transparency/files/documents/4710A005905001000 Contract Awards.pdf">
+   <title>
+    <narrative xml:lang="EN">4710/A0/05/905/001 Contract Awards</narrative>
+   </title>
+   <category code="A11"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2022-01-31"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://open.unicef.org/country-output?output-id=4710A005905001000">
    <title>
@@ -965,7 +1246,7 @@ in a clean and safe environment and people are empowered to adopt adequate hygie
    <category code="A08"></category>
    <category code="A12"></category>
    <language code="EN"></language>
-   <document-date iso-date="2021-12-31"></document-date>
+   <document-date iso-date="2022-01-31"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unicef.org/venezuela/">
    <title>
