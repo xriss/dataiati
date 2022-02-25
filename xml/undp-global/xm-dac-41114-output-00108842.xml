@@ -369,15 +369,6 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">2000000</value>
-   <provider-org ref="XM-DAC-41114" type="40">
-    <narrative xml:lang="EN">United Nations Development Programme</narrative>
-   </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">24875</value>
@@ -390,6 +381,15 @@
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">88917</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">1778795</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -538,6 +538,52 @@ c) percentage of seizures that translate into arrests
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">0.1 &gt;=4
+0.2 &gt;=200 (40% women)
+0.3.a (Ports &#x2013; seizures) &gt;=5
+0.3.a (Ports &#x2013; arrest) &gt;=10
+0.3.b (GWP Nat. Projects &#x2013; seizures) &gt; 5620
+0.3.b (GWP Nat. Projects - arrest) &gt; 124
+1.1.a &gt;=28
+1.1.b &gt;=6
+1.2 &gt;=2
+1.3.a &gt;=30 (30% women)
+1.3.b &gt;=1000
+2.1 &gt;=3
+2.2 &gt;=6
+2.3 &gt;=15
+2.4 &gt;=5
+3.1 &gt;=6
+3.2 &gt;=6</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">0.1 5
+0.2 838 (36% women)
+0.3.a (Ports &#x2013; seizures) 7 (0 at target ports) 
+0.3.a (Ports &#x2013; arrest) 11 (0 at target ports) 
+0.3.b (GWP Nat. Projects &#x2013; seizures) no data
+0.3.b (GWP Nat. Projects - arrest) no data
+1.1.a 26
+1.1.b 6
+1.2 3
+1.3.a 18 (17% women)
+1.3.b no change
+2.1 3
+2.2 5
+2.3 4
+2.4 2
+3.1 13
+3.2 20</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
      <target>
       <comment>
        <narrative xml:lang="EN">0.1 &gt;=4

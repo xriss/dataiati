@@ -55,15 +55,21 @@
    <value currency="EUR" value-date="2021-06-30">0</value>
    <provider-org provider-activity-id="XM-DAC-7-PPR-4000004192" ref="XM-DAC-7" type="10"></provider-org>
   </transaction>
+  <transaction humanitarian="1" ref="IMASB-Q4">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">0</value>
+  </transaction>
   <related-activity ref="CH-FDJP-CHE109506789-PPR-4000004192" type="1"></related-activity>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Relevant documents stored and IMAS website up-to-date</narrative>
    </title>
-   <indicator aggregation-status="1" measure="1">
+   <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of IMAS reviewed</narrative>
     </title>
+    <baseline iso-date="2021-01-01" value="3" year="2021"></baseline>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-03-31"></period-end>
@@ -85,6 +91,16 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2021-10-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="3"></target>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">No IMAS was approved in Q4</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2021-07-01"></period-start>
      <period-end iso-date="2021-09-30"></period-end>
      <target value="3"></target>
@@ -93,12 +109,6 @@
        <narrative xml:lang="EN">No IMAS were approved in Q3</narrative>
       </comment>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-02-28"></period-end>
-     <target value="3"></target>
-     <actual value="0"></actual>
     </period>
    </indicator>
   </result>

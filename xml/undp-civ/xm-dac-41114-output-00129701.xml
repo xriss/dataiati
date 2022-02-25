@@ -67,11 +67,6 @@
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="2">
-   <period-start iso-date="2021-01-01"></period-start>
-   <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2021-12-31">0</value>
-  </budget>
-  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
    <value currency="USD" value-date="2022-01-31">515480</value>
@@ -132,8 +127,17 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">651000</value>
+   <transaction-date iso-date="2022-01-31"></transaction-date>
+   <value currency="USD" value-date="2022-01-31">651000</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-02-21"></transaction-date>
+   <value currency="USD" value-date="2022-02-21">6066</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
@@ -147,5 +151,43 @@
   </document-link>
   <related-activity ref="XM-DAC-41114-PROJECT-00140615" type="1"></related-activity>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="FR">Annual Output Results</narrative>
+   </title>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Output Indicator</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">Indicateur 1a:  Niveau de perception des populations sur la s&#xE9;curit&#xE9; et la suret&#xE9; (H/F et par tranche d&#x2019;&#xE2;ge)
+Indicateur 1b : Niveau de confiance entre les FDS et les communaut&#xE9;s 
+Indicateur 1c : Taux de conflits r&#xE9;gl&#xE9;s</narrative>
+    </description>
+    <baseline year="2022">
+     <comment>
+      <narrative xml:lang="FR">-1a:  Niveau de perception des populations sur la s&#xE9;curit&#xE9; et la suret&#xE9; (H/F et par tranche d&#x2019;&#xE2;ge): A d&#xE9;terminer par une enqu&#xEA;te
+-1b : Niveau de confiance entre les FDS et les communaut&#xE9;s : A d&#xE9;terminer par une enqu&#xEA;te
+- 1C: taux de conflits r&#xE9;gl&#xE9;s: 0</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="FR">-Niveau de perception des populations sur la s&#xE9;curit&#xE9; et la suret&#xE9; (H/F et par tranche d&#x2019; ge) 70%
+-Niveau de confiance entre les forces de d&#xE9;fense et de s&#xE9;curit&#xE9; et les communaut&#xE9;s est de 70%
+-Taux de conflits r&#xE9;gl&#xE9;s est 70%</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="FR"></narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>
