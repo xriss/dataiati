@@ -36,18 +36,51 @@
    <period-end iso-date="2020-10-31"></period-end>
    <value currency="EUR" value-date="2019-10-31">150000</value>
   </budget>
+  <budget status="2" type="1">
+   <period-start iso-date="2020-11-01"></period-start>
+   <period-end iso-date="2021-10-31"></period-end>
+   <value currency="EUR" value-date="2020-10-31">150000</value>
+  </budget>
   <planned-disbursement type="1">
    <period-start iso-date="2019-11-01"></period-start>
    <period-end iso-date="2020-10-31"></period-end>
    <value currency="EUR" value-date="2019-10-31">150000</value>
    <provider-org provider-activity-id="XM-DAC-7-PPR-4000003338" ref="XM-DAC-7-PPR" type="10"></provider-org>
   </planned-disbursement>
+  <planned-disbursement type="1">
+   <period-start iso-date="2020-11-01"></period-start>
+   <period-end iso-date="2021-10-31"></period-end>
+   <value currency="EUR" value-date="2020-10-31">150000</value>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000003338" ref="XM-DAC-7-PPR" type="10"></provider-org>
+  </planned-disbursement>
+  <transaction humanitarian="1" ref="Basic Financial Services Expenditure 2020">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">120296</value>
+   <description>
+    <narrative xml:lang="EN">Basic Financial Services Expenditure 2020</narrative>
+   </description>
+   <provider-org provider-activity-id="BI-NIF-4000742330-2400MFI" ref="BI-NIF-4000742330" type="70">
+    <narrative xml:lang="EN">AUXFIN Burundi</narrative>
+   </provider-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Basic Financial Services Expenditure 2021">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">90656</value>
+   <description>
+    <narrative xml:lang="EN">Basic Financial Services Expenditure 2021</narrative>
+   </description>
+   <provider-org provider-activity-id="BI-NIF-4000742330-2400MFI" ref="BI-NIF-4000742330" type="70">
+    <narrative xml:lang="EN">AUXFIN Burundi</narrative>
+   </provider-org>
+  </transaction>
   <transaction humanitarian="1" ref="Basic Financial Services Incoming commitment">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2019-10-31"></transaction-date>
    <value currency="EUR" value-date="2019-10-31">150000</value>
    <description>
-    <narrative xml:lang="EN">Incoming commitment 3 years EKN</narrative>
+    <narrative xml:lang="EN">Incoming commitment year 1 EKN</narrative>
    </description>
    <provider-org provider-activity-id="BI-NIF-4000742330-EKN2019" ref="BI-NIF-4000742330" type="70">
     <narrative xml:lang="EN">AUXFIN Burundi</narrative>
@@ -56,11 +89,19 @@
     <narrative xml:lang="EN">AUXFIN Burundi</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Basic Financial Services Expenditure">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">120296</value>
-   <provider-org provider-activity-id="BI-NIF-4000742330-2400MFI" ref="BI-NIF-4000742330" type="70"></provider-org>
+  <transaction humanitarian="1" ref="Basic Financial Services Incoming commitment - Amendment 1">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-10-31"></transaction-date>
+   <value currency="EUR" value-date="2020-10-31">150000</value>
+   <description>
+    <narrative xml:lang="EN">Incoming commitment year EKN - Amendment 1</narrative>
+   </description>
+   <provider-org provider-activity-id="BI-NIF-4000742330-EKN2019" ref="BI-NIF-4000742330" type="70">
+    <narrative xml:lang="EN">AUXFIN Burundi</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="BI-NIF-4000742330-2400MFI" ref="BI-NIF-4000742330" type="70">
+    <narrative xml:lang="EN">AUXFIN Burundi</narrative>
+   </receiver-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://portal.auxfin.com/index.php/s/XeKYLyXd2KpTRmY">
    <title>
@@ -69,6 +110,14 @@
    <category code="A07"></category>
    <language code="EN"></language>
    <document-date iso-date="2021-02-25"></document-date>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://portal.auxfin.com/index.php/s/nkH2RbAPgxSEPWb">
+   <title>
+    <narrative xml:lang="EN">Progress Report 2021</narrative>
+   </title>
+   <category code="A07"></category>
+   <language code="EN"></language>
+   <document-date iso-date="2022-02-28"></document-date>
   </document-link>
   <related-activity ref="BI-NIF-4000742330-EKN2019" type="1"></related-activity>
   <result aggregation-status="1" type="2">
@@ -80,16 +129,31 @@
    </description>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">N&#xBA; of periodic deposits and withdrawals</narrative>
+     <narrative xml:lang="EN">N&#xBA; of bank accounts with access to basic financial services</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">N&#xBA; of periodic deposits and withdrawals</narrative>
+     <narrative xml:lang="EN">N&#xBA; of bank accounts with access to basic financial services</narrative>
     </description>
     <baseline iso-date="2019-10-31" value="0" year="2019"></baseline>
     <period>
      <period-start iso-date="2019-11-01"></period-start>
      <period-end iso-date="2022-10-31"></period-end>
-     <actual value="15250"></actual>
+     <target value="400000"></target>
+     <actual value="404299"></actual>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Total value (BIF) of periodic deposits</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Total value (BIF) of periodic deposits</narrative>
+    </description>
+    <baseline iso-date="2019-10-31" value="0" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2019-11-01"></period-start>
+     <period-end iso-date="2022-10-31"></period-end>
+     <actual value="886552500"></actual>
     </period>
    </indicator>
   </result>
@@ -111,7 +175,7 @@
     <period>
      <period-start iso-date="2019-11-01"></period-start>
      <period-end iso-date="2022-10-31"></period-end>
-     <target value="2"></target>
+     <target value="6"></target>
      <actual value="2"></actual>
     </period>
    </indicator>
@@ -125,10 +189,25 @@
    </description>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">N&#xBA; of products launched or under development</narrative>
+     <narrative xml:lang="EN">N&#xBA; of new financial products and services launched</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">N&#xBA; of products launched or under development</narrative>
+     <narrative xml:lang="EN">N&#xBA; of new financial products and services launched</narrative>
+    </description>
+    <baseline iso-date="2019-10-31" value="0" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2019-11-01"></period-start>
+     <period-end iso-date="2022-10-31"></period-end>
+     <target value="2"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">N&#xBA; of new financial products and services under development</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">N&#xBA; of new financial products and services under development</narrative>
     </description>
     <baseline iso-date="2019-10-31" value="0" year="2019"></baseline>
     <period>
@@ -148,6 +227,20 @@
    </description>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
+     <narrative xml:lang="EN">N&#xBA; digital bank accounts connected to digital services of MFI&apos;s</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">N&#xBA; digital bank accounts connected to digital services of MFI&apos;s</narrative>
+    </description>
+    <baseline iso-date="2019-10-31" value="0" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2019-11-01"></period-start>
+     <period-end iso-date="2022-10-31"></period-end>
+     <actual value="404299"></actual>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
      <narrative xml:lang="EN">N&#xBA; of MFI clients doing digital transactions</narrative>
     </title>
     <description>
@@ -157,7 +250,7 @@
     <period>
      <period-start iso-date="2019-11-01"></period-start>
      <period-end iso-date="2022-10-31"></period-end>
-     <actual value="15250"></actual>
+     <actual value="25452"></actual>
     </period>
    </indicator>
   </result>
