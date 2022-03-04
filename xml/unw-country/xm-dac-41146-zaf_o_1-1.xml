@@ -53,6 +53,24 @@
    </point>
    <exactness code="1"></exactness>
   </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">Pretoria</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-25.747868 28.229271</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">Pretoria</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-25.747868 28.229271</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
   <sector code="O1" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Enhanced coordination, coherence and accountability of the UN system</narrative>
   </sector>
@@ -66,6 +84,11 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="1" type="1">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">143064</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -87,9 +110,19 @@
    <value currency="USD" value-date="2021-12-31">137000</value>
   </budget>
   <budget status="1" type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-12-31">137000</value>
+  </budget>
+  <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">5000</value>
+   <value currency="USD" value-date="2022-02-28">5000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-02-28">5000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -226,8 +259,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">109334</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">109334</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -283,6 +316,21 @@
      <actual value="20"></actual>
     </period>
    </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Percentage of UN SCF/UNDAF and common country programmes (CCPDs) finalized with measurable and dedicated results and resources for gender equality</narrative>
+    </title>
+    <baseline value="50" year="2015">
+     <comment>
+      <narrative xml:lang="EN">50%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="20"></actual>
+    </period>
+   </indicator>
    <indicator ascending="0" measure="2">
     <title>
      <narrative xml:lang="EN">Percentage of UNSDCFs and common country programmes (CCPDs) finalized with measurable and dedicated results and resources for gender equality</narrative>
@@ -293,9 +341,13 @@
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="80"></target>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="100">
+      <comment>
+       <narrative xml:lang="EN">100%</narrative>
+      </comment>
+     </target>
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>
@@ -318,6 +370,70 @@
      <target value="100">
       <comment>
        <narrative xml:lang="EN">100%</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of UNSDCFs and common country programmes (CCPDs) finalized with measurable and dedicated results and resources for gender equality</narrative>
+    </title>
+    <baseline value="50" year="2020">
+     <comment>
+      <narrative xml:lang="EN">50%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="80"></target>
+     <actual value="60">
+      <comment>
+       <narrative xml:lang="EN">60%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of UNSDCFs and common country programmes (CCPDs) finalized with measurable and dedicated results and resources for gender equality</narrative>
+    </title>
+    <baseline value="50" year="2020">
+     <comment>
+      <narrative xml:lang="EN">50%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="80"></target>
+     <actual value="60">
+      <comment>
+       <narrative xml:lang="EN">60%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">Botswana has in place  a gender-based budgeting strategy  that influence budgeting processes to achieve a gender responsive budget by 2022 through the SDG Joint Programme</narrative>
+    </title>
+    <baseline year="2020">
+     <comment>
+      <narrative xml:lang="EN">No strategy</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">1</narrative>
       </comment>
      </target>
      <actual>
@@ -380,6 +496,49 @@
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">Gender -based budgeting strategy not completed</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">Botswana has in place  a gender-based budgeting strategy  that influence budgeting processes to achieve a gender responsive budget by 2022 through the SDG Joint Programme</narrative>
+    </title>
+    <baseline year="2020">
+     <comment>
+      <narrative xml:lang="EN">No strategy</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">Gender -based budgeting strategy completed</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">Gender Responsive Integrated National Financing Framework</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">Botswana has in place  a gender-based budgeting strategy  that influence budgeting processes to achieve a gender responsive budget by 2022 through the SDG Joint Programme</narrative>
+    </title>
+    <baseline year="2020">
+     <comment>
+      <narrative xml:lang="EN">No strategy</narrative>
+     </comment>
+    </baseline>
+    <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target>
@@ -407,35 +566,30 @@
    </indicator>
    <indicator ascending="0" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of UNCTs that implement performance indicators on Gender Equality (gender score cards or similar accountability tools) to track commitments to the UN SCF/UNDAF</narrative>
+    </title>
+    <baseline value="0" year="2015"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
      <narrative xml:lang="EN">Amount of non-core resources raised
  $2m
 N</narrative>
     </title>
     <baseline value="0" year="2020"></baseline>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="2">
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="80">
       <comment>
-       <narrative xml:lang="EN">$ 2 Million</narrative>
+       <narrative xml:lang="EN">80%</narrative>
       </comment>
      </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">-</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of training/mentorship/research  undertaken by UA Members to address stereotyping in advertising sector</narrative>
-    </title>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="9"></target>
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>
@@ -483,6 +637,82 @@ N</narrative>
    </indicator>
    <indicator ascending="0" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of training/mentorship/research  undertaken by UA Members to address stereotyping in advertising sector</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="2"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Amount of non-core resources raised
+ $2m
+N</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="2">
+      <comment>
+       <narrative xml:lang="EN">$ 2 Million</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Amount of non-core resources raised
+ $2m
+N</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="2">
+      <comment>
+       <narrative xml:lang="EN">$ 2 Million</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of training/mentorship/research  undertaken by UA Members to address stereotyping in advertising sector</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="9"></target>
+     <actual value="1"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of training/mentorship/research  undertaken by UA Members to address stereotyping in advertising sector</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="9"></target>
+     <actual value="1"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of initiatives where UN Women takes substantive leadership on a GEWE related issue in South Africa</narrative>
     </title>
     <baseline value="1" year="2015"></baseline>
@@ -494,13 +724,24 @@ N</narrative>
    </indicator>
    <indicator ascending="0" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of initiatives where UN Women takes substantive leadership on a GEWE related issue in SAMCO</narrative>
+     <narrative xml:lang="EN">Number of initiatives where UN Women takes substantive leadership on a GEWE related issue in South Africa</narrative>
+    </title>
+    <baseline value="1" year="2015"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Number of UNCTs that implement performance indicators on Gender Equality (gender score cards or similar accountability tools) to track commitments to the UNSDCFs</narrative>
     </title>
     <baseline value="1" year="2020"></baseline>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="2"></target>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="1"></target>
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>
@@ -542,6 +783,22 @@ N</narrative>
    </indicator>
    <indicator ascending="0" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of initiatives where UN Women takes substantive leadership on a GEWE related issue in SAMCO</narrative>
+    </title>
+    <baseline value="1" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="4"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of UNCTs that implement performance indicators on Gender Equality (gender score cards or similar accountability tools) to track commitments to the UNSDCFs</narrative>
     </title>
     <baseline value="1" year="2020"></baseline>
@@ -550,6 +807,42 @@ N</narrative>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="3"></target>
      <actual value="1"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of UNCTs that implement performance indicators on Gender Equality (gender score cards or similar accountability tools) to track commitments to the UNSDCFs</narrative>
+    </title>
+    <baseline value="1" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="3"></target>
+     <actual value="1"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of initiatives where UN Women takes substantive leadership on a GEWE related issue in SAMCO</narrative>
+    </title>
+    <baseline value="1" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="2"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of initiatives where UN Women takes substantive leadership on a GEWE related issue in SAMCO</narrative>
+    </title>
+    <baseline value="1" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="2"></actual>
     </period>
    </indicator>
   </result>

@@ -47,6 +47,15 @@
    </point>
    <exactness code="1"></exactness>
   </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">Bamako</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>12.639232 -8.002889</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
   <sector code="D1" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Leadership &amp; political participation</narrative>
   </sector>
@@ -58,6 +67,11 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="1" type="1">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">1769166</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -79,14 +93,24 @@
    <value currency="USD" value-date="2021-12-31">706691</value>
   </budget>
   <budget status="1" type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-12-31">706691</value>
+  </budget>
+  <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">1322625</value>
+   <value currency="USD" value-date="2022-02-28">1322625</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-02-28">1322625</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">688969</value>
+   <value currency="USD" value-date="2022-02-28">818485</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -115,8 +139,8 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">267312</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">396828</value>
    <provider-org ref="11906">
     <narrative xml:lang="EN">DANISH GOV/MIN of FOREIGN AFF</narrative>
    </provider-org>
@@ -137,7 +161,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-02-29"></transaction-date>
-   <value currency="USD" value-date="2020-02-29">4928</value>
+   <value currency="USD" value-date="2020-02-29">4997</value>
    <provider-org ref="11906">
     <narrative xml:lang="EN">DANISH GOV/MIN of FOREIGN AFF</narrative>
    </provider-org>
@@ -342,9 +366,18 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">495</value>
+   <provider-org ref="11906">
+    <narrative xml:lang="EN">DANISH GOV/MIN of FOREIGN AFF</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">421657</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">421657</value>
    <provider-org ref="11363">
     <narrative xml:lang="EN">Peacebuilding Fund</narrative>
    </provider-org>
@@ -389,7 +422,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-02-29"></transaction-date>
-   <value currency="USD" value-date="2020-02-29">1499</value>
+   <value currency="USD" value-date="2020-02-29">1628</value>
    <provider-org ref="00555">
     <narrative xml:lang="EN">SWEDISH INT&apos;L DEVELOPMENT COOPERATION</narrative>
    </provider-org>
@@ -595,8 +628,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">1141746</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">1271460</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -642,6 +675,34 @@
    </indicator>
    <indicator ascending="0" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of gender-responsive initiatives developed and/or implemented by parliamentarians with support from UN Women (aligned with SP Indicator 4.3)</narrative>
+    </title>
+    <baseline value="0" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="0"></target>
+     <actual value="2"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of initiatives developed and/or being implemented to monitor violence against women in politics with the support of UN-Women</narrative>
+    </title>
+    <baseline value="1" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="1"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of initiatives developed and/or being implemented to monitor violence against women in politics with the support of UN-Women</narrative>
     </title>
     <baseline value="1" year="2019"></baseline>
@@ -665,6 +726,33 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <actual value="5"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of initiatives developed and/or being implemented to monitor violence against women in politics with the support of UN-Women</narrative>
+    </title>
+    <baseline value="1" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="5"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of gender-responsive initiatives developed and/or implemented by parliamentarians with support from UN Women (aligned with SP Indicator 4.3)</narrative>
+    </title>
+    <baseline value="1" year="2022"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="1"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -697,6 +785,33 @@
        <narrative xml:lang="EN">-</narrative>
       </comment>
      </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of women leaders who are or could be candidates whose capacities have been strengthened to engage in the electoral process with the support of UN Women</narrative>
+    </title>
+    <baseline value="3200" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="250"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of women leaders who are or could be candidates whose capacities have been strengthened to engage in the electoral process with the support of UN Women</narrative>
+    </title>
+    <baseline value="3200" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="6500"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -753,6 +868,48 @@
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
+     <target value="40">
+      <comment>
+       <narrative xml:lang="EN">40%</narrative>
+      </comment>
+     </target>
+     <actual value="40"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of women candidates claiming to have the necessary skills, for their political life, thanks to the support of UN Women</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">This is the total number of women whose capacities have been strengthened in the elections as a proportion of the total number of women candidates in the elections</narrative>
+    </description>
+    <baseline value="24" year="2019">
+     <comment>
+      <narrative xml:lang="EN">24%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="40"></target>
+     <actual value="40"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of women candidates claiming to have the necessary skills, for their political life, thanks to the support of UN Women</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">This is the total number of women whose capacities have been strengthened in the elections as a proportion of the total number of women candidates in the elections</narrative>
+    </description>
+    <baseline value="24" year="2019">
+     <comment>
+      <narrative xml:lang="EN">24%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
      <target value="40"></target>
      <actual value="40"></actual>
     </period>
@@ -762,6 +919,18 @@
    <title>
     <narrative xml:lang="EN">Reforms to improve WPP (e.g. review of electoral code; quota law, ) are implemented by government</narrative>
    </title>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of gender equality initiatives taken by parliament / commissions, or the electoral body</narrative>
+    </title>
+    <baseline value="2" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="4"></target>
+     <actual value="4"></actual>
+    </period>
+   </indicator>
    <indicator ascending="0" measure="1">
     <title>
      <narrative xml:lang="EN">Number of gender equality initiatives taken by parliament / commissions, or the electoral body</narrative>
@@ -800,6 +969,48 @@
        <narrative xml:lang="EN">-</narrative>
       </comment>
      </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of women leaders who are or could be candidates whose capacities have been strengthened to engage in the electoral process with the support of UN Women (aligned with SP Indicator 4.2)
+
+
+
+% of women candidates claiming to have the necessary skil</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">This is the total number of women whose capacities have been strengthened in the elections as a proportion of the total number of women candidates in the elections</narrative>
+    </description>
+    <baseline value="3200" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="2000"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of women leaders who are or could be candidates whose capacities have been strengthened to engage in the electoral process with the support of UN Women (aligned with SP Indicator 4.2)
+
+
+
+% of women candidates claiming to have the necessary skil</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">This is the total number of women whose capacities have been strengthened in the elections as a proportion of the total number of women candidates in the elections</narrative>
+    </description>
+    <baseline value="3200" year="2019"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="1200"></target>
+     <actual value="6500"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">

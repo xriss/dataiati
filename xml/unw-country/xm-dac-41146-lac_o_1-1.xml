@@ -50,6 +50,15 @@
    </point>
    <exactness code="1"></exactness>
   </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">Panama</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>9.101179 -79.402864</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
   <sector code="O1" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Enhanced coordination, coherence and accountability of the UN system</narrative>
   </sector>
@@ -63,6 +72,11 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="1" type="1">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">43600</value>
+  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
@@ -84,14 +98,24 @@
    <value currency="USD" value-date="2021-12-31">340000</value>
   </budget>
   <budget status="1" type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-12-31">340000</value>
+  </budget>
+  <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">195000</value>
+   <value currency="USD" value-date="2022-02-28">195000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-02-28">195000</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">195000</value>
+   <value currency="USD" value-date="2022-02-28">195000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -120,8 +144,8 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">195000</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">195000</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -213,6 +237,15 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">13945</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
    <value currency="USD" value-date="2021-03-31">7745</value>
    <provider-org ref="00032">
@@ -285,8 +318,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">401093</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">415038</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -409,6 +442,26 @@
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="50"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage share of total programme expenditure from joint programmes</narrative>
+    </title>
+    <baseline value="50" year="2018">
+     <comment>
+      <narrative xml:lang="EN">50%</narrative>
+     </comment>
+    </baseline>
+    <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="50">
@@ -419,6 +472,54 @@
      <actual value="48">
       <comment>
        <narrative xml:lang="EN">48%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage share of total programme expenditure from joint programmes</narrative>
+    </title>
+    <baseline value="50" year="2018">
+     <comment>
+      <narrative xml:lang="EN">50%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="50">
+      <comment>
+       <narrative xml:lang="EN">50%</narrative>
+      </comment>
+     </target>
+     <actual value="48">
+      <comment>
+       <narrative xml:lang="EN">48%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage share of total programme expenditure from joint programmes</narrative>
+    </title>
+    <baseline value="50" year="2018">
+     <comment>
+      <narrative xml:lang="EN">50%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="50">
+      <comment>
+       <narrative xml:lang="EN">50%</narrative>
+      </comment>
+     </target>
+     <actual value="50">
+      <comment>
+       <narrative xml:lang="EN">50%</narrative>
       </comment>
      </actual>
     </period>
@@ -469,6 +570,26 @@
    </indicator>
    <indicator ascending="0" measure="2">
     <title>
+     <narrative xml:lang="EN">% of the UNCTs that undertake a UNCT SWAP scorecard with ACRO&apos;s support that actually monitor implementation of recommendations</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="75">
+      <comment>
+       <narrative xml:lang="EN">75%</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
      <narrative xml:lang="EN">Percentage of UNCTs that track and report on allocations and expenditures using gender marker</narrative>
     </title>
     <baseline value="0" year="2018"></baseline>
@@ -479,6 +600,38 @@
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of UNCTs that track and report on allocations and expenditures using gender marker</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="30"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of UNCTs that track and report on allocations and expenditures using gender marker</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="20"></target>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">0%</narrative>
       </comment>
      </actual>
     </period>
@@ -521,6 +674,26 @@
    </indicator>
    <indicator ascending="0" measure="2">
     <title>
+     <narrative xml:lang="EN">% of the UNCTs that undertake a UNCT SWAP scorecard with ACRO&apos;s support that actually monitor implementation of recommendations</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="50">
+      <comment>
+       <narrative xml:lang="EN">50%</narrative>
+      </comment>
+     </target>
+     <actual value="100">
+      <comment>
+       <narrative xml:lang="EN">100%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
      <narrative xml:lang="EN">Percentage of UNCTs that track and report on allocations and expenditures using gender marker</narrative>
     </title>
     <baseline value="0" year="2018"></baseline>
@@ -529,6 +702,34 @@
      <period-end iso-date="2021-12-31"></period-end>
      <target value="30"></target>
      <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of UNCTs that track and report on allocations and expenditures using gender marker</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="30"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of the UNCTs that undertake a UNCT SWAP scorecard with ACRO&apos;s support that actually monitor implementation of recommendations</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="50">
+      <comment>
+       <narrative xml:lang="EN">50%</narrative>
+      </comment>
+     </target>
+     <actual value="100"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="2">
@@ -569,6 +770,34 @@
     </title>
     <baseline value="1" year="2017"></baseline>
     <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="2"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of UN Gender Equality Groups that, with the technical support of the regional GTG, promote gender-responsive SDG implementation through joint analyses of gender gaps or inter-agency work on SDG 5 monitoring</narrative>
+    </title>
+    <baseline value="1" year="2017"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of UN Gender Equality Groups that, with the technical support of the regional GTG, promote gender-responsive SDG implementation through joint analyses of gender gaps or inter-agency work on SDG 5 monitoring</narrative>
+    </title>
+    <baseline value="1" year="2017"></baseline>
+    <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="2"></target>
@@ -585,6 +814,38 @@
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2"></target>
      <actual value="4"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of UN Gender Equality Groups that, with the technical support of the regional GTG, promote gender-responsive SDG implementation through joint analyses of gender gaps or inter-agency work on SDG 5 monitoring</narrative>
+    </title>
+    <baseline value="1" year="2017"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="4"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of UNCTs that undertake a UNCT SWAP scorecard with ACRO&apos;s technical assistance</narrative>
+    </title>
+    <baseline value="3" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="2">
+      <comment>
+       <narrative xml:lang="EN">+2</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -629,6 +890,38 @@
     </title>
     <baseline value="3" year="2018"></baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2">
+      <comment>
+       <narrative xml:lang="EN">+2</narrative>
+      </comment>
+     </target>
+     <actual value="1"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of UNCTs that undertake a UNCT SWAP scorecard with ACRO&apos;s technical assistance</narrative>
+    </title>
+    <baseline value="3" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="2">
+      <comment>
+       <narrative xml:lang="EN">+2</narrative>
+      </comment>
+     </target>
+     <actual value="5"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of UNCTs that undertake a UNCT SWAP scorecard with ACRO&apos;s technical assistance</narrative>
+    </title>
+    <baseline value="3" year="2018"></baseline>
+    <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="2">
@@ -661,9 +954,49 @@
     </title>
     <baseline value="30" year="2018"></baseline>
     <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="80"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of UNDAFs that feature gender results at the outcome level in the region</narrative>
+    </title>
+    <baseline value="30" year="2018"></baseline>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="60"></target>
+     <actual value="100"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of UNDAFs that feature gender results at the outcome level in the region</narrative>
+    </title>
+    <baseline value="30" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="60"></target>
+     <actual value="100"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of UNDAFs that feature gender results at the outcome level in the region</narrative>
+    </title>
+    <baseline value="30" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="80"></target>
      <actual value="100"></actual>
     </period>
    </indicator>

@@ -41,6 +41,15 @@
    </point>
    <exactness code="1"></exactness>
   </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">Bangkok</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>13.756331 100.501765</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
   <sector code="O2" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Increased engagement of partners</narrative>
   </sector>
@@ -62,6 +71,11 @@
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-12-31">810156</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">810156</value>
+  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
@@ -72,15 +86,25 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">689920</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-12-31">689920</value>
+  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">236000</value>
+   <value currency="USD" value-date="2022-02-28">236000</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">941000</value>
+   <value currency="USD" value-date="2022-02-28">941000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-02-28">941000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -109,8 +133,8 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">236000</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">236000</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -336,9 +360,18 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">6000</value>
+   <provider-org ref="00032">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">699935</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">699935</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -389,6 +422,56 @@
      </actual>
     </period>
    </indicator>
+   <indicator ascending="0" measure="3">
+    <title>
+     <narrative xml:lang="EN">Regional Partnerships and RM Strategy for Asia and the Pacific approved are in place</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">AP-RO database</narrative>
+    </description>
+    <baseline year="2018">
+     <comment>
+      <narrative xml:lang="EN">No</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">Yes</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of increase (compared to baseline), in funds raised from traditional donors</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Percentage of increase (compared to baseline), in funds raised from traditional donors</narrative>
+    </description>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="10">
+      <comment>
+       <narrative xml:lang="EN">10%</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
    <indicator ascending="0" measure="2">
     <title>
      <narrative xml:lang="EN">Percentage of increase (compared to baseline), in funds raised from traditional donors</narrative>
@@ -430,6 +513,22 @@
    </indicator>
    <indicator ascending="0" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of partnerships forged with High Net Worth Individuals (HNWIs)</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="3"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of partnerships newly forged with Foundations</narrative>
     </title>
     <baseline value="0" year="2018"></baseline>
@@ -437,6 +536,38 @@
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
      <target value="3"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of partnerships newly forged with Foundations</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="3"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of traditional donors engaged with that ROAP had no ongoing engagements</narrative>
+    </title>
+    <baseline value="1" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="7"></target>
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>
@@ -495,6 +626,52 @@
      </actual>
     </period>
    </indicator>
+   <indicator ascending="0" measure="3">
+    <title>
+     <narrative xml:lang="EN">Regional Partnerships and RM Strategy for Asia and the Pacific approved are in place</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">AP-RO database</narrative>
+    </description>
+    <baseline year="2018">
+     <comment>
+      <narrative xml:lang="EN">No</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">Yes</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">True</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of increase (compared to baseline), in funds raised from traditional donors</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Percentage of increase (compared to baseline), in funds raised from traditional donors</narrative>
+    </description>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="10">
+      <comment>
+       <narrative xml:lang="EN">10%</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
    <indicator ascending="0" measure="2">
     <title>
      <narrative xml:lang="EN">Percentage of increase (compared to baseline), in funds raised from traditional donors</narrative>
@@ -528,6 +705,18 @@
    </indicator>
    <indicator ascending="0" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of partnerships forged with High Net Worth Individuals (HNWIs)</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="3"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of partnerships newly forged with Foundations</narrative>
     </title>
     <baseline value="0" year="2018"></baseline>
@@ -535,6 +724,30 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="3"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of partnerships newly forged with Foundations</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="3"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of traditional donors engaged with that ROAP had no ongoing engagements</narrative>
+    </title>
+    <baseline value="1" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="7"></target>
      <actual value="0"></actual>
     </period>
    </indicator>
@@ -585,6 +798,52 @@
      </actual>
     </period>
    </indicator>
+   <indicator ascending="0" measure="3">
+    <title>
+     <narrative xml:lang="EN">Regional Partnerships and RM Strategy for Asia and the Pacific approved are in place</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">AP-RO database</narrative>
+    </description>
+    <baseline year="2018">
+     <comment>
+      <narrative xml:lang="EN">No</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">Yes</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">True</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of increase (compared to baseline), in funds raised from traditional donors</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Percentage of increase (compared to baseline), in funds raised from traditional donors</narrative>
+    </description>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="6">
+      <comment>
+       <narrative xml:lang="EN">6%</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
    <indicator ascending="0" measure="2">
     <title>
      <narrative xml:lang="EN">Percentage of increase (compared to baseline), in funds raised from traditional donors</narrative>
@@ -618,6 +877,18 @@
    </indicator>
    <indicator ascending="0" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of partnerships forged with High Net Worth Individuals (HNWIs)</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of partnerships newly forged with Foundations</narrative>
     </title>
     <baseline value="0" year="2018"></baseline>
@@ -625,6 +896,30 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of partnerships newly forged with Foundations</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of traditional donors engaged with that ROAP had no ongoing engagements</narrative>
+    </title>
+    <baseline value="1" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="6"></target>
      <actual value="0"></actual>
     </period>
    </indicator>

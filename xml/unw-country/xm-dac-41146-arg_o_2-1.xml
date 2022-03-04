@@ -44,6 +44,15 @@
    </point>
    <exactness code="1"></exactness>
   </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">Buenos Aires</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>-34.603684 -58.381559</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
   <sector code="O4" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Improved management of financial and human resources in pursuit of results</narrative>
   </sector>
@@ -60,10 +69,20 @@
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-12-31">373598</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">373598</value>
+  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-12-31">61200</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-12-31">364921</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-01-01"></period-start>
@@ -78,12 +97,17 @@
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">181180</value>
+   <value currency="USD" value-date="2022-02-28">181180</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-02-28">181180</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">34500</value>
+   <value currency="USD" value-date="2022-02-28">34500</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -235,8 +259,8 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">34500</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">34500</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -284,7 +308,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="USD" value-date="2021-12-31">2719</value>
+   <value currency="USD" value-date="2021-12-31">2601</value>
    <provider-org ref="00032">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -292,8 +316,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">105727</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">105610</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -321,6 +345,50 @@
        <narrative xml:lang="EN">90%</narrative>
       </comment>
      </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of donor reports presented on time.</narrative>
+    </title>
+    <baseline value="65" year="2021">
+     <comment>
+      <narrative xml:lang="EN">65%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="90">
+      <comment>
+       <narrative xml:lang="EN">90%</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of donor reports presented on time.</narrative>
+    </title>
+    <baseline value="65" year="2021">
+     <comment>
+      <narrative xml:lang="EN">65%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="90"></target>
      <actual>
       <comment>
        <narrative xml:lang="EN">-</narrative>
@@ -384,9 +452,81 @@
     <period>
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
+     <target value="75">
+      <comment>
+       <narrative xml:lang="EN">75%</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of programme expenditures (core and non core)</narrative>
+    </title>
+    <baseline value="80" year="2021">
+     <comment>
+      <narrative xml:lang="EN">80%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
      <target value="85">
       <comment>
        <narrative xml:lang="EN">85%</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of programme expenditures (core and non core)</narrative>
+    </title>
+    <baseline value="80" year="2021">
+     <comment>
+      <narrative xml:lang="EN">80%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="85">
+      <comment>
+       <narrative xml:lang="EN">85%</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of staff members who completed all the mandatory courses including BSAFE.</narrative>
+    </title>
+    <baseline value="80" year="2021">
+     <comment>
+      <narrative xml:lang="EN">80%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="90">
+      <comment>
+       <narrative xml:lang="EN">90%</narrative>
       </comment>
      </target>
      <actual>
@@ -442,6 +582,26 @@
    </indicator>
    <indicator ascending="0" measure="2">
     <title>
+     <narrative xml:lang="EN">% of programme expenditures (core and non core)</narrative>
+    </title>
+    <baseline value="80" year="2021">
+     <comment>
+      <narrative xml:lang="EN">80%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="75"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
      <narrative xml:lang="EN">% of staff members who completed all the mandatory courses including BSAFE.</narrative>
     </title>
     <baseline value="80" year="2021">
@@ -458,6 +618,42 @@
        <narrative xml:lang="EN">-</narrative>
       </comment>
      </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of staff members who completed all the mandatory courses including BSAFE.</narrative>
+    </title>
+    <baseline value="80" year="2021">
+     <comment>
+      <narrative xml:lang="EN">80%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="90"></target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of compliance of all operations with UN security management standards</narrative>
+    </title>
+    <baseline year="2018">
+     <comment>
+      <narrative xml:lang="EN">NA</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="80"></target>
+     <actual value="89.5"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="2">
@@ -496,6 +692,22 @@
     <title>
      <narrative xml:lang="EN">Rates of programme expenditures (core and non core)</narrative>
     </title>
+    <baseline year="2018">
+     <comment>
+      <narrative xml:lang="EN">NA</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="90"></target>
+     <actual value="97"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Rates of programme expenditures (core and non core)</narrative>
+    </title>
     <baseline year="2020">
      <comment>
       <narrative xml:lang="EN">NA</narrative>
@@ -506,6 +718,42 @@
      <period-end iso-date="2021-12-31"></period-end>
      <target value="90"></target>
      <actual value="87"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Rates of programme expenditures (core and non core)</narrative>
+    </title>
+    <baseline year="2020">
+     <comment>
+      <narrative xml:lang="EN">NA</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="90"></target>
+     <actual value="87"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of compliance of all operations with UN security management standards</narrative>
+    </title>
+    <baseline year="2020">
+     <comment>
+      <narrative xml:lang="EN">NA</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="80">
+      <comment>
+       <narrative xml:lang="EN">80%</narrative>
+      </comment>
+     </target>
+     <actual value="89"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="2">

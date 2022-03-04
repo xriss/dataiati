@@ -64,10 +64,37 @@
   </location>
   <location>
    <name>
+    <narrative xml:lang="EN">Addis Ababa</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>8.980603 38.757761</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
+  <location>
+   <name>
     <narrative xml:lang="EN">Hawassa</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>7.050374 38.495504</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">Hawassa</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>7.050374 38.495504</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">Jijiga</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>9.356784 42.795519</pos>
    </point>
    <exactness code="1"></exactness>
   </location>
@@ -104,10 +131,20 @@
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-12-31">414720</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">414720</value>
+  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-12-31">625312</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-12-31">1490579</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2021-01-01"></period-start>
@@ -357,7 +394,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
-   <value currency="USD" value-date="2021-02-28">6596</value>
+   <value currency="USD" value-date="2021-02-28">9596</value>
    <provider-org ref="00095">
     <narrative xml:lang="EN">GOVERNMENT OF DENMARK</narrative>
    </provider-org>
@@ -484,6 +521,15 @@
    <receiver-org receiver-activity-id="XM-DAC-41146-ETH_D_3.1" ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-02-28"></transaction-date>
+   <value currency="USD" value-date="2021-02-28">8186</value>
+   <provider-org ref="00187">
+    <narrative xml:lang="EN">GOVERNMENT OF NORWAY</narrative>
+   </provider-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -668,8 +714,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">680899</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">692085</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -719,6 +765,52 @@
       </comment>
      </target>
      <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of  VAWG cases investigated and prosecuted in selected areas</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">it will be defined in early 2019 based on the national assessment</narrative>
+    </description>
+    <baseline value="438283" year="2018">
+     <comment>
+      <narrative xml:lang="EN">438 Investigated and 283 prosecuted</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="540433">
+      <comment>
+       <narrative xml:lang="EN">540 Investigated and 433 Prosecuted</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">% increase in VAWG cases investigated and prosecuted in selected areas</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">it will be defined in early 2019 based on the national assessment</narrative>
+    </description>
+    <baseline year="2019">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual value="443"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -773,6 +865,41 @@
     <title>
      <narrative xml:lang="EN">% increase in VAWG cases investigated and prosecuted in selected areas</narrative>
     </title>
+    <baseline value="44" year="2018">
+     <comment>
+      <narrative xml:lang="EN">44%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="85">
+      <comment>
+       <narrative xml:lang="EN">85%</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% increase in VAWG cases investigated and prosecuted in selected areas</narrative>
+    </title>
+    <baseline year="2019">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="443"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% increase in VAWG cases investigated and prosecuted in selected areas</narrative>
+    </title>
     <baseline year="2019">
      <comment>
       <narrative xml:lang="EN">TBD</narrative>
@@ -794,6 +921,30 @@
      <period-end iso-date="2020-12-31"></period-end>
      <target value="2"></target>
      <actual value="3"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of research studies and/or analyses of Ethiopian women&apos;s access to justice and prevalence and incidence of VAWG across regions produced</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="3"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of research studies and/or analyses of Ethiopian women&apos;s access to justice and prevalence and incidence of VAWG across regions produced</narrative>
+    </title>
+    <baseline value="0" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="4"></target>
+     <actual value="4"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">
@@ -831,6 +982,29 @@
     </title>
     <baseline value="7" year="2016"></baseline>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="9"></target>
+     <actual value="7"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of regional family laws that are aligned with international Human Rights Standards</narrative>
+    </title>
+    <baseline value="7" year="2016"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="8"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of regional family laws that are aligned with international Human Rights Standards</narrative>
+    </title>
+    <baseline value="7" year="2016"></baseline>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <actual value="8"></actual>
@@ -846,6 +1020,30 @@
      <period-end iso-date="2021-12-31"></period-end>
      <target value="40"></target>
      <actual value="129"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number parliamentarians with increased capacity to advocate for the adoption of family law in Somali and Afar regions.</narrative>
+    </title>
+    <baseline value="8" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="40"></target>
+     <actual value="129"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number parliamentarians with increased capacity to advocate for the adoption of family law in Somali and Afar regions.</narrative>
+    </title>
+    <baseline value="8" year="2018"></baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="30"></target>
+     <actual value="27"></actual>
     </period>
    </indicator>
    <indicator ascending="0" measure="1">

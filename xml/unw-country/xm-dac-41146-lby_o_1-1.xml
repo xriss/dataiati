@@ -43,6 +43,24 @@
   </location>
   <location>
    <name>
+    <narrative xml:lang="EN">Tripoli</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>32.887209 13.191338</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
+  <location>
+   <name>
+    <narrative xml:lang="EN">Tunis</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>36.806495 10.181532</pos>
+   </point>
+   <exactness code="1"></exactness>
+  </location>
+  <location>
+   <name>
     <narrative xml:lang="EN">Tunis</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
@@ -73,6 +91,11 @@
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="USD" value-date="2020-12-31">66678</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="USD" value-date="2020-12-31">66678</value>
+  </budget>
   <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
@@ -84,9 +107,19 @@
    <value currency="USD" value-date="2021-12-31">157195</value>
   </budget>
   <budget status="1" type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="USD" value-date="2021-12-31">157195</value>
+  </budget>
+  <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-01-31">382488</value>
+   <value currency="USD" value-date="2022-02-28">382488</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-02-28">382488</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -268,8 +301,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">135572</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">135572</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -283,6 +316,25 @@
    <description>
     <narrative xml:lang="EN">Technical and leadership support provided to UNCT to ensure gender equality and the empowerment of women in UN agencies individual programs, and through joint UN programming. Key partners include members of UNCT, Informal Experts Group on WPS, UNW HQ and</narrative>
    </description>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">Number of high-level meetings benefiting from dedicated expertise on GEWE provided by UN Women</narrative>
+    </title>
+    <baseline year="2020">
+     <comment>
+      <narrative xml:lang="EN">0</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">20</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
    <indicator ascending="0" measure="5">
     <title>
      <narrative xml:lang="EN">Number of high-level meetings benefiting from dedicated expertise on GEWE provided by UN Women</narrative>
@@ -336,6 +388,54 @@
    </indicator>
    <indicator ascending="0" measure="5">
     <title>
+     <narrative xml:lang="EN">Number of gender-related events organized by UN Women with UNCT participation</narrative>
+    </title>
+    <baseline year="2019">
+     <comment>
+      <narrative xml:lang="EN">1</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">3</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">Number of UN interagency coordination meetings, including HCT, UNCT, SMT, PMT benefiting from dedicated expertise on GEWE provided by UN Women</narrative>
+    </title>
+    <baseline year="2019">
+     <comment>
+      <narrative xml:lang="EN">80</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">96</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
      <narrative xml:lang="EN">Number of UN interagency coordination meetings, including HCT, UNCT, SMT, PMT benefiting from dedicated expertise on GEWE provided by UN Women</narrative>
     </title>
     <baseline year="2019">
@@ -367,6 +467,55 @@
     <title>
      <narrative xml:lang="EN">A) Percentage of agreed long outstanding internal audit recommendations
 B) Percentage of agreed long outstanding external audit recommendations management need to complete action</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">A) Percentage of agreed long outstanding internal audit recommendations
+B) Percentage of agreed long outstanding external audit recommendations management need to complete action</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">Does the Country Office report on Greenhouse Gas emissions for travel and operations</narrative>
     </title>
     <baseline year="2021">
      <comment>
@@ -438,6 +587,54 @@ B) Percentage of agreed long outstanding external audit recommendations manageme
    </indicator>
    <indicator ascending="0" measure="5">
     <title>
+     <narrative xml:lang="EN">Does the Head of Country Office Procurement unit have relevant procurement certification?</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">Has the Country Office reduced their Greenhouse Gas emissions for travel and operations?</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
      <narrative xml:lang="EN">Has the Country Office reduced their Greenhouse Gas emissions for travel and operations?</narrative>
     </title>
     <baseline year="2021">
@@ -463,6 +660,54 @@ B) Percentage of agreed long outstanding external audit recommendations manageme
    <indicator ascending="0" measure="5">
     <title>
      <narrative xml:lang="EN">Implementation rate for other resources</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">Implementation rate for other resources</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">Implementation rate for regular resources</narrative>
     </title>
     <baseline year="2021">
      <comment>
@@ -537,6 +782,57 @@ c) UNSMS Security policies</narrative>
    </indicator>
    <indicator ascending="0" measure="5">
     <title>
+     <narrative xml:lang="EN">Is the Country Office compliant with
+a) Business continuity plans and processes 
+b) Occupational Safety and Health requirements 
+c) UNSMS Security policies</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">Percentage of donor reports submitted on time</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
      <narrative xml:lang="EN">Percentage of donor reports submitted on time</narrative>
     </title>
     <baseline year="2021">
@@ -585,7 +881,79 @@ c) UNSMS Security policies</narrative>
    </indicator>
    <indicator ascending="0" measure="5">
     <title>
+     <narrative xml:lang="EN">Percentage of feedback received from member states on donor reports that are positive.</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
      <narrative xml:lang="EN">The Country Office&apos;s risk unit, meets Enterprise Risk Management policy and framework requirements</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">The Country Office&apos;s risk unit, meets Enterprise Risk Management policy and framework requirements</narrative>
+    </title>
+    <baseline year="2021">
+     <comment>
+      <narrative xml:lang="EN">TBD</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">TBD</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">-</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="5">
+    <title>
+     <narrative xml:lang="EN">The Country office applies environmental and social standards in its programmes in line with United Nations standards</narrative>
     </title>
     <baseline year="2021">
      <comment>
