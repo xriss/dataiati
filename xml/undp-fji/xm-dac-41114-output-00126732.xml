@@ -66,6 +66,11 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">140899</value>
   </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-02-28">140146</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="1"></transaction-type>
@@ -92,6 +97,18 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">140146</value>
+   <provider-org ref="12994" type="40">
+    <narrative xml:lang="EN">MPTFO - Joint SDG Fund (previously known as The Joint Fund for the 2030 Agenda)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00126732" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">753</value>
@@ -102,8 +119,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">753</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">140899</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -117,7 +134,11 @@
   </document-link>
   <related-activity ref="XM-DAC-41114-OUTPUT-00124808" type="3"></related-activity>
   <related-activity ref="XM-DAC-41114-PROJECT-00132070" type="1"></related-activity>
-  <conditions attached="0"></conditions>
+  <conditions attached="1">
+   <condition type="1">
+    <narrative xml:lang="EN">UNDP as the Implementing Partner will comply with the policies, procedures and practices of the United Nations Security Management System (UNSMS.)</narrative>
+   </condition>
+  </conditions>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Annual Output Results</narrative>
@@ -175,7 +196,13 @@ economy - 0
      <period-end iso-date="2022-12-31"></period-end>
      <target>
       <comment>
-       <narrative xml:lang="EN"></narrative>
+       <narrative xml:lang="EN">1) # of locals/entrepreneurs &amp; women employed in businesses with a positive impact on coral reefs - TBD
+2) Increased private investment in sustainable initiatives &amp; blue economy SMEs related to Coral Reefs- TBD
+3) Water quality and reduction of nutrient inputs - 105
+4) # of TAF incubated blue economy SMEs that become investment ready - 3
+5) # of new government strategies &amp; plans to support financing for improved marine biodiversity protection and the blue
+economy - 1
+6) # of new government incentives to support financing for improved marine biodiversity protection &amp; the blue economy - 1</narrative>
       </comment>
      </target>
      <actual>

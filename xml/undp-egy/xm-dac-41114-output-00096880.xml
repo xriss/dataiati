@@ -26,7 +26,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2019-01-01" type="1"></activity-date>
   <activity-date iso-date="2019-01-01" type="2"></activity-date>
-  <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2022-12-31" type="3"></activity-date>
   <contact-info type="1">
    <email>registry.eg@undp.org</email>
    <website>http://www.eg.undp.org/</website>
@@ -58,11 +58,13 @@
   <sector code="18" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Accelerate structural transformations</narrative>
   </sector>
-  <sector code="15.1" percentage="50" vocabulary="8"></sector>
+  <sector code="15.1" percentage="33.33" vocabulary="8"></sector>
   <sector code="23210" percentage="100" vocabulary="1"></sector>
-  <sector code="7.B" percentage="50" vocabulary="8"></sector>
+  <sector code="7.B" percentage="33.33" vocabulary="8"></sector>
+  <sector code="8.3" percentage="33.33" vocabulary="8"></sector>
   <tag code="15.1" vocabulary="3"></tag>
   <tag code="7.B" vocabulary="3"></tag>
+  <tag code="8.3" vocabulary="3"></tag>
   <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -84,11 +86,28 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">60890</value>
   </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-02-28">39336</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">23501</value>
+   <provider-org ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">GOVERNMENT OF NETHERLANDS</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00096880" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">17147</value>
    <provider-org ref="XM-DAC-7" type="10">
     <narrative xml:lang="EN">GOVERNMENT OF NETHERLANDS</narrative>
    </provider-org>
@@ -125,6 +144,18 @@
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">37389</value>
+   <provider-org ref="10003">
+    <narrative xml:lang="EN">Global Environment Fund Truste</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41114-OUTPUT-00096880" ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">22189</value>
    <provider-org ref="10003">
     <narrative xml:lang="EN">Global Environment Fund Truste</narrative>
    </provider-org>
@@ -192,8 +223,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-31"></transaction-date>
-   <value currency="USD" value-date="2022-01-31">178166</value>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="USD" value-date="2022-02-28">217502</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -206,7 +237,11 @@
    <category code="A12"></category>
   </document-link>
   <related-activity ref="XM-DAC-41114-PROJECT-00091904" type="1"></related-activity>
-  <conditions attached="0"></conditions>
+  <conditions attached="1">
+   <condition type="1">
+    <narrative xml:lang="EN">UNDP as the Implementing Partner will comply with the policies, procedures and practices of the United Nations Security Management System (UNSMS.)</narrative>
+   </condition>
+  </conditions>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Annual Output Results</narrative>
