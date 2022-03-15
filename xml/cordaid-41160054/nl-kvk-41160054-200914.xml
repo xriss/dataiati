@@ -26,7 +26,7 @@
   <participating-org ref="NL-KVK-41160054" role="1" type="21">
    <narrative xml:lang="EN">Cordaid Global Office</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2020-10-01" type="1"></activity-date>
   <activity-date iso-date="2021-12-31" type="3"></activity-date>
   <contact-info>
@@ -65,7 +65,7 @@
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2021-07-01"></period-start>
-   <period-end iso-date="2021-10-31"></period-end>
+   <period-end iso-date="2021-12-31"></period-end>
    <value currency="EUR" value-date="2021-07-01">103530</value>
   </budget>
   <transaction humanitarian="1">
@@ -77,6 +77,17 @@
    </provider-org>
    <receiver-org receiver-activity-id="NL-KVK-41160054-200914" ref="NL-KVK-41160054" type="21">
     <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2022-01-17"></transaction-date>
+   <value currency="EUR" value-date="2022-01-17">10353</value>
+   <provider-org provider-activity-id="NL-KVK-41160054-200877" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid Global Office</narrative>
+   </provider-org>
+   <receiver-org ref="US-EIN-13-5563422" type="21">
+    <narrative xml:lang="EN">Catholic Relief Services (CRS)</narrative>
    </receiver-org>
   </transaction>
   <transaction humanitarian="1">
@@ -422,6 +433,22 @@ Any kind of transfer modality (in-kind, voucher, cash) and combination thereof w
      <target value="1300"></target>
     </period>
    </indicator>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">The humanitarian response was Appropriate</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Appropriateness is assessed according to the SPHERE standards. A response is considered to be appropriateness  based on needs assessment, taking account of rights, needs, culture, age, gender, disabilities and context, and equity (non-discrimination and equal access.</narrative>
+    </description>
+    <reference code="SL0.04" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="100">
+      <location ref="LB"></location>
+     </actual>
+    </period>
+   </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number of beneficiaries reached (SL)</narrative>
@@ -431,17 +458,17 @@ Any kind of transfer modality (in-kind, voucher, cash) and combination thereof w
     </description>
     <reference code="SL0.01" vocabulary="99"></reference>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <actual value="2365">
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <actual value="2800">
       <location ref="LB"></location>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <actual value="2800">
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="3555">
       <location ref="LB"></location>
       <dimension name="Direct/ Indirect" value="Direct beneficiaries"></dimension>
      </actual>
@@ -499,6 +526,30 @@ Please describe in the actvity description what this involvement specifically en
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2020-10-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="100"></target>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">The Humanitarian Response was Timely</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">SPHERE: Communities and people affected by crisis, including the most vulnerable groups, consider that the timing of the assistance and protection they receive is adequate.
+DRA: timely depends on the nature of the acute crisis (slow versus sudden onset). If it is an acute sudden onset crisis a response is considered timely if we decide to respond within 48 hours and if we initiate the response within 72 hours. If it is a slow onset crisis, it is timely if we initiate the response in 3 weeks after we decide that the crisis meets the criteria of an acute crisis.
+
+The applicable definition depends on the type of crisis (protracted versus acute). The SPHERE definition should be used in more protracted crisis where there is (more)  time to conduct assessments and measure satisfaction of the response in the eyes of people affected.  The DRA definition should be used for acute crises, where it is more important to initiate the response as soon as possible and look at our own processes.</narrative>
+    </description>
+    <reference code="SL0.03" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="100">
+      <location ref="LB"></location>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result aggregation-status="1" type="1">
@@ -533,6 +584,27 @@ Please describe in the actvity description what this involvement specifically en
      <actual value="33">
       <location ref="LB"></location>
       <dimension name="Gender - genre" value="Unknown - inconnu"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Protection of livelihoods, assets and critical facilities</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">DRR-I5: Number of community small-scale infrastructures and facilities built or protected</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">This refers to small-scale infrastructure works and small installations for preparedness, emergency response facilities as well as non-structural vulnerability reduction, such as safe practice in hospitals &#x2013; e.g. maintenance, siting of equipment, etc.</narrative>
+    </description>
+    <reference code="DRR-I5" vocabulary="99"></reference>
+    <period>
+     <period-start iso-date="2021-10-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="34">
+      <location ref="LB"></location>
      </actual>
     </period>
    </indicator>
