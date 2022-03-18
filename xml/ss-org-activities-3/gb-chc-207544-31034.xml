@@ -75,10 +75,20 @@
    <period-end iso-date="2020-12-31"></period-end>
    <value currency="GBP" value-date="2020-01-01">9099</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="GBP" value-date="2021-01-01">217651</value>
+   <value currency="GBP" value-date="2021-01-01">194452</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="GBP" value-date="2022-01-01">271604</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-12-31"></period-end>
+   <value currency="GBP" value-date="2023-01-01">200082</value>
   </budget>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -91,10 +101,21 @@
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-01-01"></transaction-date>
-   <value currency="GBP" value-date="2021-01-01">217651</value>
+   <value currency="GBP" value-date="2021-01-01">194452</value>
    <description>
     <narrative xml:lang="EN">Commitment 2021</narrative>
    </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-09-30"></transaction-date>
+   <value currency="GBP" value-date="2021-06-30">6454</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement Jul 2021 to Sep 2021</narrative>
+   </description>
+   <receiver-org ref="MW-NBM-NGOL06012" type="22">
+    <narrative xml:lang="EN">Federation of Disability Organisations in Malawi (FEDOMA)</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
@@ -105,6 +126,17 @@
    </description>
    <receiver-org type="22">
     <narrative xml:lang="EN">Federation of Disability Organisations in Malawi</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="GBP" value-date="2021-12-31">3421</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement Oct 2021 to Dec 2021</narrative>
+   </description>
+   <receiver-org ref="MW-NBM-NGOL06012" type="22">
+    <narrative xml:lang="EN">Federation of Disability Organisations in Malawi (FEDOMA)</narrative>
    </receiver-org>
   </transaction>
   <transaction>
@@ -160,7 +192,7 @@
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="GBP" value-date="2020-12-31">32956</value>
    <description>
-    <narrative xml:lang="EN">Institutional Commitment Jan 2020 to Dec 2020</narrative>
+    <narrative xml:lang="EN">Incoming Commitment Jan 2020 to Dec 2020</narrative>
    </description>
    <provider-org ref="GB-GOV-1" type="10">
     <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office</narrative>
@@ -171,7 +203,7 @@
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="GBP" value-date="2021-12-31">206388</value>
    <description>
-    <narrative xml:lang="EN">Institutional Commitment Jan 2021 to Dec 2021</narrative>
+    <narrative xml:lang="EN">Incoming Commitment Jan 2021 to Dec 2021</narrative>
    </description>
    <provider-org provider-activity-id="GB-1-205210" ref="GB-GOV-1" type="10">
     <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office</narrative>
@@ -182,33 +214,11 @@
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="GBP" value-date="2021-12-31">166401</value>
    <description>
-    <narrative xml:lang="EN">Institutional Funds Jan 2021 to Dec 2021</narrative>
+    <narrative xml:lang="EN">Incoming Funds Jan 2021 to Dec 2021</narrative>
    </description>
    <provider-org provider-activity-id="GB-1-205210" ref="GB-GOV-1" type="10">
     <narrative xml:lang="EN">UK - Foreign, Commonwealth and Development Office</narrative>
    </provider-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-09-30"></transaction-date>
-   <value currency="GBP" value-date="2021-06-30">6454</value>
-   <description>
-    <narrative xml:lang="EN">Partner Transfer Jul 2021 to Sep 2021</narrative>
-   </description>
-   <receiver-org ref="MW-NBM-NGOL06012" type="22">
-    <narrative xml:lang="EN">Federation of Disability Organisations in Malawi (FEDOMA)</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2021-12-31"></transaction-date>
-   <value currency="GBP" value-date="2021-12-31">3421</value>
-   <description>
-    <narrative xml:lang="EN">Partner Transfer Oct 2021 to Dec 2021</narrative>
-   </description>
-   <receiver-org ref="MW-NBM-NGOL06012" type="22">
-    <narrative xml:lang="EN">Federation of Disability Organisations in Malawi (FEDOMA)</narrative>
-   </receiver-org>
   </transaction>
   <document-link format="TEXT/HTML" url="https://www.sightsavers.org/where-we-work/malawi/">
    <title>
@@ -218,5 +228,453 @@
    <language code="EN"></language>
    <document-date iso-date="2020-07-28"></document-date>
   </document-link>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">2. Total no. of people examined at the secondary / tertiary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2. No. of people examined at the secondary / tertiary level</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="1080"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">3. No. of cataract operations performed</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1a. Number of men and women receiving cataract surgeries at district health facilities in the project area</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="5"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">3. No. of cataract operations performed</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1a. Number of men and women receiving cataract surgeries at district health facilities in the project area</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="5"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">2. Number of staff demonstrating enhanced knowledge and skills in disability inlcusion and gender mainstreaming as a result of attended training</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2. Number of staff demonstrating enhanced knowledge and skills in disability inlcusion and gender mainstreaming as a result of attended training</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="79"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">2. Number of staff demonstrating enhanced knowledge and skills in disability inlcusion and gender mainstreaming as a result of attended training</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2. Number of staff demonstrating enhanced knowledge and skills in disability inlcusion and gender mainstreaming as a result of attended training</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="79"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">2. Total no. of people examined at the secondary / tertiary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2. No. of people examined at the secondary / tertiary level</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="800"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">2. Total no. of people examined at the secondary / tertiary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2. No. of people examined at the secondary / tertiary level</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="1000"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">3. No. of cataract operations performed</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1a. Number of men and women receiving cataract surgeries at district health facilities in the project area</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="5"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">2. Number of staff demonstrating enhanced knowledge and skills in disability inlcusion and gender mainstreaming as a result of attended training</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2. Number of staff demonstrating enhanced knowledge and skills in disability inlcusion and gender mainstreaming as a result of attended training</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="78"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">2. Number of staff demonstrating enhanced knowledge and skills in disability inlcusion and gender mainstreaming as a result of attended training</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2. Number of staff demonstrating enhanced knowledge and skills in disability inlcusion and gender mainstreaming as a result of attended training</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="79"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">2. Total no. of people examined at the secondary / tertiary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2. No. of people examined at the secondary / tertiary level</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="952"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">3. No. of cataract operations performed</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1a. Number of men and women receiving cataract surgeries at district health facilities in the project area</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="75"></target>
+     <actual value="125"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">1. Total no. of people examined at the primary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1. People examined at the primary level_x000D_</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="0"></target>
+     <actual value="13"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">2.1 Number of staff trained on gender mainstreaming and disability inclusion</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2.1 Number of staff trained on gender mainstreaming and disability inclusion</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="100"></target>
+     <actual value="130"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">1. Total no. of people examined at the primary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1. People examined at the primary level_x000D_</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="187"></target>
+     <actual value="132"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">1. Total no. of people examined at the primary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1. People examined at the primary level_x000D_</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="0"></target>
+     <actual value="14"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">2.1 Number of staff trained on gender mainstreaming and disability inclusion</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2.1 Number of staff trained on gender mainstreaming and disability inclusion</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="125"></target>
+     <actual value="175"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">3. No. of cataract operations performed</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1a. Number of men and women receiving cataract surgeries at district health facilities in the project area</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="75"></target>
+     <actual value="193"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">3. No. of cataract operations performed</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1a. Number of men and women receiving cataract surgeries at district health facilities in the project area</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="5"></target>
+     <actual value="2"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">1. Total no. of people examined at the primary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1. People examined at the primary level_x000D_</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="0"></target>
+     <actual value="47"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">1. Total no. of people examined at the primary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1. People examined at the primary level_x000D_</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="200"></target>
+     <actual value="634"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">1. Total no. of people examined at the primary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1. People examined at the primary level_x000D_</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="260"></target>
+     <actual value="649"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">1. Total no. of people examined at the primary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1. People examined at the primary level_x000D_</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="0"></target>
+     <actual value="66"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">3. No. of cataract operations performed</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1a. Number of men and women receiving cataract surgeries at district health facilities in the project area</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="75"></target>
+     <actual value="67"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">2.1 Number of staff trained on gender mainstreaming and disability inclusion</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2.1 Number of staff trained on gender mainstreaming and disability inclusion</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="125"></target>
+     <actual value="74"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">3. No. of cataract operations performed</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1a. Number of men and women receiving cataract surgeries at district health facilities in the project area</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="75"></target>
+     <actual value="74"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">2.1 Number of staff trained on gender mainstreaming and disability inclusion</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">2.1 Number of staff trained on gender mainstreaming and disability inclusion</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-04-01"></period-start>
+     <period-end iso-date="2021-06-30"></period-end>
+     <target value="100"></target>
+     <actual value="84"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">1. Total no. of people examined at the primary level</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">1. People examined at the primary level_x000D_</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-09-30"></period-end>
+     <target value="186"></target>
+     <actual value="91"></actual>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>
