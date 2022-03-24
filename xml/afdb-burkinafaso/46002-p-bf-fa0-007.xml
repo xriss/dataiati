@@ -465,21 +465,6 @@
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
-  <transaction afdb:finance-type-id="2100155033166">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2018-08-31"></transaction-date>
-   <value currency="XDR" value-date="2018-08-31">52023.68</value>
-   <description>
-    <narrative xml:lang="EN">Total Disbursement in December of 2021</narrative>
-   </description>
-   <provider-org ref="XM-DAC-46003">
-    <narrative xml:lang="EN">African Development Fund</narrative>
-   </provider-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
   <transaction afdb:finance-type-id="2100150035993">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-11-30"></transaction-date>
@@ -522,6 +507,21 @@
    </provider-org>
    <flow-type code="10"></flow-type>
    <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155033166">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2018-08-31"></transaction-date>
+   <value currency="XDR" value-date="2018-08-31">52023.68</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in February of 2022</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
@@ -1216,6 +1216,7 @@
    </title>
    <category code="A01"></category>
    <category code="A02"></category>
+   <category code="A02"></category>
    <category code="A03"></category>
    <category code="A04"></category>
    <category code="A05"></category>
@@ -1227,6 +1228,7 @@
     <narrative xml:lang="EN">Appraisal Report</narrative>
    </title>
    <category code="A01"></category>
+   <category code="A02"></category>
    <category code="A02"></category>
    <category code="A03"></category>
    <category code="A04"></category>
@@ -1314,6 +1316,15 @@
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fburkina_faso_-_projet_delectrification_zones_peri-urbaines_de_ouagadougou_et_de_bobo_dioulasso_pepu_-_p-bf-fa0-007_-_eer_decembre_2021.pdf#page=1&amp;zoom=auto,-13,772">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/fileadmin/uploads/afdb/Documents/Procurement/Project-related-Procurement/EOI_%E2%80%93_Burkina_Faso_-_Service_de_Consultant_-_Etudes_de_restructuration__d%E2%80%99extension_des_r%C3%A9seaux__%C3%A9lectriques_et_de_cr%C3%A9ation_d%E2%80%99un_Bureau_central_de_conduite_%C3%A0_Bobo_Dioulasso_et_%C3%A9tude.pdf">
    <title>
     <narrative xml:lang="EN">Expression of Interest</narrative>
@@ -1366,16 +1377,41 @@
   </conditions>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">People benefiting from new electricity connections - of which women</narrative>
+    <narrative xml:lang="EN">Number of Consulting Engineer&apos;s Reports</narrative>
    </title>
-   <indicator measure="2">
+   <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="15.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
-     <target value="115000.00000000001"></target>
+     <target value="15.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Staff trained/recruited in the maintenance of energy facilities</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="7.5"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="15.0"></target>
     </period>
    </indicator>
   </result>
@@ -1388,6 +1424,11 @@
      <narrative xml:lang="EN">Km</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="1504.03"></actual>
+    </period>
+    <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
      <target value="1536.0"></target>
@@ -1396,16 +1437,61 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Households with new or improved electricity connections</narrative>
+    <narrative xml:lang="EN">Number of new connections</narrative>
    </title>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="23276.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
      <target value="17500.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of studies conducted</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="1.5"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="2.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Conduct procurement audits</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="2.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="2.0"></target>
     </period>
    </indicator>
   </result>
@@ -1418,9 +1504,34 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="287296.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
-     <target value="222000.0"></target>
+     <target value="284806.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of project financial audits</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="3.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="3.0"></target>
     </period>
    </indicator>
   </result>
@@ -1432,6 +1543,11 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="30.0"></actual>
+    </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
@@ -1448,6 +1564,11 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="200.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
      <target value="350.0"></target>
@@ -1456,16 +1577,61 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Staff trained/recruited in the maintenance of energy facilities</narrative>
+    <narrative xml:lang="EN">National access to electricity due to the project</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="45.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="44.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Distribution substations and transformers constructed or rehabilitated</narrative>
    </title>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="449.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
-     <target value="410.0"></target>
+     <target value="451.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of Project Progress Reports</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="48.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="48.0"></target>
     </period>
    </indicator>
   </result>
@@ -1478,9 +1644,14 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="5.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
-     <target value="44.0"></target>
+     <target value="5.0"></target>
     </period>
    </indicator>
   </result>
@@ -1492,6 +1663,11 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="50.0"></actual>
+    </period>
     <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
@@ -1508,9 +1684,34 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="5.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2016-01-01"></period-start>
      <period-end iso-date="2016-12-31"></period-end>
      <target value="9.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">People benefiting from new electricity connections - of which women</narrative>
+   </title>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="97672.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="94692.0"></target>
     </period>
    </indicator>
   </result>
