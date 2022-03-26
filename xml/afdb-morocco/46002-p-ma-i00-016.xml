@@ -72,20 +72,6 @@
    <location-class code="2"></location-class>
    <feature-designation code="PPLC"></feature-designation>
   </location>
-  <location>
-   <location-id code="2542007" vocabulary="G1"></location-id>
-   <name>
-    <narrative xml:lang="EN">Morocco</narrative>
-   </name>
-   <administrative code="2105" level="1" vocabulary="G1"></administrative>
-   <administrative code="21799" level="2" vocabulary="G1"></administrative>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>32 -6</pos>
-   </point>
-   <exactness code="2"></exactness>
-   <location-class code="1"></location-class>
-   <feature-designation code="PCLI"></feature-designation>
-  </location>
   <sector code="16011" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Social protection and welfare services policy, planning and administration</narrative>
   </sector>
@@ -123,21 +109,6 @@
    <value currency="XDR" value-date="2022-02-22">19579071.564</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction afdb:finance-type-id="2000200004809" ref="2000200004809">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2021-02-22"></transaction-date>
-   <value currency="XDR" value-date="2021-02-22">97895357.82</value>
-   <provider-org ref="XM-DAC-46002">
-    <narrative xml:lang="EN">African Development Bank</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">GOUVERNEMENT DU MAROC MINISTERE DES FINANCES DIRECTION DU</narrative>
-   </receiver-org>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
-  </transaction>
   <transaction afdb:finance-type-id="2000200004809">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-06-30"></transaction-date>
@@ -149,6 +120,8 @@
     <narrative xml:lang="EN">African Development Bank</narrative>
    </provider-org>
    <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
   <transaction afdb:finance-type-id="2000200004809">
@@ -162,6 +135,8 @@
     <narrative xml:lang="EN">African Development Bank</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
   <transaction afdb:finance-type-id="2000200004809">
@@ -175,6 +150,23 @@
     <narrative xml:lang="EN">African Development Bank</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2000200004809" ref="2000200004809">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2021-02-22"></transaction-date>
+   <value currency="XDR" value-date="2021-02-22">97895357.82</value>
+   <provider-org ref="XM-DAC-46002">
+    <narrative xml:lang="EN">African Development Bank</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">GOUVERNEMENT DU MAROC MINISTERE DES FINANCES DIRECTION DU</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fmorocco_-_social_protection_improvement_supportprogramme_-_covid-19_additional_financing.pdf#page=1&amp;zoom=auto,-15,842">
@@ -182,6 +174,7 @@
     <narrative xml:lang="EN">Appraisal Report</narrative>
    </title>
    <category code="A01"></category>
+   <category code="A02"></category>
    <category code="A02"></category>
    <category code="A03"></category>
    <category code="A04"></category>
@@ -195,9 +188,19 @@
    </title>
    <category code="A01"></category>
    <category code="A02"></category>
+   <category code="A02"></category>
    <category code="A03"></category>
    <category code="A04"></category>
    <category code="A05"></category>
+   <category code="A08"></category>
+   <language code="FR"></language>
+  </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fmaroc_-_programme_dappui_a_lamelioration_de_la_protection_sociale_paaps_-_phase_ii_-_p-ma-i00-016_-_eer_novembre_2021.pdf#page=1&amp;zoom=auto,-13,848">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
    <category code="A08"></category>
    <language code="FR"></language>
   </document-link>
@@ -225,24 +228,14 @@
      <narrative xml:lang="EN">%</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100.0"></target>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="60.0"></actual>
     </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of intensive-care beds available</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="1350.0"></target>
+     <target value="100.0"></target>
     </period>
    </indicator>
   </result>
@@ -255,24 +248,94 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="629.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="18050.0"></target>
+     <target value="12635.0"></target>
     </period>
    </indicator>
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of rapid COVID-19 test kits procured</narrative>
+    <narrative xml:lang="EN">Number of intensive-care beds available</narrative>
    </title>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="666.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="200000.0"></target>
+     <target value="1350.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Hospitals upgraded and/or renewed with new technology equipment per year</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="70.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="156.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of hospitals that have had their equipment upgraded and/or renewed per year</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="60.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="234.0"></target>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of health facilities provided with drugs and pharmaceutical products</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="83.0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="249.0"></target>
     </period>
    </indicator>
   </result>
@@ -284,6 +347,11 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="3500000.0"></actual>
+    </period>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
@@ -300,6 +368,11 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="267.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="5415.0"></target>
@@ -308,16 +381,21 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of health facilities provided with drugs and pharmaceutical products</narrative>
+    <narrative xml:lang="EN">Number of rapid COVID-19 test kits procured</narrative>
    </title>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="0.0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="83.0"></target>
+     <target value="600000.0"></target>
     </period>
    </indicator>
   </result>
@@ -330,24 +408,14 @@
      <narrative xml:lang="EN">Number</narrative>
     </title>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="87.0"></target>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="54.0"></actual>
     </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Hospitals upgraded and/or renewed with new technology equipment per year</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
     <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
-     <target value="&gt;78"></target>
+     <target value="87.0"></target>
     </period>
    </indicator>
   </result>
