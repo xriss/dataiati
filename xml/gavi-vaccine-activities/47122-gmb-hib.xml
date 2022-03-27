@@ -27,8 +27,14 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <participating-org ref="47122" role="3" type="40">
    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
   </participating-org>
+  <participating-org ref="GM-COA-21" role="4" type="10">
+   <narrative xml:lang="EN">Ministry of Health, Gambia (the)</narrative>
+  </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">The Government of Gambia (the)</narrative>
+  </participating-org>
+  <participating-org ref="XM-DAC-41122" role="4" type="40">
+   <narrative xml:lang="EN">UNICEF Supply Division</narrative>
   </participating-org>
   <other-identifier ref="47122" type="B1">
    <owner-org ref="47122">
@@ -40,8 +46,8 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <activity-status code="3"></activity-status>
   <activity-date iso-date="2002-01-01" type="1"></activity-date>
   <activity-date iso-date="2002-01-01" type="2"></activity-date>
-  <activity-date iso-date="2003-12-31" type="3"></activity-date>
-  <activity-date iso-date="2003-12-31" type="4"></activity-date>
+  <activity-date iso-date="2002-12-31" type="3"></activity-date>
+  <activity-date iso-date="2002-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -64,6 +70,9 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
    <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
+  <sector code="HIB" percentage="100" vocabulary="99">
+   <narrative xml:lang="EN">Haemophilus Influenzae Type B</narrative>
+  </sector>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
   <tag code="1" vocabulary="2"></tag>
   <tag code="10" vocabulary="2"></tag>
@@ -88,63 +97,49 @@ Successeur du vaccin DTC, il a &#xE9;t&#xE9; introduit pour accro&#xEE;tre la co
   <budget status="2" type="2">
    <period-start iso-date="2002-01-01"></period-start>
    <period-end iso-date="2002-12-31"></period-end>
-   <value currency="USD" value-date="2002-01-01">460021</value>
+   <value currency="USD" value-date="2022-03-25">460021</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="GMB-Lumpsum-1">
+  <transaction ref="GMBHIB2002">
    <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2002-01-01"></transaction-date>
+   <value currency="USD" value-date="2002-01-01">460021</value>
+   <description>
+    <narrative xml:lang="EN">Approved 2002 budget for Gambia HIB</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2002-02-08"></transaction-date>
    <value currency="USD" value-date="2002-02-08">50000</value>
    <description>
-    <narrative xml:lang="EN">Approved 2002 budget</narrative>
+    <narrative xml:lang="EN">Cash disbursement for programme GMB-HIB-R-VIG-MOH</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   <receiver-org ref="GM-COA-21" type="10">
+    <narrative xml:lang="EN">Ministry of Health, Gambia (the)</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="GMB-NVS-1">
-   <transaction-type code="2"></transaction-type>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2002-11-15"></transaction-date>
    <value currency="USD" value-date="2002-11-15">410021</value>
    <description>
-    <narrative xml:lang="EN">Approved 2002 budget</narrative>
+    <narrative xml:lang="EN">Vaccine disbursement for programme GMB-HIB-R-VAC</narrative>
    </description>
-   <provider-org ref="XM-DAC-41122" type="40">
+   <provider-org ref="47122" type="40">
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
    </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction ref="GMB-Lumpsum-1">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date gavi:budget-period="2002" iso-date="2002-02-08"></transaction-date>
-   <value currency="USD" value-date="2002-02-08">50000</value>
-   <description>
-    <narrative xml:lang="EN">Cash disbursement for programme GMB-HIB-R-VIG-MOH (Approval code: GMB-Lumpsum-1)</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction ref="GMB-NVS-1">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date gavi:budget-period="2002" iso-date="2002-11-15"></transaction-date>
-   <value currency="USD" value-date="2002-11-15">410021</value>
-   <description>
-    <narrative xml:lang="EN">Vaccines disbursement for programme GMB-HIB-R-VAC (Approval code: GMB-NVS-1)</narrative>
-   </description>
-   <provider-org ref="XM-DAC-41122" type="40">
-    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
-   </provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">The Government of Gambia</narrative>
+   <receiver-org ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">UNICEF Supply Division</narrative>
    </receiver-org>
   </transaction>
   <document-link format="APPLICATION/MSWORD" url="https://www.gavi.org/fr/actualites/librarie-de-documents/proposal-iss-nvs-hepb-dtp-hib-support-gambia">

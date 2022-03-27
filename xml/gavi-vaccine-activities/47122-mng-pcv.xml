@@ -32,10 +32,11 @@
    </owner-org>
   </other-identifier>
   <other-identifier ref="47122-1619-MNG-12C-X" type="A3"></other-identifier>
-  <activity-status code="2"></activity-status>
-  <activity-date iso-date="2021-01-01" type="1"></activity-date>
-  <activity-date iso-date="2021-01-01" type="2"></activity-date>
-  <activity-date iso-date="2022-12-31" type="3"></activity-date>
+  <activity-status code="3"></activity-status>
+  <activity-date iso-date="2016-01-01" type="1"></activity-date>
+  <activity-date iso-date="2016-01-01" type="2"></activity-date>
+  <activity-date iso-date="2019-12-31" type="3"></activity-date>
+  <activity-date iso-date="2019-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
@@ -58,6 +59,9 @@
    <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
+  <sector code="PCV" percentage="100" vocabulary="99">
+   <narrative xml:lang="EN">Pneumococcal Conjugate Vaccines</narrative>
+  </sector>
   <sector code="12250" percentage="100" vocabulary="1"></sector>
   <tag code="1" vocabulary="2"></tag>
   <tag code="10" vocabulary="2"></tag>
@@ -79,7 +83,64 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="1" type="1">
+   <period-start iso-date="2016-01-01"></period-start>
+   <period-end iso-date="2016-12-31"></period-end>
+   <value currency="USD" value-date="2022-03-25">8500</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2018-01-01"></period-start>
+   <period-end iso-date="2018-12-31"></period-end>
+   <value currency="USD" value-date="2022-03-25">377000</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2019-01-01"></period-start>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="USD" value-date="2022-03-25">239000</value>
+  </budget>
   <capital-spend percentage="0"></capital-spend>
+  <transaction ref="MNGPCV2016">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2016-01-01"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">8500</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2016 budget for Mongolia PCV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mongolia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MNGPCV2018">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2018-01-01"></transaction-date>
+   <value currency="USD" value-date="2018-01-01">377000</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2018 budget for Mongolia PCV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mongolia</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="MNGPCV2019">
+   <transaction-type code="12"></transaction-type>
+   <transaction-date iso-date="2019-01-01"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">239000</value>
+   <description>
+    <narrative xml:lang="EN">Endorsed 2019 budget for Mongolia PCV</narrative>
+   </description>
+   <provider-org ref="47122" type="40">
+    <narrative xml:lang="EN">Gavi, The Vaccine Alliance</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">The Government of Mongolia</narrative>
+   </receiver-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.gavi.org/fr/actualites/librarie-de-documents/proposal-nvs-pcv-support-mongolia">
    <title>
     <narrative xml:lang="EN">Proposal for NVS - PCV support: Mongolia</narrative>
@@ -146,5 +207,39 @@
     <narrative xml:lang="EN">Conditions are available in the decision letters</narrative>
    </condition>
   </conditions>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Mongolia: Pneumococcal Conjugate Vaccines: vaccines</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Total number of children vaccinated with the first dose of Pneumococcal Conjugate Vaccines vaccine.</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <target value="74907"></target>
+     <actual value="19476"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="73832"></target>
+     <actual value="36178"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="72552"></target>
+     <actual value="66748"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2017-12-31"></period-end>
+     <target value="75671"></target>
+     <actual value="9837"></actual>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>
