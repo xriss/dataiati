@@ -63,8 +63,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2020-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2020-01-01" type="2">
    <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2021-12-31" type="4">
    <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
@@ -74,17 +80,15 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Bolivia (Plurinational State of)</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Bolivia (Plurinational State of)</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-16.290154 -63.588653</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
-  <sector code="3.D" percentage="100" vocabulary="8"></sector>
   <sector code="72050" percentage="100" vocabulary="1"></sector>
+  <tag code="3.D" vocabulary="1"></tag>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
     <description>
@@ -92,6 +96,7 @@
     </description>
    </budget-item>
   </country-budget-items>
+  <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -100,14 +105,15 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">3083818.55</value>
+   <value currency="USD" value-date="2022-03-28">3083818.55</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">3083818.55</value>
+   <value currency="USD" value-date="2022-03-28">3083818.55</value>
   </budget>
-  <transaction humanitarian="1" ref="Expenditure">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">2083611</value>
@@ -121,7 +127,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">37434.5</value>
@@ -135,7 +141,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">21301.8</value>
@@ -149,7 +155,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">123306.6</value>
@@ -163,7 +169,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">756046.6</value>
@@ -177,7 +183,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Disbursement">
+  <transaction humanitarian="1">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">3024650.8</value>
@@ -191,7 +197,7 @@
     <narrative xml:lang="EN"></narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">71242.7</value>
@@ -205,10 +211,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Incoming Commitment">
+  <transaction humanitarian="1">
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2022-02-01"></transaction-date>
-   <value currency="USD" value-date="2022-02-01">45417.9</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">45417.9</value>
    <provider-org ref="GB-GOV-1" type="10">
     <narrative xml:lang="EN">Department for International Development (DFID), United Kingdom</narrative>
    </provider-org>
@@ -217,10 +223,10 @@
    </receiver-org>
    <flow-type code="10"></flow-type>
   </transaction>
-  <transaction humanitarian="1" ref="Incoming Commitment">
+  <transaction humanitarian="1">
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2022-02-01"></transaction-date>
-   <value currency="USD" value-date="2022-02-01">4238409.918779</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">4238409.918779</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -229,10 +235,10 @@
    </receiver-org>
    <flow-type code="10"></flow-type>
   </transaction>
-  <transaction humanitarian="1" ref="Incoming Commitment">
+  <transaction humanitarian="1">
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2022-02-01"></transaction-date>
-   <value currency="USD" value-date="2022-02-01">1856181.680276</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">1856181.680276</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -240,6 +246,26 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
    <flow-type code="40"></flow-type>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">3083818.55</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">3083818.55</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
   </transaction>
   <document-link format="TEXT/HTML" url="https://portal.who.int/triplebillions/PowerBIDashboards/ExploreIndicators">
    <title>
@@ -257,43 +283,12 @@
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/165610/1/ccs_bol_es.pdf">
    <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Bolivia (Plurinational  
+    <narrative xml:lang="ES">Country Cooperation Strategy Bolivia (Plurinational  
 State of) (2011-2015)</narrative>
    </title>
    <category code="B03"></category>
    <language code="ES"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/165610/1/ccs_bol_es.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Bolivia (Plurinational  
-State of) (2011-2015)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="ES"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/165610/1/ccs_bol_es.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Bolivia (Plurinational  
-State of) (2011-2015)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="ES"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136965/1/ccsbrief_bol_es.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Bolivia  
-(Plurinational State of) (2013)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="ES"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136965/1/ccsbrief_bol_es.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Bolivia  
-(Plurinational State of) (2013)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="ES"></language>
-  </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

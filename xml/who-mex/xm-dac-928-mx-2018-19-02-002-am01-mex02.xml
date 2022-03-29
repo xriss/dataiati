@@ -30,8 +30,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2018-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2018 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2018-01-01" type="2">
    <narrative xml:lang="EN">1/1/2018 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2019-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2019 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2019-12-31" type="4">
    <narrative xml:lang="EN">12/31/2019 12:00:00 AM</narrative>
@@ -41,17 +47,15 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Mexico</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Mexico</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>23.634501 -102.552784</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
   <sector code="12340" percentage="100" vocabulary="1"></sector>
-  <sector code="3.4" percentage="100" vocabulary="8"></sector>
+  <tag code="3.4" vocabulary="1"></tag>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
     <description>
@@ -67,14 +71,15 @@
   <budget status="2" type="1">
    <period-start iso-date="2018-01-01"></period-start>
    <period-end iso-date="2018-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">87515.45</value>
+   <value currency="USD" value-date="2022-03-28">87515.45</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">87515.45</value>
+   <value currency="USD" value-date="2022-03-28">87515.45</value>
   </budget>
-  <transaction ref="Expenditure">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">235.9</value>
@@ -88,7 +93,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">80.1</value>
@@ -102,7 +107,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">548.8</value>
@@ -116,7 +121,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">98440.9</value>
@@ -130,7 +135,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">9134.7</value>
@@ -144,10 +149,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-01-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-30">104171.5</value>
+   <transaction-date iso-date="2018-01-01"></transaction-date>
+   <value currency="USD" value-date="2018-01-01">104171.5</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -156,10 +161,10 @@
    </receiver-org>
    <flow-type code="20"></flow-type>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-01-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-30">4268.9</value>
+   <transaction-date iso-date="2018-01-01"></transaction-date>
+   <value currency="USD" value-date="2018-01-01">4268.9</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -168,28 +173,26 @@
    </receiver-org>
    <flow-type code="30"></flow-type>
   </transaction>
-  <document-link format="TEXT/HTML" url="https://portal.who.int/triplebillions/PowerBIDashboards/ExploreIndicators">
-   <title>
-    <narrative xml:lang="EN">Triple billion targets - tracking the work of WHO, countries, regions and partners to meet the Triple Billion targets and health-related Sustainable Development Goals (SDGs)</narrative>
-   </title>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.who.int/about/accountability/results/who-results-report-2020-mtr">
-   <title>
-    <narrative xml:lang="EN">WHO Mid-term Results Report - Programme Budget 2020-2021</narrative>
-   </title>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/250863/1/ccsbrief_mex_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Mexico  
-(2017)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
+  <transaction>
+   <transaction-date iso-date="2018-01-01"></transaction-date>
+   <value currency="USD" value-date="2018-01-01">87515.45</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2019-01-01"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">87515.45</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/250863/1/ccsbrief_mex_en.pdf">
    <title>
     <narrative xml:lang="EN">Country Cooperation Strategy Brief - Mexico  
@@ -200,15 +203,7 @@
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/250865/1/ccsbrief_mex_es.pdf">
    <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Mexico  
-(2016)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="ES"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/250865/1/ccsbrief_mex_es.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Mexico  
+    <narrative xml:lang="ES">Country Cooperation Strategy Brief - Mexico  
 (2016)</narrative>
    </title>
    <category code="B03"></category>
@@ -216,24 +211,11 @@
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://iris.paho.org/xmlui/bitstream/handle/123456789/7667/CCSMEX_2015-2018.pdf?sequence=1&amp;isAllowed=y">
    <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Mexico (2015-2018)</narrative>
+    <narrative xml:lang="ES">Country Cooperation Strategy Mexico (2015-2018)</narrative>
    </title>
    <category code="B03"></category>
    <language code="ES"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://iris.paho.org/xmlui/bitstream/handle/123456789/7667/CCSMEX_2015-2018.pdf?sequence=1&amp;isAllowed=y">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Mexico (2015-2018)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="ES"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://iris.paho.org/xmlui/bitstream/handle/123456789/7667/CCSMEX_2015-2018.pdf?sequence=1&amp;isAllowed=y">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Mexico (2015-2018)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="ES"></language>
-  </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

@@ -27,8 +27,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2020-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2020-01-01" type="2">
    <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2021-12-31" type="4">
    <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
@@ -49,21 +55,18 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Lesotho</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Lesotho</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-29.609988 28.233608</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
-  <sector code="12110" percentage="15" vocabulary="1"></sector>
-  <sector code="12110" percentage="80" vocabulary="1"></sector>
+  <sector code="12110" percentage="95" vocabulary="1"></sector>
   <sector code="12250" percentage="5" vocabulary="1"></sector>
-  <sector code="17.18" percentage="100" vocabulary="8"></sector>
-  <sector code="3.2" percentage="100" vocabulary="8"></sector>
-  <sector code="3.8" percentage="100" vocabulary="8"></sector>
+  <tag code="17.18" vocabulary="1"></tag>
+  <tag code="3.2" vocabulary="1"></tag>
+  <tag code="3.8" vocabulary="1"></tag>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
     <description>
@@ -79,17 +82,18 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">33402.924262</value>
+   <value currency="USD" value-date="2022-03-28">16701.462131</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">33402.924262</value>
+   <value currency="USD" value-date="2022-03-28">16701.462131</value>
   </budget>
-  <transaction ref="Expenditure">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-21"></transaction-date>
-   <value currency="USD" value-date="2020-12-21">6.9</value>
+   <value currency="USD" value-date="2020-12-21">3.45</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -100,10 +104,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-24"></transaction-date>
-   <value currency="USD" value-date="2020-12-24">919.8</value>
+   <value currency="USD" value-date="2020-12-24">459.9</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -114,10 +118,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2022-02-01"></transaction-date>
-   <value currency="USD" value-date="2022-02-01">928</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">464</value>
    <provider-org ref="GB-UKPRN-10007790" type="80">
     <narrative xml:lang="EN">University of Edinburgh</narrative>
    </provider-org>
@@ -125,6 +129,26 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
    <flow-type code="30"></flow-type>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">16701.462131</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">16701.462131</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
   </transaction>
   <document-link format="TEXT/HTML" url="https://portal.who.int/triplebillions/PowerBIDashboards/ExploreIndicators">
    <title>
@@ -140,21 +164,6 @@
    <category code="A08"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136910/1/ccsbrief_lso_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Lesotho  
-(2017)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136910/1/ccsbrief_lso_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Lesotho (2018)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/246297/1/ccs_lso_en.pdf">
    <title>
     <narrative xml:lang="EN">Country Cooperation Strategy Lesotho (2014- 
@@ -163,21 +172,6 @@
    <category code="B03"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/246297/1/ccs_lso_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Lesotho (2014- 
-2019)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/246297/1/ccs_lso_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Lesotho (2014- 
-2019)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

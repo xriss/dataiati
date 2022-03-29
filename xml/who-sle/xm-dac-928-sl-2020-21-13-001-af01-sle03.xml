@@ -24,8 +24,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2020-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2020-01-01" type="2">
    <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2021-12-31" type="4">
    <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
@@ -46,17 +52,15 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Sierra Leone</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Sierra Leone</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>8.460555 -11.779889</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
-  <sector code="3.D" percentage="100" vocabulary="8"></sector>
   <sector code="72050" percentage="100" vocabulary="1"></sector>
+  <tag code="3.D" vocabulary="1"></tag>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
     <description>
@@ -64,7 +68,6 @@
     </description>
    </budget-item>
   </country-budget-items>
-  <humanitarian-scope code="Sierra Leone Mass burn disaster Nov21" type="1" vocabulary="99"></humanitarian-scope>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -73,17 +76,18 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">0</value>
+   <value currency="USD" value-date="2022-03-28">0</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">0</value>
+   <value currency="USD" value-date="2022-03-28">0</value>
   </budget>
-  <transaction humanitarian="1" ref="Expenditure">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-11-25"></transaction-date>
-   <value currency="USD" value-date="2021-11-25">705.62</value>
+   <value currency="USD" value-date="2021-11-25">352.81</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -94,10 +98,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-01"></transaction-date>
-   <value currency="USD" value-date="2021-12-01">7698.58</value>
+   <value currency="USD" value-date="2021-12-01">3849.29</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -108,10 +112,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-13"></transaction-date>
-   <value currency="USD" value-date="2021-12-13">36083.7</value>
+   <value currency="USD" value-date="2021-12-13">18041.85</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -122,10 +126,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-14"></transaction-date>
-   <value currency="USD" value-date="2021-12-14">21112.22</value>
+   <value currency="USD" value-date="2021-12-14">10556.11</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -136,10 +140,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-15"></transaction-date>
-   <value currency="USD" value-date="2021-12-15">6224.08</value>
+   <value currency="USD" value-date="2021-12-15">3112.04</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -150,10 +154,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-23"></transaction-date>
-   <value currency="USD" value-date="2021-12-23">8945.22</value>
+   <value currency="USD" value-date="2021-12-23">4472.61</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -164,13 +168,33 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction humanitarian="1" ref="Expenditure">
+  <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-13"></transaction-date>
-   <value currency="USD" value-date="2021-12-13">7620</value>
+   <value currency="USD" value-date="2021-12-13">3810</value>
    <description>
     <narrative xml:lang="EN">Travel</narrative>
    </description>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">0</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">0</value>
    <provider-org ref="XM-DAC-928" type="40">
     <narrative xml:lang="EN">World Health Organization</narrative>
    </provider-org>
@@ -192,21 +216,6 @@
    <category code="A08"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136868/1/ccsbrief_sle_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Sierra Leone  (2018)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136868/1/ccsbrief_sle_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Sierra Leone  
-(2014)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/258610/1/ccs-sle-2017-2021-en.pdf">
    <title>
     <narrative xml:lang="EN">Country Cooperation Strategy Sierra Leone  
@@ -215,21 +224,6 @@
    <category code="B03"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/258610/1/ccs-sle-2017-2021-en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Sierra Leone  
-(2017-2021)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/258610/1/ccs-sle-2017-2021-en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Sierra Leone  
-(2017-2021)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

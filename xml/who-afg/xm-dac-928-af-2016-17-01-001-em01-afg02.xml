@@ -27,8 +27,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2016-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2016 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2016-01-01" type="2">
    <narrative xml:lang="EN">1/1/2016 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2017-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2017 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2017-12-31" type="4">
    <narrative xml:lang="EN">12/31/2017 12:00:00 AM</narrative>
@@ -49,17 +55,15 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Afghanistan</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Afghanistan</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>33.93911 67.709953</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
   <sector code="13040" percentage="100" vocabulary="1"></sector>
-  <sector code="3.3" percentage="100" vocabulary="8"></sector>
+  <tag code="3.3" vocabulary="1"></tag>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
     <description>
@@ -75,17 +79,18 @@
   <budget status="2" type="1">
    <period-start iso-date="2016-01-01"></period-start>
    <period-end iso-date="2016-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">1713.8809</value>
+   <value currency="USD" value-date="2022-03-28">1713.8809</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2017-01-01"></period-start>
    <period-end iso-date="2017-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">1713.8809</value>
+   <value currency="USD" value-date="2022-03-28">1713.8809</value>
   </budget>
-  <transaction ref="Incoming Commitment">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2018-01-31"></transaction-date>
-   <value currency="USD" value-date="2018-01-31">2941</value>
+   <transaction-date iso-date="2016-01-01"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">2941</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -94,46 +99,30 @@
    </receiver-org>
    <flow-type code="20"></flow-type>
   </transaction>
-  <document-link format="TEXT/HTML" url="https://portal.who.int/triplebillions/PowerBIDashboards/ExploreIndicators">
-   <title>
-    <narrative xml:lang="EN">Triple billion targets - tracking the work of WHO, countries, regions and partners to meet the Triple Billion targets and health-related Sustainable Development Goals (SDGs)</narrative>
-   </title>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.who.int/about/accountability/results/who-results-report-2020-mtr">
-   <title>
-    <narrative xml:lang="EN">WHO Mid-term Results Report - Programme Budget 2020-2021</narrative>
-   </title>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
+  <transaction>
+   <transaction-date iso-date="2016-01-01"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">1713.8809</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2017-01-01"></transaction-date>
+   <value currency="USD" value-date="2017-01-01">1713.8809</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/113236/1/CCS_Afghanistan_2010_EN_14480.pdf">
    <title>
     <narrative xml:lang="EN">Country Cooperation Strategy  
 Afghanistan (2009-2013)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/113236/1/CCS_Afghanistan_2010_EN_14480.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy  
-Afghanistan (2009-2013)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136852/1/ccsbrief_afg_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Afghanistan  (2018)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136852/1/ccsbrief_afg_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Afghanistan  (2018)</narrative>
    </title>
    <category code="B03"></category>
    <language code="EN"></language>
@@ -146,5 +135,6 @@ Afghanistan (2009-2013)</narrative>
    <category code="B03"></category>
    <language code="EN"></language>
   </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

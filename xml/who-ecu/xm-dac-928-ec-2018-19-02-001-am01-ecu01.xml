@@ -27,8 +27,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2018-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2018 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2018-01-01" type="2">
    <narrative xml:lang="EN">1/1/2018 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2019-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2019 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2019-12-31" type="4">
    <narrative xml:lang="EN">12/31/2019 12:00:00 AM</narrative>
@@ -38,17 +44,15 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Ecuador</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Ecuador</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-1.831239 -78.183406</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
   <sector code="12350" percentage="100" vocabulary="1"></sector>
-  <sector code="3.4" percentage="100" vocabulary="8"></sector>
+  <tag code="3.4" vocabulary="1"></tag>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
     <description>
@@ -64,14 +68,15 @@
   <budget status="2" type="1">
    <period-start iso-date="2018-01-01"></period-start>
    <period-end iso-date="2018-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">198499.85</value>
+   <value currency="USD" value-date="2022-03-28">198499.85</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">198499.85</value>
+   <value currency="USD" value-date="2022-03-28">198499.85</value>
   </budget>
-  <transaction ref="Expenditure">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">36137.2</value>
@@ -85,7 +90,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">11399</value>
@@ -99,7 +104,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">1288.5</value>
@@ -113,7 +118,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">19630.3</value>
@@ -127,7 +132,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">1200</value>
@@ -141,7 +146,7 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Disbursement">
+  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">1573</value>
@@ -155,7 +160,7 @@
     <narrative xml:lang="EN"></narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">174733.4</value>
@@ -169,10 +174,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2020-01-30"></transaction-date>
-   <value currency="USD" value-date="2020-01-30">245961</value>
+   <transaction-date iso-date="2018-01-01"></transaction-date>
+   <value currency="USD" value-date="2018-01-01">245961</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -181,20 +186,26 @@
    </receiver-org>
    <flow-type code="30"></flow-type>
   </transaction>
-  <document-link format="TEXT/HTML" url="https://portal.who.int/triplebillions/PowerBIDashboards/ExploreIndicators">
-   <title>
-    <narrative xml:lang="EN">Triple billion targets - tracking the work of WHO, countries, regions and partners to meet the Triple Billion targets and health-related Sustainable Development Goals (SDGs)</narrative>
-   </title>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.who.int/about/accountability/results/who-results-report-2020-mtr">
-   <title>
-    <narrative xml:lang="EN">WHO Mid-term Results Report - Programme Budget 2020-2021</narrative>
-   </title>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
+  <transaction>
+   <transaction-date iso-date="2018-01-01"></transaction-date>
+   <value currency="USD" value-date="2018-01-01">198499.85</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2019-01-01"></transaction-date>
+   <value currency="USD" value-date="2019-01-01">198499.85</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/137163/1/ccsbrief_ecu_en.pdf">
    <title>
     <narrative xml:lang="EN">Country Cooperation Strategy Brief - Ecuador  
@@ -203,35 +214,13 @@
    <category code="B03"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/137163/1/ccsbrief_ecu_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Ecuador  
-(2017)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/165671/1/ccs_ecu_es.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Ecuador (2010- 
-2014)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="ES"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="https://apps.who.int/iris/bitstream/handle/10665/275331/ccs-ecu-2018-2022-spa.pdf?ua=1">
    <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Ecuador (2018-2022)</narrative>
+    <narrative xml:lang="ES">Country Cooperation Strategy Ecuador (2018-2022)</narrative>
    </title>
    <category code="B03"></category>
    <language code="ES"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://apps.who.int/iris/bitstream/handle/10665/275331/ccs-ecu-2018-2022-spa.pdf?ua=1">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Ecuador (2018-2022)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="ES"></language>
-  </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

@@ -27,8 +27,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2020-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2020-01-01" type="2">
    <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2021-12-31" type="4">
    <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
@@ -49,21 +55,19 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Cook Islands</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Cook Islands</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-21.236736 -159.777671</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
   <sector code="12110" percentage="80" vocabulary="1"></sector>
   <sector code="12263" percentage="10" vocabulary="1"></sector>
   <sector code="12350" percentage="10" vocabulary="1"></sector>
-  <sector code="17.18" percentage="100" vocabulary="8"></sector>
-  <sector code="3.3" percentage="100" vocabulary="8"></sector>
-  <sector code="3.4" percentage="100" vocabulary="8"></sector>
+  <tag code="17.18" vocabulary="1"></tag>
+  <tag code="3.3" vocabulary="1"></tag>
+  <tag code="3.4" vocabulary="1"></tag>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
     <description>
@@ -79,17 +83,18 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">10800</value>
+   <value currency="USD" value-date="2022-03-28">5400</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">10800</value>
+   <value currency="USD" value-date="2022-03-28">5400</value>
   </budget>
-  <transaction ref="Disbursement">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-06-04"></transaction-date>
-   <value currency="USD" value-date="2020-06-04">19968.06</value>
+   <value currency="USD" value-date="2020-06-04">9984.03</value>
    <description>
     <narrative xml:lang="EN">Transfers and grants to counterparts</narrative>
    </description>
@@ -100,10 +105,10 @@
     <narrative xml:lang="EN"></narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2022-02-01"></transaction-date>
-   <value currency="USD" value-date="2022-02-01">21600</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">10800</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -111,6 +116,26 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">5400</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">5400</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
   </transaction>
   <document-link format="TEXT/HTML" url="https://portal.who.int/triplebillions/PowerBIDashboards/ExploreIndicators">
    <title>
@@ -126,29 +151,6 @@
    <category code="A08"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/137155/1/ccsbrief_cok_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Cook Islands  (2018)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/137155/1/ccsbrief_cok_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Cook Islands  
-(2014)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/206589/1/CCS_COK_2013-2017_eng.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Cook Islands  
-(2013-2017)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://iris.wpro.who.int/handle/10665.1/12873">
    <title>
     <narrative xml:lang="EN">Country Cooperation Strategy Cook Islands  
@@ -157,13 +159,6 @@
    <category code="B03"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://iris.wpro.who.int/handle/10665.1/12873">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Cook Islands  
-(2018-2022)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

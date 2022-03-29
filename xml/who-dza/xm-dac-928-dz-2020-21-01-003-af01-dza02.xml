@@ -30,8 +30,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2020-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2020-01-01" type="2">
    <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2021-12-31" type="4">
    <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
@@ -52,21 +58,19 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Algeria</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Algeria</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>28.033886 1.659626</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
   <sector code="12110" percentage="5" vocabulary="1"></sector>
   <sector code="12220" percentage="85" vocabulary="1"></sector>
   <sector code="12250" percentage="5" vocabulary="1"></sector>
   <sector code="12281" percentage="5" vocabulary="1"></sector>
-  <sector code="3.8" percentage="100" vocabulary="8"></sector>
-  <sector code="3.B" percentage="100" vocabulary="8"></sector>
+  <tag code="3.8" vocabulary="1"></tag>
+  <tag code="3.B" vocabulary="1"></tag>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
     <description>
@@ -82,17 +86,18 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">46049.959241</value>
+   <value currency="USD" value-date="2022-03-28">23024.9796205</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">46049.959241</value>
+   <value currency="USD" value-date="2022-03-28">23024.9796205</value>
   </budget>
-  <transaction ref="Expenditure">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-11-15"></transaction-date>
-   <value currency="USD" value-date="2021-11-15">2711.04</value>
+   <value currency="USD" value-date="2021-11-15">1355.52</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -103,10 +108,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2022-02-01"></transaction-date>
-   <value currency="USD" value-date="2022-02-01">2712</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">1356</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -115,10 +120,10 @@
    </receiver-org>
    <flow-type code="10"></flow-type>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2022-02-01"></transaction-date>
-   <value currency="USD" value-date="2022-02-01">8134</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">4067</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -126,6 +131,26 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
    <flow-type code="40"></flow-type>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">23024.9796205</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">23024.9796205</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
   </transaction>
   <document-link format="TEXT/HTML" url="https://portal.who.int/triplebillions/PowerBIDashboards/ExploreIndicators">
    <title>
@@ -141,57 +166,13 @@
    <category code="A08"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/250617/1/ccsbrief_dza_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Algeria  
-(2016)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/250617/1/ccsbrief_dza_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Algeria  
-(2016)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/handle/10665/250548">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Algeria (2015-2019)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="FR"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/handle/10665/250548/ccs_dza_2016_2020_fr.pdf">
    <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Algeria (2016-2020)</narrative>
+    <narrative xml:lang="FR">Country Cooperation Strategy Algeria (2016-2020)</narrative>
    </title>
    <category code="B03"></category>
    <language code="FR"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/handle/10665/250548/ccs_dza_2016_2020_fr.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Algeria (2016-2020)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/179955/1/ccsbrief_dza_fr.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Algeria  (2018)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/179955/1/ccsbrief_dza_fr.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Algeria  
-(2016)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="FR"></language>
-  </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

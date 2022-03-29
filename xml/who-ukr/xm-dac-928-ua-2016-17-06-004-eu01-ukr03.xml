@@ -33,8 +33,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2016-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2016 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2016-01-01" type="2">
    <narrative xml:lang="EN">1/1/2016 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2017-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2017 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2017-12-31" type="4">
    <narrative xml:lang="EN">12/31/2017 12:00:00 AM</narrative>
@@ -55,14 +61,12 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Ukraine</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Ukraine</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>48.379433 31.16558</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
   <sector code="12110" percentage="100" vocabulary="1"></sector>
   <country-budget-items vocabulary="1">
@@ -80,17 +84,18 @@
   <budget status="2" type="1">
    <period-start iso-date="2016-01-01"></period-start>
    <period-end iso-date="2016-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">100795.82656</value>
+   <value currency="USD" value-date="2022-03-28">100795.82656</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2017-01-01"></period-start>
    <period-end iso-date="2017-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">100795.82656</value>
+   <value currency="USD" value-date="2022-03-28">100795.82656</value>
   </budget>
-  <transaction ref="Incoming Commitment">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2018-01-31"></transaction-date>
-   <value currency="USD" value-date="2018-01-31">9653</value>
+   <transaction-date iso-date="2016-01-01"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">9653</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -99,10 +104,10 @@
    </receiver-org>
    <flow-type code="10"></flow-type>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2018-01-31"></transaction-date>
-   <value currency="USD" value-date="2018-01-31">6817</value>
+   <transaction-date iso-date="2016-01-01"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">6817</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -111,10 +116,10 @@
    </receiver-org>
    <flow-type code="20"></flow-type>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2018-01-31"></transaction-date>
-   <value currency="USD" value-date="2018-01-31">156341</value>
+   <transaction-date iso-date="2016-01-01"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">156341</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -123,19 +128,26 @@
    </receiver-org>
    <flow-type code="40"></flow-type>
   </transaction>
-  <document-link format="TEXT/HTML" url="https://portal.who.int/triplebillions/PowerBIDashboards/ExploreIndicators">
-   <title>
-    <narrative xml:lang="EN">Triple billion targets - tracking the work of WHO, countries, regions and partners to meet the Triple Billion targets and health-related Sustainable Development Goals (SDGs)</narrative>
-   </title>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="TEXT/HTML" url="https://www.who.int/about/accountability/results/who-results-report-2020-mtr">
-   <title>
-    <narrative xml:lang="EN">WHO Mid-term Results Report - Programme Budget 2020-2021</narrative>
-   </title>
-   <category code="A08"></category>
-   <language code="EN"></language>
-  </document-link>
+  <transaction>
+   <transaction-date iso-date="2016-01-01"></transaction-date>
+   <value currency="USD" value-date="2016-01-01">100795.82656</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2017-01-01"></transaction-date>
+   <value currency="USD" value-date="2017-01-01">100795.82656</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

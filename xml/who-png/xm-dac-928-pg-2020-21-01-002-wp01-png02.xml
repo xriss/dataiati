@@ -27,8 +27,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2020-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2020-01-01" type="2">
    <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2021-12-31" type="4">
    <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
@@ -49,19 +55,16 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Papua New Guinea</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Papua New Guinea</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>-6.314993 143.95555</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
-  <sector code="12110" percentage="10" vocabulary="1"></sector>
-  <sector code="12110" percentage="90" vocabulary="1"></sector>
-  <sector code="3.8" percentage="100" vocabulary="8"></sector>
-  <sector code="3.C" percentage="100" vocabulary="8"></sector>
+  <sector code="12110" percentage="100" vocabulary="1"></sector>
+  <tag code="3.8" vocabulary="1"></tag>
+  <tag code="3.C" vocabulary="1"></tag>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
     <description>
@@ -77,17 +80,18 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">70000.02629</value>
+   <value currency="USD" value-date="2022-03-28">35000.013145</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">70000.02629</value>
+   <value currency="USD" value-date="2022-03-28">35000.013145</value>
   </budget>
-  <transaction ref="Expenditure">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-07-28"></transaction-date>
-   <value currency="USD" value-date="2020-07-28">2800.76</value>
+   <value currency="USD" value-date="2020-07-28">1400.38</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -98,10 +102,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-10-22"></transaction-date>
-   <value currency="USD" value-date="2020-10-22">7001.88</value>
+   <value currency="USD" value-date="2020-10-22">3500.94</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -112,10 +116,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-01-21"></transaction-date>
-   <value currency="USD" value-date="2021-01-21">18012.26</value>
+   <value currency="USD" value-date="2021-01-21">9006.13</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -126,10 +130,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2022-02-01"></transaction-date>
-   <value currency="USD" value-date="2022-02-01">27816</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">13908</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -137,6 +141,26 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">35000.013145</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">35000.013145</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
   </transaction>
   <document-link format="TEXT/HTML" url="https://portal.who.int/triplebillions/PowerBIDashboards/ExploreIndicators">
    <title>
@@ -152,21 +176,6 @@
    <category code="A08"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136819/1/ccsbrief_png_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Papua New  Guinea (2018)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136819/1/ccsbrief_png_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Papua New  
-Guinea (2017)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://iris.wpro.who.int/bitstream/handle/10665.1/13444/WPRO-2016-DPM-005-eng.pdf">
    <title>
     <narrative xml:lang="EN">Country Cooperation Strategy Papua  
@@ -175,21 +184,6 @@ New Guinea (2016-2020)</narrative>
    <category code="B03"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://iris.wpro.who.int/bitstream/handle/10665.1/13444/WPRO-2016-DPM-005-eng.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Papua  
-New Guinea (2016-2020)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://iris.wpro.who.int/bitstream/handle/10665.1/13444/WPRO-2016-DPM-005-eng.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Papua  
-New Guinea (2016-2020)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

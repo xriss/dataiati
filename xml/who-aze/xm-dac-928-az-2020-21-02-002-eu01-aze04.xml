@@ -27,8 +27,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2020-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2020-01-01" type="2">
    <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2021-12-31" type="4">
    <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
@@ -49,19 +55,17 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Azerbaijan</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Azerbaijan</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>40.143105 47.576927</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
   <sector code="12110" percentage="15" vocabulary="1"></sector>
   <sector code="12250" percentage="75" vocabulary="1"></sector>
   <sector code="13010" percentage="10" vocabulary="1"></sector>
-  <sector code="3.8" percentage="100" vocabulary="8"></sector>
+  <tag code="3.8" vocabulary="1"></tag>
   <country-budget-items vocabulary="1">
    <budget-item code="5.1.1" percentage="100" vocabulary="1">
     <description>
@@ -77,17 +81,18 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">12146.703646</value>
+   <value currency="USD" value-date="2022-03-28">6073.3518235</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">12146.703646</value>
+   <value currency="USD" value-date="2022-03-28">6073.3518235</value>
   </budget>
-  <transaction ref="Expenditure">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-07-17"></transaction-date>
-   <value currency="USD" value-date="2020-07-17">3557.58</value>
+   <value currency="USD" value-date="2020-07-17">1778.79</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -98,10 +103,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-09-10"></transaction-date>
-   <value currency="USD" value-date="2021-09-10">6793.28</value>
+   <value currency="USD" value-date="2021-09-10">3396.64</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -112,10 +117,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-15"></transaction-date>
-   <value currency="USD" value-date="2021-12-15">4348.14</value>
+   <value currency="USD" value-date="2021-12-15">2174.07</value>
    <description>
     <narrative xml:lang="EN">Contractual services</narrative>
    </description>
@@ -126,10 +131,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-03-09"></transaction-date>
-   <value currency="USD" value-date="2020-03-09">1774</value>
+   <value currency="USD" value-date="2020-03-09">887</value>
    <description>
     <narrative xml:lang="EN">Travel</narrative>
    </description>
@@ -140,10 +145,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-03-10"></transaction-date>
-   <value currency="USD" value-date="2020-03-10">-1774</value>
+   <value currency="USD" value-date="2020-03-10">-887</value>
    <description>
     <narrative xml:lang="EN">Travel</narrative>
    </description>
@@ -154,10 +159,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Incoming Commitment">
+  <transaction>
    <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2022-02-01"></transaction-date>
-   <value currency="USD" value-date="2022-02-01">18000</value>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">9000</value>
    <provider-org ref="US-GOV-1" type="10">
     <narrative xml:lang="EN">United States Agency for International Development (USAID)</narrative>
    </provider-org>
@@ -165,6 +170,26 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">6073.3518235</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">6073.3518235</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
   </transaction>
   <document-link format="TEXT/HTML" url="https://portal.who.int/triplebillions/PowerBIDashboards/ExploreIndicators">
    <title>
@@ -180,5 +205,6 @@
    <category code="A08"></category>
    <language code="EN"></language>
   </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>

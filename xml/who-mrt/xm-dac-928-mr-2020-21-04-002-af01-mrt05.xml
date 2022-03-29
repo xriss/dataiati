@@ -24,8 +24,14 @@
    <narrative xml:lang="EN">World Health Organization</narrative>
   </participating-org>
   <activity-status code="4"></activity-status>
+  <activity-date iso-date="2020-01-01" type="1">
+   <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
   <activity-date iso-date="2020-01-01" type="2">
    <narrative xml:lang="EN">1/1/2020 12:00:00 AM</narrative>
+  </activity-date>
+  <activity-date iso-date="2021-12-31" type="3">
+   <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
   </activity-date>
   <activity-date iso-date="2021-12-31" type="4">
    <narrative xml:lang="EN">12/31/2021 12:00:00 AM</narrative>
@@ -46,14 +52,12 @@
   </recipient-country>
   <location>
    <name>
-    <narrative xml:lang="EN">Mauritania</narrative>
+    <narrative xml:lang="EN"></narrative>
    </name>
    <description>
-    <narrative xml:lang="EN">Mauritania</narrative>
+    <narrative xml:lang="EN"></narrative>
    </description>
-   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-    <pos>21.00789 -10.940835</pos>
-   </point>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326"></point>
   </location>
   <sector code="12110" percentage="100" vocabulary="1"></sector>
   <country-budget-items vocabulary="1">
@@ -71,17 +75,18 @@
   <budget status="2" type="1">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">12375.973905</value>
+   <value currency="USD" value-date="2022-03-28">6187.9869525</value>
   </budget>
   <budget status="2" type="1">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2022-02-02">12375.973905</value>
+   <value currency="USD" value-date="2022-03-28">6187.9869525</value>
   </budget>
-  <transaction ref="Expenditure">
+  <capital-spend percentage="0"></capital-spend>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-04"></transaction-date>
-   <value currency="USD" value-date="2020-09-04">480.02</value>
+   <value currency="USD" value-date="2020-09-04">240.01</value>
    <description>
     <narrative xml:lang="EN">Travel</narrative>
    </description>
@@ -92,10 +97,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-07"></transaction-date>
-   <value currency="USD" value-date="2020-09-07">480.02</value>
+   <value currency="USD" value-date="2020-09-07">240.01</value>
    <description>
     <narrative xml:lang="EN">Travel</narrative>
    </description>
@@ -106,10 +111,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-10-29"></transaction-date>
-   <value currency="USD" value-date="2021-10-29">2628.02</value>
+   <value currency="USD" value-date="2021-10-29">1314.01</value>
    <description>
     <narrative xml:lang="EN">Travel</narrative>
    </description>
@@ -120,10 +125,10 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-11-11"></transaction-date>
-   <value currency="USD" value-date="2021-11-11">1334</value>
+   <value currency="USD" value-date="2021-11-11">667</value>
    <description>
     <narrative xml:lang="EN">Travel</narrative>
    </description>
@@ -134,13 +139,33 @@
     <narrative xml:lang="EN">World Health Organization</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Expenditure">
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-15"></transaction-date>
-   <value currency="USD" value-date="2021-12-15">1360.18</value>
+   <value currency="USD" value-date="2021-12-15">680.09</value>
    <description>
     <narrative xml:lang="EN">Travel</narrative>
    </description>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="USD" value-date="2020-01-01">6187.9869525</value>
+   <provider-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-928" type="40">
+    <narrative xml:lang="EN">World Health Organization</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="USD" value-date="2021-01-01">6187.9869525</value>
    <provider-org ref="XM-DAC-928" type="40">
     <narrative xml:lang="EN">World Health Organization</narrative>
    </provider-org>
@@ -164,63 +189,18 @@
   </document-link>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136941/1/ccsbrief_mrt_en.pdf">
    <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Mauritania  
-(2017)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136941/1/ccsbrief_mrt_en.pdf">
-   <title>
     <narrative xml:lang="EN">Country Cooperation Strategy Brief - Mauritania (2018)</narrative>
    </title>
    <category code="B03"></category>
    <language code="EN"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136941/1/ccsbrief_mrt_en.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Mauritania (2018)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="EN"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136942/1/ccsbrief_mrt_fr.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Mauritania  
-(2016)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/136942/1/ccsbrief_mrt_fr.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Brief - Mauritania  
-(2016)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="FR"></language>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/137180/1/ccs_mrt.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Mauritania (2009- 
-2013)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="FR"></language>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/259896/1/9789290234012-eng.pdf">
    <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Mauritania (2018-2022)</narrative>
+    <narrative xml:lang="FR">Country Cooperation Strategy Mauritania (2018-2022)</narrative>
    </title>
    <category code="B03"></category>
    <language code="FR"></language>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://apps.who.int/iris/bitstream/10665/259896/1/9789290234012-eng.pdf">
-   <title>
-    <narrative xml:lang="EN">Country Cooperation Strategy Mauritania (2018-2022)</narrative>
-   </title>
-   <category code="B03"></category>
-   <language code="FR"></language>
-  </document-link>
+  <conditions attached="0"></conditions>
  </iati-activity>
 </iati-activities>
