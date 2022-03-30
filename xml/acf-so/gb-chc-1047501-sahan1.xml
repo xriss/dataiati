@@ -2,7 +2,7 @@
 <iati-activities version="2.03">
  <iati-activity default-currency="GBP" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-CHC-1047501-SAHAN1</iati-identifier>
-  <reporting-org ref="GB-CHC-1047501" type="21">
+  <reporting-org ref="GB-CHC-1047501" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Action Against Hunger</narrative>
   </reporting-org>
   <title>
@@ -20,7 +20,7 @@
   <participating-org ref="21032" role="3" type="21">
    <narrative xml:lang="EN">Population Service International</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2019-06-01" type="2">
    <narrative xml:lang="EN">Start date</narrative>
   </activity-date>
@@ -44,5 +44,49 @@
    <period-end iso-date="2019-12-31"></period-end>
    <value currency="GBP" value-date="2019-07-24">275054</value>
   </budget>
+  <transaction ref="SAHAN-Out1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-07-29"></transaction-date>
+   <value currency="GBP" value-date="2019-07-29">119796</value>
+   <provider-org ref="GB-CHC-1047501" type="21">
+    <narrative xml:lang="EN">AAHUK</narrative>
+   </provider-org>
+   <receiver-org ref="US-EIN-13-3327220" type="21">
+    <narrative xml:lang="EN">AAHUS</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SAHAN-Out2">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-05-15"></transaction-date>
+   <value currency="GBP" value-date="2020-05-15">155258</value>
+   <provider-org ref="GB-CHC-1047501" type="21">
+    <narrative xml:lang="EN">AAHUK</narrative>
+   </provider-org>
+   <receiver-org ref="US-EIN-13-3327220" type="21">
+    <narrative xml:lang="EN">AAHUS</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SAHAN-In1">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-07-26"></transaction-date>
+   <value currency="GBP" value-date="2019-07-26">119796</value>
+   <provider-org ref="GB-GOV-1" type="10">
+    <narrative xml:lang="EN">FCDO</narrative>
+   </provider-org>
+   <receiver-org ref="GB-CHC-1047501" type="21">
+    <narrative xml:lang="EN">AAHUK</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="SAHAN-In2">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2019-12-13"></transaction-date>
+   <value currency="GBP" value-date="2019-12-13">155258</value>
+   <provider-org ref="GB-GOV-1" type="10">
+    <narrative xml:lang="EN">FCDO</narrative>
+   </provider-org>
+   <receiver-org ref="GB-CHC-1047501" type="21">
+    <narrative xml:lang="EN">AAHUK</narrative>
+   </receiver-org>
+  </transaction>
  </iati-activity>
 </iati-activities>

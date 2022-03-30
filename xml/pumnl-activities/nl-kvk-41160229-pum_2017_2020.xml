@@ -105,6 +105,14 @@
     <narrative xml:lang="EN">expenditure Q2 2017</narrative>
    </description>
   </transaction>
+  <transaction ref="Uitgaven 2021">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">5819543</value>
+   <description>
+    <narrative xml:lang="EN">expenditure Q2 2017</narrative>
+   </description>
+  </transaction>
   <transaction ref="Subsidiebeschikking MinBuZa">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2016-12-12"></transaction-date>
@@ -176,12 +184,26 @@
    <provider-org provider-activity-id="XM-DAC-7-PPR-29536" ref="XM-DAC-7" type="10"></provider-org>
    <receiver-org receiver-activity-id="NL-KVK-41160229-PUM_2017_2020" ref="NL-KVK-41160229" type="21"></receiver-org>
   </transaction>
+  <transaction ref="Buza_2021">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">3500000</value>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-29536" ref="XM-DAC-7" type="10"></provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41160229-PUM_2017_2020" ref="NL-KVK-41160229" type="21"></receiver-org>
+  </transaction>
   <transaction ref="Buza_20170804">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2017-08-04"></transaction-date>
    <value currency="EUR" value-date="2017-08-04">24000</value>
    <provider-org provider-activity-id="XM-DAC-7-PPR-29536" ref="XM-DAC-7" type="10"></provider-org>
    <receiver-org receiver-activity-id="NL-KVK-41160229-PUM_2017_2020" ref="NL-KVK-41160229"></receiver-org>
+  </transaction>
+  <transaction ref="Other_2021">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">266607</value>
+   <provider-org type="90"></provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41160229-PUM_2017_2020" ref="NL-KVK-41160229" type="21"></receiver-org>
   </transaction>
   <transaction ref="Uitgaven Q3 2020">
    <transaction-type code="4"></transaction-type>
@@ -192,11 +214,6 @@
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">1537979</value>
-  </transaction>
-  <transaction ref="Uitgaven Q1 2021">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2021-03-31"></transaction-date>
-   <value currency="EUR" value-date="2021-03-31">1364451</value>
   </transaction>
   <result type="1">
    <title>
@@ -212,16 +229,6 @@
     <description>
      <narrative xml:lang="EN">% non DGIS funds -other funders</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="4"></target>
-     <actual value="5">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021. Percentage will fluctuate due to cash accounting scheme used.</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -252,6 +259,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="4"></target>
+     <actual value="5">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021. Percentage will fluctuate due to cash accounting scheme used.</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -268,16 +285,6 @@
     <description>
      <narrative xml:lang="EN"># supported Business support organizations  (BSOs) or incubators</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="250"></target>
-     <actual value="112">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -308,6 +315,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="250"></target>
+     <actual value="141">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -325,22 +342,22 @@
      <narrative xml:lang="EN">Number of partnerships at national level</narrative>
     </description>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="36"></target>
-     <actual value="36">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="30"></target>
      <actual value="36">
       <comment>
        <narrative xml:lang="EN">Reflects actuals up to Q4 2020</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="36"></target>
+     <actual value="33">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
       </comment>
      </actual>
     </period>
@@ -361,16 +378,6 @@
     <description>
      <narrative xml:lang="EN">Number of strengthened (farmer/workers/entrepreneurs/traders) organisations for a sustainable local business climate</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="130"></target>
-     <actual value="62">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -411,6 +418,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="130"></target>
+     <actual value="76">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -427,16 +444,6 @@
     <description>
      <narrative xml:lang="EN"># of Dutch Businesses facilated</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="150"></target>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -477,6 +484,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="150"></target>
+     <actual value="4">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -488,21 +505,11 @@
    </description>
    <indicator ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">% Overhead (nr 6.2)</narrative>
+     <narrative xml:lang="EN">% Overhead - old method (nr 6.2)</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">% Overhead (without valuation of volunteer contribution)</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="14"></target>
-     <actual value="41">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -608,16 +615,6 @@
      <narrative xml:lang="EN">Companies in fragile states</narrative>
     </description>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="120"></target>
-     <actual value="41">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target value="120"></target>
@@ -637,6 +634,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="120"></target>
+     <actual value="53">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -645,16 +652,6 @@
     <description>
      <narrative xml:lang="EN">Number of firms or individuals that utilize business development services</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1150"></target>
-     <actual value="509">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -707,6 +704,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="1150"></target>
+     <actual value="641">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -723,16 +730,6 @@
     <description>
      <narrative xml:lang="EN"># of companies with supported plans to invest or trade (PSD indicator)</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1200"></target>
-     <actual value="509">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -763,6 +760,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="1200"></target>
+     <actual value="641">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -779,16 +786,6 @@
     <description>
      <narrative xml:lang="EN">% Activities in LDC or Fragile States</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="45"></target>
-     <actual value="39">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -826,6 +823,16 @@
      <actual value="43">
       <comment>
        <narrative xml:lang="EN">Reflects actuals up to Q4 2020</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="45"></target>
+     <actual value="38">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
       </comment>
      </actual>
     </period>
@@ -882,16 +889,6 @@
      <narrative xml:lang="EN">% female entrepreneurs supported</narrative>
     </description>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="40"></target>
-     <actual value="32">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
      <target value="25"></target>
@@ -921,6 +918,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="40"></target>
+     <actual value="32">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -937,16 +944,6 @@
     <description>
      <narrative xml:lang="EN">% follow-up missions</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="35"></target>
-     <actual value="47">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -967,6 +964,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="35"></target>
+     <actual value="47">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -983,16 +990,6 @@
     <description>
      <narrative xml:lang="EN">% of Activities dealing with Food Security</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="41"></target>
-     <actual value="42">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -1033,6 +1030,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="41"></target>
+     <actual value="41">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1049,16 +1056,6 @@
     <description>
      <narrative xml:lang="EN">% young entrepreneurs ( &lt; 35 years) supported</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="17"></target>
-     <actual value="19">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -1089,6 +1086,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="17"></target>
+     <actual value="19">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1105,16 +1112,6 @@
     <description>
      <narrative xml:lang="EN">Companies with entrepreneurs aged &lt; 35</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="220"></target>
-     <actual value="105">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -1135,6 +1132,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="220"></target>
+     <actual value="132">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1151,16 +1158,6 @@
     <description>
      <narrative xml:lang="EN">Companies with female entrepreneurs</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="300"></target>
-     <actual value="134">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -1181,6 +1178,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="300"></target>
+     <actual value="172">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1197,16 +1204,6 @@
     <description>
      <narrative xml:lang="EN"># Missions Seminars and Business Links</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="520"></target>
-     <actual value="3">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021. Remote coaching not included</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -1247,6 +1244,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="520"></target>
+     <actual value="32">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021. Remote coaching not included</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1264,26 +1271,6 @@
     <description>
      <narrative xml:lang="EN">Number of Remote coaching missions</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="120"></target>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1040"></target>
-     <actual value="686">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -1314,6 +1301,26 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="120"></target>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="1040"></target>
+     <actual value="891">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1330,16 +1337,6 @@
     <description>
      <narrative xml:lang="EN">Number of cases funded by DGIS / DDE</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1630"></target>
-     <actual value="681">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021. Remote coaching included.</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -1370,6 +1367,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="1630"></target>
+     <actual value="901">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021. Remote coaching included.</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1386,16 +1393,6 @@
     <description>
      <narrative xml:lang="EN">% Female Volunteers</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="20"></target>
-     <actual value="18">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -1436,6 +1433,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="20"></target>
+     <actual value="17">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1452,16 +1459,6 @@
     <description>
      <narrative xml:lang="EN"># of direct jobs supported (PSD indicator full-time equivalent)</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="25000"></target>
-     <actual value="4841">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -1492,6 +1489,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="25000"></target>
+     <actual value="7584">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1508,16 +1515,6 @@
     <description>
      <narrative xml:lang="EN">% cases in programmes</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="15"></target>
-     <actual value="12">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2018-01-01"></period-start>
      <period-end iso-date="2018-12-31"></period-end>
@@ -1548,6 +1545,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="15"></target>
+     <actual value="12">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1564,16 +1571,6 @@
     <description>
      <narrative xml:lang="EN"># of SMEs supported</narrative>
     </description>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1200"></target>
-     <actual value="509">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2017-12-31"></period-end>
@@ -1614,6 +1611,16 @@
       </comment>
      </actual>
     </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="1200"></target>
+     <actual value="641">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="1">
@@ -1631,22 +1638,22 @@
      <narrative xml:lang="EN">% Commercially active volunteers</narrative>
     </description>
     <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="20"></target>
-     <actual value="25">
-      <comment>
-       <narrative xml:lang="EN">Reflects actuals up to Q3 2021</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2020-12-31"></period-end>
      <target value="15"></target>
      <actual value="23">
       <comment>
        <narrative xml:lang="EN">Reflects actuals up to Q4 2020</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="20"></target>
+     <actual value="26">
+      <comment>
+       <narrative xml:lang="EN">Reflects actuals up to Q4 2021</narrative>
       </comment>
      </actual>
     </period>
