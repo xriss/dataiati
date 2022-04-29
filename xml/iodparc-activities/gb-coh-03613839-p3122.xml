@@ -23,6 +23,7 @@
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2021-09-01" type="2"></activity-date>
   <activity-date iso-date="2022-02-15" type="3"></activity-date>
+  <activity-date iso-date="2022-03-31" type="4"></activity-date>
   <recipient-country code="NL" percentage="100">
    <narrative xml:lang="EN">Code for recipient region: 998 &apos;Developing Countries unspecified&apos;; 100%</narrative>
   </recipient-country>
@@ -40,10 +41,41 @@
     <narrative xml:lang="EN">1st invoice to client, sent on signing of the contract.</narrative>
    </description>
   </transaction>
-  <transaction ref="P3122 - Bill">
-   <transaction-type code="2"></transaction-type>
+  <transaction ref="P3122 - Invoice 2">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-02-22"></transaction-date>
+   <value currency="EUR" value-date="2022-02-22">48741.25</value>
+   <description>
+    <narrative xml:lang="EN">2nd and final invoice to client.</narrative>
+   </description>
+  </transaction>
+  <transaction ref="P3122 -Bill">
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-09-01"></transaction-date>
-   <value currency="EUR" value-date="2021-09-01">67963</value>
+   <value currency="EUR" value-date="2022-04-22">56315</value>
+   <description>
+    <narrative xml:lang="EN">56315 between project transaction and value date. Breakdown as follows:
+KM: Bill for 45.75 days totalling 29,737.50
+QP: 25 days totalling 11,250
+CH: 17 days totalling 11,050
+JM: 14.75 days totalling 4277.50</narrative>
+   </description>
+  </transaction>
+  <transaction ref="P3122 - Internal expenditure">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="EUR" value-date="2022-04-22">24738</value>
+   <description>
+    <narrative xml:lang="EN">Internal expenditure between transaction date and value date for 62 days totalling 24738</narrative>
+   </description>
+  </transaction>
+  <transaction ref="P3122 - Reimbursables">
+   <transaction-type code="7"></transaction-type>
+   <transaction-date iso-date="2021-09-01"></transaction-date>
+   <value currency="EUR" value-date="2022-04-22">3921.64</value>
+   <description>
+    <narrative xml:lang="EN">Reimbursables totalling 3921.64 between transaction and value date.</narrative>
+   </description>
   </transaction>
  </iati-activity>
 </iati-activities>

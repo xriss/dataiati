@@ -20,9 +20,9 @@
   <participating-org activity-id="L216891" ref="NL-KVK-41179943" role="1" type="60">
    <narrative xml:lang="EN">World Vision Netherlands</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2021-01-01" type="2"></activity-date>
-  <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="EN">Stichting Vluchteling</narrative>
@@ -64,6 +64,20 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="EUR" value-date="2021-01-01">779046</value>
   </budget>
+  <transaction humanitarian="1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-06"></transaction-date>
+   <value currency="EUR" value-date="2021-12-06">347324</value>
+   <description>
+    <narrative xml:lang="EN">3rd  tranche based on approved mid-term report and burn rate of 58% per end of September</narrative>
+   </description>
+   <provider-org provider-activity-id="DRC-21.1-DRA" ref="NL-KVK-41149486" type="21">
+    <narrative xml:lang="EN">Stichting Vluchteling</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="DRC-21.1-DRA" ref="US-EIN-13-5660870" type="21">
+    <narrative xml:lang="EN">International Rescue Committee Inc.</narrative>
+   </receiver-org>
+  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-28"></transaction-date>
@@ -151,7 +165,7 @@
      <target value="4">
       <dimension name="individuals"></dimension>
      </target>
-     <actual value="30">
+     <actual value="4">
       <dimension name="individuals"></dimension>
      </actual>
     </period>
@@ -195,6 +209,67 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
+    <narrative xml:lang="EN">PRO-R12 Gender based violence 
+(Prevention, response, other)</narrative>
+   </title>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of survivors who receive an appropriate response to GBV</narrative>
+    </title>
+    <reference code="PRO-I12" indicator-uri="http://vluchteling.nl" vocabulary="99"></reference>
+    <baseline iso-date="2021-01-01" value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="600">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="562">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="40">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="115">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="10">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="10">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
     <narrative xml:lang="EN">PRO-R15 Child Protection</narrative>
    </title>
    <indicator aggregation-status="1" ascending="1" measure="1">
@@ -231,22 +306,22 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">PRO-R11 Gender based violence (Prevention, response, other)</narrative>
+    <narrative xml:lang="EN">PRO-R1 Prevention and response to violence</narrative>
    </title>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of persons reached by the implementation of specific GBV prevention measures</narrative>
+     <narrative xml:lang="EN">Number of persons reached by the implementation of specific prevention measure</narrative>
     </title>
-    <reference code="PRO-I11" indicator-uri="http://vluchteling.nl" vocabulary="99"></reference>
+    <reference code="PRO-I1" indicator-uri="http://vluchteling.nl" vocabulary="99"></reference>
     <baseline iso-date="2021-01-01" value="0" year="2021"></baseline>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="6500">
+     <target value="2500">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="26400">
+     <actual value="2995">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
@@ -254,11 +329,11 @@
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="5000">
+     <target value="2500">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="16101">
+     <actual value="2059">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
@@ -266,11 +341,11 @@
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="4500">
+     <target value="2500">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="18478">
+     <actual value="2812">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
@@ -278,11 +353,11 @@
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="4000">
+     <target value="2500">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="12548">
+     <actual value="2012">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
@@ -327,83 +402,22 @@
   </result>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="EN">PRO-R1 Prevention and response to violence</narrative>
+    <narrative xml:lang="EN">PRO-R11 Gender based violence (Prevention, response, other)</narrative>
    </title>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">Number of persons reached by the implementation of specific prevention measure</narrative>
+     <narrative xml:lang="EN">Number of persons reached by the implementation of specific GBV prevention measures</narrative>
     </title>
-    <reference code="PRO-I1" indicator-uri="http://vluchteling.nl" vocabulary="99"></reference>
+    <reference code="PRO-I11" indicator-uri="http://vluchteling.nl" vocabulary="99"></reference>
     <baseline iso-date="2021-01-01" value="0" year="2021"></baseline>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="2500">
+     <target value="6500">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="4135">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="2500">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-     <actual value="2372">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="2500">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-     <actual value="3478">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="2500">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </target>
-     <actual value="2324">
-      <dimension name="age" value="under 18"></dimension>
-      <dimension name="sex" value="male"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">PRO-R12 Gender based violence 
-(Prevention, response, other)</narrative>
-   </title>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of survivors who receive an appropriate response to GBV</narrative>
-    </title>
-    <reference code="PRO-I12" indicator-uri="http://vluchteling.nl" vocabulary="99"></reference>
-    <baseline iso-date="2021-01-01" value="0" year="2021"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="600">
-      <dimension name="age" value="18+"></dimension>
-      <dimension name="sex" value="female"></dimension>
-     </target>
-     <actual value="480">
+     <actual value="6641">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
@@ -411,11 +425,11 @@
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="40">
+     <target value="5000">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
-     <actual value="91">
+     <actual value="4600">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </actual>
@@ -423,11 +437,11 @@
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="10">
+     <target value="4500">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="0">
+     <actual value="4765">
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
@@ -435,11 +449,11 @@
     <period>
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="10">
+     <target value="4000">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
-     <actual value="0">
+     <actual value="4104">
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="male"></dimension>
      </actual>
