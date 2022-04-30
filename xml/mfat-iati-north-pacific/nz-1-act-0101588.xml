@@ -53,10 +53,10 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="2" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-03-31"></period-end>
-   <value currency="NZD" value-date="2022-01-10">52400</value>
+   <value currency="NZD" value-date="2022-04-09">18000</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2022-04-01"></period-start>
@@ -67,6 +67,11 @@
    <period-start iso-date="2022-07-01"></period-start>
    <period-end iso-date="2022-09-30"></period-end>
    <value currency="NZD" value-date="2020-11-16">57280</value>
+  </budget>
+  <budget status="2" type="1">
+   <period-start iso-date="2022-10-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="NZD" value-date="2022-03-14">14600</value>
   </budget>
   <transaction ref="397317">
    <transaction-type code="2"></transaction-type>
@@ -152,18 +157,6 @@
     <narrative xml:lang="EN">Pending Approval</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="489222">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-08"></transaction-date>
-   <value currency="NZD" value-date="2022-01-08">6600</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="10">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="489224">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2022-01-08"></transaction-date>
@@ -176,10 +169,22 @@
     <narrative xml:lang="EN">Pending Approval</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="-489222">
+  <transaction ref="501702">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-10"></transaction-date>
-   <value currency="NZD" value-date="2022-01-10">-6600</value>
+   <transaction-date iso-date="2022-04-09"></transaction-date>
+   <value currency="NZD" value-date="2022-04-09">-7500</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="501703">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-04-09"></transaction-date>
+   <value currency="NZD" value-date="2022-04-09">7500</value>
    <description>
     <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
    </description>
@@ -476,30 +481,6 @@
     <narrative xml:lang="EN">Pending Approval</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="489229">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-08"></transaction-date>
-   <value currency="NZD" value-date="2022-01-08">13200</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="90">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction ref="-489229">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-01-10"></transaction-date>
-   <value currency="NZD" value-date="2022-01-10">-13200</value>
-   <description>
-    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
-   </description>
-   <provider-org ref="NZ-1" type="10"></provider-org>
-   <receiver-org type="90">
-    <narrative xml:lang="EN">Pending Approval</narrative>
-   </receiver-org>
-  </transaction>
   <transaction ref="-387663">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2022-01-10"></transaction-date>
@@ -540,6 +521,66 @@
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2022-01-10"></transaction-date>
    <value currency="NZD" value-date="2022-01-10">5130</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="496539">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-03-14"></transaction-date>
+   <value currency="NZD" value-date="2022-03-14">-14600</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="496542">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-03-14"></transaction-date>
+   <value currency="NZD" value-date="2022-03-14">14600</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="-387673">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-03-15"></transaction-date>
+   <value currency="NZD" value-date="2022-03-15">-17200</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="-482086">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-03-15"></transaction-date>
+   <value currency="NZD" value-date="2022-03-15">-17200</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="-496539">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-03-15"></transaction-date>
+   <value currency="NZD" value-date="2022-03-15">14600</value>
    <description>
     <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
    </description>
@@ -864,6 +905,30 @@
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2022-01-10"></transaction-date>
    <value currency="NZD" value-date="2022-01-10">13200</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="497064">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-03-15"></transaction-date>
+   <value currency="NZD" value-date="2022-03-15">17200</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="90">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="497063">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-03-15"></transaction-date>
+   <value currency="NZD" value-date="2022-03-15">2600</value>
    <description>
     <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
    </description>
