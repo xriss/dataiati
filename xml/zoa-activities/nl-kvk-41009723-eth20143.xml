@@ -35,6 +35,19 @@
   </contact-info>
   <activity-scope code="2"></activity-scope>
   <recipient-country code="ET" percentage="100"></recipient-country>
+  <location ref="Babile, Oromiya">
+   <location-reach code="1"></location-reach>
+   <name>
+    <narrative xml:lang="EN">Babile, Oromiya</narrative>
+   </name>
+   <administrative code="9645297" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>8.667 42.417</pos>
+   </point>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM3"></feature-designation>
+  </location>
   <sector code="73010" percentage="100" vocabulary="1"></sector>
   <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <default-flow-type code="30"></default-flow-type>
@@ -46,7 +59,7 @@
    <period-end iso-date="2020-10-21"></period-end>
    <value currency="EUR" value-date="2020-04-22">481068.73</value>
   </budget>
-  <transaction>
+  <transaction humanitarian="1" ref="Expenditures">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-10-21"></transaction-date>
    <value currency="EUR" value-date="2020-10-21">480588</value>
@@ -54,24 +67,32 @@
     <narrative xml:lang="EN">Expenditure 2020</narrative>
    </description>
   </transaction>
-  <transaction ref="260241579">
+  <transaction humanitarian="1" ref="Incoming commitment SOS Children&apos;s Villages The Netherlands">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2020-10-21"></transaction-date>
-   <value currency="EUR" value-date="2020-10-21">481069</value>
+   <value currency="EUR" value-date="2020-10-21">480588</value>
    <description>
-    <narrative xml:lang="EN">Income to be recived from ETH 20143</narrative>
+    <narrative xml:lang="EN">Final commitment based on total expenditures</narrative>
    </description>
    <provider-org provider-activity-id="NL-KVK-41197577-2020DLJR-L" ref="NL-KVK-41197577" type="21">
     <narrative xml:lang="EN">SOS Children&apos;s Villages The Netherlands</narrative>
    </provider-org>
   </transaction>
-  <transaction ref="260241545">
+  <transaction humanitarian="1" ref="Incoming Fund SOS Children&apos;s Villages The Netherlands 1">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-10-21"></transaction-date>
    <value currency="EUR" value-date="2020-10-21">457016</value>
    <description>
     <narrative xml:lang="EN">NLD to ETH Recved fro ETH20143</narrative>
    </description>
+   <provider-org provider-activity-id="NL-KVK-41197577-2020DLJR-L" ref="NL-KVK-41197577" type="21">
+    <narrative xml:lang="EN">SOS Children&apos;s Villages The Netherlands</narrative>
+   </provider-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Incoming fund SOS Children&apos;s Villages The Netherlands 2">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-05-02"></transaction-date>
+   <value currency="EUR" value-date="2022-05-02">23572</value>
    <provider-org provider-activity-id="NL-KVK-41197577-2020DLJR-L" ref="NL-KVK-41197577" type="21">
     <narrative xml:lang="EN">SOS Children&apos;s Villages The Netherlands</narrative>
    </provider-org>
