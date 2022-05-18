@@ -141,6 +141,18 @@ Kampala, Wakiso, Mukono, Mityana, Lira,      Oyam,    Gulu, Lamwo, Mbale, Kamuli
   </budget>
   <transaction>
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2022-03-31"></transaction-date>
+   <value currency="EUR" value-date="2022-03-31">1336222.46</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure of the SAY project between November 2021 and end of March 2022. This includes funds transferred to partners for activities, procurement and running costs.</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000004191" ref="XM-DAC-7" type="10"></provider-org>
+   <receiver-org receiver-activity-id="UG-NGB-5914-129-SAY" ref="UG-NGB-5914-129" type="21"></receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <finance-type code="110"></finance-type>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
    <value currency="EUR" value-date="2021-04-22">300344.23</value>
    <description>
@@ -149,7 +161,8 @@ Kampala, Wakiso, Mukono, Mityana, Lira,      Oyam,    Gulu, Lamwo, Mbale, Kamuli
    <provider-org provider-activity-id="XM-DAC-7-PPR-4000004191" ref="XM-DAC-7" type="10">
     <narrative xml:lang="EN">Embassy of the Kingdom of the Netherlands</narrative>
    </provider-org>
-   <receiver-org receiver-activity-id="UG-NGB-5914-129-SAY"></receiver-org>
+   <receiver-org receiver-activity-id="UG-NGB-5914-129-SAY" ref="UG-NGB-5914-129" type="21"></receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction ref="20110153">
    <transaction-type code="1"></transaction-type>
@@ -162,6 +175,21 @@ Kampala, Wakiso, Mukono, Mityana, Lira,      Oyam,    Gulu, Lamwo, Mbale, Kamuli
    <receiver-org receiver-activity-id="UG-NGB-5914-129-SAY" type="21"></receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction ref="21120415">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2021-12-16"></transaction-date>
+   <value currency="EUR" value-date="2022-03-31">4336579</value>
+   <description>
+    <narrative xml:lang="EN">Funds transferred to AVSI by EKN for implementation of the project in 2022</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000004191" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Netherlands Ministry of Foreign Affairs</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="UG-NGB-5914-129-SAY" ref="UG-NGB-5914-129" type="21">
+    <narrative xml:lang="EN">AVSI Foundation</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-06-30"></transaction-date>
@@ -169,6 +197,13 @@ Kampala, Wakiso, Mukono, Mityana, Lira,      Oyam,    Gulu, Lamwo, Mbale, Kamuli
    <description>
     <narrative xml:lang="EN">The indicated expenditure is the sum total of funds spent within AVSI and disbursed to engaged partners to be utilized for the implementation of project activities planned to commence in the second quarter of 2021</narrative>
    </description>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000004191" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Netherlands Ministry of Foreign Affairs</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="UG-NGB-5914-129-SAY" ref="UG-NGB-5914-129" type="21">
+    <narrative xml:lang="EN">AVSI Foundation</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <document-link format="APPLICATION/PKCS7-MIME" url="https://aidstream.org/files/documents/SAY-YEAR-ONE---2021-FINANCIAL-REPORT-20220426050421.pdf">
    <title>
@@ -552,10 +587,13 @@ A target of 1000 completion number was then set.</narrative>
       <dimension name="Female" value="1800"></dimension>
       <dimension name="Male" value="1800"></dimension>
      </target>
-     <actual>
+     <actual value="679">
       <location ref="Q1 2022"></location>
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
+      <dimension name="Female" value="299"></dimension>
+      <dimension name="Male" value="380"></dimension>
+      <comment>
+       <narrative xml:lang="EN">In the first quarter of 2022, a total of 679 enrolled youth completed their skilling in various agricultural occupations. This is below the target of the quarter of 1620. The reason behind is that skilling centers have had to adjust their skilling cycles to accommodate Life Skills and Entrepreneurship trainings. Additionally, youth enrolled in agri-institutions have had their cycles synchronized with the school calendar meaning they will complete their first cycle of 2022 in May. This will account for 60% of completion target for Q1.</narrative>
+      </comment>
      </actual>
      <actual>
       <location ref="Q2 2022"></location>
@@ -651,6 +689,21 @@ The enrolment level in females is almost 10% less than the 50% target. The proje
      </actual>
     </period>
     <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-03-31"></period-end>
+     <target value="1800">
+      <dimension name="Female" value="500"></dimension>
+      <dimension name="Male" value="500"></dimension>
+     </target>
+     <actual value="2537">
+      <dimension name="Female" value="1488"></dimension>
+      <dimension name="Male" value="1049"></dimension>
+      <comment>
+       <narrative xml:lang="EN">The result for Q1 of 2022 is beyond the target of 1800 because of enrolment balance from 2021. Partners who have balances have been able to cover the enrolment balance. This means the enrolment rate is favourable going forward.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2021-03-01"></period-start>
      <period-end iso-date="2021-06-30"></period-end>
      <target value="500">
@@ -670,23 +723,11 @@ The enrollment was for the occupations of Horticulture producer (104), Animal Nu
      </actual>
     </period>
     <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-03-31"></period-end>
-     <target value="1500">
-      <dimension name="Female" value="500"></dimension>
-      <dimension name="Male" value="500"></dimension>
-     </target>
-     <actual>
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2022-04-01"></period-start>
      <period-end iso-date="2022-06-30"></period-end>
-     <target value="1000">
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
+     <target value="1800">
+      <dimension name="Female" value="900"></dimension>
+      <dimension name="Male" value="900"></dimension>
      </target>
      <actual>
       <dimension name="Female"></dimension>
@@ -696,7 +737,10 @@ The enrollment was for the occupations of Horticulture producer (104), Animal Nu
     <period>
      <period-start iso-date="2022-07-01"></period-start>
      <period-end iso-date="2022-09-30"></period-end>
-     <target value="1000"></target>
+     <target value="1800">
+      <dimension name="Female" value="900"></dimension>
+      <dimension name="Male" value="900"></dimension>
+     </target>
     </period>
    </indicator>
   </result>
@@ -1738,6 +1782,59 @@ Financial linkages:
   </result>
   <result aggregation-status="1" type="1">
    <title>
+    <narrative xml:lang="EN">OP 1.1.3: Refugee youth acquired agripreneurship and financial literacy knowledge and skills</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Refugees and host communities in community groups will receive financial literacy training as part of financial inclusion package to enable them access financial capital for agribusiness investment.</narrative>
+   </description>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">OP Ind 1.1.3: # of refugee youth trained in financial literacy</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">This indicator is a count of the refugee and host community group members enrolled into the project and trained by the project in financial literacy.</narrative>
+    </description>
+    <baseline iso-date="2020-11-01" value="0" year="2020">
+     <dimension name="Female" value="0"></dimension>
+     <dimension name="Male" value="0"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="3200">
+      <dimension name="Female" value="1600"></dimension>
+      <dimension name="Male" value="1600"></dimension>
+      <comment>
+       <narrative xml:lang="EN">In 2022, a total of 3,200 beneficiaries in the refugee context will be targeted with financial literacy training.</narrative>
+      </comment>
+     </target>
+     <actual value="391">
+      <dimension name="Female" value="254"></dimension>
+      <dimension name="Male" value="137"></dimension>
+      <comment>
+       <narrative xml:lang="EN">391 beneficiaries were trained in financial literacy in the first quarter of 2022. More trainings are planned for following quarters and their is optimism that the target will be achieved by end of Q3</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="200">
+      <dimension name="Female" value="100"></dimension>
+      <dimension name="Male" value="100"></dimension>
+     </target>
+     <actual value="0">
+      <dimension name="Female" value="0"></dimension>
+      <dimension name="Male" value="0"></dimension>
+      <comment>
+       <narrative xml:lang="EN">It was not possible to conduct financial literacy training in refugee contexts in 2021. The training was moved to 2022</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
     <narrative xml:lang="EN">OP 4.1.2: Skilled youth linked to government programs/integrated into agriculture extension labour force</narrative>
    </title>
    <description>
@@ -2351,6 +2448,21 @@ Skills providers who are not accredited by DIT will be supported to get accredit
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="3440">
+      <dimension name="Female" value="1720"></dimension>
+      <dimension name="OP Ind 1.1.2b: # of youth that passed DIT assessments and certified" value="1720"></dimension>
+     </target>
+     <actual value="207">
+      <dimension name="Female" value="67"></dimension>
+      <dimension name="Male" value="140"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Q1 of 2022 had 207 (67F, 140M) assessed by DIT at level 2 for the occupations they have been skilled for. This is 6% of the 2022 target of 3440 youth to be assessed. This low assessment rate was expected due to the slow completion rate for the skilling and continued difficulty in getting youth assessed by DIT due to confusion round the cutting list that DIT assessor demand. The SAY team have held several meetings with DIT and agreed that moving forward a more flexible approach to availing cutting lists for assessment will be followed.</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2020-11-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="1720">
@@ -2366,18 +2478,6 @@ Skills providers who are not accredited by DIT will be supported to get accredit
       <comment>
        <narrative xml:lang="EN">Youth assessed: 468 (201F/267M) youth were assessed by DIT in the 4 regions where the SAY project is undergoing implementation.</narrative>
       </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="3440">
-      <dimension name="Female" value="1720"></dimension>
-      <dimension name="OP Ind 1.1.2b: # of youth that passed DIT assessments and certified" value="1720"></dimension>
-     </target>
-     <actual>
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
      </actual>
     </period>
     <period>
@@ -2423,9 +2523,12 @@ Skills providers who are not accredited by DIT will be supported to get accredit
       <dimension name="Female" value="850"></dimension>
       <dimension name="Male" value="850"></dimension>
      </target>
-     <actual>
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
+     <actual value="468">
+      <dimension name="Female" value="201"></dimension>
+      <dimension name="Male" value="267"></dimension>
+      <comment>
+       <narrative xml:lang="EN">All the youth assessed in 2021 were able to pass their test and were accordingly certified</narrative>
+      </comment>
      </actual>
     </period>
     <period>
@@ -2435,9 +2538,12 @@ Skills providers who are not accredited by DIT will be supported to get accredit
       <dimension name="Female" value="1700"></dimension>
       <dimension name="Male" value="1700"></dimension>
      </target>
-     <actual>
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
+     <actual value="173">
+      <dimension name="Female" value="63"></dimension>
+      <dimension name="Male" value="110"></dimension>
+      <comment>
+       <narrative xml:lang="EN">The pass rate for the DIT assessment was 83.6% which is more than 5% below the targeted pass rate of 90%. those that were not able to pass will be prepared for reassessment in the next quarter.</narrative>
+      </comment>
      </actual>
     </period>
     <period>
@@ -3061,12 +3167,15 @@ Life skills training is an integral part of the skilling program to support them
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
      <target value="300">
-      <dimension name="Female" value="150"></dimension>
-      <dimension name="Male" value="150"></dimension>
+      <dimension name="Female" value="N/A"></dimension>
+      <dimension name="Male" value="N/A"></dimension>
      </target>
-     <actual>
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
+     <actual value="80">
+      <dimension name="Female" value="7"></dimension>
+      <dimension name="Male" value="73"></dimension>
+      <comment>
+       <narrative xml:lang="EN">In Q1, 80 juvenile were enrolled and killed in agripreneurship and Naguru Remand Home. The remand home is on track to meet the 2022 target of 300 as the skilling is also set to start in Gulu and Kabale remand homes.</narrative>
+      </comment>
      </actual>
     </period>
     <period>
@@ -3105,7 +3214,7 @@ Life skills training is an integral part of the skilling program to support them
     <period>
      <period-start iso-date="2021-07-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="2"></target>
+     <target value="1"></target>
      <actual value="1">
       <comment>
        <narrative xml:lang="EN">So far Naguru Remand Home skilling beneficiaries between 13-17 years in Agripreneurship.</narrative>
@@ -3115,7 +3224,12 @@ Life skills training is an integral part of the skilling program to support them
     <period>
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
-     <target value="1"></target>
+     <target value="3"></target>
+     <actual value="3">
+      <comment>
+       <narrative xml:lang="EN">The Remand Homes of Naguru, Gulu and Kabale have all been engaged for skilling of juveniles in agripreneurship in 2022.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -3364,33 +3478,41 @@ Without doubt, the DIT certificates are tangible to the youth graduates. This ou
      <dimension name="Male" value="0"></dimension>
     </baseline>
     <period>
-     <period-start iso-date="2021-07-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="TBD">
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="250">
+      <dimension name="Female" value="125"></dimension>
+      <dimension name="Male" value="125"></dimension>
      </target>
-     <actual>
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
+     <actual value="30">
+      <dimension name="Female" value="19"></dimension>
+      <dimension name="Male" value="11"></dimension>
+      <comment>
+       <narrative xml:lang="EN">In Q1, 30 agripreneurs of the project were able to access bank loans through linkages that was established between their groups and the financial institutions. This was in Bidibidi Refugee Settlement. 
+
+In the rest of the project areas, at least 150 youth have applied for financial credit but have not yet received feedback.</narrative>
+      </comment>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2022-12-31"></period-end>
-     <target value="TBD">
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
+     <period-start iso-date="2021-07-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="5">
+      <dimension name="Female" value="3"></dimension>
+      <dimension name="Male" value="2"></dimension>
      </target>
-     <actual>
-      <dimension name="Female"></dimension>
-      <dimension name="Male"></dimension>
+     <actual value="5">
+      <dimension name="Female" value="1"></dimension>
+      <dimension name="Male" value="4"></dimension>
+      <comment>
+       <narrative xml:lang="EN">The SAY project piloted the Agribusiness Challenge Fund in which 5 best candidates received agribusiness inputs of their choosing worth an average of UGX6 million shillings to invest in their on-going ventures. This was a pilot that will be scaled up in 2022</narrative>
+      </comment>
      </actual>
     </period>
     <period>
      <period-start iso-date="2023-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="TBD">
+     <target value="500">
       <dimension name="Female"></dimension>
       <dimension name="Male"></dimension>
      </target>
@@ -3402,7 +3524,7 @@ Without doubt, the DIT certificates are tangible to the youth graduates. This ou
     <period>
      <period-start iso-date="2024-01-01"></period-start>
      <period-end iso-date="2024-06-30"></period-end>
-     <target value="TBD">
+     <target value="1000">
       <dimension name="Female"></dimension>
       <dimension name="Male"></dimension>
      </target>
