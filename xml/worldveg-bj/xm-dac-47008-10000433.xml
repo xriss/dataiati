@@ -2,7 +2,7 @@
 <iati-activities version="2.03">
  <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47008-10000433</iati-identifier>
-  <reporting-org ref="XM-DAC-47008" type="40">
+  <reporting-org ref="XM-DAC-47008" secondary-reporter="1" type="21">
    <narrative xml:lang="EN">World Vegetable Center</narrative>
   </reporting-org>
   <title>
@@ -78,19 +78,7 @@
    <period-end iso-date="1970-01-01"></period-end>
    <value currency="EUR" value-date="2021-01-03">400000</value>
   </budget>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="1970-01-01"></transaction-date>
-   <value currency="EUR" value-date="1970-01-01">196142</value>
-   <description>
-    <narrative xml:lang="EN">1st fund transfer</narrative>
-   </description>
-   <provider-org ref="DE-1" type="10">
-    <narrative xml:lang="EN">BMZ</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-47008-10000433" ref="XM-DAC-47008" type="21"></receiver-org>
-  </transaction>
-  <transaction>
+  <transaction humanitarian="1" ref="1st fund transfer">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-04-23"></transaction-date>
    <value currency="EUR" value-date="2021-04-23">196142</value>
@@ -100,23 +88,11 @@
    <provider-org ref="DE-1" type="10">
     <narrative xml:lang="EN">BMZ</narrative>
    </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-47008-10000433" ref="XM-DAC-47008" type="21"></receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="1970-01-01"></transaction-date>
-   <value currency="EUR" value-date="1970-01-01">161342</value>
-   <description>
-    <narrative xml:lang="EN">2021-Q1 2022 Expenditures</narrative>
-   </description>
-   <provider-org provider-activity-id="XM-DAC-47008-10000433" ref="XM-DAC-47008" type="21">
+   <receiver-org receiver-activity-id="XM-DAC-47008-10000433" ref="XM-DAC-47008" type="21">
     <narrative xml:lang="EN">World Vegetable Center</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Various partners and vendors</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction humanitarian="1" ref="2021-Q1 2022 Expenditures">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2022-04-27"></transaction-date>
    <value currency="EUR" value-date="2022-04-27">161342</value>
@@ -126,11 +102,11 @@
    <provider-org provider-activity-id="XM-DAC-47008-10000433" ref="XM-DAC-47008" type="21">
     <narrative xml:lang="EN">World Vegetable Center</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="90">
     <narrative xml:lang="EN">Various partners and vendors</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction humanitarian="1" ref="2nd funds transfer">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-08-31"></transaction-date>
    <value currency="EUR" value-date="2021-08-31">67966</value>
@@ -140,19 +116,23 @@
    <provider-org ref="DE-1" type="10">
     <narrative xml:lang="EN">BMZ</narrative>
    </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-47008-10000433" ref="XM-DAC-47008" type="21"></receiver-org>
+   <receiver-org receiver-activity-id="XM-DAC-47008-10000433" ref="XM-DAC-47008" type="21">
+    <narrative xml:lang="EN">World Vegetable Center</narrative>
+   </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2021-08-31"></transaction-date>
-   <value currency="EUR" value-date="2021-08-31">67966</value>
+  <transaction humanitarian="1" ref="Total project budget">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2021-03-01"></transaction-date>
+   <value currency="EUR" value-date="2021-03-01">1200000</value>
    <description>
-    <narrative xml:lang="EN">2nd funds transfer</narrative>
+    <narrative xml:lang="EN">Total project budget</narrative>
    </description>
    <provider-org ref="DE-1" type="10">
     <narrative xml:lang="EN">BMZ</narrative>
    </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-47008-10000433" ref="XM-DAC-47008" type="21"></receiver-org>
+   <receiver-org receiver-activity-id="XM-DAC-47008-10000433" ref="XM-DAC-47008" type="21">
+    <narrative xml:lang="EN">World Vegetable Center</narrative>
+   </receiver-org>
   </transaction>
  </iati-activity>
 </iati-activities>

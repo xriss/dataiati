@@ -2,7 +2,7 @@
 <iati-activities version="2.03">
  <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>XM-DAC-47008-10000402</iati-identifier>
-  <reporting-org ref="XM-DAC-47008" type="40">
+  <reporting-org ref="XM-DAC-47008" secondary-reporter="1" type="21">
    <narrative xml:lang="EN">World Vegetable Center</narrative>
   </reporting-org>
   <title>
@@ -74,7 +74,7 @@
    <period-end iso-date="2023-02-28"></period-end>
    <value currency="EUR" value-date="2020-03-03">400000</value>
   </budget>
-  <transaction>
+  <transaction humanitarian="1" ref="1st fund transfer">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-03-20"></transaction-date>
    <value currency="EUR" value-date="2020-03-20">164229</value>
@@ -84,9 +84,11 @@
    <provider-org ref="DE-1" type="10">
     <narrative xml:lang="EN">BMZ</narrative>
    </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-47008-10000402" ref="XM-DAC-47008" type="21"></receiver-org>
+   <receiver-org receiver-activity-id="XM-DAC-47008-10000402" ref="XM-DAC-47008" type="21">
+    <narrative xml:lang="EN">World Vegetable Center</narrative>
+   </receiver-org>
   </transaction>
-  <transaction>
+  <transaction humanitarian="1" ref="2nd fund transfer">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-10-28"></transaction-date>
    <value currency="EUR" value-date="2020-10-28">81409</value>
@@ -96,23 +98,25 @@
    <provider-org ref="DE-1" type="10">
     <narrative xml:lang="EN">BMZ</narrative>
    </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-47008-10000402" ref="XM-DAC-47008" type="21"></receiver-org>
+   <receiver-org receiver-activity-id="XM-DAC-47008-10000402" ref="XM-DAC-47008" type="21">
+    <narrative xml:lang="EN">World Vegetable Cetner</narrative>
+   </receiver-org>
   </transaction>
-  <transaction>
+  <transaction humanitarian="1" ref="IDE expenses till Q1 2022">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2022-04-27"></transaction-date>
    <value currency="EUR" value-date="2022-04-27">53706</value>
    <description>
-    <narrative xml:lang="EN">Project expenses till Q1 2022</narrative>
+    <narrative xml:lang="EN">IDE expenses till Q1 2022</narrative>
    </description>
    <provider-org ref="US-EIN-23-2220051" type="21">
     <narrative xml:lang="EN">IDE</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="90">
     <narrative xml:lang="EN">Services and vendors</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction humanitarian="1" ref="Lao DOA expenses till Q1 2022">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2022-04-27"></transaction-date>
    <value currency="EUR" value-date="2022-04-27">5982</value>
@@ -120,13 +124,13 @@
     <narrative xml:lang="EN">Project expenses till Q1 2022</narrative>
    </description>
    <provider-org type="11">
-    <narrative xml:lang="EN">Lao DOA</narrative>
+    <narrative xml:lang="EN">Lao Dept of Agriculture</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="90">
     <narrative xml:lang="EN">Services and vendors</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
+  <transaction humanitarian="1" ref="WorldVeg expenses till Q1 2022">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2022-04-27"></transaction-date>
    <value currency="EUR" value-date="2022-04-27">312202</value>
@@ -136,8 +140,22 @@
    <provider-org provider-activity-id="XM-DAC-47008-10000402" ref="XM-DAC-47008" type="21">
     <narrative xml:lang="EN">World Vegetable Center</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="90">
     <narrative xml:lang="EN">Partners, services and vendors</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1" ref="Total project budget">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2020-03-20"></transaction-date>
+   <value currency="EUR" value-date="2020-03-20">1200000</value>
+   <description>
+    <narrative xml:lang="EN">Total project budget</narrative>
+   </description>
+   <provider-org ref="DE-1" type="10">
+    <narrative xml:lang="EN">BMZ</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-47008-10000402" ref="XM-DAC-47008" type="21">
+    <narrative xml:lang="EN">World Vegetable Center</narrative>
    </receiver-org>
   </transaction>
  </iati-activity>
