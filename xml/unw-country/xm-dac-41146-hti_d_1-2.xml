@@ -106,15 +106,15 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">318898</value>
   </budget>
-  <budget status="2" type="2">
-   <period-start iso-date="2022-01-01"></period-start>
-   <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-04-30">0</value>
-  </budget>
   <budget status="1" type="1">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2022-04-30">109759</value>
+   <value currency="USD" value-date="2022-05-31">109759</value>
+  </budget>
+  <budget status="2" type="2">
+   <period-start iso-date="2022-01-01"></period-start>
+   <period-end iso-date="2022-12-31"></period-end>
+   <value currency="USD" value-date="2022-05-31">15000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -670,6 +670,18 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-05-31"></transaction-date>
+   <value currency="USD" value-date="2022-05-31">15000</value>
+   <provider-org ref="11363">
+    <narrative xml:lang="EN">Peacebuilding Fund</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41146-HTI_D_1.2" ref="XM-DAC-41146" type="40">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
    <value currency="USD" value-date="2020-03-31">22897</value>
@@ -836,8 +848,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-04-30"></transaction-date>
-   <value currency="USD" value-date="2022-04-30">1021577</value>
+   <transaction-date iso-date="2022-05-31"></transaction-date>
+   <value currency="USD" value-date="2022-05-31">1036577</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
@@ -896,6 +908,99 @@
    <language code="EN"></language>
   </document-link>
   <conditions attached="0"></conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">The national institutions in charge of detention conditions have improved capacities, knowedge and tools to align the  conditions of detainees with international and national standards and rules (Bangkok rules and DAP directives, including on gender)</narrative>
+   </title>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of newly admitted women for whom a psycho-social assessment is performed at the entrance</narrative>
+    </title>
+    <baseline value="0" year="2019">
+     <comment>
+      <narrative xml:lang="EN">0%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">0%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of DAP staff demonstrating an improved understanding of the principles and rules regarding conditions of detention and treatment of detainees (Bangkok Rules, Gender Directive)</narrative>
+    </title>
+    <baseline value="0" year="2019">
+     <comment>
+      <narrative xml:lang="EN">0%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="80">
+      <comment>
+       <narrative xml:lang="EN">80%</narrative>
+      </comment>
+     </target>
+     <actual value="3.75">
+      <comment>
+       <narrative xml:lang="EN">3.75%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of DAP social workers trained in collective therapy methodologies, conflict management and individual interview</narrative>
+    </title>
+    <baseline value="0" year="2020">
+     <comment>
+      <narrative xml:lang="EN">0%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">0%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of newly admitted women for whom an entry medical examination is performed</narrative>
+    </title>
+    <baseline value="58" year="2019">
+     <comment>
+      <narrative xml:lang="EN">58%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="100">
+      <comment>
+       <narrative xml:lang="EN">100%</narrative>
+      </comment>
+     </target>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">0%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">The DAP has a support framework for socio-economic reintegration</narrative>
@@ -1118,99 +1223,6 @@
      <period-end iso-date="2021-12-31"></period-end>
      <target value="2"></target>
      <actual value="0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">The national institutions in charge of detention conditions have improved capacities, knowedge and tools to align the  conditions of detainees with international and national standards and rules (Bangkok rules and DAP directives, including on gender)</narrative>
-   </title>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of newly admitted women for whom a psycho-social assessment is performed at the entrance</narrative>
-    </title>
-    <baseline value="0" year="2019">
-     <comment>
-      <narrative xml:lang="EN">0%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">0%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of DAP staff demonstrating an improved understanding of the principles and rules regarding conditions of detention and treatment of detainees (Bangkok Rules, Gender Directive)</narrative>
-    </title>
-    <baseline value="0" year="2019">
-     <comment>
-      <narrative xml:lang="EN">0%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="80">
-      <comment>
-       <narrative xml:lang="EN">80%</narrative>
-      </comment>
-     </target>
-     <actual value="3.75">
-      <comment>
-       <narrative xml:lang="EN">3.75%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of DAP social workers trained in collective therapy methodologies, conflict management and individual interview</narrative>
-    </title>
-    <baseline value="0" year="2020">
-     <comment>
-      <narrative xml:lang="EN">0%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">0%</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">% of newly admitted women for whom an entry medical examination is performed</narrative>
-    </title>
-    <baseline value="58" year="2019">
-     <comment>
-      <narrative xml:lang="EN">58%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="100">
-      <comment>
-       <narrative xml:lang="EN">100%</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <comment>
-       <narrative xml:lang="EN">0%</narrative>
-      </comment>
-     </actual>
     </period>
    </indicator>
   </result>
