@@ -460,6 +460,15 @@
     <narrative xml:lang="FR">CDI Bwamanda</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="Adine 2020">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2020-01-01"></transaction-date>
+   <value currency="EUR" value-date="2017-01-01">23162</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS3" ref="BE-BCE_KBO-0408256667" type="22"></provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS3" type="24">
+    <narrative xml:lang="FR">Adine</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="DISBURSEMENT CDI 2017">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
@@ -469,36 +478,41 @@
     <narrative xml:lang="FR">CDI Bwamanda</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="Adine 2020">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2020-01-01"></transaction-date>
-   <value currency="EUR" value-date="2017-01-01">23162</value>
-   <provider-org provider-activity-id="BE-BCE_KBO-0408256667PROG2017-2021" ref="XM-DAC-2-10-1143" type="22"></provider-org>
-   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667PROG2017-2021" ref="Adine" type="23"></receiver-org>
-  </transaction>
   <transaction ref="DISBURSEMENT ADINE 2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">21973</value>
-   <receiver-org ref="ADINE"></receiver-org>
+   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS3" ref="BE-BCE_KBO-0408256667"></provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS3" type="24">
+    <narrative xml:lang="FR">ADINE</narrative>
+   </receiver-org>
   </transaction>
   <transaction ref="DISBURSEMENT CDI 2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">21828</value>
-   <receiver-org ref="CDI"></receiver-org>
+   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS3" ref="BE-BCE_KBO-0408256667"></provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS3" type="24">
+    <narrative xml:lang="FR">CDI</narrative>
+   </receiver-org>
   </transaction>
   <transaction ref="DISBURSEMENT CTM 2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">16397</value>
-   <receiver-org ref="CTM"></receiver-org>
+   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS3" ref="BE-BCE_KBO-0408256667"></provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS3" type="24">
+    <narrative xml:lang="FR">CTM</narrative>
+   </receiver-org>
   </transaction>
   <transaction ref="DISBURSEMENT PROYAKA 2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">19442</value>
-   <receiver-org ref="PROYAKA"></receiver-org>
+   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS3" ref="BE-BCE_KBO-0408256667"></provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS3" type="24">
+    <narrative xml:lang="FR">PROYAKA</narrative>
+   </receiver-org>
   </transaction>
   <related-activity ref="BE-BCE_KBO-0408256667-PROG2017-2021" type="1"></related-activity>
   <conditions attached="0"></conditions>
@@ -517,7 +531,7 @@
     </baseline>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
+     <period-end iso-date="2019-12-31"></period-end>
      <target value="15">
       <comment>
        <narrative xml:lang="FR">15/an</narrative>
@@ -530,13 +544,18 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
      <target value="15">
       <comment>
        <narrative xml:lang="FR">15/an</narrative>
       </comment>
      </target>
+     <actual value="150">
+      <comment>
+       <narrative xml:lang="FR">Nombre cumul&#xE9;</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -555,13 +574,18 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2017-01-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="15">
       <comment>
        <narrative xml:lang="FR">Augmentation de 40% par rapport au base-line</narrative>
       </comment>
      </target>
+     <actual value="236">
+      <comment>
+       <narrative xml:lang="FR">chiffre cumul&#xE9;</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -580,9 +604,14 @@
      </actual>
     </period>
     <period>
-     <period-start iso-date="2017-01-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="50"></target>
+     <actual value="41">
+      <comment>
+       <narrative xml:lang="FR">moyenne pond&#xE9;r&#xE9;e</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
   </result>

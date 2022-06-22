@@ -219,6 +219,17 @@
     <narrative xml:lang="FR">Adine</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="CDI 2017">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="EUR" value-date="2017-12-31">11525</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" ref="BE-BCE_KBO-0408256667" type="22">
+    <narrative xml:lang="FR">Congodorpen vzw</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" type="24">
+    <narrative xml:lang="FR">CDI Bwamanda</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="DISBURSEMENT CDI 2017">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
@@ -395,15 +406,6 @@
     <narrative xml:lang="FR">Proyaka</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="CDI 2017">
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2017-12-31"></transaction-date>
-   <value currency="EUR" value-date="2017-12-31">11525</value>
-   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" ref="BE-BCE_KBO-0408256667" type="22">
-    <narrative xml:lang="FR">Congodorpen vzw</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" ref="CDI Bwamanda" type="24"></receiver-org>
-  </transaction>
   <transaction ref="CONGODORPEN 2017">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
@@ -453,6 +455,24 @@
    <value currency="EUR" value-date="2019-12-31">286959</value>
    <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" ref="BE-BCE_KBO-0408256667" type="22"></provider-org>
   </transaction>
+  <transaction ref="DISBURSEMENT ADINE 2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">63648</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" ref="BE-BCE_KBO-0408256667"></provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" type="24">
+    <narrative xml:lang="FR">ADINE</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="DISBURSEMENT CDI 2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">88335</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" ref="BE-BCE_KBO-0408256667"></provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" type="24">
+    <narrative xml:lang="FR">CDI</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="DISBURSEMENT CTM 2019">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
@@ -462,29 +482,23 @@
     <narrative xml:lang="FR">CTM Motoo</narrative>
    </receiver-org>
   </transaction>
-  <transaction ref="DISBURSEMENT ADINE 2020">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">63648</value>
-   <receiver-org ref="ADINE"></receiver-org>
-  </transaction>
-  <transaction ref="DISBURSEMENT CDI 2020">
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">88335</value>
-   <receiver-org ref="CDI"></receiver-org>
-  </transaction>
   <transaction ref="DISBURSEMENT CTM 2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">75767</value>
-   <receiver-org ref="CTM"></receiver-org>
+   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" ref="BE-BCE_KBO-0408256667"></provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" type="24">
+    <narrative xml:lang="FR">CTM</narrative>
+   </receiver-org>
   </transaction>
   <transaction ref="DISBURSEMENT PROYAKA 2020">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">75398</value>
-   <receiver-org ref="PROYAKA"></receiver-org>
+   <provider-org provider-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" ref="BE-BCE_KBO-0408256667"></provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0408256667-PROG2017-2021_OS2" type="24">
+    <narrative xml:lang="FR">PROYAKA</narrative>
+   </receiver-org>
   </transaction>
   <related-activity ref="BE-BCE_KBO-0408256667-PROG2017-2021" type="1"></related-activity>
   <conditions attached="0"></conditions>
@@ -504,13 +518,14 @@
      <actual value="62"></actual>
     </period>
     <period>
-     <period-start iso-date="2017-01-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="65">
       <comment>
        <narrative xml:lang="FR">A d&#xE9;finir</narrative>
       </comment>
      </target>
+     <actual value="62"></actual>
     </period>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="2">
@@ -525,9 +540,10 @@
      <actual value="43"></actual>
     </period>
     <period>
-     <period-start iso-date="2017-01-01"></period-start>
+     <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="80"></target>
+     <actual value="77"></actual>
     </period>
    </indicator>
   </result>
