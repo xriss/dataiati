@@ -20,7 +20,10 @@
   <participating-org activity-id="BE-BCE_KBO-0435563751-PROG2017-2021_HCSC1_MAURITANIE" ref="BE-BCE_KBO-0435563751" role="4" type="22">
    <narrative xml:lang="EN">Memisa Belgique asbl</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="4"></activity-status>
+  <activity-date iso-date="2021-12-31" type="4">
+   <narrative xml:lang="FR">actual end</narrative>
+  </activity-date>
   <activity-date iso-date="2017-01-01" type="1"></activity-date>
   <activity-date iso-date="2017-01-01" type="2"></activity-date>
   <activity-date iso-date="2021-12-31" type="3"></activity-date>
@@ -99,6 +102,29 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="EUR" value-date="2021-12-31">200002</value>
   </budget>
+  <transaction humanitarian="0" ref="Dep Mauritanie 2021">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2017-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">91859</value>
+   <description>
+    <narrative xml:lang="FR">dep mauritanie</narrative>
+   </description>
+   <provider-org provider-activity-id="BE-BCE_KBO-0435563751-PROG17_21" ref="BE-BCE_KBO-0435563751" type="22"></provider-org>
+  </transaction>
+  <transaction humanitarian="0" ref="APSDN - transfert 2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="EUR" value-date="2021-01-01">199999</value>
+   <description>
+    <narrative xml:lang="FR">disb APSDN</narrative>
+   </description>
+   <provider-org provider-activity-id="BE-BCE_KBO-0435563751-PROG17_21" ref="BE-BCE_KBO-0435563751" type="22">
+    <narrative xml:lang="FR">memisa</narrative>
+   </provider-org>
+   <receiver-org ref="APSDN" type="23">
+    <narrative xml:lang="FR">disb APSDN</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="APSDN - budget 2017-2021">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2017-02-21"></transaction-date>
@@ -161,6 +187,28 @@
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="95"></target>
+     <actual value="90"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="FR">Taux de satisfaction des utilisateurs (genre sp&#xE9;cifique)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">sources de v&#xE9;rification: Enqu&#xEA;tes communautaires de satisfaction sur un &#xE9;chantillon (&#xE9;valuations externes)</narrative>
+    </description>
+    <baseline iso-date="2022-06-24" value="20" year="2015"></baseline>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="60"></target>
+     <actual value="93"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="80"></target>
+     <actual value="95"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -181,26 +229,7 @@
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="1.0"></target>
-    </period>
-   </indicator>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="FR">Taux de satisfaction des utilisateurs (genre sp&#xE9;cifique)</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="FR">sources de v&#xE9;rification: Enqu&#xEA;tes communautaires de satisfaction sur un &#xE9;chantillon (&#xE9;valuations externes)</narrative>
-    </description>
-    <baseline value="20" year="2015"></baseline>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="60"></target>
-     <actual value="93"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="80"></target>
+     <actual value="0.8"></actual>
     </period>
    </indicator>
   </result>

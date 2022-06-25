@@ -20,7 +20,10 @@
   <participating-org ref="BE-BCE_KBO-0448723978" role="4" type="22">
    <narrative xml:lang="FR">M&#xE9;decins sans vacances</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="4"></activity-status>
+  <activity-date iso-date="2021-12-31" type="4">
+   <narrative xml:lang="FR">actual end</narrative>
+  </activity-date>
   <activity-date iso-date="2017-01-01" type="1"></activity-date>
   <activity-date iso-date="2017-01-01" type="2"></activity-date>
   <activity-date iso-date="2021-12-31" type="3"></activity-date>
@@ -85,6 +88,15 @@
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="EUR" value-date="2021-12-31">89050</value>
   </budget>
+  <transaction ref="Dep Belgique 2021">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">80271</value>
+   <description>
+    <narrative xml:lang="FR">dep belgique</narrative>
+   </description>
+   <provider-org provider-activity-id="BE-BCE_KBO-0435563751-PROG17_21" ref="BE-BCE_KBO-0435563751" type="22"></provider-org>
+  </transaction>
   <transaction ref="Dep Belgique 2017">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
@@ -127,17 +139,14 @@
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="81">
-      <dimension name="+ 30% tov nulmeting"></dimension>
-     </target>
-     <actual value="45.65"></actual>
+     <target value="30"></target>
+     <actual value="23"></actual>
     </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
-     <target value="66">
-      <dimension name="+15% versus de nulmeting"></dimension>
-     </target>
+     <target value="15"></target>
+     <actual value="32.5"></actual>
     </period>
    </indicator>
   </result>
