@@ -2,7 +2,7 @@
 <iati-activities version="2.03">
  <iati-activity default-currency="EUR" hierarchy="2" humanitarian="0" iati-activities:version="2.03" xml:lang="FR" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>BE-BCE_KBO-0448755949-PROG2017-2021_BU</iati-identifier>
-  <reporting-org ref="BE-BCE_KBO-0448755949" type="22">
+  <reporting-org ref="BE-BCE_KBO-0448755949" secondary-reporter="0" type="22">
    <narrative xml:lang="FR">Collectif Strat&#xE9;gies Alimentaires</narrative>
   </reporting-org>
   <title>
@@ -26,10 +26,11 @@
   <participating-org role="4" type="22">
    <narrative xml:lang="FR">organisation burundaise</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2017-01-01" type="1"></activity-date>
   <activity-date iso-date="2017-01-01" type="2"></activity-date>
   <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="FR">Collectif Strat&#xE9;gies Alimentaires (CSA)</narrative>
@@ -210,6 +211,20 @@
     <narrative xml:lang="FR">organisation burundaise</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="D&#xE9;pense 2021">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">11912.13</value>
+   <description>
+    <narrative xml:lang="FR">Ann&#xE9;e 5</narrative>
+   </description>
+   <provider-org provider-activity-id="BE-BCE_KBO-0448755949-PROG2017-2021_BU" ref="BE-BCE_KBO-0448755949" type="22">
+    <narrative xml:lang="FR">CSA - Collectif Strat&#xE9;gies Alimentaires</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0448755949-PROG2017-2021_BU" ref="BE-BCE_KBO-0448755949" type="22">
+    <narrative xml:lang="FR">CSA - Collectif Strat&#xE9;gies Alimentaires</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2021-01-01"></transaction-date>
@@ -228,6 +243,15 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="EUR" value-date="2019-12-31">101914</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0448755949-PROG2017-2021_BU" ref="BE-BCE_KBO-0448755949" type="22"></provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="FR">organisation burundaise</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="Transfert 2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">49106</value>
    <provider-org provider-activity-id="BE-BCE_KBO-0448755949-PROG2017-2021_BU" ref="BE-BCE_KBO-0448755949" type="22"></provider-org>
    <receiver-org type="22">
     <narrative xml:lang="FR">organisation burundaise</narrative>
@@ -271,9 +295,9 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="40"></target>
-     <actual>
+     <actual value="0">
       <comment>
-       <narrative xml:lang="FR">Sera calcul&#xE9; en fin de projet</narrative>
+       <narrative xml:lang="FR">+53.7% en 2020 (par rapport &#xE0; baseline), puis chute pour atteindre -17.2% en 2021 &#xE0; cause du contexte covid</narrative>
       </comment>
      </actual>
     </period>
@@ -297,7 +321,7 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="A pr&#xE9;ciser"></target>
-     <actual>
+     <actual value="21200">
       <comment>
        <narrative xml:lang="FR">Sera calcul&#xE9; en fin de projet</narrative>
       </comment>
@@ -306,7 +330,6 @@
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
-     <target value="A pr&#xE9;ciser"></target>
      <actual value="8700"></actual>
     </period>
    </indicator>
@@ -319,7 +342,7 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="5000"></target>
-     <actual>
+     <actual value="5150">
       <comment>
        <narrative xml:lang="FR">Sera calcul&#xE9; en fin d&apos;ann&#xE9;e</narrative>
       </comment>
@@ -344,7 +367,7 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="50"></target>
-     <actual>
+     <actual value="48.54">
       <comment>
        <narrative xml:lang="FR">Sera calcul&#xE9; en fin de projet</narrative>
       </comment>
@@ -366,7 +389,7 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="20"></target>
-     <actual>
+     <actual value="40">
       <comment>
        <narrative xml:lang="FR">Sera calcul&#xE9; en fin de projet</narrative>
       </comment>
@@ -385,20 +408,16 @@
     </title>
     <baseline value="10" year="2017"></baseline>
     <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="50"></target>
-     <actual>
-      <comment>
-       <narrative xml:lang="FR">Sera calcul&#xE9; en fin de projet</narrative>
-      </comment>
-     </actual>
-    </period>
-    <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target value="20"></target>
      <actual value="25"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="50"></target>
+     <actual value="50"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -410,7 +429,7 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="50"></target>
-     <actual>
+     <actual value="51">
       <comment>
        <narrative xml:lang="FR">Sera calcul&#xE9; en fin de projet</narrative>
       </comment>
