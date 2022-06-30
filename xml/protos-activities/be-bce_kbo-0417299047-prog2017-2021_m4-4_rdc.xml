@@ -124,6 +124,17 @@
     <narrative xml:lang="FR">Join For Water (Protos)</narrative>
    </provider-org>
   </transaction>
+  <transaction ref="D&#xE9;penses faites pour M4.4_RDC par Join For Water - 2021">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">296288.14</value>
+   <description>
+    <narrative xml:lang="FR">D&#xE9;penses faites pour M4.4_RDC par Join For Water - 2021</narrative>
+   </description>
+   <provider-org provider-activity-id="BE-BCE_KBO-0417299047-PROG2017-2021_M4.4_RDC" ref="BE-BCE_KBO-0417299047" type="22">
+    <narrative xml:lang="FR">Join For Water (Protos)</narrative>
+   </provider-org>
+  </transaction>
   <transaction ref="D&#xE9;penses faites pour M4.4_RDC par Protos - 2017">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
@@ -272,6 +283,20 @@
     <narrative xml:lang="FR">Cidri</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="Transferts &#xE0; Cidri - 2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">154111.75</value>
+   <description>
+    <narrative xml:lang="FR">Transferts &#xE0; Cidri - 2021</narrative>
+   </description>
+   <provider-org provider-activity-id="BE-BCE_KBO-0417299047-PROG2017-2021_M4.4_RDC" ref="BE-BCE_KBO-0417299047" type="22">
+    <narrative xml:lang="FR">Join For Water (Protos)</narrative>
+   </provider-org>
+   <receiver-org type="24">
+    <narrative xml:lang="FR">Cidri</narrative>
+   </receiver-org>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://aidstream.org/files/documents/Protos-programma-17-21_CSC4-RD-Congo-herziening-versie-2017-03-31-20180411090421.pdf">
    <title>
     <narrative xml:lang="FR">Programme Protos RD Congo 2017-2021</narrative>
@@ -301,6 +326,16 @@
     </baseline>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="1600">
+      <comment>
+       <narrative xml:lang="FR">Dans deux &#xE9;coles pilotes.</narrative>
+      </comment>
+     </target>
+     <actual value="1597"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target value="800">
       <comment>
@@ -309,21 +344,30 @@
      </target>
      <actual value="556"></actual>
     </period>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1600">
-      <comment>
-       <narrative xml:lang="FR">Dans deux &#xE9;coles pilotes.</narrative>
-      </comment>
-     </target>
-    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="FR">IO.1: Nombre additionnel de personnes (H/F) ayant acc&#xE8;s &#xE0; l&#x2019;eau potable (zone d&#x2019;intervention)</narrative>
     </title>
     <baseline value="500000" year="2016"></baseline>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="10000">
+      <dimension name="femmes" value="5100"></dimension>
+      <dimension name="hommes" value="4900"></dimension>
+      <comment>
+       <narrative xml:lang="FR">L&apos;indicateur dit &apos;nombre suppl&#xE9;mentaire&apos;. Donc il faut ajouter la valeur &apos;target&apos; &#xE0; la valeur de base pour la valeur finale.</narrative>
+      </comment>
+     </target>
+     <actual value="28776">
+      <dimension name="Femmes" value="14912"></dimension>
+      <dimension name="Hommes" value="13864"></dimension>
+      <comment>
+       <narrative xml:lang="FR">Les 28.776 personnes sont sur la base de la conception du syst&#xE8;me et le total des 28 kiosques qui ont &#xE9;t&#xE9; construits sur ce programme et avec l&apos;aide d&apos;autres fonds. Si on consid&#xE8;re seulement les 17 kiosques construits sur le programme, on arrive &#xE0; 17.688 personnes (9.197 femmes et 8.491 hommes).</narrative>
+      </comment>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -338,17 +382,6 @@
       <dimension name="Femmes" value="14471"></dimension>
       <dimension name="Hommes" value="13357"></dimension>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="10000">
-      <dimension name="femmes" value="5100"></dimension>
-      <dimension name="hommes" value="4900"></dimension>
-      <comment>
-       <narrative xml:lang="FR">L&apos;indicateur dit &apos;nombre suppl&#xE9;mentaire&apos;. Donc il faut ajouter la valeur &apos;target&apos; &#xE0; la valeur de base pour la valeur finale.</narrative>
-      </comment>
-     </target>
     </period>
    </indicator>
   </result>
