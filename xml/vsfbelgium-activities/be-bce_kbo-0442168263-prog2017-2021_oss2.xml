@@ -229,6 +229,16 @@
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">89524.73</value>
   </transaction>
+  <transaction ref="TRFICD2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="EUR" value-date="2021-01-01">192761</value>
+  </transaction>
+  <transaction ref="EXP2021OSS2">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-01-01"></transaction-date>
+   <value currency="EUR" value-date="2021-01-01">106001</value>
+  </transaction>
   <related-activity ref="BE-BCE_KBO-0442168263-PROG2017-2021" type="1"></related-activity>
   <conditions attached="0"></conditions>
   <result aggregation-status="0" type="2">
@@ -245,6 +255,21 @@
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="55">
+      <comment>
+       <narrative xml:lang="FR">Femmes: 80% / Hommes: 30%</narrative>
+      </comment>
+     </target>
+     <actual value="56">
+      <comment>
+       <narrative xml:lang="FR">Femmes : 70%
+Hommes : 56%</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2017-05-24"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target value="37.5">
@@ -257,15 +282,6 @@
        <narrative xml:lang="FR">Femmes: 41% / Hommes: 33%</narrative>
       </comment>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="55">
-      <comment>
-       <narrative xml:lang="FR">Femmes: 80% / Hommes: 30%</narrative>
-      </comment>
-     </target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -306,6 +322,12 @@
      <target value="5">
       <dimension name="Population" value="Femmes"></dimension>
      </target>
+     <actual value="3.19">
+      <dimension name="Population" value="Enfants de 6 &#xE0; 59 mois"></dimension>
+     </actual>
+     <actual value="5.3">
+      <dimension name="Population" value="Femmes"></dimension>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -323,6 +345,7 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="80"></target>
+     <actual value="88"></actual>
     </period>
    </indicator>
   </result>

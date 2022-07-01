@@ -301,6 +301,12 @@
    <provider-org provider-activity-id="XM-DAC-2-10-1081" ref="XM-DAC-2-10"></provider-org>
    <receiver-org receiver-activity-id="BE-BCE_KBO-0415880570-PROG2017-2021-CKOS2" ref="BE-BCE_KBO-0415880570"></receiver-org>
   </transaction>
+  <transaction ref="D&#xE9;penses 2021">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">358296.45</value>
+   <receiver-org receiver-activity-id="BE-BCE_KBO-0415880570-PROG2017-2021-CKOS2" ref="BE-BCE_KBO-0415880570"></receiver-org>
+  </transaction>
   <transaction ref="2&#xE8;me tranche 2019">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-06-07"></transaction-date>
@@ -331,15 +337,20 @@
     </description>
     <baseline value="30" year="2016"></baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="10">
+      <comment>
+       <narrative xml:lang="FR">11</narrative>
+      </comment>
+     </target>
+     <actual value="11"></actual>
+    </period>
+    <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target value="20"></target>
      <actual value="20"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="10"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -360,6 +371,7 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="80"></target>
+     <actual value="89"></actual>
     </period>
    </indicator>
   </result>

@@ -35,10 +35,11 @@
   <participating-org activity-id="BE-BCE_KBO-0435563751-PROG17-21_CSC1_RDC" ref="BE-BCE_KBO-0435563751" role="4" type="22">
    <narrative xml:lang="FR">memisa</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2017-01-01" type="1"></activity-date>
   <activity-date iso-date="2017-01-01" type="2"></activity-date>
   <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="FR">M&#xE9;decins Sans Vacances</narrative>
@@ -329,6 +330,17 @@
     <narrative xml:lang="FR">Diff&#xE9;rents fournisseurs de biens et services</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="Expenditures 2021">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">592375</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0448723978-PROG17-21_CSC1_Congo" ref="BE-BCE_KBO-0448723978" type="22">
+    <narrative xml:lang="FR">M&#xE9;decins Sans Vacances</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="FR">Diff&#xE9;rents fournisseurs de biens et services</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2017-07-06"></transaction-date>
@@ -384,6 +396,17 @@
     <narrative xml:lang="FR">Fracarita Belgium asbl</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="Disbursements 2021">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">60000</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0448723978-PROG17-21_CSC1_Congo" ref="BE-BCE_KBO-0448723978" type="22">
+    <narrative xml:lang="FR">M&#xE9;decins Sans Vacances</narrative>
+   </provider-org>
+   <receiver-org ref="BE-BCE_KBO-0409096015" type="22">
+    <narrative xml:lang="FR">Fracarita Belgium asbl</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
@@ -428,14 +451,25 @@
     <narrative xml:lang="FR">ICT4Development, Open Clinic Foundation</narrative>
    </receiver-org>
   </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
+  <transaction ref="Expenditures 2020">
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">62320</value>
+   <value currency="EUR" value-date="2020-12-31">566979</value>
    <provider-org provider-activity-id="BE-BCE_KBO-0448723978-PROG17-21_CSC2_Congo" ref="BE-BCE_KBO-0448723978" type="22">
     <narrative xml:lang="FR">M&#xE9;decins Sans Vacances</narrative>
    </provider-org>
-   <receiver-org type="22">
+   <receiver-org>
+    <narrative xml:lang="FR">Diff&#xE9;rents fournisseurs de biens et services</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="Disbursements 2020">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2020-12-31">64996</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0448723978-PROG17-21_CSC2_Congo" ref="BE-BCE_KBO-0448723978" type="22">
+    <narrative xml:lang="FR">M&#xE9;decins Sans Vacances</narrative>
+   </provider-org>
+   <receiver-org ref="BE-BCE_KBO-0409096015" type="22">
     <narrative xml:lang="FR">Fracarita Belgium asbl</narrative>
    </receiver-org>
   </transaction>
@@ -449,14 +483,6 @@
    <receiver-org type="60">
     <narrative xml:lang="FR">ICT4Development, Open Clinic Foundation</narrative>
    </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="EUR" value-date="2020-12-31">557829</value>
-   <provider-org provider-activity-id="BE-BCE_KBO-0448723978-PROG17-21_CSC2_Congo" ref="BE-BCE_KBO-0448723978" type="22">
-    <narrative xml:lang="FR">M&#xE9;decins Sans Vacances</narrative>
-   </provider-org>
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
@@ -511,13 +537,29 @@
     <description>
      <narrative xml:lang="FR">Par mesurer la satisfaction des b&#xE9;n&#xE9;ficiaires nous avons une indication d&#x2019;une part de l&#x2019;acc&#xE8;s aux soins et d&#x2019;autre part de la qualit&#xE9; de l&#x2019;offre. Il s&#x2019;agit ici pas seulement des aspects m&#xE9;dicotechniques, mais aussi des aspects sociales et interpersonnelles comme par exemple l&#x2019;abordabilit&#xE9; des soins et la communication avec le patient. Source de v&#xE9;rification: Enqu&#xEA;tes communautaires de satisfaction sur un &#xE9;chantillon (&#xE9;valuations externes). Indicateur &#xE0; atteindre en commun avec Memisa.</narrative>
     </description>
-    <baseline value="Pas connu" year="2015">
+    <baseline iso-date="2022-06-30" year="2015">
      <dimension name="sexe" value="femmes"></dimension>
      <dimension name="sexe" value="hommes"></dimension>
      <comment>
       <narrative xml:lang="FR">Taux de satisfaction des utilisateurs pas connu en 2016</narrative>
      </comment>
     </baseline>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="80">
+      <dimension name="Sexe" value="Femmes"></dimension>
+     </target>
+     <target value="80">
+      <dimension name="Sexe" value="Hommes"></dimension>
+     </target>
+     <actual value="55">
+      <dimension name="Sexe" value="Femmes"></dimension>
+     </actual>
+     <actual value="65">
+      <dimension name="Sexe" value="Hommes"></dimension>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -530,14 +572,9 @@
      <actual value="49,53">
       <dimension name="sexe" value="femmes"></dimension>
      </actual>
-     <actual value="56,49">
+     <actual value="56.49">
       <dimension name="sexe" value="hommes"></dimension>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="80"></target>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -550,14 +587,15 @@
     <baseline value="0.45" year="2015"></baseline>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="0,50"></target>
-     <actual value="0,56"></actual>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="0.55"></target>
+     <actual value="0.52"></actual>
     </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="0.55"></target>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="0.50"></target>
+     <actual value="0.56"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="2">
@@ -570,14 +608,15 @@
     <baseline value="80" year="2015"></baseline>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="85"></target>
-     <actual value="82"></actual>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="90"></target>
+     <actual value="80"></actual>
     </period>
     <period>
      <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="90"></target>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="85"></target>
+     <actual value="82"></actual>
     </period>
    </indicator>
   </result>

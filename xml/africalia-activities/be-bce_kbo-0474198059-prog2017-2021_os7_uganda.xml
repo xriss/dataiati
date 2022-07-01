@@ -30,10 +30,11 @@
    <narrative xml:lang="FR">Belgian Development Cooperation</narrative>
   </participating-org>
   <other-identifier ref="XM-DAC-2-1085" type="A9"></other-identifier>
-  <activity-status code="2"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2017-01-01" type="1"></activity-date>
   <activity-date iso-date="2017-01-01" type="2"></activity-date>
   <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="4"></activity-date>
   <contact-info type="4">
    <organisation>
     <narrative xml:lang="FR">Africalia</narrative>
@@ -195,10 +196,29 @@
     <narrative xml:lang="EN">Bayimba Cultural Foundation</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="Tranche 2021 - Bayimba">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">69480.83</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0474198059-PROG2017-2021_OS7_Uganda" ref="BE-BCE_KBO-0474198059" type="15">
+    <narrative xml:lang="EN">Africalia</narrative>
+   </provider-org>
+   <receiver-org type="24">
+    <narrative xml:lang="EN">Bayimba Cultural Foundation</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="Expenditure 2019">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="EUR" value-date="2019-12-31">41558.49</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0474198059-PROG2017-2021_OS7_Uganda" ref="BE-BCE_KBO-0474198059" type="15">
+    <narrative xml:lang="EN">Africalia</narrative>
+   </provider-org>
+  </transaction>
+  <transaction ref="Expenditure 2021">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">0</value>
    <provider-org provider-activity-id="BE-BCE_KBO-0474198059-PROG2017-2021_OS7_Uganda" ref="BE-BCE_KBO-0474198059" type="15">
     <narrative xml:lang="EN">Africalia</narrative>
    </provider-org>
@@ -251,7 +271,7 @@
     <title>
      <narrative xml:lang="EN">OVI 3: Annual turnover</narrative>
     </title>
-    <baseline value="1000000000UGX" year="2016">
+    <baseline value="1000000000" year="2016">
      <comment>
       <narrative xml:lang="EN">1.0 bio UGX</narrative>
      </comment>
@@ -259,54 +279,64 @@
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
-     <target value="1500000000 UGX">
+     <target value="1500000000">
       <comment>
        <narrative xml:lang="EN">1.5bio UGX</narrative>
       </comment>
      </target>
-     <actual value="1600000000UGX">
+     <actual value="1600000000">
       <comment>
        <narrative xml:lang="EN">1.6bio UGX</narrative>
       </comment>
      </actual>
     </period>
     <period>
-     <period-start iso-date="2017-01-01"></period-start>
+     <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
-     <target value="1500000000UGX">
+     <target value="1500000000">
       <comment>
        <narrative xml:lang="EN">1.5bio UGX</narrative>
       </comment>
      </target>
+     <actual value="535000000"></actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">OVI 2: Annual financial volume of technical, artistic and administrative services not financed by Africalia</narrative>
     </title>
-    <baseline value="650000000UGX" year="2016">
+    <baseline value="650000000" year="2016">
      <comment>
       <narrative xml:lang="EN">UGX</narrative>
      </comment>
     </baseline>
     <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2019-12-31"></period-end>
-     <target value="735000000UGX">
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="735000000">
       <comment>
        <narrative xml:lang="EN">UGX</narrative>
       </comment>
      </target>
-     <actual value="781000000UGX"></actual>
+     <actual value="241000000">
+      <comment>
+       <narrative xml:lang="EN">UGX</narrative>
+      </comment>
+     </actual>
     </period>
     <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="735000000UGX">
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="735000000">
       <comment>
        <narrative xml:lang="EN">UGX</narrative>
       </comment>
      </target>
+     <actual value="781000000">
+      <comment>
+       <narrative xml:lang="EN">UGX</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator ascending="1" measure="1">
@@ -319,6 +349,22 @@
     <baseline value="25000" year="2016">
      <dimension name="Sexe" value="Male"></dimension>
     </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="45000">
+      <dimension name="Sexe" value="Female"></dimension>
+     </target>
+     <target value="42000">
+      <dimension name="Sexe" value="Male"></dimension>
+     </target>
+     <actual value="15000">
+      <dimension name="Sexe" value="Female"></dimension>
+     </actual>
+     <actual value="15000">
+      <dimension name="Sexe" value="Male"></dimension>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -335,16 +381,6 @@
       <dimension name="Sexe" value="Male"></dimension>
      </actual>
     </period>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="45000">
-      <dimension name="Sexe" value="Female"></dimension>
-     </target>
-     <target value="42000">
-      <dimension name="Sexe" value="Male"></dimension>
-     </target>
-    </period>
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
@@ -356,6 +392,22 @@
     <baseline value="220" year="2016">
      <dimension name="Sexe" value="Male"></dimension>
     </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="110">
+      <dimension name="Sexe" value="Female"></dimension>
+     </target>
+     <target value="280">
+      <dimension name="Sexe" value="Male"></dimension>
+     </target>
+     <actual value="150">
+      <dimension name="Sexe" value="Female"></dimension>
+     </actual>
+     <actual value="350">
+      <dimension name="Sexe" value="Male"></dimension>
+     </actual>
+    </period>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
@@ -371,16 +423,6 @@
      <actual value="320">
       <dimension name="Sexe" value="Male"></dimension>
      </actual>
-    </period>
-    <period>
-     <period-start iso-date="2017-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="110">
-      <dimension name="Sexe" value="Female"></dimension>
-     </target>
-     <target value="280">
-      <dimension name="Sexe" value="Male"></dimension>
-     </target>
     </period>
    </indicator>
   </result>

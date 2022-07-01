@@ -35,9 +35,10 @@
   <participating-org role="4" type="24">
    <narrative xml:lang="FR">Plan International Niger</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2017-01-01" type="2"></activity-date>
   <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2021-12-31" type="4"></activity-date>
   <contact-info type="2">
    <organisation>
     <narrative xml:lang="FR">Plan International Belgium</narrative>
@@ -173,6 +174,20 @@
     <narrative xml:lang="FR">Plan International Niger</narrative>
    </receiver-org>
   </transaction>
+  <transaction humanitarian="0" ref="2021 - ANTD + CONIDE">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">57446</value>
+   <description>
+    <narrative xml:lang="FR">ANTD: 18,655&#x20AC; / CONIDE: 38,790&#x20AC;</narrative>
+   </description>
+   <provider-org provider-activity-id="BE-BCE_KBO-0425420917-PROG2017-2021_NER03" ref="BE-BCE_KBO-0425420917" type="22">
+    <narrative xml:lang="FR">Plan International Belgique</narrative>
+   </provider-org>
+   <receiver-org type="24">
+    <narrative xml:lang="FR">Plan International Niger</narrative>
+   </receiver-org>
+  </transaction>
   <transaction humanitarian="0" ref="2020 - Plan international Niger + ANTD + ASO-EPT + CONIDE">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
@@ -191,6 +206,14 @@
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="EUR" value-date="2020-12-31">17891</value>
+   <provider-org provider-activity-id="BE-BCE_KBO-0425420917-PROG2017-2021_NER03" ref="BE-BCE_KBO-0425420917" type="22">
+    <narrative xml:lang="FR">Plan International Belgique</narrative>
+   </provider-org>
+  </transaction>
+  <transaction humanitarian="0" ref="2021">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2021-12-31"></transaction-date>
+   <value currency="EUR" value-date="2021-12-31">18732</value>
    <provider-org provider-activity-id="BE-BCE_KBO-0425420917-PROG2017-2021_NER03" ref="BE-BCE_KBO-0425420917" type="22">
     <narrative xml:lang="FR">Plan International Belgique</narrative>
    </provider-org>
@@ -227,19 +250,59 @@
    </title>
    <indicator aggregation-status="0" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="FR">3.1. Taux d&#x2019;ach&#xE8;vement pour les gar&#xE7;ons et filles au coll&#xE8;ge dans les r&#xE9;gions de Dosso et Tillab&#xE9;ry</narrative>
+     <narrative xml:lang="FR">3.1.(1) Taux d&#x2019;ach&#xE8;vement pour les gar&#xE7;ons et filles au coll&#xE8;ge dans la r&#xE9;gion de Dosso</narrative>
     </title>
     <description>
      <narrative xml:lang="FR">Sources: Annuaire statistique national ou r&#xE9;gional, rapports des inspections secondaires de Dosso et Tillab&#xE9;ry</narrative>
     </description>
     <baseline value="10" year="2016"></baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="18"></target>
+     <actual value="18.90">
+      <dimension name="Filles" value="15.90"></dimension>
+      <dimension name="Gar&#xE7;ons" value="21.90"></dimension>
+      <comment>
+       <narrative xml:lang="FR">STATISTIQUES DE L&apos;&#xC9;DUCATION NATIONALE
+ANNUAIRE DE POCHE 2020-2021
+Edition 2022</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target value="15"></target>
-     <actual value="15.93">
+     <actual value="19.90">
+      <dimension name="Filles" value="16.60"></dimension>
+      <dimension name="Gar&#xE7;ons" value="23.10"></dimension>
       <comment>
-       <narrative xml:lang="FR">En ann&#xE9;e 3, les valeurs sont d&#xE9;sagr&#xE9;g&#xE9;es: Filles: 14%; Gar&#xE7;ons: 17.85%. Pour aboutir au chiffre indiqu&#xE9;, une moyenne a &#xE9;t&#xE9; calcul&#xE9;e sur hypoth&#xE8;se que les gar&#xE7;ons et les filles comptent &#xE0; peu pr&#xE8;s 50%/50% des &#xE9;l&#xE8;ves du coll&#xE8;ge dans la zone d&apos;intervention.</narrative>
+       <narrative xml:lang="FR">Selon l&apos;&quot;Annuaire Statistique 2018-2019 du Minist&#xE8;re des Enseignements Secondaires&quot;&quot;, le Taux d&apos;achevement en 2018-2019 s&apos;&#xE9;levait &#xE0;
+Dosso &#xE0; 19,9%
+Filles: 16,6%
+Gar&#xE7;ons: 23,1%</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="FR">3.1.(2) Taux d&#x2019;ach&#xE8;vement pour les gar&#xE7;ons et filles au coll&#xE8;ge dans la r&#xE9;gion de Tillab&#xE9;ry</narrative>
+    </title>
+    <baseline value="10" year="2016"></baseline>
+    <period>
+     <period-start iso-date="2017-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="15"></target>
+     <actual value="12">
+      <dimension name="Filles" value="11.40"></dimension>
+      <dimension name="Gar&#xE7;ons" value="12.60"></dimension>
+      <comment>
+       <narrative xml:lang="FR">Selon l&apos;&quot;Annuaire Statistique 2018-2019 du Minist&#xE8;re des Enseignements Secondaires&quot;&quot;, le Taux d&apos;achevement en 2018-2019 s&apos;&#xE9;levait &#xE0;
+Tillaberi &#xE0; 12,00%
+Filles: 11,4%
+Gar&#xE7;ons: 12,6%</narrative>
       </comment>
      </actual>
     </period>
@@ -247,6 +310,19 @@
      <period-start iso-date="2020-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="18"></target>
+     <actual value="11.60">
+      <dimension name="Filles" value="11.40"></dimension>
+      <dimension name="Gar&#xE7;ons" value="11.90"></dimension>
+      <comment>
+       <narrative xml:lang="FR">Source: STATISTIQUES DE L&apos;&#xC9;DUCATION NATIONALE. ANNUAIRE DE POCHE 2020-2021. Edition 2022
+Commentaires: 
+Le recul dans le taux d&#x2019;ach&#xE8;vement s&#x2019;explique par diff&#xE9;rents facteurs li&#xE9;s &#xE0; l&#x2019;&#xE9;volution du contexte au Niger et dans la r&#xE9;gion.  
+La pand&#xE9;mie de Covid 19 et la fermeture des classes entre 2020 et 2021 a entrain&#xE9; une vague de non-retours &#xE0; l&#x2019;&#xE9;cole, m&#xEA;me suite &#xE0; la r&#xE9;ouverte des &#xE9;coles. 
+Dans les zones rurales, les enseignant.e.s sont r&#xE9;guli&#xE8;rement mut&#xE9;.e.s. Ces rapides changements ont ainsi un impact sur la qualit&#xE9; de l&#x2019;enseignement et cons&#xE9;quemment le succ&#xE8;s aux examens ou la r&#xE9;tention des &#xE9;l&#xE8;ves en classe.  
+L&#x2019;ins&#xE9;curit&#xE9; dans la zone de Tillab&#xE9;ri a aussi entrain&#xE9; la fermeture de nombreuses classes dans les communes de Dessa, Anzourou, Sakoira et Sinder. Les enseignant.e.s ont parfois re&#xE7;u des menaces par les groupes arm&#xE9;s non &#xE9;tatiques et ont ainsi &#xE9;t&#xE9; affect&#xE9;s dans d&#x2019;autres &#xE9;tablissements, laissant les &#xE9;l&#xE8;ves seuls. L&#x2019;ins&#xE9;curit&#xE9; a aussi entrain&#xE9; le d&#xE9;placement massif des populations  - les &#xE9;coles dans les villages d&#x2019;accueil sont alors sur-fr&#xE9;quent&#xE9;es ou les enfants non inscrits &#xE0; leur arriv&#xE9;e.  
+En 2020-2021, une grande partie des enfants devant &#xEA;tre au premier sous cycle du secondaire ont &#xE9;t&#xE9; absorb&#xE9; par l&#x2019;enseignement technique. Il y a eu la cr&#xE9;ation de plusieurs centres d&#x2019;enseignement technique (CET). Cette cohorte des CET n&#x2019;a pas &#xE9;t&#xE9; prise en compte dans les calculs des diff&#xE9;rents taux, impactant les tendances dans ces taux. C&#x2019;est surtout sur ce dernier argumentaire que le Ministre a mis l&#x2019;accent.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="1">
@@ -258,15 +334,20 @@
     </description>
     <baseline value="41" year="2016"></baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="1586">
+      <comment>
+       <narrative xml:lang="FR">Initialement, la cible ne concernait que les jeunes qui entraient dans les CFM, alors qu&apos;il &#xE9;tait plus coh&#xE9;rent pour le S&amp;E du programme de compter tous les jeunes qui suivaient des formations aupr&#xE8;s de tuteurs locaux (couture, tricotage, embouche, etc.)</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target value="70"></target>
      <actual value="654"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="100"></target>
     </period>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="1">
@@ -278,15 +359,20 @@
     </description>
     <baseline value="50" year="2016"></baseline>
     <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="130"></target>
+     <actual value="1957">
+      <comment>
+       <narrative xml:lang="FR">Initialement, la cible ne concernait que les jeunes qui entraient dans les CFM, alors qu&apos;il &#xE9;tait plus coh&#xE9;rent pour le S&amp;E du programme de compter tous les jeunes qui suivaient des formations aupr&#xE8;s de tuteurs locaux (couture, tricotage, embouche, etc.)</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2019-12-31"></period-end>
      <target value="100"></target>
      <actual value="646"></actual>
-    </period>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="130"></target>
     </period>
    </indicator>
   </result>
