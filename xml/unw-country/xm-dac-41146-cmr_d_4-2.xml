@@ -14,14 +14,14 @@
   <participating-org ref="10465" role="1">
    <narrative xml:lang="EN">AGENCIA CATALANA DE COOP AL DESARROLLO</narrative>
   </participating-org>
-  <participating-org ref="00137" role="1">
-   <narrative xml:lang="EN">GOVERNMENT OF ITALY</narrative>
-  </participating-org>
-  <participating-org ref="11278" role="1">
-   <narrative xml:lang="EN">Multi-Donor Trust Fund Office</narrative>
+  <participating-org ref="XM-DAC-6-4" role="1" type="GOVERNMENT">
+   <narrative xml:lang="EN">AICS - Agenzia Italiana per la Cooperazione allo Sviluppo / Italian Agency for Cooperation and Development</narrative>
   </participating-org>
   <participating-org ref="11363" role="1">
    <narrative xml:lang="EN">Peacebuilding Fund</narrative>
+  </participating-org>
+  <participating-org ref="XI-IATI-UNPF" role="1" type="MULTILATERAL">
+   <narrative xml:lang="EN">UN Pooled Funds</narrative>
   </participating-org>
   <participating-org ref="XM-DAC-41146" role="2" type="40">
    <narrative xml:lang="EN">UN Women</narrative>
@@ -29,13 +29,13 @@
   <participating-org ref="XM-DAC-41146" role="4" type="40">
    <narrative xml:lang="EN">UN Women</narrative>
   </participating-org>
-  <participating-org ref="11362" role="1">
-   <narrative xml:lang="EN">UNOCHA/Central_Emg_Resp_Fund</narrative>
+  <participating-org ref="XM-OCHA-CERF" role="1" type="MULTILATERAL">
+   <narrative xml:lang="EN">United Nations Central Emergency Response Fund (CERF)</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2021-01-01" type="1"></activity-date>
-  <activity-date iso-date="2021-01-01" type="2"></activity-date>
-  <activity-date iso-date="2021-12-31" type="3"></activity-date>
+  <activity-date iso-date="2018-01-01" type="1"></activity-date>
+  <activity-date iso-date="2018-01-01" type="2"></activity-date>
+  <activity-date iso-date="2020-12-31" type="3"></activity-date>
   <contact-info type="1">
    <email>iati@unwomen.org</email>
    <website>http://www.unwomen.org/en</website>
@@ -176,8 +176,8 @@
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">34864</value>
-   <provider-org ref="00137">
-    <narrative xml:lang="EN">GOVERNMENT OF ITALY</narrative>
+   <provider-org ref="XM-DAC-6-4" type="GOVERNMENT">
+    <narrative xml:lang="EN">AICS - Agenzia Italiana per la Cooperazione allo Sviluppo / Italian Agency for Cooperation and Development</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XM-DAC-41146-CMR_D_4.2" ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
@@ -445,7 +445,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-06-30"></transaction-date>
-   <value currency="USD" value-date="2021-06-30">15961</value>
+   <value currency="USD" value-date="2021-06-30">79794</value>
    <provider-org ref="11363">
     <narrative xml:lang="EN">Peacebuilding Fund</narrative>
    </provider-org>
@@ -507,23 +507,11 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2022-05-31"></transaction-date>
-   <value currency="USD" value-date="2022-05-31">1058045</value>
+   <transaction-date iso-date="2022-06-30"></transaction-date>
+   <value currency="USD" value-date="2022-06-30">1121878</value>
    <provider-org ref="XM-DAC-41146" type="40">
     <narrative xml:lang="EN">UN Women</narrative>
    </provider-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction>
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2020-12-31"></transaction-date>
-   <value currency="USD" value-date="2020-12-31">15</value>
-   <provider-org ref="11362">
-    <narrative xml:lang="EN">UNOCHA/Central_Emg_Resp_Fund</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XM-DAC-41146-CMR_D_4.2" ref="XM-DAC-41146" type="40">
-    <narrative xml:lang="EN">UN Women</narrative>
-   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
@@ -551,6 +539,18 @@
    <provider-org ref="11362">
     <narrative xml:lang="EN">UNOCHA/Central_Emg_Resp_Fund</narrative>
    </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-12-31"></transaction-date>
+   <value currency="USD" value-date="2020-12-31">15</value>
+   <provider-org ref="XM-OCHA-CERF" type="MULTILATERAL">
+    <narrative xml:lang="EN">United Nations Central Emergency Response Fund (CERF)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-41146-CMR_D_4.2" ref="XM-DAC-41146" type="40">
+    <narrative xml:lang="EN">UN Women</narrative>
+   </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <document-link format="APPLICATION/MSWORD" url="https://resources.unwomen.org/iati/2022/CMR_DRF_SN_Report.docx">
@@ -605,150 +605,6 @@
       </comment>
      </target>
      <actual value="43"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Marginalized women and girls affected by protracted and slow onset have increased access to required assets, skills and partnership</narrative>
-   </title>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of women and girls reporting increased knowledge on prevention and response to GBV ,mitigation and associated risk and enhanced livelihood skills as a result of services they benefited from at the Centres</narrative>
-    </title>
-    <baseline value="0" year="2020">
-     <comment>
-      <narrative xml:lang="EN">0%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="90">
-      <comment>
-       <narrative xml:lang="EN">90%</narrative>
-      </comment>
-     </target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of FHH and marginalized (GBV survivors) women with access to support services</narrative>
-    </title>
-    <baseline value="20" year="2019">
-     <comment>
-      <narrative xml:lang="EN">20%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-01"></period-start>
-     <period-end iso-date="2020-12-31"></period-end>
-     <target value="25">
-      <comment>
-       <narrative xml:lang="EN">25%</narrative>
-      </comment>
-     </target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of FHH and marginalized (GBV survivors) women with access to support services</narrative>
-    </title>
-    <baseline value="20" year="2019">
-     <comment>
-      <narrative xml:lang="EN">20%</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <actual value="5"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="3">
-    <title>
-     <narrative xml:lang="EN">Women&apos;s Empowerment Center in place with the support of UN Women.</narrative>
-    </title>
-    <baseline year="2020">
-     <comment>
-      <narrative xml:lang="EN">No</narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target>
-      <comment>
-       <narrative xml:lang="EN">Yes</narrative>
-      </comment>
-     </target>
-     <actual>
-      <comment>
-       <narrative xml:lang="EN">True</narrative>
-      </comment>
-     </actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of women who reported having benefited from the safe market facilities and accessible women friendly space as a result of UN Women&apos;s support</narrative>
-    </title>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="200"></target>
-     <actual value="307"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of benificiarie sensitize by magistrate on gender based violence and national and international legal provisions for the protection of women and girls</narrative>
-    </title>
-    <baseline value="0" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="100"></target>
-     <actual value="310"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of religious and traditional leaders who receive  traing on GBV protection</narrative>
-    </title>
-    <baseline value="00" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="30"></target>
-     <actual value="50"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Numberf of men and boys engage to promote gender equality and figth against gender based violence</narrative>
-    </title>
-    <baseline value="20" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="50"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator ascending="0" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of set of recommendations emerging from the focus group discussions with women and women&apos;s local organisations  about cash for work opportunities</narrative>
-    </title>
-    <baseline value="5" year="2020"></baseline>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="10"></target>
-     <actual value="0"></actual>
     </period>
    </indicator>
   </result>
@@ -997,6 +853,150 @@
      <period-end iso-date="2021-12-31"></period-end>
      <target value="1000"></target>
      <actual value="750"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Marginalized women and girls affected by protracted and slow onset have increased access to required assets, skills and partnership</narrative>
+   </title>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of women and girls reporting increased knowledge on prevention and response to GBV ,mitigation and associated risk and enhanced livelihood skills as a result of services they benefited from at the Centres</narrative>
+    </title>
+    <baseline value="0" year="2020">
+     <comment>
+      <narrative xml:lang="EN">0%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="90">
+      <comment>
+       <narrative xml:lang="EN">90%</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of FHH and marginalized (GBV survivors) women with access to support services</narrative>
+    </title>
+    <baseline value="20" year="2019">
+     <comment>
+      <narrative xml:lang="EN">20%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-01"></period-start>
+     <period-end iso-date="2020-12-31"></period-end>
+     <target value="25">
+      <comment>
+       <narrative xml:lang="EN">25%</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of FHH and marginalized (GBV survivors) women with access to support services</narrative>
+    </title>
+    <baseline value="20" year="2019">
+     <comment>
+      <narrative xml:lang="EN">20%</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <actual value="5"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="3">
+    <title>
+     <narrative xml:lang="EN">Women&apos;s Empowerment Center in place with the support of UN Women.</narrative>
+    </title>
+    <baseline year="2020">
+     <comment>
+      <narrative xml:lang="EN">No</narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">Yes</narrative>
+      </comment>
+     </target>
+     <actual>
+      <comment>
+       <narrative xml:lang="EN">True</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of women who reported having benefited from the safe market facilities and accessible women friendly space as a result of UN Women&apos;s support</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="200"></target>
+     <actual value="307"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of benificiarie sensitize by magistrate on gender based violence and national and international legal provisions for the protection of women and girls</narrative>
+    </title>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="100"></target>
+     <actual value="310"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of religious and traditional leaders who receive  traing on GBV protection</narrative>
+    </title>
+    <baseline value="00" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="30"></target>
+     <actual value="50"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Numberf of men and boys engage to promote gender equality and figth against gender based violence</narrative>
+    </title>
+    <baseline value="20" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="50"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+   <indicator ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of set of recommendations emerging from the focus group discussions with women and women&apos;s local organisations  about cash for work opportunities</narrative>
+    </title>
+    <baseline value="5" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2021-12-31"></period-end>
+     <target value="10"></target>
+     <actual value="0"></actual>
     </period>
    </indicator>
   </result>
