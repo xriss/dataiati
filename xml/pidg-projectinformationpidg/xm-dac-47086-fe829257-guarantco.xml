@@ -33,7 +33,6 @@
   <sector code="23310" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Energy generation, non-renewable sources, unspecified</narrative>
   </sector>
-  <policy-marker code="4" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="36"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -44,6 +43,62 @@
    <period-end iso-date="2024-09-16"></period-end>
    <value currency="USD" value-date="2019-08-22">47500000</value>
   </budget>
+  <transaction ref="GuarantCo">
+   <transaction-type code="10"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-26">23750000</value>
+   <description>
+    <narrative xml:lang="EN">Credit guarantee</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-47086-FE829257-GuarantCo" ref="XM-DAC-47086" type="70">
+    <narrative xml:lang="EN">K-Electric</narrative>
+   </provider-org>
+   <receiver-org type="72">
+    <narrative xml:lang="EN">K-Electric</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GuarantCo">
+   <transaction-type code="10"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-10-02">23750000</value>
+   <description>
+    <narrative xml:lang="EN">Credit guarantee</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-47086-FE829257-GuarantCo" ref="XM-DAC-47086" type="70">
+    <narrative xml:lang="EN">K-Electric</narrative>
+   </provider-org>
+   <receiver-org type="72">
+    <narrative xml:lang="EN">K-Electric</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GuarantCo">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2019-09-30"></transaction-date>
+   <value currency="USD" value-date="2019-09-26">23750000</value>
+   <description>
+    <narrative xml:lang="EN">Incoming credit guarantee</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-47086-GuarantCo" ref="XM-DAC-47086" type="70">
+    <narrative xml:lang="EN">GuarantCo Ltd</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-47086-FE829257-GuarantCo" ref="XM-DAC-47086" type="70">
+    <narrative xml:lang="EN">K-Electric</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GuarantCo">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2019-12-31"></transaction-date>
+   <value currency="USD" value-date="2019-10-02">23750000</value>
+   <description>
+    <narrative xml:lang="EN">Incoming credit guarantee</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-47086-GuarantCo" ref="XM-DAC-47086" type="70">
+    <narrative xml:lang="EN">GuarantCo Ltd</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-47086-FE829257-GuarantCo" ref="XM-DAC-47086" type="70">
+    <narrative xml:lang="EN">K-Electric</narrative>
+   </receiver-org>
+  </transaction>
   <related-activity ref="XM-DAC-47086-GuarantCo" type="1"></related-activity>
  </iati-activity>
 </iati-activities>

@@ -33,7 +33,6 @@
   <sector code="21012" percentage="100" vocabulary="1">
    <narrative xml:lang="EN">Public transport services</narrative>
   </sector>
-  <policy-marker code="4" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="36"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -44,6 +43,34 @@
    <period-end iso-date="2028-12-14"></period-end>
    <value currency="USD" value-date="2017-12-31">23900000</value>
   </budget>
+  <transaction ref="GuarantCo">
+   <transaction-type code="10"></transaction-type>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="USD" value-date="2018-12-14">58900000</value>
+   <description>
+    <narrative xml:lang="EN">Credit guarantee</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-47086-B5546D73-GuarantCo" ref="XM-DAC-47086" type="70">
+    <narrative xml:lang="EN">Gabon Special Economic Zone</narrative>
+   </provider-org>
+   <receiver-org type="72">
+    <narrative xml:lang="EN">Gabon Special Economic Zone</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="GuarantCo">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2018-12-31"></transaction-date>
+   <value currency="USD" value-date="2018-12-14">58900000</value>
+   <description>
+    <narrative xml:lang="EN">Incoming credit guarantee</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-47086-GuarantCo" ref="XM-DAC-47086" type="70">
+    <narrative xml:lang="EN">GuarantCo Ltd</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XM-DAC-47086-B5546D73-GuarantCo" ref="XM-DAC-47086" type="70">
+    <narrative xml:lang="EN">Gabon Special Economic Zone</narrative>
+   </receiver-org>
+  </transaction>
   <related-activity ref="XM-DAC-47086-GuarantCo" type="1"></related-activity>
  </iati-activity>
 </iati-activities>
