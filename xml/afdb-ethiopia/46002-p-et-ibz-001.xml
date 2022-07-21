@@ -2,7 +2,7 @@
 <iati-activities version="2.01">
  <iati-activity default-currency="XDR" hierarchy="1" iati-activities:version="2.01" xml:lang="EN" xmlns:afdb="http://afdb.org/iati/" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>46002-P-ET-IBZ-001</iati-identifier>
-  <reporting-org ref="XM-DAC-46002" type="40">
+  <reporting-org ref="XM-DAC-46002" type="10">
    <narrative xml:lang="EN">African Development Bank</narrative>
   </reporting-org>
   <title>
@@ -23,9 +23,6 @@
   </description>
   <participating-org ref="XM-DAC-46003" role="1" type="40">
    <narrative xml:lang="EN">African Development Fund</narrative>
-  </participating-org>
-  <participating-org role="4" type="10">
-   <narrative xml:lang="EN">GOVERNMENT OF ETHIOPIA</narrative>
   </participating-org>
   <participating-org role="4" type="10">
    <narrative xml:lang="EN">Government of Ethiopia</narrative>
@@ -213,10 +210,43 @@
   <capital-spend percentage="0"></capital-spend>
   <transaction afdb:finance-type-id="2100155040973">
    <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2022-02-28"></transaction-date>
+   <value currency="XDR" value-date="2022-02-28">20334.27</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in February of 2022</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155040973">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2022-06-30"></transaction-date>
+   <value currency="XDR" value-date="2022-06-30">21436.47</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in June of 2022</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Government of Ethiopia</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="D02" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155040973">
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2021-10-31"></transaction-date>
    <value currency="XDR" value-date="2021-10-31">427178.2</value>
    <description>
-    <narrative xml:lang="EN">Total Disbursement in February of 2022</narrative>
+    <narrative xml:lang="EN">Total Disbursement in October of 2021</narrative>
    </description>
    <provider-org ref="XM-DAC-46003">
     <narrative xml:lang="EN">African Development Fund</narrative>
@@ -329,6 +359,15 @@
    <category code="A11"></category>
    <language code="EN"></language>
   </document-link>
+  <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fprojects-and-operations%2Fethiopia_-_multi-sectoral_approach_for_stunting_reduction_project_masrep_-_p-et-ibz-001_-_ipr_january_2022.pdf#page=1&amp;zoom=auto,-13,848">
+   <title>
+    <narrative xml:lang="EN">Evaluation Report</narrative>
+   </title>
+   <category code="A03"></category>
+   <category code="A07"></category>
+   <category code="A08"></category>
+   <language code="EN"></language>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.afdb.org/sites/all/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.afdb.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2Fproject-related-procurement%2Fgeneral_procurement_notice_masrep_project.pdf#page=1&amp;zoom=auto,-13,798">
    <title>
     <narrative xml:lang="EN">General Procurement Notice</narrative>
@@ -344,29 +383,13 @@
    <language code="FR"></language>
   </document-link>
   <conditions attached="1">
-   <condition type="2">
-    <narrative xml:lang="EN">Performance</narrative>
-   </condition>
    <condition type="1">
-    <narrative xml:lang="EN">Policy</narrative>
+    <narrative xml:lang="EN">See Section V Legal Framework</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">See Section V Legal Framework</narrative>
    </condition>
   </conditions>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Project Implementation Unit (PIU) set up</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
   <result type="1">
    <title>
     <narrative xml:lang="EN">Children 6-23 months receiving Minimum Dietary Diversity (MDD)</narrative>
@@ -377,9 +400,9 @@
     </title>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
+     <period-end iso-date="2022-12-31"></period-end>
      <target value="10.0"></target>
-     <actual></actual>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -393,153 +416,9 @@
     </title>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
+     <period-end iso-date="2022-12-31"></period-end>
      <target value="10.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">People who participated in Social and Behaviour Change Communication (SBCC) interventions</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1111722.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Water Sanitation and Hygiene Committee (WaSHCO)/Water User group members trained - of which women</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="11707.5"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">School children benefiting from nutrition friendly schools (combining school garden, school meal, nutrition clubs) - of which girls</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="117834.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Constructed/rehabilitated community water supply schemes</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="12433.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Health and agricultural professionals trained on Nutrition Assessment, Counselling and Support (NACS) to improve antenatal care and growth monitoring - of which women</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="1498.5"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Irrigation user households</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="173726.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Project progress reports completed</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="18.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Schools equipped with school feeding structures/facilities</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="18.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Women and youth provided with animal food production (ruminants, fishery, poultry) and food processing IGA support</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="180635.0"></target>
-     <actual></actual>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -553,265 +432,9 @@
     </title>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
+     <period-end iso-date="2022-12-31"></period-end>
      <target value="186000.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Women with backyard gardens of vegetables and fruits</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="193215.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Multi-sector coordination forums supported</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="195.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Children 6-23 months who consume Animal Sourced Food (ASF) during fasting season</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="20.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Pregnant and Lactating Women (PLW) consuming a diverse diet (&gt; 4 food groups)</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="20.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Land with improved water management developed or rehabilitated</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Ha</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="223020.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Water Sanitation and Hygiene Committee (WaSHCO)/Water User group members trained</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="23415.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">School children benefiting from nutrition friendly schools (combining school garden, school meal, nutrition clubs)</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="235668.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Health and agricultural professionals trained on Nutrition Assessment, Counselling and Support (NACS) to improve antenatal care and growth monitoring</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="2997.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Target kebeles (lowest administration unit and consists of several villages) implementing Community Lab Led nutrition initiatives</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="300.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Irrigation user households - female headed</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="34745.200000000004"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Children 6-59 months who participated in Growth Monitoring Program</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="35.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Pregnant and Lactating Women (PLW) and mothers of children &lt;2 years) who can correctly identify key social and behavior change messages related to stunting reduction</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="40.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Woredas implementing the Unified Nutrition Information System for Ethiopia (UNISE)</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="40.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Community leaders and frontline workers trained in nutrition and Social and Behaviour Change Communication (SBCC) - of which women</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="41305.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Households that have access to safe and clean drinking water</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="45.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Pregnant and Lactating Women (PLW) reached with targeted nutrition messages by frontline workers</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="464360.0"></target>
-     <actual></actual>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -825,9 +448,297 @@
     </title>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
+     <period-end iso-date="2022-12-31"></period-end>
      <target value="53000.0"></target>
-     <actual></actual>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Project Implementation Unit (PIU) set up</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="1.0"></target>
+     <actual value="1.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Pregnant and Lactating Women (PLW) consuming a diverse diet (&gt; 4 food groups)</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="20.0"></target>
+     <actual value="10.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Water Sanitation and Hygiene Committee (WaSHCO)/Water User group members trained - of which women</narrative>
+   </title>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="11707.5"></target>
+     <actual value="10402.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Multi-sector coordination forums supported</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="195.0"></target>
+     <actual value="112.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">School children benefiting from nutrition friendly schools (combining school garden, school meal, nutrition clubs)</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="235668.0"></target>
+     <actual value="116668.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Constructed/rehabilitated community water supply schemes</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="12433.0"></target>
+     <actual value="12268.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Children 6-23 months who consume Animal Sourced Food (ASF) during fasting season</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="20.0"></target>
+     <actual value="13.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Woredas implementing the Unified Nutrition Information System for Ethiopia (UNISE)</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="40.0"></target>
+     <actual value="13.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Irrigation user households</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="170262.0"></target>
+     <actual value="133462.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Target kebeles (lowest administration unit and consists of several villages) implementing Community Lab Led nutrition initiatives</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="300.0"></target>
+     <actual value="15.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Women with backyard gardens of vegetables and fruits</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="193215.0"></target>
+     <actual value="168502.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Women and youth provided with animal food production (ruminants, fishery, poultry) and food processing IGA support</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="180635.0"></target>
+     <actual value="169198.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Children 6-59 months who participated in Growth Monitoring Program</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="35.0"></target>
+     <actual value="17.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Health and agricultural professionals trained on Nutrition Assessment, Counselling and Support (NACS) to improve antenatal care and growth monitoring - of which women</narrative>
+   </title>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="1498.5"></target>
+     <actual value="175.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Project progress reports completed</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="18.0"></target>
+     <actual value="2.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Water Sanitation and Hygiene Committee (WaSHCO)/Water User group members trained</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="23415.0"></target>
+     <actual value="20803.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Pregnant and Lactating Women (PLW) and mothers of children &lt;2 years) who can correctly identify key social and behavior change messages related to stunting reduction</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="40.0"></target>
+     <actual value="21.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Land with improved water management developed or rehabilitated</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Ha</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="22169.0"></target>
+     <actual value="21251.0"></actual>
     </period>
    </indicator>
   </result>
@@ -841,31 +752,15 @@
     </title>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
+     <period-end iso-date="2022-12-31"></period-end>
      <target value="667033.2"></target>
-     <actual></actual>
+     <actual value="228433.0"></actual>
     </period>
    </indicator>
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Pregnant women who attended a minimum of 4 antenatal care visits</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">%</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="70.0"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Community leaders and frontline workers trained in nutrition and Social and Behaviour Change Communication (SBCC)</narrative>
+    <narrative xml:lang="EN">Irrigation user households - female headed</narrative>
    </title>
    <indicator measure="1">
     <title>
@@ -873,9 +768,89 @@
     </title>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
-     <target value="82610.0"></target>
-     <actual></actual>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="34052.0"></target>
+     <actual value="26692.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Pregnant and Lactating Women (PLW) reached with targeted nutrition messages by frontline workers</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="464360.0"></target>
+     <actual value="345801.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Health and agricultural professionals trained on Nutrition Assessment, Counselling and Support (NACS) to improve antenatal care and growth monitoring</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="2997.0"></target>
+     <actual value="350.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Community leaders and frontline workers trained in nutrition and Social and Behaviour Change Communication (SBCC) - of which women</narrative>
+   </title>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="41305.0"></target>
+     <actual value="35714.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Households that have access to safe and clean drinking water</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="45.0"></target>
+     <actual value="38.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">People who participated in Social and Behaviour Change Communication (SBCC) interventions</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="1111722.0"></target>
+     <actual value="380722.0"></actual>
     </period>
    </indicator>
   </result>
@@ -889,9 +864,25 @@
     </title>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
+     <period-end iso-date="2022-12-31"></period-end>
      <target value="84.0"></target>
-     <actual></actual>
+     <actual value="56.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">School children benefiting from nutrition friendly schools (combining school garden, school meal, nutrition clubs) - of which girls</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="117834.0"></target>
+     <actual value="58334.0"></actual>
     </period>
    </indicator>
   </result>
@@ -905,9 +896,57 @@
     </title>
     <period>
      <period-start iso-date="2021-01-01"></period-start>
-     <period-end iso-date="2021-12-31"></period-end>
+     <period-end iso-date="2022-12-31"></period-end>
      <target value="85.0"></target>
-     <actual></actual>
+     <actual value="60.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Pregnant women who attended a minimum of 4 antenatal care visits</narrative>
+   </title>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">%</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="70.0"></target>
+     <actual value="61.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Community leaders and frontline workers trained in nutrition and Social and Behaviour Change Communication (SBCC)</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="82610.0"></target>
+     <actual value="71429.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Schools equipped with school feeding structures/facilities</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2021-01-01"></period-start>
+     <period-end iso-date="2022-12-31"></period-end>
+     <target value="18.0"></target>
+     <actual value="9.0"></actual>
     </period>
    </indicator>
   </result>
