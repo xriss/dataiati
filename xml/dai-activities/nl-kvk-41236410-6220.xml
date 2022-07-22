@@ -2,7 +2,7 @@
 <iati-activities version="2.03">
  <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41236410-6220</iati-identifier>
-  <reporting-org ref="NL-KVK-41236410" type="21">
+  <reporting-org ref="NL-KVK-41236410" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Dorcas Aid International</narrative>
   </reporting-org>
   <title>
@@ -11,6 +11,12 @@
   <description type="1">
    <narrative xml:lang="EN">Dutch Relief Alliance - Syria Joint Response 2021  will continue implementing life-saving activities in Syria</narrative>
   </description>
+  <participating-org ref="NL-KVK-41236410" role="2" type="21">
+   <narrative xml:lang="EN">Dorcas Aid International</narrative>
+  </participating-org>
+  <participating-org role="4" type="22">
+   <narrative xml:lang="EN">Dorcas Field Office Syria</narrative>
+  </participating-org>
   <participating-org activity-id="NL-KVK-41009723-SJR2021" crs-channel-code="52000" ref="NL-KVK-41009723" role="1" type="21">
    <narrative xml:lang="EN">ZOA</narrative>
   </participating-org>
@@ -39,13 +45,13 @@
   </contact-info>
   <activity-scope code="1"></activity-scope>
   <recipient-country code="SY" percentage="100"></recipient-country>
-  <sector code="FSL" percentage="42" vocabulary="99" vocabulary-uri="https://dutchrelief.org/">
-   <narrative xml:lang="EN">Food security Livelihood</narrative>
+  <sector code="72040 - EMERGENCY FOOD AID (FREE DISTRIBUTION/FEEDING PROGRAMMES)" percentage="42" vocabulary="99" vocabulary-uri="https://dutchrelief.org/">
+   <narrative xml:lang="EN">Food security</narrative>
   </sector>
-  <sector code="HEALTH" percentage="29" vocabulary="99" vocabulary-uri="https://dutchrelief.org/">
+  <sector code="72010 - MATERIAL RELIEF ASSISTANCE AND SERVICES (EMERGENCY SHELTER/NFI, WASH, HEALTH, ANYTHING OTHER THAN FOOD ASSISTANCE)" percentage="29" vocabulary="99" vocabulary-uri="https://dutchrelief.org/">
    <narrative xml:lang="EN">Health</narrative>
   </sector>
-  <sector code="PROTECTION" percentage="29" vocabulary="99" vocabulary-uri="https://dutchrelief.org/">
+  <sector code="72050 - RELIEF CO-ORDINATION; PROTECTION AND SUPPORT SERVICES (COORDINATION OF THE DELIVERY OF HUMANITARIAN AID; THIS CODE CAN BE USED FOR LEAD AGENCY COORDINATION BUDGET)" percentage="29" vocabulary="99" vocabulary-uri="https://dutchrelief.org/">
    <narrative xml:lang="EN">Protection</narrative>
   </sector>
   <policy-marker code="GENDER AND EQUALITY" significance="0" vocabulary="99" vocabulary-uri="https://dutchrelief.org/"></policy-marker>
@@ -58,6 +64,11 @@
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="EUR" value-date="2021-01-01">919502</value>
+  </budget>
+  <budget status="2" type="1">
+   <period-start iso-date="2021-01-01"></period-start>
+   <period-end iso-date="2021-12-31"></period-end>
+   <value currency="EUR" value-date="2021-01-01">942737</value>
   </budget>
   <transaction humanitarian="1" ref="first installment ZOA">
    <transaction-type code="1"></transaction-type>
@@ -119,11 +130,11 @@
       <dimension name="male 18+" value="2465"></dimension>
       <dimension name="male under 18" value="1752"></dimension>
      </target>
-     <actual value="5995">
-      <dimension name="female 18+" value="1352"></dimension>
-      <dimension name="female under 18" value="1859"></dimension>
-      <dimension name="male 18+" value="1168"></dimension>
-      <dimension name="male under 18" value="1616"></dimension>
+     <actual value="24150">
+      <dimension name="female 18+" value="7380"></dimension>
+      <dimension name="female under 18" value="5676"></dimension>
+      <dimension name="male 18+" value="6182"></dimension>
+      <dimension name="male under 18" value="4912"></dimension>
      </actual>
     </period>
    </indicator>
@@ -142,9 +153,9 @@
       <dimension name="female 18+" value="30"></dimension>
       <dimension name="male 18+" value="30"></dimension>
      </target>
-     <actual value="10">
-      <dimension name="female 18+" value="2"></dimension>
-      <dimension name="male 18+" value="8"></dimension>
+     <actual value="72">
+      <dimension name="female 18+" value="30"></dimension>
+      <dimension name="male 18+" value="42"></dimension>
      </actual>
     </period>
    </indicator>
@@ -166,7 +177,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="47"></target>
-     <actual value="15"></actual>
+     <actual value="49"></actual>
     </period>
    </indicator>
    <indicator measure="2">
@@ -182,6 +193,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="3"></target>
+     <actual value="2"></actual>
     </period>
    </indicator>
    <indicator measure="1">
@@ -196,6 +208,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="7"></target>
+     <actual value="12"></actual>
     </period>
    </indicator>
   </result>
@@ -220,11 +233,11 @@
       <dimension name="male 18+" value="25"></dimension>
       <dimension name="male under 18" value="25"></dimension>
      </target>
-     <actual value="65">
-      <dimension name="female 18+" value="22"></dimension>
-      <dimension name="female under 18" value="12"></dimension>
-      <dimension name="male 18+" value="23"></dimension>
-      <dimension name="male under 18" value="8"></dimension>
+     <actual value="1000">
+      <dimension name="female 18+" value="323"></dimension>
+      <dimension name="female under 18" value="263"></dimension>
+      <dimension name="male 18+" value="208"></dimension>
+      <dimension name="male under 18" value="206"></dimension>
      </actual>
     </period>
    </indicator>
@@ -245,7 +258,7 @@
      <period-start iso-date="2021-01-01"></period-start>
      <period-end iso-date="2021-12-31"></period-end>
      <target value="5"></target>
-     <actual value="3"></actual>
+     <actual value="8"></actual>
     </period>
    </indicator>
    <indicator measure="1">
@@ -265,11 +278,11 @@
       <dimension name="male 18+" value="14130"></dimension>
       <dimension name="male under 18" value="12270"></dimension>
      </target>
-     <actual value="17959">
-      <dimension name="female 18+" value="8050"></dimension>
-      <dimension name="female under 18" value="2332"></dimension>
-      <dimension name="male 18+" value="5056"></dimension>
-      <dimension name="male under 18" value="2521"></dimension>
+     <actual value="51754">
+      <dimension name="female 18+" value="20368"></dimension>
+      <dimension name="female under 18" value="14494"></dimension>
+      <dimension name="male 18+" value="8682"></dimension>
+      <dimension name="male under 18" value="8210"></dimension>
      </actual>
     </period>
    </indicator>
@@ -293,9 +306,9 @@
       <dimension name="female under 18" value="250"></dimension>
       <dimension name="male under 18" value="250"></dimension>
      </target>
-     <actual value="180">
-      <dimension name="female under 18" value="96"></dimension>
-      <dimension name="male under 18" value="84"></dimension>
+     <actual value="542">
+      <dimension name="female under 18" value="263"></dimension>
+      <dimension name="male under 18" value="279"></dimension>
      </actual>
     </period>
    </indicator>
@@ -314,9 +327,9 @@
       <dimension name="female 18+" value="15"></dimension>
       <dimension name="male 18+" value="15"></dimension>
      </target>
-     <actual value="32">
-      <dimension name="female 18+" value="19"></dimension>
-      <dimension name="male 18+" value="13"></dimension>
+     <actual value="35">
+      <dimension name="female 18+" value="23"></dimension>
+      <dimension name="male 18+" value="12"></dimension>
      </actual>
     </period>
    </indicator>
@@ -334,8 +347,8 @@
      <target value="500">
       <dimension name="female 18+" value="500"></dimension>
      </target>
-     <actual value="500">
-      <dimension name="female 18+" value="500"></dimension>
+     <actual value="541">
+      <dimension name="female 18+" value="541"></dimension>
      </actual>
     </period>
    </indicator>
@@ -356,11 +369,11 @@
       <dimension name="male 18+" value="460"></dimension>
       <dimension name="male under 18" value="30"></dimension>
      </target>
-     <actual value="1400">
-      <dimension name="female 18+" value="956"></dimension>
-      <dimension name="female under 18" value="30"></dimension>
-      <dimension name="male 18+" value="389"></dimension>
-      <dimension name="male under 18" value="25"></dimension>
+     <actual value="3259">
+      <dimension name="female 18+" value="1859"></dimension>
+      <dimension name="female under 18" value="158"></dimension>
+      <dimension name="male 18+" value="1108"></dimension>
+      <dimension name="male under 18" value="134"></dimension>
      </actual>
     </period>
    </indicator>
@@ -381,8 +394,11 @@
       <dimension name="male 18+" value="10"></dimension>
       <dimension name="male under 18" value="10"></dimension>
      </target>
-     <actual value="38">
-      <dimension name="female 18+" value="38"></dimension>
+     <actual value="384">
+      <dimension name="female 18+" value="256"></dimension>
+      <dimension name="female under 18" value="50"></dimension>
+      <dimension name="male 18+" value="10"></dimension>
+      <dimension name="male under 18" value="68"></dimension>
      </actual>
     </period>
    </indicator>

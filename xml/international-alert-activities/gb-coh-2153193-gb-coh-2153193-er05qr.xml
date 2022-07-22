@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="GBP" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="GBP" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>GB-COH-2153193-GB-COH-2153193-ER05QR</iati-identifier>
-  <reporting-org ref="GB-COH-2153193" type="21">
+  <reporting-org ref="GB-COH-2153193" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">International Alert</narrative>
   </reporting-org>
   <title>
@@ -20,7 +20,7 @@
   <participating-org ref="GB-COH-2153193" role="4" type="21">
    <narrative xml:lang="EN">International Alert</narrative>
   </participating-org>
-  <activity-status code="3"></activity-status>
+  <activity-status code="4"></activity-status>
   <activity-date iso-date="2017-08-15" type="1"></activity-date>
   <activity-date iso-date="2017-08-15" type="2"></activity-date>
   <activity-date iso-date="2018-08-14" type="3"></activity-date>
@@ -30,13 +30,13 @@
     <narrative xml:lang="EN">info@international-alert.org</narrative>
    </organisation>
    <person-name>
-    <narrative xml:lang="EN">Marie Weiller</narrative>
+    <narrative xml:lang="EN">Liz Dobson</narrative>
    </person-name>
    <job-title>
-    <narrative xml:lang="EN">Monitoring, evaluation and learning coordinator</narrative>
+    <narrative xml:lang="EN">Director of Resource Management</narrative>
    </job-title>
-   <telephone>+44(0)2076276800</telephone>
-   <email>mweiller@international-alert.org</email>
+   <telephone>+44(0)2076276836</telephone>
+   <email>ldobson@international-alert.org</email>
    <website>http://www.international-alert.org/</website>
   </contact-info>
   <activity-scope code="4"></activity-scope>
@@ -44,15 +44,15 @@
   <sector code="15220" percentage="100" vocabulary="1"></sector>
   <policy-marker code="3" significance="1" vocabulary="1"></policy-marker>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <budget type="1">
+  <budget status="1" type="1">
    <period-start iso-date="2017-08-15"></period-start>
    <period-end iso-date="2017-12-31"></period-end>
-   <value currency="GBP" value-date="2017-08-15">26303.63</value>
+   <value currency="GBP" value-date="2017-08-15">26303</value>
   </budget>
-  <budget type="1">
+  <budget status="1" type="1">
    <period-start iso-date="2018-01-01"></period-start>
    <period-end iso-date="2018-12-31"></period-end>
-   <value currency="GBP" value-date="2018-01-01">79299.03</value>
+   <value currency="GBP" value-date="2018-01-01">79299</value>
   </budget>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -62,6 +62,9 @@
     <narrative xml:lang="EN">1C</narrative>
    </description>
    <provider-org ref="XM-DAC-41114"></provider-org>
+   <receiver-org receiver-activity-id="GB-COH-2153193-ER05QR" ref="GB-COH-2153193" type="21">
+    <narrative xml:lang="EN">1C</narrative>
+   </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
@@ -70,7 +73,9 @@
    <description>
     <narrative xml:lang="EN">3E Q02</narrative>
    </description>
-   <provider-org provider-activity-id="GB-COH-2153193-ER05QR" ref="GB-COH-2153193"></provider-org>
+   <provider-org provider-activity-id="GB-COH-2153193-ER05QR" ref="GB-COH-2170221" type="21">
+    <narrative xml:lang="EN">3E Q02</narrative>
+   </provider-org>
   </transaction>
  </iati-activity>
 </iati-activities>
