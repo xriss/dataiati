@@ -60,11 +60,25 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="2" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="EUR" value-date="2022-01-01">918595</value>
+   <value currency="EUR" value-date="2022-01-01">972788</value>
   </budget>
+  <transaction humanitarian="1">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2022-07-14"></transaction-date>
+   <value currency="EUR" value-date="2022-07-01">145907</value>
+   <description>
+    <narrative xml:lang="EN">Amendment to Grant Agreement Stichting Vluchteling and Intersos Onlus for AFJR 2022-2023</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-41149486-AFG-22.1-DRA" ref="NL-KVK-41149486" type="21">
+    <narrative xml:lang="EN">Stichting Vluchteling</narrative>
+   </provider-org>
+   <receiver-org ref="IT-CF-97091470589" type="21">
+    <narrative xml:lang="EN">INTERSOS Onlus</narrative>
+   </receiver-org>
+  </transaction>
   <transaction humanitarian="1">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2022-04-19"></transaction-date>
@@ -108,11 +122,39 @@
    </receiver-org>
   </transaction>
   <transaction humanitarian="1">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2022-07-15"></transaction-date>
+   <value currency="EUR" value-date="2022-07-01">54193</value>
+   <description>
+    <narrative xml:lang="EN">Second tranche of Incoming Commitment for the implementation of AFJR in 2022</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-41160054-201133" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41149486-AFG-22.1-DRA" ref="NL-KVK-41149486" type="21">
+    <narrative xml:lang="EN">Stichting Vluchteling</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2022-03-15"></transaction-date>
    <value currency="EUR" value-date="2022-01-01">1859233</value>
    <description>
     <narrative xml:lang="EN">Sub-Grant Agreement from Cordaid to Stichting Vluchteling for the AFJR 2022-2023</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-41160054-201133" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41149486-AFG-22.1-DRA" ref="NL-KVK-41149486" type="21">
+    <narrative xml:lang="EN">Stichting Vluchteling</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2022-05-25"></transaction-date>
+   <value currency="EUR" value-date="2022-05-25">147151</value>
+   <description>
+    <narrative xml:lang="EN">Subgrant Agreement Amendment 1 for AFJR 2022-2023, related to the approved top-up funding</narrative>
    </description>
    <provider-org provider-activity-id="NL-KVK-41160054-201133" ref="NL-KVK-41160054" type="21">
     <narrative xml:lang="EN">Cordaid</narrative>
@@ -135,14 +177,87 @@
     <narrative xml:lang="EN">INTERSOS Onlus</narrative>
    </receiver-org>
   </transaction>
+  <transaction humanitarian="1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2022-07-18"></transaction-date>
+   <value currency="EUR" value-date="2022-07-01">53694</value>
+   <description>
+    <narrative xml:lang="EN">third tranche for implementation of the AFJR 2022-2023 in 2022</narrative>
+   </description>
+   <provider-org provider-activity-id="NL-KVK-41149486-AFG-22.1-DRA" ref="NL-KVK-41149486" type="21">
+    <narrative xml:lang="EN">Stichting Vluchteling</narrative>
+   </provider-org>
+   <receiver-org ref="IT-CF-97091470589" type="21">
+    <narrative xml:lang="EN">INTERSOS Onlus</narrative>
+   </receiver-org>
+  </transaction>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">CSH-R1: number of people benefitting from unconditional and unrestricted cash</narrative>
+   </title>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">number of people benefitting from unconditional and unrestricted cash</narrative>
+    </title>
+    <reference code="CSH-I1" indicator-uri="https://vluchteling.nl" vocabulary="99"></reference>
+    <baseline iso-date="2022-01-01" value="0" year="2022"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="249">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="0">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="623">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="0">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="249">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="622">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="0">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">HEA-R6: number of hospitalisations</narrative>
    </title>
-   <reference code="HEA-I6" vocabulary="99" vocabulary-uri="https://vluchteling.nl"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">HEA-R6: number of hospitalisations</narrative>
+     <narrative xml:lang="EN">number of hospitalisations</narrative>
     </title>
     <reference code="HEA-I6" indicator-uri="https://vluchteling.nl" vocabulary="99"></reference>
     <baseline iso-date="2022-01-01" year="2022"></baseline>
@@ -153,6 +268,10 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
+     <actual value="0">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
     </period>
     <period>
      <period-start iso-date="2022-01-01"></period-start>
@@ -161,6 +280,10 @@
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
+     <actual value="0">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -168,10 +291,9 @@
    <title>
     <narrative xml:lang="EN">HEA-R8: number of SGBV victims receiving assistance in less than 72 hours</narrative>
    </title>
-   <reference code="HEA-I8" vocabulary="99" vocabulary-uri="https://vluchteling.nl"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">HEA-R8: number of SGBV victims receiving assistance in less than 72 hours</narrative>
+     <narrative xml:lang="EN">number of SGBV victims receiving assistance in less than 72 hours</narrative>
     </title>
     <reference code="HEA-I8" indicator-uri="https://vluchteling.nl" vocabulary="99"></reference>
     <baseline iso-date="2022-01-01" year="2022"></baseline>
@@ -182,6 +304,10 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
+     <actual value="0">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
     </period>
     <period>
      <period-start iso-date="2022-01-01"></period-start>
@@ -190,6 +316,10 @@
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
+     <actual value="0">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -197,10 +327,9 @@
    <title>
     <narrative xml:lang="EN">ACC-R1: number of crisis-affected people who are also involved in the design, implementation, monitoring and/or evaluation of the programme</narrative>
    </title>
-   <reference code="ACC-I1" vocabulary="99" vocabulary-uri="https://vluchteling.nl"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">ACC-R1: number of crisis-affected people who are also involved in the design, implementation, monitoring and/or evaluation of the programme</narrative>
+     <narrative xml:lang="EN">number of crisis-affected people who are also involved in the design, implementation, monitoring and/or evaluation of the programme</narrative>
     </title>
     <reference code="ACC-I1" indicator-uri="https://vluchteling.nl" vocabulary="99"></reference>
     <baseline iso-date="2022-01-01" year="2022"></baseline>
@@ -211,6 +340,10 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
+     <actual value="0">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
     </period>
     <period>
      <period-start iso-date="2022-01-01"></period-start>
@@ -219,6 +352,10 @@
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
+     <actual value="0">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
     </period>
     <period>
      <period-start iso-date="2022-01-01"></period-start>
@@ -227,6 +364,10 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="male"></dimension>
      </target>
+     <actual value="0">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -234,10 +375,9 @@
    <title>
     <narrative xml:lang="EN">HEA-R3: number of live births attended by skilled health personnel</narrative>
    </title>
-   <reference code="HEA-I3" vocabulary="99" vocabulary-uri="https://vluchteling.nl"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">HEA-R3: number of live births attended by skilled health personnel</narrative>
+     <narrative xml:lang="EN">Number of live births attended by skilled health personnel</narrative>
     </title>
     <reference code="HEA-I3" indicator-uri="https://vluchteling.nl" vocabulary="99"></reference>
     <baseline iso-date="2022-01-01" year="2022"></baseline>
@@ -248,6 +388,10 @@
       <dimension name="age" value="18+"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
+     <actual value="0">
+      <dimension name="age" value="18+"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
     </period>
     <period>
      <period-start iso-date="2022-01-01"></period-start>
@@ -256,6 +400,10 @@
       <dimension name="age" value="under 18"></dimension>
       <dimension name="sex" value="female"></dimension>
      </target>
+     <actual value="0">
+      <dimension name="age" value="under 18"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -263,10 +411,9 @@
    <title>
     <narrative xml:lang="EN">ACC-R2: number of adaptations in the design and/or implementation of the JR, as a result of the input from beneficiaries.</narrative>
    </title>
-   <reference code="ACC-I2" vocabulary="99" vocabulary-uri="https://vluchteling.nl"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">ACC-R2: number of adaptations in the design and/or implementation of the JR, as a result of the input from beneficiaries.</narrative>
+     <narrative xml:lang="EN">number of adaptations in the design and/or implementation of the JR, as a result of the input from beneficiaries.</narrative>
     </title>
     <reference code="ACC-I2" indicator-uri="https://vluchteling.nl" vocabulary="99"></reference>
     <baseline iso-date="2022-01-01" year="2022"></baseline>
@@ -274,6 +421,7 @@
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="2"></target>
+     <actual value="0"></actual>
     </period>
    </indicator>
   </result>
@@ -281,10 +429,9 @@
    <title>
     <narrative xml:lang="EN">HEA-R1: number of health facilities rehabilitated</narrative>
    </title>
-   <reference code="HEA-I1" vocabulary="99" vocabulary-uri="https://vluchteling.nl"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">HEA-R1: number of health facilities rehabilitated</narrative>
+     <narrative xml:lang="EN">number of health facilities rehabilitated</narrative>
     </title>
     <reference code="HEA-I1" indicator-uri="https://vluchteling.nl" vocabulary="99"></reference>
     <baseline iso-date="2022-01-01" year="2022"></baseline>
@@ -292,6 +439,7 @@
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="2"></target>
+     <actual value="0"></actual>
     </period>
    </indicator>
   </result>
@@ -299,10 +447,9 @@
    <title>
     <narrative xml:lang="EN">HEA-R4: number of outbreak alerts responded to</narrative>
    </title>
-   <reference code="HEA-I4" vocabulary="99" vocabulary-uri="https://vluchteling.nl"></reference>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN">HEA-R4: number of outbreak alerts responded to</narrative>
+     <narrative xml:lang="EN">number of outbreak alerts responded to</narrative>
     </title>
     <reference code="HEA-I4" indicator-uri="https://vluchteling.nl" vocabulary="99"></reference>
     <baseline iso-date="2022-01-01" year="2022"></baseline>
@@ -310,6 +457,7 @@
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="90"></target>
+     <actual value="0"></actual>
     </period>
    </indicator>
   </result>
