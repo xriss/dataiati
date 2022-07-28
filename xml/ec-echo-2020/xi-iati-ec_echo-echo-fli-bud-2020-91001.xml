@@ -51,20 +51,20 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="2" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2020-01-01"></period-start>
    <period-end iso-date="2020-03-31"></period-end>
-   <value currency="EUR" value-date="2020-02-17">11840000</value>
+   <value currency="EUR" value-date="2020-02-17">15040000</value>
   </budget>
-  <budget status="2" type="1">
+  <budget status="2" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="EUR" value-date="2020-02-17">0</value>
   </budget>
-  <budget status="2" type="1">
-   <period-start iso-date="2022-10-01"></period-start>
-   <period-end iso-date="2022-12-31"></period-end>
-   <value currency="EUR" value-date="2020-02-17">2960000</value>
+  <budget status="2" type="2">
+   <period-start iso-date="2023-01-01"></period-start>
+   <period-end iso-date="2023-03-31"></period-end>
+   <value currency="EUR" value-date="2020-02-17">3760000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -77,7 +77,7 @@
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2020-02-17"></transaction-date>
-   <value currency="EUR" value-date="2020-02-17">14800000</value>
+   <value currency="EUR" value-date="2020-02-17">4000000</value>
    <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/FLI/BUD/2020/91001" ref="XI-IATI-EC_ECHO" type="15"></provider-org>
    <receiver-org>
     <narrative xml:lang="EN">WORLD FOOD PROGRAM</narrative>
@@ -91,6 +91,13 @@
    <receiver-org>
     <narrative xml:lang="EN">WORLD FOOD PROGRAM</narrative>
    </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2020-02-17"></transaction-date>
+   <value currency="EUR" value-date="2020-02-17">4000000</value>
+   <provider-org provider-activity-id="XI-IATI-EC_ECHO-ECHO/TLO/BUD/2022/91000" ref="XI-IATI-EC_ECHO" type="15"></provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-EC_ECHO-ECHO/FLI/BUD/2020/91001" ref="XI-IATI-EC_ECHO"></receiver-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://ec.europa.eu/echo/files/funding/hip2020/echo_fli_bud_2020_91000_v2.pdf">
    <title>
@@ -125,6 +132,7 @@
    <language code="EN"></language>
   </document-link>
   <related-activity ref="XI-IATI-EC_ECHO-ECHO/FLI/BUD/2020/91000" type="2"></related-activity>
+  <related-activity ref="XI-IATI-EC_ECHO-ECHO/TLO/BUD/2022/91000" type="2"></related-activity>
   <conditions attached="1">
    <condition type="2">
     <narrative xml:lang="EN">see tender document and condition document (A04 and A10 document category)</narrative>
