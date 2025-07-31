@@ -182,52 +182,52 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-03-31"></period-end>
    <value currency="USD" value-date="2021-03-31">887738.5</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2021-04-01"></period-start>
    <period-end iso-date="2021-06-30"></period-end>
    <value currency="USD" value-date="2021-06-30">887738.5</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2021-07-01"></period-start>
    <period-end iso-date="2021-09-30"></period-end>
    <value currency="USD" value-date="2021-09-30">887738.5</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2025-03-31">3550954</value>
+   <value currency="USD" value-date="2025-06-30">3550954</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2021-10-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
    <value currency="USD" value-date="2021-12-31">887738.5</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-03-31"></period-end>
    <value currency="USD" value-date="2022-03-31">25000</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2022-04-01"></period-start>
    <period-end iso-date="2022-06-30"></period-end>
    <value currency="USD" value-date="2022-06-30">25000</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2022-07-01"></period-start>
    <period-end iso-date="2022-09-30"></period-end>
    <value currency="USD" value-date="2022-09-30">25000</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2025-03-31">100000</value>
+   <value currency="USD" value-date="2025-06-30">100000</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2022-10-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
    <value currency="USD" value-date="2022-12-31">25000</value>
@@ -235,7 +235,7 @@
   <planned-disbursement type="2">
    <period-start iso-date="2021-01-01"></period-start>
    <period-end iso-date="2021-12-31"></period-end>
-   <value currency="USD" value-date="2025-03-31">3550954</value>
+   <value currency="USD" value-date="2025-06-30">3550954</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -246,7 +246,7 @@
   <planned-disbursement type="2">
    <period-start iso-date="2022-01-01"></period-start>
    <period-end iso-date="2022-12-31"></period-end>
-   <value currency="USD" value-date="2025-03-31">100000</value>
+   <value currency="USD" value-date="2025-06-30">100000</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -422,8 +422,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2025-03-31"></transaction-date>
-   <value currency="USD" value-date="2025-01-01">6</value>
+   <transaction-date iso-date="2025-06-30"></transaction-date>
+   <value currency="USD" value-date="2025-01-01">-6</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -482,8 +482,8 @@
   </transaction>
   <transaction humanitarian="1" ref="Incoming Funds">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2025-03-31"></transaction-date>
-   <value currency="USD" value-date="2025-01-01">6</value>
+   <transaction-date iso-date="2025-06-30"></transaction-date>
+   <value currency="USD" value-date="2025-01-01">-6</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -1710,6 +1710,21 @@
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
+  <transaction humanitarian="1" ref="Expense">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2025-06-30"></transaction-date>
+   <value currency="USD" value-date="2025-06-30">-1</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
   <document-link format="APPLICATION/PDF" url="https://open.unicef.org/sites/transparency/files/documents/2017%20Egypt%20PSN%20OC2%20TOC.pdf">
    <title>
     <narrative xml:lang="EN">Egypt Programme Strategy Note Theory of Change (Child Survival and Development)</narrative>
@@ -1861,7 +1876,7 @@
    <category code="A04"></category>
    <category code="A05"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-03-31"></document-date>
+   <document-date iso-date="2025-06-30"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/ContractAward?agencyEnglishAbbreviation=UNICEF">
    <title>
@@ -1879,13 +1894,13 @@
    <language code="EN"></language>
    <document-date iso-date="2021-11-03"></document-date>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.unicef.org/reports/country-regional-divisional-annual-reports-2023/Egypt">
+  <document-link format="APPLICATION/PDF" url="https://open.unicef.org/download-pdf?country-name=Egypt&amp;year=2024">
    <title>
-    <narrative xml:lang="EN">Egypt 2023 Annual Report on Results for Children</narrative>
+    <narrative xml:lang="EN">Egypt 2024 Annual Report on Results for Children</narrative>
    </title>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2024-02-16"></document-date>
+   <document-date iso-date="2025-03-01"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/partnerships">
    <title>
@@ -1925,7 +1940,7 @@
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-03-31"></document-date>
+   <document-date iso-date="2025-06-30"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/contract-awards">
    <title>
@@ -1941,7 +1956,7 @@
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-03-31"></document-date>
+   <document-date iso-date="2025-06-30"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://open.unicef.org/sites/transparency/files/documents/4500A005882006000.pdf">
    <title>
@@ -1950,7 +1965,7 @@
    <category code="A08"></category>
    <category code="A12"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-03-31"></document-date>
+   <document-date iso-date="2025-06-30"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unicef.org/egypt/">
    <title>
@@ -1968,7 +1983,7 @@
   </conditions>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">New Element</narrative>
+    <narrative xml:lang="EN">UNICEF&amp;rsquo;s continued providing technical;and financial support to the national response to Covid-19 pandemic. The National Deployment and Vaccination plan has been revised and updated by the MOHP and partners in July 2022 expendin;targeting; to 72 M;people over 12 years of age. UNICEF continued advocating for COVID-19 vaccination, strengthening the cold chain, procurement and coordination of 85;M Covid-19 vaccines and 25 m Auto disables Syringes, 250,000 safety boxes, upgrade of;1395 vaccination sites, procurement of;63,000 PPEs, and training of about 750 health providers and 197 Community Health Workers on;to;contribute;to the vaccination of;39 M;fully immunized people and reaching; 39% of national vaccination coverage.</narrative>
    </title>
    <description>
     <narrative xml:lang="EN">| Status:Met | As-of Date:03/01/2023</narrative>
@@ -1989,7 +2004,7 @@
     <period>
      <period-start iso-date="2017-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
-     <target value="2022:1">
+     <target value="2022:0">
       <location></location>
       <dimension></dimension>
       <comment>

@@ -111,27 +111,27 @@ enabler</narrative>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2025-01-01"></period-start>
    <period-end iso-date="2025-03-31"></period-end>
    <value currency="USD" value-date="2025-03-31">1</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2025-04-01"></period-start>
    <period-end iso-date="2025-06-30"></period-end>
    <value currency="USD" value-date="2025-06-30">1</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2025-07-01"></period-start>
    <period-end iso-date="2025-09-30"></period-end>
    <value currency="USD" value-date="2025-09-30">1</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2025-01-01"></period-start>
    <period-end iso-date="2025-12-31"></period-end>
-   <value currency="USD" value-date="2025-03-31">1</value>
+   <value currency="USD" value-date="2025-06-30">1</value>
   </budget>
-  <budget type="2">
+  <budget status="1" type="2">
    <period-start iso-date="2025-10-01"></period-start>
    <period-end iso-date="2025-12-31"></period-end>
    <value currency="USD" value-date="2025-12-31">1</value>
@@ -139,7 +139,7 @@ enabler</narrative>
   <planned-disbursement type="2">
    <period-start iso-date="2025-01-01"></period-start>
    <period-end iso-date="2025-12-31"></period-end>
-   <value currency="USD" value-date="2025-03-31">1</value>
+   <value currency="USD" value-date="2025-06-30">1</value>
    <provider-org>
     <narrative xml:lang="EN"></narrative>
    </provider-org>
@@ -150,8 +150,8 @@ enabler</narrative>
   <capital-spend percentage="0"></capital-spend>
   <transaction humanitarian="0" ref="Commitment">
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2025-03-31"></transaction-date>
-   <value currency="USD" value-date="2025-03-31">0</value>
+   <transaction-date iso-date="2025-06-30"></transaction-date>
+   <value currency="USD" value-date="2025-06-30">0</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -165,8 +165,8 @@ enabler</narrative>
   </transaction>
   <transaction humanitarian="0" ref="Disbursement">
    <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2025-03-31"></transaction-date>
-   <value currency="USD" value-date="2025-03-31">0</value>
+   <transaction-date iso-date="2025-06-30"></transaction-date>
+   <value currency="USD" value-date="2025-06-30">0</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -208,21 +208,6 @@ enabler</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
-  <transaction humanitarian="0" ref="Incoming Funds">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2025-03-31"></transaction-date>
-   <value currency="USD" value-date="2025-03-31">0</value>
-   <description>
-    <narrative xml:lang="EN"></narrative>
-   </description>
-   <provider-org>
-    <narrative xml:lang="EN"></narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN"></narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
   <transaction humanitarian="0" ref="Expense">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2025-03-31"></transaction-date>
@@ -242,6 +227,21 @@ enabler</narrative>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2025-04-30"></transaction-date>
    <value currency="USD" value-date="2025-04-30">21301</value>
+   <description>
+    <narrative xml:lang="EN"></narrative>
+   </description>
+   <provider-org>
+    <narrative xml:lang="EN"></narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN"></narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction humanitarian="0" ref="Incoming Funds">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2025-06-30"></transaction-date>
+   <value currency="USD" value-date="2025-06-30">0</value>
    <description>
     <narrative xml:lang="EN"></narrative>
    </description>
@@ -332,7 +332,7 @@ enabler</narrative>
    <category code="A04"></category>
    <category code="A05"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-03-31"></document-date>
+   <document-date iso-date="2025-06-30"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.ungm.org/Public/ContractAward?agencyEnglishAbbreviation=UNICEF">
    <title>
@@ -396,7 +396,7 @@ enabler</narrative>
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-03-31"></document-date>
+   <document-date iso-date="2025-06-30"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="https://www.unicef.org/supply/contract-awards">
    <title>
@@ -412,7 +412,7 @@ enabler</narrative>
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-03-31"></document-date>
+   <document-date iso-date="2025-06-30"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://open.unicef.org/sites/transparency/files/documents/240RA011800003000.pdf">
    <title>
@@ -421,7 +421,7 @@ enabler</narrative>
    <category code="A08"></category>
    <category code="A12"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-03-31"></document-date>
+   <document-date iso-date="2025-06-30"></document-date>
   </document-link>
   <document-link format="TEXT/HTML" url="http://www.unicef.org/esaro/">
    <title>
@@ -439,7 +439,7 @@ enabler</narrative>
   </conditions>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">RO and CO HR staff have the tools and knowledge needed to effectively fulfil the HR mandate related to the &apos;People and Culture&apos;enabler</narrative>
+    <narrative xml:lang="EN">The HR Team transitioned to People and Culture, aligning with the global strategy. They implemented a wide range of learning and change initiatives, streamlined HR processes and strengthened the HR BP model. The team contributed to the MTR PBR process and promoted culture change through the GSS follow up.</narrative>
    </title>
    <description>
     <narrative xml:lang="EN">| Status:Average Progress | As-of Date:07/02/2025</narrative>
