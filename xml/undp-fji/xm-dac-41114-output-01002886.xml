@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" hierarchy="2" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-01002886</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -17,7 +17,7 @@
   <participating-org ref="000109" role="1" type="10">
    <narrative xml:lang="EN">GOVERNMENT OF FIJI</narrative>
   </participating-org>
-  <participating-org ref="001981" role="4" type="40">
+  <participating-org ref="XM-DAC-41114" role="4" type="40">
    <narrative xml:lang="EN">UNDP</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
@@ -52,9 +52,16 @@
   <sector code="22" percentage="100" vocabulary="99">
    <narrative xml:lang="EN">Leaving no one behind</narrative>
   </sector>
-  <sector code="12191" percentage="100" vocabulary="1"></sector>
+  <sector code="12191" percentage="50" vocabulary="1"></sector>
+  <sector code="13040" percentage="50" vocabulary="1"></sector>
   <sector code="3.3" percentage="100" vocabulary="8"></sector>
   <tag code="3.3" vocabulary="3"></tag>
+  <humanitarian-scope code="Emergency" type="1" vocabulary="1-2">
+   <narrative xml:lang="EN">All types of emergencies that are determined by GLIDE number. These are mostly, if not all, outside of any coordinated appeals or joint response plans</narrative>
+  </humanitarian-scope>
+  <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
+   <narrative xml:lang="EN">Global COVID-19</narrative>
+  </humanitarian-scope>
   <policy-marker code="1" significance="2" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -69,18 +76,18 @@
   <budget status="2" type="2">
    <period-start iso-date="2025-01-01"></period-start>
    <period-end iso-date="2025-12-31"></period-end>
-   <value currency="USD" value-date="2025-06-30">809129</value>
+   <value currency="USD" value-date="2025-07-31">1554284</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2026-01-01"></period-start>
    <period-end iso-date="2026-12-31"></period-end>
-   <value currency="USD" value-date="2025-06-30">768201</value>
+   <value currency="USD" value-date="2025-07-31">23046</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2025-06-30"></transaction-date>
-   <value currency="USD" value-date="2025-06-30">177873</value>
+   <transaction-date iso-date="2025-07-31"></transaction-date>
+   <value currency="USD" value-date="2025-07-31">1008712</value>
    <provider-org ref="AU-5" type="10">
     <narrative xml:lang="EN">Australian DFAT</narrative>
    </provider-org>
@@ -103,8 +110,8 @@
   </transaction>
   <transaction>
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2025-06-30"></transaction-date>
-   <value currency="USD" value-date="2025-06-30">748421</value>
+   <transaction-date iso-date="2025-07-31"></transaction-date>
+   <value currency="USD" value-date="2025-07-31">1501027</value>
    <provider-org ref="000109" type="10">
     <narrative xml:lang="EN">GOVERNMENT OF FIJI</narrative>
    </provider-org>
@@ -178,8 +185,8 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2025-07-21"></transaction-date>
-   <value currency="USD" value-date="2025-07-21">883</value>
+   <transaction-date iso-date="2025-07-31"></transaction-date>
+   <value currency="USD" value-date="2025-07-31">24387</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -187,9 +194,9 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2025-06-30"></transaction-date>
-   <value currency="USD" value-date="2025-06-30">1589765</value>
-   <receiver-org ref="001981" type="40">
+   <transaction-date iso-date="2025-07-31"></transaction-date>
+   <value currency="USD" value-date="2025-07-31">1589765</value>
+   <receiver-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">UNDP</narrative>
    </receiver-org>
    <disbursement-channel code="2"></disbursement-channel>
@@ -227,48 +234,6 @@ Risks: Natural disaster, huge fluctuation in global market increasing shipment.<
      <period-start iso-date="2024-01-01"></period-start>
      <period-end iso-date="2024-12-31"></period-end>
      <target value="90"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator aggregation-status="1" ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of health products delivered to the Fiji MHMS warehouse in 6 months from the time of receiving order and funds from MHMS.</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Method: Quarterly UNDP PSM tracking sheet analysis.
-
-Numerator: Number of health products delivered to the Fiji MHMS warehouse in 6 months from the time of receiving order from MHMS.  
-Denominator: Total number of health products to be delivered to the Fiji MHMS warehouse.
-
-Risks: Natural disaster, huge fluctuation in global market increasing shipment.</narrative>
-    </description>
-    <baseline value="89" year="2024"></baseline>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="90"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator aggregation-status="1" ascending="0" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percentage of health and non- health products procured by UNDP meet international quality standards and passing quality assurance tests.</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Method: Routine cross verification of products to be procured with WHO and GF QA list. 
- 
-Numerator: Number of health and non- health products procured by UNDP meet international quality standards and passing quality assurance tests.
-Denominator: Total Number of health and non- health products procured by UNDP.
-
-Risks: 
-- Major manufactures stop product of health and non- products to be procured. 
-- Health and non- health products requested to be procured not in the quality assured product list.</narrative>
-    </description>
-    <baseline value="90" year="2024"></baseline>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="100"></target>
      <actual value="0"></actual>
     </period>
    </indicator>
