@@ -5,6 +5,8 @@ echo " Build json metadata for these files and finally push the changes into thi
 dirname=$( dirname "$(readlink -f "$0")" )
 cd "$dirname"
 
+# get latest node
+source ./nvm-install
 
 # make sure we are uptodate with git
 
