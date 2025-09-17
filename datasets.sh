@@ -10,6 +10,7 @@ if ! [ -x "$(command -v parallel)" ]; then
 	sudo apt install -y parallel
 fi
 
+rm -rf package*
 rm -rf node_modules
 npm install d-portal
 rm -rf package*

@@ -14,6 +14,7 @@ git pull
 
 # use the d-portal from npm to clear and initalise dataflat
 
+rm -rf package*
 rm -rf node_modules
 npm install d-portal
 rm -rf package*
