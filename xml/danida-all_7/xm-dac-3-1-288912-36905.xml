@@ -115,6 +115,11 @@
    <period-end iso-date="2024-06-30"></period-end>
    <value currency="DKK" value-date="2024-04-01">35000000</value>
   </budget>
+  <budget type="1">
+   <period-start iso-date="2025-07-01"></period-start>
+   <period-end iso-date="2025-09-30"></period-end>
+   <value currency="DKK" value-date="2025-07-01">20000000</value>
+  </budget>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2024-05-27"></transaction-date>
@@ -143,53 +148,21 @@
    <finance-type code="110"></finance-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2025-09-29"></transaction-date>
+   <value currency="DKK" value-date="2025-09-29">20000000</value>
+   <provider-org provider-activity-id="XM-DAC-3-1-288912-36905" ref="XM-DAC-3-1">
+    <narrative xml:lang="EN">Ministry of Foreign Affairs, Denmark</narrative>
+   </provider-org>
+   <receiver-org ref="XM-DAC-44001" xml:lang="EN">
+    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <related-activity ref="XM-DAC-3-1-288912" type="1"></related-activity>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Production of food security crops for targeted smallholder farmers restored</narrative>
-   </title>
-   <reference code="277492" vocabulary="99"></reference>
-   <indicator aggregation-status="0" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">% wheat crop production increase (targeted households) in project intervention areas</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="0.00"></target>
-     <actual></actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="15"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Production of food security crops for targeted smallholder farmers restored</narrative>
-   </title>
-   <reference code="277494" vocabulary="99"></reference>
-   <indicator aggregation-status="0" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Area (Ha) provided with improved irrigation or drainage services</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target></target>
-     <actual></actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="137000"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
   <result type="1">
    <title>
     <narrative xml:lang="EN">Access to learning opportunities for girls and boys and improved learning conditions in project supported schools</narrative>
@@ -203,7 +176,7 @@
      <period-start iso-date="2024-01-01"></period-start>
      <period-end iso-date="2024-12-31"></period-end>
      <target></target>
-     <actual></actual>
+     <actual value="200000+"></actual>
     </period>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
@@ -215,23 +188,69 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Increased utilisation and quality of essential health services</narrative>
+    <narrative xml:lang="EN">Short term livelihood opportunities and urgent essential services delivered in rural and urban areas</narrative>
    </title>
-   <reference code="277487" vocabulary="99"></reference>
+   <reference code="277490" vocabulary="99"></reference>
    <indicator aggregation-status="0" ascending="1" measure="1">
     <title>
-     <narrative xml:lang="EN"># children fully vaccinated</narrative>
+     <narrative xml:lang="EN"># people with improved access to basic services</narrative>
     </title>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
      <period-end iso-date="2024-12-31"></period-end>
      <target></target>
-     <actual></actual>
+     <actual value="3000000"></actual>
     </period>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
-     <target value="1973536"></target>
+     <target value="7400000"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Production of food security crops for targeted smallholder farmers restored</narrative>
+   </title>
+   <reference code="277492" vocabulary="99"></reference>
+   <indicator aggregation-status="0" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">% wheat crop production increase (targeted households) in project intervention areas</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target></target>
+     <actual value="33"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="15"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Access to learning opportunities for girls and boys and improved learning conditions in project supported schools</narrative>
+   </title>
+   <reference code="277489" vocabulary="99"></reference>
+   <indicator aggregation-status="0" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN"># of community based education classes supported</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target></target>
+     <actual value="5000"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="5000"></target>
      <actual></actual>
     </period>
    </indicator>
@@ -249,12 +268,35 @@
      <period-start iso-date="2024-01-01"></period-start>
      <period-end iso-date="2024-12-31"></period-end>
      <target></target>
-     <actual></actual>
+     <actual value="5200000"></actual>
     </period>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
      <target value="22900000"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Production of food security crops for targeted smallholder farmers restored</narrative>
+   </title>
+   <reference code="277494" vocabulary="99"></reference>
+   <indicator aggregation-status="0" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Area (Ha) provided with improved irrigation or drainage services</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target></target>
+     <actual value="523000"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="137000"></target>
      <actual></actual>
     </period>
    </indicator>
@@ -272,12 +314,35 @@
      <period-start iso-date="2024-01-01"></period-start>
      <period-end iso-date="2024-12-31"></period-end>
      <target></target>
-     <actual></actual>
+     <actual value="7400000"></actual>
     </period>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
      <target value="4033138"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Increased utilisation and quality of essential health services</narrative>
+   </title>
+   <reference code="277487" vocabulary="99"></reference>
+   <indicator aggregation-status="0" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN"># children fully vaccinated</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target></target>
+     <actual value="769028"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="1973536"></target>
      <actual></actual>
     </period>
    </indicator>
@@ -301,52 +366,6 @@
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
      <target value="50"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Access to learning opportunities for girls and boys and improved learning conditions in project supported schools</narrative>
-   </title>
-   <reference code="277489" vocabulary="99"></reference>
-   <indicator aggregation-status="0" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN"># of community based education classes supported</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target></target>
-     <actual></actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="5000"></target>
-     <actual></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Short term livelihood opportunities and urgent essential services delivered in rural and urban areas</narrative>
-   </title>
-   <reference code="277490" vocabulary="99"></reference>
-   <indicator aggregation-status="0" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN"># people with improved access to basic services</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target></target>
-     <actual></actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="7400000"></target>
      <actual></actual>
     </period>
    </indicator>
