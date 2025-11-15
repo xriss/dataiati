@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>NL-KVK-41160054-201508</iati-identifier>
   <reporting-org ref="NL-KVK-41160054" secondary-reporter="0" type="21">
    <narrative xml:lang="EN">Cordaid</narrative>
@@ -43,14 +43,48 @@ Build and sustain experience of &#xa0;Coronavirus disease 2019 (COVID-19) Emerge
   <sector code="12230" percentage="20" vocabulary="1"></sector>
   <sector code="12240" percentage="20" vocabulary="1"></sector>
   <sector code="12281" percentage="20" vocabulary="1"></sector>
+  <humanitarian-scope code="Sub national" type="1" vocabulary="2-1">
+   <narrative xml:lang="EN">Health system</narrative>
+  </humanitarian-scope>
+  <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
+  <policy-marker code="10" significance="1" vocabulary="1"></policy-marker>
+  <policy-marker code="9" significance="2" vocabulary="1"></policy-marker>
   <collaboration-type code="1"></collaboration-type>
   <default-flow-type code="30"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget status="1" type="1">
+   <period-start iso-date="2025-07-01"></period-start>
+   <period-end iso-date="2026-06-30"></period-end>
+   <value currency="USD" value-date="2025-07-01">4777976.61</value>
+  </budget>
+  <planned-disbursement type="1">
+   <period-start iso-date="2025-07-01"></period-start>
+   <period-end iso-date="2026-06-30"></period-end>
+   <value currency="EUR" value-date="2025-07-01">4777976.61</value>
+  </planned-disbursement>
+  <transaction humanitarian="1">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2025-09-01"></transaction-date>
+   <value currency="EUR" value-date="2025-09-01">4777976.61</value>
+   <description>
+    <narrative xml:lang="EN">HSTP</narrative>
+   </description>
+   <provider-org provider-activity-id="XM-DAC-41122-CORDAID" ref="XM-DAC-41122" type="40">
+    <narrative xml:lang="EN">UNICEF South Sudan</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="NL-KVK-41160054-HSSP" ref="NL-KVK-41160054" type="21">
+    <narrative xml:lang="EN">Cordaid South Sudan</narrative>
+   </receiver-org>
+  </transaction>
   <related-activity ref="NL-KVK-41160054-201334" type="1"></related-activity>
   <related-activity ref="NL-KVK-41160054-201335" type="1"></related-activity>
   <related-activity ref="NL-KVK-41160054-201409" type="1"></related-activity>
-  <conditions attached="0"></conditions>
+  <conditions attached="1">
+   <condition type="2">
+    <narrative xml:lang="EN">Achievement of 90% performance score card</narrative>
+   </condition>
+  </conditions>
  </iati-activity>
 </iati-activities>
