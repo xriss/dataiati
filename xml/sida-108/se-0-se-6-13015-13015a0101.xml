@@ -310,9 +310,41 @@ Component outcomes
   </planned-disbursement>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2019-12-02"></transaction-date>
+   <value currency="SEK" value-date="2019-12-02">26675414</value>
+   <sector code="160" vocabulary="2"></sector>
+   <sector code="16062" vocabulary="1"></sector>
+   <recipient-country code="ZM"></recipient-country>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2019-12-28"></transaction-date>
+   <value currency="SEK" value-date="2019-12-28">6000000</value>
+   <sector code="160" vocabulary="2"></sector>
+   <sector code="16062" vocabulary="1"></sector>
+   <recipient-country code="ZM"></recipient-country>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2022-03-28"></transaction-date>
+   <value currency="SEK" value-date="2022-03-28">2394768</value>
+   <sector code="160" vocabulary="2"></sector>
+   <sector code="16062" vocabulary="1"></sector>
+   <recipient-country code="ZM"></recipient-country>
+  </transaction>
+  <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2022-05-28"></transaction-date>
    <value currency="SEK" value-date="2022-05-28">1245686</value>
+   <sector code="160" vocabulary="2"></sector>
+   <sector code="16062" vocabulary="1"></sector>
+   <recipient-country code="ZM"></recipient-country>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2022-06-28"></transaction-date>
+   <value currency="SEK" value-date="2022-06-28">0</value>
    <sector code="160" vocabulary="2"></sector>
    <sector code="16062" vocabulary="1"></sector>
    <recipient-country code="ZM"></recipient-country>
@@ -329,6 +361,22 @@ Component outcomes
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2022-12-28"></transaction-date>
    <value currency="SEK" value-date="2022-12-28">1068900</value>
+   <sector code="160" vocabulary="2"></sector>
+   <sector code="16062" vocabulary="1"></sector>
+   <recipient-country code="ZM"></recipient-country>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2023-02-28"></transaction-date>
+   <value currency="SEK" value-date="2023-02-28">2078899</value>
+   <sector code="160" vocabulary="2"></sector>
+   <sector code="16062" vocabulary="1"></sector>
+   <recipient-country code="ZM"></recipient-country>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2023-05-28"></transaction-date>
+   <value currency="SEK" value-date="2023-05-28">1244289</value>
    <sector code="160" vocabulary="2"></sector>
    <sector code="16062" vocabulary="1"></sector>
    <recipient-country code="ZM"></recipient-country>
@@ -365,54 +413,6 @@ Component outcomes
    <sector code="16062" vocabulary="1"></sector>
    <recipient-country code="ZM"></recipient-country>
   </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2019-12-02"></transaction-date>
-   <value currency="SEK" value-date="2019-12-02">26675414</value>
-   <sector code="160" vocabulary="2"></sector>
-   <sector code="16062" vocabulary="1"></sector>
-   <recipient-country code="ZM"></recipient-country>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2019-12-28"></transaction-date>
-   <value currency="SEK" value-date="2019-12-28">6000000</value>
-   <sector code="160" vocabulary="2"></sector>
-   <sector code="16062" vocabulary="1"></sector>
-   <recipient-country code="ZM"></recipient-country>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2022-03-28"></transaction-date>
-   <value currency="SEK" value-date="2022-03-28">2394768</value>
-   <sector code="160" vocabulary="2"></sector>
-   <sector code="16062" vocabulary="1"></sector>
-   <recipient-country code="ZM"></recipient-country>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2022-06-28"></transaction-date>
-   <value currency="SEK" value-date="2022-06-28">0</value>
-   <sector code="160" vocabulary="2"></sector>
-   <sector code="16062" vocabulary="1"></sector>
-   <recipient-country code="ZM"></recipient-country>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2023-02-28"></transaction-date>
-   <value currency="SEK" value-date="2023-02-28">2078899</value>
-   <sector code="160" vocabulary="2"></sector>
-   <sector code="16062" vocabulary="1"></sector>
-   <recipient-country code="ZM"></recipient-country>
-  </transaction>
-  <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2023-05-28"></transaction-date>
-   <value currency="SEK" value-date="2023-05-28">1244289</value>
-   <sector code="160" vocabulary="2"></sector>
-   <sector code="16062" vocabulary="1"></sector>
-   <recipient-country code="ZM"></recipient-country>
-  </transaction>
   <related-activity ref="SE-0-SE-6-13015" type="1"></related-activity>
   <related-activity ref="SE-0-SE-6-13015-13015A0102" type="3"></related-activity>
   <crs-add>
@@ -420,8 +420,17 @@ Component outcomes
   </crs-add>
   <sida:strategies xmlns:sida="http://sida.se/ns/strategies#">
    <sida:strategy code="1061403" currency="SEK" strategy-amount="2250000000" strategy-end-date="2024-01-31" strategy-start-date="2018-09-01">
-    <sida:title>Zambia 2018-2022</sida:title>
-    <sida:titleSV>Zambia 2018-2022</sida:titleSV>
+    <sida:strategy-objective code="ZMB2018a5" percentage="100">
+     <sida:name>
+      <sida:narrative xml:lang="SV">St&#xe4;rkt kapacitet i offentliga institutioner, inklusive kapacitet att mobilisera ytterligare akt&#xf6;rer och resurser f&#xf6;r h&#xe5;llbar utveckling.</sida:narrative>
+     </sida:name>
+     <sida:thematic-area>
+      <sida:narrative xml:lang="SV">Fr&#xe4;mja frihet och bek&#xe4;mpa f&#xf6;rtryck</sida:narrative>
+     </sida:thematic-area>
+    </sida:strategy-objective>
+    <sida:title>
+     <sida:narrative xml:lang="SV">Zambia 2018-2022</sida:narrative>
+    </sida:title>
    </sida:strategy>
   </sida:strategies>
  </iati-activity>

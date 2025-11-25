@@ -23,10 +23,10 @@
    </owner-org>
   </other-identifier>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2016-08-12+08:00" type="2"></activity-date>
-  <activity-date iso-date="2016-09-21+08:00" type="1"></activity-date>
-  <activity-date iso-date="2016-12-30+08:00" type="4"></activity-date>
-  <activity-date iso-date="2016-12-31+08:00" type="3"></activity-date>
+  <activity-date iso-date="2016-08-12" type="2"></activity-date>
+  <activity-date iso-date="2016-09-21" type="1"></activity-date>
+  <activity-date iso-date="2016-12-30" type="4"></activity-date>
+  <activity-date iso-date="2016-12-31" type="3"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">Asian Development Bank</narrative>
@@ -38,10 +38,18 @@
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="KG" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="9036846" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Kyrgyz Republic</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>41.46043 74.51759</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <sector code="24010" percentage="100" vocabulary="1"></sector>
-  <country-budget-items vocabulary="1">
-   <budget-item code="1.3.13" percentage="100" vocabulary="1"></budget-item>
-  </country-budget-items>
   <policy-marker code="EFFECTIVE GENDER MAINSTREAMING (EGM)" vocabulary="99" vocabulary-uri="https://www.adb.org/sites/default/files/institutional-document/42823/project-classification-system-final-report_0.pdf">
    <narrative xml:lang="EN">Effective gender mainstreaming (EGM)</narrative>
   </policy-marker>
@@ -65,25 +73,26 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="A01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget>
-   <period-start iso-date="2016-07-01+08:00"></period-start>
-   <period-end iso-date="2016-09-30+08:00"></period-end>
-   <value currency="USD" value-date="2016-09-30+08:00">6250000</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2016-10-01+08:00"></period-start>
-   <period-end iso-date="2016-12-31+08:00"></period-end>
-   <value currency="USD" value-date="2016-12-31+08:00">6250000</value>
-  </budget>
   <capital-spend percentage="0"></capital-spend>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2016-08-12"></transaction-date>
+   <value currency="USD" value-date="2016-08-12">12500000</value>
+   <provider-org ref="XM-DAC-46004" type="40">
+    <narrative xml:lang="EN">Asian Development Bank</narrative>
+   </provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Ministry of Economy</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2016-09-30"></transaction-date>
    <value currency="USD" value-date="2016-09-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="10">
     <narrative xml:lang="EN">Ministry of Economy</narrative>
    </receiver-org>
   </transaction>
@@ -91,10 +100,10 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2016-10-31"></transaction-date>
    <value currency="USD" value-date="2016-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="10">
     <narrative xml:lang="EN">Ministry of Economy</narrative>
    </receiver-org>
   </transaction>
@@ -102,10 +111,10 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2016-11-30"></transaction-date>
    <value currency="USD" value-date="2016-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="10">
     <narrative xml:lang="EN">Ministry of Economy</narrative>
    </receiver-org>
   </transaction>
@@ -113,21 +122,10 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
    <value currency="USD" value-date="2016-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Ministry of Economy</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2023-09-30"></transaction-date>
-   <value currency="USD" value-date="2023-09-30">12500000</value>
-   <provider-org>
-    <narrative xml:lang="EN">Asian Development Bank</narrative>
-   </provider-org>
-   <receiver-org>
+   <receiver-org type="10">
     <narrative xml:lang="EN">Ministry of Economy</narrative>
    </receiver-org>
   </transaction>
@@ -141,15 +139,7 @@
    <category code="A05"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//41544-089-fa1.pdf">
-   <title>
-    <narrative xml:lang="EN">Grant Agreement</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/41544/41544-088-41544-089-41544-091-pcr-en.pdf">
    <title>
@@ -158,15 +148,16 @@
    <category code="A07"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//41544-089-fa1.pdf">
    <title>
     <narrative xml:lang="EN">Grant Agreement</narrative>
    </title>
+   <category code="A04"></category>
    <category code="A09"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/41544-089/main#project-tenders">
    <title>
@@ -174,7 +165,7 @@
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/41544-089/main#project-tenders">
    <title>
@@ -182,54 +173,427 @@
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <conditions attached="1">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
+   <condition type="3">
+    <narrative xml:lang="EN">Fiduciary</narrative>
    </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
    </condition>
-   <condition type="3">
-    <narrative xml:lang="EN">Type 3</narrative>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Outcome</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Improved investment and business climate</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Indicator 2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">At least one PPP project competitively tendered by 2018 (baseline 2014: 0) 
+Data Source: MOE (PPP unit)  notification 
+Actual value:</narrative>
+    </description>
+    <baseline value="0" year="2014"></baseline>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <target value="1"></target>
+    </period>
+   </indicator>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">Indicator 3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">E-procurement functional in at least 90% of central government agencies by 2018(baseline 2014: 1%) 
+Data Source: MOF notification 
+Actual value:</narrative>
+    </description>
+    <baseline value="1" year="2014"></baseline>
+    <period>
+     <period-start iso-date="2018-01-01"></period-start>
+     <period-end iso-date="2018-12-31"></period-end>
+     <target value="90"></target>
+    </period>
+   </indicator>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Domestic credit to the private sector increased to 18.0% of GDP (2015-2019) (baseline 2010-2014: 15.7%) 
+Data Source: NBKR annual report 
+Actual value:</narrative>
+    </description>
+    <baseline value="15" year="2010"></baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2019-12-31"></period-end>
+     <target value="18"></target>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Design and Monitoring Framework</narrative>
+    <narrative xml:lang="EN">Project Output/s</narrative>
    </title>
+   <description>
+    <narrative xml:lang="EN">Output/s as listed by the project staff.</narrative>
+   </description>
    <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/41544/41544-088-41544-089-41544-091-pcr-en.pdf">
     <title>
      <narrative xml:lang="EN">Project/Program Completion Report</narrative>
     </title>
-    <category code="A07"></category>
     <category code="A08"></category>
     <language code="EN"></language>
-    <document-date iso-date="2025-09-30+08:00"></document-date>
-   </document-link>
-   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//41544-089-rrp.pdf">
-    <title>
-     <narrative xml:lang="EN">Reports and Recommendations of the President</narrative>
-    </title>
-    <category code="A08"></category>
-    <language code="EN"></language>
-    <document-date iso-date="2025-09-30+08:00"></document-date>
+    <document-date iso-date="2025-10-31"></document-date>
    </document-link>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">01 Aug 2016 | News Release: https://www.adb.org/news/adb-assistance-help-improve-private-sector-investment-climate</narrative>
+     <narrative xml:lang="EN">Output 1  Indicator 4</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Output: Access to finance increased 
+Indicator: Government approved the establishment of a state (national) guarantee fund for SMEs with at least $1 million capital allocated by the 2016 budget, with at least 20% of the benefiting SMEs being majority owned by women by June 2016. 
+Data Source: MOE program evidence of  compliance report 
+Baseline year: 2014 
+Baseline value: N 
+Baseline year: 2014 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
    </indicator>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">Grant 0487: 100% of contracts awarded and 100% disbursed as of 17 Jun 2022</narrative>
+     <narrative xml:lang="EN">Output 1  Indicator 3</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Output: Access to finance increased 
+Indicator: Government implemented the State Program on Financial Literacy to increase bank customer awareness of the benefits, costs, and risks of using electronic payments and financial services by June 2016. 
+Data Source: MOE program evidence of  compliance report 
+Baseline year: 2014 
+Baseline value: N 
+Baseline year: 2014 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
    </indicator>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">Loan 3410: 100% of contracts awarded and 100% disbursed as of 17 Jun 2022</narrative>
+     <narrative xml:lang="EN">Output 1  Indicator 1</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Output: Access to finance increased 
+Indicator: IPC (i) established a risk management system, an internet payment gateway, and a dispute resolution system to improve the operations; (ii) approved the IPC business strategy 2016-2018; and (iii) executed payment and money transfer services by June 2016. 
+Data Source: MOE program evidence of  compliance report
+
+IPC Board meeting minutes 
+Baseline year: 2014 
+Baseline value: N 
+Baseline year: 2014 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 1  Indicator 2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Access to finance increased 
+Indicator: NBKR established regulations for e-money, operators of payment systems, and the remote delivery of financial services to ensure the launch of mobile financial services that will benefit the under-banked (rural population, poor people, women, and informal sector) by June 2016. 
+Data Source: MOE program evidence of  compliance report 
+Baseline year: 2014 
+Baseline value: N 
+Baseline year: 2014 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: PPP program enhanced 
+Indicator: Government (i) amended PDSF regulations to expedite project preparatory and/or advisory funding for PPPs by the PDSF steering committee, and (ii) established a PPP council, headed by the vice prime minister by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 4</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: PPP program enhanced 
+Indicator: Government (i) approved development strategies with multiyear investment plans (up to 2025) for the health and transport (roads) sectors, and (ii) submitted at least one health sector and one transport sector PPP project for PDSF funding by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: PPP program enhanced 
+Indicator: Government executed the PPP development program, including capacity building by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 6</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: PPP program enhanced 
+Indicator: Government included in the Draft Budget Code appropriate provisions for government financial support for PPPs and drafted a plan and guidelines for long-term debt financing of PPP projects by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: PPP program enhanced 
+Indicator: Government recruited (or reassigned) and deployed adequately skilled staff (at least 35% of whom are women) in relevant line ministries and/or agencies to develop PPP transactions by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 8</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: PPP program enhanced 
+Indicator: Ministry of Health commissioned PDSF-funded transaction advisory contract for the CT scan (health) project by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 7</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: PPP program enhanced 
+Indicator: PDSF steering committee approved PDSF funding for at least five projects, and relevant line ministries and/or agencies published tenders by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 5</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: PPP program enhanced 
+Indicator: Parliament approved amendments to the PPP law by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 7</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Trade and  investment diversified 
+Indicator: AVE (i) established occupational standards for at least one skill each from the three priority occupations identified by IPA; (ii) approved, through relevant sector councils (having appropriate industry representation), those standards; and (iii) signed, through TVET schools, internship agreements, for at least 50 TVET students (25% of whom are women) by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 5</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Trade and  investment diversified 
+Indicator: Designated by government to address investor grievances and establish a grievance redress mechanism, IPA (i) established a database registering all grievances, (ii) drafted a process for out-of-court settlement of investor grievances, and (iii) identified the required modifications of law and regulations to establish a grievance redress mechanism by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Trade and  investment diversified 
+Indicator: Government approved the Strategy for the Modernization of National Quality Infrastructure for Trade (incorporating EEU quality standards) by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Trade and  investment diversified 
+Indicator: Government established the EDP, 2015-2017 monitoring and implementation secretariat and implemented the EDP tracking system by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 4</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Trade and  investment diversified 
+Indicator: Government mandated IPA as the single agency responsible for investment and export promotion, and adequately staffed IPA (including with female professional staff by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Trade and  investment diversified 
+Indicator: Kyrgyz Republic acquired the EU GSP+ trade privilege, and the government established a working group chaired by the MOE to draft a time-bound action plan for trade expansion under GSP+ by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 6</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Trade and  investment diversified 
+Indicator: MOE and MOF (i) published Standard &amp; Poor&amp;apos;s and Moody&amp;apos;s sovereign credit ratings; and (ii) commissioned and budgeted for annual sovereign ratings update by internationally recognized agencies, from 2016 onward by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 4  Indicator 2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Transparency and ease of doing business increased 
+Indicator: Government reduced the administrative burdens for small business by (i) exempting from value-added tax businesses with annual turnover of up to Som8 million, (ii) waiving sales tax on exports and on all noncash transactions, (iii) approving a simplified tax declaration form for individuals, and (iv) simplifying tax reporting for individual entrepreneurs to a single agency by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 4  Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Transparency and ease of doing business increased 
+Indicator: MOF approved the regulation on e-procurement system operation and maintenance and concluded related employment contracts and budgets by June 2016. 
+Data Source: MOE program evidence of compliance report 
+Baseline year: 2015 
+Baseline value: N 
+Baseline year: 2015 
+Baseline value: N 
+Target year: 2016 
+Target value: N</narrative>
+    </description>
    </indicator>
   </result>
  </iati-activity>

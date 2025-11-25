@@ -26,10 +26,10 @@
    </owner-org>
   </other-identifier>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2012-09-27+08:00" type="1"></activity-date>
-  <activity-date iso-date="2012-10-23+08:00" type="2"></activity-date>
-  <activity-date iso-date="2013-03-31+08:00" type="3"></activity-date>
-  <activity-date iso-date="2013-03-31+08:00" type="4"></activity-date>
+  <activity-date iso-date="2012-09-27" type="1"></activity-date>
+  <activity-date iso-date="2012-10-23" type="2"></activity-date>
+  <activity-date iso-date="2013-03-31" type="3"></activity-date>
+  <activity-date iso-date="2013-03-31" type="4"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">Asian Development Bank</narrative>
@@ -41,10 +41,18 @@
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="LA" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="1655842" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Lao People&apos;s Democratic Republic</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>18 105</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <sector code="15111" percentage="100" vocabulary="1"></sector>
-  <country-budget-items vocabulary="1">
-   <budget-item code="3.1.1" percentage="100" vocabulary="1"></budget-item>
-  </country-budget-items>
   <policy-marker code="EFFECTIVE GENDER MAINSTREAMING (EGM)" vocabulary="99" vocabulary-uri="https://www.adb.org/sites/default/files/institutional-document/42823/project-classification-system-final-report_0.pdf">
    <narrative xml:lang="EN">Effective gender mainstreaming (EGM)</narrative>
   </policy-marker>
@@ -59,50 +67,27 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="A01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget>
-   <period-start iso-date="2013-01-01+08:00"></period-start>
-   <period-end iso-date="2013-03-31+08:00"></period-end>
-   <value currency="USD" value-date="2013-03-31+08:00">7500000</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2013-04-01+08:00"></period-start>
-   <period-end iso-date="2013-06-30+08:00"></period-end>
-   <value currency="USD" value-date="2013-06-30+08:00">0</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2013-07-01+08:00"></period-start>
-   <period-end iso-date="2013-09-30+08:00"></period-end>
-   <value currency="USD" value-date="2013-09-30+08:00">0</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2013-10-01+08:00"></period-start>
-   <period-end iso-date="2013-12-31+08:00"></period-end>
-   <value currency="USD" value-date="2013-12-31+08:00">0</value>
-  </budget>
   <capital-spend percentage="0"></capital-spend>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2012-10-23"></transaction-date>
+   <value currency="USD" value-date="2012-10-23">7500000</value>
+   <provider-org ref="XM-DAC-46004" type="40">
+    <narrative xml:lang="EN">Asian Development Bank</narrative>
+   </provider-org>
+   <receiver-org ref="LA-COA-4" type="10">
+    <narrative xml:lang="EN">Ministry of Finance</narrative>
+   </receiver-org>
+  </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2013-12-31"></transaction-date>
    <value currency="USD" value-date="2013-12-31">7500000</value>
-   <description>
-    <narrative xml:lang="EN">Cumulative disbursement as of 31-Dec-2013</narrative>
-   </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Ministry of Finance;Ministry of Home Affairs</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2023-09-30"></transaction-date>
-   <value currency="USD" value-date="2023-09-30">7500000</value>
-   <provider-org>
-    <narrative xml:lang="EN">Asian Development Bank</narrative>
-   </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Ministry of Finance;Ministry of Home Affairs</narrative>
+   <receiver-org ref="LA-COA-4" type="10">
+    <narrative xml:lang="EN">Ministry of Finance</narrative>
    </receiver-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//46059-001-lao-rrp.pdf">
@@ -115,15 +100,7 @@
    <category code="A05"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//46059-001-fa1.pdf">
-   <title>
-    <narrative xml:lang="EN">Grant Agreement</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/46059/46059-001-46059-002-pcr-en.pdf">
    <title>
@@ -132,15 +109,16 @@
    <category code="A07"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//46059-001-fa1.pdf">
    <title>
     <narrative xml:lang="EN">Grant Agreement</narrative>
    </title>
+   <category code="A04"></category>
    <category code="A09"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/46059-001/main#project-tenders">
    <title>
@@ -148,7 +126,7 @@
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/46059-001/main#project-tenders">
    <title>
@@ -156,116 +134,235 @@
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <conditions attached="1">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
+   <condition type="3">
+    <narrative xml:lang="EN">Fiduciary</narrative>
    </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
    </condition>
-   <condition type="3">
-    <narrative xml:lang="EN">Type 3</narrative>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Design and Monitoring Framework</narrative>
+    <narrative xml:lang="EN">Project Output/s</narrative>
    </title>
    <description>
-    <narrative xml:lang="EN">Strengthened national and subnational public sector management</narrative>
+    <narrative xml:lang="EN">Output/s as listed by the project staff.</narrative>
    </description>
    <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/46059/46059-001-46059-002-pcr-en.pdf">
     <title>
      <narrative xml:lang="EN">Project/Program Completion Report</narrative>
     </title>
-    <category code="A07"></category>
     <category code="A08"></category>
     <language code="EN"></language>
-    <document-date iso-date="2025-09-30+08:00"></document-date>
+    <document-date iso-date="2025-10-31"></document-date>
    </document-link>
-   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//46059-001-lao-rrp.pdf">
+   <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">Reports and Recommendations of the President</narrative>
-    </title>
-    <category code="A08"></category>
-    <language code="EN"></language>
-    <document-date iso-date="2025-09-30+08:00"></document-date>
-   </document-link>
-   <indicator aggregation-status="0" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">By the end of 2016:
-(i) Civil service training institute functioning efficiently with 50% of staff and budget, and implementing a well-formulated annual training plan
-(2011 baseline: civil service training institute established)</narrative>
+     <narrative xml:lang="EN">Output 2  Indicator 1</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Strengthened national and subnational public sector management</narrative>
+     <narrative xml:lang="EN">Output: 2. Civil service capacity at the central and subnational levels, including gender-responsive capacity strengthening 
+Indicator: By the end of 2016:
+(i) 750 district officials (30% of them women) benefited from training in financial management, personnel management, and service delivery validated by a post-training survey and evaluation report 
+(2011 baseline: no training plan has been implemented for district officials) 
+Progress/Status: completed. 
+Data Source: MOHA progress reports to the National Assembly
+
+Post-training survey
+
+Post-training evaluation report
+ 
+Actual value:</narrative>
     </description>
     <baseline value="0" year="2011"></baseline>
     <period>
-     <period-start iso-date="2011-06-01+08:00"></period-start>
-     <period-end iso-date="2016-12-31+08:00"></period-end>
-     <target value="50"></target>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="750"></target>
     </period>
    </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="1">
+   <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">(iii) Increased direct budget support from MOF received by 70 districts
-(2011 baseline: 35 districts are receiving block grants through the District Development Fund)</narrative>
+     <narrative xml:lang="EN">Output 3  Indicator 2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Strengthened national and subnational public sector management</narrative>
+     <narrative xml:lang="EN">Output: 3. Investment management capacity in the public sector for private sector investments and identifying potential PPP arrangements strengthened 
+Indicator: (ii) 70 national and provincial MAF, MONRE, and MPI staff trained on appraisal techniques (financial and economic analysis, including social, gender, and risk assessments) to screen, award, monitor, and exercise effective oversight of contracts and concession agreements for state lands 
+(2012 baseline: approximately 15 national staff trained in MAF, MONRE, and MPI) 
+Progress/Status: Completed. 
+Data Source: MAF and MONRE reports
+ 
+Actual value:</narrative>
     </description>
-    <baseline value="35" year="2011"></baseline>
+    <baseline value="15" year="2012"></baseline>
     <period>
-     <period-start iso-date="2011-06-01+08:00"></period-start>
-     <period-end iso-date="2016-12-31+08:00"></period-end>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
      <target value="70"></target>
     </period>
    </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="5">
+   <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">(ii) Civil service management&#x2014;organizational development, job descriptions, assignment criteria, performance management, and code of conduct and gender-sensitive approach&#x2014;guidelines and procedures approved and implemented (2011 baseline: Draft civil service management system in place)</narrative>
+     <narrative xml:lang="EN">Output 1  Indicator 2</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Strengthened national and subnational public sector management</narrative>
+     <narrative xml:lang="EN">Output: 1. Multiyear budgeting and intergovernmental fiscal relations implemented 
+Indicator: (ii) Formula-based intergovernmental transfer mechanism, including allocation of adequate resources to districts for achieving the MDGs in health and education, established
+(2010 baseline: PEFA score of D and no formula-based transfer system) 
+Achievement: Y 
+Data Source: Prime Ministerial Decree, MOF regulations 
+Baseline year: 2010 
+Baseline value: N 
+Baseline year: 2010 
+Baseline value: N 
+Target year: 2016 
+Target value: Y 
+Actual value: Y</narrative>
     </description>
    </indicator>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">Grant 0308: 100% of contracts awarded and 100% disbursed as of 17 Jun 2022</narrative>
+     <narrative xml:lang="EN">Output 1  Indicator 1</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Output: 1. Multiyear budgeting and intergovernmental fiscal relations implemented 
+Indicator: By the end of 2016:
+(i) Medium-term fiscal and expenditure frameworks implemented
+(2010 baseline: public expenditure and financial accountability framework score of D+) 
+Achievement: Y 
+Data Source: MOF annual reports, and budget call circulars, budget documents, medium-term fiscal framework 
+
+MOF National Gazette
+ 
+Baseline year: 2010 
+Baseline value: N 
+Baseline year: 2010 
+Baseline value: N 
+Target year: 2016 
+Target value: Y 
+Actual value: Y</narrative>
+    </description>
    </indicator>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">Grant 0309: 95% of contracts awarded and 95% disbursed as of 17 Jun 2022</narrative>
+     <narrative xml:lang="EN">Output 2  Indicator 2</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Output: 2. Civil service capacity at the central and subnational levels, including gender-responsive capacity strengthening 
+Indicator: (ii) Monitoring and reporting capacity of the National Commission for the Advancement of Women strengthened
+(2012 baseline: training plan adopted) 
+Progress/Status: completed. 
+Data Source: MOHA progress reports to the National Assembly
+
+Post-training survey
+
+Post-training evaluation report
+ 
+Baseline year: 2012 
+Baseline value: N 
+Baseline year: 2012 
+Baseline value: N 
+Target year: 2016 
+Target value: Y</narrative>
+    </description>
    </indicator>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">Loan 2905: 100% of contracts awarded and 100% disbursed as of 17 Jun 2022</narrative>
+     <narrative xml:lang="EN">Output 3  Indicator 1</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Output: 3. Investment management capacity in the public sector for private sector investments and identifying potential PPP arrangements strengthened 
+Indicator: By the end of 2016:
+(i) Developing PPP framework (2012 baseline: No PPP framework exists) 
+Progress/Status: Completed. 
+Data Source: Prime Ministerial decrees
+MOES, MOH, and MPI procedures
+IFC Doing Business report 2012
+MPI reports 
+Baseline year: 2012 
+Baseline value: N 
+Baseline year: 2012 
+Baseline value: N 
+Target year: 2016 
+Target value: Y</narrative>
+    </description>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Outcome</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Strengthened national and subnational public sector management</narrative>
+   </description>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">By the end of 2016:
+(i) Civil service training institute functioning efficiently with 50% of staff and budget, and implementing a well-formulated annual training plan
+(2011 baseline: civil service training institute established) 
+Achievement: 50 
+Progress/Status: (2018) PARTI now has 21 staff, of which 7 are female (36%).  PARTI estimates that it requires 50 staff to function fully, however, given the Government&apos;s budget constraints, staff number has increased slowly in the past 5 years (by about 1 or 2 staff per year).  PARTI is currently finalising its development strategy and curriculum framework based on Civil Servant Law 2016, the Training and Development Decree 2017 and MOHA Vision 2030 and 10-Year Strategic Plan (2016-2025). 
+Data Source: Governance and Public Administration Reform Program secretariat progress reports on the use of the District Development Fund
+
+
+MOHA annual report</narrative>
+    </description>
+    <baseline value="0" year="2011"></baseline>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="50"></target>
+     <actual value="50"></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Indicator 3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">(iii) Increased direct budget support from MOF received by 70 districts
+(2011 baseline: 35 districts are receiving block grants through the District Development Fund) 
+Achievement: 0 
+Progress/Status: (2018) The number of civil servants trained under Component 2 Output 1 on PBFM, General Management and Gender Mainstreaming: (i) PBFM: 234 trained, 35% of which are women; (ii) General Management: 242 trained; 20% of which are women, and (iii) Gender Mainstreaming: 273, 47% of which are women.  
+
+The lower percentage of women on the General Management courses reflected the low proportion of women in management positions at district level.  A post-training survey and evaluation was undertaken.  The Training and Development Decree 2017 requires districts to prepare annual and 5-Year training plans. 
+Data Source: Governance and Public Administration Reform Program secretariat progress reports on the use of the District Development Fund; 
+MOHA annual report</narrative>
+    </description>
+    <baseline value="35" year="2011"></baseline>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+     <target value="70"></target>
+     <actual value="0"></actual>
+    </period>
    </indicator>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">Progress Toward Outcome: The PPP Unit was established within the Ministry of Planning and Investment.</narrative>
+     <narrative xml:lang="EN">Indicator 2</narrative>
     </title>
-   </indicator>
-   <indicator measure="5">
-    <title>
-     <narrative xml:lang="EN">Some results are in the Audited Project Financial Statements | Sep 2016: https://www.adb.org/sites/default/files/project-documents/46059/46059-001-apfs-en_1.pdf</narrative>
-    </title>
-   </indicator>
-   <indicator measure="5">
-    <title>
-     <narrative xml:lang="EN">Status of Implementation Progress: Completed.</narrative>
-    </title>
-   </indicator>
-   <indicator measure="5">
-    <title>
-     <narrative xml:lang="EN">Tenders and Contracts Awarded: https://www.adb.org/projects/46059-001/main#project-tenders</narrative>
-    </title>
+    <description>
+     <narrative xml:lang="EN">(ii) Civil service management&#x2014;organizational development, job descriptions, assignment criteria, performance management, and code of conduct and gender-sensitive approach&#x2014;guidelines and procedures approved and implemented (2011 baseline: Draft civil service management system in place) 
+Achievement: Y 
+Progress/Status: (2018) The legal framework governing the management and development of civil servants was completed and approved: Civil Servant Law 2016 and Decrees on (i) Technical Positions of Civil Servants 2016, (ii) Training and Development of Civil Servants 2107 and (iii) Performance Appraisal of Civil Servants 2017.  Code of conduct and gender Action Plan drafted.  Job description manual completed. 
+Data Source: Governance and Public Administration Reform Program secretariat progress reports on the use of the District Development Fund; 
+MOHA annual report 
+Base year: 2011 
+Baseline value: N</narrative>
+    </description>
+    <period>
+     <period-start iso-date="2016-01-01"></period-start>
+     <period-end iso-date="2016-12-31"></period-end>
+    </period>
    </indicator>
   </result>
  </iati-activity>

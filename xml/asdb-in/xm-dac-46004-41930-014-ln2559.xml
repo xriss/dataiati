@@ -23,10 +23,10 @@
    </owner-org>
   </other-identifier>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2012-05-09+08:00" type="1"></activity-date>
-  <activity-date iso-date="2012-05-09+08:00" type="2"></activity-date>
-  <activity-date iso-date="2013-11-27+08:00" type="3"></activity-date>
-  <activity-date iso-date="2013-11-27+08:00" type="4"></activity-date>
+  <activity-date iso-date="2012-05-09" type="1"></activity-date>
+  <activity-date iso-date="2012-05-09" type="2"></activity-date>
+  <activity-date iso-date="2013-11-27" type="3"></activity-date>
+  <activity-date iso-date="2013-11-27" type="4"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">Asian Development Bank</narrative>
@@ -38,10 +38,18 @@
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="IN" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="1269750" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">India</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>22 79</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <sector code="24040" percentage="100" vocabulary="1"></sector>
-  <country-budget-items vocabulary="1">
-   <budget-item code="3.12.1" percentage="100" vocabulary="1"></budget-item>
-  </country-budget-items>
   <policy-marker code="PRIVATE SECTOR DEVELOPMENT" vocabulary="99" vocabulary-uri="https://www.adb.org/sites/default/files/institutional-document/42823/project-classification-system-final-report_0.pdf">
    <narrative xml:lang="EN">Private sector development</narrative>
   </policy-marker>
@@ -53,70 +61,32 @@
   <default-finance-type code="421"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget>
-   <period-start iso-date="2012-04-01+08:00"></period-start>
-   <period-end iso-date="2012-06-30+08:00"></period-end>
-   <value currency="USD" value-date="2012-06-30+08:00">14285714.29</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2012-07-01+08:00"></period-start>
-   <period-end iso-date="2012-09-30+08:00"></period-end>
-   <value currency="USD" value-date="2012-09-30+08:00">14285714.29</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2012-10-01+08:00"></period-start>
-   <period-end iso-date="2012-12-31+08:00"></period-end>
-   <value currency="USD" value-date="2012-12-31+08:00">14285714.29</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2013-01-01+08:00"></period-start>
-   <period-end iso-date="2013-03-31+08:00"></period-end>
-   <value currency="USD" value-date="2013-03-31+08:00">14285714.29</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2013-04-01+08:00"></period-start>
-   <period-end iso-date="2013-06-30+08:00"></period-end>
-   <value currency="USD" value-date="2013-06-30+08:00">14285714.29</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2013-07-01+08:00"></period-start>
-   <period-end iso-date="2013-09-30+08:00"></period-end>
-   <value currency="USD" value-date="2013-09-30+08:00">14285714.29</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2013-10-01+08:00"></period-start>
-   <period-end iso-date="2013-12-31+08:00"></period-end>
-   <value currency="USD" value-date="2013-12-31+08:00">14285714.29</value>
-  </budget>
   <capital-spend percentage="100"></capital-spend>
   <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-31"></transaction-date>
-   <value currency="USD" value-date="2013-12-31">100000000</value>
-   <description>
-    <narrative xml:lang="EN">Cumulative disbursement as of 31-Dec-2013</narrative>
-   </description>
-   <provider-org>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2012-05-09"></transaction-date>
+   <value currency="USD" value-date="2012-05-09">100000000</value>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="10">
     <narrative xml:lang="EN">EXPORT-IMPORT BANK OF INDIA</narrative>
    </receiver-org>
   </transaction>
   <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2023-09-30"></transaction-date>
-   <value currency="USD" value-date="2023-09-30">100000000</value>
-   <provider-org>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2013-12-31"></transaction-date>
+   <value currency="USD" value-date="2013-12-31">100000000</value>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org type="10">
     <narrative xml:lang="EN">EXPORT-IMPORT BANK OF INDIA</narrative>
    </receiver-org>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/41930-014/main#project-documents">
    <title>
-    <narrative xml:lang="EN">URL of the project&apos;s documents</narrative>
+    <narrative xml:lang="EN">URL of the project&amp;apos;s documents</narrative>
    </title>
    <category code="A01"></category>
    <category code="A02"></category>
@@ -124,7 +94,7 @@
    <category code="A05"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/41930/41930-014-xarr-en.pdf">
    <title>
@@ -133,7 +103,7 @@
    <category code="A07"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/tenders?terms=41930-014">
    <title>
@@ -141,7 +111,7 @@
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/tenders?terms=41930-014">
    <title>
@@ -149,48 +119,135 @@
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <conditions attached="1">
-   <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
-   </condition>
    <condition type="3">
-    <narrative xml:lang="EN">Type 3</narrative>
+    <narrative xml:lang="EN">Fiduciary</narrative>
+   </condition>
+   <condition type="2">
+    <narrative xml:lang="EN">Performance</narrative>
    </condition>
   </conditions>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Outcome</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Expanded reach of long-term trade finance (export-finance) to high-potential SMEs in more disadvantaged, poor regions of India, and through Exim Bank as a market catalyst for other financiers</narrative>
+   </description>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 5</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">4% annual increase in share of SME export credit in total credit to lagging states and poor regions, from mid-2009</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 4</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Increase from 8% to 18% in share of total trade credit for SMEs in total bank trade credit.</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Increased SME export activities and by market, as related to Exim Bank activities in lagging states ($1 billion incremental trade over 10 years)</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Increased trade-induced employment in lagging states and poorer regions for at least 50,000 persons, as related to Exim Bank investments 
+Data Source: Ministry MSME, RBI, Exim Bank reporting</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Measured cost of establishing new business, and increase in business establishments in specific lagging states (increase in entry rate)</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 6</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Successful commercial debt finance or bond issue in international capital market</narrative>
+    </description>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Design and Monitoring Framework</narrative>
+    <narrative xml:lang="EN">Project Output/s</narrative>
    </title>
+   <description>
+    <narrative xml:lang="EN">Output/s as listed by the project staff.</narrative>
+   </description>
    <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents/41930/41930-014-xarr-en.pdf">
     <title>
      <narrative xml:lang="EN">Extended Annual Review Report</narrative>
     </title>
-    <category code="A07"></category>
     <category code="A08"></category>
     <language code="EN"></language>
-    <document-date iso-date="2025-09-30+08:00"></document-date>
-   </document-link>
-   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/41930-014/main#project-documents">
-    <title>
-     <narrative xml:lang="EN">URL of the project&apos;s documents</narrative>
-    </title>
-    <category code="A08"></category>
-    <language code="EN"></language>
-    <document-date iso-date="2025-09-30+08:00"></document-date>
+    <document-date iso-date="2025-10-31"></document-date>
    </document-link>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">Status of Development Objectives: Promotion of economic growth through trade. The project helps the government meet its trade development objective for sustained economic growth. With the ADB facility, more jobs are created in the SME sector, as seen through incremental growth in export production. International experience suggests a strong associate between a country&apos;&apos;s trade openness and the individual incomes of its citizens. Exim Bank has also been a catalyst in channeling foreign direct investment (FDI) into the country in sectors that are export-oriented. A sample survey undertaken by Exim Bank in 2015 of ten FDI manufacturing projects financed by Exim Bank with total assistance of Rs.15.97 billion has been able to facilitate FDI of Rs.43.80 billion into the country and cumulative exports of Rs.277.07 billion in the last five years. Exim bank also continues to play an important role in India&apos;s foreign trade policy. Its operations are mostly in export credit and finance to support the globalization efforts of Indian companies, where it also provides information and advisory services to those companies.
-
-Mobilization of long-term export finance for trade diversifications. The facility helps Exim Bank&apos;s ability to lend long-term foreign currency to Indian exporters and SME clusters to match their cash flow, as well as supports the Government&apos;s strategy of diversifying trade into new emerging countries.</narrative>
+     <narrative xml:lang="EN">Output 1  Indicator 1</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Output: Expansion of longer-maturity export credit and finance for investments in SME skills, plant, and technology 
+Indicator: Increase from 2% to 10% in Exim Bank&amp;apos;s share of long-term SME trade credit portfolio as part of overall lending portfolio 
+Data Source: Exim Bank reporting</narrative>
+    </description>
    </indicator>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">Status of Operation/Construction: Not applicable</narrative>
+     <narrative xml:lang="EN">Output 2  Indicator 1</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Output: Implementation plan to build up Exim Bank&amp;apos;s institutional capacity for review of its business model, strategy overhaul for repositioning as SME export financier in the globalizing trade environment, and introduction of Basel II risk management, environmental and new social responsibility procedures and systems 
+Indicator: International risk management and environment and social safeguard standards met and exceeded by Exim Bank</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Increase in SME productive and managerial capacity (with special attention to women-led SMEs) and related new jobs created for new markets 
+Indicator: Comparison between achieved capacity and original capacity in terms of higher volumes of SME export sale (target: $1 billion additional trade), and number of employees in businesses of SME borrowers</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Increase in SME productive and managerial capacity (with special attention to women-led SMEs) and related new jobs created for new markets 
+Indicator: Increased trade-induced employment in lagging states and poorer regions for at least 50,000 persons, as related to Exim Bank investments 
+Data Source: International comparators and market analysis, and (in)efficiency measures</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 4  Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: Promotion of lagging and poorer regions&amp;apos; SME &amp;quot;bankability&amp;quot; with the establishment of value chain and production clusters for diversified SME exports 
+Indicator: Measured cost and time along value chain steps to identify impact in terms of lowered business cost and hight benefit from critical Exim Bank SME investments that remove key trade competitiveness constraints, especially in lagging regions (cost and time to import and export) 
+Data Source: Field investigation</narrative>
+    </description>
    </indicator>
   </result>
  </iati-activity>

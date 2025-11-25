@@ -23,10 +23,10 @@
    </owner-org>
   </other-identifier>
   <activity-status code="3"></activity-status>
-  <activity-date iso-date="2008-10-07+08:00" type="1"></activity-date>
-  <activity-date iso-date="2008-10-07+08:00" type="2"></activity-date>
-  <activity-date iso-date="2008-11-20+08:00" type="4"></activity-date>
-  <activity-date iso-date="2009-03-31+08:00" type="3"></activity-date>
+  <activity-date iso-date="2008-10-07" type="1"></activity-date>
+  <activity-date iso-date="2008-10-07" type="2"></activity-date>
+  <activity-date iso-date="2008-11-20" type="4"></activity-date>
+  <activity-date iso-date="2009-03-31" type="3"></activity-date>
   <contact-info>
    <organisation>
     <narrative xml:lang="EN">Asian Development Bank</narrative>
@@ -38,10 +38,18 @@
   </contact-info>
   <activity-scope code="4"></activity-scope>
   <recipient-country code="PH" percentage="100"></recipient-country>
+  <location>
+   <location-reach code="1"></location-reach>
+   <location-id code="1694008" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Philippines</narrative>
+   </name>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>13.40882 122.56155</pos>
+   </point>
+   <exactness code="2"></exactness>
+  </location>
   <sector code="15134" percentage="100" vocabulary="1"></sector>
-  <country-budget-items vocabulary="1">
-   <budget-item code="2.1.1" percentage="100" vocabulary="1"></budget-item>
-  </country-budget-items>
   <policy-marker code="GOVERNANCE AND CAPACITY DEVELOPMENT" vocabulary="99" vocabulary-uri="https://www.adb.org/sites/default/files/institutional-document/42823/project-classification-system-final-report_0.pdf">
    <narrative xml:lang="EN">Governance and capacity development</narrative>
   </policy-marker>
@@ -56,42 +64,37 @@
   <default-finance-type code="421"></default-finance-type>
   <default-aid-type code="A01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget>
-   <period-start iso-date="2008-10-01+08:00"></period-start>
-   <period-end iso-date="2008-12-31+08:00"></period-end>
-   <value currency="USD" value-date="2008-12-31+08:00">125000000</value>
-  </budget>
-  <budget>
-   <period-start iso-date="2009-01-01+08:00"></period-start>
-   <period-end iso-date="2009-03-31+08:00"></period-end>
-   <value currency="USD" value-date="2009-03-31+08:00">125000000</value>
-  </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
-   <transaction-type code="3"></transaction-type>
-   <transaction-date iso-date="2013-12-31"></transaction-date>
-   <value currency="USD" value-date="2013-12-31">250000000</value>
-   <description>
-    <narrative xml:lang="EN">Cumulative disbursement as of 31-Dec-2013</narrative>
-   </description>
-   <provider-org>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2008-10-07"></transaction-date>
+   <value currency="USD" value-date="2008-10-07">250000000</value>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2013-12-31"></transaction-date>
-   <value currency="USD" value-date="2013-12-31">10278633.41</value>
-   <description>
-    <narrative xml:lang="EN">Cumulative interest-repayment as of 31-Dec-2013</narrative>
-   </description>
-   <provider-org>
+   <value currency="USD" value-date="2013-12-31">250000000</value>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
+    <narrative xml:lang="EN">Department of Budget and Management</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2013-12-31"></transaction-date>
+   <value currency="USD" value-date="2013-12-31">10278633.41</value>
+   <provider-org ref="XM-DAC-46004" type="40">
+    <narrative xml:lang="EN">Asian Development Bank</narrative>
+   </provider-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -99,13 +102,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2013-12-31"></transaction-date>
    <value currency="USD" value-date="2013-12-31">13110570</value>
-   <description>
-    <narrative xml:lang="EN">Cumulative loan-repayment as of 31-Dec-2013</narrative>
-   </description>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -113,10 +113,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2014-03-31"></transaction-date>
    <value currency="USD" value-date="2014-03-31">490834.89</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -124,10 +124,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2014-03-31"></transaction-date>
    <value currency="USD" value-date="2014-03-31">4136002.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -135,10 +135,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2014-06-30"></transaction-date>
    <value currency="USD" value-date="2014-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -146,10 +146,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2014-06-30"></transaction-date>
    <value currency="USD" value-date="2014-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -157,10 +157,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2014-09-30"></transaction-date>
    <value currency="USD" value-date="2014-09-30">432688.62</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -168,10 +168,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2014-09-30"></transaction-date>
    <value currency="USD" value-date="2014-09-30">4549602.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -179,10 +179,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2014-12-31"></transaction-date>
    <value currency="USD" value-date="2014-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -190,10 +190,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2014-12-31"></transaction-date>
    <value currency="USD" value-date="2014-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -201,10 +201,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2015-03-31"></transaction-date>
    <value currency="USD" value-date="2015-03-31">434614.19</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -212,10 +212,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2015-03-31"></transaction-date>
    <value currency="USD" value-date="2015-03-31">5004562.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -223,10 +223,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2015-06-30"></transaction-date>
    <value currency="USD" value-date="2015-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -234,10 +234,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2015-06-30"></transaction-date>
    <value currency="USD" value-date="2015-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -245,10 +245,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2015-09-30"></transaction-date>
    <value currency="USD" value-date="2015-09-30">505657.92</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -256,10 +256,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2015-09-30"></transaction-date>
    <value currency="USD" value-date="2015-09-30">5505017.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -267,10 +267,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
    <value currency="USD" value-date="2015-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -278,10 +278,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2015-12-31"></transaction-date>
    <value currency="USD" value-date="2015-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -289,10 +289,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2016-03-31"></transaction-date>
    <value currency="USD" value-date="2016-03-31">675614.09</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -300,10 +300,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2016-03-31"></transaction-date>
    <value currency="USD" value-date="2016-03-31">6055520</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -311,10 +311,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2016-06-30"></transaction-date>
    <value currency="USD" value-date="2016-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -322,10 +322,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2016-06-30"></transaction-date>
    <value currency="USD" value-date="2016-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -333,10 +333,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2016-09-30"></transaction-date>
    <value currency="USD" value-date="2016-09-30">1053431.75</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -344,10 +344,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2016-09-30"></transaction-date>
    <value currency="USD" value-date="2016-09-30">6661072.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -355,10 +355,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2016-10-31"></transaction-date>
    <value currency="USD" value-date="2016-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -366,10 +366,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2016-10-31"></transaction-date>
    <value currency="USD" value-date="2016-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -377,10 +377,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2016-11-30"></transaction-date>
    <value currency="USD" value-date="2016-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -388,10 +388,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2016-11-30"></transaction-date>
    <value currency="USD" value-date="2016-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -399,10 +399,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
    <value currency="USD" value-date="2016-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -410,10 +410,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2016-12-31"></transaction-date>
    <value currency="USD" value-date="2016-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -421,10 +421,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-01-31"></transaction-date>
    <value currency="USD" value-date="2017-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -432,10 +432,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-01-31"></transaction-date>
    <value currency="USD" value-date="2017-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -443,10 +443,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-02-28"></transaction-date>
    <value currency="USD" value-date="2017-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -454,10 +454,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-02-28"></transaction-date>
    <value currency="USD" value-date="2017-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -465,10 +465,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-03-31"></transaction-date>
    <value currency="USD" value-date="2017-03-31">1413259.43</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -476,10 +476,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-03-31"></transaction-date>
    <value currency="USD" value-date="2017-03-31">7327180</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -487,10 +487,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-04-30"></transaction-date>
    <value currency="USD" value-date="2017-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -498,10 +498,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-04-30"></transaction-date>
    <value currency="USD" value-date="2017-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -509,10 +509,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-05-31"></transaction-date>
    <value currency="USD" value-date="2017-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -520,10 +520,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-05-31"></transaction-date>
    <value currency="USD" value-date="2017-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -531,10 +531,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-06-30"></transaction-date>
    <value currency="USD" value-date="2017-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -542,10 +542,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-06-30"></transaction-date>
    <value currency="USD" value-date="2017-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -553,10 +553,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-07-31"></transaction-date>
    <value currency="USD" value-date="2017-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -564,10 +564,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-07-31"></transaction-date>
    <value currency="USD" value-date="2017-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -575,10 +575,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-08-31"></transaction-date>
    <value currency="USD" value-date="2017-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -586,10 +586,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-08-31"></transaction-date>
    <value currency="USD" value-date="2017-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -597,10 +597,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-09-30"></transaction-date>
    <value currency="USD" value-date="2017-09-30">1543758.9</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -608,10 +608,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-09-30"></transaction-date>
    <value currency="USD" value-date="2017-09-30">8059897.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -619,10 +619,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-10-31"></transaction-date>
    <value currency="USD" value-date="2017-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -630,10 +630,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-10-31"></transaction-date>
    <value currency="USD" value-date="2017-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -641,10 +641,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-11-30"></transaction-date>
    <value currency="USD" value-date="2017-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -652,10 +652,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-11-30"></transaction-date>
    <value currency="USD" value-date="2017-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -663,10 +663,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
    <value currency="USD" value-date="2017-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -674,10 +674,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2017-12-31"></transaction-date>
    <value currency="USD" value-date="2017-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -685,10 +685,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-01-31"></transaction-date>
    <value currency="USD" value-date="2018-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -696,10 +696,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-01-31"></transaction-date>
    <value currency="USD" value-date="2018-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -707,10 +707,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-02-28"></transaction-date>
    <value currency="USD" value-date="2018-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -718,10 +718,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-02-28"></transaction-date>
    <value currency="USD" value-date="2018-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -729,10 +729,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-03-31"></transaction-date>
    <value currency="USD" value-date="2018-03-31">1522251.16</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -740,10 +740,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-03-31"></transaction-date>
    <value currency="USD" value-date="2018-03-31">8865887.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -751,10 +751,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-04-30"></transaction-date>
    <value currency="USD" value-date="2018-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -762,10 +762,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-04-30"></transaction-date>
    <value currency="USD" value-date="2018-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -773,10 +773,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-05-31"></transaction-date>
    <value currency="USD" value-date="2018-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -784,10 +784,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-05-31"></transaction-date>
    <value currency="USD" value-date="2018-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -795,10 +795,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-06-30"></transaction-date>
    <value currency="USD" value-date="2018-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -806,10 +806,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-06-30"></transaction-date>
    <value currency="USD" value-date="2018-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -817,10 +817,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-07-31"></transaction-date>
    <value currency="USD" value-date="2018-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -828,10 +828,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-07-31"></transaction-date>
    <value currency="USD" value-date="2018-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -839,10 +839,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-08-31"></transaction-date>
    <value currency="USD" value-date="2018-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -850,10 +850,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-08-31"></transaction-date>
    <value currency="USD" value-date="2018-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -861,10 +861,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-09-30"></transaction-date>
    <value currency="USD" value-date="2018-09-30">2244826.53</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -872,10 +872,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-09-30"></transaction-date>
    <value currency="USD" value-date="2018-09-30">9752477.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -883,10 +883,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-10-31"></transaction-date>
    <value currency="USD" value-date="2018-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -894,10 +894,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-10-31"></transaction-date>
    <value currency="USD" value-date="2018-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -905,10 +905,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-11-30"></transaction-date>
    <value currency="USD" value-date="2018-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -916,10 +916,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-11-30"></transaction-date>
    <value currency="USD" value-date="2018-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -927,10 +927,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2018-12-31"></transaction-date>
    <value currency="USD" value-date="2018-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -938,10 +938,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2018-12-31"></transaction-date>
    <value currency="USD" value-date="2018-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -949,10 +949,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-01-31"></transaction-date>
    <value currency="USD" value-date="2019-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -960,10 +960,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-01-31"></transaction-date>
    <value currency="USD" value-date="2019-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -971,10 +971,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-02-28"></transaction-date>
    <value currency="USD" value-date="2019-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -982,10 +982,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-02-28"></transaction-date>
    <value currency="USD" value-date="2019-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -993,10 +993,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-03-31"></transaction-date>
    <value currency="USD" value-date="2019-03-31">2356963.05</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1004,10 +1004,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-03-31"></transaction-date>
    <value currency="USD" value-date="2019-03-31">10727725</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1015,10 +1015,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-04-30"></transaction-date>
    <value currency="USD" value-date="2019-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1026,10 +1026,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-04-30"></transaction-date>
    <value currency="USD" value-date="2019-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1037,10 +1037,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-05-31"></transaction-date>
    <value currency="USD" value-date="2019-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1048,10 +1048,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-05-31"></transaction-date>
    <value currency="USD" value-date="2019-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1059,10 +1059,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-06-30"></transaction-date>
    <value currency="USD" value-date="2019-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1070,10 +1070,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-06-30"></transaction-date>
    <value currency="USD" value-date="2019-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1081,10 +1081,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-07-31"></transaction-date>
    <value currency="USD" value-date="2019-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1092,10 +1092,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-07-31"></transaction-date>
    <value currency="USD" value-date="2019-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1103,10 +1103,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-08-31"></transaction-date>
    <value currency="USD" value-date="2019-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1114,10 +1114,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-08-31"></transaction-date>
    <value currency="USD" value-date="2019-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1125,10 +1125,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
    <value currency="USD" value-date="2019-09-30">2296607.92</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1136,10 +1136,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-09-30"></transaction-date>
    <value currency="USD" value-date="2019-09-30">11800497.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1147,10 +1147,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-10-31"></transaction-date>
    <value currency="USD" value-date="2019-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1158,10 +1158,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-10-31"></transaction-date>
    <value currency="USD" value-date="2019-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1169,10 +1169,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-11-30"></transaction-date>
    <value currency="USD" value-date="2019-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1180,10 +1180,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-11-30"></transaction-date>
    <value currency="USD" value-date="2019-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1191,10 +1191,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1202,10 +1202,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2019-12-31"></transaction-date>
    <value currency="USD" value-date="2019-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1213,10 +1213,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-01-31"></transaction-date>
    <value currency="USD" value-date="2020-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1224,10 +1224,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-01-31"></transaction-date>
    <value currency="USD" value-date="2020-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1235,10 +1235,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-02-29"></transaction-date>
    <value currency="USD" value-date="2020-02-29">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1246,10 +1246,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-02-29"></transaction-date>
    <value currency="USD" value-date="2020-02-29">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1257,10 +1257,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
    <value currency="USD" value-date="2020-03-31">1660531.56</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1268,10 +1268,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-03-31"></transaction-date>
    <value currency="USD" value-date="2020-03-31">12980545</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1279,10 +1279,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-04-30"></transaction-date>
    <value currency="USD" value-date="2020-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1290,10 +1290,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-04-30"></transaction-date>
    <value currency="USD" value-date="2020-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1301,10 +1301,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-05-31"></transaction-date>
    <value currency="USD" value-date="2020-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1312,10 +1312,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-05-31"></transaction-date>
    <value currency="USD" value-date="2020-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1323,10 +1323,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1334,10 +1334,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-06-30"></transaction-date>
    <value currency="USD" value-date="2020-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1345,10 +1345,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-07-31"></transaction-date>
    <value currency="USD" value-date="2020-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1356,10 +1356,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-07-31"></transaction-date>
    <value currency="USD" value-date="2020-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1367,10 +1367,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
    <value currency="USD" value-date="2020-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1378,10 +1378,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-08-31"></transaction-date>
    <value currency="USD" value-date="2020-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1389,10 +1389,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">635242.27</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1400,10 +1400,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-09-30"></transaction-date>
    <value currency="USD" value-date="2020-09-30">14278600</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1411,10 +1411,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
    <value currency="USD" value-date="2020-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1422,10 +1422,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-10-31"></transaction-date>
    <value currency="USD" value-date="2020-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1433,10 +1433,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-11-30"></transaction-date>
    <value currency="USD" value-date="2020-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1444,10 +1444,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-11-30"></transaction-date>
    <value currency="USD" value-date="2020-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1455,10 +1455,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1466,10 +1466,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2020-12-31"></transaction-date>
    <value currency="USD" value-date="2020-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1477,10 +1477,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-01-31"></transaction-date>
    <value currency="USD" value-date="2021-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1488,10 +1488,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-01-31"></transaction-date>
    <value currency="USD" value-date="2021-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1499,10 +1499,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
    <value currency="USD" value-date="2021-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1510,10 +1510,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-02-28"></transaction-date>
    <value currency="USD" value-date="2021-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1521,10 +1521,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
    <value currency="USD" value-date="2021-03-31">304101.24</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1532,10 +1532,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-03-31"></transaction-date>
    <value currency="USD" value-date="2021-03-31">15706460</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1543,10 +1543,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
    <value currency="USD" value-date="2021-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1554,10 +1554,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-04-30"></transaction-date>
    <value currency="USD" value-date="2021-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1565,10 +1565,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-05-31"></transaction-date>
    <value currency="USD" value-date="2021-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1576,10 +1576,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-05-31"></transaction-date>
    <value currency="USD" value-date="2021-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1587,10 +1587,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-06-30"></transaction-date>
    <value currency="USD" value-date="2021-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1598,10 +1598,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-06-30"></transaction-date>
    <value currency="USD" value-date="2021-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1609,10 +1609,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-07-31"></transaction-date>
    <value currency="USD" value-date="2021-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1620,10 +1620,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-07-31"></transaction-date>
    <value currency="USD" value-date="2021-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1631,10 +1631,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-08-31"></transaction-date>
    <value currency="USD" value-date="2021-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1642,10 +1642,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-08-31"></transaction-date>
    <value currency="USD" value-date="2021-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1653,10 +1653,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-09-30"></transaction-date>
    <value currency="USD" value-date="2021-09-30">212407.09</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1664,10 +1664,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-09-30"></transaction-date>
    <value currency="USD" value-date="2021-09-30">17277107.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1675,10 +1675,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-10-31"></transaction-date>
    <value currency="USD" value-date="2021-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1686,10 +1686,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-10-31"></transaction-date>
    <value currency="USD" value-date="2021-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1697,10 +1697,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-11-30"></transaction-date>
    <value currency="USD" value-date="2021-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1708,10 +1708,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-11-30"></transaction-date>
    <value currency="USD" value-date="2021-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1719,10 +1719,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1730,10 +1730,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
    <value currency="USD" value-date="2021-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1741,10 +1741,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-01-31"></transaction-date>
    <value currency="USD" value-date="2022-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1752,10 +1752,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-01-31"></transaction-date>
    <value currency="USD" value-date="2022-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1763,10 +1763,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-02-28"></transaction-date>
    <value currency="USD" value-date="2022-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1774,10 +1774,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-02-28"></transaction-date>
    <value currency="USD" value-date="2022-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1785,10 +1785,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-03-31"></transaction-date>
    <value currency="USD" value-date="2022-03-31">158158.12</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1796,10 +1796,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-03-31"></transaction-date>
    <value currency="USD" value-date="2022-03-31">19004817.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1807,10 +1807,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-04-30"></transaction-date>
    <value currency="USD" value-date="2022-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1818,10 +1818,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-04-30"></transaction-date>
    <value currency="USD" value-date="2022-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1829,10 +1829,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-05-31"></transaction-date>
    <value currency="USD" value-date="2022-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1840,10 +1840,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-05-31"></transaction-date>
    <value currency="USD" value-date="2022-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1851,10 +1851,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-06-30"></transaction-date>
    <value currency="USD" value-date="2022-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1862,10 +1862,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-06-30"></transaction-date>
    <value currency="USD" value-date="2022-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1873,10 +1873,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-07-31"></transaction-date>
    <value currency="USD" value-date="2022-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1884,10 +1884,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-07-31"></transaction-date>
    <value currency="USD" value-date="2022-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1895,10 +1895,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-08-31"></transaction-date>
    <value currency="USD" value-date="2022-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1906,10 +1906,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-08-31"></transaction-date>
    <value currency="USD" value-date="2022-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1917,10 +1917,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-09-30"></transaction-date>
    <value currency="USD" value-date="2022-09-30">469459.83</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1928,10 +1928,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-09-30"></transaction-date>
    <value currency="USD" value-date="2022-09-30">20905300</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1939,10 +1939,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-10-31"></transaction-date>
    <value currency="USD" value-date="2022-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1950,10 +1950,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-10-31"></transaction-date>
    <value currency="USD" value-date="2022-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1961,10 +1961,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-11-30"></transaction-date>
    <value currency="USD" value-date="2022-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1972,10 +1972,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-11-30"></transaction-date>
    <value currency="USD" value-date="2022-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1983,10 +1983,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2022-12-31"></transaction-date>
    <value currency="USD" value-date="2022-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -1994,10 +1994,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2022-12-31"></transaction-date>
    <value currency="USD" value-date="2022-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2005,10 +2005,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-01-31"></transaction-date>
    <value currency="USD" value-date="2023-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2016,10 +2016,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-01-31"></transaction-date>
    <value currency="USD" value-date="2023-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2027,10 +2027,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-02-28"></transaction-date>
    <value currency="USD" value-date="2023-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2038,10 +2038,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-02-28"></transaction-date>
    <value currency="USD" value-date="2023-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2049,10 +2049,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-03-31"></transaction-date>
    <value currency="USD" value-date="2023-03-31">1094034.41</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2060,10 +2060,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-03-31"></transaction-date>
    <value currency="USD" value-date="2023-03-31">22995830</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2071,10 +2071,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-04-30"></transaction-date>
    <value currency="USD" value-date="2023-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2082,10 +2082,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-04-30"></transaction-date>
    <value currency="USD" value-date="2023-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2093,10 +2093,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-05-31"></transaction-date>
    <value currency="USD" value-date="2023-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2104,10 +2104,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-05-31"></transaction-date>
    <value currency="USD" value-date="2023-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2115,10 +2115,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-06-30"></transaction-date>
    <value currency="USD" value-date="2023-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2126,10 +2126,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-06-30"></transaction-date>
    <value currency="USD" value-date="2023-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2137,10 +2137,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-07-31"></transaction-date>
    <value currency="USD" value-date="2023-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2148,10 +2148,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-07-31"></transaction-date>
    <value currency="USD" value-date="2023-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2159,10 +2159,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-08-31"></transaction-date>
    <value currency="USD" value-date="2023-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2170,21 +2170,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-08-31"></transaction-date>
    <value currency="USD" value-date="2023-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Department of Budget and Management</narrative>
-   </receiver-org>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2023-09-30"></transaction-date>
-   <value currency="USD" value-date="2023-09-30">250000000</value>
-   <provider-org>
-    <narrative xml:lang="EN">Asian Development Bank</narrative>
-   </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2192,10 +2181,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-09-30"></transaction-date>
    <value currency="USD" value-date="2023-09-30">718104.08</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2203,10 +2192,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-09-30"></transaction-date>
    <value currency="USD" value-date="2023-09-30">25295327.5</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2214,10 +2203,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-10-31"></transaction-date>
    <value currency="USD" value-date="2023-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2225,10 +2214,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-10-31"></transaction-date>
    <value currency="USD" value-date="2023-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2236,10 +2225,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-11-30"></transaction-date>
    <value currency="USD" value-date="2023-11-30">12843.84</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2247,10 +2236,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-11-30"></transaction-date>
    <value currency="USD" value-date="2023-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2258,10 +2247,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2023-12-31"></transaction-date>
    <value currency="USD" value-date="2023-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2269,10 +2258,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2023-12-31"></transaction-date>
    <value currency="USD" value-date="2023-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2280,10 +2269,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-01-31"></transaction-date>
    <value currency="USD" value-date="2024-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2291,10 +2280,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-01-31"></transaction-date>
    <value currency="USD" value-date="2024-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2302,10 +2291,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-02-29"></transaction-date>
    <value currency="USD" value-date="2024-02-29">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2313,10 +2302,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-02-29"></transaction-date>
    <value currency="USD" value-date="2024-02-29">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2324,10 +2313,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-03-31"></transaction-date>
    <value currency="USD" value-date="2024-03-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2335,10 +2324,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-03-31"></transaction-date>
    <value currency="USD" value-date="2024-03-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2346,10 +2335,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-04-30"></transaction-date>
    <value currency="USD" value-date="2024-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2357,10 +2346,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-04-30"></transaction-date>
    <value currency="USD" value-date="2024-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2368,10 +2357,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-05-31"></transaction-date>
    <value currency="USD" value-date="2024-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2379,10 +2368,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-05-31"></transaction-date>
    <value currency="USD" value-date="2024-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2390,10 +2379,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-06-30"></transaction-date>
    <value currency="USD" value-date="2024-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2401,10 +2390,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-06-30"></transaction-date>
    <value currency="USD" value-date="2024-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2412,10 +2401,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-07-31"></transaction-date>
    <value currency="USD" value-date="2024-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2423,10 +2412,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-07-31"></transaction-date>
    <value currency="USD" value-date="2024-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2434,10 +2423,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-08-31"></transaction-date>
    <value currency="USD" value-date="2024-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2445,10 +2434,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-08-31"></transaction-date>
    <value currency="USD" value-date="2024-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2456,10 +2445,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-09-30"></transaction-date>
    <value currency="USD" value-date="2024-09-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2467,10 +2456,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-09-30"></transaction-date>
    <value currency="USD" value-date="2024-09-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2478,10 +2467,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-10-31"></transaction-date>
    <value currency="USD" value-date="2024-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2489,10 +2478,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-10-31"></transaction-date>
    <value currency="USD" value-date="2024-10-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2500,10 +2489,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-11-30"></transaction-date>
    <value currency="USD" value-date="2024-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2511,10 +2500,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-11-30"></transaction-date>
    <value currency="USD" value-date="2024-11-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2522,10 +2511,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2024-12-31"></transaction-date>
    <value currency="USD" value-date="2024-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2533,10 +2522,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2024-12-31"></transaction-date>
    <value currency="USD" value-date="2024-12-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2544,10 +2533,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2025-01-31"></transaction-date>
    <value currency="USD" value-date="2025-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2555,10 +2544,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2025-01-31"></transaction-date>
    <value currency="USD" value-date="2025-01-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2566,10 +2555,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2025-02-28"></transaction-date>
    <value currency="USD" value-date="2025-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2577,10 +2566,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2025-02-28"></transaction-date>
    <value currency="USD" value-date="2025-02-28">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2588,10 +2577,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2025-03-31"></transaction-date>
    <value currency="USD" value-date="2025-03-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2599,10 +2588,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2025-03-31"></transaction-date>
    <value currency="USD" value-date="2025-03-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2610,10 +2599,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2025-04-30"></transaction-date>
    <value currency="USD" value-date="2025-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2621,10 +2610,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2025-04-30"></transaction-date>
    <value currency="USD" value-date="2025-04-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2632,10 +2621,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2025-05-31"></transaction-date>
    <value currency="USD" value-date="2025-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2643,10 +2632,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2025-05-31"></transaction-date>
    <value currency="USD" value-date="2025-05-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2654,10 +2643,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2025-06-30"></transaction-date>
    <value currency="USD" value-date="2025-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2665,10 +2654,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2025-06-30"></transaction-date>
    <value currency="USD" value-date="2025-06-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2676,10 +2665,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2025-07-31"></transaction-date>
    <value currency="USD" value-date="2025-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2687,10 +2676,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2025-07-31"></transaction-date>
    <value currency="USD" value-date="2025-07-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2698,10 +2687,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2025-08-31"></transaction-date>
    <value currency="USD" value-date="2025-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2709,10 +2698,10 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2025-08-31"></transaction-date>
    <value currency="USD" value-date="2025-08-31">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2720,10 +2709,10 @@
    <transaction-type code="5"></transaction-type>
    <transaction-date iso-date="2025-09-30"></transaction-date>
    <value currency="USD" value-date="2025-09-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2731,10 +2720,32 @@
    <transaction-type code="6"></transaction-type>
    <transaction-date iso-date="2025-09-30"></transaction-date>
    <value currency="USD" value-date="2025-09-30">0</value>
-   <provider-org>
+   <provider-org ref="XM-DAC-46004" type="40">
     <narrative xml:lang="EN">Asian Development Bank</narrative>
    </provider-org>
-   <receiver-org>
+   <receiver-org ref="PH-COA-06" type="10">
+    <narrative xml:lang="EN">Department of Budget and Management</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2025-10-31"></transaction-date>
+   <value currency="USD" value-date="2025-10-31">0</value>
+   <provider-org ref="XM-DAC-46004" type="40">
+    <narrative xml:lang="EN">Asian Development Bank</narrative>
+   </provider-org>
+   <receiver-org ref="PH-COA-06" type="10">
+    <narrative xml:lang="EN">Department of Budget and Management</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="6"></transaction-type>
+   <transaction-date iso-date="2025-10-31"></transaction-date>
+   <value currency="USD" value-date="2025-10-31">0</value>
+   <provider-org ref="XM-DAC-46004" type="40">
+    <narrative xml:lang="EN">Asian Development Bank</narrative>
+   </provider-org>
+   <receiver-org ref="PH-COA-06" type="10">
     <narrative xml:lang="EN">Department of Budget and Management</narrative>
    </receiver-org>
   </transaction>
@@ -2748,15 +2759,7 @@
    <category code="A05"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//40538-01-phi-lbg.pdf">
-   <title>
-    <narrative xml:lang="EN">Loan Agreement</narrative>
-   </title>
-   <category code="A04"></category>
-   <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//40538-02-phi-pcr.pdf">
    <title>
@@ -2765,15 +2768,16 @@
    <category code="A07"></category>
    <category code="A08"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//40538-01-phi-lbg.pdf">
    <title>
     <narrative xml:lang="EN">Loan Agreement</narrative>
    </title>
+   <category code="A04"></category>
    <category code="A09"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/40538-023/main#project-tenders">
    <title>
@@ -2781,7 +2785,7 @@
    </title>
    <category code="A10"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <document-link format="APPLICATION/PDF" url="https://www.adb.org/projects/40538-023/main#project-tenders">
    <title>
@@ -2789,49 +2793,234 @@
    </title>
    <category code="A11"></category>
    <language code="EN"></language>
-   <document-date iso-date="2025-09-30+08:00"></document-date>
+   <document-date iso-date="2025-10-31"></document-date>
   </document-link>
   <conditions attached="1">
-   <condition type="1">
-    <narrative xml:lang="EN">Type 1</narrative>
+   <condition type="3">
+    <narrative xml:lang="EN">Fiduciary</narrative>
    </condition>
    <condition type="2">
-    <narrative xml:lang="EN">Type 2</narrative>
+    <narrative xml:lang="EN">Performance</narrative>
    </condition>
-   <condition type="3">
-    <narrative xml:lang="EN">Type 3</narrative>
+   <condition type="1">
+    <narrative xml:lang="EN">Policy</narrative>
    </condition>
   </conditions>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Outcome</narrative>
+   </title>
+   <description>
+    <narrative xml:lang="EN">Improved investor confidence.</narrative>
+   </description>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Increase in share of fixed capital to GDP in the range of 2 to 4 percentage points (14% in 2006) 
+Data Source: NSCB</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Upgrade in sovereign credit rating (BB-negative outlook or equivalent in 2005) 
+Data Source: Three major international creditrating agencies monitoring on the Philippines</narrative>
+    </description>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Design and Monitoring Framework</narrative>
+    <narrative xml:lang="EN">Project Output/s</narrative>
    </title>
+   <description>
+    <narrative xml:lang="EN">Output/s as listed by the project staff.</narrative>
+   </description>
    <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//40538-02-phi-pcr.pdf">
     <title>
      <narrative xml:lang="EN">Project/Program Completion Report</narrative>
     </title>
-    <category code="A07"></category>
     <category code="A08"></category>
     <language code="EN"></language>
-    <document-date iso-date="2025-09-30+08:00"></document-date>
-   </document-link>
-   <document-link format="APPLICATION/PDF" url="https://www.adb.org/sites/default/files/project-documents//40538-01-phi-rrp.pdf">
-    <title>
-     <narrative xml:lang="EN">Reports and Recommendations of the President</narrative>
-    </title>
-    <category code="A08"></category>
-    <language code="EN"></language>
-    <document-date iso-date="2025-09-30+08:00"></document-date>
+    <document-date iso-date="2025-10-31"></document-date>
    </document-link>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">Loan 2450: 100% of contracts awarded and 100% disbursed as of 17 Jun 2022</narrative>
+     <narrative xml:lang="EN">Output 1  Indicator 1</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Output: 1. Improved fiscal and macroeconomic stability:
+   - Reduced national government and consolidated public sector deficits 
+   - Strengthened public debt management systems 
+   - Increased tax revenue as a share of GDP 
+   - Implemented tax administration reforms 
+Indicator: Consolidated public sector deficit of 0.5% in 2009 and balanced in 2010 (4.8% in 2004) 
+Data Source: DOF, DBM, and statistical reports</narrative>
+    </description>
    </indicator>
    <indicator measure="5">
     <title>
-     <narrative xml:lang="EN">TA 7138: 68% disbursed as of 17 Jun 2022</narrative>
+     <narrative xml:lang="EN">Output 2  Indicator 2</narrative>
     </title>
+    <description>
+     <narrative xml:lang="EN">Output: 2. Improved governance in public expenditure management and anticorruption:
+   - Strengthened institutional and reporting framework for effective public financial management, and improved performance management and delivery of public services 
+   - Procurement systems made more efficient, useable, and transparent 
+   - Strengthened anticorruption programs in the revenue agencies 
+Indicator: 100% of all publicly bid opportunities and awards of central offices of 23 national departments posted on PhilGEPS website 
+Data Source: PhilGEPS website GPPB PhilGEPS procurement reports</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 5</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 2. Improved governance in public expenditure management and anticorruption:
+   - Strengthened institutional and reporting framework for effective public financial management, and improved performance management and delivery of public services 
+   - Procurement systems made more efficient, useable, and transparent 
+   - Strengthened anticorruption programs in the revenue agencies 
+Indicator: 15 investigators and prosecutors trained in tax investigations 
+Data Source: Corruption and transparency surveys</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 4</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 2. Improved governance in public expenditure management and anticorruption:
+   - Strengthened institutional and reporting framework for effective public financial management, and improved performance management and delivery of public services 
+   - Procurement systems made more efficient, useable, and transparent 
+   - Strengthened anticorruption programs in the revenue agencies 
+Indicator: Growing number of government agencies with integrity development
+review action plans substantially complied with (none implemented in 2006) 
+Data Source: Investor perception surveys</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 2. Improved governance in public expenditure management and anticorruption:
+   - Strengthened institutional and reporting framework for effective public financial management, and improved performance management and delivery of public services 
+   - Procurement systems made more efficient, useable, and transparent 
+   - Strengthened anticorruption programs in the revenue agencies 
+Indicator: Increased number of tax returns (baseline 2005, 134,151 returns) 
+Data Source: DOF and BIR reports, reports from ombudsman and retroactive audits of COA</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 6</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 2. Improved governance in public expenditure management and anticorruption:
+   - Strengthened institutional and reporting framework for effective public financial management, and improved performance management and delivery of public services 
+   - Procurement systems made more efficient, useable, and transparent 
+   - Strengthened anticorruption programs in the revenue agencies 
+Indicator: Monitoring and performance indicators system established at NPS in 2008</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 2  Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 2. Improved governance in public expenditure management and anticorruption:
+   - Strengthened institutional and reporting framework for effective public financial management, and improved performance management and delivery of public services 
+   - Procurement systems made more efficient, useable, and transparent 
+   - Strengthened anticorruption programs in the revenue agencies 
+Indicator: OPIF completed for all 23 national departments and their attached agencies and rollout to constitutional
+bodies started 
+Data Source: Budget call document, quarterly budget outturn, and other department reports OPIF publication</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 4</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 3. Investment climate and infrastructure 
+   - Reduced business transaction costs 
+   - Increased private participation in infrastructure provision 
+Indicator: CCT design completed, national rollout started 
+Data Source: Government executive orders</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 3. Investment climate and infrastructure 
+   - Reduced business transaction costs 
+   - Increased private participation in infrastructure provision 
+Indicator: Coverage and use of the community-based monitoring system increased to 75% of the LGUs 
+Data Source: National income accounts
+NEDA infrastructure committee data</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 3. Investment climate and infrastructure 
+   - Reduced business transaction costs 
+   - Increased private participation in infrastructure provision 
+Indicator: Number of days to start up a new business reduced (60 days in 2005) 
+Data Source: Doing business report (IFC)</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 3  Indicator 2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 3. Investment climate and infrastructure 
+   - Reduced business transaction costs 
+   - Increased private participation in infrastructure provision 
+Indicator: Share of gross public investment to GDP increased by 1 to 2 percentage points (2.2% in 2005)</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 4  Indicator 2</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 4. Social inclusion
+   - Improved poverty monitoring and targeting 
+Indicator: Coverage rate of fully immunized children increased to at least 87% (80% in 2005) 
+Data Source: NEDA social development committee</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 4  Indicator 1</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 4. Social inclusion
+   - Improved poverty monitoring and targeting 
+Indicator: Elementary school cohort survival rate increased to 71% (63.6% in 2003/04) and high school cohort survival rate to 69% (63.1% in 2003/04) 
+Data Source: NEDA social development
+committee</narrative>
+    </description>
+   </indicator>
+   <indicator measure="5">
+    <title>
+     <narrative xml:lang="EN">Output 4  Indicator 3</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Output: 4. Social inclusion
+   - Improved poverty monitoring and targeting 
+Indicator: Social services spending increased by 3%-5% of budget in 2005 (25% in 2005) 
+Data Source: DBM budget reports</narrative>
+    </description>
    </indicator>
   </result>
  </iati-activity>
