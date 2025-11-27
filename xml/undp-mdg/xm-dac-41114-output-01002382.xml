@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" hierarchy="2" iati-activities:version="2.03" xml:lang="FR" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="FR" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-01002382</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="FR">United Nations Development Programme</narrative>
@@ -273,14 +273,17 @@
    <location-class code="1"></location-class>
    <feature-designation code="ADM2"></feature-designation>
   </location>
-  <sector code="23" percentage="100" vocabulary="99">
+  <sector code="23" percentage="50" vocabulary="99">
    <narrative xml:lang="FR">Building resilience</narrative>
+  </sector>
+  <sector code="21" percentage="50" vocabulary="99">
+   <narrative xml:lang="FR">Structural transformation, including green, inclusive and digital transitions</narrative>
   </sector>
   <sector code="13.1" percentage="100" vocabulary="8"></sector>
   <sector code="72050" percentage="50" vocabulary="1"></sector>
   <sector code="74020" percentage="50" vocabulary="1"></sector>
   <tag code="13.1" vocabulary="3"></tag>
-  <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
+  <policy-marker code="1" significance="0" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -464,8 +467,8 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2025-11-17"></transaction-date>
-   <value currency="USD" value-date="2025-11-17">3859</value>
+   <transaction-date iso-date="2025-11-24"></transaction-date>
+   <value currency="USD" value-date="2025-11-24">8820</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
@@ -510,6 +513,12 @@
      <target value="1"></target>
      <actual value="0"></actual>
     </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="2"></actual>
+    </period>
    </indicator>
    <indicator aggregation-status="1" ascending="0" measure="3">
     <title>
@@ -540,6 +549,12 @@
      <target value="200"></target>
      <actual value="0"></actual>
     </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="500"></target>
+     <actual value="0"></actual>
+    </period>
    </indicator>
    <indicator aggregation-status="1" ascending="0" measure="1">
     <title>
@@ -550,10 +565,31 @@
     </description>
     <baseline value="0" year="2024"></baseline>
     <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="500"></target>
+     <actual value="0"></actual>
+    </period>
+    <period>
      <period-start iso-date="2024-01-01"></period-start>
      <period-end iso-date="2024-12-31"></period-end>
      <target value="250"></target>
      <actual value="650"></actual>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Nombre de nouvelles structures qui recourent aux technologies de culture, d&#x2019;&#xe9;levage et de p&#xea;che pour la r&#xe9;silience des syst&#xe8;mes de production et d&#x2019;alimentation en eau.</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">L&#x2019;utilisation &#xe9;coresponsable et la valorisation des ressources naturelles avec des technologies adapt&#xe9;es au changement climatique sont d&#xe9;velopp&#xe9;es et promues.</narrative>
+    </description>
+    <baseline value="0" year="2024"></baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="2"></actual>
     </period>
    </indicator>
    <indicator aggregation-status="1" ascending="0" measure="1">
@@ -569,6 +605,12 @@
      <period-end iso-date="2024-12-31"></period-end>
      <target value="0"></target>
      <actual value="2"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="3"></target>
+     <actual value="3"></actual>
     </period>
    </indicator>
   </result>
