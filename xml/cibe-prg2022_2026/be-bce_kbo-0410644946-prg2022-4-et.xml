@@ -45,6 +45,12 @@ b) 500 HH - Result 3:
   <participating-org activity-id="XM-DAC-2-10-4076" ref="XM-DAC-2-10" role="1" type="10">
    <narrative xml:lang="EN">Direction-G&#xe9;n&#xe9;rale Coop&#xe9;ration au D&#xe9;veloppement et Aide humanitaire</narrative>
   </participating-org>
+  <participating-org role="4" type="24">
+   <narrative xml:lang="EN">ECC-SDCO/Ad - Ethiopian Catholic Curch Social and Development Commission Adigrat Branch</narrative>
+  </participating-org>
+  <participating-org role="4" type="24">
+   <narrative xml:lang="EN">ECC-SDCO/S - Ethiopian Catholic Curch Social and Development Commission Soddo Branch</narrative>
+  </participating-org>
   <activity-status code="2"></activity-status>
   <activity-date iso-date="2022-01-01" type="1"></activity-date>
   <activity-date iso-date="2022-01-01" type="2"></activity-date>
@@ -108,6 +114,21 @@ b) 500 HH - Result 3:
    <period-end iso-date="2026-12-31"></period-end>
    <value currency="EUR" value-date="2026-07-01">211341</value>
   </budget>
+  <transaction ref="2023_disbursement_to_local_partner">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2023-01-01"></transaction-date>
+   <value currency="EUR" value-date="2023-01-01">55335</value>
+   <description>
+    <narrative xml:lang="EN">2023_disbursement_to_local_partner</narrative>
+   </description>
+   <receiver-org type="24">
+    <narrative xml:lang="EN">ECC-SDCO/S - Ethiopian Catholic Curch Social and Development Commission Soddo Branch</narrative>
+   </receiver-org>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="B01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction ref="2022 Expenditure">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2022-01-31"></transaction-date>
@@ -116,7 +137,7 @@ b) 500 HH - Result 3:
   <transaction ref="2023 Expenditure">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2023-02-01"></transaction-date>
-   <value currency="EUR" value-date="2023-02-01">234840</value>
+   <value currency="EUR" value-date="2023-02-01">179505</value>
   </transaction>
   <transaction ref="2024 Expenditure">
    <transaction-type code="4"></transaction-type>
@@ -126,9 +147,245 @@ b) 500 HH - Result 3:
   <transaction ref="2025 Expenditure">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2025-02-01"></transaction-date>
-   <value currency="EUR" value-date="2025-02-01">40517</value>
+   <value currency="EUR" value-date="2025-02-01">128641</value>
   </transaction>
   <related-activity ref="BE-BCE_KBO-0410644946-prg2022" type="1"></related-activity>
   <conditions attached="0"></conditions>
+  <result aggregation-status="0" type="2">
+   <description>
+    <narrative xml:lang="EN">Result 1: By the end of 2026, the capacity of communities in the four targeted kebeles to prevent and manage resource-use related conflict in a (gender) equitable way is strengthened.</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV T1.1: % of households that perceive improvements in their community&apos;s capacity to peacefully manage conflicts arising from use of community resources.</narrative>
+    </title>
+    <baseline value="0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="50%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV T1.2: % of surveyed households reporting that the majority of community members and vulnerable groups in the kebele are ensured of access to community resources (closed areas, grazing lands, irrigation facilities, water points, ...).</narrative>
+    </title>
+    <baseline value="0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="50%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV W1.1: %  of households that perceive improvements in their community&#x2019;s capacity to peacefully manage  conflicts arising from use of community resources.</narrative>
+    </title>
+    <baseline value="0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="50%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV W1.2: % of surveyed households reporting that the majority of community members and vulnerable groups in the kebele are ensured of access to community resources (closed areas, grazing lands, irrigation facilities, water points, &#x2026;).</narrative>
+    </title>
+    <baseline value="0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="50%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <description>
+    <narrative xml:lang="EN">Result 2: By the end of 2026, 830 very poor households (430 in Tigray, 400 in Wolaita), especially landless and female-headed households, have improved access to and use of financial and technical capacity building services that enable them to strengthen their livelihood basis.</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV T2.1: % of targeted households reporting that their productive assets base increased thanks to their participation in the program.</narrative>
+    </title>
+    <baseline value="FHH: 0% / MHH: 0% / LHH: 0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="FHH: 50% / MHH: 50% / LHH: 50%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV T2.2: % of targeted households reporting that their participation in SILC groups positively contributed to their household asset building process.</narrative>
+    </title>
+    <baseline value="FHH: 0% / MHH: 0% / LHH: 0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="FHH: 50% / MHH: 50% / LHH: 50%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV W2.1: % of targeted households reporting that their productive assets base increased thanks to their participation in the program.</narrative>
+    </title>
+    <baseline value="FHH: 0% / MHH: 0% / LHH: 0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="FHH: 50% / MHH: 50% / LHH: 50%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV W2.2: % of targeted households reporting that their participation in SILC groups positively contributed to their household asset building process.</narrative>
+    </title>
+    <baseline value="FHH: 0% / MHH: 0% / LHH: 0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="FHH: 50% / MHH: 50% / LHH: 50%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <description>
+    <narrative xml:lang="EN">Result 3: By the end of 2026, 800 vulnerable smallholder farmers (200 in Tigray, 600 in Wolaita) have improved their capacity (knowledge and skills) to increase and/or sustain their farm production in the face of climate change induced shocks and stresses.</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV T3.3: % of targeted smallholder farmers who perceive a positive change of their farm production thanks to implementing resilience design at their farm.</narrative>
+    </title>
+    <baseline value="FHH: 0% / MHH: 0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="FHH: 20% / MHH: 30%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV W3.3: % of targeted smallholders who perceive a positive change of their farm production thanks to implementing resilience design at their farm.</narrative>
+    </title>
+    <baseline value="FHH: 0% / MHH: 0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="FHH: 20% / MHH: 30%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV T3.2: % of targeted smallholder farmers scoring high on the soil health index thanks to implementing the resilience design approach.</narrative>
+    </title>
+    <baseline value="FHH: 0% / MHH: 0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="FHH: 30% / MHH: 50%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV W3.2: % of targeted smallholders farms scoring high on  the soil health index thanks to implementing the resilience design approach.</narrative>
+    </title>
+    <baseline value="FHH: 0% / MHH: 0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="FHH: 30% / MHH: 50%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV T3.1: % of targeted smallholder farmers obtaining a medium or high/star Farm Resilience Score thanks to their participation in the program.</narrative>
+    </title>
+    <baseline value="FHH: 0% / MHH: 0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="FHH: 40% / MHH: 60%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV W3.1: % of targeted smallholder farmers obtaining a medium or high/star Farm Resilience Score thanks to their participation in the program.</narrative>
+    </title>
+    <baseline value="FHH: 0% / MHH: 0%" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="FHH: 40% / MHH: 60%"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <description>
+    <narrative xml:lang="EN">Result 4: By the end of 2026, the program&apos;s stakeholders mutually reinforced each other around converging themes, capitalising on good practices.</narrative>
+   </description>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV T4.2: Number of persons having learned and used new skills in inclusive MEAL approaches.</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="10"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV T4.1: Number of joint initiatives or actions with other stakeholders aimed at mutual learning in the context of the network, civil society platforms or other spaces.</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="3"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV W4.2: Number of persons having learned and used new skills in inclusive MEAL approaches.</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="30"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">IOV W4.1: Number of joint initiatives or actions with other stakeholders aimed at mutual learning in the context of the network, civil society platforms or other spaces.</narrative>
+    </title>
+    <baseline value="0" year="2021"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="4"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>
