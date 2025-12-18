@@ -313,6 +313,17 @@ This activity shows details of the UNHCR operation in Zambia for 2025 and future
    <aid-type code="C01" vocabulary="1"></aid-type>
    <unhcr:value-USD>47994</unhcr:value-USD>
   </transaction>
+  <transaction ref="24-GOV-US-013-20">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2024-12-12"></transaction-date>
+   <value currency="USD" value-date="2024-12-12">57873</value>
+   <provider-org ref="US-USAGOV" type="10">
+    <narrative xml:lang="EN">United States of America (Government of)</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <unhcr:value-USD>57873</unhcr:value-USD>
+  </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2025-11-30"></transaction-date>
@@ -470,11 +481,11 @@ This activity shows details of the UNHCR operation in Zambia for 2025 and future
   </result>
   <result type="2">
    <title>
-    <narrative xml:lang="EN">4. Outcome area: Gender-based violence</narrative>
+    <narrative xml:lang="EN">7. Outcome area: Community engagement and women&apos;s empowerment</narrative>
    </title>
    <indicator aggregation-status="0" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">4.1 Proportion of people who know where to access available GBV services</narrative>
+     <narrative xml:lang="EN">7.2 Proportion of people who have access to safe feedback and response mechanisms</narrative>
     </title>
     <baseline value="100" year="2024">
      <location ref="Zambia"></location>
@@ -489,26 +500,46 @@ This activity shows details of the UNHCR operation in Zambia for 2025 and future
      </target>
     </period>
    </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="2">
+   <indicator aggregation-status="0" ascending="1" measure="4">
     <title>
-     <narrative xml:lang="EN">4.3 Proportion of survivors who are satisfied with GBV case management services</narrative>
+     <narrative xml:lang="EN">7.1 Extent participation of displaced and stateless people across programme phases is supported.</narrative>
     </title>
-    <baseline value="100" year="2024">
+    <description>
+     <narrative xml:lang="EN">Legend: 1=Extensive (&#x2265; 70 points); 2=Moderate (40-69 points); 3=Limited (&#x2264; 39 points)</narrative>
+    </description>
+    <baseline value="1" year="2023">
      <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Others of Concern"></dimension>
+     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
     </baseline>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
-     <target value="100">
+     <target value="1">
       <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Others of Concern"></dimension>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
      </target>
     </period>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">4.1 Proportion of people who know where to access available GBV services</narrative>
+     <narrative xml:lang="EN">7.3 Proportion of women participating in leadership/management structures</narrative>
+    </title>
+    <baseline value="1.02" year="2023">
+     <location ref="Zambia"></location>
+     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="50">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+     </target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">7.2 Proportion of people who have access to safe feedback and response mechanisms</narrative>
     </title>
     <baseline value="100" year="2023">
      <location ref="Zambia"></location>
@@ -523,10 +554,16 @@ This activity shows details of the UNHCR operation in Zambia for 2025 and future
      </target>
     </period>
    </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">14. Outcome area: Voluntary repatriation and sustainable reintegration</narrative>
+   </title>
    <indicator aggregation-status="0" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">4.3 Proportion of survivors who are satisfied with GBV case management services</narrative>
+     <narrative xml:lang="EN">14.1 Proportion of returnees with legally recognized identity documents or credentials</narrative>
     </title>
+    <reference code="GCR 4.2.2" indicator-uri="https://www.unhcr.org/media/global-compact-refugees-indicator-framework-2022" vocabulary="99"></reference>
     <baseline value="100" year="2023">
      <location ref="Zambia"></location>
      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
@@ -535,23 +572,6 @@ This activity shows details of the UNHCR operation in Zambia for 2025 and future
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
      <target value="100">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">4.2 Proportion of people who do not accept violence against women</narrative>
-    </title>
-    <baseline value="90" year="2023">
-     <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="90">
       <location ref="Zambia"></location>
       <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
      </target>
@@ -652,221 +672,41 @@ This activity shows details of the UNHCR operation in Zambia for 2025 and future
     </period>
    </indicator>
   </result>
-  <result type="2">
+  <result type="3">
    <title>
-    <narrative xml:lang="EN">14. Outcome area: Voluntary repatriation and sustainable reintegration</narrative>
+    <narrative xml:lang="EN">1. Impact area: Attaining favorable protection environments (Protect)</narrative>
    </title>
    <indicator aggregation-status="0" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">14.1 Proportion of returnees with legally recognized identity documents or credentials</narrative>
-    </title>
-    <reference code="GCR 4.2.2" indicator-uri="https://www.unhcr.org/media/global-compact-refugees-indicator-framework-2022" vocabulary="99"></reference>
-    <baseline value="100" year="2023">
-     <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="100">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result type="2">
-   <title>
-    <narrative xml:lang="EN">7. Outcome area: Community engagement and women&apos;s empowerment</narrative>
-   </title>
-   <indicator aggregation-status="0" ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">7.2 Proportion of people who have access to safe feedback and response mechanisms</narrative>
-    </title>
-    <baseline value="100" year="2024">
-     <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Others of Concern"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="100">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Others of Concern"></dimension>
-     </target>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="4">
-    <title>
-     <narrative xml:lang="EN">7.1 Extent participation of displaced and stateless people across programme phases is supported.</narrative>
+     <narrative xml:lang="EN">1.2 Proportion of people who are able to move freely within the country of habitual residence</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">Legend: 1=Extensive (&#x2265; 70 points); 2=Moderate (40-69 points); 3=Limited (&#x2264; 39 points)</narrative>
+     <narrative xml:lang="EN">Note: Targets are not applicable for this core impact indicator.</narrative>
     </description>
-    <baseline value="1" year="2023">
+    <reference code="GCR 2.1.2" indicator-uri="https://www.unhcr.org/media/global-compact-refugees-indicator-framework-2022" vocabulary="99"></reference>
+    <baseline value="2.84" year="2023">
      <location ref="Zambia"></location>
      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
     </baseline>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
-     <target value="1">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
     </period>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">7.3 Proportion of women participating in leadership/management structures</narrative>
+     <narrative xml:lang="EN">1.1 Proportion of people seeking international protection who are able to access asylum procedures</narrative>
     </title>
-    <baseline value="1.02" year="2023">
+    <description>
+     <narrative xml:lang="EN">Note: Targets are not applicable for this core impact indicator.</narrative>
+    </description>
+    <baseline value="99.99" year="2023">
      <location ref="Zambia"></location>
      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
     </baseline>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
-     <target value="50">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">7.2 Proportion of people who have access to safe feedback and response mechanisms</narrative>
-    </title>
-    <baseline value="100" year="2023">
-     <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="100">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result type="2">
-   <title>
-    <narrative xml:lang="EN">5. Outcome area: Child protection</narrative>
-   </title>
-   <indicator aggregation-status="0" ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">5.1 Proportion of children at heightened risk who are supported by a Best Interests Procedure</narrative>
-    </title>
-    <baseline value="100" year="2023">
-     <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="82">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">5.3 Proportion of unaccompanied and separated children who are in an alternative care arrangement</narrative>
-    </title>
-    <baseline value="89.06" year="2023">
-     <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="50">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result type="2">
-   <title>
-    <narrative xml:lang="EN">10. Outcome area: Healthy Lives</narrative>
-   </title>
-   <indicator aggregation-status="0" ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">10.1 Proportion of children aged 9 months to five years who have received measles vaccination</narrative>
-    </title>
-    <baseline value="23.63" year="2023">
-     <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="90">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">10.2. Proportion of births attended by skilled health personnel</narrative>
-    </title>
-    <reference code="SDG 3.1.2 Tier 1" vocabulary="9"></reference>
-    <baseline value="97.43" year="2023">
-     <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="80">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
-    </period>
-   </indicator>
-  </result>
-  <result type="2">
-   <title>
-    <narrative xml:lang="EN">11. Outcome area: Education</narrative>
-   </title>
-   <indicator aggregation-status="0" ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">11.1 Proportion of young people enrolled in tertiary and higher education</narrative>
-    </title>
-    <baseline value="3.3" year="2024">
-     <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="3">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
-    </period>
-   </indicator>
-   <indicator aggregation-status="0" ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">11.2 Proportion of children and young people enrolled in the national education system</narrative>
-    </title>
-    <reference code="GCR 2.2.1" indicator-uri="https://www.unhcr.org/media/global-compact-refugees-indicator-framework-2022" vocabulary="99"></reference>
-    <baseline value="51.38" year="2023">
-     <location ref="Zambia"></location>
-     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="78">
-      <location ref="Zambia"></location>
-      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
-     </target>
     </period>
    </indicator>
   </result>
@@ -990,6 +830,46 @@ This activity shows details of the UNHCR operation in Zambia for 2025 and future
   </result>
   <result type="2">
    <title>
+    <narrative xml:lang="EN">11. Outcome area: Education</narrative>
+   </title>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">11.1 Proportion of young people enrolled in tertiary and higher education</narrative>
+    </title>
+    <baseline value="3.3" year="2024">
+     <location ref="Zambia"></location>
+     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="3">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+     </target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">11.2 Proportion of children and young people enrolled in the national education system</narrative>
+    </title>
+    <reference code="GCR 2.2.1" indicator-uri="https://www.unhcr.org/media/global-compact-refugees-indicator-framework-2022" vocabulary="99"></reference>
+    <baseline value="51.38" year="2023">
+     <location ref="Zambia"></location>
+     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="78">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+     </target>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
     <narrative xml:lang="EN">16. Outcome area: Local integration and other local solutions</narrative>
    </title>
    <indicator aggregation-status="0" ascending="1" measure="2">
@@ -1100,6 +980,135 @@ This activity shows details of the UNHCR operation in Zambia for 2025 and future
   </result>
   <result type="2">
    <title>
+    <narrative xml:lang="EN">5. Outcome area: Child protection</narrative>
+   </title>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">5.1 Proportion of children at heightened risk who are supported by a Best Interests Procedure</narrative>
+    </title>
+    <baseline value="100" year="2023">
+     <location ref="Zambia"></location>
+     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="82">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+     </target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">5.3 Proportion of unaccompanied and separated children who are in an alternative care arrangement</narrative>
+    </title>
+    <baseline value="89.06" year="2023">
+     <location ref="Zambia"></location>
+     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="50">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+     </target>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
+    <narrative xml:lang="EN">4. Outcome area: Gender-based violence</narrative>
+   </title>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">4.1 Proportion of people who know where to access available GBV services</narrative>
+    </title>
+    <baseline value="100" year="2024">
+     <location ref="Zambia"></location>
+     <dimension name="Population Type" value="Others of Concern"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="100">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Others of Concern"></dimension>
+     </target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">4.3 Proportion of survivors who are satisfied with GBV case management services</narrative>
+    </title>
+    <baseline value="100" year="2024">
+     <location ref="Zambia"></location>
+     <dimension name="Population Type" value="Others of Concern"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="100">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Others of Concern"></dimension>
+     </target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">4.1 Proportion of people who know where to access available GBV services</narrative>
+    </title>
+    <baseline value="100" year="2023">
+     <location ref="Zambia"></location>
+     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="100">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+     </target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">4.3 Proportion of survivors who are satisfied with GBV case management services</narrative>
+    </title>
+    <baseline value="100" year="2023">
+     <location ref="Zambia"></location>
+     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="100">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+     </target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="0" ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">4.2 Proportion of people who do not accept violence against women</narrative>
+    </title>
+    <baseline value="90" year="2023">
+     <location ref="Zambia"></location>
+     <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="90">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+     </target>
+    </period>
+   </indicator>
+  </result>
+  <result type="2">
+   <title>
     <narrative xml:lang="EN">12. Outcome area: Clean water, sanitation and hygiene</narrative>
    </title>
    <indicator aggregation-status="0" ascending="1" measure="2">
@@ -1143,41 +1152,43 @@ This activity shows details of the UNHCR operation in Zambia for 2025 and future
     </period>
    </indicator>
   </result>
-  <result type="3">
+  <result type="2">
    <title>
-    <narrative xml:lang="EN">1. Impact area: Attaining favorable protection environments (Protect)</narrative>
+    <narrative xml:lang="EN">10. Outcome area: Healthy Lives</narrative>
    </title>
    <indicator aggregation-status="0" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">1.2 Proportion of people who are able to move freely within the country of habitual residence</narrative>
+     <narrative xml:lang="EN">10.1 Proportion of children aged 9 months to five years who have received measles vaccination</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN">Note: Targets are not applicable for this core impact indicator.</narrative>
-    </description>
-    <reference code="GCR 2.1.2" indicator-uri="https://www.unhcr.org/media/global-compact-refugees-indicator-framework-2022" vocabulary="99"></reference>
-    <baseline value="2.84" year="2023">
+    <baseline value="23.63" year="2023">
      <location ref="Zambia"></location>
      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
     </baseline>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
+     <target value="90">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+     </target>
     </period>
    </indicator>
    <indicator aggregation-status="0" ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">1.1 Proportion of people seeking international protection who are able to access asylum procedures</narrative>
+     <narrative xml:lang="EN">10.2. Proportion of births attended by skilled health personnel</narrative>
     </title>
-    <description>
-     <narrative xml:lang="EN">Note: Targets are not applicable for this core impact indicator.</narrative>
-    </description>
-    <baseline value="99.99" year="2023">
+    <reference code="SDG 3.1.2 Tier 1" vocabulary="9"></reference>
+    <baseline value="97.43" year="2023">
      <location ref="Zambia"></location>
      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
     </baseline>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
+     <target value="80">
+      <location ref="Zambia"></location>
+      <dimension name="Population Type" value="Refugees and Asylum-seekers"></dimension>
+     </target>
     </period>
    </indicator>
   </result>
