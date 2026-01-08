@@ -28,10 +28,31 @@
    <email>registry.np@undp.org</email>
    <website>https://www.undp.org/nepal</website>
   </contact-info>
+  <activity-scope code="6"></activity-scope>
   <recipient-country code="NP" percentage="100">
    <narrative xml:lang="EN">Nepal</narrative>
   </recipient-country>
-  <sector code="99810" percentage="100" vocabulary="1"></sector>
+  <location ref="NP">
+   <location-reach code="1"></location-reach>
+   <location-id code="12095452" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="EN">Karnali Pradesh</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="EN">first-order administrative division</narrative>
+   </description>
+   <administrative code="12095452" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>29.299130 82.476900</pos>
+   </point>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM1"></feature-designation>
+  </location>
+  <sector code="21" percentage="100" vocabulary="99">
+   <narrative xml:lang="EN">Structural transformation, including green, inclusive and digital transitions</narrative>
+  </sector>
+  <sector code="31110" percentage="100" vocabulary="1"></sector>
   <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -41,17 +62,17 @@
   <budget status="2" type="2">
    <period-start iso-date="2025-01-01"></period-start>
    <period-end iso-date="2025-12-31"></period-end>
-   <value currency="USD" value-date="2025-11-30">17000</value>
+   <value currency="USD" value-date="2025-12-31">17000</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2026-01-01"></period-start>
    <period-end iso-date="2026-12-31"></period-end>
-   <value currency="USD" value-date="2025-11-30">168460</value>
+   <value currency="USD" value-date="2025-12-31">168460</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2027-01-01"></period-start>
    <period-end iso-date="2027-12-31"></period-end>
-   <value currency="USD" value-date="2025-11-30">64540</value>
+   <value currency="USD" value-date="2025-12-31">64540</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -65,8 +86,17 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2025-12-29"></transaction-date>
-   <value currency="USD" value-date="2025-12-29">733</value>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="USD" value-date="2025-12-31">733</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-01-05"></transaction-date>
+   <value currency="USD" value-date="2026-01-05">335</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -74,8 +104,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2025-11-30"></transaction-date>
-   <value currency="USD" value-date="2025-11-30">250000</value>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="USD" value-date="2025-12-31">250000</value>
    <receiver-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">UNDP</narrative>
    </receiver-org>
@@ -93,5 +123,38 @@
     <narrative xml:lang="EN">Social and environmental sustainability will be enhanced through application of the UNDP Social and Environmental Standards (http://www.undp.org/ses) and related Accountability Mechanism (http://www.undp.org/secu-srm).</narrative>
    </condition>
   </conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Annual Output Results</narrative>
+   </title>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN"># of farmers/households receiving loan for food system interventions</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"># of farmers/households receiving loan for food system interventions</narrative>
+    </description>
+    <baseline value="0" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="300"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN"># of municipalities where financing mechanisms are piloted/ implemented</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN"># of municipalities where financing mechanisms are piloted/ implemented</narrative>
+    </description>
+    <baseline value="0" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="3"></target>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>
