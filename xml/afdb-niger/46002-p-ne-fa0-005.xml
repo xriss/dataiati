@@ -319,6 +319,51 @@
   </transaction>
   <transaction afdb:finance-type-id="2100155042172">
    <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="XDR" value-date="2025-12-31">18565.11</value>
+   <description>
+    <narrative xml:lang="FR">Total Disbursement in December of 2025</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="FR">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150043399">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="XDR" value-date="2025-12-31">374583.85</value>
+   <description>
+    <narrative xml:lang="FR">Total Disbursement in December of 2025</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="FR">African Development Fund</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5900150003503">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="XDR" value-date="2025-12-31">929395.88</value>
+   <description>
+    <narrative xml:lang="FR">Total Disbursement in December of 2025</narrative>
+   </description>
+   <provider-org ref="XM-DAC-TSF">
+    <narrative xml:lang="FR">Transition Support Facility</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155042172">
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2025-02-28"></transaction-date>
    <value currency="XDR" value-date="2025-02-28">1097769.5</value>
    <description>
@@ -1027,9 +1072,9 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="FR">Prepaid meter connections made to the network</narrative>
+    <narrative xml:lang="FR">Electricity connections (On-Grid) - Household</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="FR">Number</narrative>
     </title>
@@ -1038,6 +1083,23 @@
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
      <target value="111864.0"></target>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="FR">Electricity connections - Household</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="FR">Number</narrative>
+    </title>
+    <baseline afdb:year="2022" iso-date="2022-01-01" value="0.0"></baseline>
+    <period>
+     <period-start iso-date="2022-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="113741.0"></target>
      <actual value="0.0"></actual>
     </period>
    </indicator>
@@ -1061,9 +1123,9 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="FR">Direct jobs created</narrative>
+    <narrative xml:lang="FR">Number of direct jobs created</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="FR">Number</narrative>
     </title>
@@ -1078,9 +1140,9 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="FR">Connections made to the mini-grids</narrative>
+    <narrative xml:lang="FR">Electricity connections (Mini-Grid) - Household</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="FR">Number</narrative>
     </title>
@@ -1129,9 +1191,9 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="FR">Electricity distribution lines newly constructed or upgraded</narrative>
+    <narrative xml:lang="FR">New distribution lines</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="FR">Km</narrative>
     </title>
@@ -1163,9 +1225,9 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="FR">Indirect jobs created</narrative>
+    <narrative xml:lang="FR">Indirect jobs supported</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="FR">Number</narrative>
     </title>
@@ -1197,26 +1259,9 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="FR">People with access to electricity through the project - of whom women</narrative>
+    <narrative xml:lang="FR">Power capacity installed</narrative>
    </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="FR">Number</narrative>
-    </title>
-    <baseline afdb:year="2022" iso-date="2022-01-01" value="0.0"></baseline>
-    <period>
-     <period-start iso-date="2022-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="330440.0"></target>
-     <actual value="0.0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="FR">Installed solar PV power including hybridisation</narrative>
-   </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="FR">MW</narrative>
     </title>
@@ -1224,16 +1269,16 @@
     <period>
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
-     <target value="40.5"></target>
+     <target value="40.488"></target>
      <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="FR">Indirect jobs created - of which are for women</narrative>
+    <narrative xml:lang="FR">Indirect jobs supported - of which are for women</narrative>
    </title>
-   <indicator measure="2">
+   <indicator ascending="1" measure="2">
     <title>
      <narrative xml:lang="FR">Number</narrative>
     </title>
@@ -1248,9 +1293,9 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="FR">Direct jobs created - of which are for women</narrative>
+    <narrative xml:lang="FR">Number of direct jobs created - of whom women</narrative>
    </title>
-   <indicator measure="2">
+   <indicator ascending="1" measure="2">
     <title>
      <narrative xml:lang="FR">Number</narrative>
     </title>
@@ -1282,9 +1327,9 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="FR">People with access to electricity through the project</narrative>
+    <narrative xml:lang="FR">People provided with access to electricity</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="FR">Number</narrative>
     </title>
@@ -1292,7 +1337,7 @@
     <period>
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
-     <target value="660880.0"></target>
+     <target value="673346.72"></target>
      <actual value="0.0"></actual>
     </period>
    </indicator>

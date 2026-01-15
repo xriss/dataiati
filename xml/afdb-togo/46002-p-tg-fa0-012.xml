@@ -309,6 +309,24 @@
   </transaction>
   <transaction afdb:finance-type-id="2100150042244">
    <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2025-12-15"></transaction-date>
+   <value currency="XDR" value-date="2025-12-15">35129.84</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in December of 2025</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <receiver-org ref="TG-COA-210">
+    <narrative xml:lang="EN">Minist&#xe8;re des Finances</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="421"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100150042244">
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2024-01-31"></transaction-date>
    <value currency="XDR" value-date="2024-01-31">6151.5</value>
    <description>
@@ -1100,9 +1118,6 @@
    <provider-org ref="TG-COA-GOV">
     <narrative xml:lang="EN">Government Of Togo</narrative>
    </provider-org>
-   <receiver-org ref="TG-COA-GOV">
-    <narrative xml:lang="EN">Government Of Togo</narrative>
-   </receiver-org>
    <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
@@ -1498,12 +1513,47 @@
   </conditions>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of households with access to electricity</narrative>
+    <narrative xml:lang="EN">Power capacity installed</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">MW</narrative>
+    </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="1.5"></target>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Electricity connections (On-Grid) - Household</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="2000.0"></target>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Electricity connections - Household</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
@@ -1520,6 +1570,7 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
@@ -1536,6 +1587,7 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
@@ -1552,10 +1604,28 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
      <target value="5.0"></target>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">People provided with access to electricity</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="8700.0"></target>
      <actual value="0.0"></actual>
     </period>
    </indicator>
@@ -1568,6 +1638,7 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
@@ -1584,6 +1655,7 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
@@ -1594,49 +1666,18 @@
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Value of renewable energy generated</narrative>
+    <narrative xml:lang="EN">Number of connections created for health centres and Drinking water supply (DWS)</narrative>
    </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">MW</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="4.5"></target>
-     <actual value="3.0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">CO2 value avoided</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Ton/Year</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="3113.77"></target>
-     <actual value="3113.769"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of localities benefiting from one or more components of the project</narrative>
-   </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
-     <target value="500.0"></target>
-     <actual value="414.0"></actual>
+     <target value="3436.0"></target>
+     <actual value="290.0"></actual>
     </period>
    </indicator>
   </result>
@@ -1648,11 +1689,46 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
      <target value="600.0"></target>
-     <actual value="450.0"></actual>
+     <actual value="458.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of localities benefiting from one or more components of the project</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="0.0"></baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="500.0"></target>
+     <actual value="650.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">CO2 value avoided</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Ton/Year</narrative>
+    </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="3113.769"></baseline>
+    <period>
+     <period-start iso-date="2019-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="3113.77"></target>
+     <actual value="3113.769"></actual>
     </period>
    </indicator>
   </result>
@@ -1664,27 +1740,12 @@
     <title>
      <narrative xml:lang="EN">%</narrative>
     </title>
+    <baseline afdb:year="2019" iso-date="2019-01-01" value="48.0"></baseline>
     <period>
      <period-start iso-date="2019-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
      <target value="100.0"></target>
      <actual value="70.0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of connections created for health centres and Drinking water supply (DWS)</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2019-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="3436.0"></target>
-     <actual value="819.0"></actual>
     </period>
    </indicator>
   </result>
