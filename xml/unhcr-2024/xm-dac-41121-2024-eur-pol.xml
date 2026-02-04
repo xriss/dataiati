@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" hierarchy="3" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:unhcr="http://reporting.unhcr.org/">
+ <iati-activity default-currency="USD" hierarchy="3" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:ns0="http://reporting.unhcr.org/">
   <iati-identifier>XM-DAC-41121-2024-EUR-POL</iati-identifier>
   <reporting-org ref="XM-DAC-41121" type="40">
    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
@@ -194,17 +194,6 @@ The activities of the UNHCR operation in Poland are governed by the Financial Ru
    <value currency="USD" value-date="2023-10-12">85000000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
-  <transaction ref="24-GOV-DE-006-01">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2024-11-28"></transaction-date>
-   <value currency="EUR" value-date="2024-11-28">5995950</value>
-   <provider-org ref="XM-DAC-5-7" type="10">
-    <narrative xml:lang="EN">Germany - Federal Foreign Office</narrative>
-   </provider-org>
-   <aid-type code="2" vocabulary="2"></aid-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
-   <unhcr:value-USD>6358378</unhcr:value-USD>
-  </transaction>
   <transaction ref="24-GOV-US-005-02">
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2024-07-11"></transaction-date>
@@ -214,7 +203,18 @@ The activities of the UNHCR operation in Poland are governed by the Financial Ru
    </provider-org>
    <aid-type code="2" vocabulary="2"></aid-type>
    <aid-type code="B03" vocabulary="1"></aid-type>
-   <unhcr:value-USD>196880</unhcr:value-USD>
+   <ns0:value-USD>196880</ns0:value-USD>
+  </transaction>
+  <transaction ref="24-GOV-DE-006-01">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2024-11-28"></transaction-date>
+   <value currency="EUR" value-date="2024-11-28">5995950</value>
+   <provider-org ref="XM-DAC-5-7" type="10">
+    <narrative xml:lang="EN">Germany - Federal Foreign Office</narrative>
+   </provider-org>
+   <aid-type code="2" vocabulary="2"></aid-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
+   <ns0:value-USD>6358378</ns0:value-USD>
   </transaction>
   <transaction ref="24-GOV-US-005-10">
    <transaction-type code="11"></transaction-type>
@@ -225,40 +225,7 @@ The activities of the UNHCR operation in Poland are governed by the Financial Ru
    </provider-org>
    <aid-type code="2" vocabulary="2"></aid-type>
    <aid-type code="B03" vocabulary="1"></aid-type>
-   <unhcr:value-USD>762242</unhcr:value-USD>
-  </transaction>
-  <transaction ref="23-GOV-JP-025-01">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2023-12-14"></transaction-date>
-   <value currency="USD" value-date="2023-12-14">2900000</value>
-   <provider-org ref="XM-DAC-701-2" type="10">
-    <narrative xml:lang="EN">Ministry of Foreign Affairs of  Japan</narrative>
-   </provider-org>
-   <aid-type code="3" vocabulary="2"></aid-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
-   <unhcr:value-USD>2900000</unhcr:value-USD>
-  </transaction>
-  <transaction ref="24-GOV-KR-008-01">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2024-06-12"></transaction-date>
-   <value currency="USD" value-date="2024-06-12">5000000</value>
-   <provider-org ref="KR-GOV-010" type="10">
-    <narrative xml:lang="EN">Republic of Korea</narrative>
-   </provider-org>
-   <aid-type code="3" vocabulary="2"></aid-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
-   <unhcr:value-USD>5000000</unhcr:value-USD>
-  </transaction>
-  <transaction ref="24-GOV-US-005-02">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2024-07-11"></transaction-date>
-   <value currency="USD" value-date="2024-07-11">6800000</value>
-   <provider-org ref="US-USAGOV" type="10">
-    <narrative xml:lang="EN">United States of America (Government of)</narrative>
-   </provider-org>
-   <aid-type code="3" vocabulary="2"></aid-type>
-   <aid-type code="B03" vocabulary="1"></aid-type>
-   <unhcr:value-USD>6800000</unhcr:value-USD>
+   <ns0:value-USD>762242</ns0:value-USD>
   </transaction>
   <transaction ref="24-GOV-US-009-04">
    <transaction-type code="11"></transaction-type>
@@ -269,7 +236,40 @@ The activities of the UNHCR operation in Poland are governed by the Financial Ru
    </provider-org>
    <aid-type code="3" vocabulary="2"></aid-type>
    <aid-type code="B03" vocabulary="1"></aid-type>
-   <unhcr:value-USD>10200000</unhcr:value-USD>
+   <ns0:value-USD>10200000</ns0:value-USD>
+  </transaction>
+  <transaction ref="23-GOV-JP-025-01">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2023-12-14"></transaction-date>
+   <value currency="USD" value-date="2023-12-14">2900000</value>
+   <provider-org ref="XM-DAC-701-2" type="10">
+    <narrative xml:lang="EN">Ministry of Foreign Affairs of  Japan</narrative>
+   </provider-org>
+   <aid-type code="3" vocabulary="2"></aid-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
+   <ns0:value-USD>2900000</ns0:value-USD>
+  </transaction>
+  <transaction ref="24-GOV-KR-008-01">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2024-06-12"></transaction-date>
+   <value currency="USD" value-date="2024-06-12">5000000</value>
+   <provider-org ref="KR-GOV-010" type="10">
+    <narrative xml:lang="EN">Republic of Korea</narrative>
+   </provider-org>
+   <aid-type code="3" vocabulary="2"></aid-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
+   <ns0:value-USD>5000000</ns0:value-USD>
+  </transaction>
+  <transaction ref="24-GOV-US-005-02">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2024-07-11"></transaction-date>
+   <value currency="USD" value-date="2024-07-11">6800000</value>
+   <provider-org ref="US-USAGOV" type="10">
+    <narrative xml:lang="EN">United States of America (Government of)</narrative>
+   </provider-org>
+   <aid-type code="3" vocabulary="2"></aid-type>
+   <aid-type code="B03" vocabulary="1"></aid-type>
+   <ns0:value-USD>6800000</ns0:value-USD>
   </transaction>
   <transaction ref="23-GOV-PL-003-03">
    <transaction-type code="11"></transaction-type>
@@ -283,7 +283,7 @@ The activities of the UNHCR operation in Poland are governed by the Financial Ru
    </provider-org>
    <aid-type code="4" vocabulary="2"></aid-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
-   <unhcr:value-USD>43500</unhcr:value-USD>
+   <ns0:value-USD>43500</ns0:value-USD>
   </transaction>
   <transaction ref="23-GOV-PL-003-04">
    <transaction-type code="11"></transaction-type>
@@ -297,29 +297,7 @@ The activities of the UNHCR operation in Poland are governed by the Financial Ru
    </provider-org>
    <aid-type code="4" vocabulary="2"></aid-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
-   <unhcr:value-USD>43500</unhcr:value-USD>
-  </transaction>
-  <transaction ref="24-UN-MPTF-CSV-002-01">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2024-04-26"></transaction-date>
-   <value currency="USD" value-date="2024-04-26">214000</value>
-   <provider-org type="40">
-    <narrative xml:lang="EN">Conflict-Related Sexual Violence MPTF</narrative>
-   </provider-org>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <unhcr:value-USD>214000</unhcr:value-USD>
-  </transaction>
-  <transaction ref="22-GOV-LU-001-03">
-   <transaction-type code="11"></transaction-type>
-   <transaction-date iso-date="2023-09-08"></transaction-date>
-   <value currency="EUR" value-date="2023-09-08">51883</value>
-   <provider-org ref="XM-DAC-22-2" type="10">
-    <narrative xml:lang="EN">Luxembourg (Government of)</narrative>
-   </provider-org>
-   <aid-type code="4" vocabulary="2"></aid-type>
-   <aid-type code="C01" vocabulary="1"></aid-type>
-   <unhcr:value-USD>56765</unhcr:value-USD>
+   <ns0:value-USD>43500</ns0:value-USD>
   </transaction>
   <transaction ref="25-NAP-PT-001-01">
    <transaction-type code="11"></transaction-type>
@@ -330,7 +308,7 @@ The activities of the UNHCR operation in Poland are governed by the Financial Ru
    </provider-org>
    <aid-type code="4" vocabulary="2"></aid-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
-   <unhcr:value-USD>104167</unhcr:value-USD>
+   <ns0:value-USD>104167</ns0:value-USD>
   </transaction>
   <transaction ref="23-GOV-US-035-01">
    <transaction-type code="11"></transaction-type>
@@ -341,103 +319,29 @@ The activities of the UNHCR operation in Poland are governed by the Financial Ru
    </provider-org>
    <aid-type code="4" vocabulary="2"></aid-type>
    <aid-type code="C01" vocabulary="1"></aid-type>
-   <unhcr:value-USD>120424</unhcr:value-USD>
+   <ns0:value-USD>120424</ns0:value-USD>
   </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2024-01-31"></transaction-date>
-   <value currency="USD" value-date="2024-01-31">7075024</value>
-   <description>
-    <narrative xml:lang="EN">Funding Update</narrative>
-   </description>
-   <receiver-org type="40">
-    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
-   </receiver-org>
-   <unhcr:value-USD>7075024</unhcr:value-USD>
+  <transaction ref="24-UN-MPTF-CSV-002-01">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2024-04-26"></transaction-date>
+   <value currency="USD" value-date="2024-04-26">214000</value>
+   <provider-org type="40">
+    <narrative xml:lang="EN">Conflict-Related Sexual Violence MPTF</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <ns0:value-USD>214000</ns0:value-USD>
   </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2024-02-29"></transaction-date>
-   <value currency="USD" value-date="2024-02-29">2909829</value>
-   <description>
-    <narrative xml:lang="EN">Funding Update</narrative>
-   </description>
-   <receiver-org type="40">
-    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
-   </receiver-org>
-   <unhcr:value-USD>2909829</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2024-04-30"></transaction-date>
-   <value currency="USD" value-date="2024-04-30">500444</value>
-   <description>
-    <narrative xml:lang="EN">Funding Update</narrative>
-   </description>
-   <receiver-org type="40">
-    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
-   </receiver-org>
-   <unhcr:value-USD>500444</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2024-05-31"></transaction-date>
-   <value currency="USD" value-date="2024-05-31">997599</value>
-   <description>
-    <narrative xml:lang="EN">Funding Update</narrative>
-   </description>
-   <receiver-org type="40">
-    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
-   </receiver-org>
-   <unhcr:value-USD>997599</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2024-06-30"></transaction-date>
-   <value currency="USD" value-date="2024-06-30">11015265</value>
-   <description>
-    <narrative xml:lang="EN">Funding Update</narrative>
-   </description>
-   <receiver-org type="40">
-    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
-   </receiver-org>
-   <unhcr:value-USD>11015265</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2024-08-31"></transaction-date>
-   <value currency="USD" value-date="2024-08-31">6123397</value>
-   <description>
-    <narrative xml:lang="EN">Funding Update</narrative>
-   </description>
-   <receiver-org type="40">
-    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
-   </receiver-org>
-   <unhcr:value-USD>6123397</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2024-09-30"></transaction-date>
-   <value currency="USD" value-date="2024-09-30">3472955</value>
-   <description>
-    <narrative xml:lang="EN">Funding Update</narrative>
-   </description>
-   <receiver-org type="40">
-    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
-   </receiver-org>
-   <unhcr:value-USD>3472955</unhcr:value-USD>
-  </transaction>
-  <transaction>
-   <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2024-10-31"></transaction-date>
-   <value currency="USD" value-date="2024-10-31">55110</value>
-   <description>
-    <narrative xml:lang="EN">Funding Update</narrative>
-   </description>
-   <receiver-org type="40">
-    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
-   </receiver-org>
-   <unhcr:value-USD>55110</unhcr:value-USD>
+  <transaction ref="22-GOV-LU-001-03">
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2023-09-08"></transaction-date>
+   <value currency="EUR" value-date="2023-09-08">51883</value>
+   <provider-org ref="XM-DAC-22-2" type="10">
+    <narrative xml:lang="EN">Luxembourg (Government of)</narrative>
+   </provider-org>
+   <aid-type code="4" vocabulary="2"></aid-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <ns0:value-USD>56765</ns0:value-USD>
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -449,7 +353,7 @@ The activities of the UNHCR operation in Poland are governed by the Financial Ru
    <receiver-org type="40">
     <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
    </receiver-org>
-   <unhcr:value-USD>-1226248</unhcr:value-USD>
+   <ns0:value-USD>-1226248</ns0:value-USD>
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -461,7 +365,103 @@ The activities of the UNHCR operation in Poland are governed by the Financial Ru
    <receiver-org type="40">
     <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
    </receiver-org>
-   <unhcr:value-USD>-72749</unhcr:value-USD>
+   <ns0:value-USD>-72749</ns0:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2024-06-30"></transaction-date>
+   <value currency="USD" value-date="2024-06-30">11015265</value>
+   <description>
+    <narrative xml:lang="EN">Funding Update</narrative>
+   </description>
+   <receiver-org type="40">
+    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
+   </receiver-org>
+   <ns0:value-USD>11015265</ns0:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2024-02-29"></transaction-date>
+   <value currency="USD" value-date="2024-02-29">2909829</value>
+   <description>
+    <narrative xml:lang="EN">Funding Update</narrative>
+   </description>
+   <receiver-org type="40">
+    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
+   </receiver-org>
+   <ns0:value-USD>2909829</ns0:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2024-09-30"></transaction-date>
+   <value currency="USD" value-date="2024-09-30">3472955</value>
+   <description>
+    <narrative xml:lang="EN">Funding Update</narrative>
+   </description>
+   <receiver-org type="40">
+    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
+   </receiver-org>
+   <ns0:value-USD>3472955</ns0:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2024-04-30"></transaction-date>
+   <value currency="USD" value-date="2024-04-30">500444</value>
+   <description>
+    <narrative xml:lang="EN">Funding Update</narrative>
+   </description>
+   <receiver-org type="40">
+    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
+   </receiver-org>
+   <ns0:value-USD>500444</ns0:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2024-10-31"></transaction-date>
+   <value currency="USD" value-date="2024-10-31">55110</value>
+   <description>
+    <narrative xml:lang="EN">Funding Update</narrative>
+   </description>
+   <receiver-org type="40">
+    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
+   </receiver-org>
+   <ns0:value-USD>55110</ns0:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2024-08-31"></transaction-date>
+   <value currency="USD" value-date="2024-08-31">6123397</value>
+   <description>
+    <narrative xml:lang="EN">Funding Update</narrative>
+   </description>
+   <receiver-org type="40">
+    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
+   </receiver-org>
+   <ns0:value-USD>6123397</ns0:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2024-01-31"></transaction-date>
+   <value currency="USD" value-date="2024-01-31">7075024</value>
+   <description>
+    <narrative xml:lang="EN">Funding Update</narrative>
+   </description>
+   <receiver-org type="40">
+    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
+   </receiver-org>
+   <ns0:value-USD>7075024</ns0:value-USD>
+  </transaction>
+  <transaction>
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2024-05-31"></transaction-date>
+   <value currency="USD" value-date="2024-05-31">997599</value>
+   <description>
+    <narrative xml:lang="EN">Funding Update</narrative>
+   </description>
+   <receiver-org type="40">
+    <narrative xml:lang="EN">United Nations High Commissioner for Refugees (UNHCR)</narrative>
+   </receiver-org>
+   <ns0:value-USD>997599</ns0:value-USD>
   </transaction>
   <transaction>
    <transaction-type code="3"></transaction-type>
