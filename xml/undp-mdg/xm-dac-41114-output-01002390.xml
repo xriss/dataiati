@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" hierarchy="2" iati-activities:version="2.03" xml:lang="FR" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="FR" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-01002390</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="FR">United Nations Development Programme</narrative>
@@ -50,10 +50,12 @@
    <narrative xml:lang="FR">Structural transformation, including green, inclusive and digital transitions</narrative>
   </sector>
   <sector code="25010" percentage="100" vocabulary="1"></sector>
-  <sector code="8.3" percentage="100" vocabulary="8"></sector>
+  <sector code="8.3" percentage="50" vocabulary="8"></sector>
+  <sector code="9.3" percentage="50" vocabulary="8"></sector>
   <tag code="8.3" vocabulary="3"></tag>
-  <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2">
-   <narrative xml:lang="FR">Global COVID-19</narrative>
+  <tag code="9.3" vocabulary="3"></tag>
+  <humanitarian-scope code="Emergency" type="1" vocabulary="1-2">
+   <narrative xml:lang="FR">All types of emergencies that are determined by GLIDE number. These are mostly, if not all, outside of any coordinated appeals or joint response plans</narrative>
   </humanitarian-scope>
   <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
@@ -245,8 +247,8 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2026-01-26"></transaction-date>
-   <value currency="USD" value-date="2026-01-26">-1899</value>
+   <transaction-date iso-date="2026-01-31"></transaction-date>
+   <value currency="USD" value-date="2026-01-31">-1332</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
@@ -323,8 +325,7 @@ a) PME et b) PMI proposant des emplois d&#xe9;cents</narrative>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
-     <target value="200"></target>
-     <actual value="146"></actual>
+     <target value="151"></target>
     </period>
    </indicator>
    <indicator aggregation-status="1" ascending="0" measure="1">
@@ -395,7 +396,7 @@ a) PME et b) PMI proposant des emplois d&#xe9;cents</narrative>
      <narrative xml:lang="FR">Nombre d&apos;initiatives de d&#xe9;veloppement men&#xe9;es</narrative>
     </title>
     <description>
-     <narrative xml:lang="FR">Nombre d&apos;initiatives de d&#xe9;veloppement men&#xe9;es</narrative>
+     <narrative xml:lang="FR">Nombre d&apos;initiatives de d&#xe9;veloppement men&#xe9;es :  il s&apos;agit de m&#xe9;canisme ou outils mis en &#x153;uvre pour appuyer l&apos;atteintes des autres indicateurs du Projet</narrative>
     </description>
     <baseline value="0" year="2024"></baseline>
     <period>
@@ -403,6 +404,11 @@ a) PME et b) PMI proposant des emplois d&#xe9;cents</narrative>
      <period-end iso-date="2024-12-31"></period-end>
      <target value="0"></target>
      <actual value="0"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="1"></target>
     </period>
    </indicator>
   </result>
