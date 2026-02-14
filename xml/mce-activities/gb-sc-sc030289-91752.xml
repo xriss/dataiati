@@ -23,16 +23,30 @@
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
-  <budget status="1" type="1">
+  <budget status="2" type="1">
    <period-start iso-date="2025-08-05"></period-start>
    <period-end iso-date="2025-12-31"></period-end>
-   <value currency="GBP" value-date="2025-12-31">6666.67</value>
+   <value currency="GBP" value-date="2025-12-31">6666666.67</value>
   </budget>
-  <budget status="1" type="1">
+  <budget status="2" type="1">
    <period-start iso-date="2026-01-01"></period-start>
-   <period-end iso-date="2026-03-31"></period-end>
-   <value currency="GBP" value-date="2026-03-31">3333.33</value>
+   <period-end iso-date="2026-12-31"></period-end>
+   <value currency="GBP" value-date="2026-12-31">3333333.33</value>
   </budget>
+  <transaction humanitarian="0" ref="D-IRC-01">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="GBP" value-date="2025-12-31">220000</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement to partner</narrative>
+   </description>
+   <provider-org ref="GB-SC-SC030289" type="21">
+    <narrative xml:lang="EN">Mercy Corps Europe</narrative>
+   </provider-org>
+   <receiver-org ref="GB-CHC-1065972" type="21">
+    <narrative xml:lang="EN">IRC</narrative>
+   </receiver-org>
+  </transaction>
   <transaction humanitarian="0" ref="D-SWC-01">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2025-09-30"></transaction-date>
@@ -51,6 +65,20 @@
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2025-09-30"></transaction-date>
    <value currency="GBP" value-date="2025-09-30">369970.35</value>
+   <description>
+    <narrative xml:lang="EN">Disbursement to partner</narrative>
+   </description>
+   <provider-org ref="GB-SC-SC030289" type="21">
+    <narrative xml:lang="EN">Mercy Corps Europe</narrative>
+   </provider-org>
+   <receiver-org type="22">
+    <narrative xml:lang="EN">Various Local Partners</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction humanitarian="0" ref="D-LOC-02">
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="GBP" value-date="2025-12-31">695463.78</value>
    <description>
     <narrative xml:lang="EN">Disbursement to partner</narrative>
    </description>
