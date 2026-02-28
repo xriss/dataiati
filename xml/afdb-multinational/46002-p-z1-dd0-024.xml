@@ -252,6 +252,24 @@
   <capital-spend percentage="0"></capital-spend>
   <transaction afdb:finance-type-id="2100155043472">
    <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2026-02-15"></transaction-date>
+   <value currency="XDR" value-date="2026-02-15">14943.52</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in February of 2026</narrative>
+   </description>
+   <provider-org ref="XM-DAC-46003">
+    <narrative xml:lang="EN">African Development Fund</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Minist&#xe8;re des Transports maritimes et a&#xe9;riens</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="2100155043472">
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2026-01-15"></transaction-date>
    <value currency="XDR" value-date="2026-01-15">4397009.2</value>
    <description>
@@ -312,7 +330,7 @@
     <narrative xml:lang="EN">African Development Fund</narrative>
    </provider-org>
    <receiver-org>
-    <narrative xml:lang="EN">Government of Multinational Ministry of Finance</narrative>
+    <narrative xml:lang="EN">Gouvernement des Comores</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
    <finance-type code="110"></finance-type>
@@ -354,9 +372,6 @@
    <provider-org ref="Z1-COA-GOV">
     <narrative xml:lang="EN">Government of Multinational</narrative>
    </provider-org>
-   <receiver-org>
-    <narrative xml:lang="EN">Government of Multinational Ministry of Finance</narrative>
-   </receiver-org>
    <flow-type code="10"></flow-type>
    <tied-status code="5"></tied-status>
   </transaction>
@@ -435,31 +450,18 @@
   </conditions>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Average waiting time for vessels on the roadstead (anchorage) in the ports of Moroni and Boingoma</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Day</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="1.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
     <narrative xml:lang="EN">Increased volume of goods traded between Comorian ports, COMESA, and Indian Ocean islands - which are Export</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">%</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="1.5"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -471,40 +473,46 @@
     <title>
      <narrative xml:lang="EN">Km</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="1.7"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Indirect jobs created - of which youth</narrative>
+    <narrative xml:lang="EN">Indirect jobs - of which are for youth</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="10.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Training course for 10 young graduate engineers,g course for 10 young graduate engineers</narrative>
+    <narrative xml:lang="EN">People trained</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="10.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -516,25 +524,12 @@
     <title>
      <narrative xml:lang="EN">TEU/month</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="100.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Value of trade between the Comoros and other African countries</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">USD million</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="12.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -546,40 +541,46 @@
     <title>
      <narrative xml:lang="EN">M</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="136.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Direct jobs created - of which women</narrative>
+    <narrative xml:lang="EN">Direct jobs created - of which re for women</narrative>
    </title>
-   <indicator measure="2">
+   <indicator ascending="1" measure="2">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="150.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Indirect jobs created</narrative>
+    <narrative xml:lang="EN">Indirect jobs</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="1500.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -587,14 +588,16 @@
    <title>
     <narrative xml:lang="EN">Increased fishery and agricultural products exports to COMESA member countries</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Ton/year</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="180.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -606,40 +609,12 @@
     <title>
      <narrative xml:lang="EN">Ha</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="2.5"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Reduction in the number of days each year that the Port of Boingoma is not operational due to weather conditions</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Days</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="20.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Average monthly traffic level for containers handled in the ports of Moroni and Boingoma - Which are Moroni</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">TEU/month</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="2350.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -651,25 +626,12 @@
     <title>
      <narrative xml:lang="EN">M</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="240.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Average monthly traffic level for containers handled in the ports of Moroni and Boingoma - Which are Boingoma</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">TEU/month</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="2400.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -681,10 +643,12 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="2600.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -692,14 +656,16 @@
    <title>
     <narrative xml:lang="EN">Increased volume of goods traded between Comorian ports, COMESA, and Indian Ocean islands - which are Import</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">%</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="3.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -711,10 +677,12 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="3.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -726,10 +694,12 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="3.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -741,10 +711,12 @@
     <title>
      <narrative xml:lang="EN">%</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="30.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -756,100 +728,12 @@
     <title>
      <narrative xml:lang="EN">Ha</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="35.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Indirect jobs created - of which women</narrative>
-   </title>
-   <indicator measure="2">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="450.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Number of tourists per year</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="45000.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Support for SMEs working in the fisheries sector</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="5.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Training course for 10 young graduate engineers,g course for 10 young graduate engineers - of which girls</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="5.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Direct jobs created - of which youth</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="50.0"></target>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
-    <narrative xml:lang="EN">Direct jobs created</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="500.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -861,25 +745,97 @@
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="6500.0"></target>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="3900.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Available terminal capacity - which are Moroni</narrative>
+    <narrative xml:lang="EN">Indirect jobs - of which re for women</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="450.0"></target>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">People trained - of which women</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="5.0"></target>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Support for SMEs working in the fisheries sector</narrative>
    </title>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">Ton/Day</narrative>
+     <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="660.0"></target>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="5.0"></target>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Direct jobs created - of which are for youth</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="50.0"></target>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Direct jobs created</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="0.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="500.0"></target>
+     <actual value="0.0"></actual>
     </period>
    </indicator>
   </result>
@@ -891,10 +847,131 @@
     <title>
      <narrative xml:lang="EN">Ton/Day</narrative>
     </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="100.0"></baseline>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="750.0"></target>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="850.0"></target>
+     <actual value="100.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Reduction in the number of days each year that the Port of Boingoma is not operational due to weather conditions</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Days</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="116.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="20.0"></target>
+     <actual value="116.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Average monthly traffic level for containers handled in the ports of Moroni and Boingoma - Which are Boingoma</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">TEU/month</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="1200.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="3600.0"></target>
+     <actual value="1200.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Average monthly traffic level for containers handled in the ports of Moroni and Boingoma - Which are Moroni</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">TEU/month</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="1850.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="4200.0"></target>
+     <actual value="1850.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Available terminal capacity - which are Moroni</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Ton/Day</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="250.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="910.0"></target>
+     <actual value="250.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Value of trade between the Comoros and other African countries</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">USD million</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="38.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="50.0"></target>
+     <actual value="38.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Average waiting time for vessels on the roadstead (anchorage) in the ports of Moroni and Boingoma</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Day</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="4.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="1.0"></target>
+     <actual value="4.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of tourists per year</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <baseline afdb:year="2024" iso-date="2024-01-01" value="45000.0"></baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="90000.0"></target>
+     <actual value="45000.0"></actual>
     </period>
    </indicator>
   </result>
@@ -908,8 +985,9 @@
     </title>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="Yes"></target>
+     <actual value="No"></actual>
     </period>
    </indicator>
   </result>
@@ -923,8 +1001,9 @@
     </title>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="Yes"></target>
+     <actual value="No"></actual>
     </period>
    </indicator>
   </result>
@@ -938,8 +1017,9 @@
     </title>
     <period>
      <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="Yes"></target>
+     <actual value="No"></actual>
     </period>
    </indicator>
   </result>
