@@ -65,6 +65,11 @@ Food assistance coverage in Boudouri settlement is not sufficient, especially no
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
+  <budget type="2">
+   <period-start iso-date="2018-01-01"></period-start>
+   <period-end iso-date="2018-12-31"></period-end>
+   <value currency="EUR" value-date="2026-03-13">10202</value>
+  </budget>
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2018-11-01"></transaction-date>
@@ -74,9 +79,36 @@ Food assistance coverage in Boudouri settlement is not sufficient, especially no
    </description>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-03-01"></transaction-date>
+   <value currency="EUR" value-date="2026-03-01">30000</value>
+   <description>
+    <narrative xml:lang="EN">Oxfam Spain funding with back donor</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-03-01"></transaction-date>
+   <value currency="EUR" value-date="2026-03-01">-30000</value>
+   <description>
+    <narrative xml:lang="EN">Unders/overspending Donor Funds</narrative>
+   </description>
+  </transaction>
+  <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2018-11-01"></transaction-date>
    <value currency="EUR" value-date="2018-11-01">10202</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org ref="NL-KVK-27108436">
+    <narrative xml:lang="EN">Oxfam Novib</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2026-03-01"></transaction-date>
+   <value currency="EUR" value-date="2026-03-01">-30000</value>
    <description>
     <narrative xml:lang="EN">incoming transaction</narrative>
    </description>

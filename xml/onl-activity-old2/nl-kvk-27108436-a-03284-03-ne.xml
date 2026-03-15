@@ -73,17 +73,22 @@ The expected results are:
   <budget type="2">
    <period-start iso-date="2013-10-31"></period-start>
    <period-end iso-date="2013-12-31"></period-end>
-   <value currency="EUR" value-date="2026-03-12">14490</value>
+   <value currency="EUR" value-date="2026-03-13">14490</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2014-01-01"></period-start>
    <period-end iso-date="2014-12-31"></period-end>
-   <value currency="EUR" value-date="2026-03-12">88396</value>
+   <value currency="EUR" value-date="2026-03-13">88396</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2015-01-01"></period-start>
-   <period-end iso-date="2015-06-30"></period-end>
-   <value currency="EUR" value-date="2026-03-12">69676</value>
+   <period-end iso-date="2015-12-31"></period-end>
+   <value currency="EUR" value-date="2026-03-13">69676</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2016-01-01"></period-start>
+   <period-end iso-date="2016-12-31"></period-end>
+   <value currency="EUR" value-date="2026-03-13">9597</value>
   </budget>
   <transaction>
    <transaction-type code="4"></transaction-type>
@@ -295,6 +300,14 @@ The expected results are:
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-03-01"></transaction-date>
+   <value currency="EUR" value-date="2026-03-01">5078</value>
+   <description>
+    <narrative xml:lang="EN">Oxfam Belgium back donor</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2013-10-01"></transaction-date>
    <value currency="EUR" value-date="2013-10-01">5042</value>
    <description>
@@ -358,6 +371,14 @@ The expected results are:
    </description>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-03-01"></transaction-date>
+   <value currency="EUR" value-date="2026-03-01">-5078</value>
+   <description>
+    <narrative xml:lang="EN">Unders/overspending Donor Funds</narrative>
+   </description>
+  </transaction>
+  <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2013-10-01"></transaction-date>
    <value currency="EUR" value-date="2013-10-01">5042</value>
@@ -438,6 +459,17 @@ The expected results are:
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2016-05-01"></transaction-date>
    <value currency="EUR" value-date="2016-05-01">-9597</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org ref="NL-KVK-27108436">
+    <narrative xml:lang="EN">Oxfam Novib</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2026-03-01"></transaction-date>
+   <value currency="EUR" value-date="2026-03-01">-5078</value>
    <description>
     <narrative xml:lang="EN">incoming transaction</narrative>
    </description>
