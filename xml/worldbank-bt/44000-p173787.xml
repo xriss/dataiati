@@ -77,9 +77,6 @@
   <sector code="000062" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disease Control</narrative>
   </sector>
-  <sector code="000062" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Disease Control</narrative>
-  </sector>
   <sector code="HQ" percentage="53" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">FY17 - Health Facilities and Construction</narrative>
   </sector>
@@ -97,6 +94,18 @@
   </sector>
   <sector code="000632" percentage="58" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health Service Delivery</narrative>
+  </sector>
+  <sector code="000632" percentage="58" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health Service Delivery</narrative>
+  </sector>
+  <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health System Strengthening</narrative>
+  </sector>
+  <sector code="000626" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Pandemic Response</narrative>
+  </sector>
+  <sector code="000626" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Pandemic Response</narrative>
   </sector>
   <sector code="12110" percentage="4" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12191" percentage="30" vocabulary="1" xml:lang="EN"></sector>
@@ -1568,7 +1577,7 @@
    </title>
    <indicator ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">Percentage of received grievances that are addressed (within specified time/protocol)</narrative>
+     <narrative xml:lang="EN">Percentage of specimens submitted for SARS-COV2 laboratory testing and confirmed within WHO stipulated standard time</narrative>
     </title>
     <baseline iso-date="2020-01-10" value="0.00" year="2020">
      <comment>
@@ -1578,7 +1587,12 @@
     <period>
      <period-start iso-date="2020-01-10"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="80.00"></target>
+     <target value="95.00">
+      <comment>
+       <narrative xml:lang="EN">Numerator= all test results of specimens for SARS-COV2 testing brought to designated laboratory within WHO stipulated standard time
+Denominator= all specimens for SARS-COV2 testing brought to the designated laboratory</narrative>
+      </comment>
+     </target>
      <actual value="100.00"></actual>
     </period>
    </indicator>
@@ -1599,7 +1613,12 @@
     <period>
      <period-start iso-date="2020-01-10"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="90.00"></target>
+     <target value="90.00">
+      <comment>
+       <narrative xml:lang="EN">Numerator= number of suspected cases of COVID-19 tested and managed as per the approved protocol
+Denominator= number of suspected COVID-19 cases notified</narrative>
+      </comment>
+     </target>
      <actual value="100.00"></actual>
     </period>
    </indicator>
@@ -1610,7 +1629,7 @@
    </title>
    <indicator ascending="1" measure="2">
     <title>
-     <narrative xml:lang="EN">Percentage of specimens submitted for SARS-COV2 laboratory testing and confirmed within WHO stipulated standard time</narrative>
+     <narrative xml:lang="EN">Percentage of received grievances that are addressed (within specified time/protocol)</narrative>
     </title>
     <baseline iso-date="2020-01-10" value="0.00" year="2020">
      <comment>
@@ -1620,7 +1639,11 @@
     <period>
      <period-start iso-date="2020-01-10"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="95.00"></target>
+     <target value="80.00">
+      <comment>
+       <narrative xml:lang="EN">&#xe2;&#x20ac;&#xa2;	Grievances are defined as both complaints and request for information related to COVID-19 response and access to services&#xe2;&#x20ac;&#xa2;	Specified time for response to information is 5 working days and specified time for resolution of complaints is 30 working days&#xe2;&#x20ac;&#xa2;	Denominator is total number of complaints and request for information received&#xe2;&#x20ac;&#xa2;	Numerator is number of complaints and request for information responded as per specified time.</narrative>
+      </comment>
+     </target>
      <actual value="100.00"></actual>
     </period>
    </indicator>
@@ -1641,7 +1664,11 @@
     <period>
      <period-start iso-date="2020-01-10"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="100.00"></target>
+     <target value="100.00">
+      <comment>
+       <narrative xml:lang="EN">The health staff in the designated health care facilities are to be trained on infection, prevention and control measures. It is a cumulative figure</narrative>
+      </comment>
+     </target>
      <actual value="353.00"></actual>
     </period>
    </indicator>
@@ -1662,29 +1689,12 @@
     <period>
      <period-start iso-date="2020-01-10"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="6.00"></target>
+     <target value="6.00">
+      <comment>
+       <narrative xml:lang="EN">Government and World Bank team conduct joint supervision and monitoring visits to field</narrative>
+      </comment>
+     </target>
      <actual value="5.00"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
-   </title>
-   <indicator ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of acute healthcare facilities with triage capacity</narrative>
-    </title>
-    <baseline iso-date="2020-01-10" value="1.00" year="2020">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-10"></period-start>
-     <period-end iso-date="2023-12-31"></period-end>
-     <target value="10.00"></target>
-     <actual value="4.00"></actual>
     </period>
    </indicator>
   </result>
@@ -1704,18 +1714,47 @@
     <period>
      <period-start iso-date="2020-01-10"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="3.00"></target>
+     <target value="3.00">
+      <comment>
+       <narrative xml:lang="EN">A healthcare facility should have at least 5 isolation bed facilities</narrative>
+      </comment>
+     </target>
      <actual value="4.00"></actual>
     </period>
    </indicator>
   </result>
-  <result aggregation-status="0" type="2">
+  <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Project&#xc2;&#xa0;Development&#xc2;&#xa0;Objectives</narrative>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of acute healthcare facilities with triage capacity</narrative>
+    </title>
+    <baseline iso-date="2020-01-10" value="1.00" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-10"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="10.00">
+      <comment>
+       <narrative xml:lang="EN">The  hospitals in the country which have triage facility</narrative>
+      </comment>
+     </target>
+     <actual value="4.00"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="5">
     <title>
-     <narrative xml:lang="EN">Bhutan has activated its public health Emergency Operations Centre or a coordination mechanism for COVID-19</narrative>
+     <narrative xml:lang="EN">M&amp;E system established to monitor COVID-19 preparedness and response plan</narrative>
     </title>
     <baseline iso-date="2020-01-10" value="No" year="2020">
      <comment>
@@ -1725,7 +1764,11 @@
     <period>
      <period-start iso-date="2020-01-10"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="Yes"></target>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">A monitoring, recording and reporting mechanism for COVID-19 is in place-either digital or manual.</narrative>
+      </comment>
+     </target>
      <actual value="Yes"></actual>
     </period>
    </indicator>
@@ -1746,7 +1789,36 @@
     <period>
      <period-start iso-date="2020-01-10"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="Yes"></target>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">Bhutan has adopted risk communication and community engagement strategies which include development of different communication materials and dissemination through various media channels including community engagement.</narrative>
+      </comment>
+     </target>
+     <actual value="Yes"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project&#xc2;&#xa0;Development&#xc2;&#xa0;Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Bhutan has activated its public health Emergency Operations Centre or a coordination mechanism for COVID-19</narrative>
+    </title>
+    <baseline iso-date="2020-01-10" value="No" year="2020">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2020-01-10"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">Health Emergency Operation Centre or similar coordination mechanism of MoH is activated as a secretariat for the effective administration of emergency preparedness and response.</narrative>
+      </comment>
+     </target>
      <actual value="Yes"></actual>
     </period>
    </indicator>
@@ -1767,28 +1839,11 @@
     <period>
      <period-start iso-date="2020-01-10"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="Yes"></target>
-     <actual value="Yes"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
-   </title>
-   <indicator ascending="1" measure="5">
-    <title>
-     <narrative xml:lang="EN">M&amp;E system established to monitor COVID-19 preparedness and response plan</narrative>
-    </title>
-    <baseline iso-date="2020-01-10" value="No" year="2020">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2020-01-10"></period-start>
-     <period-end iso-date="2023-12-31"></period-end>
-     <target value="Yes"></target>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">Through public channels, the Government has declared schools closures, telework and remote meetings, reduce/cancel mass gatherings.</narrative>
+      </comment>
+     </target>
      <actual value="Yes"></actual>
     </period>
    </indicator>
@@ -1809,7 +1864,11 @@
     <period>
      <period-start iso-date="2020-12-31"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="Yes"></target>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">A National Vaccination and Deployment Plan (NVDP) with input from relevant bodies (NITAG, DRA, National Immunization Program, National Regulatory Authority, AEFI committee), in line with WHO guidance and SAGE recommendations, established.</narrative>
+      </comment>
+     </target>
      <actual value="Yes"></actual>
     </period>
    </indicator>
@@ -1830,7 +1889,11 @@
     <period>
      <period-start iso-date="2020-12-31"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="Yes"></target>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">Guidelines, documented procedures and tools for planning and conducting vaccine pharmacovigilance activities (i.e., AEFI reporting, investigation, causality assessment, risk communication and response) are established and available.</narrative>
+      </comment>
+     </target>
      <actual value="Yes"></actual>
     </period>
    </indicator>
@@ -1851,7 +1914,11 @@
     <period>
      <period-start iso-date="2020-12-31"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="Yes"></target>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">Potential numbers of target populations estimated who will be prioritized for access to vaccines stratified by target group and geographic location, i.e., prepare first to define, identify and estimate no. of health care workers.</narrative>
+      </comment>
+     </target>
      <actual value="Yes"></actual>
     </period>
    </indicator>
@@ -1872,7 +1939,17 @@
     <period>
      <period-start iso-date="2021-09-29"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="5.60"></target>
+     <target value="5.60">
+      <comment>
+       <narrative xml:lang="EN">Numerator: 62,394 persons were provided 0.5ml dose of Moderna vaccine as primary series.
+
+Denominator: 756,129 total population
+
+&amp;nbsp;
+
+(Source: Vaccine Preventable Disease Program, DoPH/Health Management Information System, PPD)</narrative>
+      </comment>
+     </target>
      <actual value="8.30"></actual>
     </period>
    </indicator>
@@ -1893,7 +1970,17 @@
     <period>
      <period-start iso-date="2022-05-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="28.00"></target>
+     <target value="28.00">
+      <comment>
+       <narrative xml:lang="EN">Numerator: 346,571 persons &amp;gt;18 years received 0.25 ml per dose of Moderna vaccine as booster
+
+Denominator: 756,129 as total population
+
+&amp;nbsp;
+
+(Source: Vaccine Preventable Disease Program, DoPH/Health Management Information System, PPD)</narrative>
+      </comment>
+     </target>
      <actual value="45.80"></actual>
     </period>
    </indicator>

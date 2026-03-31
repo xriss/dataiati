@@ -60,7 +60,7 @@
    <location-reach code="1"></location-reach>
    <location-id code="0001168579" vocabulary="G1"></location-id>
    <name>
-    <narrative xml:lang="EN"></narrative>
+    <narrative xml:lang="EN">Islamic Republic of Pakistan</narrative>
    </name>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>30.375321 69.345116</pos>
@@ -68,9 +68,6 @@
    <exactness code="2"></exactness>
    <location-class code="1"></location-class>
   </location>
-  <sector code="000812" percentage="7" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Adaptation</narrative>
-  </sector>
   <sector code="000081" percentage="7" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Climate change</narrative>
   </sector>
@@ -86,14 +83,11 @@
   <sector code="HF" percentage="20" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">FY17 - Public Administration - Health</narrative>
   </sector>
-  <sector code="000754" percentage="87" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Flood and Drought Risk Management</narrative>
-  </sector>
   <sector code="000533" percentage="10" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Forced Displacement</narrative>
   </sector>
-  <sector code="000633" percentage="20" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Finance</narrative>
+  <sector code="000061" percentage="72" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Gender</narrative>
   </sector>
   <sector code="000632" percentage="95" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Health Service Delivery</narrative>
@@ -1157,7 +1151,11 @@
     <period>
      <period-start iso-date="1900-01-01"></period-start>
      <period-end iso-date="1900-01-01"></period-end>
-     <target></target>
+     <target>
+      <comment>
+       <narrative xml:lang="EN">CRI just added, will be populated in the next ISR</narrative>
+      </comment>
+     </target>
      <actual value="0"></actual>
     </period>
    </indicator>
@@ -1178,7 +1176,11 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="20% points above baseline"></target>
+     <target value="20% points above baseline">
+      <comment>
+       <narrative xml:lang="EN">Currently, this is not done at the GD level. This will be done through this project after the reconstructions are completed.</narrative>
+      </comment>
+     </target>
      <actual value="0"></actual>
     </period>
    </indicator>
@@ -1199,8 +1201,37 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="20% points above baseline"></target>
+     <target value="20% points above baseline">
+      <comment>
+       <narrative xml:lang="EN">This has been discontinued for all the HFs.</narrative>
+      </comment>
+     </target>
      <actual value="0.1 % points above baseline"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percent of women who are satisfied with health services provided</narrative>
+    </title>
+    <baseline iso-date="2022-06-30" value="0.00" year="2022">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2022-06-30"></period-start>
+     <period-end iso-date="2027-06-30"></period-end>
+     <target value="80.00">
+      <comment>
+       <narrative xml:lang="EN">This will be calculated from a survey which will be completed by late 2024.</narrative>
+      </comment>
+     </target>
+     <actual value="0.00"></actual>
     </period>
    </indicator>
   </result>
@@ -1229,27 +1260,6 @@
    <title>
     <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
    </title>
-   <indicator ascending="1" measure="2">
-    <title>
-     <narrative xml:lang="EN">Percent of women who are satisfied with health services provided</narrative>
-    </title>
-    <baseline iso-date="2022-06-30" value="0.00" year="2022">
-     <comment>
-      <narrative xml:lang="EN"></narrative>
-     </comment>
-    </baseline>
-    <period>
-     <period-start iso-date="2022-06-30"></period-start>
-     <period-end iso-date="2027-06-30"></period-end>
-     <target value="80.00"></target>
-     <actual value="0.00"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result aggregation-status="0" type="1">
-   <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
-   </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Cumulative number of facilities visited once a month by the District team of DMU/ DHO team</narrative>
@@ -1262,7 +1272,11 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="100.00"></target>
+     <target value="100.00">
+      <comment>
+       <narrative xml:lang="EN">Visits has not yet taken place from the Department of Health. It will start in the next calendar year once the construction works have started</narrative>
+      </comment>
+     </target>
      <actual value="13"></actual>
     </period>
    </indicator>
@@ -1283,7 +1297,11 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="1,000,000.00"></target>
+     <target value="1,000,000.00">
+      <comment>
+       <narrative xml:lang="EN">The reported data is till March 2024.</narrative>
+      </comment>
+     </target>
      <actual value="220334"></actual>
     </period>
    </indicator>
@@ -1304,7 +1322,13 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="1,500,000.00"></target>
+     <target value="1,500,000.00">
+      <comment>
+       <narrative xml:lang="EN">&amp;nbsp;
+
+The reported data is from DHIS for January to June 2023. The Department of Health have been working on data quality and hence the baseline data which was reported during preparation will need to be revised accordingly. The PMU is working closely with MIS to improve the data completeness and other data discrepancies. The baseline will be revised during the next mission.&amp;nbsp;/p&amp;gt;</narrative>
+      </comment>
+     </target>
      <actual value="29680"></actual>
     </period>
    </indicator>
@@ -1325,7 +1349,13 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="2,000.00"></target>
+     <target value="2,000.00">
+      <comment>
+       <narrative xml:lang="EN">&amp;nbsp;
+
+&amp;nbsp;</narrative>
+      </comment>
+     </target>
      <actual value="6363"></actual>
     </period>
    </indicator>
@@ -1367,7 +1397,11 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="50.00"></target>
+     <target value="50.00">
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
      <actual value="12"></actual>
     </period>
    </indicator>
@@ -1388,7 +1422,11 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="20% points above baseline"></target>
+     <target value="20% points above baseline">
+      <comment>
+       <narrative xml:lang="EN">The reported data is till June 2023. Further updates were not available as there were some data discrepancy issues with DHIS</narrative>
+      </comment>
+     </target>
      <actual value="15% points above baseline"></actual>
     </period>
    </indicator>
@@ -1409,7 +1447,11 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="30.00"></target>
+     <target value="30.00">
+      <comment>
+       <narrative xml:lang="EN">The data reported is for January to June 2023.&amp;nbsp;</narrative>
+      </comment>
+     </target>
      <actual value="4"></actual>
     </period>
    </indicator>
@@ -1430,7 +1472,11 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="70.00"></target>
+     <target value="70.00">
+      <comment>
+       <narrative xml:lang="EN">The reported data is from DHIS for January to June 2023. DHIS was using different filters during project preparation and hence the baseline reported was quite high. The Department of Health have been working on data quality . The PMU is working closely with MIS to improve the data completeness and other data discrepancies. Team will consider using this as a baseline and try to achieve the end target.</narrative>
+      </comment>
+     </target>
      <actual value="48"></actual>
     </period>
    </indicator>
@@ -1451,7 +1497,11 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="40.00"></target>
+     <target value="40.00">
+      <comment>
+       <narrative xml:lang="EN"></narrative>
+      </comment>
+     </target>
      <actual value="3"></actual>
     </period>
    </indicator>
@@ -1472,7 +1522,11 @@
     <period>
      <period-start iso-date="2022-06-30"></period-start>
      <period-end iso-date="2027-06-30"></period-end>
-     <target value="20% points above baseline"></target>
+     <target value="20% points above baseline">
+      <comment>
+       <narrative xml:lang="EN">95 GDs out of functioning 262 GDs reporting on DHIS have no stock-out</narrative>
+      </comment>
+     </target>
      <actual value="36% facilities has no stock out of medicines"></actual>
     </period>
    </indicator>

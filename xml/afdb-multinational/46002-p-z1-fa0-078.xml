@@ -405,6 +405,24 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
   </transaction>
   <transaction afdb:finance-type-id="5900155010502">
    <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2026-02-28"></transaction-date>
+   <value currency="XDR" value-date="2026-02-28">312827.12</value>
+   <description>
+    <narrative xml:lang="EN">Total Disbursement in February of 2026</narrative>
+   </description>
+   <provider-org ref="XM-DAC-TSF">
+    <narrative xml:lang="EN">Transition Support Facility</narrative>
+   </provider-org>
+   <receiver-org>
+    <narrative xml:lang="EN">Organisation de la CEPGL pour l&apos;Energie des Pays des Grands Lacs (EGL)</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="C01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction afdb:finance-type-id="5900155010502">
+   <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2018-01-31"></transaction-date>
    <value currency="XDR" value-date="2018-01-31">267681.51</value>
    <description>
@@ -501,7 +519,7 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
     <narrative xml:lang="EN">Transition Support Facility</narrative>
    </provider-org>
    <receiver-org>
-    <narrative xml:lang="EN">Gouv. Rep. Dem. du Congo (multinat.)</narrative>
+    <narrative xml:lang="EN">GOUV.  REP. DEM. DU CONGO (MULTINAT.)</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
    <finance-type code="110"></finance-type>
@@ -824,31 +842,16 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
   </conditions>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Number of sub-stations constructed</narrative>
-   </title>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number</narrative>
-    </title>
-    <period>
-     <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="1.0"></target>
-     <actual value="0.0"></actual>
-    </period>
-   </indicator>
-  </result>
-  <result type="1">
-   <title>
     <narrative xml:lang="EN">Report of study on optimization of power trading opportunities and maximization of project benefits</narrative>
    </title>
    <indicator measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="1.0"></target>
      <actual value="0.0"></actual>
     </period>
@@ -856,15 +859,33 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Jobs created (Staff recruited temporary jobs)</narrative>
+    <narrative xml:lang="EN">Number of direct and indirect temporary jobs created - of which are for women</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="2">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="100.0"></target>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of direct and indirect temporary jobs created</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="0.0"></baseline>
+    <period>
+     <period-start iso-date="2015-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="1000.0"></target>
      <actual value="0.0"></actual>
     </period>
@@ -876,11 +897,12 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
    </title>
    <indicator measure="1">
     <title>
-     <narrative xml:lang="EN">GWh</narrative>
+     <narrative xml:lang="EN">GWh/Year</narrative>
     </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="1181.0"></target>
      <actual value="0.0"></actual>
     </period>
@@ -894,9 +916,10 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
     <title>
      <narrative xml:lang="EN">Ton/Year</narrative>
     </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="1377000.0"></target>
      <actual value="0.0"></actual>
     </period>
@@ -910,9 +933,10 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
     <title>
      <narrative xml:lang="EN">MW</narrative>
     </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="206.0"></target>
      <actual value="0.0"></actual>
     </period>
@@ -926,9 +950,10 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="2362000.0"></target>
      <actual value="0.0"></actual>
     </period>
@@ -942,9 +967,10 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="45.0"></target>
      <actual value="0.0"></actual>
     </period>
@@ -952,15 +978,16 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
   </result>
   <result type="1">
    <title>
-    <narrative xml:lang="EN">Jobs created (Staff recruited long-term jobs)</narrative>
+    <narrative xml:lang="EN">Permanent jobs created</narrative>
    </title>
-   <indicator measure="1">
+   <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Number</narrative>
     </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="450.0"></target>
      <actual value="0.0"></actual>
     </period>
@@ -974,10 +1001,28 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
     <title>
      <narrative xml:lang="EN">Km</narrative>
     </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="0.0"></baseline>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="8.3"></target>
+     <actual value="0.0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result type="1">
+   <title>
+    <narrative xml:lang="EN">Number of sub-stations constructed</narrative>
+   </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number</narrative>
+    </title>
+    <baseline afdb:year="2015" iso-date="2015-01-01" value="1.0"></baseline>
+    <period>
+     <period-start iso-date="2015-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="1.0"></target>
      <actual value="0.0"></actual>
     </period>
    </indicator>
@@ -992,7 +1037,7 @@ dans la r&#xe9;gion et par la suite l&#x2019;acc&#xe8;s &#xe0; l&#x2019;&#xe9;le
     </title>
     <period>
      <period-start iso-date="2015-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
+     <period-end iso-date="2025-12-31"></period-end>
      <target value="Training programme fully implemented"></target>
      <actual value="Not yet"></actual>
     </period>
