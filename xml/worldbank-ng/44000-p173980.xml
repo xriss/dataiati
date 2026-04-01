@@ -194,11 +194,8 @@
    <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
-  <sector code="000812" percentage="10" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Adaptation</narrative>
-  </sector>
-  <sector code="000062" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Disease Control</narrative>
+  <sector code="000081" percentage="20" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Climate change</narrative>
   </sector>
   <sector code="000062" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Disease Control</narrative>
@@ -209,14 +206,23 @@
   <sector code="HF" percentage="10" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">FY17 - Public Administration - Health</narrative>
   </sector>
-  <sector code="000633" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Health Finance</narrative>
+  <sector code="000061" percentage="88" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Gender</narrative>
   </sector>
-  <sector code="000811" percentage="10" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Mitigation</narrative>
+  <sector code="000631" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Health System Strengthening</narrative>
+  </sector>
+  <sector code="000626" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Pandemic Response</narrative>
   </sector>
   <sector code="000072" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Rural Development</narrative>
+  </sector>
+  <sector code="000072" percentage="100" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Rural Development</narrative>
+  </sector>
+  <sector code="000724" percentage="88" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Rural Water and Sanitation</narrative>
   </sector>
   <sector code="000724" percentage="88" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Rural Water and Sanitation</narrative>
@@ -229,6 +235,8 @@
   </sector>
   <sector code="12110" percentage="50" vocabulary="1" xml:lang="EN"></sector>
   <sector code="12250" percentage="50" vocabulary="1" xml:lang="EN"></sector>
+  <humanitarian-scope code="EP-2020-000012-001" type="1" vocabulary="1-2"></humanitarian-scope>
+  <humanitarian-scope code="HCOVD20" type="2" vocabulary="2-1"></humanitarian-scope>
   <collaboration-type code="2"></collaboration-type>
   <default-aid-type code="C01" vocabulary="1" xml:lang="EN"></default-aid-type>
   <default-tied-status code="5"></default-tied-status>
@@ -1655,7 +1663,13 @@
     <period>
      <period-start iso-date="2020-04-15"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="75.00"></target>
+     <target value="75.00">
+      <comment>
+       <narrative xml:lang="EN">Numerator: Number of laboratories testing COVID-19 samples with 90% of the samples collected and results delivered within 48 hours in the preceding month
+
+Denominator: Number of laboratories testing COVID-19 samples</narrative>
+      </comment>
+     </target>
      <actual value="45.95"></actual>
     </period>
    </indicator>
@@ -1676,7 +1690,11 @@
     <period>
      <period-start iso-date="2020-04-22"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="30,000.00"></target>
+     <target value="30,000.00">
+      <comment>
+       <narrative xml:lang="EN">Number of health workers trained in infection prevention and control per national protocols</narrative>
+      </comment>
+     </target>
      <actual value="35,494.00"></actual>
     </period>
    </indicator>
@@ -1697,7 +1715,11 @@
     <period>
      <period-start iso-date="2020-05-20"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="37.00"></target>
+     <target value="37.00">
+      <comment>
+       <narrative xml:lang="EN">Number of states reporting designated isolation/treatment facilities with no stock out of basic IPC and WASH commodities in the previous quarter</narrative>
+      </comment>
+     </target>
      <actual value="17.00"></actual>
     </period>
    </indicator>
@@ -1718,7 +1740,11 @@
     <period>
      <period-start iso-date="2020-05-20"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="37.00"></target>
+     <target value="37.00">
+      <comment>
+       <narrative xml:lang="EN">Number of states with at least fifty health centers with triage capacity, per national guidelines on triage across all levels of facilities.</narrative>
+      </comment>
+     </target>
      <actual value="19.00"></actual>
     </period>
    </indicator>
@@ -1739,7 +1765,11 @@
     <period>
      <period-start iso-date="2020-05-20"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="37.00"></target>
+     <target value="37.00">
+      <comment>
+       <narrative xml:lang="EN">Number of states with SEA/gender platforms for reporting complaints according to national protocol.</narrative>
+      </comment>
+     </target>
      <actual value="32.00"></actual>
     </period>
    </indicator>
@@ -1760,7 +1790,11 @@
     <period>
      <period-start iso-date="2020-05-20"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="37.00"></target>
+     <target value="37.00">
+      <comment>
+       <narrative xml:lang="EN">Seven states (Adamawa, Anambra, Ekiti, Gombe, Ogun, Zamfara States and FCT)</narrative>
+      </comment>
+     </target>
      <actual value="7.00"></actual>
     </period>
    </indicator>
@@ -1781,7 +1815,11 @@
     <period>
      <period-start iso-date="2020-05-20"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="37.00"></target>
+     <target value="37.00">
+      <comment>
+       <narrative xml:lang="EN">Number of states with functional transfer systems  for COVID-19 patients</narrative>
+      </comment>
+     </target>
      <actual value="27.00"></actual>
     </period>
    </indicator>
@@ -1802,7 +1840,11 @@
     <period>
      <period-start iso-date="2020-05-20"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="37.00"></target>
+     <target value="37.00">
+      <comment>
+       <narrative xml:lang="EN">Number of states adopting IEC /BCC guidelines according to national protocol for COVID-19 response</narrative>
+      </comment>
+     </target>
      <actual value="36.00"></actual>
     </period>
    </indicator>
@@ -1823,7 +1865,11 @@
     <period>
      <period-start iso-date="2020-05-20"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="30,000.00"></target>
+     <target value="30,000.00">
+      <comment>
+       <narrative xml:lang="EN">Actual figure is yet to be determined at the time of reporting this ISR, hence the value remains unchanged from previous report</narrative>
+      </comment>
+     </target>
      <actual value="259,049.00"></actual>
     </period>
    </indicator>
@@ -1907,7 +1953,13 @@
     <period>
      <period-start iso-date="2020-05-22"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="37.00"></target>
+     <target value="37.00">
+      <comment>
+       <narrative xml:lang="EN">No data reported for this indicator at the time of filling.
+
+&amp;nbsp;</narrative>
+      </comment>
+     </target>
      <actual value="0.00"></actual>
     </period>
    </indicator>
@@ -1928,7 +1980,11 @@
     <period>
      <period-start iso-date="2020-06-25"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="30.00"></target>
+     <target value="30.00">
+      <comment>
+       <narrative xml:lang="EN">Number of states reporting both treatment and laboratory data using SORMAS</narrative>
+      </comment>
+     </target>
      <actual value="18.00"></actual>
     </period>
    </indicator>
@@ -1949,7 +2005,11 @@
     <period>
      <period-start iso-date="2021-07-16"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="80.00"></target>
+     <target value="80.00">
+      <comment>
+       <narrative xml:lang="EN">Thirty-four states have at least one vaccination post</narrative>
+      </comment>
+     </target>
      <actual value="95.60"></actual>
     </period>
    </indicator>
@@ -1970,7 +2030,11 @@
     <period>
      <period-start iso-date="2021-07-25"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="30.00"></target>
+     <target value="30.00">
+      <comment>
+       <narrative xml:lang="EN">Note: 13 states have achieved national target . Country&amp;rsquo;s target is to vaccinate 70% of its eligible population</narrative>
+      </comment>
+     </target>
      <actual value="37.00"></actual>
     </period>
    </indicator>
@@ -2012,7 +2076,11 @@
     <period>
      <period-start iso-date="2021-07-25"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="38.00"></target>
+     <target value="38.00">
+      <comment>
+       <narrative xml:lang="EN">Note: The Government of Nigeria&amp;rsquo;s target is to vaccinate 70% of the eligible population by March 2023 (the eligible population is defined as Nigerians who are 18 years and above).&amp;nbsp;&amp;nbsp;As of September 26, 2023, NPHCDA reported that 69.5&amp;nbsp;percent of the eligible population has been fully vaccinated. This translates to 36.19&amp;nbsp;percent of the total population.</narrative>
+      </comment>
+     </target>
      <actual value="37.50"></actual>
     </period>
    </indicator>
@@ -2033,7 +2101,11 @@
     <period>
      <period-start iso-date="2021-07-30"></period-start>
      <period-end iso-date="2024-02-29"></period-end>
-     <target value="70.00"></target>
+     <target value="70.00">
+      <comment>
+       <narrative xml:lang="EN">34(94.4%) states have conducted a citizen satisfaction survey for COVID-19 vaccination.</narrative>
+      </comment>
+     </target>
      <actual value="94.40"></actual>
     </period>
    </indicator>
