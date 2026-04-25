@@ -28,10 +28,27 @@
    <email>registry.td@undp.org</email>
    <website>https://www.undp.org/fr/chad</website>
   </contact-info>
-  <activity-scope code="8"></activity-scope>
+  <activity-scope code="5"></activity-scope>
   <recipient-country code="TD" percentage="100">
    <narrative xml:lang="FR">Chad</narrative>
   </recipient-country>
+  <location ref="TD">
+   <location-reach code="1"></location-reach>
+   <location-id code="242246" vocabulary="G1"></location-id>
+   <name>
+    <narrative xml:lang="FR">Ouada&#xef;</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="FR">first-order administrative division</narrative>
+   </description>
+   <administrative code="242246" level="1" vocabulary="G1"></administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>13.500000 21.250000</pos>
+   </point>
+   <exactness code="1"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="ADM1"></feature-designation>
+  </location>
   <location ref="TD">
    <location-reach code="1"></location-reach>
    <location-id code="245785" vocabulary="G1"></location-id>
@@ -52,8 +69,15 @@
   <sector code="23" percentage="100" vocabulary="99">
    <narrative xml:lang="FR">Building resilience</narrative>
   </sector>
-  <sector code="15220" percentage="100" vocabulary="1"></sector>
-  <sector code="5.1" percentage="100" vocabulary="8"></sector>
+  <sector code="15210" percentage="50" vocabulary="1"></sector>
+  <sector code="15220" percentage="50" vocabulary="1"></sector>
+  <sector code="16.3" percentage="25" vocabulary="8"></sector>
+  <sector code="16.A" percentage="25" vocabulary="8"></sector>
+  <sector code="16.B" percentage="25" vocabulary="8"></sector>
+  <sector code="5.1" percentage="25" vocabulary="8"></sector>
+  <tag code="16.3" vocabulary="3"></tag>
+  <tag code="16.A" vocabulary="3"></tag>
+  <tag code="16.B" vocabulary="3"></tag>
   <tag code="5.1" vocabulary="3"></tag>
   <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
@@ -64,12 +88,12 @@
   <budget status="2" type="2">
    <period-start iso-date="2025-01-01"></period-start>
    <period-end iso-date="2025-12-31"></period-end>
-   <value currency="USD" value-date="2025-12-31">716667</value>
+   <value currency="USD" value-date="2025-12-31">650000</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2026-01-01"></period-start>
    <period-end iso-date="2026-12-31"></period-end>
-   <value currency="USD" value-date="2026-02-28">458000</value>
+   <value currency="USD" value-date="2026-03-31">583332</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -185,8 +209,17 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2026-03-09"></transaction-date>
-   <value currency="USD" value-date="2026-03-09">1093</value>
+   <transaction-date iso-date="2026-03-31"></transaction-date>
+   <value currency="USD" value-date="2026-03-31">22670</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-04-21"></transaction-date>
+   <value currency="USD" value-date="2026-04-21">46386</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
@@ -194,8 +227,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2026-02-28"></transaction-date>
-   <value currency="USD" value-date="2026-02-28">1012935</value>
+   <transaction-date iso-date="2026-03-31"></transaction-date>
+   <value currency="USD" value-date="2026-03-31">1138267</value>
    <receiver-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">UNDP</narrative>
    </receiver-org>
@@ -338,6 +371,118 @@ Cible : 390 (20% retourn&#xe9;es, 35% de r&#xe9;fugi&#xe9;s, 45% des communaut&#
      <period-start iso-date="2026-01-01"></period-start>
      <period-end iso-date="2026-12-31"></period-end>
      <target value="390"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of detainees with effective access to justice by sex, vulnerability and age (less than 18) (Children)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">Number of detainees with effective access to justice by sex, vulnerability and age (less than 18) (Children)</narrative>
+    </description>
+    <baseline value="0" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="25"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of detainees with effective access to justice by sex, vulnerability and age (less than 18) (Vulnerables)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">Number of detainees with effective access to justice by sex, vulnerability and age (less than 18) (Vulnerables)</narrative>
+    </description>
+    <baseline value="0" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="25"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of detainees with effective access to justice by sex, vulnerability and age (less than 18) (Women)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">Number of detainees with effective access to justice by sex, vulnerability and age (less than 18) (Women)</narrative>
+    </description>
+    <baseline value="0" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="50"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of inspection visits from the higher courts to Ab&#xe9;ch&#xe9; and Adr&#xe9; detention facilities supported</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">Number of inspection visits from the higher courts to Ab&#xe9;ch&#xe9; and Adr&#xe9; detention facilities supported</narrative>
+    </description>
+    <baseline value="0" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="2"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of internal mechanisms to the courts in charge of the detention management system  strengthened particularly in favor of women, vulnerable and children</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">Number of internal mechanisms to the courts in charge of the detention management system  strengthened particularly in favor of women, vulnerable and children</narrative>
+    </description>
+    <baseline value="0" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="5"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of lawyers based in Adr&#xe9; and Ab&#xe9;ch&#xe9; trained to handle vulnerable cases including refugees with particular attention to women in prolonged pretrial detention.</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">Number of lawyers based in Adr&#xe9; and Ab&#xe9;ch&#xe9; trained to handle vulnerable cases including refugees with particular attention to women in prolonged pretrial detention.</narrative>
+    </description>
+    <baseline value="0" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="15"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of study on the interplay between Traditional Justice and state-owned justice in the East of Chad</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">Number of study on the interplay between Traditional Justice and state-owned justice in the East of Chad</narrative>
+    </description>
+    <baseline value="0" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="1"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Number of to CSOs engaged in monitoring of detention conditions technically and logistically supported (favoring women-led CSOs)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">Number of to CSOs engaged in monitoring of detention conditions technically and logistically supported (favoring women-led CSOs)</narrative>
+    </description>
+    <baseline value="0" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="10"></target>
     </period>
    </indicator>
    <indicator aggregation-status="1" ascending="0" measure="2">

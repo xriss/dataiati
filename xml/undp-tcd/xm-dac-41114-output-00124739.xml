@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" hierarchy="2" iati-activities:version="2.03" xml:lang="FR" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="FR" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-00124739</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="FR">United Nations Development Programme</narrative>
@@ -67,13 +67,18 @@
   <sector code="23" percentage="100" vocabulary="99">
    <narrative xml:lang="FR">Building resilience</narrative>
   </sector>
+  <sector code="1.1" percentage="25" vocabulary="8"></sector>
   <sector code="15220" percentage="100" vocabulary="1"></sector>
-  <sector code="16.1" percentage="33.34" vocabulary="8"></sector>
-  <sector code="16.3" percentage="33.33" vocabulary="8"></sector>
-  <sector code="16.6" percentage="33.33" vocabulary="8"></sector>
+  <sector code="16.1" percentage="25" vocabulary="8"></sector>
+  <sector code="16.3" percentage="25" vocabulary="8"></sector>
+  <sector code="16.6" percentage="25" vocabulary="8"></sector>
+  <tag code="1.1" vocabulary="3"></tag>
   <tag code="16.1" vocabulary="3"></tag>
   <tag code="16.3" vocabulary="3"></tag>
   <tag code="16.6" vocabulary="3"></tag>
+  <humanitarian-scope code="Appeal" type="2" vocabulary="2-1">
+   <narrative xml:lang="FR">Appeals that are launched by the UN, whether strategic response plans/humanitarian response plans, flash appeals (coordinated by OCHA) and regional refugee response plans (coordinated by UNHCR)</narrative>
+  </humanitarian-scope>
   <policy-marker code="1" significance="2" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
@@ -108,12 +113,12 @@
   <budget status="2" type="2">
    <period-start iso-date="2025-01-01"></period-start>
    <period-end iso-date="2025-12-31"></period-end>
-   <value currency="USD" value-date="2025-12-31">3403194</value>
+   <value currency="USD" value-date="2025-12-31">3436195</value>
   </budget>
   <budget status="2" type="2">
    <period-start iso-date="2026-01-01"></period-start>
    <period-end iso-date="2026-12-31"></period-end>
-   <value currency="USD" value-date="2026-02-28">1803883</value>
+   <value currency="USD" value-date="2026-03-31">2986223</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -218,7 +223,7 @@
   <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2023-09-30"></transaction-date>
-   <value currency="USD" value-date="2023-09-30">875740</value>
+   <value currency="USD" value-date="2023-09-30">875741</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
@@ -487,8 +492,17 @@
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2026-03-09"></transaction-date>
-   <value currency="USD" value-date="2026-03-09">69490</value>
+   <transaction-date iso-date="2026-03-31"></transaction-date>
+   <value currency="USD" value-date="2026-03-31">302692</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="FR">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-04-21"></transaction-date>
+   <value currency="USD" value-date="2026-04-21">108319</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </provider-org>
@@ -496,8 +510,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2026-02-28"></transaction-date>
-   <value currency="USD" value-date="2026-02-28">21958622</value>
+   <transaction-date iso-date="2026-03-31"></transaction-date>
+   <value currency="USD" value-date="2026-03-31">23140961</value>
    <receiver-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="FR">United Nations Development Programme</narrative>
    </receiver-org>
@@ -644,7 +658,7 @@
     </period>
    </indicator>
   </result>
-  <result aggregation-status="0" type="1">
+  <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="FR">Annual Output Results</narrative>
    </title>
@@ -654,6 +668,20 @@
     </title>
     <description>
      <narrative xml:lang="FR">Calcul du nombre de b&#xe9;n&#xe9;ficiaires de micro-cr&#xe9;dits</narrative>
+    </description>
+    <baseline value="0" year="2020"></baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="1600"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="FR">Nombre de b&#xe9;n&#xe9;ficiaires de micro-cr&#xe9;dits</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="FR">Nombre de b&#xe9;n&#xe9;ficiaires de micro-cr&#xe9;dits</narrative>
     </description>
     <baseline value="0" year="2020"></baseline>
     <period>
