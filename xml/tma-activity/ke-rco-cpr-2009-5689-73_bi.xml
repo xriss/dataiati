@@ -68,7 +68,7 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="B01" vocabulary="1"></default-aid-type>
-  <default-tied-status code="3"></default-tied-status>
+  <default-tied-status code="5"></default-tied-status>
   <budget status="2" type="1">
    <period-start iso-date="2025-07-01"></period-start>
    <period-end iso-date="2025-09-30"></period-end>
@@ -514,6 +514,24 @@
    <tied-status code="3"></tied-status>
   </transaction>
   <transaction humanitarian="0">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="USD" value-date="2025-12-31">411.79</value>
+   <provider-org provider-activity-id="XM-DAC-7-PPR-4000006967" ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="KE-RCO-CPR-2009-5689-73_BI" ref="KE-RCO-CPR-2009-5689" type="23">
+    <narrative xml:lang="EN">TradeMark Africa</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <sector code="33120" vocabulary="1"></sector>
+   <recipient-region code="289" vocabulary="1"></recipient-region>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="B01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="0">
    <transaction-type code="3"></transaction-type>
    <transaction-date iso-date="2025-11-30"></transaction-date>
    <value currency="USD" value-date="2025-11-30">233702</value>
@@ -548,22 +566,6 @@
    <finance-type code="110"></finance-type>
    <aid-type code="B01" vocabulary="1"></aid-type>
    <tied-status code="4"></tied-status>
-  </transaction>
-  <transaction humanitarian="0">
-   <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2025-12-31"></transaction-date>
-   <value currency="USD" value-date="2025-12-31">411.79</value>
-   <provider-org type="10"></provider-org>
-   <receiver-org receiver-activity-id="KE-RCO-CPR-2009-5689-73_BI" ref="KE-RCO-CPR-2009-5689" type="23">
-    <narrative xml:lang="EN">TradeMark Africa</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-   <sector code="33120" vocabulary="1"></sector>
-   <recipient-region code="289" vocabulary="1"></recipient-region>
-   <flow-type code="10"></flow-type>
-   <finance-type code="110"></finance-type>
-   <aid-type code="B01" vocabulary="1"></aid-type>
-   <tied-status code="5"></tied-status>
   </transaction>
   <result aggregation-status="1" type="2">
    <title>
@@ -608,7 +610,7 @@
     <description>
      <narrative xml:lang="EN">Time in hours taken to process trade document</narrative>
     </description>
-    <baseline year="2023">
+    <baseline value="0" year="2023">
      <location ref="BI_BI-3.3819"></location>
     </baseline>
     <period>
@@ -620,8 +622,11 @@
        <narrative xml:lang="EN">100 eSW end users trained on the new web-based modules- leading to atleast  5% reduction in processing time</narrative>
       </comment>
      </target>
-     <actual>
+     <actual value="0">
       <location ref="BI_BI-3.3819"></location>
+      <comment>
+       <narrative xml:lang="EN">Actuals not realised yet and shall be updated upon data collection and validation</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
