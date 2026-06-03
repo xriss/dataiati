@@ -554,6 +554,20 @@
     <narrative xml:lang="EN">CAB International (CABI)</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="PlantwisePlus - 2025 Income (INTPA)">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="GBP" value-date="2025-12-31">2300000</value>
+   <description>
+    <narrative xml:lang="EN">Total Income Spent January 2025 - December 2025 (pre-audit)</narrative>
+   </description>
+   <provider-org provider-activity-id="NDICI2024-454-801" ref="XI-IATI-EC_INTPA" type="15">
+    <narrative xml:lang="EN">European Commission - International Partnerships</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="XI-IATI-CABI-PLANTWISEPLUS" ref="XI-IATI-CABI" type="15">
+    <narrative xml:lang="EN">CAB International (CABI)</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="PLANTWISEPLUS - 2025 Income (DGIS)">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2025-12-31"></transaction-date>
@@ -567,7 +581,6 @@
    <receiver-org receiver-activity-id="XI-IATI-CABI-PLANTWISEPLUS" ref="XI-IATI-CABI" type="15">
     <narrative xml:lang="EN">CAB International (CABI)</narrative>
    </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction humanitarian="0" ref="PlantwisePlus - 2025 Income (SDC)">
    <transaction-type code="1"></transaction-type>
@@ -578,21 +591,6 @@
    </description>
    <provider-org provider-activity-id="81079893-7F-10534-02-01" ref="CH-4" type="10">
     <narrative xml:lang="EN">Swiss Agency for Development and Cooperation (SDC)</narrative>
-   </provider-org>
-   <receiver-org receiver-activity-id="XI-IATI-CABI-PLANTWISEPLUS" ref="XI-IATI-CABI" type="15">
-    <narrative xml:lang="EN">CAB International (CABI)</narrative>
-   </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
-  </transaction>
-  <transaction ref="PlantwisePlus - 2025 Income (INTPA)">
-   <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2025-12-31"></transaction-date>
-   <value currency="GBP" value-date="2025-12-31">2300000</value>
-   <description>
-    <narrative xml:lang="EN">Total Income Spent January 2025 - December 2025 (pre-audit)</narrative>
-   </description>
-   <provider-org provider-activity-id="NDICI2024-454-801" ref="XI-IATI-EC_INTPA" type="15">
-    <narrative xml:lang="EN">European Commission - International Partnerships</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="XI-IATI-CABI-PLANTWISEPLUS" ref="XI-IATI-CABI" type="15">
     <narrative xml:lang="EN">CAB International (CABI)</narrative>
@@ -611,7 +609,6 @@
    <receiver-org receiver-activity-id="XI-IATI-CABI-PLANTWISEPLUS" ref="XI-IATI-CABI" type="15">
     <narrative xml:lang="EN">CAB International (CABI)</narrative>
    </receiver-org>
-   <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <document-link format="APPLICATION/PDF" url="https://aidstream.s3.us-west-2.amazonaws.com/documents/PlantwisePlus-Annual-Donor-Report-2021-20220329080332.pdf">
    <title>
@@ -1105,7 +1102,7 @@
      <narrative xml:lang="EN">Number of countries supported to develop pest preparedness plans</narrative>
     </description>
     <baseline value="5" year="2021">
-     <location ref="Kenya,Uganda"></location>
+     <location ref="Global"></location>
      <comment>
       <narrative xml:lang="EN">Number of countries supported to develop pest preparedness plans</narrative>
      </comment>
@@ -1380,8 +1377,12 @@
     <period>
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2025-12-31"></period-end>
-     <target value="40"></target>
-     <actual value="104"></actual>
+     <target value="40">
+      <location ref="Global"></location>
+     </target>
+     <actual value="104">
+      <location ref="Global"></location>
+     </actual>
     </period>
    </indicator>
    <indicator aggregation-status="1" ascending="1" measure="3">
@@ -1401,6 +1402,24 @@
       <location ref="Global"></location>
      </target>
      <actual value="2,765,516">
+      <location ref="Global"></location>
+     </actual>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="1" measure="3">
+    <title>
+     <narrative xml:lang="EN">Number of stakeholders trained</narrative>
+    </title>
+    <baseline value="200" year="2021">
+     <location ref="Global"></location>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="2000">
+      <location ref="Global"></location>
+     </target>
+     <actual value="32,722">
       <location ref="Global"></location>
      </actual>
     </period>
@@ -1490,22 +1509,6 @@
      <period-end iso-date="2025-12-31"></period-end>
      <target value="13"></target>
      <actual value="28"></actual>
-    </period>
-   </indicator>
-   <indicator aggregation-status="1" ascending="1" measure="3">
-    <title>
-     <narrative xml:lang="EN">Number of stakeholders trained</narrative>
-    </title>
-    <baseline value="200" year="2021"></baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="2000">
-      <location ref="Global"></location>
-     </target>
-     <actual value="32,722">
-      <location ref="Global"></location>
-     </actual>
     </period>
    </indicator>
   </result>

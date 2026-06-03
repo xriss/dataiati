@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="USD" hierarchy="2" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="USD" hierarchy="2" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>XM-DAC-41114-OUTPUT-01005765</iati-identifier>
   <reporting-org ref="XM-DAC-41114" type="40">
    <narrative xml:lang="EN">United Nations Development Programme</narrative>
@@ -28,7 +28,17 @@
   <recipient-country code="GH" percentage="100">
    <narrative xml:lang="EN">Ghana</narrative>
   </recipient-country>
-  <sector code="99810" percentage="100" vocabulary="1"></sector>
+  <sector code="28" percentage="100" vocabulary="99">
+   <narrative xml:lang="EN">Healthy planet</narrative>
+  </sector>
+  <sector code="10.3" percentage="33.34" vocabulary="8"></sector>
+  <sector code="12.2" percentage="33.33" vocabulary="8"></sector>
+  <sector code="16.6" percentage="33.33" vocabulary="8"></sector>
+  <sector code="41010" percentage="100" vocabulary="1"></sector>
+  <tag code="10.3" vocabulary="3"></tag>
+  <tag code="12.2" vocabulary="3"></tag>
+  <tag code="16.6" vocabulary="3"></tag>
+  <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
@@ -37,13 +47,13 @@
   <budget status="2" type="2">
    <period-start iso-date="2026-01-01"></period-start>
    <period-end iso-date="2026-12-31"></period-end>
-   <value currency="USD" value-date="2026-04-30">350000</value>
+   <value currency="USD" value-date="2026-05-31">350000</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
    <transaction-type code="4"></transaction-type>
-   <transaction-date iso-date="2026-05-25"></transaction-date>
-   <value currency="USD" value-date="2026-05-25">32484</value>
+   <transaction-date iso-date="2026-05-31"></transaction-date>
+   <value currency="USD" value-date="2026-05-31">32484</value>
    <provider-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">United Nations Development Programme</narrative>
    </provider-org>
@@ -51,8 +61,8 @@
   </transaction>
   <transaction>
    <transaction-type code="2"></transaction-type>
-   <transaction-date iso-date="2026-04-30"></transaction-date>
-   <value currency="USD" value-date="2026-04-30">350000</value>
+   <transaction-date iso-date="2026-05-31"></transaction-date>
+   <value currency="USD" value-date="2026-05-31">350000</value>
    <receiver-org ref="XM-DAC-41114" type="40">
     <narrative xml:lang="EN">UNDP</narrative>
    </receiver-org>
@@ -70,5 +80,24 @@
     <narrative xml:lang="EN">Social and environmental sustainability will be enhanced through application of the UNDP Social and Environmental Standards (http://www.undp.org/ses) and related Accountability Mechanism (http://www.undp.org/secu-srm).</narrative>
    </condition>
   </conditions>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Annual Output Results</narrative>
+   </title>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of policy proposals developed and submitted incorporating specific provisions for critical minerals (licensing, fiscal terms, beneficiation, state-backed entity model)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Number of policy proposals developed and submitted incorporating specific provisions for critical minerals (licensing, fiscal terms, beneficiation, state-backed entity model)</narrative>
+    </description>
+    <baseline value="0" year="2026"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="3"></target>
+    </period>
+   </indicator>
+  </result>
  </iati-activity>
 </iati-activities>
