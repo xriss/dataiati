@@ -44,9 +44,6 @@
    <description>
     <narrative xml:lang="EN">capital of a political entity</narrative>
    </description>
-   <activity-description>
-    <narrative xml:lang="EN">Project implementation office</narrative>
-   </activity-description>
    <administrative code="343300" level="1" vocabulary="G1"></administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>15.338050 38.931840</pos>
@@ -56,7 +53,7 @@
    <feature-designation code="PPLC"></feature-designation>
   </location>
   <location ref="ER">
-   <location-reach code="2"></location-reach>
+   <location-reach code="1"></location-reach>
    <location-id code="448502" vocabulary="G1"></location-id>
    <name>
     <narrative xml:lang="EN">Samenawi Qayah Bahri</narrative>
@@ -72,18 +69,24 @@
    <location-class code="1"></location-class>
    <feature-designation code="ADM1"></feature-designation>
   </location>
-  <sector code="22" percentage="100" vocabulary="99">
-   <narrative xml:lang="EN">Leaving no one behind</narrative>
+  <sector code="25" percentage="50" vocabulary="99">
+   <narrative xml:lang="EN">Prosperity for all</narrative>
   </sector>
-  <sector code="1.1" percentage="25" vocabulary="8"></sector>
-  <sector code="1.4" percentage="25" vocabulary="8"></sector>
-  <sector code="1.5" percentage="25" vocabulary="8"></sector>
-  <sector code="12.3" percentage="25" vocabulary="8"></sector>
-  <sector code="31150" percentage="50" vocabulary="1"></sector>
-  <sector code="52010" percentage="50" vocabulary="1"></sector>
+  <sector code="27" percentage="50" vocabulary="99">
+   <narrative xml:lang="EN">Resilience</narrative>
+  </sector>
+  <sector code="1.1" percentage="20" vocabulary="8"></sector>
+  <sector code="1.4" percentage="20" vocabulary="8"></sector>
+  <sector code="1.5" percentage="20" vocabulary="8"></sector>
+  <sector code="12.2" percentage="20" vocabulary="8"></sector>
+  <sector code="12.3" percentage="20" vocabulary="8"></sector>
+  <sector code="31130" percentage="33.34" vocabulary="1"></sector>
+  <sector code="31150" percentage="33.33" vocabulary="1"></sector>
+  <sector code="52010" percentage="33.33" vocabulary="1"></sector>
   <tag code="1.1" vocabulary="3"></tag>
   <tag code="1.4" vocabulary="3"></tag>
   <tag code="1.5" vocabulary="3"></tag>
+  <tag code="12.2" vocabulary="3"></tag>
   <tag code="12.3" vocabulary="3"></tag>
   <policy-marker code="1" significance="1" vocabulary="1"></policy-marker>
   <collaboration-type code="4"></collaboration-type>
@@ -114,7 +117,7 @@
   <budget status="2" type="2">
    <period-start iso-date="2026-01-01"></period-start>
    <period-end iso-date="2026-12-31"></period-end>
-   <value currency="USD" value-date="2026-05-31">24846</value>
+   <value currency="USD" value-date="2026-05-31">124846</value>
   </budget>
   <capital-spend percentage="0"></capital-spend>
   <transaction>
@@ -460,9 +463,18 @@
    <disbursement-channel code="2"></disbursement-channel>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-06-23"></transaction-date>
+   <value currency="USD" value-date="2026-06-23">2147</value>
+   <provider-org ref="XM-DAC-41114" type="40">
+    <narrative xml:lang="EN">United Nations Development Programme</narrative>
+   </provider-org>
+   <disbursement-channel code="2"></disbursement-channel>
+  </transaction>
+  <transaction>
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2026-05-31"></transaction-date>
-   <value currency="USD" value-date="2026-05-31">2257867</value>
+   <value currency="USD" value-date="2026-05-31">2357867</value>
    <receiver-org ref="01154" type="10">
     <narrative xml:lang="EN">Ministry of Agriculture</narrative>
    </receiver-org>
@@ -504,7 +516,7 @@
    </indicator>
    <indicator aggregation-status="1" ascending="0" measure="1">
     <title>
-     <narrative xml:lang="EN">Capacity building training to the staff of Government institutions</narrative>
+     <narrative xml:lang="EN">Capacity building training to the staff of Government institutions and individual beneficiaries and communities in the Northern and Southern Red sea regions of the project. Lessons learned from the project will be duplicated in some other parts of the country in the future.</narrative>
     </title>
     <description>
      <narrative xml:lang="EN">Provision of capacity building training to the staff of different Government institutions on financial analysis and investment.</narrative>
@@ -515,6 +527,34 @@
      <period-end iso-date="2023-12-31"></period-end>
      <target value="1"></target>
      <actual value="1"></actual>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">To train farmers , producers, extension agents of the Ministry of Agriculture will receive capacity building training on agricultural practices and value chain supply.</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">To train farmers , producers, extension agents of the Ministry of Agriculture will receive capacity building training on agricultural practices and value chain supply.</narrative>
+    </description>
+    <baseline value="200" year="2022"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="50"></target>
+    </period>
+   </indicator>
+   <indicator aggregation-status="1" ascending="0" measure="1">
+    <title>
+     <narrative xml:lang="EN">Improved operational support and field supervision systems for date palm production and propagation activities in target regions. Lessons learned from this project will  be replicated in some project sites in the future.</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Improved operational support and field supervision systems for date palm production and propagation activities in target regions. Lessons learned from this project will  be replicated in some project sites in the future.</narrative>
+    </description>
+    <baseline value="8" year="2022"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-12-31"></period-end>
+     <target value="10"></target>
     </period>
    </indicator>
   </result>
