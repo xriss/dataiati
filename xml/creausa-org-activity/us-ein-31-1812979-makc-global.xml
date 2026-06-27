@@ -3,7 +3,7 @@
  <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-EIN-31-1812979-MAKC-GLOBAL</iati-identifier>
   <reporting-org ref="US-EIN-31-1812979" secondary-reporter="0" type="21">
-   <narrative xml:lang="EN">Creating Resources For Empowerment And Action Inc.</narrative>
+   <narrative xml:lang="EN">CREA</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">CMI! Power of Voices -Change (CREA) -GLOBAL</narrative>
@@ -23,7 +23,7 @@
   <participating-org activity-id="NL-KVK-41202535-CMI-2" crs-channel-code="20000" ref="NL-KVK-41202535" role="1" type="60">
    <narrative xml:lang="EN">Mama Cash</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2021-01-01" type="2"></activity-date>
   <activity-date iso-date="2025-12-31" type="3"></activity-date>
   <contact-info type="1">
@@ -178,6 +178,21 @@
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction humanitarian="0" ref="CMI! MAKC A.3- CREA-A 01 (2025)">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-01-01">39736</value>
+   <description>
+    <narrative xml:lang="EN">Funds spent for making change activities in the regional level</narrative>
+   </description>
+   <provider-org provider-activity-id="US-EIN-31-1812979-CMI-2" ref="US-EIN-31-1812979" type="21"></provider-org>
+   <receiver-org receiver-activity-id="US-EIN-31-1812979-CMI-2" ref="US-EIN-31-1812979" type="21"></receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction humanitarian="0" ref="CMI! MAKC A.3- CREA-A 01 2022">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2022-12-30"></transaction-date>
@@ -212,6 +227,21 @@
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2024-12-31"></transaction-date>
    <value currency="EUR" value-date="2024-12-31">116296</value>
+   <description>
+    <narrative xml:lang="EN">Funds spent for making change at the international level</narrative>
+   </description>
+   <provider-org provider-activity-id="US-EIN-31-1812979-CMI-2" ref="US-EIN-31-1812979" type="21"></provider-org>
+   <receiver-org receiver-activity-id="US-EIN-31-1812979-CMI-2" ref="US-EIN-31-1812979" type="21"></receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="0" ref="CMI! MAKC A.3- CREA-A 01 2025">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">281973</value>
    <description>
     <narrative xml:lang="EN">Funds spent for making change at the international level</narrative>
    </description>
@@ -284,6 +314,24 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="1">
+      <location ref="Global"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">The reporting measure of this indicator is unique. New or strengthened alliances at different levels will be captured. In case one alliance is created in the first year, we shall only count for that year regardless of the number of times activities will be carried out to strengthen that alliance.</narrative>
+      </comment>
+     </target>
+     <actual value="10">
+      <location ref="Global"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Strengthened alliances</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2023-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="1">
@@ -317,21 +365,6 @@
       <comment>
        <narrative xml:lang="EN">This was not achieved in 2024</narrative>
       </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="1">
-      <location ref="Global"></location>
-      <dimension name="Gender" value="Female"></dimension>
-      <comment>
-       <narrative xml:lang="EN">The reporting measure of this indicator is unique. New or strengthened alliances at different levels will be captured. In case one alliance is created in the first year, we shall only count for that year regardless of the number of times activities will be carried out to strengthen that alliance.</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <location ref="Global"></location>
-      <dimension name="Gender" value="Female"></dimension>
      </actual>
     </period>
    </indicator>
@@ -386,9 +419,12 @@
        <narrative xml:lang="EN">The reporting indicator is unique, considering it takes a long time to influence laws, policies and strategies used at the national level. This will be a 5-year target. The achievement of laws and policies will be counted only once.</narrative>
       </comment>
      </target>
-     <actual value="0">
+     <actual value="1">
       <location ref="Global"></location>
       <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">policies and strategies blocked</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
