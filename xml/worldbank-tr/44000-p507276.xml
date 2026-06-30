@@ -20,10 +20,10 @@
   <participating-org ref="44001" role="3" type="40" xml:lang="EN">
    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
   </participating-org>
-  <participating-org ref="TR&#x2013;OR00008037" role="2" xml:lang="EN">
+  <participating-org ref="TR&#x2013;00008037" role="2" xml:lang="EN">
    <narrative xml:lang="EN">T&#xdc;RK&#x130;YE KALKINMA VE YATIRIM BANKASI A.&#x15e;.</narrative>
   </participating-org>
-  <participating-org ref="TR&#x2013;OR00008202" role="4" xml:lang="EN">
+  <participating-org ref="TR&#x2013;COA-8202" role="4" xml:lang="EN">
    <narrative xml:lang="EN">T&#xdc;RK&#x130;YE KALKINMA VE YATIRIM BANKASI A.&#x15e;.</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
@@ -804,6 +804,16 @@
   <budget status="1" type="1">
    <period-start iso-date="2031-03-01"></period-start>
    <period-end iso-date="2031-03-31"></period-end>
+   <value currency="USD" value-date="2031-03-31">25300.71</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2031-03-01"></period-start>
+   <period-end iso-date="2031-03-31"></period-end>
+   <value currency="USD" value-date="2031-03-31">25300.71</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2031-03-01"></period-start>
+   <period-end iso-date="2031-03-31"></period-end>
    <value currency="USD" value-date="2031-03-31">6249999</value>
   </budget>
   <budget status="1" type="2">
@@ -857,6 +867,9 @@
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
    </provider-org>
+   <receiver-org ref="TR&#x2013;COA-8202" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">T&#xdc;RK&#x130;YE KALKINMA VE YATIRIM BANKASI A.&#x15e;.</narrative>
+   </receiver-org>
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
@@ -870,6 +883,9 @@
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
    </provider-org>
+   <receiver-org ref="TR&#x2013;COA-8202" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">T&#xdc;RK&#x130;YE KALKINMA VE YATIRIM BANKASI A.&#x15e;.</narrative>
+   </receiver-org>
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
@@ -883,9 +899,38 @@
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
    </provider-org>
+   <receiver-org ref="TR&#x2013;COA-8202" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">T&#xdc;RK&#x130;YE KALKINMA VE YATIRIM BANKASI A.&#x15e;.</narrative>
+   </receiver-org>
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
+  <transaction>
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2026-05-31"></transaction-date>
+   <value currency="USD" value-date="2026-05-31">-25301</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Interest Repayment in May Month of 2026</narrative>
+   </description>
+   <provider-org ref="44001">
+    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
+   </provider-org>
+   <receiver-org ref="TR&#x2013;COA-8202" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">T&#xdc;RK&#x130;YE KALKINMA VE YATIRIM BANKASI A.&#x15e;.</narrative>
+   </receiver-org>
+   <flow-type code="20"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099031225175219760/pdf/BOSIB-074958be-c735-42ea-9862-82cc5c33c8f8.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Appraisal Document</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+   <category code="A08"></category>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099020725083012664/pdf/P507276-db10278c-cf95-4fea-ab65-925ef74f81b4.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Environmental and Social Commitment Plan</narrative>
@@ -934,15 +979,6 @@
   <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099101524093542168/pdf/P507276-d6754c1c-a5ff-4eb6-bd75-946fc5de0485.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Environmental and Social Review Summary</narrative>
-   </title>
-   <category code="A01"></category>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099031225175219760/pdf/BOSIB-074958be-c735-42ea-9862-82cc5c33c8f8.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Appraisal Document</narrative>
    </title>
    <category code="A01"></category>
    <category code="A02"></category>
@@ -1016,7 +1052,11 @@
     <title>
      <narrative xml:lang="EN">Share of sub-loan beneficiary firms that receive capacity building support</narrative>
     </title>
-    <baseline iso-date="2025-05-13" value="0" year="2025"></baseline>
+    <baseline iso-date="2025-05-13" value="0" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2025-05-13"></period-start>
      <period-end iso-date="2031-03-13"></period-end>
@@ -1037,7 +1077,11 @@
     <title>
      <narrative xml:lang="EN">Number of new or better jobs created</narrative>
     </title>
-    <baseline iso-date="2025-05-13" value="0" year="2025"></baseline>
+    <baseline iso-date="2025-05-13" value="0" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2025-05-13"></period-start>
      <period-end iso-date="2031-03-14"></period-end>
@@ -1058,7 +1102,11 @@
     <title>
      <narrative xml:lang="EN">Citizen engagement: Sub-loan beneficiaries report that project sub-finance reflected their needs</narrative>
     </title>
-    <baseline iso-date="2025-05-13" value="0" year="2025"></baseline>
+    <baseline iso-date="2025-05-13" value="0" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2025-05-13"></period-start>
      <period-end iso-date="2031-03-14"></period-end>
@@ -1079,7 +1127,11 @@
     <title>
      <narrative xml:lang="EN">Ratio of the average maturity of LE sub-loans under the project, to the average maturity of TKYB&apos;s regular portfolio</narrative>
     </title>
-    <baseline iso-date="2025-05-13" value="1" year="2025"></baseline>
+    <baseline iso-date="2025-05-13" value="1" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2025-05-13"></period-start>
      <period-end iso-date="2031-03-13"></period-end>
@@ -1100,7 +1152,11 @@
     <title>
      <narrative xml:lang="EN">Number of firms in the earthquake affected provinces receiving sub-loans</narrative>
     </title>
-    <baseline iso-date="2025-05-14" value="0" year="2025"></baseline>
+    <baseline iso-date="2025-05-14" value="0" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2025-05-14"></period-start>
      <period-end iso-date="2031-03-14"></period-end>
@@ -1121,7 +1177,11 @@
     <title>
      <narrative xml:lang="EN">SME Growth and Resilience Facility Established</narrative>
     </title>
-    <baseline iso-date="2025-05-14" value="No" year="2025"></baseline>
+    <baseline iso-date="2025-05-14" value="No" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2025-05-14"></period-start>
      <period-end iso-date="2031-03-14"></period-end>
@@ -1142,7 +1202,11 @@
     <title>
      <narrative xml:lang="EN">Share of beneficiary firms that maintain or increase their employment after receiving the sub-loan</narrative>
     </title>
-    <baseline iso-date="2025-05-15" value="0" year="2025"></baseline>
+    <baseline iso-date="2025-05-15" value="0" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2025-05-15"></period-start>
      <period-end iso-date="2031-03-15"></period-end>
@@ -1163,7 +1227,11 @@
     <title>
      <narrative xml:lang="EN">Share of Non-Performing Loans</narrative>
     </title>
-    <baseline iso-date="2025-05-15" value="0" year="2025"></baseline>
+    <baseline iso-date="2025-05-15" value="0" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2025-05-15"></period-start>
      <period-end iso-date="2031-03-15"></period-end>

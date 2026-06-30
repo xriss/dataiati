@@ -20,10 +20,10 @@
   <participating-org ref="44002" role="3" type="40" xml:lang="EN">
    <narrative xml:lang="EN">International Development Association</narrative>
   </participating-org>
-  <participating-org ref="TJ&#x2013;ORP0024100" role="2" xml:lang="EN">
+  <participating-org ref="TJ&#x2013;P0024100" role="2" xml:lang="EN">
    <narrative xml:lang="EN">Republic of Tajikistan</narrative>
   </participating-org>
-  <participating-org ref="TJ&#x2013;ORP0024101" role="4" xml:lang="EN">
+  <participating-org ref="TJ&#x2013;COA-24101" role="4" xml:lang="EN">
    <narrative xml:lang="EN">SUERIP</narrative>
   </participating-org>
   <activity-status code="3"></activity-status>
@@ -854,8 +854,11 @@
   <sector code="000725" percentage="80" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Land Administration and Management</narrative>
   </sector>
-  <sector code="000042" percentage="20" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Rule of Law</narrative>
+  <sector code="000423" percentage="20" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Personal and Property Rights</narrative>
+  </sector>
+  <sector code="000423" percentage="20" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">Personal and Property Rights</narrative>
   </sector>
   <sector code="000042" percentage="20" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Rule of Law</narrative>
@@ -957,6 +960,16 @@
    <period-start iso-date="2016-12-01"></period-start>
    <period-end iso-date="2016-12-31"></period-end>
    <value currency="USD" value-date="2016-12-31">0.07</value>
+  </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2021-04-01"></period-start>
+   <period-end iso-date="2017-01-05"></period-end>
+   <value currency="USD" value-date="2017-01-05">9817989</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2021-04-01"></period-start>
+   <period-end iso-date="2017-01-05"></period-end>
+   <value currency="USD" value-date="2017-01-05">9817989</value>
   </budget>
   <budget status="1" type="1">
    <period-start iso-date="2017-01-01"></period-start>
@@ -1549,6 +1562,9 @@
    <provider-org ref="44002">
     <narrative xml:lang="EN">IDA Credit</narrative>
    </provider-org>
+   <receiver-org ref="TJ&#x2013;COA-24101" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">SUERIP</narrative>
+   </receiver-org>
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
@@ -1562,9 +1578,22 @@
    <provider-org ref="44002">
     <narrative xml:lang="EN">IDA Credit</narrative>
    </provider-org>
+   <receiver-org ref="TJ&#x2013;COA-24101" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">SUERIP</narrative>
+   </receiver-org>
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/674651468178744848/pdf/PAD1385-PAD-P154561-IDA-R2016-0044-1-Box394872B-OUO-9.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Appraisal Document</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+   <category code="A08"></category>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/294451468116664499/pdf/ISDS-Print-P154561-04-02-2015-1427987922734.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Integrated Safeguards Data Sheet</narrative>
@@ -1577,15 +1606,6 @@
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/636931468303872631/pdf/AppraisalISDS-Print-P154561-09-18-2015-1442603196402.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Integrated Safeguards Data Sheet</narrative>
-   </title>
-   <category code="A01"></category>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/674651468178744848/pdf/PAD1385-PAD-P154561-IDA-R2016-0044-1-Box394872B-OUO-9.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Appraisal Document</narrative>
    </title>
    <category code="A01"></category>
    <category code="A02"></category>
@@ -1696,12 +1716,37 @@
     <title>
      <narrative xml:lang="EN">Customer surveys implemented on time</narrative>
     </title>
-    <baseline iso-date="2014-04-01" value="0" year="2014"></baseline>
+    <baseline iso-date="2014-04-01" value="0" year="2014">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2014-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
      <target value="3"></target>
      <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0">
+   <title>
+    <narrative xml:lang="EN">rmediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Customer surveys implemented on time</narrative>
+    </title>
+    <baseline iso-date="2014-04-01" value="0" year="2014">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2014-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="3"></target>
+     <actual></actual>
     </period>
    </indicator>
   </result>
@@ -1713,7 +1758,11 @@
     <title>
      <narrative xml:lang="EN">Awareness campaigns implemented for key vulnerable target groups</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="0" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="0" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1730,7 +1779,11 @@
     <title>
      <narrative xml:lang="EN">Number of properties with use or ownership rights registered</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="0" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="0" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1747,12 +1800,79 @@
     <title>
      <narrative xml:lang="EN">No of offices with data scanned and indexed</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="0" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="0" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
      <target value="64"></target>
      <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0">
+   <title>
+    <narrative xml:lang="EN">rmediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Awareness campaigns implemented for key vulnerable target groups</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="0" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="3"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Number of properties with use or ownership rights registered</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="0" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="5% annual increase"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0">
+   <title>
+    <narrative xml:lang="EN">rmediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">No of offices with data scanned and indexed</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="0" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="64"></target>
+     <actual></actual>
     </period>
    </indicator>
   </result>
@@ -1764,7 +1884,11 @@
     <title>
      <narrative xml:lang="EN">Number of offices that are renovated (resulting in improved customer experience and staff working conditions)</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="0.00" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="0.00" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1781,7 +1905,11 @@
     <title>
      <narrative xml:lang="EN">Number of offices that are renovated (resulting in improved customer experience and staff working conditions)</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="0.00" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="0.00" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1798,7 +1926,11 @@
     <title>
      <narrative xml:lang="EN">Client days of training provided (number)</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="0.00" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="0.00" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1815,7 +1947,11 @@
     <title>
      <narrative xml:lang="EN">Avg no. of days to complete recordn of purchase/sale of property in land adm systm</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="30.00" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="30.00" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1832,12 +1968,37 @@
     <title>
      <narrative xml:lang="EN">Grievance redress mechanism functioning according to agreed standards and monitored</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="Complaint system in place" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="Complaint system in place" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
      <target value="GRM system functioning with agreed service standards"></target>
      <actual value="simple complaint system in place"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0">
+   <title>
+    <narrative xml:lang="EN">rmediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Grievance redress mechanism functioning according to agreed standards and monitored</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="Complaint system in place" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="GRM system functioning with agreed service standards"></target>
+     <actual></actual>
     </period>
    </indicator>
   </result>
@@ -1849,7 +2010,11 @@
     <title>
      <narrative xml:lang="EN">SUERIP adopts international accounting standards</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="No" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="No" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1866,7 +2031,11 @@
     <title>
      <narrative xml:lang="EN">Access to and use of rules, procedures and information for registration by all users</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="No" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="No" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1883,7 +2052,11 @@
     <title>
      <narrative xml:lang="EN">Access to digital real property registration information online</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="No" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="No" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1900,12 +2073,100 @@
     <title>
      <narrative xml:lang="EN">SUERIP adopts  a code of conduct and ethics, and service standards</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="No" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="No" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
      <target value="Yes"></target>
      <actual value="no"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0">
+   <title>
+    <narrative xml:lang="EN">rmediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">SUERIP adopts international accounting standards</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="No" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="Publish Annual Report"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Access to and use of rules, procedures and information for registration by all users</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="No" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="Yes"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0">
+   <title>
+    <narrative xml:lang="EN">rmediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Access to digital real property registration information online</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="No" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="Yes"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0">
+   <title>
+    <narrative xml:lang="EN">rmediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">SUERIP adopts  a code of conduct and ethics, and service standards</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="No" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="Yes"></target>
+     <actual></actual>
     </period>
    </indicator>
   </result>
@@ -1917,7 +2178,11 @@
     <title>
      <narrative xml:lang="EN">Customer satisfaction with services</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="TBD" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="TBD" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1934,7 +2199,11 @@
     <title>
      <narrative xml:lang="EN">Level of trust in the registration process by users.</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="TBD" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="TBD" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
@@ -1951,12 +2220,79 @@
     <title>
      <narrative xml:lang="EN">Surveys show that an increased % of respondents have heard of SUERIP</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="TBD" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="TBD" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
      <target value="40% increase"></target>
      <actual value="TBD in year 1 survey"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0">
+   <title>
+    <narrative xml:lang="EN">rmediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Customer satisfaction with services</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="TBD" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="20% increase"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Level of trust in the registration process by users.</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="TBD" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="40% increase"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0">
+   <title>
+    <narrative xml:lang="EN">rmediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Surveys show that an increased % of respondents have heard of SUERIP</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="TBD" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="40% increase"></target>
+     <actual></actual>
     </period>
    </indicator>
   </result>
@@ -1968,12 +2304,37 @@
     <title>
      <narrative xml:lang="EN">IT registration system development and operationalization</narrative>
     </title>
-    <baseline iso-date="2016-04-01" value="no system" year="2016"></baseline>
+    <baseline iso-date="2016-04-01" value="no system" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2016-04-01"></period-start>
      <period-end iso-date="2021-04-30"></period-end>
      <target value="Basic registration operations rolled out in 50% of offices"></target>
      <actual value="no system"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0">
+   <title>
+    <narrative xml:lang="EN">rmediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">IT registration system development and operationalization</narrative>
+    </title>
+    <baseline iso-date="2016-04-01" value="no system" year="2016">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2016-04-01"></period-start>
+     <period-end iso-date="2021-04-30"></period-end>
+     <target value="Basic registration operations rolled out in 50% of offices"></target>
+     <actual></actual>
     </period>
    </indicator>
   </result>

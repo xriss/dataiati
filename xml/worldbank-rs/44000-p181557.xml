@@ -20,10 +20,10 @@
   <participating-org ref="44001" role="3" type="40" xml:lang="EN">
    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
   </participating-org>
-  <participating-org ref="YF&#x2013;ORP0056443" role="4" xml:lang="EN">
+  <participating-org ref="YF&#x2013;COA-56443" role="4" xml:lang="EN">
    <narrative xml:lang="EN">Ministry of Education of the Republic of Serbia</narrative>
   </participating-org>
-  <participating-org ref="YF&#x2013;ORP0056442" role="2" xml:lang="EN">
+  <participating-org ref="YF&#x2013;P0056442" role="2" xml:lang="EN">
    <narrative xml:lang="EN">Ministry of Finance of the Republic of Serbia</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
@@ -631,6 +631,16 @@
    <period-end iso-date="2030-03-31"></period-end>
    <value currency="USD" value-date="2030-03-31">2766668.66</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2030-04-01"></period-start>
+   <period-end iso-date="2030-04-15"></period-end>
+   <value currency="USD" value-date="2030-04-15">-2310775.66</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2030-04-01"></period-start>
+   <period-end iso-date="2030-04-15"></period-end>
+   <value currency="USD" value-date="2030-04-15">-2310775.66</value>
+  </budget>
   <capital-spend percentage="100"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -642,6 +652,9 @@
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
    </provider-org>
+   <receiver-org ref="YF&#x2013;COA-56443" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">Ministry of Education of the Republic of Serbia</narrative>
+   </receiver-org>
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
@@ -655,6 +668,9 @@
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
    </provider-org>
+   <receiver-org ref="YF&#x2013;COA-56443" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">Ministry of Education of the Republic of Serbia</narrative>
+   </receiver-org>
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
@@ -668,6 +684,25 @@
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
    </provider-org>
+   <receiver-org ref="YF&#x2013;COA-56443" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">Ministry of Education of the Republic of Serbia</narrative>
+   </receiver-org>
+   <flow-type code="20"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <transaction>
+   <transaction-type code="5"></transaction-type>
+   <transaction-date iso-date="2026-04-30"></transaction-date>
+   <value currency="USD" value-date="2026-04-30">-1724</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Interest Repayment in April Month of 2026</narrative>
+   </description>
+   <provider-org ref="44001">
+    <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
+   </provider-org>
+   <receiver-org ref="YF&#x2013;COA-56443" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">Ministry of Education of the Republic of Serbia</narrative>
+   </receiver-org>
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
@@ -681,9 +716,22 @@
    <provider-org ref="44001">
     <narrative xml:lang="EN">International Bank for Reconstruction and Development</narrative>
    </provider-org>
+   <receiver-org ref="YF&#x2013;COA-56443" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">Ministry of Education of the Republic of Serbia</narrative>
+   </receiver-org>
    <flow-type code="20"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
+  <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099071025145516286/pdf/BOSIB-a3dc7ec8-6cc3-49eb-a5e6-eeafeacf6803.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Appraisal Document</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+   <category code="A08"></category>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099121024070555713/pdf/P181557-20bbe020-5eb0-4727-925c-257166e24c54.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Environmental and Social Commitment Plan</narrative>
@@ -714,15 +762,6 @@
   <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099121024070538133/pdf/P181557-e398f7a4-590e-4877-8e6c-ee655793c48c.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Environmental and Social Review Summary</narrative>
-   </title>
-   <category code="A01"></category>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099071025145516286/pdf/BOSIB-a3dc7ec8-6cc3-49eb-a5e6-eeafeacf6803.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Appraisal Document</narrative>
    </title>
    <category code="A01"></category>
    <category code="A02"></category>
@@ -788,7 +827,11 @@
     <title>
      <narrative xml:lang="EN">Number of focus groups with at least 10 participants</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-14"></period-end>
@@ -809,7 +852,11 @@
     <title>
      <narrative xml:lang="EN">Percentage of 4th and 8th grade students satisfied with involvement in WDS model improvement via survey</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-14"></period-end>
@@ -828,9 +875,88 @@
    </title>
    <indicator ascending="1" measure="1">
     <title>
+     <narrative xml:lang="EN">Number of focus groups with at least 10 participants</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="60">
+      <comment>
+       <narrative xml:lang="EN">Recruitment of a Coordinator for the relevant Subcomponent (3.1, Promoting Communication for Inclusivity) is being prepared by the PMU.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of 4th and 8th grade students satisfied with involvement in WDS model improvement via survey</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="60">
+      <comment>
+       <narrative xml:lang="EN">This indicator will be measured twice during the project life cycle.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of teachers in WDS and ESSI schools who are trained on Project Based Learning</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="70">
+      <comment>
+       <narrative xml:lang="EN">Hiring of a Project Coordinator for the relevant Subcomponent (1.2, Teacher Professional Development) is being prepared. In parallel, the PMU has initiated a review of existing CPD courses for teachers to understand the available training offer and potential gaps.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
      <narrative xml:lang="EN">Students supported with better education, in primary school</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -851,7 +977,11 @@
     <title>
      <narrative xml:lang="EN">Percentage of school principals in WDS schools that receive training on designing and implementing School Improvement Plans</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -872,7 +1002,11 @@
     <title>
      <narrative xml:lang="EN">Number of WDS schools that have piloted and costed school feeding modalities</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -893,7 +1027,11 @@
     <title>
      <narrative xml:lang="EN">Number of new vans purchased for WDS schools with at least one satellite school.</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -914,7 +1052,11 @@
     <title>
      <narrative xml:lang="EN">Number of WDS schools that offer diverse learning programs, e.g. for students with disabilities or from ethnic minorities</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -935,7 +1077,11 @@
     <title>
      <narrative xml:lang="EN">Percentage of WDS and ESSI schools that have school diagnostics that include data from national assessment</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -956,7 +1102,11 @@
     <title>
      <narrative xml:lang="EN">Number of WDS schools offering remedial programs in math and reading</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -977,7 +1127,11 @@
     <title>
      <narrative xml:lang="EN">Number of WDS schools that offer programs that address mental health and/or socioemotional skills</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -998,7 +1152,11 @@
     <title>
      <narrative xml:lang="EN">Percentage of parents to 4th and 8th grade students in WDS schools reporting satisfaction with enriched learning programs via survey</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -1019,7 +1177,11 @@
     <title>
      <narrative xml:lang="EN">Percentage of parents to 4th and 8th grade students reporting satisfaction about infrastructure in WDS schools via survey.</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -1040,7 +1202,11 @@
     <title>
      <narrative xml:lang="EN">Percentage of teachers in WDS and ESSI schools who are trained on Project Based Learning</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -1057,11 +1223,538 @@
    <title>
     <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
    </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of WDS and ESSI schools that have school diagnostics that include data from national assessment</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="50">
+      <comment>
+       <narrative xml:lang="EN">The PMU has begun work on launching the foreseen national assessments in Grades 3 and 7 (see above as pertaining to Subcomponent 1.1).</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of WDS schools that have piloted and costed school feeding modalities</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="20">
+      <comment>
+       <narrative xml:lang="EN">The PMU is re-confirming the list of targeted schools (i.e. those that  will be implementing the WDS model). Pilot WDS implementation in approx. 20 schools is planned to begin at the start of the 2026/2027 school year.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of new vans purchased for WDS schools with at least one satellite school.</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="20">
+      <comment>
+       <narrative xml:lang="EN">The PMU is re-confirming the list of targeted schools (i.e. those that  will be implementing the WDS model). Pilot WDS implementation in approx. 20 schools is planned to begin at the start of the 2026/2027 school year.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of WDS schools that offer diverse learning programs, e.g. for students with disabilities or from ethnic minorities</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="50">
+      <comment>
+       <narrative xml:lang="EN">The PMU is re-confirming the list of targeted schools (i.e. those that  will be implementing the WDS model, including diverse learning programs). Pilot WDS implementation in approx. 20 schools is planned to begin at the start of the 2026/2027 school year. Recruitment of a Coordinator for the relevant Subcomponent (2.2, Enriched Learning Programs), who will also cover Subcomponent 2.1, is being prepared by the PMU.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of WDS schools that offer programs that address mental health and/or socioemotional skills</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="60">
+      <comment>
+       <narrative xml:lang="EN">The PMU is re-confirming the list of targeted schools (i.e. those that  will be implementing the WDS model, including programs that address mental health/socioemotional skills). Pilot WDS implementation in approx. 20 schools is planned to begin at the start of the 2026/2027 school year. Recruitment of a Coordinator for the relevant Subcomponent (2.2, Enriched Learning Programs), who will also cover Subcomponent 2.1, is being prepared by the PMU.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of WDS schools offering remedial programs in math and reading</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="60">
+      <comment>
+       <narrative xml:lang="EN">The PMU is re-confirming the list of targeted schools (i.e. those that  will be implementing the WDS model, including remedial programs). Pilot WDS implementation in approx. 20 schools is planned to begin at the start of the 2026/2027 school year. Recruitment of a Coordinator for the relevant Subcomponent (2.2, Enriched Learning Programs), who will also cover Subcomponent 2.1, is being prepared by the PMU.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Students supported with better education, in primary school</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="10,000">
+      <comment>
+       <narrative xml:lang="EN">The PMU is re-confirming the list of targeted schools (i.e. those that will be implementing the WDS model). Pilot WDS implementation in approx. 20 schools is planned to begin at the start of the 2026/2027 school year.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of school principals in WDS schools that receive training on designing and implementing School Improvement Plans</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="100">
+      <comment>
+       <narrative xml:lang="EN">The PMU is working on setting the ground for the launch of school improvement plans (SIP) in approx. 20 pilot schools at the start of the 2026/2027 school year. The PMU has reviewed the training offer of the Institute for the Improvement of Education and started assessing which trainings for principals and school management teams could be readily used or adapted, while identifying gaps in coverage. Recruitment of a Coordinator for the relevant Subcomponent (2.1, School Improvement Plans), who will also cover Subcomponent 2.2, is being prepared by the PMU.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of parents to 4th and 8th grade students in WDS schools reporting satisfaction with enriched learning programs via survey</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="60">
+      <comment>
+       <narrative xml:lang="EN">This indicator will be measured twice during the project life cycle.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of parents to 4th and 8th grade students reporting satisfaction about infrastructure in WDS schools via survey.</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="60">
+      <comment>
+       <narrative xml:lang="EN">This indicator will be measured twice during the project life cycle.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of focus groups with at least 10 participants</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="60"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of 4th and 8th grade students satisfied with involvement in WDS model improvement via survey</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="60"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Students supported with better education, in primary school</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="10,000"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of school principals in WDS schools that receive training on designing and implementing School Improvement Plans</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="100"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of WDS schools that have piloted and costed school feeding modalities</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="20"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of new vans purchased for WDS schools with at least one satellite school.</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="20"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of WDS schools that offer diverse learning programs, e.g. for students with disabilities or from ethnic minorities</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="50"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of WDS and ESSI schools that have school diagnostics that include data from national assessment</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="50"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of WDS schools offering remedial programs in math and reading</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="60"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of WDS schools that offer programs that address mental health and/or socioemotional skills</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="60"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of parents to 4th and 8th grade students in WDS schools reporting satisfaction with enriched learning programs via survey</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="60"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of parents to 4th and 8th grade students reporting satisfaction about infrastructure in WDS schools via survey.</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="60"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of teachers in WDS and ESSI schools who are trained on Project Based Learning</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="70"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
    <indicator ascending="1" measure="5">
     <title>
      <narrative xml:lang="EN">Comprehensive communication and outreach strategy for the WDS developed and implemented</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="No" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-14"></period-end>
@@ -1082,7 +1775,11 @@
     <title>
      <narrative xml:lang="EN">Survey on school management applied to WDS and ESSI schools</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="No" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-14"></period-end>
@@ -1101,9 +1798,113 @@
    </title>
    <indicator ascending="1" measure="5">
     <title>
+     <narrative xml:lang="EN">Comprehensive communication and outreach strategy for the WDS developed and implemented</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">Recruitment of a Coordinator for the relevant Subcomponent (3.1, Promoting Communication for Inclusivity) is being prepared by the PMU.</narrative>
+      </comment>
+     </target>
+     <actual value="No"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Survey on school management applied to WDS and ESSI schools</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">This indicator will be measured twice during the project lifecycle.</narrative>
+      </comment>
+     </target>
+     <actual value="No"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
      <narrative xml:lang="EN">Development of the Framework for Physical Learning Environment</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="No" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">Activities under relevant Subcomponent (2.3, Learning Environments) are now focused on re-confirming the list of targeted schools (i.e. those that will benefit from infrastructure improvements and implement the WDS model). Pilot WDS implementation in approx. 20 schools is planned to begin at the start of the 2026/2027 school year.</narrative>
+      </comment>
+     </target>
+     <actual value="No"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Gender, Environmental and Diversity considerations are integrated into the CPD curricula for teachers</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">Hiring of a Project Coordinator for the relevant Subcomponent (1.2, Teacher Professional Development) is being prepared. In the meantime, the PMU initiated the review of existing continuous professional development (CPD) teacher courses.</narrative>
+      </comment>
+     </target>
+     <actual value="No"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Development of the Framework for Physical Learning Environment</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -1124,7 +1925,11 @@
     <title>
      <narrative xml:lang="EN">Gender, Environmental and Diversity considerations are integrated into the CPD curricula for teachers</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="No" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -1145,7 +1950,11 @@
     <title>
      <narrative xml:lang="EN">Standards for the student national assessments are developed</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="No" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -1164,9 +1973,143 @@
    </title>
    <indicator ascending="1" measure="5">
     <title>
+     <narrative xml:lang="EN">Standards for the student national assessments are developed</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="Yes">
+      <comment>
+       <narrative xml:lang="EN">The PMU has prepared an Implementation Plan for the relevant Subcomponent (1.1, Learning assessments). A Working Group including the Institute for Education Quality and Evaluation (IEQE) was established to oversee the Subcomponent implementation and already held its first meeting. A draft &#x201c;baseline&#x201d; document (legislative framework, basic criteria, etc.) and TOR for a firm to to develop a methodology framework and support MoE and IEQE with implementation were developed. The next step involves the development of a more detailed Concept for the National Assessment, which falls under the mandate of the Working Group.</narrative>
+      </comment>
+     </target>
+     <actual value="No"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Comprehensive communication and outreach strategy for the WDS developed and implemented</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="Yes"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Survey on school management applied to WDS and ESSI schools</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="Yes"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Development of the Framework for Physical Learning Environment</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="Yes"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Gender, Environmental and Diversity considerations are integrated into the CPD curricula for teachers</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="Yes"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Standards for the student national assessments are developed</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="No" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="Yes"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
      <narrative xml:lang="EN">National Assessment  in grade five conducted</narrative>
     </title>
-    <baseline iso-date="2024-12-10" value="no" year="2024"></baseline>
+    <baseline iso-date="2024-12-10" value="no" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-10"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -1183,11 +2126,61 @@
    <title>
     <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
    </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">National Assessment  in grade five conducted</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="no" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="yes">
+      <comment>
+       <narrative xml:lang="EN">The PMU has begun work on launching the foreseen national assessments in Grades 3 and 7 (see above as pertaining to Subcomponent 1.1).</narrative>
+      </comment>
+     </target>
+     <actual value="No"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">National Assessment  in grade five conducted</narrative>
+    </title>
+    <baseline iso-date="2024-12-10" value="no" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-10"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="yes"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
    <indicator ascending="1" measure="2">
     <title>
      <narrative xml:lang="EN">Percentage of students regularly attending remedial reading programs.</narrative>
     </title>
-    <baseline iso-date="2024-12-11" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-11" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-11"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -1200,6 +2193,119 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of students regularly attending remedial reading programs.</narrative>
+    </title>
+    <baseline iso-date="2024-12-11" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-11"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="75">
+      <comment>
+       <narrative xml:lang="EN">The PMU is re-confirming the list of targeted schools (i.e. those that  will be implementing the WDS model, including remedial learning programs). Pilot WDS implementation in approx. 20 schools is planned to begin at the start of the 2026/2027 school year. Recruitment of a Coordinator for the relevant Subcomponent (2.2, Enriched Learning Programs), who will also cover Subcomponent 2.1, is being prepared by the PMU. During school visits to ESSI schools organized as part of the implementation mission during 6-9 April 2026, relevant lessons for the implementation of remedial programs in WDS schools were identified.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of students regularly attending remedial reading programs.</narrative>
+    </title>
+    <baseline iso-date="2024-12-11" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-11"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="75"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of parents to 4th and 8th grade students in WDS schools reporting out of pocket expenses for private tutoring via survey</narrative>
+    </title>
+    <baseline iso-date="2024-12-11" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-11"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="20">
+      <comment>
+       <narrative xml:lang="EN">This indicator will be measured twice during the project life cycle</narrative>
+      </comment>
+     </target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of parents to 4th and 8th grade students in WDS schools reporting out of pocket expenses for private tutoring via survey</narrative>
+    </title>
+    <baseline iso-date="2024-12-11" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-11"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="20"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of parents to 4th and 8th grade students in WDS schools reporting out of pocket expenses for private tutoring via survey</narrative>
+    </title>
+    <baseline iso-date="2024-12-11" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-11"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="20"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="2">
    <title>
     <narrative xml:lang="EN">Project Development Objectives</narrative>
@@ -1208,7 +2314,11 @@
     <title>
      <narrative xml:lang="EN">Index measuring improved climate efficiency and the inclusivity of the learning environments</narrative>
     </title>
-    <baseline iso-date="2024-12-12" value="1.42" year="2024"></baseline>
+    <baseline iso-date="2024-12-12" value="1.42" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-12"></period-start>
      <period-end iso-date="2029-12-15"></period-end>
@@ -1227,9 +2337,59 @@
    </title>
    <indicator ascending="1" measure="1">
     <title>
+     <narrative xml:lang="EN">Index measuring improved climate efficiency and the inclusivity of the learning environments</narrative>
+    </title>
+    <baseline iso-date="2024-12-12" value="1.42" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-12"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="2.0">
+      <comment>
+       <narrative xml:lang="EN">The PMU is re-confirming the list of targeted schools (i.e. those that  will be implementing the WDS model). Pilot WDS implementation in approx. 20 schools is planned to begin at the start of the 2026/2027 school year.</narrative>
+      </comment>
+     </target>
+     <actual value="1.42"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Index measuring improved climate efficiency and the inclusivity of the learning environments</narrative>
+    </title>
+    <baseline iso-date="2024-12-12" value="1.42" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-12"></period-start>
+     <period-end iso-date="2029-12-15"></period-end>
+     <target value="2.0"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of data-informed school improvement plans implemented in targeted schools</narrative>
     </title>
-    <baseline iso-date="2024-12-14" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-14" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-14"></period-start>
      <period-end iso-date="2029-12-14"></period-end>
@@ -1250,7 +2410,11 @@
     <title>
      <narrative xml:lang="EN">Number of innovation grants disbursed to improve and disseminate high quality enriched learning practices</narrative>
     </title>
-    <baseline iso-date="2024-12-14" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-12-14" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-14"></period-start>
      <period-end iso-date="2029-12-14"></period-end>
@@ -1263,6 +2427,98 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of innovation grants disbursed to improve and disseminate high quality enriched learning practices</narrative>
+    </title>
+    <baseline iso-date="2024-12-14" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-14"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="20">
+      <comment>
+       <narrative xml:lang="EN">The PMU is re-confirming the list of targeted schools (i.e. those that  will be implementing the WDS model, including enriched learning practices). Pilot WDS implementation in approx. 20 schools is planned to begin at the start of the 2026/2027 school year. Recruitment of a Coordinator for the relevant Subcomponent (2.2, Enriched Learning Programs), who will also cover Subcomponent 2.1, is being prepared by the PMU.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of data-informed school improvement plans implemented in targeted schools</narrative>
+    </title>
+    <baseline iso-date="2024-12-14" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-14"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="100">
+      <comment>
+       <narrative xml:lang="EN">The PMU is working on setting the ground for the launch of school improvement plans (SIP) in approx. 20 pilot schools at the start of the 2026/2027 school year. The recruitment process for a Coordinator for the relevant Subcomponent (2.1, School Improvement Plans), who will also cover Subcomponent 2.2, is underway by the PMU.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of data-informed school improvement plans implemented in targeted schools</narrative>
+    </title>
+    <baseline iso-date="2024-12-14" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-14"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="100"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of innovation grants disbursed to improve and disseminate high quality enriched learning practices</narrative>
+    </title>
+    <baseline iso-date="2024-12-14" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-14"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="20"></target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="2">
    <title>
     <narrative xml:lang="EN">Project Development Objectives</narrative>
@@ -1271,7 +2527,11 @@
     <title>
      <narrative xml:lang="EN">Average measure of the quality of teaching practices in targeted schools (as measured by an external evaluation tool)</narrative>
     </title>
-    <baseline iso-date="2024-12-14" value="2.69" year="2024"></baseline>
+    <baseline iso-date="2024-12-14" value="2.69" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-12-14"></period-start>
      <period-end iso-date="2029-12-14"></period-end>
@@ -1281,6 +2541,52 @@
       </comment>
      </target>
      <actual value="2.69"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Average measure of the quality of teaching practices in targeted schools (as measured by an external evaluation tool)</narrative>
+    </title>
+    <baseline iso-date="2024-12-14" value="2.69" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-14"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="3.0">
+      <comment>
+       <narrative xml:lang="EN">This indicator will be measured twice during the project life cycle.</narrative>
+      </comment>
+     </target>
+     <actual value="2.69"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Average measure of the quality of teaching practices in targeted schools (as measured by an external evaluation tool)</narrative>
+    </title>
+    <baseline iso-date="2024-12-14" value="2.69" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-14"></period-start>
+     <period-end iso-date="2029-12-14"></period-end>
+     <target value="3.0"></target>
+     <actual></actual>
     </period>
    </indicator>
   </result>

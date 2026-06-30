@@ -3,7 +3,7 @@
  <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-EIN-06-1597-668-MOVA2-Africa</iati-identifier>
   <reporting-org ref="US-EIN-06-1597-668" type="21">
-   <narrative xml:lang="EN">Just Associates (JASS)</narrative>
+   <narrative xml:lang="EN">Just Associates</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">CMI! 2.0 Power of Voice Movements (JASS)-Africa</narrative>
@@ -20,7 +20,7 @@
   <participating-org activity-id="US-EIN-06-1597-668-CMI-2" crs-channel-code="21000" ref="US-EIN-06-1597-668" role="4" type="21">
    <narrative xml:lang="EN">Just Associates (JASS)</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2025-12-31" type="3">
    <narrative xml:lang="EN"></narrative>
   </activity-date>
@@ -146,6 +146,25 @@
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction humanitarian="0" ref="CMI-JASS 02-A- 2025">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">3785</value>
+   <description>
+    <narrative xml:lang="EN">Funds for movement activities in Malawi and Zimbabwe</narrative>
+   </description>
+   <provider-org provider-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">JASS ( funds for activities with partners)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">Funds to movement strategy</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction humanitarian="0" ref="CMI-JASS 02-A- 2021">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
@@ -245,6 +264,22 @@
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction humanitarian="0" ref="CMI-JASS 02-A (2025)">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">27316</value>
+   <provider-org provider-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">(JASS) Funds received from JASS POV</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">JASS disburses funds for movement activities</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <related-activity ref="US-EIN-06-1597-668-CMI-2" type="1"></related-activity>
   <result aggregation-status="1" type="1">
    <title>
@@ -305,6 +340,24 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="10">
+      <location ref="Africa"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">This indicator is also unique as the number of WHRDs supported by CMI members will be reported only once. If different support is provided to the same WHRDs, they will be counted once, and details will be provided in the comment box.</narrative>
+      </comment>
+     </target>
+     <actual value="24">
+      <location ref="Africa"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">JASS worked with 24 new WHRDs to increase their lobby and advocacy capacities in the Africa region</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
      <target value="45">
@@ -340,21 +393,6 @@
       </comment>
      </actual>
     </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="10">
-      <location ref="Africa"></location>
-      <dimension name="Gender" value="Female"></dimension>
-      <comment>
-       <narrative xml:lang="EN">This indicator is also unique as the number of WHRDs supported by CMI members will be reported only once. If different support is provided to the same WHRDs, they will be counted once, and details will be provided in the comment box.</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <location ref="Africa"></location>
-      <dimension name="Gender" value="Female"></dimension>
-     </actual>
-    </period>
    </indicator>
    <indicator aggregation-status="1" ascending="1" measure="1">
     <title>
@@ -386,6 +424,24 @@
       <dimension name="Gender" value="Female"></dimension>
       <comment>
        <narrative xml:lang="EN">Built alliances and supported the implementing the work of our partner in Malawi which is an umbrella body for different groups of women and a civil society force in dealing with issues on gender and women&#x2019;s rights in the context of HIV and AIDS. Organizations across different sectors engaged in a multidisciplinary discussion on structural violence; such as civil society organization, Human rights groups, policy and research centers, Journalists, youth organization, Health sector representatives, agricultural networks and International Women Rights organizations. Created new collaborations with diverse alliances to advance women&apos;s agendas</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="4">
+      <location ref="Africa"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">This reporting measure of this indicator is unique. New or strengthened alliances at different levels will be captured. In case one alliance is created in the first year, we shall only count for that year regardless of the number of times activities will be carried out to strengthen that alliance.</narrative>
+      </comment>
+     </target>
+     <actual value="4">
+      <location ref="Africa"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">JASS created 4 unique alliances at this region</narrative>
       </comment>
      </actual>
     </period>
@@ -441,21 +497,6 @@
       <comment>
        <narrative xml:lang="EN">&quot;JASS influenced debate on Pan-Africanism and was able to surface the intersectionality of oppression that women face and find synergies across different Black women&apos;s struggles/ movements. Through this engagement JASS influenced AGS and other donors present to support Black feminist movements, particularly channeling flexible resources - to be able to rapidly respond to safety and basic needs of women activists.The  theme of the meeting was  Black/African Feminism - What is it, and how does it differ from other feminisms? The objective of the meeting was to reflect on Black/African Feminism and our work.the meeting was organized by AGSNew alliances x 6quotes- What struck me was my own meaning of feminism which I said that feminist is all about equality . which put us in the forefront of all these struggles that we fight for. as human beings we are not equal so we want to make sure that things are equal between us. I have learn that through  partnership with AGS there are more connections or similarities on work that we do as organization&apos;s for example issues of climate crisis and learning how crisis looks like we are all doing this in a different way hence the need for the partnership to work as  a collective. Rebuilding our food system, building our voice and agency of women to challenge power we are all doing this in different ways and there is need to stop organizing in silosThe surveillance of women, risk and safety nets, issues of legal support for women who speak out about their struggles because they are put on the spotlight need to be taken seriously and  put measures on it.In preparation for the meeting at the embassy, WHRDs were provided with the skills to:1. Use stories of change for advocacy2. Use their skills to advocate for additional support from the Dutch government (power holder)As a result, the ambassador said she would look at different ways that her team and her could support the WHRDs. Through using storytelling/ change stories  that demonstrate women&apos;s lived experiences they were able to influence debate on feminist MEL and sharing collaborative ways of collecting and analysing data such as the FPAR process. New alliances were also formed during the meeting as different movement groups that were funded through the &quot;&quot;Strengthening Civil Society&quot;&quot; stream met at the embassy&quot;</narrative>
       </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="4">
-      <location ref="Africa"></location>
-      <dimension name="Gender" value="Female"></dimension>
-      <comment>
-       <narrative xml:lang="EN">This reporting measure of this indicator is unique. New or strengthened alliances at different levels will be captured. In case one alliance is created in the first year, we shall only count for that year regardless of the number of times activities will be carried out to strengthen that alliance.</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <location ref="Africa"></location>
-      <dimension name="Gender" value="Female"></dimension>
      </actual>
     </period>
    </indicator>
@@ -556,9 +597,12 @@
        <narrative xml:lang="EN">This indicator is also unique, as the number of WROs supported by CMI members will be reported only once. If different support is provided to the same WROs, they will be counted once, and details will be provided in the comment box</narrative>
       </comment>
      </target>
-     <actual value="0">
+     <actual value="2">
       <location ref="Africa"></location>
       <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">There were 2 new unique WROs in the Africa region</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>

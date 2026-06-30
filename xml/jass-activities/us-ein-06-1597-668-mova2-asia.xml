@@ -3,7 +3,7 @@
  <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-EIN-06-1597-668-MOVA2-Asia</iati-identifier>
   <reporting-org ref="US-EIN-06-1597-668" type="21">
-   <narrative xml:lang="EN">Just Associates (JASS)</narrative>
+   <narrative xml:lang="EN">Just Associates</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">CMI! 2.0 Power of Voice Movements (JASS)-Asia</narrative>
@@ -20,7 +20,7 @@
   <participating-org activity-id="US-EIN-06-1597-668-CMI-2" crs-channel-code="21000" ref="US-EIN-06-1597-668" role="4" type="21">
    <narrative xml:lang="EN">Just Associates (JASS)</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2025-12-31" type="3">
    <narrative xml:lang="EN"></narrative>
   </activity-date>
@@ -163,6 +163,25 @@
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction humanitarian="0" ref="CMI-JASS 02-A- 2025">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">42626</value>
+   <description>
+    <narrative xml:lang="EN">Funds for movement activities</narrative>
+   </description>
+   <provider-org provider-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">JASS ( funds for activities with partners)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">Funds to movement strategy</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction humanitarian="0" ref="CMI-JASS 02-A (2021)">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-01-01"></transaction-date>
@@ -243,6 +262,22 @@
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction humanitarian="0" ref="CMI-JASS 02-A (2025)">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">12141</value>
+   <provider-org provider-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">(JASS) Funds received from JASS POV</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">JASS disburses funds for movement activities</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <related-activity ref="US-EIN-06-1597-668-CMI-2" type="1"></related-activity>
   <result aggregation-status="1" type="1">
    <title>
@@ -294,7 +329,7 @@
        <narrative xml:lang="EN">This indicator is also unique as the number of WHRDs supported by CMI members will be reported only once. If different support is provided to the same WHRDs, they will be counted once, and details will be provided in the comment box.</narrative>
       </comment>
      </target>
-     <actual value="120">
+     <actual value="125">
       <location ref="Asia"></location>
       <dimension name="Gender" value="Female"></dimension>
       <comment>
@@ -321,6 +356,24 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="10">
+      <location ref="Asia"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">This indicator is also unique as the number of WHRDs supported by CMI members will be reported only once. If different support is provided to the same WHRDs, they will be counted once, and details will be provided in the comment box.</narrative>
+      </comment>
+     </target>
+     <actual value="52">
+      <location ref="Asia"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">JASS worked with 52 new WHRDs to increase their lobby and advocacy capacities in Asia</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
      <target value="45">
@@ -336,21 +389,6 @@
       <comment>
        <narrative xml:lang="EN">Participants of the training are able to strategise by using power framework. They are able to value their own and their communities&apos; knowledge as part of local movement to overcome challenges. They are able to recognize their own leaderships to find solutions.Uncovering cultural and religious roots related to fundamentalism and sexuality and strengthening analytical skills is one of the strategies that can help or hinder the organizing work of young women. By provinding a safe space for young women to share experiences of community organizing and self-security as women human rights defenders (physical attacks, psychological and digital threats) allow participants to reproduce models of protection related to personal security that can be developed and used in institutions.This process has been critically important for activist to draw the ecosystem of extractives and dimensionate the impact of working against extractivism to their well-being.Activist researchers learnt  to analyse, synthesize, and write their own stories of change and find out what their leadership qualities are  as they went through the FPAR reflection process changing through the process.</narrative>
       </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="10">
-      <location ref="Asia"></location>
-      <dimension name="Gender" value="Female"></dimension>
-      <comment>
-       <narrative xml:lang="EN">This indicator is also unique as the number of WHRDs supported by CMI members will be reported only once. If different support is provided to the same WHRDs, they will be counted once, and details will be provided in the comment box.</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <location ref="Asia"></location>
-      <dimension name="Gender" value="Female"></dimension>
      </actual>
     </period>
    </indicator>
@@ -424,6 +462,24 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="4">
+      <location ref="Asia"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">This reporting measure of this indicator is unique. New or strengthened alliances at different levels will be captured. In case one alliance is created in the first year, we shall only count for that year regardless of the number of times activities will be carried out to strengthen that alliance.</narrative>
+      </comment>
+     </target>
+     <actual value="13">
+      <location ref="Asia"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">JASS worked with 13 new alliances to strengthen our regional level cross-border lobby and advocacy strategies</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2023-01-02"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="4">
@@ -439,21 +495,6 @@
       <comment>
        <narrative xml:lang="EN">&quot;JASS facilitated a workshop with the a network of environment defenders as part of developing a concept note for additional resources for the extractives work JASS conducts in SEA. L&amp;A skills gained through the process include:1. Research skills and ability to identify power holders, understand their priorities how they operate2. Writing and analytic skills to develop strategies that can collectively challenge extractivism industries in the region3. Critical thinking skills which have enabled them to make connections on intersecting issues in the region such climate change, indigenous rights, livelihoods etc. to showcase the global relevance of the extractives work&#x201d;.The safety protocols have reduced the risks and improved the ability to respond to any violence against WHRDs through mainstreaming of security practices, structures in place for responses to violence (including legal and medical support) as well as mitigating risk through better security infrastructure and practices.&quot;</narrative>
       </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="4">
-      <location ref="Asia"></location>
-      <dimension name="Gender" value="Female"></dimension>
-      <comment>
-       <narrative xml:lang="EN">This reporting measure of this indicator is unique. New or strengthened alliances at different levels will be captured. In case one alliance is created in the first year, we shall only count for that year regardless of the number of times activities will be carried out to strengthen that alliance.</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <location ref="Asia"></location>
-      <dimension name="Gender" value="Female"></dimension>
      </actual>
     </period>
    </indicator>
@@ -527,6 +568,24 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="1">
+      <location ref="Asia"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">This indicator is also unique, as the number of WROs supported by CMI members will be reported only once. If different support is provided to the same WROs, they will be counted once, and details will be provided in the comment box.</narrative>
+      </comment>
+     </target>
+     <actual value="3">
+      <location ref="Asia"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">JASS worked with 3 new unique WROs while strengthening partnerships with over 20 existing alliances</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2023-01-02"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="1">
@@ -542,21 +601,6 @@
       <comment>
        <narrative xml:lang="EN">&quot;As a continuation of the 2022 process on strengthening the analysis and organizing strategies of JASS&apos; partner in Indonesia around the issue of extractivism, JASS used the CMI! extractives toolkit to capacitate WHRDs to:1. Deepen their understanding on extractivism in Indonesia2. Analyze power dynamics that enabled extractive projects and link the impacts of extractivism at  community level3. Conduct country and regional specific research on investors of extractives and extractive companies, and4. Develop global strategies for influence, including how to share the information to communities to raise critical awareness and grow the movement&quot;</narrative>
       </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="1">
-      <location ref="Asia"></location>
-      <dimension name="Gender" value="Female"></dimension>
-      <comment>
-       <narrative xml:lang="EN">This indicator is also unique, as the number of WROs supported by CMI members will be reported only once. If different support is provided to the same WROs, they will be counted once, and details will be provided in the comment box.</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <location ref="Asia"></location>
-      <dimension name="Gender" value="Female"></dimension>
      </actual>
     </period>
    </indicator>

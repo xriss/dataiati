@@ -3,7 +3,7 @@
  <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-EIN-06-1597-668-MAKCA3-Africa</iati-identifier>
   <reporting-org ref="US-EIN-06-1597-668" type="21">
-   <narrative xml:lang="EN">Just Associates (JASS)</narrative>
+   <narrative xml:lang="EN">Just Associates</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">CMI! -2.0 Power of Voices- Change (JASS)-Africa</narrative>
@@ -23,7 +23,7 @@
   <participating-org activity-id="NL-KVK-41202535-CMI-2" crs-channel-code="20000" ref="NL-KVK-41202535" role="1" type="60">
    <narrative xml:lang="EN">Mama Cash</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2021-01-01" type="1"></activity-date>
   <activity-date iso-date="2025-12-31" type="3"></activity-date>
   <contact-info type="1">
@@ -185,6 +185,25 @@
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction humanitarian="0" ref="CMI-JASS 02-A (2025)">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">23735</value>
+   <description>
+    <narrative xml:lang="EN">Power of voices activities</narrative>
+   </description>
+   <provider-org provider-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">JASS transferred funds from power of voices activity f</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">JASS</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction humanitarian="0" ref="CMI-JASS 02-A- 2021">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2021-12-31"></transaction-date>
@@ -246,6 +265,25 @@
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2024-12-31"></transaction-date>
    <value currency="EUR" value-date="2024-12-31">23320</value>
+   <description>
+    <narrative xml:lang="EN">Power of voices</narrative>
+   </description>
+   <provider-org provider-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">JASS for activity</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">JASS for partner related activities</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="0" ref="CMI-JASS 02-A- 2025">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">5707</value>
    <description>
     <narrative xml:lang="EN">Power of voices</narrative>
    </description>
@@ -423,9 +461,12 @@
        <narrative xml:lang="EN">The reporting measure of this indicator is unique. If space created or defended has the same agenda/issue and targets the same policy/decision makers, then it will be counted once. At the same time, the space created with a different policy and decision makers will be counted as a different space.</narrative>
       </comment>
      </target>
-     <actual value="0">
+     <actual value="113">
       <location ref="Africa"></location>
       <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Since the midline, we have had the opportunity to create many spaces for feminist demands to take place at local, national and international levels including through radio, multilateral UN spaces and others</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
@@ -453,6 +494,24 @@
      </comment>
     </baseline>
     <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="2">
+      <location ref="Africa"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">The reporting indicator is unique, considering it takes a long time to influence laws, policies and strategies used at the national level. This will be a 5-year target. The achievement of laws and policies will be counted only once.</narrative>
+      </comment>
+     </target>
+     <actual value="5">
+      <location ref="Africa"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Since the midline in the Africa region, we have worked at local, national and regional levels to create strategies for the adoption, improvement or blocking of laws and policies that do not center womxn&apos;s voices or perspectives</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2023-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="1">
@@ -468,21 +527,6 @@
       <comment>
        <narrative xml:lang="EN">&quot;The endline survey was part of the FPAR endline study by JASS.  The survey was to understand the impact of FPAR on womxn and WROs. Responses demonstrated a long list of results achieved through the FPAR process in Malawi include increasing the collective power and safety for women, this includes specific achievements in confronting power holders ito support womxn&apos;s agendas in the following ways:Malawi police serviceCommitted to support women by following up on the abuse as law enforcers and  support women safety and security when reaching out to places which need security.Social Welfare-Committed to work hand in hand with OBOL women activists on issues of children and women who need immediate attention in order to deal with the injustices without delay.-To enhance capacity of OBOL women activists in village savings loans by training them on the basics of VSL to sustain economic empowerment in regard to the pillarsReligious leader-Committed to provide space during church services/any other platforms to amplify women&apos;s voices but also to share the information to church members so that they listen to Radio shows and learn from the work of OBOL.-Committed  to include OBOL women in decision making positions in churches and use them to help in awareness of human rights in churches.Chiefs-Committed to work hand in hand with women by organizing sensitization meetings in all communities to allow the flow of information on GBV to both men and women by indicating the implications that may follow because of violating the rights.&quot;&quot;It&apos;s time to kill the culture of silence and uplift women to have ownership of their bodies so that we can voice out on issues affecting women in their respective families and communities but also to identify and prioritize issues that need collective power and action.&quot;&quot;The Magistrates-Committed to follow up on delayed justice and to be available for OBOL meetings when need arise&quot;</narrative>
       </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="2">
-      <location ref="Africa"></location>
-      <dimension name="Gender" value="Female"></dimension>
-      <comment>
-       <narrative xml:lang="EN">The reporting indicator is unique, considering it takes a long time to influence laws, policies and strategies used at the national level. This will be a 5-year target. The achievement of laws and policies will be counted only once.</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <location ref="Africa"></location>
-      <dimension name="Gender" value="Female"></dimension>
      </actual>
     </period>
    </indicator>

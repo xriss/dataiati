@@ -3,7 +3,7 @@
  <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>US-EIN-06-1597-668-MOV-LAC</iati-identifier>
   <reporting-org ref="US-EIN-06-1597-668" type="21">
-   <narrative xml:lang="EN">Just Associates (JASS)</narrative>
+   <narrative xml:lang="EN">Just Associates</narrative>
   </reporting-org>
   <title>
    <narrative xml:lang="EN">CMI! 2.0 Power of Voice Movements (JASS)-LAC</narrative>
@@ -20,7 +20,7 @@
   <participating-org activity-id="US-EIN-06-1597-668-CMI-2" crs-channel-code="21000" ref="US-EIN-06-1597-668" role="4" type="21">
    <narrative xml:lang="EN">Just Associates (JASS)</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <activity-status code="3"></activity-status>
   <activity-date iso-date="2025-12-31" type="3">
    <narrative xml:lang="EN"></narrative>
   </activity-date>
@@ -165,6 +165,25 @@
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction humanitarian="0" ref="CMI-JASS 02-A- 2025">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">17347</value>
+   <description>
+    <narrative xml:lang="EN">Funds for movement activities</narrative>
+   </description>
+   <provider-org provider-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">JASS ( funds for activities with partners)</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">Funds to movement strategy</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <transaction humanitarian="0" ref="CMI-JASS 02-A (2021)">
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2021-01-01"></transaction-date>
@@ -245,6 +264,22 @@
    <aid-type code="A01" vocabulary="1"></aid-type>
    <tied-status code="5"></tied-status>
   </transaction>
+  <transaction humanitarian="0" ref="CMI-JASS 02-A (2025)">
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-01-01">42492</value>
+   <provider-org provider-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">(JASS) Funds received from JASS POV</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="US-EIN-06-1597-668-CMI-2" ref="US-EIN-06-1597-668" type="21">
+    <narrative xml:lang="EN">JASS disburses funds for movement activities</narrative>
+   </receiver-org>
+   <disbursement-channel code="2"></disbursement-channel>
+   <flow-type code="30"></flow-type>
+   <finance-type code="110"></finance-type>
+   <aid-type code="A01" vocabulary="1"></aid-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
   <related-activity ref="US-EIN-06-1597-668-CMI-2" type="1"></related-activity>
   <result aggregation-status="1" type="1">
    <title>
@@ -288,6 +323,24 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="4">
+      <location ref="Latin America"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">This reporting measure of this indicator is unique. New or strengthened alliances at different levels will be captured. In case one alliance is created in the first year, we shall only count for that year regardless of the number of times activities will be carried out to strengthen that alliance</narrative>
+      </comment>
+     </target>
+     <actual value="4">
+      <location ref="Latin America"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">JASS created 4 unique alliances In LAC this year</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2023-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="4">
@@ -326,21 +379,6 @@
     <period>
      <period-start iso-date="2022-01-01"></period-start>
      <period-end iso-date="2022-12-31"></period-end>
-     <target value="4">
-      <location ref="Latin America"></location>
-      <dimension name="Gender" value="Female"></dimension>
-      <comment>
-       <narrative xml:lang="EN">This reporting measure of this indicator is unique. New or strengthened alliances at different levels will be captured. In case one alliance is created in the first year, we shall only count for that year regardless of the number of times activities will be carried out to strengthen that alliance</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <location ref="Latin America"></location>
-      <dimension name="Gender" value="Female"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
      <target value="4">
       <location ref="Latin America"></location>
       <dimension name="Gender" value="Female"></dimension>
@@ -451,9 +489,12 @@
        <narrative xml:lang="EN">This indicator is also unique, as the number of WROs supported by CMI members will be reported only once. If different support is provided to the same WROs, they will be counted once, and details will be provided in the comment box.</narrative>
       </comment>
      </target>
-     <actual value="12">
+     <actual value="4">
       <location ref="Latin America"></location>
       <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">There were 4 new unique WROs in LAC this year</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
@@ -509,6 +550,24 @@
      </actual>
     </period>
     <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="10">
+      <location ref="Latin America"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">This indicator is also unique as the number of WHRDs supported by CMI members will be reported only once. If different support is provided to the same WHRDs, they will be counted once, and details will be provided in the comment box.</narrative>
+      </comment>
+     </target>
+     <actual value="250">
+      <location ref="Latin America"></location>
+      <dimension name="Gender" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">JASS worked with 250 new WHRDs to increase their lobby and advocacy capacities in the LAC region during the refresh and renewal of the Alquimia Political Facilitators&apos; School</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
      <period-start iso-date="2023-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
      <target value="25">
@@ -542,21 +601,6 @@
       <comment>
        <narrative xml:lang="EN">WHRDs strengthened their strategic capacities, feminist popular education, planning and methodologies, process facilitation skills. It provided a space for the creation of new alliances.12 WHRDs raised their awareness by exchanging experiences, collective reflections and analysis for stregthening their organizations. WHRDs strengthened their strategic capacities, feminist popular education, planning and methodologies, process facilitation skills. By strengthening the leadership of the political facilitators it also strengthens its organizations and movements. 23 indigenous women land defenders and women leaders (Mayan, Xinka, Mestizo, Garifuna and Afro-descendant women stregthened their leadership to promote the weaving of alliances and community networks.JASS leveraged its relations by bridging Partners Asia funds to support the realization of this commemoration and the participation of women, including elderly indigenous women who are a significant group and who have had and continue to have a valuable leadership within their organization. An intergenerational encounter was generated.100 WHRDs supported for the search for justice for women in the context of war and historical memory in Guatemala.This session allowed WHRDs for joint work, coordination and  reflection on how to de-escalate and solve conflicts within their organizations.&quot;13 WHRDs equiped with tools for the collective construction of knowledge and spaces for collective practice in conflict resolution.&quot;Meeting with indigenous women, Mayan and Xinka farmers to share strategies against systemic violence. The meeting between diverse and plural women brough about diverse perspectives from the respect and recognition of the different ways of living their political and spiritual practices.15 WHRDs and leaders equiped with tools for analyzing the different systemic oppressions and violence in the lives and personal and collective bodies of women, based on a methodological exchange that enables knowledge sharing with others in their organizational spaces.The Steering Comitttee of the protection network were able to set their priorities of work for the region, which will be systematize and provide training in Integral Feminist Protection, accompany and support women defenders at risk, self-care of the teams, maintain flexible funds, generate information from the countries.12 WHRDs  reviewed its safety priorities, context and activities for the work of the networks and regional team</narrative>
       </comment>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2025-12-31"></period-end>
-     <target value="10">
-      <location ref="Latin America"></location>
-      <dimension name="Gender" value="Female"></dimension>
-      <comment>
-       <narrative xml:lang="EN">This indicator is also unique as the number of WHRDs supported by CMI members will be reported only once. If different support is provided to the same WHRDs, they will be counted once, and details will be provided in the comment box.</narrative>
-      </comment>
-     </target>
-     <actual value="0">
-      <location ref="Latin America"></location>
-      <dimension name="Gender" value="Female"></dimension>
      </actual>
     </period>
    </indicator>
