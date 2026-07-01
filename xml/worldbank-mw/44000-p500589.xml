@@ -20,10 +20,10 @@
   <participating-org ref="44002" role="3" type="40" xml:lang="EN">
    <narrative xml:lang="EN">International Development Association</narrative>
   </participating-org>
-  <participating-org ref="MW&#x2013;OR00004581" role="2" xml:lang="EN">
+  <participating-org ref="MW&#x2013;00004581" role="2" xml:lang="EN">
    <narrative xml:lang="EN">Ministry of Finance and Economic Affairs</narrative>
   </participating-org>
-  <participating-org ref="MW&#x2013;OR00006591" role="4" xml:lang="EN">
+  <participating-org ref="MW&#x2013;COA-00006591" role="4" xml:lang="EN">
    <narrative xml:lang="EN">Ministry of Finance and Economic Affairs</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
@@ -445,6 +445,16 @@
    <period-end iso-date="2026-11-30"></period-end>
    <value currency="USD" value-date="2026-11-30">4</value>
   </budget>
+  <budget status="1" type="1">
+   <period-start iso-date="2026-06-01"></period-start>
+   <period-end iso-date="2027-06-30"></period-end>
+   <value currency="USD" value-date="2027-06-30">0</value>
+  </budget>
+  <budget status="1" type="2">
+   <period-start iso-date="2026-06-01"></period-start>
+   <period-end iso-date="2027-06-30"></period-end>
+   <value currency="USD" value-date="2027-06-30">0</value>
+  </budget>
   <capital-spend percentage="100"></capital-spend>
   <transaction>
    <transaction-type code="2"></transaction-type>
@@ -456,9 +466,22 @@
    <provider-org ref="44002">
     <narrative xml:lang="EN">IDA Credit</narrative>
    </provider-org>
+   <receiver-org ref="MW&#x2013;COA-6591" role="2" xml:lang="EN">
+    <narrative xml:lang="EN">Ministry of Finance and Economic Affairs</narrative>
+   </receiver-org>
    <flow-type code="10"></flow-type>
    <finance-type code="410"></finance-type>
   </transaction>
+  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/099110923155042625/pdf/BOSIB1f5a0a07f15821140061aab61c4d917627b74.pdf">
+   <title xml:lang="EN">
+    <narrative xml:lang="EN">Project Appraisal Document</narrative>
+   </title>
+   <category code="A01"></category>
+   <category code="A02"></category>
+   <category code="A03"></category>
+   <category code="A05"></category>
+   <category code="A08"></category>
+  </document-link>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/099020524060034000/pdf/P50058912f7b7705e1bcc0152c0f1836f48.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Environmental and Social Management Plan</narrative>
@@ -471,15 +494,6 @@
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/099637410252319793/pdf/IDU01f548011060b08be0058dd47871dd1.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Environmental and Social Review Summary</narrative>
-   </title>
-   <category code="A01"></category>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/099110923155042625/pdf/BOSIB1f5a0a07f15821140061aab61c4d917627b74.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Appraisal Document</narrative>
    </title>
    <category code="A01"></category>
    <category code="A02"></category>
@@ -574,11 +588,90 @@
    <title>
     <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
    </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">People with strengthened food and nutrition security</narrative>
+    </title>
+    <baseline iso-date="1900-01-01" year="1900">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="1900-01-01"></period-start>
+     <period-end iso-date="2027-06-14"></period-end>
+     <target value="200,0000">
+      <comment>
+       <narrative xml:lang="EN">Not yet available</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">People with strengthened food and nutrition security</narrative>
+    </title>
+    <baseline iso-date="1900-01-01" year="1900">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="1900-01-01"></period-start>
+     <period-end iso-date="2027-06-14"></period-end>
+     <target value="200,0000">
+      <comment>
+       <narrative xml:lang="EN">Not yet available</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
    <indicator ascending="1" measure="2">
     <title>
      <narrative xml:lang="EN">Percentage of citizen complainants satisfied with response and grievance redress process</narrative>
     </title>
-    <baseline iso-date="2023-09-15" value="0" year="2023"></baseline>
+    <baseline iso-date="2023-09-15" value="0" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2023-09-15"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="85">
+      <comment>
+       <narrative xml:lang="EN">no complaints have been received</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage of citizen complainants satisfied with response and grievance redress process</narrative>
+    </title>
+    <baseline iso-date="2023-09-15" value="0" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2023-09-15"></period-start>
      <period-end iso-date="2027-06-15"></period-end>
@@ -599,7 +692,32 @@
     <title>
      <narrative xml:lang="EN">Default on LC payments guaranteed trade finance transactions</narrative>
     </title>
-    <baseline iso-date="2023-09-15" value="0" year="2023"></baseline>
+    <baseline iso-date="2023-09-15" value="0" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2023-09-15"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="10%"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Default on LC payments guaranteed trade finance transactions</narrative>
+    </title>
+    <baseline iso-date="2023-09-15" value="0" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2023-09-15"></period-start>
      <period-end iso-date="2027-06-15"></period-end>
@@ -616,7 +734,32 @@
     <title>
      <narrative xml:lang="EN">Number of local issuing banks and international confirming banks participating in the scheme</narrative>
     </title>
-    <baseline iso-date="2023-09-15" value="0" year="2023"></baseline>
+    <baseline iso-date="2023-09-15" value="0" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2023-09-15"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="4"></target>
+     <actual value="10"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of local issuing banks and international confirming banks participating in the scheme</narrative>
+    </title>
+    <baseline iso-date="2023-09-15" value="0" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2023-09-15"></period-start>
      <period-end iso-date="2027-06-15"></period-end>
@@ -633,7 +776,32 @@
     <title>
      <narrative xml:lang="EN">Percentage increase on the LC limits from confirming banks to local issuing banks</narrative>
     </title>
-    <baseline iso-date="2023-09-15" value="0" year="2023"></baseline>
+    <baseline iso-date="2023-09-15" value="0" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2023-09-15"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="15"></target>
+     <actual value="TBC"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Percentage increase on the LC limits from confirming banks to local issuing banks</narrative>
+    </title>
+    <baseline iso-date="2023-09-15" value="0" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2023-09-15"></period-start>
      <period-end iso-date="2027-06-15"></period-end>
@@ -650,7 +818,32 @@
     <title>
      <narrative xml:lang="EN">Number of women smallholders benefitting from the additional fertilizer imports under this operation</narrative>
     </title>
-    <baseline iso-date="2023-09-15" value="0" year="2023"></baseline>
+    <baseline iso-date="2023-09-15" value="0" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2023-09-15"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="TBC"></target>
+     <actual value="TBC"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of women smallholders benefitting from the additional fertilizer imports under this operation</narrative>
+    </title>
+    <baseline iso-date="2023-09-15" value="0" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2023-09-15"></period-start>
      <period-end iso-date="2027-06-15"></period-end>
@@ -667,7 +860,32 @@
     <title>
      <narrative xml:lang="EN">Gender disaggregated data collection system set up within FAM</narrative>
     </title>
-    <baseline iso-date="2023-09-15" value="No" year="2023"></baseline>
+    <baseline iso-date="2023-09-15" value="No" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2023-09-15"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="Yes"></target>
+     <actual value="No"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="1">
+   <title>
+    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+   </title>
+   <indicator ascending="1" measure="5">
+    <title>
+     <narrative xml:lang="EN">Gender disaggregated data collection system set up within FAM</narrative>
+    </title>
+    <baseline iso-date="2023-09-15" value="No" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2023-09-15"></period-start>
      <period-end iso-date="2027-06-15"></period-end>
@@ -682,9 +900,63 @@
    </title>
    <indicator ascending="1" measure="1">
     <title>
+     <narrative xml:lang="EN">People with strengthened food and nutrition security</narrative>
+    </title>
+    <baseline iso-date="2024-01-01" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="0">
+      <comment>
+       <narrative xml:lang="EN">Not yet available</narrative>
+      </comment>
+     </target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">People with strengthened food and nutrition security</narrative>
+    </title>
+    <baseline iso-date="2024-01-01" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="0">
+      <comment>
+       <narrative xml:lang="EN">Not yet available</narrative>
+      </comment>
+     </target>
+     <actual></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
      <narrative xml:lang="EN">Number of trade finance transactions supported by the facility (cumulative)</narrative>
     </title>
-    <baseline iso-date="2024-05-15" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-05-15" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-05-15"></period-start>
      <period-end iso-date="2027-06-15"></period-end>
@@ -697,11 +969,36 @@
    <title>
     <narrative xml:lang="EN">Project Development Objectives</narrative>
    </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Total value of imports backstopped through this operation as a percentage of total imports of fertilizer and pharmaceuticals to Malawi</narrative>
+    </title>
+    <baseline iso-date="2024-05-15" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-05-15"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="20"></target>
+     <actual value="14.42"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Total value of import supported by the backstopping facility.</narrative>
     </title>
-    <baseline iso-date="2024-05-15" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-05-15" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-05-15"></period-start>
      <period-end iso-date="2027-06-15"></period-end>
@@ -714,16 +1011,62 @@
    <title>
     <narrative xml:lang="EN">Project Development Objectives</narrative>
    </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of trade finance transactions supported by the facility (cumulative)</narrative>
+    </title>
+    <baseline iso-date="2024-05-15" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-05-15"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="32"></target>
+     <actual value="55"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
    <indicator ascending="1" measure="2">
     <title>
      <narrative xml:lang="EN">Total value of imports backstopped through this operation as a percentage of total imports of fertilizer and pharmaceuticals to Malawi</narrative>
     </title>
-    <baseline iso-date="2024-05-15" value="0" year="2024"></baseline>
+    <baseline iso-date="2024-05-15" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
     <period>
      <period-start iso-date="2024-05-15"></period-start>
      <period-end iso-date="2027-06-15"></period-end>
      <target value="20"></target>
      <actual value="9.14"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Total value of import supported by the backstopping facility.</narrative>
+    </title>
+    <baseline iso-date="2024-05-15" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-05-15"></period-start>
+     <period-end iso-date="2027-06-15"></period-end>
+     <target value="300,000,000"></target>
+     <actual value="92,000,000"></actual>
     </period>
    </indicator>
   </result>
