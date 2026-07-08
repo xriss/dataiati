@@ -74,12 +74,12 @@ Expected Out comes:
   <budget type="2">
    <period-start iso-date="2018-01-01"></period-start>
    <period-end iso-date="2018-12-31"></period-end>
-   <value currency="EUR" value-date="2026-07-06">28811</value>
+   <value currency="EUR" value-date="2026-07-07">28811</value>
   </budget>
   <budget type="2">
    <period-start iso-date="2019-01-01"></period-start>
    <period-end iso-date="2019-03-31"></period-end>
-   <value currency="EUR" value-date="2026-07-06">-15595</value>
+   <value currency="EUR" value-date="2026-07-07">-15595</value>
   </budget>
   <transaction>
    <transaction-type code="4"></transaction-type>
@@ -210,6 +210,22 @@ Expected Out comes:
    </description>
   </transaction>
   <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-07-01"></transaction-date>
+   <value currency="EUR" value-date="2026-07-01">7651</value>
+   <description>
+    <narrative xml:lang="EN">Oxfam America own funds OUS</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-07-01"></transaction-date>
+   <value currency="EUR" value-date="2026-07-01">-7651</value>
+   <description>
+    <narrative xml:lang="EN">Unders/overspending Donor Funds</narrative>
+   </description>
+  </transaction>
+  <transaction>
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2018-12-01"></transaction-date>
    <value currency="EUR" value-date="2018-12-01">7943</value>
@@ -246,6 +262,17 @@ Expected Out comes:
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-03-01"></transaction-date>
    <value currency="EUR" value-date="2019-03-01">-197</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org ref="NL-KVK-27108436">
+    <narrative xml:lang="EN">Oxfam Novib</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2026-07-01"></transaction-date>
+   <value currency="EUR" value-date="2026-07-01">-7651</value>
    <description>
     <narrative xml:lang="EN">incoming transaction</narrative>
    </description>
