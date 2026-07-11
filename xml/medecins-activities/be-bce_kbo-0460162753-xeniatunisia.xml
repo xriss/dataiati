@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>BE-BCE_KBO-0460162753-XENIATUNISIA</iati-identifier>
-  <reporting-org ref="BE-BCE_KBO-0460162753" secondary-reporter="0" type="21">
+  <reporting-org ref="BE-BCE_KBO-0460162753" secondary-reporter="0" type="22">
    <narrative xml:lang="EN">Medecins du Monde Belgique - Dokters van de Wereld Belg&#xef;e</narrative>
   </reporting-org>
   <title>
@@ -15,7 +15,7 @@
    <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
   </participating-org>
   <activity-status code="2"></activity-status>
-  <activity-date iso-date="2024-04-01" type="1"></activity-date>
+  <activity-date iso-date="2024-04-01" type="2"></activity-date>
   <activity-date iso-date="2027-03-31" type="3"></activity-date>
   <recipient-country code="TN" percentage="100">
    <narrative xml:lang="EN">Greater Tunis, Nabeul, Sousse, Gafsa, Monastir, Sfax, Gabes, Medenine, Sousse</narrative>
@@ -45,11 +45,30 @@
    <period-end iso-date="2027-03-31"></period-end>
    <value currency="EUR" value-date="2027-01-01">172758</value>
   </budget>
-  <transaction>
+  <transaction humanitarian="1" ref="TUN-Y2-INC-2025">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2024-08-22"></transaction-date>
-   <value currency="EUR" value-date="2024-04-01">170831</value>
-   <provider-org provider-activity-id="XM-DAC-7-PPR-240000565" ref="XM-DAC-7" type="10"></provider-org>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-01-01">1189673</value>
+   <description>
+    <narrative xml:lang="EN">Year 2 (2025) MoFA NL disbursement - Tunisia allocation</narrative>
+   </description>
+   <provider-org ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="TUN-Y2-EXP-2025">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">663267</value>
+   <description>
+    <narrative xml:lang="EN">Year 2 (2025) total programme expenditure - Tunisia</narrative>
+   </description>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <tied-status code="5"></tied-status>
   </transaction>
   <related-activity ref="BE-BCE_KBO-0460162753-XENIAMOROCCO" type="3"></related-activity>
   <result type="2">
@@ -58,32 +77,49 @@
    </title>
    <indicator measure="2">
     <title>
-     <narrative xml:lang="EN">2.1. Percentage of in-country partners self-reporting increased quality of funding</narrative>
-    </title>
-    <baseline value="0" year="2024"></baseline>
-    <period>
-     <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2027-03-01"></period-end>
-     <target value="80"></target>
-     <actual value="0"></actual>
-    </period>
-   </indicator>
-   <indicator measure="2">
-    <title>
      <narrative xml:lang="EN">2.2. Percentage of in-country partners whose quality funding has been verified as strengthened by an outside evaluator</narrative>
     </title>
     <baseline value="0" year="2024"></baseline>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2027-03-01"></period-end>
+     <period-end iso-date="2027-03-31"></period-end>
      <target value="80"></target>
-     <actual value="0"></actual>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">External partner evaluation not yet commissioned. Dependent on endline evaluation.</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="2">
+    <title>
+     <narrative xml:lang="EN">2.1. Percentage of in-country partners self-reporting increased quality of funding</narrative>
+    </title>
+    <baseline value="0" year="2024"></baseline>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2027-03-31"></period-end>
+     <target value="80"></target>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">Not assessed in Y2. Partial data from self-assessment survey available (ATL Sfax: 75-100% bracket) but baseline not formally collected in Y1, preventing delta calculation. ATL Tunis and DJ have no survey data. Will be assessed at endline.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator measure="2">
     <title>
      <narrative xml:lang="EN">2.3.Percentage of direct funding to in-country partners which classifies as a. overhead costs b. project funding, c. multi-annual funding d. core funding e. external donors</narrative>
     </title>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <actual value="97">
+      <comment>
+       <narrative xml:lang="EN">Comment sur l&apos;actual : Y2 2025 by category: project funding 97%; indirect costs 3%; multi-annual funding 0%; core/external 0%.</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="2">
@@ -97,22 +133,29 @@
     <baseline value="0" year="2024"></baseline>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2027-03-01"></period-end>
+     <period-end iso-date="2027-03-31"></period-end>
      <target value="5"></target>
-     <actual value="0"></actual>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">External partner evaluation not yet commissioned in 2025. Expected in first part of Year 4 per Grant Decision.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator measure="2">
     <title>
-     <narrative xml:lang="EN">1.1 Percentage of in-country partners self-reporting increased capacity across at least three key areas (programming, policy, fundraising, financial, administrative, human resources, 
-fiduciary)</narrative>
+     <narrative xml:lang="EN">1.1 Percentage of in-country partners self-reporting increased capacity across at least three key areas (programming, policy, fundraising, financial, administrative, human resources, fiduciary)</narrative>
     </title>
     <baseline value="60" year="2024"></baseline>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2027-03-01"></period-end>
+     <period-end iso-date="2027-03-31"></period-end>
      <target value="80"></target>
-     <actual value="0"></actual>
+     <actual value="44">
+      <comment>
+       <narrative xml:lang="EN">Average % of ICPs self-reporting improved capacity across 3 domains (Finance: 33%, Policy: 67%, Programming: 33%). ATL Tunis scoring submitted but narrative survey not submitted. DJ no 2025 data point. Denominator = ICPs with 2025 data point (ATL Sfax, ADDCI, ATL Tunis).</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
   </result>
@@ -120,19 +163,30 @@ fiduciary)</narrative>
    <title>
     <narrative xml:lang="EN">3. The participation and influence of people on the move and local partners on international policies are significantly strengthened.</narrative>
    </title>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">3.3. Number of instances where in-country partners report (with evidence) on the successful efforts to influence programming or policies at local, national, regional and/or global levels</narrative>
+    </title>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="3"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
    <indicator measure="2">
     <title>
      <narrative xml:lang="EN">3.1 Percentage of in-country partners self-reporting improved participation in programming and policy-making at local, national, regional and/or global levels</narrative>
     </title>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="22"></target>
+    </period>
    </indicator>
    <indicator measure="2">
     <title>
      <narrative xml:lang="EN">3.2. Percentage of in-country partners participating in important decision-making spaces at local, national, regional and/or global levels verified as strengthened by an outside evaluator</narrative>
-    </title>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">3.3. Number of instances where in-country partners report (with evidence) on the successful efforts to influence programming or policies at local, national, regional and/or global levels</narrative>
     </title>
    </indicator>
   </result>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" hierarchy="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities">
   <iati-identifier>BE-BCE_KBO-0460162753-XENIAMOROCCO</iati-identifier>
-  <reporting-org ref="BE-BCE_KBO-0460162753" secondary-reporter="0" type="21">
+  <reporting-org ref="BE-BCE_KBO-0460162753" secondary-reporter="0" type="22">
    <narrative xml:lang="EN">Medecins du Monde Belgique - Dokters van de Wereld Belg&#xef;e</narrative>
   </reporting-org>
   <title>
@@ -48,11 +48,30 @@
    <period-end iso-date="2027-03-31"></period-end>
    <value currency="EUR" value-date="2027-01-01">245604</value>
   </budget>
-  <transaction>
+  <transaction humanitarian="1" ref="MAR-Y2-INC-2025">
    <transaction-type code="1"></transaction-type>
-   <transaction-date iso-date="2024-08-22"></transaction-date>
-   <value currency="EUR" value-date="2024-04-01">170831</value>
-   <provider-org provider-activity-id="XM-DAC-7-PPR-240000565" ref="XM-DAC-7" type="10"></provider-org>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-01-01">1140947</value>
+   <description>
+    <narrative xml:lang="EN">Year 2 (2025) MoFA NL disbursement - Morocco allocation</narrative>
+   </description>
+   <provider-org ref="XM-DAC-7" type="10">
+    <narrative xml:lang="EN">Netherlands - Ministry of Foreign Affairs</narrative>
+   </provider-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <tied-status code="5"></tied-status>
+  </transaction>
+  <transaction humanitarian="1" ref="MAR-Y2-EXP-2025">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">462292</value>
+   <description>
+    <narrative xml:lang="EN">Year 2 (2025) total programme expenditure - Morocco</narrative>
+   </description>
+   <flow-type code="10"></flow-type>
+   <finance-type code="110"></finance-type>
+   <tied-status code="5"></tied-status>
   </transaction>
   <related-activity ref="BE-BCE_KBO-0460162753-XENIATUNISIA" type="3"></related-activity>
   <result type="2">
@@ -66,9 +85,13 @@
     <baseline value="0" year="2024"></baseline>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2027-03-01"></period-end>
+     <period-end iso-date="2027-03-31"></period-end>
      <target value="80"></target>
-     <actual value="0"></actual>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">Not assessed in Y2. Partial data from self-assessment survey available (ALCS: 25-50% bracket; GADEM and MS2: 50-75% bracket) but baseline was not formally collected in Y1, preventing calculation of improvement delta. Will be assessed at endline.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator measure="2">
@@ -79,13 +102,26 @@
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2027-03-31"></period-end>
      <target value="80"></target>
-     <actual value="0"></actual>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">External partner evaluation not yet commissioned. Dependent on endline evaluation.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator measure="2">
     <title>
      <narrative xml:lang="EN">2.3.Percentage of direct funding to in-country partners which classifies as a. overhead costs b. project funding, c. multi-annual funding d. core funding e. external donors</narrative>
     </title>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <actual value="97">
+      <comment>
+       <narrative xml:lang="EN">multi-annual 25%, core/external 25%</narrative>
+      </comment>
+     </actual>
+    </period>
    </indicator>
   </result>
   <result type="2">
@@ -101,7 +137,11 @@
      <period-start iso-date="2025-01-01"></period-start>
      <period-end iso-date="2027-03-31"></period-end>
      <target value="4"></target>
-     <actual value="0"></actual>
+     <actual value="0">
+      <comment>
+       <narrative xml:lang="EN">External partner evaluation not yet commissioned in 2025. Expected in first part of Year 4 per Grant Decision.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
    <indicator measure="2">
@@ -111,9 +151,13 @@
     <baseline value="60" year="2024"></baseline>
     <period>
      <period-start iso-date="2025-01-01"></period-start>
-     <period-end iso-date="2027-03-01"></period-end>
+     <period-end iso-date="2027-03-31"></period-end>
      <target value="80"></target>
-     <actual value="0"></actual>
+     <actual value="45">
+      <comment>
+       <narrative xml:lang="EN">Average % of ICPs self-reporting improved capacity across 3 domains (Finance: 67%, Policy: 67%, Programming: 0%). Programming baseline was already at best score for 2/3 ICPs (MS2, ALCS). DJ no 2025 data point. Denominator = ICPs with 2025 data point only.</narrative>
+      </comment>
+     </actual>
     </period>
    </indicator>
   </result>
