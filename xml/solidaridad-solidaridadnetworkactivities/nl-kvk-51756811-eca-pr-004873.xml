@@ -46,6 +46,11 @@
    <period-end iso-date="2024-12-31"></period-end>
    <value currency="EUR" value-date="2024-01-01">373687</value>
   </budget>
+  <budget>
+   <period-start iso-date="2025-01-01"></period-start>
+   <period-end iso-date="2025-12-31"></period-end>
+   <value currency="EUR" value-date="2025-01-01">395303</value>
+  </budget>
   <transaction>
    <transaction-type code="11"></transaction-type>
    <transaction-date iso-date="2023-01-01"></transaction-date>
@@ -63,6 +68,14 @@
    </provider-org>
   </transaction>
   <transaction>
+   <transaction-type code="11"></transaction-type>
+   <transaction-date iso-date="2025-01-01"></transaction-date>
+   <value currency="EUR" value-date="2025-01-01">395303</value>
+   <provider-org provider-activity-id="NL-KVK-51756811-EUR-00003008" ref="NL-KVK-51756811">
+    <narrative xml:lang="EN">Solidaridad Network</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2023-12-31"></transaction-date>
    <value currency="EUR" value-date="2023-12-31">655875</value>
@@ -72,76 +85,12 @@
    <transaction-date iso-date="2024-12-31"></transaction-date>
    <value currency="EUR" value-date="2024-12-31">348539</value>
   </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2025-12-31"></transaction-date>
+   <value currency="EUR" value-date="2025-12-31">307188</value>
+  </transaction>
   <related-activity ref="NL-KVK-51756811-EUR-00003008" type="1"></related-activity>
-  <result aggregation-status="1" type="1">
-   <title>
-    <narrative xml:lang="EN">Output SBE</narrative>
-   </title>
-   <indicator aggregation-status="1" ascending="1" measure="1">
-    <title>
-     <narrative xml:lang="EN"># Input and service providers supported</narrative>
-    </title>
-    <baseline value="0" year="2023">
-     <dimension name="Sex" value="Female"></dimension>
-    </baseline>
-    <baseline value="0" year="2023">
-     <dimension name="Sex" value="Male"></dimension>
-    </baseline>
-    <baseline value="0" year="2023">
-     <dimension name="Sex" value="Other/Unspecified"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2023-01-01"></period-start>
-     <period-end iso-date="2023-12-31"></period-end>
-     <target value="0">
-      <dimension name="Sex" value="Female"></dimension>
-     </target>
-     <actual value="1">
-      <dimension name="Sex" value="Female"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2023-01-01"></period-start>
-     <period-end iso-date="2023-12-31"></period-end>
-     <target value="0">
-      <dimension name="Sex" value="Male"></dimension>
-     </target>
-     <actual value="1">
-      <dimension name="Sex" value="Male"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2023-01-01"></period-start>
-     <period-end iso-date="2023-12-31"></period-end>
-     <target value="0">
-      <dimension name="Sex" value="Male"></dimension>
-     </target>
-     <actual value="2">
-      <dimension name="Sex" value="Male"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="15">
-      <dimension name="Sex" value="Other/Unspecified"></dimension>
-     </target>
-     <actual value="0">
-      <dimension name="Sex" value="Other/Unspecified"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2023-01-01"></period-start>
-     <period-end iso-date="2023-12-31"></period-end>
-     <target value="15">
-      <dimension name="Sex" value="Other/Unspecified"></dimension>
-     </target>
-     <actual value="4">
-      <dimension name="Sex" value="Other/Unspecified"></dimension>
-     </actual>
-    </period>
-   </indicator>
-  </result>
   <result aggregation-status="1" type="1">
    <title>
     <narrative xml:lang="EN">Output GP</narrative>
@@ -151,47 +100,65 @@
      <narrative xml:lang="EN">Number of small-scale food producers directly reached with activities aimed at structural/systemic improvement of their agricultural performance.</narrative>
     </title>
     <reference code="FNS010f" vocabulary="99"></reference>
-    <baseline value="0" year="2023">
-     <dimension name="Sex" value="Female"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="11200">
-      <dimension name="Sex" value="Female"></dimension>
-     </target>
-     <actual value="0">
-      <dimension name="Sex" value="Female"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="25200">
-      <dimension name="Sex" value="Female"></dimension>
-     </target>
-     <actual value="0">
-      <dimension name="Sex" value="Female"></dimension>
-     </actual>
-    </period>
+    <baseline value="0" year="2023"></baseline>
     <period>
      <period-start iso-date="2023-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="25200">
-      <dimension name="Sex" value="Female"></dimension>
-     </target>
+     <target value="25200"></target>
      <actual value="25572">
-      <dimension name="Sex" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Female</narrative>
+      </comment>
      </actual>
     </period>
     <period>
      <period-start iso-date="2023-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="11200">
-      <dimension name="Sex" value="Female"></dimension>
-     </target>
+     <target value="11200"></target>
      <actual value="5308">
-      <dimension name="Sex" value="Female"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Female</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target value="25200"></target>
+     <actual value="35210">
+      <comment>
+       <narrative xml:lang="EN">Non-Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="25200"></target>
+     <actual value="47561">
+      <comment>
+       <narrative xml:lang="EN">Non-Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="11200"></target>
+     <actual value="10993">
+      <comment>
+       <narrative xml:lang="EN">Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target value="11200"></target>
+     <actual value="6308">
+      <comment>
+       <narrative xml:lang="EN">Youth</narrative>
+      </comment>
      </actual>
     </period>
    </indicator>
@@ -200,48 +167,199 @@
      <narrative xml:lang="EN">Number of small-scale food producers directly reached with activities aimed at structural/systemic improvement of their agricultural performance.</narrative>
     </title>
     <reference code="FNS010m" vocabulary="99"></reference>
-    <baseline value="0" year="2023">
-     <dimension name="Sex" value="Male"></dimension>
-    </baseline>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="16800">
-      <dimension name="Sex" value="Male"></dimension>
-     </target>
-     <actual value="0">
-      <dimension name="Sex" value="Male"></dimension>
-     </actual>
-    </period>
-    <period>
-     <period-start iso-date="2024-01-01"></period-start>
-     <period-end iso-date="2024-12-31"></period-end>
-     <target value="16800">
-      <dimension name="Sex" value="Male"></dimension>
-     </target>
-     <actual value="0">
-      <dimension name="Sex" value="Male"></dimension>
-     </actual>
-    </period>
+    <baseline value="0" year="2023"></baseline>
     <period>
      <period-start iso-date="2023-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="16800">
-      <dimension name="Sex" value="Male"></dimension>
-     </target>
+     <target value="16800"></target>
      <actual value="13992">
-      <dimension name="Sex" value="Male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Male</narrative>
+      </comment>
      </actual>
     </period>
     <period>
      <period-start iso-date="2023-01-01"></period-start>
      <period-end iso-date="2023-12-31"></period-end>
-     <target value="16800">
-      <dimension name="Sex" value="Male"></dimension>
-     </target>
+     <target value="16800"></target>
      <actual value="3378">
-      <dimension name="Sex" value="Male"></dimension>
+      <comment>
+       <narrative xml:lang="EN">Male</narrative>
+      </comment>
      </actual>
+    </period>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target value="16800"></target>
+     <actual value="24235">
+      <comment>
+       <narrative xml:lang="EN">Non-Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="16800"></target>
+     <actual value="33054">
+      <comment>
+       <narrative xml:lang="EN">Non-Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target value="16800"></target>
+     <actual value="3888">
+      <comment>
+       <narrative xml:lang="EN">Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="16800"></target>
+     <actual value="6230">
+      <comment>
+       <narrative xml:lang="EN">Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="EN">Output SBE</narrative>
+   </title>
+   <indicator aggregation-status="1" ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN"># Input and service providers supported</narrative>
+    </title>
+    <baseline value="0" year="2023"></baseline>
+    <period>
+     <period-start iso-date="2023-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="0"></target>
+     <actual value="1">
+      <comment>
+       <narrative xml:lang="EN">Female</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2023-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="0"></target>
+     <actual value="1">
+      <comment>
+       <narrative xml:lang="EN">Male</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2023-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="0"></target>
+     <actual value="2">
+      <comment>
+       <narrative xml:lang="EN">Male</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target value="6"></target>
+     <actual value="2">
+      <comment>
+       <narrative xml:lang="EN">Non-Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="4"></target>
+     <actual value="4">
+      <comment>
+       <narrative xml:lang="EN">Non-Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="6"></target>
+     <actual value="6">
+      <comment>
+       <narrative xml:lang="EN">Non-Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2023-01-01"></period-start>
+     <period-end iso-date="2023-12-31"></period-end>
+     <target value="15"></target>
+     <actual value="4">
+      <comment>
+       <narrative xml:lang="EN">Other/Unspecified</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target value="0"></target>
+     <actual value="1">
+      <comment>
+       <narrative xml:lang="EN">Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target value="0"></target>
+     <actual value="1">
+      <comment>
+       <narrative xml:lang="EN">Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="2"></target>
+     <actual value="2">
+      <comment>
+       <narrative xml:lang="EN">Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="3"></target>
+     <actual value="3">
+      <comment>
+       <narrative xml:lang="EN">Youth</narrative>
+      </comment>
+     </actual>
+    </period>
+    <period>
+     <period-start iso-date="2024-01-01"></period-start>
+     <period-end iso-date="2024-12-31"></period-end>
+     <target value="15"></target>
+     <actual value="4"></actual>
+    </period>
+    <period>
+     <period-start iso-date="2025-01-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="15"></target>
+     <actual value="4"></actual>
     </period>
    </indicator>
   </result>
