@@ -66,8 +66,13 @@ Expected results:
   <default-tied-status code="5"></default-tied-status>
   <budget type="2">
    <period-start iso-date="2019-08-15"></period-start>
-   <period-end iso-date="2019-11-14"></period-end>
-   <value currency="EUR" value-date="2026-07-28">104344</value>
+   <period-end iso-date="2019-12-31"></period-end>
+   <value currency="EUR" value-date="2026-07-29">104344</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2020-01-01"></period-start>
+   <period-end iso-date="2020-12-31"></period-end>
+   <value currency="EUR" value-date="2026-07-29">11712</value>
   </budget>
   <transaction>
    <transaction-type code="4"></transaction-type>
@@ -143,6 +148,14 @@ Expected results:
   </transaction>
   <transaction>
    <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-07-01"></transaction-date>
+   <value currency="EUR" value-date="2026-07-01">738</value>
+   <description>
+    <narrative xml:lang="EN">Oxfam Hong Kong own funds OHK</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2019-08-01"></transaction-date>
    <value currency="EUR" value-date="2019-08-01">600</value>
    <description>
@@ -163,6 +176,14 @@ Expected results:
    <value currency="EUR" value-date="2019-10-01">-1267</value>
    <description>
     <narrative xml:lang="EN">Oxfam Novib GRH Loan fund</narrative>
+   </description>
+  </transaction>
+  <transaction>
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-07-01"></transaction-date>
+   <value currency="EUR" value-date="2026-07-01">-738</value>
+   <description>
+    <narrative xml:lang="EN">Unders/overspending Donor Funds</narrative>
    </description>
   </transaction>
   <transaction>
@@ -191,6 +212,17 @@ Expected results:
    <transaction-type code="1"></transaction-type>
    <transaction-date iso-date="2019-10-01"></transaction-date>
    <value currency="EUR" value-date="2019-10-01">-1267</value>
+   <description>
+    <narrative xml:lang="EN">incoming transaction</narrative>
+   </description>
+   <provider-org ref="NL-KVK-27108436">
+    <narrative xml:lang="EN">Oxfam Novib</narrative>
+   </provider-org>
+  </transaction>
+  <transaction>
+   <transaction-type code="1"></transaction-type>
+   <transaction-date iso-date="2026-07-01"></transaction-date>
+   <value currency="EUR" value-date="2026-07-01">-738</value>
    <description>
     <narrative xml:lang="EN">incoming transaction</narrative>
    </description>
