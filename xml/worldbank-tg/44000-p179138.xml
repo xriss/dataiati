@@ -73,9 +73,6 @@
    <exactness code="2"></exactness>
    <location-class code="2"></location-class>
   </location>
-  <sector code="000081" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
-   <narrative xml:lang="EN">Climate change</narrative>
-  </sector>
   <sector code="DDE" percentage="40" vocabulary="99" vocabulary-uri="http://pubdocs.worldbank.org/en/538321490128452070/Sector-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">Digital Economy - Digital Industry</narrative>
   </sector>
@@ -87,6 +84,12 @@
   </sector>
   <sector code="000262" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">ICT Policies</narrative>
+  </sector>
+  <sector code="000262" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">ICT Policies</narrative>
+  </sector>
+  <sector code="000026" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
+   <narrative xml:lang="EN">ICT</narrative>
   </sector>
   <sector code="000026" percentage="0" vocabulary="98" vocabulary-uri="http://pubdocs.worldbank.org/en/275841490966525495/Theme-Taxonomy-and-definitions.pdf" xml:lang="EN">
    <narrative xml:lang="EN">ICT</narrative>
@@ -1219,7 +1222,7 @@
    <provider-org ref="44002">
     <narrative xml:lang="EN">IDA Credit</narrative>
    </provider-org>
-   <receiver-org ref="TG&#x2013;COA-52530" role="2" xml:lang="EN">
+   <receiver-org ref="TG&#x2013;COA-52530" xml:lang="EN">
     <narrative xml:lang="EN">Ministry of Digital Economy and Digital Transformation</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -1235,7 +1238,7 @@
    <provider-org ref="44002">
     <narrative xml:lang="EN">IDA Credit</narrative>
    </provider-org>
-   <receiver-org ref="TG&#x2013;COA-52530" role="2" xml:lang="EN">
+   <receiver-org ref="TG&#x2013;COA-52530" xml:lang="EN">
     <narrative xml:lang="EN">Ministry of Digital Economy and Digital Transformation</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -1251,7 +1254,7 @@
    <provider-org ref="44002">
     <narrative xml:lang="EN">IDA Credit</narrative>
    </provider-org>
-   <receiver-org ref="TG&#x2013;COA-52530" role="2" xml:lang="EN">
+   <receiver-org ref="TG&#x2013;COA-52530" xml:lang="EN">
     <narrative xml:lang="EN">Ministry of Digital Economy and Digital Transformation</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -1267,7 +1270,7 @@
    <provider-org ref="44002">
     <narrative xml:lang="EN">IDA Credit</narrative>
    </provider-org>
-   <receiver-org ref="TG&#x2013;COA-52530" role="2" xml:lang="EN">
+   <receiver-org ref="TG&#x2013;COA-52530" xml:lang="EN">
     <narrative xml:lang="EN">Ministry of Digital Economy and Digital Transformation</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -1337,22 +1340,6 @@
    <category code="A03"></category>
    <category code="A05"></category>
   </document-link>
-  <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/099060423220042299/pdf/P179138079305f0b0bf820086b358419c5.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Information Document</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099103024185535361/pdf/P179138-65c6617b-b5e6-4deb-883c-a954d769a173.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Information Document</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
   <document-link format="APPLICATION/PDF" url="http://documents.worldbank.org/curated/en/099012224101542608/pdf/P17913816f5b6603b18e6c173507535b69f.pdf">
    <title xml:lang="EN">
     <narrative xml:lang="EN">Agreement</narrative>
@@ -1415,7 +1402,7 @@
   <conditions attached="1"></conditions>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="5">
     <title>
@@ -1440,7 +1427,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="5">
     <title>
@@ -1506,6 +1493,56 @@
      <period-end iso-date="2029-12-12"></period-end>
      <target value="15">
       <comment>
+       <narrative xml:lang="EN">Updated as per ITU Price Baskets Dashboard. Despite the early stage of implementation and the absence of infrastructure rollout to date, the project is already recording a positive trend on broadband affordability indicators. In particular, the data-only fixed-broadband basket (5GB, as a percentage of monthly GNI per capita) improved from 31.3 percent in December 2023 to 28.0 percent as of April 2026, according to ITU Price Basket data. This reflects favorable market dynamics and ongoing regulatory and policy efforts (including the Togo Invest-4-Jobs DPF 1 prior action on ARCEP decision), and provides an encouraging baseline ahead of the project&apos;s main connectivity investments.</narrative>
+      </comment>
+     </target>
+     <actual value="28.04"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Data-only fixed-broadband basket, 5GB (as percentage of monthly GNI per capita)</narrative>
+    </title>
+    <baseline iso-date="2023-12-12" value="31.3" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2023-12-12"></period-start>
+     <period-end iso-date="2029-12-12"></period-end>
+     <target value="15">
+      <comment>
+       <narrative xml:lang="EN">Updated as per ITU Price Baskets Dashboard</narrative>
+      </comment>
+     </target>
+     <actual value="29.17"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Data-only fixed-broadband basket, 5GB (as percentage of monthly GNI per capita)</narrative>
+    </title>
+    <baseline iso-date="2023-12-12" value="31.3" year="2023">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2023-12-12"></period-start>
+     <period-end iso-date="2029-12-12"></period-end>
+     <target value="15">
+      <comment>
        <narrative xml:lang="EN">Updated as per ITU Price Baskets Dashboard</narrative>
       </comment>
      </target>
@@ -1515,7 +1552,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="2">
     <title>
@@ -1540,7 +1577,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="2">
     <title>
@@ -1565,7 +1602,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -1613,9 +1650,34 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">People completing digital skills trainings under the project</narrative>
+    </title>
+    <baseline iso-date="2024-12-11" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-11"></period-start>
+     <period-end iso-date="2029-12-11"></period-end>
+     <target value="91200">
+      <comment>
+       <narrative xml:lang="EN">Implementation has yet to start. The first results will be measurable when the Tech Hub programs have launched.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -1663,9 +1725,34 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">People completing digital skills trainings under the project</narrative>
+    </title>
+    <baseline iso-date="2024-12-11" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-11"></period-start>
+     <period-end iso-date="2029-12-11"></period-end>
+     <target value="91200">
+      <comment>
+       <narrative xml:lang="EN">Implementation has yet to start.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -1713,9 +1800,34 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Newly built or upgraded infrastructure that is resilient to climate-related shocks</narrative>
+    </title>
+    <baseline iso-date="2024-12-12" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-12"></period-start>
+     <period-end iso-date="2029-12-12"></period-end>
+     <target value="100">
+      <comment>
+       <narrative xml:lang="EN">Implementation has not yet started; results expected once contracts/programs launch (from September 2026).</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -1763,9 +1875,34 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">People using broadband internet (new use)</narrative>
+    </title>
+    <baseline iso-date="2024-12-12" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-12"></period-start>
+     <period-end iso-date="2029-12-12"></period-end>
+     <target value="701,000">
+      <comment>
+       <narrative xml:lang="EN">Implementation has not yet started; results expected once contracts/programs launch (from September 2026).</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -1813,9 +1950,34 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">Newly built or upgraded infrastructure that is resilient to climate-related shocks</narrative>
+    </title>
+    <baseline iso-date="2024-12-12" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-12"></period-start>
+     <period-end iso-date="2029-12-12"></period-end>
+     <target value="100">
+      <comment>
+       <narrative xml:lang="EN">Implementation has yet to start.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -1840,7 +2002,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -1865,7 +2027,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -1913,9 +2075,34 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">People using broadband internet (new use)</narrative>
+    </title>
+    <baseline iso-date="2024-12-12" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-12"></period-start>
+     <period-end iso-date="2029-12-12"></period-end>
+     <target value="701,000">
+      <comment>
+       <narrative xml:lang="EN">Implementation has yet to start.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="5">
     <title>
@@ -1940,7 +2127,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="5">
     <title>
@@ -1965,7 +2152,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="5">
     <title>
@@ -1990,7 +2177,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="5">
     <title>
@@ -2038,9 +2225,34 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Enterprises graduating from the tech hub programs</narrative>
+    </title>
+    <baseline iso-date="2024-12-13" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-13"></period-start>
+     <period-end iso-date="2029-12-13"></period-end>
+     <target value="150">
+      <comment>
+       <narrative xml:lang="EN">Implementation has yet to start. The first results will be measurable when the Tech Hub programs have launched.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -2065,7 +2277,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -2113,9 +2325,34 @@
     </period>
    </indicator>
   </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Enterprises graduating from the tech hub programs</narrative>
+    </title>
+    <baseline iso-date="2024-12-13" value="0" year="2024">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2024-12-13"></period-start>
+     <period-end iso-date="2029-12-13"></period-end>
+     <target value="150">
+      <comment>
+       <narrative xml:lang="EN">Implementation has yet to start.</narrative>
+      </comment>
+     </target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="2">
     <title>
@@ -2140,7 +2377,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="2">
     <title>
@@ -2165,7 +2402,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -2190,7 +2427,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -2215,7 +2452,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -2240,7 +2477,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
@@ -2265,7 +2502,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="2">
     <title>
@@ -2290,7 +2527,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="2">
     <title>
@@ -2315,7 +2552,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="5">
     <title>
@@ -2340,7 +2577,7 @@
   </result>
   <result aggregation-status="0" type="1">
    <title>
-    <narrative xml:lang="EN">Intermediate Results Indicator</narrative>
+    <narrative xml:lang="EN">InteIntermediate Results Indicator</narrative>
    </title>
    <indicator ascending="1" measure="5">
     <title>

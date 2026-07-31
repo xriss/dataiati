@@ -55,11 +55,6 @@
   <default-flow-type code="10"></default-flow-type>
   <default-finance-type code="110"></default-finance-type>
   <default-aid-type code="C01" vocabulary="1"></default-aid-type>
-  <budget status="2" type="1">
-   <period-start iso-date="2026-04-01"></period-start>
-   <period-end iso-date="2026-06-30"></period-end>
-   <value currency="NZD" value-date="2026-02-10">30000</value>
-  </budget>
   <transaction ref="779396">
    <transaction-type code="2"></transaction-type>
    <transaction-date iso-date="2026-02-10"></transaction-date>
@@ -72,10 +67,34 @@
     <narrative xml:lang="EN">Pending Approval</narrative>
    </receiver-org>
   </transaction>
+  <transaction ref="-779396">
+   <transaction-type code="2"></transaction-type>
+   <transaction-date iso-date="2026-06-18"></transaction-date>
+   <value currency="NZD" value-date="2026-06-18">-30000</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure committed in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
   <transaction ref="784783">
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2026-02-26"></transaction-date>
    <value currency="NZD" value-date="2026-02-26">100000</value>
+   <description>
+    <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
+   </description>
+   <provider-org ref="NZ-1" type="10"></provider-org>
+   <receiver-org type="10">
+    <narrative xml:lang="EN">Pending Approval</narrative>
+   </receiver-org>
+  </transaction>
+  <transaction ref="812323">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-06-18"></transaction-date>
+   <value currency="NZD" value-date="2026-06-18">30000</value>
    <description>
     <narrative xml:lang="EN">Expenditure incurred in financial year</narrative>
    </description>
