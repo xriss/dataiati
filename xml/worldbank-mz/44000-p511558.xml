@@ -649,12 +649,12 @@
   <budget status="1" type="1">
    <period-start iso-date="2030-09-01"></period-start>
    <period-end iso-date="2030-09-29"></period-end>
-   <value currency="USD" value-date="2030-09-29">-45163905.85</value>
+   <value currency="USD" value-date="2030-09-29">-76013905.85</value>
   </budget>
   <budget status="1" type="2">
    <period-start iso-date="2030-09-01"></period-start>
    <period-end iso-date="2030-09-29"></period-end>
-   <value currency="USD" value-date="2030-09-29">-45163905.85</value>
+   <value currency="USD" value-date="2030-09-29">-76013905.85</value>
   </budget>
   <capital-spend percentage="100"></capital-spend>
   <transaction>
@@ -667,7 +667,23 @@
    <provider-org ref="44002">
     <narrative xml:lang="EN">IDA Credit</narrative>
    </provider-org>
-   <receiver-org ref="MZ&#x2013;COA-10076" role="2" xml:lang="EN">
+   <receiver-org ref="MZ&#x2013;COA-10076" xml:lang="EN">
+    <narrative xml:lang="EN">Ministry of Health</narrative>
+   </receiver-org>
+   <flow-type code="10"></flow-type>
+   <finance-type code="410"></finance-type>
+  </transaction>
+  <transaction>
+   <transaction-type code="3"></transaction-type>
+   <transaction-date iso-date="2026-06-30"></transaction-date>
+   <value currency="USD" value-date="2026-06-30">30850000</value>
+   <description xml:lang="EN">
+    <narrative xml:lang="EN">Total Disbursement in June Month of 2026</narrative>
+   </description>
+   <provider-org ref="44002">
+    <narrative xml:lang="EN">IDA Credit</narrative>
+   </provider-org>
+   <receiver-org ref="MZ&#x2013;COA-10076" xml:lang="EN">
     <narrative xml:lang="EN">Ministry of Health</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -683,7 +699,7 @@
    <provider-org ref="44002">
     <narrative xml:lang="EN">IDA Credit</narrative>
    </provider-org>
-   <receiver-org ref="MZ&#x2013;COA-10076" role="2" xml:lang="EN">
+   <receiver-org ref="MZ&#x2013;COA-10076" xml:lang="EN">
     <narrative xml:lang="EN">Ministry of Health</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -699,7 +715,7 @@
    <provider-org ref="44002">
     <narrative xml:lang="EN">IDA Credit</narrative>
    </provider-org>
-   <receiver-org ref="MZ&#x2013;COA-10076" role="2" xml:lang="EN">
+   <receiver-org ref="MZ&#x2013;COA-10076" xml:lang="EN">
     <narrative xml:lang="EN">Ministry of Health</narrative>
    </receiver-org>
    <flow-type code="10"></flow-type>
@@ -757,22 +773,6 @@
     <narrative xml:lang="EN">Environmental and Social Review Summary</narrative>
    </title>
    <category code="A01"></category>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099050625045523838/pdf/P511558-41187ec1-c639-406c-8f46-71159c829a0e.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Information Document</narrative>
-   </title>
-   <category code="A02"></category>
-   <category code="A03"></category>
-   <category code="A05"></category>
-  </document-link>
-  <document-link format="APPLICATION/PDF" url="https://documents.worldbank.org/curated/en/099060425112526933/pdf/P511558-611a215d-0625-4f50-8b75-b990b6cabca3.pdf">
-   <title xml:lang="EN">
-    <narrative xml:lang="EN">Project Information Document</narrative>
-   </title>
    <category code="A02"></category>
    <category code="A03"></category>
    <category code="A05"></category>
@@ -1412,6 +1412,90 @@
    <title>
     <narrative xml:lang="EN">Project Development Objectives</narrative>
    </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of detected health events where the country met the 7-1-7 target</narrative>
+    </title>
+    <baseline iso-date="2025-05-15" value="0" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-05-15"></period-start>
+     <period-end iso-date="2030-09-15"></period-end>
+     <target value="60"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="EN">% of detected health events where the country met the 7-1-7 target</narrative>
+    </title>
+    <baseline iso-date="2025-05-15" value="0" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-05-15"></period-start>
+     <period-end iso-date="2030-09-15"></period-end>
+     <target value="60"></target>
+     <actual value="0"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Average score 3.5 in 3 JEE technical areas for the Detect axis</narrative>
+    </title>
+    <baseline iso-date="2025-05-15" value="2.6" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-05-15"></period-start>
+     <period-end iso-date="2030-09-15"></period-end>
+     <target value="3.5"></target>
+     <actual value="2.6"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Average score 3.5 in 3 JEE technical areas for the Detect axis</narrative>
+    </title>
+    <baseline iso-date="2025-05-15" value="2.6" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-05-15"></period-start>
+     <period-end iso-date="2030-09-15"></period-end>
+     <target value="3.5"></target>
+     <actual value="2.6"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Average score 3.5 in 3 JEE technical areas for the Detect axis</narrative>
@@ -1478,6 +1562,90 @@
    <indicator ascending="1" measure="1">
     <title>
      <narrative xml:lang="EN">Average score 3.5 in 3 JEE technical areas Respond axis</narrative>
+    </title>
+    <baseline iso-date="2025-05-15" value="2.8" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-05-15"></period-start>
+     <period-end iso-date="2030-09-15"></period-end>
+     <target value="3.5"></target>
+     <actual value="2.8"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Average score 3.5 in 3 JEE technical areas Respond axis</narrative>
+    </title>
+    <baseline iso-date="2025-05-15" value="2.8" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-05-15"></period-start>
+     <period-end iso-date="2030-09-15"></period-end>
+     <target value="3.5"></target>
+     <actual value="2.8"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Average score 3.5 in 3 JEE technical areas Respond axis</narrative>
+    </title>
+    <baseline iso-date="2025-05-15" value="2.8" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-05-15"></period-start>
+     <period-end iso-date="2030-09-15"></period-end>
+     <target value="3.5"></target>
+     <actual value="2.8"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Average score 3.5 in 3 JEE technical areas for the Prevent axis</narrative>
+    </title>
+    <baseline iso-date="2025-05-15" value="2.8" year="2025">
+     <comment>
+      <narrative xml:lang="EN"></narrative>
+     </comment>
+    </baseline>
+    <period>
+     <period-start iso-date="2025-05-15"></period-start>
+     <period-end iso-date="2030-09-15"></period-end>
+     <target value="3.5"></target>
+     <actual value="2.8"></actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="0" type="2">
+   <title>
+    <narrative xml:lang="EN">Project Development Objectives</narrative>
+   </title>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="EN">Average score 3.5 in 3 JEE technical areas for the Prevent axis</narrative>
     </title>
     <baseline iso-date="2025-05-15" value="2.8" year="2025">
      <comment>
