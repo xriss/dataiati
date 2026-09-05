@@ -11,12 +11,16 @@
   <description>
    <narrative xml:lang="ES">El proyecto busca apoyar a la industria biofarmac&#xe9;utica cubana en alcanzar niveles m&#xe1;s elevados de productividad econ&#xf3;mica en productos innovadores prioritarios en el contexto de la COVID-19, mediante la modernizaci&#xf3;n de la tecnolog&#xed;a y la diversificaci&#xf3;n, en beneficio del sistema nacional de salud y de otros pa&#xed;ses de la regi&#xf3;n</narrative>
   </description>
-  <participating-org ref="XM-DAC-46007" role="4" type="40">
+  <participating-org ref="XM-DAC-46007" role="1" type="40">
    <narrative xml:lang="ES">Banco Centroamericano de Integraci&#xf3;n Econ&#xf3;mica</narrative>
   </participating-org>
-  <activity-status code="2"></activity-status>
+  <participating-org role="4">
+   <narrative xml:lang="ES">BioCubaFarma</narrative>
+  </participating-org>
+  <activity-status code="3"></activity-status>
+  <activity-date iso-date="2023-01-07" type="1"></activity-date>
   <activity-date iso-date="2024-01-18" type="2"></activity-date>
-  <activity-date iso-date="2027-01-23" type="1"></activity-date>
+  <activity-date iso-date="2025-10-30" type="4"></activity-date>
   <contact-info type="1">
    <organisation>
     <narrative xml:lang="ES">Banco Centroamericano de Integraci&#xf3;n Econ&#xf3;mica</narrative>
@@ -31,6 +35,22 @@
   <recipient-country code="CU" percentage="100">
    <narrative xml:lang="ES">Cuba</narrative>
   </recipient-country>
+  <location ref="LOC-COUNTRY-500734">
+   <location-reach code="1"></location-reach>
+   <location-id code="CU" vocabulary="A4"></location-id>
+   <name>
+    <narrative xml:lang="ES">Cuba</narrative>
+   </name>
+   <description>
+    <narrative xml:lang="ES">El Proyecto tendr&#xe1; un alcance nacional y se implementar&#xe1; en instalaciones de centros, laboratorios o empresas de BioCubaFarma en La Habana y Mayabeque.</narrative>
+   </description>
+   <activity-description>
+    <narrative xml:lang="ES">El proyecto busca apoyar a la industria biofarmac&#xe9;utica cubana en alcanzar niveles m&#xe1;s elevados de productividad econ&#xf3;mica en productos innovadores prioritarios en el contexto de la COVID-19, mediante la modernizaci&#xf3;n de la tecnolog&#xed;a y la diversificaci&#xf3;n, en beneficio del sistema nacional de salud y de otros pa&#xed;ses de la regi&#xf3;n</narrative>
+   </activity-description>
+   <exactness code="2"></exactness>
+   <location-class code="1"></location-class>
+   <feature-designation code="PCLI"></feature-designation>
+  </location>
   <sector code="32168" percentage="100" vocabulary="1"></sector>
   <default-finance-type code="421"></default-finance-type>
   <transaction>
@@ -89,31 +109,122 @@
     <narrative xml:lang="ES">Contrato Pr&#xe9;stamo 2292 PROBIOCUBA</narrative>
    </title>
    <description>
-    <narrative xml:lang="ES">Contrato de Prestamo Sector P&#xfa;blico con Garant&#xed;a Soberana y sus correspondientes modificaciones</narrative>
+    <narrative xml:lang="ES">Contrato de Pr&#xe9;stamo Sector P&#xfa;blico y sus correspondientes modificaciones</narrative>
    </description>
    <category code="A11"></category>
   </document-link>
   <result aggregation-status="1" type="1">
    <title>
-    <narrative xml:lang="ES">Efectos</narrative>
+    <narrative xml:lang="ES">Salud</narrative>
    </title>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="ES">Beneficiarios</narrative>
+     <narrative xml:lang="ES">Dosis de vacunas (Cantidad)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="ES">Indicar el n&#xfa;mero de vacunas adquiridas para el proceso de vacunaci&#xf3;n considerado en el marco del proyecto.</narrative>
+    </description>
+    <baseline iso-date="2022-01-07" value="0.00" year="2022"></baseline>
+    <period>
+     <period-start iso-date="2024-06-30"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="200000000.00">
+      <comment>
+       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprueba la operaci&#xf3;n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
+      </comment>
+     </target>
+     <actual value="0.00">
+      <comment>
+       <narrative xml:lang="ES">El valor actual es el valor medido en el periodo actual</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="ES">Inversi&#xf3;n en salud (equipo, tecnolog&#xed;a) (Miles US$)</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="ES">Monto de los recursos del proyecto  para la obtenci&#xf3;n de productos tecnol&#xf3;gicos y equipos que aportan al desarrollo del sector salud, incluyendo equipo m&#xe9;dico, equipo no m&#xe9;dico (como muebles y equipos de oficina), entre otros.</narrative>
+    </description>
+    <baseline iso-date="2022-01-07" value="0.00" year="2022"></baseline>
+    <period>
+     <period-start iso-date="2024-06-30"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="0.00">
+      <comment>
+       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprueba la operaci&#xf3;n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
+      </comment>
+     </target>
+     <actual value="8467.70">
+      <comment>
+       <narrative xml:lang="ES">El valor actual es el valor medido en el periodo actual</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+  </result>
+  <result aggregation-status="1" type="1">
+   <title>
+    <narrative xml:lang="ES">Efectos</narrative>
+   </title>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="ES">Beneficiarias mujeres % (%)</narrative>
+    </title>
+    <baseline iso-date="2022-01-07" value="0.50" year="2022"></baseline>
+    <period>
+     <period-start iso-date="2024-06-30"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="0.50">
+      <comment>
+       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprueba la operaci&#xf3;n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
+      </comment>
+     </target>
+     <actual value="0.00">
+      <comment>
+       <narrative xml:lang="ES">El valor actual es el valor medido en el periodo actual</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="2">
+    <title>
+     <narrative xml:lang="ES">Empleos fijos mujeres % (%)</narrative>
+    </title>
+    <baseline iso-date="2022-01-07" value="0.61" year="2022"></baseline>
+    <period>
+     <period-start iso-date="2024-06-30"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="0.61">
+      <comment>
+       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprueba la operaci&#xf3;n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
+      </comment>
+     </target>
+     <actual value="0.00">
+      <comment>
+       <narrative xml:lang="ES">El valor actual es el valor medido en el periodo actual</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="ES">Beneficiarios (Cantidad)</narrative>
     </title>
     <description>
      <narrative xml:lang="ES">N&#xfa;mero de personas, empresas, organizaciones  beneficiadas directamente de los programas, proyectos y servicios financieros facilitados por el Banco.</narrative>
     </description>
-    <baseline value="3666667.0" year="2022"></baseline>
+    <baseline iso-date="2022-01-07" value="11193470.00" year="2022"></baseline>
     <period>
      <period-start iso-date="2024-06-30"></period-start>
-     <period-end iso-date="2025-06-01"></period-end>
-     <target value="3666667.0">
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="11193470.00">
       <comment>
-       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprob? la operaci?n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
+       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprueba la operaci&#xf3;n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
       </comment>
      </target>
-     <actual value="0.0">
+     <actual value="0.00">
       <comment>
        <narrative xml:lang="ES">El valor actual es el valor medido en el periodo actual</narrative>
       </comment>
@@ -122,21 +233,21 @@
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="ES">Empleos fijos mujeres</narrative>
+     <narrative xml:lang="ES">Empleos fijos mujeres (Cantidad)</narrative>
     </title>
     <description>
      <narrative xml:lang="ES">Cantidad de mujeres con contrato de tiempo indefinido empleadas directamente en la operaci&#xf3;n del proyecto.</narrative>
     </description>
-    <baseline value="4362.0" year="2022"></baseline>
+    <baseline iso-date="2022-01-07" value="4362.00" year="2022"></baseline>
     <period>
      <period-start iso-date="2024-06-30"></period-start>
-     <period-end iso-date="2025-06-01"></period-end>
-     <target value="4362.0">
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="4362.00">
       <comment>
-       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprob? la operaci?n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
+       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprueba la operaci&#xf3;n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
       </comment>
      </target>
-     <actual value="0.0">
+     <actual value="0.00">
       <comment>
        <narrative xml:lang="ES">El valor actual es el valor medido en el periodo actual</narrative>
       </comment>
@@ -145,21 +256,41 @@
    </indicator>
    <indicator ascending="1" measure="1">
     <title>
-     <narrative xml:lang="ES">Empleos fijos</narrative>
+     <narrative xml:lang="ES">Beneficiarias mujeres (Cantidad)</narrative>
+    </title>
+    <baseline iso-date="2022-01-07" value="5596735.00" year="2022"></baseline>
+    <period>
+     <period-start iso-date="2024-06-30"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="5596735.00">
+      <comment>
+       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprueba la operaci&#xf3;n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
+      </comment>
+     </target>
+     <actual value="0.00">
+      <comment>
+       <narrative xml:lang="ES">El valor actual es el valor medido en el periodo actual</narrative>
+      </comment>
+     </actual>
+    </period>
+   </indicator>
+   <indicator ascending="1" measure="1">
+    <title>
+     <narrative xml:lang="ES">Empleos fijos (Cantidad)</narrative>
     </title>
     <description>
      <narrative xml:lang="ES">Cantidad de personas con contrato de tiempo indefinido empleadas directamente en la operaci&#xf3;n del proyecto.</narrative>
     </description>
-    <baseline value="7150.0" year="2022"></baseline>
+    <baseline iso-date="2022-01-07" value="7150.00" year="2022"></baseline>
     <period>
      <period-start iso-date="2024-06-30"></period-start>
-     <period-end iso-date="2025-06-01"></period-end>
-     <target value="7150.0">
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="7150.00">
       <comment>
-       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprob? la operaci?n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
+       <narrative xml:lang="ES">Los valores meta son estimadas cuando se aprueba la operaci&#xf3;n/actividad por lo que pueden diferir de los resultados finales obtenidos</narrative>
       </comment>
      </target>
-     <actual value="0.0">
+     <actual value="0.00">
       <comment>
        <narrative xml:lang="ES">El valor actual es el valor medido en el periodo actual</narrative>
       </comment>
