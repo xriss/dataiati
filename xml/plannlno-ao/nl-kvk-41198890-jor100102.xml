@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <iati-activities version="2.03">
- <iati-activity default-currency="EUR" hierarchy="1" humanitarian="0" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <iati-activity default-currency="EUR" hierarchy="1" humanitarian="1" iati-activities:version="2.03" xml:lang="EN" xmlns:iati-activities="http://d-portal.org/xmlns/iati-activities" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <iati-identifier>NL-KVK-41198890-JOR100102</iati-identifier>
   <reporting-org ref="NL-KVK-41198890" type="21">
    <narrative xml:lang="EN">Plan International Netherlands</narrative>
@@ -99,14 +99,14 @@ The primary objective of this investment is to institutionalize inclusive, high-
   <sector code="12281" percentage="20" vocabulary="1">
    <narrative xml:lang="EN">Health personnel development</narrative>
   </sector>
-  <policy-marker code="1" vocabulary="1">
-   <narrative xml:lang="EN">Gender Equality</narrative>
+  <policy-marker code="01" vocabulary="1">
+   <narrative xml:lang="EN">(OECD) Gender Equality</narrative>
   </policy-marker>
   <policy-marker code="PLANNL-A" significance="2" vocabulary="99">
-   <narrative xml:lang="EN">Protection against violence (including gender based violence)</narrative>
+   <narrative xml:lang="EN">NLNO - Protection against violence (including gender based violence)</narrative>
   </policy-marker>
   <policy-marker code="PLAN AOGD 5" significance="2" vocabulary="99">
-   <narrative xml:lang="EN">THRIVE -Early Childhood Care and Development (including WASH) (ECCD)</narrative>
+   <narrative xml:lang="EN">PII - Early Childhood Care and Development (WASH, ECCD)</narrative>
   </policy-marker>
   <budget status="2" type="1">
    <period-start iso-date="2025-09-01"></period-start>
@@ -186,6 +186,11 @@ The primary objective of this investment is to institutionalize inclusive, high-
    <transaction-type code="4"></transaction-type>
    <transaction-date iso-date="2026-05-31"></transaction-date>
    <value currency="EUR" value-date="2026-05-31">1120</value>
+  </transaction>
+  <transaction ref="BVLF - Jordan 2025-2026 - First Steps Big Step 3 ECD: &#x20ac; 1.880,00 (30-6-26)">
+   <transaction-type code="4"></transaction-type>
+   <transaction-date iso-date="2026-06-30"></transaction-date>
+   <value currency="EUR" value-date="2026-06-30">1880</value>
   </transaction>
   <conditions attached="0"></conditions>
   <result aggregation-status="1" type="1">
@@ -310,21 +315,24 @@ The primary objective of this investment is to institutionalize inclusive, high-
    </title>
    <indicator measure="4">
     <title>
-     <narrative xml:lang="EN">Gender score of the program design and activities (scale 0-4)</narrative>
+     <narrative xml:lang="EN">Child Safeguarding Measurement marker</narrative>
     </title>
     <description>
-     <narrative xml:lang="EN">0=Not measured; 1=Gender unaware; 2=Gender Neutral; 3=Gender Aware; 4=Gender Transformative. For measurement of KPI-6: Percentage of running programme activities that are gender-aware or gender-transformative</narrative>
+     <narrative xml:lang="EN">Through this indicator Plan measures the safeguarding measures taken at the start of the project. 
+1 = no measure,  2 = protocol in place, 3= protocol &amp; risk assessment in place, 4= protocol &amp;  risk assessment &amp; management plan in place</narrative>
     </description>
-    <reference code="0000.06" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-   </indicator>
-   <indicator measure="1">
-    <title>
-     <narrative xml:lang="EN">Number of young men (age 18-24) reached</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Direct and indirect reach of young men</narrative>
-    </description>
-    <reference code="0000.08" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <reference code="0000.17" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="0.00" year="2026"></baseline>
+    <period>
+     <period-start iso-date="2025-10-01"></period-start>
+     <period-end iso-date="2026-08-31"></period-end>
+     <target value="4.00">
+      <location ref="Jordan"></location>
+     </target>
+     <actual value="4.00">
+      <location ref="Jordan"></location>
+     </actual>
+    </period>
    </indicator>
    <indicator measure="1">
     <title>
@@ -334,6 +342,45 @@ The primary objective of this investment is to institutionalize inclusive, high-
      <narrative xml:lang="EN">Direct and indirect reach of young women</narrative>
     </description>
     <reference code="0000.07" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="11.00" year="2024"></baseline>
+    <period>
+     <period-start iso-date="2026-04-01"></period-start>
+     <period-end iso-date="2026-06-30"></period-end>
+     <target value="15.00">
+      <location ref="Jordan"></location>
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </target>
+     <actual value="20.00">
+      <location ref="Jordan"></location>
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="female"></dimension>
+     </actual>
+    </period>
+   </indicator>
+   <indicator measure="1">
+    <title>
+     <narrative xml:lang="EN">Number of young men (age 18-24) reached</narrative>
+    </title>
+    <description>
+     <narrative xml:lang="EN">Direct and indirect reach of young men</narrative>
+    </description>
+    <reference code="0000.08" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="15.00" year="2025"></baseline>
+    <period>
+     <period-start iso-date="2026-04-01"></period-start>
+     <period-end iso-date="2026-06-30"></period-end>
+     <target value="19.00">
+      <location ref="Jordan"></location>
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </target>
+     <actual value="19.00">
+      <location ref="Jordan"></location>
+      <dimension name="age" value="18-24 years"></dimension>
+      <dimension name="sex" value="male"></dimension>
+     </actual>
+    </period>
    </indicator>
    <indicator measure="4">
     <title>
@@ -344,6 +391,17 @@ The primary objective of this investment is to institutionalize inclusive, high-
 gender blind (1), gender neutral (2), gender aware (3), gender transformative (4)</narrative>
     </description>
     <reference code="0000.12" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="4.00" year="2024"></baseline>
+    <period>
+     <period-start iso-date="2026-01-01"></period-start>
+     <period-end iso-date="2026-08-31"></period-end>
+     <target value="4.00">
+      <location ref="Jordan"></location>
+     </target>
+     <actual value="4.00">
+      <location ref="Jordan"></location>
+     </actual>
+    </period>
    </indicator>
    <indicator measure="4">
     <title>
@@ -354,6 +412,17 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
 gender blind (1), gender neutral (2), gender aware (3), gender transformative (4)</narrative>
     </description>
     <reference code="0000.11" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
+    <baseline value="4.00" year="2024"></baseline>
+    <period>
+     <period-start iso-date="2025-09-01"></period-start>
+     <period-end iso-date="2025-12-31"></period-end>
+     <target value="4.00">
+      <location ref="Jordan"></location>
+     </target>
+     <actual value="4.00">
+      <location ref="Jordan"></location>
+     </actual>
+    </period>
    </indicator>
    <indicator measure="4">
     <title>
@@ -364,16 +433,6 @@ gender blind (1), gender neutral (2), gender aware (3), gender transformative (4
 gender blind (1), gender neutral (2), gender aware (3), gender transformative (4)</narrative>
     </description>
     <reference code="0000.13" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
-   </indicator>
-   <indicator measure="4">
-    <title>
-     <narrative xml:lang="EN">Child Safeguarding Measurement marker</narrative>
-    </title>
-    <description>
-     <narrative xml:lang="EN">Through this indicator Plan measures the safeguarding measures taken at the start of the project. 
-1 = no measure,  2 = protocol in place, 3= protocol &amp; risk assessment in place, 4= protocol &amp;  risk assessment &amp; management plan in place</narrative>
-    </description>
-    <reference code="0000.17" indicator-uri="http://www.planinternational.nl/plan-international-netherlands-indicator-code-list.pdf" vocabulary="99"></reference>
    </indicator>
   </result>
  </iati-activity>
